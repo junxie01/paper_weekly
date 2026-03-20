@@ -32,9 +32,9 @@ jobs:
           secure: true
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
-          subject: "冰川地震学周报更新通知 (附 PDF)"
+          subject: "地震学多专题论文周报 (附 PDF)"
           to: ${{ secrets.MAIL_TO }}
-          from: "Cryoseismology Bot <${{ secrets.MAIL_USERNAME }}>"
+          from: "Seismology Bot <${{ secrets.MAIL_USERNAME }}>"
           body: file://email_body.txt
           attachments: report.pdf
 
@@ -42,6 +42,6 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add frontend/data.json
+          git add frontend/*.json
           git commit -m "Auto-update papers: $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
