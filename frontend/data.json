@@ -1,0 +1,522 @@
+{
+  "last_update": "2026-03-19 23:26",
+  "papers": [
+    {
+      "id": "2603.13991v1",
+      "title": "Landau-de Gennes numerical simulation of nematic liquid crystals utilizing radial basis functions",
+      "abstract": "Numerical simulations based on radial basis functions have been developed for systems with complex geometries and have been successfully applied across various fields, including seismology, coastal hydrodynamics, and biology. However, examples in liquid crystal modeling are limited. In this study, we present a Landau-de Gennes numerical simulation of nematic liquid crystals utilizing radial basis functions, emphasizing its advantages over traditional cubic grid calculations, such as enhanced geometric flexibility and improved computational efficiency. Through simulations of liquid crystal-colloid systems with diverse geometries, we demonstrate that our approach effectively captures the essential topological and energetic features of liquid crystal equilibrium structures. Additionally, we introduce an adaptive node refinement scheme that is crucial for resolving the fine structure of singular defects in nematic liquid crystals.",
+      "translated_abstract": "基于径向基函数的数值模拟已经针对具有复杂几何形状的系统开发出来，并已成功应用于各个领域，包括地震学、沿海流体动力学和生物学。然而，液晶建模的例子是有限的。在这项研究中，我们提出了利用径向基函数对向列液晶进行Landau-de Gennes数值模拟，强调了其相对于传统立方网格计算的优势，例如增强的几何灵活性和提高的计算效率。通过对具有不同几何形状的液晶胶体系统的模拟，我们证明我们的方法有效地捕获了液晶平衡结构的基本拓扑和能量特征。此外，我们引入了一种自适应节点细化方案，该方案对于解决向列液晶中奇异缺陷的精细结构至关重要。",
+      "authors": [
+        "Jin-Sheng Wu",
+        "Ivan I. Smalyukh"
+      ],
+      "published": "2026-03-14T15:36:09Z",
+      "updated": "2026-03-14T15:36:09Z",
+      "categories": [
+        "cond-mat.soft"
+      ],
+      "first_author": "Jin-Sheng Wu",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2603.06892v1",
+      "title": "On the coupled geometrical-mechanical origin of the earthquake b-value in fault networks",
+      "abstract": "The Gutenberg-Richter law is a fundamental empirical law in seismology describing earthquake frequency-magnitude distributions, with one of its key parameters, the so-called b-value, quantifying the relative frequency of small versus large events. While the b-value is commonly interpreted as reflecting crustal heterogeneity and regional stress conditions, its underlying physical origin remains poorly understood, particularly the relative roles of geometrical versus mechanical controls. Here, we develop analytical and numerical models to elucidate the origin of the b-value in three-dimensional fault networks subject to mainshock-aftershock sequences. We demonstrate that the b-value emerges from the power-law scaling of fault rupture area together with the scaling of slip magnitude. Our results reveal a two-branch frequency-magnitude distribution, with the regime transition governed by fault criticality and fracture energy dissipation, while the transition magnitude reflects the finite population of faults triggered during the sequence. Our findings provide a physically grounded interpretation of earthquake b-values, establishing a link between fault mechanics and earthquake statistics.",
+      "translated_abstract": "古腾堡-里希特定律是地震学中描述地震频率-震级分布的基本经验定律，其关键参数之一，即所谓的 b 值，量化了小事件与大事件的相对频率。虽然 b 值通常被解释为反映地壳异质性和区域应力条件，但其潜在的物理起源仍然知之甚少，特别是几何控制与机械控制的相对作用。在这里，我们开发了分析和数值模型来阐明受主震-余震序列影响的三维断层网络中 b 值的起源。我们证明 b 值是由断层破裂区域的幂律标度和滑移幅度的标度一起产生的。我们的结果揭示了两分支频率-幅度分布，状态转变由断层临界性和断裂能量耗散控制，而转变幅度反映了序列期间触发的断层的有限数量。我们的研究结果为地震 b 值提供了物理基础的解释，建立了断层力学和地震统计之间的联系。",
+      "authors": [
+        "Wenbo Pan",
+        "Zixin Zhang",
+        "Bjorn Lund",
+        "Qinghua Lei"
+      ],
+      "published": "2026-03-06T21:28:04Z",
+      "updated": "2026-03-06T21:28:04Z",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "first_author": "Wenbo Pan",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2603.05571v1",
+      "title": "UK White Paper on Magnetohydrodynamic (MHD) seismology of solar and heliospheric plasmas",
+      "abstract": "Magnetohydrodynamic (MHD) seismology uses naturally occurring MHD waves to infer plasma properties that are otherwise hard to measure, especially magnetic field strength and topology, electric currents, fine structuring, transport coefficients, and energy release. Across the solar atmosphere, heliosphere, and planetary magnetospheres, multi-wavelength remote sensing and in-situ observations of waves provide powerful diagnostics that can address major open problems including chromospheric and coronal heating, flare and eruption physics, solar wind acceleration, and space weather impacts. This White Paper sets out the case for a coordinated UK programme that couples high precision observations with advanced theory and numerical modelling, modern time-frequency methods for non-stationary signals, and machine learning approaches for detection, classification, and parameter inference from rapidly growing multi-instrument datasets. It outlines priority needs such as robust mode identification, reliable density and temperature constraints, multi line-of-sight capability, and models that include partial ionisation and non-adiabatic/collisionless effects, alongside enabling instrumentation such as next-generation spectropolarimetry, integral field units, and radio facilities including the Square Kilometre Array. The paper highlights the UK's strong track record and infrastructure, and argues that sustained investment will amplify UK scientific return through international partnerships and mission involvement, delivering transformative plasma diagnostics and downstream benefits for space weather forecasting and related applications.",
+      "translated_abstract": "磁流体动力学 (MHD) 地震学利用自然发生的 MHD 波来推断难以测量的等离子体特性，特别是磁场强度和拓扑、电流、精细结构、输运系数和能量释放。在太阳大气层、日光层和行星磁层中，多波长遥感和波的现场观测提供了强大的诊断功能，可以解决主要的开放问题，包括色球层和日冕加热、耀斑和喷发物理学、太阳风加速和空间天气影响。本白皮书阐述了英国协调计划的案例，该计划将高精度观测与先进的理论和数值建模、非平稳信号的现代时频方法以及从快速增长的多仪器数据集中进行检测、分类和参数推断的机器学习方法结合起来。它概述了优先需求，例如稳健的模式识别、可靠的密度和温度约束、多视线能力以及包括部分电离和非绝热/无碰撞效应的模型，以及下一代分光偏振仪、整体现场单元和包括平方公里阵列在内的无线电设施等启用仪器。该论文强调了英国强大的业绩记录和基础设施，并认为持续投资将通过国际伙伴关系和任务参与来扩大英国的科学回报，为空间天气预报和相关应用提供变革性的等离子体诊断和下游效益。",
+      "authors": [
+        "Valery M. Nakariakov",
+        "David B. Jess",
+        "Andrew N. Wright",
+        "Timothy K. Yeoman",
+        "Thomas Elsden",
+        "James A. McLaughlin",
+        "Dmitrii Y. Kolotkov",
+        "Viktor Fedun",
+        "Robertus Erdélyi"
+      ],
+      "published": "2026-03-05T15:26:45Z",
+      "updated": "2026-03-05T15:26:45Z",
+      "categories": [
+        "astro-ph.IM",
+        "astro-ph.EP",
+        "astro-ph.SR",
+        "physics.plasm-ph",
+        "physics.space-ph"
+      ],
+      "first_author": "Valery M. Nakariakov",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2603.01576v1",
+      "title": "Cryo-Bench: Benchmarking Foundation Models for Cryosphere Applications",
+      "abstract": "Geo-Foundation Models (GFMs) have been evaluated across diverse Earth observation task including multiple domains and have demonstrated strong potential of producing reliable maps even with sparse labels. However, benchmarking GFMs for Cryosphere applications has remained limited, primarily due to the lack of suitable evaluation datasets. To address this gap, we introduce \\textbf{Cryo-Bench}, a benchmark compiled to evaluate GFM performance across key Cryospheric components. Cryo-Bench includes debris-covered glaciers, glacial lakes, sea ice, and calving fronts, spanning multiple sensors and broad geographic regions. We evaluate 14 GFMs alongside UNet and ViT baselines to assess their advantages, limitations, and optimal usage strategies. With a frozen encoder, UNet achieves the highest average mIoU of \\textbf{66.38}, followed by TerraMind at \\textbf{64.02} across five evluation dataset included in Cryo-Bench. In the few-shot setting (10\\% input data), GFMs such as DOFA and TerraMind outperform UNet, achieving mIoU scores of \\textbf{59.53}, \\textbf{56.62}, and \\textbf{56.60}, respectively, comapred to U-Net's 56.60. When fully finetuning GFMs, we observe inconsistent performance across datasets and models. However, tuning learning rate along with finetuning substantially improves GFM performance. For example, evaluation on two representative datasets (GLID and CaFFe) shows an average relative improvement of \\textbf{12.77\\%}. Despite having minimal Cryosphere representation in their pretraining data, GFMs exhibit notable domain adaptation capabilities and produce meaningful results across tasks. Based on our findings, We recommend encoder fine-tuning with hyperparameter optimization optimization to achieve the best possible performance, while using frozen encoders when users need quick results without extensive experimentation.(\\href{https://github.com/Sk-2103/Cryo-Bench}{GitHub}).",
+      "translated_abstract": "地理基础模型 (GFM) 已在包括多个领域在内的各种地球观测任务中进行了评估，并展示了即使在标签稀疏的情况下也能生成可靠地图的强大潜力。然而，冰冻圈应用的 GFM 基准测试仍然有限，主要是由于缺乏合适的评估数据集。为了解决这一差距，我们引入了 \\textbf{Cryo-Bench}，这是一个为评估关键 Cryopheric 组件的 GFM 性能而编译的基准。 Cryo-Bench 包括碎片覆盖的冰川、冰川湖、海冰和崩解锋，跨越多个传感器和广阔的地理区域。我们评估了 14 个 GFM 以及 UNet 和 ViT 基线，以评估它们的优势、局限性和最佳使用策略。使用冻结编码器，UNet 在 Cryo-Bench 中包含的五个评估数据集上实现了 \\textbf{66.38} 的最高平均 mIoU，其次是 TerraMind 在 \\textbf{64.02} 上。在少镜头设置（10%输入数据）中，DOFA和TerraMind等GFM优于UNet，分别获得\\textbf{59.53}、\\textbf{56.62}和\\textbf{56.60}的mIoU分数，与U-Net的56.60相比。当完全微调 GFM 时，我们观察到数据集和模型之间的性能不一致。然而，调整学习率和微调可以显着提高 GFM 性能。例如，对两个代表性数据集（GLID 和 CaFFe）的评估显示平均相对改进为 \\textbf{12.77\\%}。尽管预训练数据中的冰冻圈表示最少，但 GFM 表现出显着的领域适应能力，并在跨任务中产生有意义的结果。根据我们的发现，我们建议通过超参数优化对编码器进行微调，以实现最佳性能，同时当用户需要快速结果而无需进行大量实验时，请使用冻结编码器。(\\href{https://github.com/Sk-2103/Cryo-Bench}{GitHub})。",
+      "authors": [
+        "Saurabh Kaushik",
+        "Lalit Maurya",
+        "Beth Tellman"
+      ],
+      "published": "2026-03-02T08:05:56Z",
+      "updated": "2026-03-02T08:05:56Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "first_author": "Saurabh Kaushik",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.20984v1",
+      "title": "The UK and Ireland Geophysical Array -- Concept and Design",
+      "abstract": "Scientific exploration of the UK and Ireland's subsurface has made important contributions to scholarship and prosperity for people and the planet, including economic growth, sustainable use of natural resources, storage of greenhouse gases, and inspiring curiosity about the Earth beneath our feet. This article outlines a vision for an array of seismological instruments spanning the UK and Ireland, UKI Array, augmented by other types of geophysical sensors, to maximise the value offered by existing equipment pools. The mission is to research natural phenomena and structure in the deep and shallow Earth, to solve problems concerning hazards and resources, to connect scientists to schools and the broader public, and thus to inspire a new generation to learn about geophysics. The vision was created through a community driven process of engagement and participation. This paper describes the concept and design of the UKI-Array; a companion paper discusses related opportunities and potential applications.",
+      "translated_abstract": "英国和爱尔兰地下的科学探索为人类和地球的学术和繁荣做出了重要贡献，包括经济增长、自然资源的可持续利用、温室气体的储存以及激发对我们脚下地球的好奇心。本文概述了横跨英国和爱尔兰的一系列地震仪器 UKI Array 的愿景，并通过其他类型的地球物理传感器进行增强，以最大限度地提高现有设备池提供的价值。其使命是研究地球深部和浅部的自然现象和结构，解决有关灾害和资源的问题，将科学家与学校和更广泛的公众联系起来，从而激励新一代了解地球物理学。该愿景是通过社区驱动的参与过程创建的。本文介绍了 UKI-Array 的概念和设计；配套论文讨论了相关机会和潜在应用。",
+      "authors": [
+        "Andrew Curtis",
+        "Karen Lythgoe",
+        "Stephen P. Hicks",
+        "Lidong Bie",
+        "Dominik Strutz",
+        "Emma Chambers",
+        "Brian Baptie",
+        "Dave Cornwell",
+        "Juliane Huebert",
+        "Jessica Irving",
+        "Glenn Jones",
+        "Sergei Lebedev",
+        "Walid Ben Mansour",
+        "Aideliz Montiel Álvarez",
+        "Stuart Nippress",
+        "Koen Van Noten",
+        "Tim Pharaoh",
+        "Romesh Palamakumbura",
+        "Nick Rawlinson",
+        "Pablo Rodriguez Salgado",
+        "James Verdon",
+        "Chuanbin Zhu",
+        "Wen Zhou",
+        "Jelle Assink",
+        "Ian Bastow",
+        "Dino Bindi",
+        "Tom Blenkinsop",
+        "Raffaele Bonadio",
+        "Michael Braim",
+        "Tim Craig",
+        "Elizabeth Day",
+        "Giovanni Diaferia",
+        "Stuart Dunning",
+        "Ben Edwards",
+        "Ake Fagereng",
+        "Stewart Fishwick",
+        "Amy Gilligan",
+        "David Green",
+        "David Healy",
+        "Anna Horleston",
+        "Mark Ireland",
+        "Jenny Jenkins",
+        "Jessica Johnson",
+        "Mike Kendall",
+        "Tom Kettlety",
+        "Duygu Kiyan",
+        "Paula Koelemeijer",
+        "Rita Kounoudis",
+        "Victoria Lane",
+        "Chuanchuan Lu",
+        "Alan MacDonald",
+        "Fabrizio Magrini",
+        "Auggie Marignier",
+        "Carl Martin",
+        "Martin Möllhoff",
+        "Iain Neill",
+        "Andy Nowacki",
+        "Bob Paap",
+        "Simone Pilia",
+        "Sjoerd de Ridder",
+        "Elmer Ruigrok",
+        "Peidong Shi",
+        "Anna Stork",
+        "Alice Turner",
+        "Jim Whiteley",
+        "Anton Ziolkowski"
+      ],
+      "published": "2026-02-24T15:05:41Z",
+      "updated": "2026-02-24T15:05:41Z",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "first_author": "Andrew Curtis",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2603.03344v1",
+      "title": "GreenPhase: A Green Learning Approach for Earthquake Phase Picking",
+      "abstract": "Earthquake detection and seismic phase picking are fundamental yet challenging tasks in seismology due to low signal-to-noise ratios, waveform variability, and overlapping events. Recent deep-learning models achieve strong results but rely on large datasets and heavy backpropagation training, raising concerns over efficiency, interpretability, and sustainability.   We propose GreenPhase, a multi-resolution, feed-forward, and mathematically interpretable model based on the Green Learning framework. GreenPhase comprises three resolution levels, each integrating unsupervised representation learning, supervised feature learning, and decision learning. Its feed-forward design eliminates backpropagation, enabling independent module optimization with stable training and clear interpretability. Predictions are refined from coarse to fine resolutions while computation is restricted to candidate regions.   On the Stanford Earthquake Dataset (STEAD), GreenPhase achieves excellent performance with F1 scores of 1.0 for detection, 0.98 for P-wave picking, and 0.96 for S-wave picking. This is accomplished while reducing the computational cost (FLOPs) for inference by approximately 83% compared to state-of-the-art models. These results demonstrate that the proposed model provides an efficient, interpretable, and sustainable alternative for large-scale seismic monitoring.",
+      "translated_abstract": "由于信噪比低、波形可变性和重叠事件，地震检测和地震相位拾取是地震学中的基本但具有挑战性的任务。最近的深度学习模型取得了很好的成果，但依赖于大型数据集和大量的反向传播训练，引发了人们对效率、可解释性和可持续性的担忧。   我们提出了 GreenPhase，一种基于绿色学习框架的多分辨率、前馈和数学可解释的模型。 GreenPhase 包含三个分辨率级别，每个级别都集成了无监督表示学习、监督特征学习和决策学习。其前馈设计消除了反向传播，从而实现了具有稳定训练和清晰可解释性的独立模块优化。预测从粗分辨率到精细分辨率进行细化，而计算仅限于候选区域。   在斯坦福地震数据集（STEAD）上，GreenPhase 取得了优异的性能，检测的 F1 分数为 1.0，P 波拾取的 F1 分数为 0.98，S 波拾取的 F1 分数为 0.96。与最先进的模型相比，这同时将推理的计算成本 (FLOP) 降低了约 83%。这些结果表明，所提出的模型为大规模地震监测提供了一种高效、可解释且可持续的替代方案。",
+      "authors": [
+        "Yixing Wu",
+        "Shiou-Ya Wang",
+        "Dingyi Nie",
+        "Sanket Kumbhar",
+        "Yun-Tung Hsieh",
+        "Yun-Cheng Wang",
+        "Po-Chyi Su",
+        "C. -C. Jay Kuo"
+      ],
+      "published": "2026-02-23T05:07:06Z",
+      "updated": "2026-02-23T05:07:06Z",
+      "categories": [
+        "physics.geo-ph",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "first_author": "Yixing Wu",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.15993v1",
+      "title": "An Interpretable Physics Informed Multi-Stream Deep Learning Architecture for the Discrimination between Earthquake, Quarry Blast and Noise",
+      "abstract": "The reliable discrimination of tectonic earthquakes from anthropogenic quarry blasts and transient noise remains a critical challenge in single station seismic monitoring. In this study, we introduce a novel Physics Informed Convolutional Recurrent Neural Network (PI CRNN) that embeds seismological domain knowledge directly into the feature extraction and learning process. We adapt a multistream architecture with three parallel encoders: (i) Time Domain: SincNet Encoder, (ii) MultiResolution Spectrogram branch, and, (iii) Physics Branch, followed by a fusion and a bidirectionalLSTM module. Evaluated on the Curated Pacific Northwest AI ready Seismic Dataset, the PI CRNN achieves an overall classification accuracy of 97.56 percent on an independent test set. It outperforms a standard CRNN baseline, a classical P to S amplitude ratio method, and a Physics Informed Neural Network (PINN) that enforces physical constraints via the loss function. Furthermore, the model demonstrates perfect precision in noise rejection (100 percent Recall). Interpretability analysis using saliency maps confirms that the architecture successfully learns distinct physical signatures, identifying bimodal P- and S-wave arrivals for earthquakes versus singular impulsive onsets for blasts. This work establishes a scalable, transparent framework for AI-driven seismology, proving that architectural inductive bias provides an alternative reliable approach compared to purely data-driven approaches.",
+      "translated_abstract": "可靠地区分构造地震与人为采石场爆炸和瞬态噪声仍然是单站地震监测的关键挑战。在这项研究中，我们引入了一种新颖的物理信息卷积递归神经网络（PI CRNN），它将地震领域知识直接嵌入到特征提取和学习过程中。我们采用具有三个并行编码器的多流架构：(i) 时域：SincNet 编码器，(ii) 多分辨率频谱图分支，(iii) 物理分支，然后是融合和双向 LSTM 模块。在精心策划的太平洋西北地区 AI 地震数据集上进行评估，PI CRNN 在独立测试集上实现了 97.56% 的总体分类精度。它优于标准 CRNN 基线、经典的 P 到 S 幅度比方法以及通过损失函数强制执行物理约束的物理知情神经网络 (PINN)。此外，该模型在噪声抑制方面表现出完美的精度（100% 召回率）。使用显着图的可解释性分析证实，该架构成功地学习了不同的物理特征，识别地震的双峰纵波和横波到达与爆炸的单一脉​​冲爆发。这项工作为人工智能驱动的地震学建立了一个可扩展、透明的框架，证明与纯粹的数据驱动方法相比，架构归纳偏差提供了一种可靠的替代方法。",
+      "authors": [
+        "Nishtha Srivastava",
+        "Johannes Faber",
+        "Dhruv Aditya Srivastava"
+      ],
+      "published": "2026-02-17T20:30:05Z",
+      "updated": "2026-02-17T20:30:05Z",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "first_author": "Nishtha Srivastava",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.14905v1",
+      "title": "Groundwater feedbacks on ice sheets and subglacial hydrology",
+      "abstract": "The dynamics of many of Antarctica's glaciers are modulated by a hydrological system at the base of the ice. Sedimentary basins beneath the ice bed contribute to the water budget in this hydrological system by discharging or taking up water. However, sedimentary basins are not included in most current models of ice dynamics, and little is known about their effect. In this paper we develop an idealised model of a glacier whose sliding is coupled to a subglacial hydrological system, which includes a sedimentary basin. We find that groundwater discharge (exfiltration) and recharge (infiltration) are controlled by the shape of the ice sheet and of the sedimentary basin, and that exfiltration promotes sliding whereas infiltration hinders it. Overall, the presence of a sedimentary basin leads to thicker and slower-flowing ice in the steady state. We also find that, when the ice sheet is undergoing retreating, groundwater exfiltration can lead to a positive feedback which accelerates this retreat. Our results shed light on the potential role and importance of Antarctic sedimentary basins, and how these might be incorporated into existing models of ice and subglacial hydrology.",
+      "translated_abstract": "南极洲许多冰川的动态是由冰层底部的水文系统调节的。冰床下方的沉积盆地通过排放或吸收水来贡献该水文系统中的水预算。然而，沉积盆地并未包含在大多数当前的冰动力学模型中，并且对其影响知之甚少。在本文中，我们开发了一个理想化的冰川模型，其滑动与包括沉积盆地的冰下水文系统耦合。我们发现地下水的排放（渗出）和补给（渗透）受冰盖和沉积盆地的形状控制，渗出促进滑动，而渗透则阻碍滑动。总体而言，沉积盆地的存在导致稳定状态下的冰更厚且流动更慢。我们还发现，当冰盖正在退缩时，地下水渗漏可以导致正反馈，从而加速这种退缩。我们的研究结果揭示了南极沉积盆地的潜在作用和重要性，以及如何将这些盆地纳入现有的冰和冰下水文学模型。",
+      "authors": [
+        "Gabriel J. Cairns",
+        "Graham P. Benham",
+        "Ian J. Hewitt"
+      ],
+      "published": "2026-02-16T16:41:47Z",
+      "updated": "2026-02-16T16:41:47Z",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "first_author": "Gabriel J. Cairns",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.14141v1",
+      "title": "Ice-free geomorphometry of Queen Maud Land, East Antarctica: 3. Belgica and Yamato (Queen Fabiola) Mountains",
+      "abstract": "Geomorphometric modeling and mapping of ice-free Antarctic areas can be applied for obtaining new quantitative knowledge about the topography of these unique landscapes and for the further use of morphometric information in Antarctic research. Within the framework of a project of creating a physical geographical thematic scientific reference geomorphometric atlas of ice-free areas of Antarctica, we performed geomorphometric modeling and mapping of two, partly ice-free mountainous areas of the eastern Queen Maud Land, East Antarctica. These include the Belgica Mountains and Yamato (Queen Fabiola) Mountains. As input data, we used two fragments of the Reference Elevation Model of Antarctica (REMA). For the two ice-free areas and adjacent glaciers, we derived models and maps of eleven, most scientifically important morphometric variables (i.e., slope, aspect, horizontal curvature, vertical curvature, minimal curvature, maximal curvature, catchment area, topographic wetness index, stream power index, total insolation, and wind exposition index). The obtained models and maps describe the ice-free topography of the Belgica Mountains and Yamato (Queen Fabiola) Mountains in a rigorous, quantitative, and reproducible manner. New morphometric data can be useful for further geological, geomorphological, glaciological, ecological, and hydrological studies of these areas.",
+      "translated_abstract": "无冰南极地区的地貌测量建模和测绘可用于获得有关这些独特景观地形的新的定量知识，并可在南极研究中进一步使用形态测量信息。在创建南极洲无冰区自然地理专题科学参考地貌图集的项目框架内，我们对南极洲东部莫德皇后地东部的两个部分无冰山区进行了地貌建模和测绘。其中包括贝尔吉卡山脉和大和（法比奥拉女王）山脉。作为输入数据，我们使用了南极洲参考高程模型 (REMA) 的两个片段。对于两个无冰区和邻近的冰川，我们导出了十一个科学上最重要的形态变量（即坡度、坡向、水平曲率、垂直曲率、最小曲率、最大曲率、流域面积、地形湿度指数、河流功率指数、总日照和风暴露指数）的模型和地图。获得的模型和地图以严格、定量和可重复的方式描述了贝尔吉卡山脉和大和（法比奥拉女王）山脉的无冰地形。新的形态测量数据可用于这些地区的进一步地质、地貌、冰川学、生态和水文研究。",
+      "authors": [
+        "I. V. Florinsky",
+        "S. O. Zharnova"
+      ],
+      "published": "2026-02-15T13:29:10Z",
+      "updated": "2026-02-15T13:29:10Z",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "first_author": "I. V. Florinsky",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.13952v1",
+      "title": "Three-dimensional kink modes in solar coronal slabs: group velocities and their implications for impulsively excited waves",
+      "abstract": "Little attention has been paid to group velocities of three-dimensional (3D) MHD waves in solar coronal seismology. This study aims to present a rather comprehensive examination on the group velocities of trapped 3D kink modes in coronal slabs, emphasizing the connection of mode analysis to both mode characterization and impulsively excited 3D kink waves. We work in linear, ideal, pressureless MHD, and take the equilibrium slab to be symmetrically structured only in one transverse direction. The dispersion relation is numerically solved, with the results understood by making in-depth analytical progress. We address both the transverse fundamental and its first overtone. We develop a three-subgroup scheme for categorizing 3D kink modes on the plane spanned by the axial and out-of-plane wavenumbers. The group ($\\vec{v}_{\\rm gr}$) and phase velocities ($\\vec{v}_{\\rm ph}$) sit on the same side of the equilibrium magnetic field ($\\vec{B}_0$) for the ``$\\vec{B}_0$-same-side A'' and ``$\\vec{B}_0$-same-side F'' subgroups, which are further discriminated by the directional similarity of $\\vec{v}_{\\rm gr}$ and $\\vec{B}_0$. The ``$\\vec{B}_0$-straddling'' subgroup is peculiar in that $\\vec{v}_{\\rm gr}$ and $\\vec{v}_{\\rm ph}$ lie astride $\\vec{B}_0$, a feature that cannot be found for waves in unbounded uniform media in pressureless MHD. This ``$\\vec{B}_0$-straddling'' subgroup pertains to both the fundamental and its overtones. We further place our results in the context of impulsive waves, employing the method of stationary phase to predict the large-time wavefront morphology in the plane of symmetry of the equilibrium slab. Wavefronts directed toward $\\vec{B}_0$ derive exclusively from ``$\\vec{B}_0$-straddling'' modes, and are confined to narrow sectors.",
+      "translated_abstract": "日冕地震学中三维 (3D) MHD 波的群速度很少受到关注。本研究旨在对日冕板中捕获的 3D 扭结模式的群速度进行相当全面的检查，强调模式分析与模式表征和脉冲激发的 3D 扭结波的联系。我们采用线性、理想、无压 MHD 进行工作，并采用平衡板仅在一个横向方向上具有对称结构。对色散关系进行数值求解，并通过深入分析来了解结果。我们讨论横向基音及其第一泛音。我们开发了一个三子组方案，用于对轴向波数和面外波数跨越的平面上的 3D 扭结模式进行分类。对于“$\\vec{B}_0$-同侧 A”和“$\\vec{B}_0$-同侧 F”子组，群 ($\\vec{v}_{\\rm gr}$) 和相速度 ($\\vec{v}_{\\rm ph}$) 位于平衡磁场 ($\\vec{B}_0$) 的同一侧，这些子组可通过$\\vec{v}_{\\rm gr}$ 和 $\\vec{B}_0$ 的方向相似度。 “$\\vec{B}_0$-跨式”子群的特殊之处在于 $\\vec{v}_{\\rm gr}$ 和 $\\vec{v}_{\\rm ph}$ 跨在 $\\vec{B}_0$ 上，这是无压 MHD 中无界均匀介质中的波无法找到的特征。这个“$\\vec{B}_0$-straddling”子群既涉及基音又涉及其泛音。我们进一步将我们的结果置于脉冲波的背景下，采用稳定相的方法来预测平衡板对称平面中的大时间波前形态。指向 $\\vec{B}_0$ 的波前仅源自“$\\vec{B}_0$-跨越”模式，并且仅限于狭窄的扇区。",
+      "authors": [
+        "Jing Liu",
+        "Bo Li",
+        "Mijie Shi",
+        "Mingzhe Guo",
+        "Hui Yu"
+      ],
+      "published": "2026-02-15T01:46:58Z",
+      "updated": "2026-02-15T01:46:58Z",
+      "categories": [
+        "astro-ph.SR"
+      ],
+      "first_author": "Jing Liu",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.12890v1",
+      "title": "The Effect of Gravitational Stratification on Kink Oscillations in Curved Coronal Loops",
+      "abstract": "Kink oscillation frequency is a key parameter for coronal seismology. It is still unclear how gravitational stratification affects the kink frequency in curved coronal loops. This work aims to investigate the effect of gravitational stratification on the frequency of kink oscillations in curved coronal loops and discuss their seismological potential. We conduct numerical computations within the ideal MHD framework to study different kink polarizations and harmonics in a curved, gravitationally stratified coronal loop. The oscillation frequencies derived from the Lagrangian displacement are compared with the WKB approximation. For the vertically polarized fundamental mode, the oscillation frequency deviates from the WKB approximation by about 18\\% in the current numerical setup. Nevertheless, the oscillation frequency closely matches the local Alfvén frequency near the loop apex. On the other hand, the frequency of the horizontally polarized fundamental mode exhibits only a 7\\% deviation in our current model from the WKB approximation and closely matches the local Alfvén frequency near one quarter of the loop. For the first overtones, the frequencies for both polarizations can be well described by the WKB approximation. The frequency of vertically polarized fundamental kink modes can be predicted by the local Alfvén frequency near the loop apex. In contrast, the WKB approximation remains highly reliable for estimating the frequency of horizontally polarized fundamental modes and first overtones, which is also well described by the local Alfvén frequency near one quarter of the loop. These results therefore pave the way for spatially dependent coronal seismology, enabling, e.g., the probing of magnetic field strength at different locations along a coronal loop.",
+      "translated_abstract": "Kink oscillation frequency is a key parameter for coronal seismology. It is still unclear how gravitational stratification affects the kink frequency in curved coronal loops.这项工作旨在研究重力分层对弯曲日冕环中扭结振荡频率的影响，并讨论其地震学潜力。我们在理想的 MHD 框架内进行数值计算，以研究弯曲的重力分层日冕环中的不同扭结偏振和谐波。 The oscillation frequencies derived from the Lagrangian displacement are compared with the WKB approximation.对于垂直偏振基模，在当前数值设置中，振荡频率与 WKB 近似值偏差约 18%。 Nevertheless, the oscillation frequency closely matches the local Alfvén frequency near the loop apex.另一方面，水平极化基模的频率在我们当前的模型中仅与 WKB 近似存在 7% 的偏差，并且与环路四分之一附近的局部 Alfvén 频率密切匹配。 For the first overtones, the frequencies for both polarizations can be well described by the WKB approximation. The frequency of vertically polarized fundamental kink modes can be predicted by the local Alfvén frequency near the loop apex.相比之下，WKB 近似对于估计水平极化基模和一次泛音的频率仍然高度可靠，这也可以通过环路四分之一附近的局部阿尔芬频率很好地描述。因此，这些结果为空间相关的日冕地震学铺平了道路，例如能够探测沿日冕环不同位置的磁场强度。",
+      "authors": [
+        "Mingzhe Guo",
+        "Bo Li",
+        "Mijie Shi"
+      ],
+      "published": "2026-02-13T12:48:01Z",
+      "updated": "2026-02-13T12:48:01Z",
+      "categories": [
+        "astro-ph.SR"
+      ],
+      "first_author": "Mingzhe Guo",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.12408v1",
+      "title": "Detecting Spatiotemporal b-Value Anomalies with a Progressive Deep Learning Architecture",
+      "abstract": "Identifying systematic patterns in seismicity that precede large earthquakes remains a central challenge in statistical seismology. In this work, we present a methodological framework for detecting spatiotemporal anomalies in seismicity using the evolution of gridded b-values. Focusing on the Japanese subduction zone, we construct daily b-value fields on a fine spatial grid by aggregating local seismicity over moving time windows, yielding a continuous 2+1D representation of seismic-state evolution.   We formulate the problem as a binary classification task in which spatiotemporal blocks extracted from these $b$-value fields are labeled according to the occurrence of a target earthquake with \\Mw $\\geq 5$ in the central region within the next day. To model this data, we introduce a hybrid deep-learning architecture that combines a spatial convolutional encoder with a temporal convolutional network, enabling joint learning of spatial structure and temporal dynamics. A progressive meta-epoch training scheme is employed, in which the model is iteratively updated using a time-forward strategy that mirrors operational deployment and mitigates issues related to nonstationarity.   This paper is strictly methodological in scope. It describes the construction of b-value fields, the spatiotemporal sampling strategy, the network architecture, and the progressive training and internal validation framework used for model development and parameter selection.",
+      "translated_abstract": "Identifying systematic patterns in seismicity that precede large earthquakes remains a central challenge in statistical seismology.在这项工作中，我们提出了一种利用网格 b 值的演化来检测地震活动时空异常的方法框架。着眼于日本俯冲带，我们通过聚合移动时间窗口内的局部地震活动，在精细空间网格上构造每日 b 值场，从而产生地震状态演化的连续 2+1D 表示。   我们将问题表述为二元分类任务，其中从这些 $b$ 值字段中提取的时空块根据第二天在中心区域发生 \\Mw $\\geq 5$ 的目标地震进行标记。为了对这些数据进行建模，我们引入了一种混合深度学习架构，该架构将空间卷积编码器与时间卷积网络相结合，从而实现空间结构和时间动态的联合学习。采用渐进式元纪元训练方案，其中使用反映操作部署并减轻与非平稳性相关的问题的时间前进策略迭代更新模型。   本文在范围上严格遵循方法论。它描述了 b 值字段的构造、时空采样策略、网络架构以及用于模型开发和参数选择的渐进式训练和内部验证框架。",
+      "authors": [
+        "Jonas Köhler",
+        "Wei Li",
+        "Johannes Faber",
+        "Georg Rümpker",
+        "Nishtha Srivastava"
+      ],
+      "published": "2026-02-12T20:57:02Z",
+      "updated": "2026-02-12T20:57:02Z",
+      "categories": [
+        "physics.geo-ph"
+      ],
+      "first_author": "Jonas Köhler",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.12348v1",
+      "title": "Excitation and Damping of Oscillation Modes in Gaseous Planets",
+      "abstract": "The excitation and damping mechanisms for oscillation modes of gas giant planets are undetermined. We show that differential rotation may greatly enhance convective viscosity in giant planets, resulting in damping times of $t_{\\rm damp} \\sim 10^5-10^6 \\, {\\rm years}$ for f modes and low-order p modes. Radiative diffusion damps p modes on time scales of $t_{\\rm damp} \\sim 10^3-10^7 \\, {\\rm years}$. While the lethargic convective motions cannot effectively excite f mode or p modes, storms driven by condensation of water and/or silicates may play a role. High-order p modes are most effectively excited by cometary/asteroid impacts. Applying these calculations to solar system planets, water storms, rock storms, and impacts may all contribute to exciting the observed f modes amplitudes of Saturn via ring seismology. Similar f mode amplitudes with fractional gravitational perturbations of $δΦ/Φ\\sim 10^{-10}-10^{-9}$ are expected for Jupiter and Uranus, apart from their lowest $\\ell$ f modes which could have larger gravitational perturbations of $δΦ/Φ\\sim 10^{-7}$. Rock storms may contribute to mode driving in Jupiter, while water storms are more important for Uranus. The highest-amplitude p modes are predicted to have periods of $\\sim$10-30 minutes, with surface velocities of $\\sim$10 cm/s for Jupiter and Saturn, and $\\sim$1 cm/s for Uranus. These oscillation modes may be detectable with radial velocity measurements, ring seismology, or spacecraft Doppler tracking. However, both the damping and excitation physics are uncertain by orders of magnitude, so more careful examination of the relevant physics is required for robust estimates.",
+      "translated_abstract": "气态巨行星振荡模式的激励和阻尼机制尚未确定。我们表明，差分旋转可能会大大增强巨行星中的对流粘度，导致 f 模式和低阶 p 模式的阻尼时间为 $t_{\\rm mud} \\sim 10^5-10^6 \\, {\\rm 年}$。辐射扩散在 $t_{\\rm mud} \\sim 10^3-10^7 \\, {\\rm 年}$ 时间尺度上衰减 p 模式。虽然昏昏欲睡的对流运动不能有效地激发 f 模式或 p 模式，但由水和/或硅酸盐凝结驱动的风暴可能会发挥作用。高阶 p 模式最有效地由彗星/小行星撞击激发。将这些计算应用于太阳系行星、水风暴、岩石风暴和撞击，都可能有助于激发通过环地震学观测到的土星 f 模式振幅。木星和天王星预计具有类似的 f 模式振幅，分数引力扰动为 $δΦ/Φ\\sim 10^{-10}-10^{-9}$，除了最低的 $\\ell$ f 模式可能具有更大的引力扰动 $δΦ/Φ\\sim 10^{-7}$ 之外。岩石风暴可能有助于木星的模式驱动，而水风暴对天王星更为重要。预计最高振幅 p 模式的周期为 $\\sim$10-30 分钟，木星和土星的表面速度为 $\\sim$10 cm/s，天王星的表面速度为 $\\sim$1 cm/s。这些振荡模式可以通过径向速度测量、环地震学或航天器多普勒跟踪来检测。然而，阻尼和激励物理学都具有数量级的不确定性，因此需要对相关物理学进行更仔细的检查才能进行稳健的估计。",
+      "authors": [
+        "Jim Fuller",
+        "Marzia Parisi",
+        "Steve Markham",
+        "A. James Friedson",
+        "J. R. Fuentes"
+      ],
+      "published": "2026-02-12T19:11:46Z",
+      "updated": "2026-02-12T19:11:46Z",
+      "categories": [
+        "astro-ph.EP",
+        "astro-ph.SR"
+      ],
+      "first_author": "Jim Fuller",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.11884v1",
+      "title": "Signatures of Damping Nonlinear Oscillations by KHI-induced Turbulence in Synthetic Observations",
+      "abstract": "Large-amplitude decaying kink oscillations of coronal loops are strongly influenced by nonlinear processes, such as Kelvin-Helmholtz instability (KHI) and turbulence, though comprehensive theory and observational confirmation remain limited. Building on the recently developed theory on nonlinear damping by KHI-induced turbulence in impulsively driven transverse loop oscillations, we investigate its observational signatures using 3D magnetohydrodynamic simulations and forward-modelled EUV images. The simulated oscillations exhibit time-varying frequency shifts and damping rates, which are broadly consistent with nonlinear turbulence-damping theory. Additionally, they exhibit excitation of higher-order modes, slightly increased periods relative to the linear kink period, and reduced displacement amplitudes. These features are generally preserved in synthetic observations, though resolving higher-order modes requires higher spatial resolution than currently available. For loops embedded in a hotter background, hotter channels (e.g., 193 Angstroms) are more sensitive to boundary dynamics, thus their oscillations decay faster with smaller displacements and larger phase shifts than those in cooler channels (e.g., 171 Angstroms). Comparisons of simulated and synthetic oscillations show close agreement at the early stage. At later times, synthetic oscillations exhibit smaller displacements and larger phase shifts, due to turbulence-induced asymmetry in the loop cross-section. Bayesian fitting shows that the initial oscillation amplitude and kink period are robustly constrained, whereas parameters controlling the damping profile are degenerate, indicating that additional observables would aid reliable seismological inference. These results provide a quantitative basis for identifying nonlinear damping and detecting KHI-driven turbulence in transverse loop oscillations.",
+      "translated_abstract": "尽管综合理论和观测证实仍然有限，但日冕环的大振幅衰减扭结振荡受到非线性过程的强烈影响，例如开尔文-亥姆霍兹不稳定性（KHI）和湍流。基于最近开发的关于脉冲驱动横向环路振荡中 KHI 引起的湍流的非线性阻尼理论，我们使用 3D 磁流体动力学模拟和正演模型 EUV 图像研究其观测特征。模拟振荡表现出随时间变化的频移和阻尼率，这与非线性湍流阻尼理论大致一致。此外，它们还表现出高阶模式的激励、相对于线性扭结周期略有增加的周期以及减小的位移幅度。这些特征通常保留在合成观测中，尽管解析高阶模式需要比当前可用的空间分辨率更高的空间分辨率。对于嵌入较热背景中的环路，较热的通道（例如 193 埃）对边界动力学更敏感，因此与较冷的通道（例如 171 埃）相比，它们的振荡衰减得更快，位移更小，相移更大。模拟振荡和合成振荡的比较在早期阶段显示出密切的一致性。后来，由于湍流引起的环路横截面不对称，合成振荡表现出较小的位移和较大的相移。贝叶斯拟合表明，初始振荡幅度和扭结周期受到严格约束，而控制阻尼剖面的参数是退化的，这表明额外的可观测值将有助于可靠的地震推断。这些结果为识别非线性阻尼和检测横向环路振荡中 KHI 驱动的湍流提供了定量基础。",
+      "authors": [
+        "Sihui Zhong",
+        "Andrew Hillier",
+        "Iñigo Arregui"
+      ],
+      "published": "2026-02-12T12:34:14Z",
+      "updated": "2026-02-12T12:34:14Z",
+      "categories": [
+        "astro-ph.SR",
+        "physics.plasm-ph"
+      ],
+      "first_author": "Sihui Zhong",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.15052v1",
+      "title": "Blackening Cryosphere: Revealing Hotspot Shifts and HGB-Based Forecasting of Absorbing Aerosol Threats over the Himalayan Frozen Frontiers",
+      "abstract": "Black carbon and mineral dust are key absorbing aerosols that influence atmospheric radiation and increasingly threaten global cryospheric stability. This study examines the long-range transport and seasonal variability of these aerosols over Pakistan and their movement toward the western Himalayas. Using satellite-derived Absorption Aerosol Optical Depth (AAOD) data from 2019 to mid-2025, we analyse their spatiotemporal behaviour across Pakistan's urban lowlands and high-altitude regions. Fifteen-day aggregated AAOD fields are used to track seasonal transport into glaciated terrain, where deposited aerosols can darken snow and ice and accelerate melt. For high-AAOD events, a probabilistic forecasting approach based on machine learning (ML) was developed. Using geographical, seasonal, and lagged indicators, a histogram-based gradient boosting classifier was trained to predict AAOD exceedance one step in advance. ROC-AUC, PR-AUC, and the Brier score were used to assess the model's performance. The results show high predictive capacity and good probability calibration, with values of 0.791, 0.269, and 0.028, respectively. Forecasts indicate that areas adjacent to Himalayan glaciers consistently exhibit the highest probability of increasing AAOD, signalling an elevated risk of aerosol-induced snowmelt.",
+      "translated_abstract": "黑碳和矿物尘埃是影响大气辐射并日益威胁全球冰冻圈稳定性的关键吸收气溶胶。这项研究研究了巴基斯坦上空这些气溶胶的远距离输送和季节变化以及它们向喜马拉雅山西部的移动。使用 2019 年至 2025 年中期卫星获取的吸收气溶胶光学深度 (AAOD) 数据，我们分析了它们在巴基斯坦城市低地和高海拔地区的时空行为。十五天汇总的 AAOD 场用于跟踪进入冰川地带的季节性运输，在那里沉积的气溶胶会使雪和冰变暗并加速融化。针对高 AAOD 事件，开发了一种基于机器学习 (ML) 的概率预测方法。使用地理、季节和滞后指标，训练一种基于直方图的梯度增强分类器，以提前一步预测 AAOD 超出情况。 ROC-AUC、PR-AUC 和 Brier 评分用于评估模型的性能。结果显示出较高的预测能力和良好的概率校准，值分别为 0.791、0.269 和 0.028。预测表明，喜马拉雅冰川附近的地区始终表现出 AAOD 增加的最高可能性，这表明气溶胶引起的融雪风险增加。",
+      "authors": [
+        "Abira Sengupta",
+        "Ayoti Banerjee",
+        "Sarbani Palit",
+        "Brendon Woodford"
+      ],
+      "published": "2026-02-11T10:40:19Z",
+      "updated": "2026-02-11T10:40:19Z",
+      "categories": [
+        "physics.ao-ph",
+        "astro-ph.EP"
+      ],
+      "first_author": "Abira Sengupta",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.05296v1",
+      "title": "Galactic seismology: can a disc-crossing impulse explain the large-scale perturbations in the Milky Way's disc?",
+      "abstract": "Prior to its infall, the Sagittarius (Sgr) dwarf galaxy was a major satellite with a mass of $M_{\\rm sgr}\\sim 10^{11}$ M$_\\odot$. For the past $5-6~\\mathrm{Gyr}$ , it has been heavily stripped by the Milky Way (MW), losing most of its mass while crossing the MW disc multiple times. Recent models of Milky Way disc perturbations $-$ including the spiral arms, the stellar bar, the Gaia phase spiral, and stellar and gaseous disc corrugations $-$ have identified these crossings as possible formation triggers, but have generally treated each perturbation in isolation. Here, we adopt a holistic perspective and ask whether a single disc-crossing impulse can simultaneously account for these features as observed today. We focus on simulations of single disc-crossing events by a Sgr-like perturber, and present a forensic analysis of the role of the powerful impulse in forming spiral arms, disc corrugations, the phase spiral and the `$L_{z}-\\bar{V}_{R}$ wave', determined from a star's angular momentum and radial velocity, respectively. We find that a single disc crossing can reproduce reasonably well (e.g. structure, amplitude, phase) the observed local disc corrugation, and the Outer, Local and Sagittarius-Carina arm segments, implying that the last significant impulse due to a transit took place $700-1200~\\mathrm{Myr}$ ago. Moreover, the $L_{z}-\\bar{V}_{R}$ wave and phase spiral appear within the simulations over the same epoch and their general structure is reasonably well replicated, but not in detail. We conclude that Sgr's last significant crossing roughly a Gyr ago could be the primary cause of large-scale MW disc perturbations, but it cannot fully account for the $L_{z}-\\bar{V}_{R}$ wave. Consequently, other triggers, possibly the Galactic bar or interactions with other satellites, must be considered in order to fully explain the current dynamical state of the MW's disc.",
+      "translated_abstract": "在陨落之前，人马座 (Sgr) 矮星系是一颗质量为 $M_{\\rm sgr}\\sim 10^{11}$ M$_\\odot$ 的主要卫星。在过去的 $5-6~\\mathrm{Gyr}$ 中，它被银河系（MW）严重剥离，在多次穿越MW盘时失去了大部分质量。最近的银河系盘扰动模型，包括旋臂、恒星棒、盖亚相螺旋以及恒星和气体盘波纹，已将这些交叉点识别为可能的形成触发因素，但通常单独对待每个扰动。在这里，我们采用整体视角，并询问单个盘交叉冲动是否可以同时解释今天观察到的这些特征。我们重点关注类 Sgr 扰动器对单个盘交叉事件的模拟，并对强大脉冲在形成旋臂、盘波纹、相位螺旋和“$L_{z}-\\bar{V}_{R}$ 波”中的作用进行了取证分析，分别由恒星的角动量和径向速度确定。我们发现，单个圆盘交叉可以相当好地再现（例如结构、幅度、相位）观察到的局部圆盘波纹以及外部、局部和人马座-船底座臂段，这意味着由于行进而产生的最后一次显着脉冲发生在 $700-1200~\\mathrm{Myr}$ 之前。此外，$L_{z}-\\bar{V}_{R}$波和相位螺旋出现在同一时期的模拟中，并且它们的一般结构得到了相当好的复制，但不详细。我们得出的结论是，Sgr 大约在 Gyr 之前的最后一次重大穿越可能是大规模 MW 盘扰动的主要原因，但它不能完全解释 $L_{z}-\\bar{V}_{R}$ 波。因此，必须考虑其他触发因素，可能是银河棒或与其他卫星的相互作用，以便充分解释微波盘的当前动态状态。",
+      "authors": [
+        "Pavadol Yamsiri",
+        "Joss Bland-Hawthorn",
+        "Thor Tepper-Garcia"
+      ],
+      "published": "2026-02-05T04:41:15Z",
+      "updated": "2026-02-05T04:41:15Z",
+      "categories": [
+        "astro-ph.GA"
+      ],
+      "first_author": "Pavadol Yamsiri",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.03897v2",
+      "title": "Pulse waves in the viscoelastic Kelvin-Voigt model: a revisited approach",
+      "abstract": "We calculate the mechanical response $r(x,t$) of an initially quiescent semi-infinite homogeneous medium to a pulse applied at the origin, and this is achieved within the framework of the Kelvin-Voigt model. Although this problem has been extensively studied in the literature because of its wide range of applications -- particularly in seismology -- here, we present a solution in a novel integral form. This integral solution avoids the numerical computation of the solution in terms of the inverse Laplace transform; that is, numerical integration in the complex plane. In particular, we derive integral form expressions for both delta-pulse and step-pulse excitations which are simpler and more computationally efficient than those previously reported in the literature. Furthermore, the obtained expressions allow us to obtain simple asymptotic formulas for $r(x,t$ as $x,t \\to 0,\\infty$ for both step- and delta-type pulses.",
+      "translated_abstract": "我们计算初始静态半无限均匀介质对原点施加的脉冲的机械响应 $r(x,t$)，这是在开尔文-沃伊特模型的框架内实现的。尽管这个问题因其广泛的应用（特别是在地震学中）而在文献中得到了广泛的研究，但在这里，我们以一种新颖的积分形式提出了一个解决方案。这种积分解法避免了拉普拉斯逆变换解的数值计算；即复平面上的数值积分。特别是，我们推导了增量脉冲和阶跃脉冲激励的积分形式表达式，这比文献中先前报道的那些更简单且计算效率更高。此外，所获得的表达式使我们能够获得 $r(x,t$ 作为 $x,t \\to 0,\\infty$ 对于阶跃型和 Delta 型脉冲的简单渐近公式。",
+      "authors": [
+        "Juan Luis Gonzalez-Santander",
+        "Francesco Mainardi",
+        "Andrea Mentrelli"
+      ],
+      "published": "2026-02-03T08:52:18Z",
+      "updated": "2026-03-06T15:46:27Z",
+      "categories": [
+        "math.GM"
+      ],
+      "first_author": "Juan Luis Gonzalez-Santander",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2602.02647v1",
+      "title": "Saturn's Evolutionary History and Seismology: Survival of Deep Stably Stratified Regions in Evolutionary Models of Saturn Consistent with Ring Seismology",
+      "abstract": "With recent advances in the modeling of the solar system giant planets, rapid progress has been made in understanding the remaining questions pertaining to their formation and evolution. However, this progress has largely neglected the significant constraints on the interior of Saturn's structure imposed by the observed oscillation frequencies in its rings. Here, we study initial conditions for Saturn's evolution that, after $4.56\\;\\mathrm{Gyr}$ of evolution, give rise to planetary structures admitting oscillation frequencies consistent with those observed via Saturn's ring seismology. Restricting our attention to models without compact rocky cores, we achieve simultaneous good agreement with most observed properties of Saturn at the level of current evolutionary models and with key frequencies in the observed oscillation spectrum. Our preliminary work suggests that Saturn's interior stably stratified region may be moderately less extended ($\\sim 0.4$--$0.5R_{\\rm Sat}$) than previously thought, which is important for reconciling the seismic constraints with evolutionary models. We also tentatively find that the deep helium gradients inferred by previous, static structural modelling of Saturn's ring seismology may not be required to reproduce the observed seismology data.",
+      "translated_abstract": "随着太阳系巨行星建模的最新进展，在理解与其形成和演化有关的剩余问题方面取得了快速进展。然而，这一进展在很大程度上忽略了观测到的土星环振荡频率对土星结构内部的重大限制。在这里，我们研究土星演化的初始条件，在 $4.56\\;\\mathrm{Gyr}$ 的演化之后，产生行星结构，其振荡频率与通过土星环地震学观察到的振荡频率一致。将我们的注意力限制在没有致密岩石核心的模型上，我们在当前演化模型的水平上与土星的大多数观测到的特性以及观测到的振荡频谱中的关键频率同时取得了良好的一致性。我们的初步工作表明，土星内部稳定分层区域的延伸范围可能比之前认为的要小一些（$\\sim 0.4$--$0.5R_{\\rm Sat}$），这对于协调地震约束与演化模型非常重要。我们还初步发现，以前的土星环地震学静态结构模型推断出的深氦梯度可能不需要重现观测到的地震学数据。",
+      "authors": [
+        "Yubo Su",
+        "Janosz W. Dewberry",
+        "Roberto Tejada Arevalo",
+        "Ankan Sur",
+        "Adam Burrows"
+      ],
+      "published": "2026-02-02T19:00:00Z",
+      "updated": "2026-02-02T19:00:00Z",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "first_author": "Yubo Su",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2601.21663v1",
+      "title": "Few-Shot Domain Adaptation with Temporal References and Static Priors for Glacier Calving Front Delineation",
+      "abstract": "During benchmarking, the state-of-the-art model for glacier calving front delineation achieves near-human performance. However, when applied in a real-world setting at a novel study site, its delineation accuracy is insufficient for calving front products intended for further scientific analyses. This site represents an out-of-distribution domain for a model trained solely on the benchmark dataset. By employing a few-shot domain adaptation strategy, incorporating spatial static prior knowledge, and including summer reference images in the input time series, the delineation error is reduced from 1131.6 m to 68.7 m without any architectural modifications. These methodological advancements establish a framework for applying deep learning-based calving front segmentation to novel study sites, enabling calving front monitoring on a global scale.",
+      "translated_abstract": "翻译失败",
+      "authors": [
+        "Marcel Dreier",
+        "Nora Gourmelon",
+        "Dakota Pyles",
+        "Thorsten Seehaus",
+        "Matthias H. Braun",
+        "Andreas Maier",
+        "Vincent Christlein"
+      ],
+      "published": "2026-01-29T12:58:45Z",
+      "updated": "2026-01-29T12:58:45Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "first_author": "Marcel Dreier",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    },
+    {
+      "id": "2601.21520v1",
+      "title": "Wave generation via oscillatory reconnection at a three-dimensional magnetic null point",
+      "abstract": "This work conducts a three-dimensional (3D), nonlinear magnetohydrodynamic (MHD) simulation to investigate wave generating, time-dependent reconnection around a magnetic null point. A non-periodic perturbation (in the $xz$-plane) triggers oscillatory reconnection (OR) at the 3D null, resulting in a self-sustained oscillation with a constant period $P$. We investigate the response of the system using three distinct wave proxies (compressible parallel, compressible transverse and incompressible parallel) as well as Spectral Proper Orthogonal Decomposition for decoupling and analyzing the resultant MHD wave behavior. We find that OR generates a slow magnetoacoustic wave of period $P$ that propagates outwards in all directions along the spine and fan plane of the 3D null point. We also find the generation of a propagating Alfvén wave of period $P$, exclusively along the $y$-axis in the fan plane, i.e. in the direction perpendicular to the spine motion. These findings provide new insights into waves generated from a 3D null point and their implications for coronal seismology.",
+      "translated_abstract": "这项工作进行了三维 (3D) 非线性磁流体动力学 (MHD) 模拟，以研究磁零点周围的波生成、时间相关重连接。非周期性扰动（在 $xz$ 平面中）会在 3D 零点处触发振荡重联 (OR)，从而产生具有恒定周期 $P$ 的自持振荡。我们使用三种不同的波代理（可压缩平行波、可压缩横向波和不可压缩平行波）以及谱本征正交分解来研究系统的响应，以解耦和分析所得的 MHD 波行为。我们发现 OR 产生周期为 $P$ 的慢磁声波，该波沿着 3D 零点的脊椎和扇形平面向各个方向向外传播。我们还发现，仅沿着扇形平面中的 $y$ 轴（即垂直于脊柱运动的方向）生成周期为 $P$ 的传播阿尔文波。这些发现为 3D 零点产生的波及其对日冕地震学的影响提供了新的见解。",
+      "authors": [
+        "Luiz A. C. A. Schiavo",
+        "Gert J. J. Botha",
+        "James A. McLaughlin"
+      ],
+      "published": "2026-01-29T10:34:43Z",
+      "updated": "2026-01-29T10:34:43Z",
+      "categories": [
+        "astro-ph.SR",
+        "physics.plasm-ph",
+        "physics.space-ph"
+      ],
+      "first_author": "Luiz A. C. A. Schiavo",
+      "importance": "冰川地震学研究对于理解气候变化、冰川动力学和自然灾害风险评估具有重要意义。",
+      "related_work": "前人研究主要集中在：1) 冰川地震的检测与分类；2) 冰川运动与地震活动的关系；3) 冰川湖溃决洪水的预警研究。",
+      "methods": "基于论文摘要，本文可能采用了：地震波数据分析、GPS观测、数值模拟等方法。",
+      "innovation": "本文的潜在创新点可能包括：新的检测算法、多源数据融合方法、或对冰川地震机制的新见解。"
+    }
+  ]
+}
