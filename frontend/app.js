@@ -1,7 +1,16 @@
 let papers = [];
+let currentTopic = 'cryo';
+
+const topicFiles = {
+    'cryo': 'data_cryo.json',
+    'das': 'data_das.json',
+    'surface': 'data_surface.json',
+    'imaging': 'data_imaging.json',
+    'earthquake': 'data_earthquake.json'
+};
 
 document.addEventListener('DOMContentLoaded', () => {
-    loadPapers();
+    loadPapers('cryo');
     setupEventListeners();
 });
 
@@ -14,22 +23,36 @@ function setupEventListeners() {
     });
 }
 
-async function loadPapers() {
+function switchTopic(topic) {
+    if (topic === currentTopic) return;
+
+    // 更新按钮状态
+    document.querySelectorAll('.topic-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.getAttribute('onclick').includes(`'${topic}'`)) {
+            btn.classList.add('active');
+        }
+    });
+
+    currentTopic = topic;
+    loadPapers(topic);
+}
+
+async function loadPapers(topic) {
     showLoading();
+    const fileName = topicFiles[topic];
+
     try {
-        // 加载生成的静态 JSON 数据
-        const response = await fetch('./data.json');
+        const response = await fetch(`./${fileName}`);
         if (!response.ok) {
-            throw new Error('无法加载数据文件');
+            throw new Error('无法加载该专题的数据文件');
         }
         const data = await response.json();
         papers = data.papers;
 
-        // 更新显示最后更新时间
-        const lastUpdateEl = document.getElementById('last-update');
-        if (lastUpdateEl) {
-            lastUpdateEl.textContent = data.last_update || '未知';
-        }
+        // 更新最后更新时间
+        document.getElementById('last-update').textContent = data.last_update || '未知';
+        document.getElementById('current-topic-name').textContent = data.topic_name || '专题';
 
         renderPapersList();
     } catch (error) {
@@ -37,20 +60,12 @@ async function loadPapers() {
         const container = document.getElementById('papers-list');
         container.innerHTML = `
             <div class="empty-state">
-                <h2>❌ 加载失败</h2>
-                <p>无法获取论文数据，请稍后再试。</p>
-                <p style="font-size: 0.8rem; color: #999;">错误详情: ${error.message}</p>
+                <h2>❌ 该专题暂无数据</h2>
+                <p>可能该专题在本周尚未更新，或关键词未搜到结果。</p>
             </div>
         `;
     } finally {
         hideLoading();
-    }
-}
-
-function loadPaperDetail(paperId) {
-    const paper = papers.find(p => p.id === paperId);
-    if (paper) {
-        showModal(paper);
     }
 }
 
@@ -78,66 +93,30 @@ function renderPapersList() {
                 ${paper.authors.slice(0, 3).map(a => escapeHtml(a)).join(', ')}${paper.authors.length > 3 ? ' 等' : ''}
             </div>
             <div class="paper-abstract">${escapeHtml(paper.translated_abstract ? paper.translated_abstract.substring(0, 200) : paper.abstract.substring(0, 200))}...</div>
-            <div class="paper-categories">
-                ${paper.categories.slice(0, 3).map(cat => `<span class="category-tag">${escapeHtml(cat)}</span>`).join('')}
-            </div>
         </div>
     `).join('');
 }
 
+function loadPaperDetail(paperId) {
+    const paper = papers.find(p => p.id === paperId);
+    if (paper) {
+        showModal(paper);
+    }
+}
+
 function showModal(paper) {
     document.getElementById('modal-title').textContent = paper.title;
-    
     const modalBody = document.getElementById('modal-body');
     
     modalBody.innerHTML = `
-        <div class="info-grid">
-            <div class="info-box">
-                <h4>第一作者</h4>
-                <p>${escapeHtml(paper.first_author || 'N/A')}</p>
-            </div>
-            <div class="info-box">
-                <h4>发表日期</h4>
-                <p>${formatDate(paper.published)}</p>
-            </div>
-            <div class="info-box">
-                <h4>ID</h4>
-                <p>${escapeHtml(paper.id)}</p>
-            </div>
-        </div>
-        
         <div class="analysis-section">
             <h3>📄 摘要（中文翻译）</h3>
             <p>${escapeHtml(paper.translated_abstract || '暂无翻译')}</p>
         </div>
-
-        <div class="analysis-section">
-            <h3>🎯 研究重要性</h3>
-            <p>${escapeHtml(paper.importance || '分析中...')}</p>
-        </div>
-        
-        <div class="analysis-section">
-            <h3>🔬 数据与方法</h3>
-            <p>${escapeHtml(paper.methods || '分析中...')}</p>
-        </div>
-
-        <div class="analysis-section">
-            <h3>💡 创新与贡献</h3>
-            <p>${escapeHtml(paper.innovation || '分析中...')}</p>
-        </div>
-        
         <div class="analysis-section">
             <h3>📋 所有作者</h3>
             <p>${paper.authors.map(a => escapeHtml(a)).join('; ')}</p>
         </div>
-        
-        <div class="analysis-section">
-            <h3>🏷️ 分类</h3>
-            <div class="paper-categories">
-                ${paper.categories.map(cat => `<span class="category-tag">${escapeHtml(cat)}</span>`).join('')}
-            </div>
-        </div>
-        
         <div class="analysis-section">
             <h3>🔗 原文链接</h3>
             <p><a href="https://arxiv.org/abs/${paper.id}" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/${paper.id}</a></p>

@@ -8,15 +8,42 @@ from fpdf import FPDF
 
 class PDF(FPDF):
     def header(self):
-        # 设置字体支持中文 (由于 GitHub Actions 环境限制，我们使用系统默认字体或导出为简单的英文报告)
-        # 如果需要完美中文支持，需要上传一个 .ttf 字体文件，这里先生成一个英文+拼音的增强版
         self.set_font('Arial', 'B', 15)
-        self.cell(0, 10, 'Cryoseismology Weekly Papers Report', 0, 1, 'C')
+        self.cell(0, 10, 'Weekly Seismology Papers Report', 0, 1, 'C')
         self.ln(10)
 
-def search_arxiv(keywords=['icequake', 'glacier', 'seismology', 'cryoseismology'], max_results=20):
-    print(f"开始搜索 arXiv, 关键词: {keywords}...")
-    search_terms = '+'.join([f'all:{k}' for k in keywords])
+# 定义不同的专题和关键词
+TOPICS = {
+    'cryoseismology': {
+        'name': '冰川地震论文',
+        'keywords': ['icequake', 'glacier', 'seismology', 'cryoseismology'],
+        'file': 'data_cryo.json'
+    },
+    'das': {
+        'name': 'DAS论文',
+        'keywords': ['Distributed Acoustic Sensing', 'DAS', 'seismology'],
+        'file': 'data_das.json'
+    },
+    'surface_wave': {
+        'name': '面波论文',
+        'keywords': ['surface wave', 'dispersion', 'ambient noise'],
+        'file': 'data_surface.json'
+    },
+    'imaging': {
+        'name': '地震学成像',
+        'keywords': ['seismic tomography', 'full waveform inversion', 'imaging'],
+        'file': 'data_imaging.json'
+    },
+    'earthquake': {
+        'name': '地震研究',
+        'keywords': ['earthquake source', 'tectonics', 'seismicity'],
+        'file': 'data_earthquake.json'
+    }
+}
+
+def search_arxiv(keywords, max_results=15):
+    print(f"开始搜索关键词: {keywords}...")
+    search_terms = '+'.join([f'all:"{k}"' for k in keywords])
     url = f'http://export.arxiv.org/api/query?search_query={search_terms}&sortBy=submittedDate&sortOrder=descending&max_results={max_results}'
 
     response = requests.get(url)
@@ -25,13 +52,12 @@ def search_arxiv(keywords=['icequake', 'glacier', 'seismology', 'cryoseismology'
     papers = []
     translator = GoogleTranslator(source='auto', target='zh-CN')
 
-    print(f"共找到 {len(feed.entries)} 篇论文，开始处理和翻译...")
-
     for entry in feed.entries:
         abstract = entry.summary.replace('\n', ' ')
         try:
-            translated_abstract = translator.translate(abstract)
-        except Exception as e:
+            # 限制翻译长度以加快速度
+            translated_abstract = translator.translate(abstract[:1500])
+        except:
             translated_abstract = "Translation Failed"
 
         paper = {
@@ -46,51 +72,55 @@ def search_arxiv(keywords=['icequake', 'glacier', 'seismology', 'cryoseismology'
             'first_author': entry.authors[0].name if entry.authors else "N/A"
         }
         papers.append(paper)
-
     return papers
 
-def generate_pdf(papers, filename='report.pdf'):
+def generate_pdf(all_results, filename='report.pdf'):
     pdf = PDF()
     pdf.add_page()
-    pdf.set_font("Arial", size=12)
 
-    for i, p in enumerate(papers[:10]):
-        pdf.set_font("Arial", 'B', 12)
-        pdf.multi_cell(0, 10, f"{i+1}. {p['title']}")
-        pdf.set_font("Arial", size=10)
-        pdf.cell(0, 10, f"Authors: {', '.join(p['authors'][:3])}", 0, 1)
-        pdf.cell(0, 10, f"Link: https://arxiv.org/abs/{p['id']}", 0, 1)
+    for topic_id, papers in all_results.items():
+        pdf.set_font("Arial", 'B', 14)
+        pdf.cell(0, 10, f"Topic: {TOPICS[topic_id]['name']}", 0, 1)
         pdf.ln(5)
-        # 注意：由于 FPDF 默认库不支持 UTF-8 直接写入中文，
-        # 我们在 PDF 中保留摘要的英文部分，以确保生成不会报错。
-        # 中文翻译请在网页端查看。
-        text = p['abstract'][:500] + "..."
-        pdf.multi_cell(0, 5, text.encode('latin-1', 'replace').decode('latin-1'))
-        pdf.ln(10)
 
+        for p in papers[:5]: # 每个专题取前5篇
+            pdf.set_font("Arial", 'B', 10)
+            pdf.multi_cell(0, 8, f"- {p['title'].encode('latin-1', 'replace').decode('latin-1')}")
+            pdf.set_font("Arial", size=9)
+            pdf.cell(0, 6, f"Link: https://arxiv.org/abs/{p['id']}", 0, 1)
+            pdf.ln(2)
+        pdf.ln(5)
     pdf.output(filename)
-    print(f"PDF 报告已生成: {filename}")
 
 if __name__ == "__main__":
     try:
-        results = search_arxiv()
-
-        # 1. 保存 JSON (用于网页)
+        all_results = {}
         target_dir = 'frontend'
         os.makedirs(target_dir, exist_ok=True)
-        output = {'last_update': datetime.now().strftime('%Y-%m-%d %H:%M'), 'papers': results}
-        with open(os.path.join(target_dir, 'data.json'), 'w', encoding='utf-8') as f:
-            json.dump(output, f, ensure_ascii=False, indent=2)
+        update_time = datetime.now().strftime('%Y-%m-%d %H:%M')
 
-        # 2. 生成 PDF (用于邮件附件)
-        generate_pdf(results)
+        # 循环处理每个专题
+        for topic_id, config in TOPICS.items():
+            print(f"\n正在处理专题: {config['name']}")
+            papers = search_arxiv(config['keywords'])
+            all_results[topic_id] = papers
 
-        # 3. 生成邮件正文
+            # 保存各专题的 JSON
+            output = {'last_update': update_time, 'topic_name': config['name'], 'papers': papers}
+            with open(os.path.join(target_dir, config['file']), 'w', encoding='utf-8') as f:
+                json.dump(output, f, ensure_ascii=False, indent=2)
+
+        # 生成合集 PDF
+        generate_pdf(all_results)
+
+        # 生成邮件正文
         with open('email_body.txt', 'w', encoding='utf-8') as f:
-            f.write(f"冰川地震学论文周报已更新！\n\n")
-            f.write(f"最后更新时间: {output['last_update']}\n")
-            f.write(f"在线查看地址: https://www.seis-jun.xyz/cryoseismology_papers/frontend/\n\n")
-            f.write("主要论文列表请查看附件 PDF。\n")
+            f.write(f"地震学多专题论文周报已更新 ({update_time})\n\n")
+            f.write("包含专题：\n")
+            for config in TOPICS.values():
+                f.write(f"- {config['name']}\n")
+            f.write(f"\n在线查看: https://www.seis-jun.xyz/cryoseismology_papers/frontend/\n")
+            f.write("详细内容请查看附件 PDF 或访问网站。")
 
     except Exception as e:
         print(f"脚本运行出错: {e}")

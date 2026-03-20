@@ -3,27 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>冰川地震学论文搜索系统</title>
+    <title>地震学多专题论文周报</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .topic-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+        .topic-btn {
+            padding: 10px 20px;
+            border: 2px solid #007bff;
+            background: white;
+            color: #007bff;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+        .topic-btn.active {
+            background: #007bff;
+            color: white;
+        }
+        .topic-btn:hover {
+            background: #e7f1ff;
+        }
+        .topic-btn.active:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>🧊 冰川地震学论文周报</h1>
-            <p>自动搜索和分析与 icequake、glacier、seismology、冰川地震学相关的最新论文</p>
+            <h1>📚 地震学多专题论文周报</h1>
+            <p>自动追踪、翻译并汇总最新地震学研究成果</p>
         </header>
 
-        <div class="search-section">
-            <div class="keywords-input">
-                <label>追踪关键词：</label>
-                <div id="keywords-container">
-                    <span class="keyword-tag">icequake</span>
-                    <span class="keyword-tag">glacier</span>
-                    <span class="keyword-tag">seismology</span>
-                    <span class="keyword-tag">冰川地震学</span>
-                </div>
-            </div>
-            <p style="color: #666; font-size: 0.9rem;">🔄 每周日自动更新 | 最后更新: <span id="last-update">-</span></p>
+        <nav class="topic-nav">
+            <button class="topic-btn active" onclick="switchTopic('cryo')">🧊 冰川地震</button>
+            <button class="topic-btn" onclick="switchTopic('das')">📡 DAS 论文</button>
+            <button class="topic-btn" onclick="switchTopic('surface')">🌊 面波论文</button>
+            <button class="topic-btn" onclick="switchTopic('imaging')">🔍 地震成像</button>
+            <button class="topic-btn" onclick="switchTopic('earthquake')">🏠 地震研究</button>
+        </nav>
+
+        <div class="search-section text-center">
+            <p style="color: #666; font-size: 0.9rem;">🔄 每周日自动更新 | 当前查看: <span id="current-topic-name">冰川地震论文</span> | 最后更新: <span id="last-update">-</span></p>
         </div>
 
         <div id="loading" class="loading hidden">
