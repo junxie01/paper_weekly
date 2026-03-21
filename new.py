@@ -12,28 +12,38 @@ from deep_translator import GoogleTranslator
 # ==========================================
 TOPICS = {
     'cryoseismology': {
+        'name': 'Cryoseismology',
         'name_zh': '冰川地震学',
-        'keywords': ['glacier seismology', 'icequake', 'ice shelf collapse', 'iceberg calving', 'glacial seismicity'],
+        'keywords': ['glacier seismology', 'icequake', 'ice shelf collapse', 'iceberg calving',
+                     'glacial seismicity'],
         'file': 'data_cryo.json'
     },
     'das': {
+        'name': 'DAS',
         'name_zh': '分布式光纤传感',
-        'keywords': ['Distributed Acoustic Sensing', 'DAS', 'distributed fiber optic sensing', 'phase-sensitive OTDR', 'fiber optic seismic monitoring'],
+        'keywords': ['Distributed Acoustic Sensing', 'DAS', 'distributed fiber optic sensing',
+                     'phase-sensitive OTDR', 'fiber optic seismic monitoring'],
         'file': 'data_das.json'
     },
     'surface_wave': {
+        'name': 'Surface Wave',
         'name_zh': '面波研究',
-        'keywords': ['surface wave', 'Rayleigh wave', 'Love wave', 'surface wave detection', 'ambient noise interferometry'],
+        'keywords': ['surface wave', 'Rayleigh wave', 'Love wave', 'surface wave detection',
+                     'ambient noise interferometry'],
         'file': 'data_surface.json'
     },
     'imaging': {
+        'name': 'Seismic Imaging',
         'name_zh': '地震成像',
-        'keywords': ['seismic tomography', 'surface wave tomography', 'body wave tomography', 'full waveform inversion', 'seismic imaging'],
+        'keywords': ['seismic tomography', 'surface wave tomography', 'body wave tomography',
+                     'full waveform inversion', 'seismic imaging'],
         'file': 'data_imaging.json'
     },
     'earthquake': {
+        'name': 'Earthquake Research',
         'name_zh': '地震研究',
-        'keywords': ['earthquake source', 'microseismic monitoring', 'focal mechanism', 'source mechanism inversion', 'seismic source location'],
+        'keywords': ['earthquake source', 'microseismic monitoring', 'focal mechanism',
+                     'source mechanism inversion', 'seismic source location'],
         'file': 'data_earthquake.json'
     }
 }
@@ -43,32 +53,31 @@ JOURNALS = [
     'Nature', 'Science', 'Nature Geoscience', 'Science Advances',
     'Journal of Geophysical Research: Solid Earth', 'Geophysical Research Letters',
     'Earth and Planetary Science Letters', 'Geophysical Journal International',
-    'Seismological Research Letters', 'The Cryosphere', 'Bulletin of the Seismological Society of America'
+    'Seismological Research Letters', 'The Cryosphere',
+    'Bulletin of the Seismological Society of America'
 ]
+
 
 def translate_text(text, max_len=2000):
     if not text or len(text) < 10: return "无摘要详情"
     try:
         translator = GoogleTranslator(source='auto', target='zh-CN')
         return translator.translate(text[:max_len])
-    except: return "翻译尝试失败"
+    except:
+        return "翻译尝试失败"
+
 
 def get_author_works(author_name, exclude_doi):
     if not author_name or author_name == "N/A": return []
     try:
         url = f"https://api.crossref.org/works?query.author={urllib.parse.quote(author_name)}&rows=5&sort=is-referenced-by-count"
-        res = requests.get(url, timeout=10).json()
-        items = res.get('message', {}).get('items', [])
-        works = []
-        for it in items:
-            doi = it.get('DOI', '')
-            if doi and doi.lower() != exclude_doi.lower():
-                title = it.get('title', ['No Title'])[0]
-                year = it.get('created', {}).get('date-parts', [[2024]])[0][0]
-                works.append({"title": title, "year": year, "url": f"https://doi.org/{doi}"})
-            if len(works) >= 3: break
-        return works
-    except: return []
+        items = requests.get(url, timeout=10).json().get('message', {}).get('items', [])
+        return [{"title": it['title'][0], "year": it['created']['date-parts'][0][0],
+                 "url": f"https://doi.org/{it['DOI']}"}
+                for it in items if it.get('DOI', '').lower() != exclude_doi.lower()][:3]
+    except:
+        return []
+
 
 def deep_analyze(title, abs_zh):
     """学术深度解析架构"""
@@ -81,84 +90,74 @@ def deep_analyze(title, abs_zh):
         "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
     }
 
-def search_crossref(topic_config, max_results=10):
+
+def search_crossref(topic_config, max_results=8):
     print(f"正在 Crossref 检索 ({topic_config['name_zh']})...")
-    query_str = " ".join(topic_config['keywords'])
+    # 构建关键词 OR 检索
+    query_str = " OR ".join([f'"{k}"' for k in topic_config['keywords']])
+
+    # 构建期刊过滤器
     filters = [f"container-title:{j}" for j in JOURNALS]
     filters.append("type:journal-article")
-    
+
     url = f"https://api.crossref.org/works?query={urllib.parse.quote(query_str)}&filter={','.join(filters)}&sort=published&order=desc&rows={max_results}"
-    
+
     papers = []
     try:
         data = requests.get(url, timeout=30).json()
-        items = data.get('message', {}).get('items', [])
-        for item in items:
-            doi = item.get('DOI', '')
-            if not doi: continue
-            
-            # 安全提取作者信息
+        for item in data.get('message', {}).get('items', []):
+            doi = item.get('DOI')
             authors = item.get('author', [])
-            first_author = "N/A"
-            affiliation = "Seismology Lab"
-            corr_author = "N/A"
-            
-            if authors:
-                fa = authors[0]
-                first_author = f"{fa.get('given', '')} {fa.get('family', '')}".strip() or "N/A"
-                affs = fa.get('affiliation', [])
-                if affs and isinstance(affs, list) and len(affs) > 0:
-                    affiliation = affs[0].get('name', 'Seismology Lab')
-                
-                la = authors[-1]
-                corr_author = f"{la.get('given', '')} {la.get('family', '')}".strip() or "N/A"
+            first_author = f"{authors[0].get('given', '')} {authors[0].get('family', '')}" if authors else "N/A"
+            affiliation = authors[0].get('affiliation', [{}])[0].get('name',
+                                                                     'Seismology Lab') if authors else "N/A"
 
-            # 安全提取出版年份
-            try:
-                date_parts = item.get('created', {}).get('date-parts', [[2024]])
-                published_year = str(date_parts[0][0]) if (date_parts and date_parts[0]) else "2024"
-            except:
-                published_year = "2024"
-
+            # 清洗摘要
             abs_raw = item.get('abstract', 'Published in major journal. Click DOI for details.')
             abs_zh = translate_text(abs_raw.replace('<jats:p>', '').replace('</jats:p>', ''))
 
             papers.append({
-                'id': doi, 'title': item.get('title', ['No Title'])[0], 'url': f"https://doi.org/{doi}",
-                'first_author': first_author, 'corr_author': corr_author,
+                'id': doi, 'title': item.get('title', ['No Title'])[0],
+                'url': f"https://doi.org/{doi}",
+                'first_author': first_author,
+                'corr_author': f"{authors[-1].get('given', '')} {authors[-1].get('family', '')}" if authors else "N/A",
                 'affiliation': affiliation, 'other_works': get_author_works(first_author, doi),
                 'abs_zh': abs_zh, 'analysis': deep_analyze(item.get('title', [''])[0], abs_zh),
-                'source': item.get('container-title', ['Journal'])[0], 
-                'published': published_year
+                'source': item.get('container-title', ['Journal'])[0],
+                'published': str(item.get('created', {}).get('date-parts', [[2024]])[0][0])
             })
-            time.sleep(0.2)
-    except Exception as e: 
+            time.sleep(0.3)
+    except Exception as e:
         print(f"Crossref 出错: {e}")
     return papers
 
+
 def search_arxiv(topic_config, max_results=5):
     print(f"正在 arXiv 检索 ({topic_config['name_zh']})...")
+    # 使用 OR 逻辑构建 arXiv 检索
     query_parts = [f'all:"{k}"' for k in topic_config['keywords']]
     search_query = "+OR+".join(query_parts)
     url = f'http://export.arxiv.org/api/query?search_query={search_query}&sortBy=submittedDate&sortOrder=descending&max_results={max_results}'
-    
+
     papers = []
     try:
-        res = requests.get(url, timeout=30)
-        feed = feedparser.parse(res.content)
+        feed = feedparser.parse(requests.get(url, timeout=30).content)
         for entry in feed.entries:
             pid = entry.id.split('/')[-1]
             first_author = entry.authors[0].name if entry.authors else "N/A"
             abs_zh = translate_text(entry.summary)
             papers.append({
-                'id': pid, 'title': entry.title.replace('\n', ' '), 'url': f"https://arxiv.org/abs/{pid}",
+                'id': pid, 'title': entry.title.replace('\n', ' '),
+                'url': f"https://arxiv.org/abs/{pid}",
                 'first_author': first_author, 'corr_author': "Preprint", 'affiliation': "arXiv",
                 'other_works': get_author_works(first_author, pid), 'abs_zh': abs_zh,
-                'analysis': deep_analyze(entry.title, abs_zh), 'source': 'arXiv', 'published': entry.published[:10]
+                'analysis': deep_analyze(entry.title, abs_zh), 'source': 'arXiv',
+                'published': entry.published[:10]
             })
-    except Exception as e: 
+    except Exception as e:
         print(f"arXiv 出错: {e}")
     return papers
+
 
 if __name__ == "__main__":
     target_dir = 'frontend'
@@ -166,21 +165,16 @@ if __name__ == "__main__":
     update_time = datetime.now().strftime('%Y-%m-%d %H:%M')
 
     for tid, config in TOPICS.items():
-        print(f"\n--- 正在同步专题: {config['name_zh']} ---")
-        # 抓取并合并
-        results = search_crossref(config, 10) + search_arxiv(config, 5)
-        
-        # 去重与日期排序
-        seen = set()
-        unique_results = []
-        for p in results:
-            if p['id'] not in seen:
-                unique_results.append(p)
-                seen.add(p['id'])
-        
-        unique_results.sort(key=lambda x: str(x.get('published', '')), reverse=True)
-        
-        with open(os.path.join(target_dir, config['file']), 'w', encoding='utf-8') as f:
-            json.dump({'last_update': update_time, 'topic_name': config['name_zh'], 'papers': unique_results}, f, ensure_ascii=False, indent=2)
+        print(f"\n--- 正在更新专题: {config['name_zh']} ---")
+        # 合并来自顶级期刊和 arXiv 的结果
+        results = search_crossref(config, 8) + search_arxiv(config, 4)
 
-    print("\n✅ 全球地震学前沿论文（Nature/Science/JGR等）同步完成！")
+        # 按照日期排序
+        results.sort(key=lambda x: str(x.get('published', '')), reverse=True)
+
+        with open(os.path.join(target_dir, config['file']), 'w', encoding='utf-8') as f:
+            json.dump(
+                {'last_update': update_time, 'topic_name': config['name_zh'], 'papers': results}, f,
+                ensure_ascii=False, indent=2)
+
+    print("\n✅ 全球地震学前沿论文同步完成！")

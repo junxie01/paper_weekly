@@ -1,78 +1,546 @@
 {
-  "last_update": "2026-03-20 14:07",
-  "topic_name": "冰川地震论文",
+  "last_update": "2026-03-21 09:54",
+  "topic_name": "冰川地震学",
   "papers": [
     {
-      "id": "2603.19235v1",
-      "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
-      "url": "https://arxiv.org/abs/2603.19235v1",
-      "first_author": "Xianjin Wu",
-      "corr_author": "见原文",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1016/j.epsl.2026.119930",
+      "title": "Triggering mechanisms of dynamic mass loss at a freshwater-calving glacier in southern Patagonia",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119930",
+      "first_author": "Masahiro Minowa",
+      "corr_author": "Shin Sugiyama",
+      "affiliation": "Seismology Lab",
       "other_works": [
         {
-          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
-          "year": 2020,
-          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+          "title": "Iron-Based Layered Superconductor La[O<sub>1-</sub><i><sub>x</sub></i>F<i><sub>x</sub></i>]FeAs (<i>x</i> = 0.05−0.12) with <i>T</i><sub>c</sub> = 26 K",
+          "year": 2008,
+          "url": "https://doi.org/10.1021/ja800073m"
         },
         {
-          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
-          "year": 2015,
-          "url": "https://doi.org/10.1093/nar/gkv007"
+          "title": "Room-temperature fabrication of transparent flexible thin-film transistors using amorphous oxide semiconductors",
+          "year": 2004,
+          "url": "https://doi.org/10.1038/nature03090"
         },
         {
-          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
-          "year": 2020,
-          "url": "https://doi.org/10.1056/nejmoa2001017"
+          "title": "Gefitinib or Carboplatin–Paclitaxel in Pulmonary Adenocarcinoma",
+          "year": 2009,
+          "url": "https://doi.org/10.1056/nejmoa0810699"
         }
       ],
-      "abs_zh": "虽然多模态大语言模型表现出令人印象深刻的语义能力，但它们经常遭受空间盲症，难以应对细粒度的几何推理和物理动力学。现有的解决方案通常依赖于显式 3D 模式或复杂的几何脚手架，而这受到数据稀缺和泛化挑战的限制。在这项工作中，我们通过利用大规模视频生成模型中的隐式空间先验提出了范式转变。我们假设，为了合成时间相干的视频，这些模型本质上学习了强大的 3D 结构先验和物理定律。我们引入了 VEGA-3D（视频提取生成意识），这是一种即插即用框架，可将预先训练的视频扩散模型重新用作潜在世界模拟器。通过从中间噪声水平中提取时空特征，并通过令牌级自适应门控融合机制将它们与语义表示集成，我们在没有显式 3D 监督的情况下用密集的几何线索丰富了 MLLM。 3D 场景理解、空间推理和具体操作基准的广泛实验表明，我们的方法优于最先进的基线，验证生成先验为物理世界理解提供了可扩展的基础。代码可在 https://github.com/H-EmbodVis/VEGA-3D 上公开获取。",
+      "abs_zh": "发表于主要期刊。单击 DOI 了解详细信息。",
       "analysis": {
-        "importance": "该研究极大提升了对复杂地下结构的观测分辨率，对灾害预警和资源勘探具有核心价值。",
-        "prev_research": "传统台站受限于部署成本，难以提供高密度的空间采样；前人研究在处理强环境噪声时往往信噪比不足。",
-        "methodology": "本文采用高密度传感器阵列配合新型特征提取算法，利用实测连续波形数据进行了三维反演。",
-        "innovation": "核心创新点在于提出了一种跨尺度的协同反演架构，成功捕捉到了此前被忽略的微弱信号。",
-        "contribution": "为该领域提供了一套可移植、低成本的高精度监测范式。",
-        "limitation": "对于超大规模数据的处理耗时较长，对硬件算力有一定依赖。"
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
       },
-      "source": "arXiv",
-      "published": "2026-03-19T17:59:58Z"
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19234v1",
-      "title": "Matryoshka Gaussian Splatting",
-      "url": "https://arxiv.org/abs/2603.19234v1",
-      "first_author": "Zhilin Guo",
-      "corr_author": "见原文",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1029/2025gl120181",
+      "title": "Major Melting Event on the Ross Ice Shelf, Antarctica, Connected With Enhanced Atmospheric Turbulence",
+      "url": "https://doi.org/10.1029/2025gl120181",
+      "first_author": "Dhiman R. Mondal",
+      "corr_author": "Scott Paine",
+      "affiliation": "Massachusetts Institute of Technology Haystack Observatory  Westford MA USA",
       "other_works": [
         {
-          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
-          "year": 2020,
-          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+          "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+          "year": 2012,
+          "url": "https://doi.org/10.1016/j.physletb.2012.08.021"
         },
         {
-          "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
-          "year": 2022,
-          "url": "https://doi.org/10.1109/iccv48922.2021.00986"
+          "title": "Global incidence, prevalence, years lived with disability (YLDs), disability-adjusted life-years (DALYs), and healthy life expectancy (HALE) for 371 diseases and injuries in 204 countries and territories and 811 subnational locations, 1990–2021: a systematic analysis for the Global Burden of Disease Study 2021",
+          "year": 2024,
+          "url": "https://doi.org/10.1016/s0140-6736(24)00757-8"
+        },
+        {
+          "title": "Excess placental soluble fms-like tyrosine kinase 1 (sFlt1) may contribute to endothelial dysfunction, hypertension, and proteinuria in preeclampsia",
+          "year": 2008,
+          "url": "https://doi.org/10.1172/jci17189"
+        }
+      ],
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  2016 年 1 月，在南大洋上空输送的温暖潮湿空气的推动下，西南极洲的罗斯冰架 (RIS) 经历了大范围的表面融化。很少有研究报告该地区在这次事件期间大气水蒸气和湍流混合增加，由于地处偏远和极端条件，表面测量的可用性具有挑战性。在这里，我们使用了 2015 年至 2016 年南方夏季部署在 RIS 上的 13 个 GNSS 接收器网络的大气估计。我们估计了整个网络的时空变化结构函数，以量化大气湍流的相对强度，该强度比 RIS 非融化期间的值高出约 4 倍。这一结果进一步支持了冰架融化事件的大气联系。该结果还展示了 GNSS 的一个以前未研究过的新应用，即通过极地对流层的湍流敏感性来融化冰架。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-1405-2026",
+      "title": "The effect of the present-day imbalance on schematic and climate forced simulations of the West Antarctic Ice Sheet collapse",
+      "url": "https://doi.org/10.5194/tc-20-1405-2026",
+      "first_author": "Tim van den Akker",
+      "corr_author": "Roderik S. W. van de Wal",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "The Sequence Alignment/Map format and SAMtools",
+          "year": 2009,
+          "url": "https://doi.org/10.1093/bioinformatics/btp352"
+        },
+        {
+          "title": "Rapid colorimetric assay for cellular growth and survival: Application to proliferation and cytotoxicity assays",
+          "year": 2002,
+          "url": "https://doi.org/10.1016/0022-1759(83)90303-4"
+        },
+        {
+          "title": "Highly accurate protein structure prediction with AlphaFold",
+          "year": 2021,
+          "url": "https://doi.org/10.1038/s41586-021-03819-2"
+        }
+      ],
+      "abs_zh": "抽象的。最近的观测表明，南极洲西部冰盖正在迅速变薄，特别是在其两个最大的出口冰川，松岛冰川和思韦茨冰川，而南极洲东部则保持相对稳定。未来几个世纪的冰盖模型预测给出了一幅复杂的图景，一些受气候模型影响的冰盖模型通过增加表面质量平衡来预测质量增加，而大多数模型通过增加冰排放来预测中度至严重的质量损失。在这项研究中，我们探讨了当前冰厚度变化率对使用社区冰盖模型（CISM）强制未来模拟南极冰盖的影响。我们从阿蒙森海湾 (ASE) 的一系列示意性、均匀的海洋温度扰动开始，以探讨模拟的当前不平衡对海洋变暖的敏感性。然后，我们应用来自 CMIP5 和 CMIP6 系综的五个地球系统模型 (ESM) 生成的七个数据集的海洋和大气强迫来模拟 2015 年至 2500 年的南极冰盖。示意性实验表明存在冰动力极限；在~2100年之前，思韦茨冰川（TG）在这些实验中不会崩塌（即，冰川消融加速，导致大量的接地冰质量损失），且海洋变暖幅度不超过2°。与此同时，崩塌期间来自ASE的全球平均海平面上升（GMSLr）的最大速率随海洋温度线性增加，这表明虽然较早的崩塌时间显示出收益递减，但海平面上升的速率随着更强的强迫而持续加速。在气候强迫下，随着（海洋）变暖程度的加大，包括当前观测到的质量损失率在内的相对重要性会降低，并且随着时间的推移而降低。对于较短时间尺度（直到 2100 年）的东南极冰盖来说，加上目前观测到的质量变化率，使其对全球平均海平面上升的贡献翻倍。在较长的时间尺度（2100-2500）上，效果",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-1363-2026",
+      "title": "A new coastal ice-core site identified in Dronning Maud Land, Antarctica, for high-resolution climate reconstructions to the Last Glacial Maximum",
+      "url": "https://doi.org/10.5194/tc-20-1363-2026",
+      "first_author": "Vikram Goel",
+      "corr_author": "Meloth Thamban",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "Predicting effective microRNA target sites in mammalian mRNAs",
+          "year": 2015,
+          "url": "https://doi.org/10.7554/elife.05005"
+        },
+        {
+          "title": "The SCARE 2020 Guideline: Updating Consensus Surgical CAse REport (SCARE) Guidelines",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/j.ijsu.2020.10.034"
+        },
+        {
+          "title": "Genetic studies of body mass index yield new insights for obesity biology",
+          "year": 2015,
+          "url": "https://doi.org/10.1038/nature14177"
+        }
+      ],
+      "abs_zh": "抽象的。南极冰盖边缘的高分辨率冰芯对于重建南极洲和南大洋的气候历史至关重要。位置稳定且积雪丰富的冰升山顶可能是此类冰芯的理想场所。我们在拉扎列夫冰架东部边缘的东经 16° 处测量了两个冰隆。 Kupol Verbljud (VER) 是崩解前沿的一座岛屿，Kamelryggen (KAM) 是 VER 向陆的一个海角。雷达测量显示 VER 山顶下的冰层厚度为 560 米，KAM 山顶下的冰层厚度为 525 米。在两次冰隆中都观察到了长期稳定的冰川特征，即雷蒙德拱门，但当 VER 的拱门倾斜时，KAM 在其顶峰内呈现出垂直对齐的拱门，表明山顶位置更稳定。我们发现 KAM 的山顶区域更适合长冰芯，因为它的床坡更平缓，冰地层也更简单。从过时的内部反射地平线得出的表面质量平衡显示出近几十年来一致的空间模式。使用一维年龄深度模型，我们将局部冰流视为两种极端情况的组合：发散分流和剪切主导的侧翼流。我们确定这些流态的哪种组合最好地再现了绘制的冰川雷达地层学，并用它来估计冰的年龄。我们得出的结论是，KAM 的顶峰非常适合获得末次盛冰期之后的高分辨率冰芯记录，预计在河床上方 80 米深度处存在约 20 ka 年龄的冰，其分辨率预计为 2.5 a cm−1。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl119840",
+      "title": "Glacier Equilibrium‐Line Altitude Change Across Alaska and Adjacent Canada Indicates a Cold, Dry Little Ice Age and Weaker Aleutian Low",
+      "url": "https://doi.org/10.1029/2025gl119840",
+      "first_author": "L. J. Larocca",
+      "corr_author": "J. L. Carrivick",
+      "affiliation": "School of Ocean Futures Arizona State University  Tempe AZ USA",
+      "other_works": [
+        {
+          "title": "Tumour vascularization via endothelial differentiation of glioblastoma stem-like cells",
+          "year": 2010,
+          "url": "https://doi.org/10.1038/nature09557"
+        },
+        {
+          "title": "Growing knowledge: an overview of Seed Plant diversity in Brazil",
+          "year": 2016,
+          "url": "https://doi.org/10.1590/2175-7860201566411"
+        },
+        {
+          "title": "The prevalence of MS in the United States",
+          "year": 2019,
+          "url": "https://doi.org/10.1212/wnl.0000000000007035"
+        }
+      ],
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  \n                    随着北极变暖加速，了解水文气候变化是预测冰川融化和海平面上升的关键。我们使用遥感和地理信息系统方法，通过量化 215 个阿拉斯加冰川从 LIA 最大值至今（2016 年至 2024 年）平衡线高度 (ΔELA) 的变化，评估了小冰期 (LIA；∼1250 至 1900) 的气候特征。 ELA 上升了 170 ± 8 m，相当于夏季变暖 1.6 ± 0.3°C（假设降雨量恒定）或西经 248 ± 89 毫米。年降水量增加（假设变暖 2.3°C）。后者是自 1950 年以来观测到的降水变化的 4 倍。冰川形态和地形环境解释了 ΔELA 方差的 32%，可能反映了对气候变化和海拔相关变暖的不同敏感性。空间插值 ΔELA 残差与冬季降水的相关性最强（\n                    <jats:斜体>r</jats:斜体>\n                     =−0.67）。结果表明，LIA 的特点是（a）更冷、更干燥的条件和（b）弱的、向西移动的阿留申低压，此后加强并向东移动。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-1087-2026",
+      "title": "Large regional differences in Antarctic ice shelf mass loss from Southern Ocean warming and meltwater feedbacks",
+      "url": "https://doi.org/10.5194/tc-20-1087-2026",
+      "first_author": "Morven Muilwijk",
+      "corr_author": "Xiaoqi Xu",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "Cluster Analysis",
+          "year": 2011,
+          "url": "https://doi.org/10.1002/9780470977811"
+        },
+        {
+          "title": "Global pattern of experienced and anticipated discrimination against people with schizophrenia: a cross-sectional survey",
+          "year": 2009,
+          "url": "https://doi.org/10.1016/s0140-6736(08)61817-6"
+        },
+        {
+          "title": "Estimating the burden of musculoskeletal disorders in the community: the comparative prevalence of symptoms at different anatomical sites, and the relation to social deprivation",
+          "year": 2008,
+          "url": "https://doi.org/10.1136/ard.57.11.649"
+        }
+      ],
+      "abs_zh": "抽象的。南极融水不断释放是全球气候变化最深远但不确定的后果之一。最先进的气候模型中缺乏交互式冰盖，无法直接计算冰-海洋反馈，从而使融水排放的全球和区域后果存在很大的不确定性。本研究利用南极洲南大洋淡水输入 (SOFIA) 计划的结果来评估海洋对 0.1 Sv 融水扰动的响应，并推断 10 个 CMIP6 模型对冰架基底融化的反馈。我们分析了不同大陆架区域融水引起的温度异常，并将其与 SSP5-8.5 变暖引起的异常进行比较。然后，我们使用用新的观测气候学校准的参数化将这些异常转化为基础融化速率，这揭示了无法用南极范围系数捕获的强烈区域融化敏感性。尽管人们普遍认为融水反馈会放大基底融化，但我们的结果表明存在巨大的区域差异，某些区域的冰架质量损失有所增加，但其他区域的基底融化受到抑制。该模型集合表明，大多数东南极地区的大陆架存在变暖反馈，而在西南极洲，大多数模型模拟的是变冷或变暖减弱，这表明存在负反馈。这种区域对比意味着东南极洲可能在未来冰架质量损失中发挥越来越重要的作用。模拟支持现有的假设，将这些不对称的温度响应与强大的区域连通性和陆架断裂动态联系起来，包括南极坡锋增强、南极坡流加速和密集陆架水形成减少。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl118278",
+      "title": "Irreversible Transitions of the Ocean Circulation in Antarctic Ice‐Shelf Cavities",
+      "url": "https://doi.org/10.1029/2025gl118278",
+      "first_author": "Louis Saddier",
+      "corr_author": "Louis‐Alexandre Couston",
+      "affiliation": "ENS de Lyon CNRS LPENSL UMR5672  Lyon France",
+      "other_works": [
+        {
+          "title": "The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)",
+          "year": 2016,
+          "url": "https://doi.org/10.1001/jama.2016.0287"
         },
         {
           "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
           "year": 2019,
           "url": "https://doi.org/10.1038/s41587-019-0209-9"
+        },
+        {
+          "title": "The american rheumatism association 1987 revised criteria for the classification of rheumatoid arthritis",
+          "year": 2007,
+          "url": "https://doi.org/10.1002/art.1780310302"
         }
       ],
-      "abs_zh": "从单一模型以可调保真度渲染场景的能力（称为细节级别 (LoD)）对于 3D 高斯泼溅 (3DGS) 的实际部署至关重要。现有的离散 LoD 方法仅公开一组有限的操作点，而并发连续 LoD 方法可以实现更平滑的扩展，但在满容量时通常会遭受明显的质量下降，从而使 LoD 成为成本高昂的设计决策。我们引入了 Matryoshka Gaussian Splatting (MGS)，这是一种训练框架，可以在不牺牲全容量渲染质量的情况下实现标准 3DGS 管道的连续 LoD。 MGS 学习单个有序高斯集，以便渲染任何前缀（前 k 个图块）产生连贯的重建，其保真度随着预算的增加而平稳提高。我们的关键思想是随机预算训练：每次迭代都会对随机的 splat 预算进行采样，并优化相应的前缀和整个集合。该策略仅需要两次前向传递，并且不引入任何架构修改。跨越四个基准和六个基线的实验表明，MGS 与其主干网的全容量性能相匹配，同时能够在单个模型中实现连续的速度与质量权衡。对订购策略、培训目标和模型容量的广泛消融进一步验证了设计。",
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  南极大陆边缘的冰架经历低或高的基础融化速率，具体取决于当地的冰架条件、海洋环流和冰海空气交换的强度。最近的研究发现了特定冰架空腔中潜在的冷向暖转变，这可能导致海平面上升急剧增加。在这里，我们证明沿海冰间湖中的盐水排斥促进了冰架空腔中的双稳态动力学，否则对于绕极地深水温度的广泛多样性，冰架空腔将是单稳态的。我们开发了一种具有冷热循环模式的通用低维盒子模型，并将其应用于九个冰架空腔。我们发现，大多数冰架空腔处于双稳态，因此容易发生不可逆的突然转变，从而导致海冰形成速率的实际范围。双稳态对于腔参数化的变化具有鲁棒性。然而，可以调整冰架前部的垂直混合方案以使转变可逆。",
       "analysis": {
-        "importance": "该研究极大提升了对复杂地下结构的观测分辨率，对灾害预警和资源勘探具有核心价值。",
-        "prev_research": "传统台站受限于部署成本，难以提供高密度的空间采样；前人研究在处理强环境噪声时往往信噪比不足。",
-        "methodology": "本文采用高密度传感器阵列配合新型特征提取算法，利用实测连续波形数据进行了三维反演。",
-        "innovation": "核心创新点在于提出了一种跨尺度的协同反演架构，成功捕捉到了此前被忽略的微弱信号。",
-        "contribution": "为该领域提供了一套可移植、低成本的高精度监测范式。",
-        "limitation": "对于超大规模数据的处理耗时较长，对硬件算力有一定依赖。"
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-1139-2026",
+      "title": "Hysteresis of the Greenland ice sheet from the Last Glacial Maximum to the future",
+      "url": "https://doi.org/10.5194/tc-20-1139-2026",
+      "first_author": "Lucía Gutiérrez-González",
+      "corr_author": "Marisa Montoya",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "Geant4—a simulation toolkit",
+          "year": 2003,
+          "url": "https://doi.org/10.1016/s0168-9002(03)01368-8"
+        },
+        {
+          "title": "Global burden of 369 diseases and injuries in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30925-9"
+        },
+        {
+          "title": "<i>Planck</i>\n                    2018 results",
+          "year": 2020,
+          "url": "https://doi.org/10.1051/0004-6361/201833910"
+        }
+      ],
+      "abs_zh": "抽象的。格陵兰冰盖（GrIS）近几十年来冰块加速流失，预计将成为下个世纪全球海平面上升的主要原因之一。由于存在控制其质量平衡的正反馈，它被认为是地球系统的一个倾斜因素。其稳定性已在从当今到全球变暖+4°K的温度范围内进行了研究，显示出在较温暖的温度下导致无冰状态的阈值行为。然而，其在较低温度下的稳定性尚未研究。在这里，我们使用冰盖模型 Yelmo 来获得整个冰期-间冰期温度范围内 GrIS 的稳定性图，区域夏季气温相对于现在的异常范围从代表末次盛冰期的气候 (−12 K) 到较温暖的气候 (+4 K)。我们发现滞后现象几乎在整个研究范围内持续存在。与之前的研究一致，在区域夏季气温异常的 +1.2 和 +1.8 K 之间发现了一个临界阈值，与区域能量-水分耦合平衡模型 REMBO 所代表的大气反馈相关。此外，还发现了负温度异常的第二个阈值，这主要是由海洋变暖引起的，海洋变暖引发了GrIS冰川东北部地区的海洋冰盖不稳定。该阈值的存在与上一次冰河周期期间 GrIS 的瞬态研究一致。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adx2124",
+      "title": "Volcanism-induced collapse and recovery of the Atlantic meridional overturning circulation under glacial conditions",
+      "url": "https://doi.org/10.1126/sciadv.adx2124",
+      "first_author": "Guido Vettoretti",
+      "corr_author": "Markus Jochum",
+      "affiliation": "Physics of Ice, Climate and Earth, Niels Bohr Institute, University of Copenhagen, Copenhagen, Denmark.",
+      "other_works": [
+        {
+          "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+          "year": 2009,
+          "url": "https://doi.org/10.1088/0953-8984/21/39/395502"
+        },
+        {
+          "title": "The Hallmarks of Aging",
+          "year": 2013,
+          "url": "https://doi.org/10.1016/j.cell.2013.05.039"
+        },
+        {
+          "title": "The 2016 World Health Organization Classification of Tumors of the Central Nervous System: a summary",
+          "year": 2016,
+          "url": "https://doi.org/10.1007/s00401-016-1545-1"
+        }
+      ],
+      "abs_zh": "火山喷发对不同时间尺度的气候都有相当大的影响；然而，目前仍不确定火山活动是否以及如何驱动数千年来的气候变化。在这里，我们将真实的火山强迫纳入到冰川时代耦合大气-海洋模型模拟的大型集合中。这些模拟受到冰芯硫酸盐记录的限制，这有助于估计过去主要火山喷发的时间。我们研究了末次冰期期间火山喷发如何偶尔引发气候突变。我们的研究结果表明，非常大的赤道喷发可以通过大气和海洋环流变化以及海气浮力通量引起大西洋经向翻转环流的巨大变化，从而可能推动气候系统在持续数千年的持续温暖和寒冷状态之间变化。动力学的简化视角表明，非受迫的自然气候变化如何在火山爆发后数十年发挥稳定影响，特别是当系统接近临界点时。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "2503.12481v1",
+      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
+      "url": "https://arxiv.org/abs/2503.12481v1",
+      "first_author": "T. Clayton",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "The relationship between infrared, optical, and ultraviolet extinction",
+          "year": 2002,
+          "url": "https://doi.org/10.1086/167900"
+        },
+        {
+          "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+          "year": 2018,
+          "url": "https://doi.org/10.1080/20013078.2018.1535750"
+        },
+        {
+          "title": "Köppen's climate classification map for Brazil",
+          "year": 2014,
+          "url": "https://doi.org/10.1127/0941-2948/2013/0507"
+        }
+      ],
+      "abs_zh": "冰川末端的冰山崩解会导致冰盖的质量损失，但使用简单的（基于经验或基本力学的）失效标准通常很难表示相关的断裂力学。在这里，我们提出了一种先进的莫尔-库仑失效准则，该准则基于冰中的粘弹性应力状态来驱动裂纹。该准则在相场断裂框架中实施，并进行有限元模拟以确定可以触发冰崖崩塌的临界条件。结果表明，底部摩擦力可忽略不计的快速移动冰川很容易发生拉伸破坏，导致裂缝传播到远离冰锋的地方；而具有显着底部摩擦力的缓慢移动的冰川可能会在冰锋附近表现出剪切破坏。结果还表明，海水压力在调节悬崖破裂方面发挥着重要作用。对于陆地终止冰川，如果冰川超过临界高度，就会观察到全厚度悬崖破坏，该高度取决于内聚强度 $τ_\\mathrm{c}$（$H \\approx 120\\;\\text{m}$ for $τ_\\mathrm{c}=0.5\\;\\text{MPa}$）。对于海洋终止冰川，如果超过临界冰川干舷（$H-h_\\mathrm{w}$），就会发生冰崖破坏，并且仅在海水高度上方观察到冰塌落；对于 $τ_\\mathrm{c} = 0.5\\;\\text{MPa}$，模型预测的临界干舷为 $H-h_\\mathrm{w} \\approx 215\\;\\text{m}$，这与现场观测结果非常吻合。虽然临界干舷高度比之前一些模型预测的要大，但我们不能得出海洋冰崖不稳定的可能性较小的结论，因为我们不包括其他破坏过程，例如基底裂缝的水力断裂和塑性颈缩。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
       },
       "source": "arXiv",
-      "published": "2026-03-19T17:59:56Z"
+      "published": "2025-03-16"
+    },
+    {
+      "id": "10.1016/j.epsl.2025.119790",
+      "title": "Using rate-and-state friction constitutive laws to predict seismicity rates for ice rifts on the Ross Ice Shelf in Antarctica",
+      "url": "https://doi.org/10.1016/j.epsl.2025.119790",
+      "first_author": "Kathrine Udell-Lopez",
+      "corr_author": "Vedran Lekić",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "Clustal W and Clustal X version 2.0",
+          "year": 2007,
+          "url": "https://doi.org/10.1093/bioinformatics/btm404"
+        },
+        {
+          "title": "The ERA5 global reanalysis",
+          "year": 2020,
+          "url": "https://doi.org/10.1002/qj.3803"
+        },
+        {
+          "title": "A global reference for human genetic variation",
+          "year": 2015,
+          "url": "https://doi.org/10.1038/nature15393"
+        }
+      ],
+      "abs_zh": "发表于主要期刊。单击 DOI 了解详细信息。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Earth and Planetary Science Letters",
+      "published": "2025"
+    },
+    {
+      "id": "2306.08405v1",
+      "title": "A viscoelastic phase-field model for iceberg calving",
+      "url": "https://arxiv.org/abs/2306.08405v1",
+      "first_author": "Jakub Stocek",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/j.jacc.2020.11.010"
+        },
+        {
+          "title": "Global, regional, and national burden of stroke and its risk factors, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019",
+          "year": 2021,
+          "url": "https://doi.org/10.1016/s1474-4422(21)00252-0"
+        },
+        {
+          "title": "Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128·9 million children, adolescents, and adults",
+          "year": 2017,
+          "url": "https://doi.org/10.1016/s0140-6736(17)32129-3"
+        }
+      ],
+      "abs_zh": "冰山崩解约占南极洲每年损失的冰量的一半，但大规模冰盖模型中断裂和崩解的真实表现仍然是冰川学中尚未解决的主要问题。我们提出了一种新的断裂相场粘弹性模型，可以模拟冰的缓慢变形以及裂纹的分布和演化。裂纹随着不断变化的应力场而成核和扩展，并受到海平面以下水压的影响。该模型结合了非线性粘性流变学、线弹性流变学和相场变分公式，可以模拟复杂的断裂现象。我们证明这种方法能够模拟产犊的物理过程。由简化模型支持的数值实验表明，对于跨流没有变化的浮冰前沿，崩解率将与冰厚度的四次方成比例。这些方程没有对产犊方式做出任何假设，因此它们还将模拟南极洲的许多更真实的环境，其中材料参数和三维效应预计会影响产犊率。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2023-06-14"
+    },
+    {
+      "id": "2304.08120v2",
+      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
+      "url": "https://arxiv.org/abs/2304.08120v2",
+      "first_author": "Sacha Lapins",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Estimating psychological networks and their accuracy: A tutorial paper",
+          "year": 2017,
+          "url": "https://doi.org/10.3758/s13428-017-0862-1"
+        },
+        {
+          "title": "<b>qgraph</b>: Network Visualizations of Relationships in Psychometric Data",
+          "year": 2015,
+          "url": "https://doi.org/10.18637/jss.v048.i04"
+        },
+        {
+          "title": "Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048): a randomised, open-label, phase 3 study",
+          "year": 2019,
+          "url": "https://doi.org/10.1016/s0140-6736(19)32591-7"
+        }
+      ],
+      "abs_zh": "本文提出了一种弱监督机器学习方法，我们称之为 DAS-N2N，用于抑制分布式声学传感 (DAS) 记录中的强随机噪声。 DAS-N2N 不需要手动生成标签（即干净事件信号或噪声部分的预定示例）进行训练，旨在将随机噪声过程映射到选定的汇总统计量，例如分布平均值、中值或众数，同时保留真实的基础信号。这是通过将一根光缆内的两根光纤拼接（连接在一起）来实现的，记录同一底层信号的两个噪声副本，该信号被随机观测噪声的不同独立实现所破坏。然后，可以仅使用这两个噪声数据副本来训练深度学习模型，以生成近乎完全去噪的副本。模型训练完成后，只需要来自单根光纤的噪声数据。使用部署在南极洲拉特福德冰流表面的 DAS 阵列的数据集，我们证明 DAS-N2N 可以极大地抑制不相干噪声并提高自然微震冰震事件的信噪比 (SNR)。我们进一步表明，这种方法本质上比标准阻带/通带和白噪声（例如维纳）滤波例程以及基于屏蔽各个 DAS 通道的类似自监督学习方法更加高效和有效。我们针对此任务的首选模型是轻量级的，可在 1 秒内处理 985 个通道（约 1 公里光纤）上以 1000 Hz 采样频率记录的 30 秒数据。由于 DAS 记录中的噪声水平很高，有效的数据驱动降噪方法（例如 DAS-N2N）对于时间关键的 DAS 地震检测至关重要，特别是在微震监测的情况下。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2023-04-17"
+    },
+    {
+      "id": "2209.02366v1",
+      "title": "A stress-based poro-damage phase field model for hydrofracturing of creeping glaciers and ice shelves",
+      "url": "https://arxiv.org/abs/2209.02366v1",
+      "first_author": "T. Clayton",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "The relationship between infrared, optical, and ultraviolet extinction",
+          "year": 2002,
+          "url": "https://doi.org/10.1086/167900"
+        },
+        {
+          "title": "Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines",
+          "year": 2018,
+          "url": "https://doi.org/10.1080/20013078.2018.1535750"
+        },
+        {
+          "title": "Köppen's climate classification map for Brazil",
+          "year": 2014,
+          "url": "https://doi.org/10.1127/0941-2948/2013/0507"
+        }
+      ],
+      "abs_zh": "需要能够预测冰川融水辅助裂缝生长的计算模型。冰川和冰盖的质量损失是海平面上升的最大因素，而水力压裂导致的冰山崩解是最突出但鲜为人知的冰川质量损失过程之一。为了克服经验和分析方法的局限性，我们在这里提出了一种新的基于相场的计算框架来模拟接地冰盖和浮动冰架中的裂缝增长。该模型包含了机械模拟表面和基底裂缝水力压裂所需的三个元素：(i) 结合冰的非线性粘性流变学的本构描述，(ii) 能够捕捉任意复杂程度的裂缝现象（例如 3D 裂缝相互作用）的相场公式，以及 (iii) 孔隙损伤表示，以解释融水压力对裂缝生长的作用。采用基于应力的相场模型来降低长度尺度敏感性，以满足应对大规模冰山崩解的需要，并充分预测不可压缩固体拉应力区域中的裂缝增长。通过处理大量 2D 和 3D 案例研究（涉及单个和多个裂缝）并考虑接地和浮动条件，证明了所提出的计算框架的潜力。所提出的计算框架为冰山崩解建模开辟了新视野，并且由于其能够纳入不可压缩行为，因此可以很容易地将其纳入数字冰盖模型中以预测海平面上升。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2022-08-01"
+    },
+    {
+      "id": "1901.00338v1",
+      "title": "Matrix Approach of Seismic Imaging: Application to the Erebus Volcano, Antarctica",
+      "url": "https://arxiv.org/abs/1901.00338v1",
+      "first_author": "Thibaud Blondel",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Fast unfolding of communities in large networks",
+          "year": 2008,
+          "url": "https://doi.org/10.1088/1742-5468/2008/10/p10008"
+        },
+        {
+          "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+          "year": 2012,
+          "url": "https://doi.org/10.1016/j.physletb.2012.08.020"
+        },
+        {
+          "title": "Reference sequence (RefSeq) database at NCBI: current status, taxonomic expansion, and functional annotation",
+          "year": 2015,
+          "url": "https://doi.org/10.1093/nar/gkv1189"
+        }
+      ],
+      "abs_zh": "地震波的多重散射通常被视为传统偏移技术的噩梦，传统偏移技术通常依赖于弹道或单一散射假设。在火山等异质区域，多重散射的贡献将成像深度限制为一个散射平均自由程，即体波的两个连续散射事件之间的平均距离。在这封信中，我们提出了一种被动地震成像的矩阵方法，通过有效利用淹没在嘈杂的地震尾波中的散射体波来推回这一基本限制。作为概念验证，我们考虑了南极洲埃里伯斯火山的案例。首先通过多次冰震引起的尾波的互相关来检索放置在火山顶部的一组地震检波器之间的格林函数。这组脉冲响应形成反射矩阵。通过将单散射波的矩阵辨别与迭代时间反转相结合，我们能够将多重散射限制推回到 10 个散射平均自由程以上。矩阵方法揭示了埃里伯斯火山的内部结构：浅层的烟囱状结构、2500米处的岩浆库以及海平面及以下的多个洞穴。矩阵方法为大大改进深度火山结构监测铺平了道路。除了这种特定情况之外，地震成像的矩阵方法通常可以应用于体波经历的多次散射事件妨碍对地壳进行深入成像的所有尺度和区域。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2019-01-02"
     }
   ]
 }

@@ -1,303 +1,546 @@
 {
-  "last_update": "2026-03-20 07:28",
-  "topic_name": "地震学成像",
+  "last_update": "2026-03-21 09:54",
+  "topic_name": "地震成像",
   "papers": [
     {
-      "id": "2603.19231v1",
-      "title": "MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction",
-      "abstract": "Reconstructing articulated 3D objects from a single image requires jointly inferring object geometry, part structure, and motion parameters from limited visual evidence. A key difficulty lies in the entanglement between motion cues and object structure, which makes direct articulation regression unstable. Existing methods address this challenge through multi-view supervision, retrieval-based assembly, or auxiliary video generation, often sacrificing scalability or efficiency. We present MonoArt, a unified framework grounded in progressive structural reasoning. Rather than predicting articulation directly from image features, MonoArt progressively transforms visual observations into canonical geometry, structured part representations, and motion-aware embeddings within a single architecture. This structured reasoning process enables stable and interpretable articulation inference without external motion templates or multi-stage pipelines. Extensive experiments on PartNet-Mobility demonstrate that OM achieves state-of-the-art performance in both reconstruction accuracy and inference speed. The framework further generalizes to robotic manipulation and articulated scene reconstruction.",
-      "translated_abstract": "从单个图像重建铰接的 3D 对象需要从有限的视觉证据中联合推断对象几何形状、零件结构和运动参数。一个关键的困难在于运动线索和物体结构之间的纠缠，这使得直接清晰度回归不稳定。现有方法通过多视图监督、基于检索的组装或辅助视频生成来解决这一挑战，但通常会牺牲可扩展性或效率。我们提出了 MonoArt，一个基于渐进结构推理的统一框架。 MonoArt 不是直接根据图像特征预测清晰度，而是逐步将视觉观察转化为单一架构中的规范几何、结构化零件表示和运动感知嵌入。这种结构化推理过程无需外部运动模板或多级管道即可实现稳定且可解释的发音推理。 PartNet-Mobility 上的大量实验表明，OM 在重建精度和推理速度方面都实现了最先进的性能。该框架进一步推广到机器人操作和铰接式场景重建。",
-      "authors": [
-        "Haitian Li",
-        "Haozhe Xie",
-        "Junxiang Xu",
-        "Beichen Wen",
-        "Fangzhou Hong",
-        "Ziwei Liu"
+      "id": "2603.17701v1",
+      "title": "Deep Learning-Based 3D Seismic Velocity Inversion Under Dual-Domain Sparse Representation",
+      "url": "https://arxiv.org/abs/2603.17701v1",
+      "first_author": "Guoxin Chen",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Multiwfn: A multifunctional wavefunction analyzer",
+          "year": 2011,
+          "url": "https://doi.org/10.1002/jcc.22885"
+        },
+        {
+          "title": "XGBoost",
+          "year": 2016,
+          "url": "https://doi.org/10.1145/2939672.2939785"
+        },
+        {
+          "title": "fastp: an ultra-fast all-in-one FASTQ preprocessor",
+          "year": 2018,
+          "url": "https://doi.org/10.1093/bioinformatics/bty560"
+        }
       ],
-      "published": "2026-03-19T17:59:52Z",
-      "updated": "2026-03-19T17:59:52Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Haitian Li"
+      "abs_zh": "三维地震全波形反演（FWI）提供了高保真地下速度模型，但受到计算成本高、非线性强、跳周期和对初始模型严重依赖的限制。尽管数据驱动的深度学习缓解了这些问题，但它仍然会产生过度平滑的结果，物理可解释性有限且效率低。为了解决这些挑战，我们提出了一种使用离散余弦变换（DCT）进行 3D 地震速度反演的双域稀疏深度学习框架。 DCT 将地震数据和速度模型压缩到稀疏域中，以消除冗余，同时保留关键结构特征。采用名为 SEDCN（挤压和激励可变形卷积网络）的几何自适应网络来更好地捕获不规则的盐丘几何形状和尖锐的速度边界。我们在 3D SEG/EAGE 盐模型的 676 个样本上训练和验证网络，并使用两种方案进行比较：提出的 DCT-SEDCN 和不带 DCT 的基线 SEDCN。数值结果表明，与传统时空域方法相比，DCT-SEDCN 减少了 90% 以上的训练时间，并实现了更高的 PSNR 和 SSIM。它有效地抑制了过度平滑，清晰地恢复了盐体边界和地层细节，并生成了地质上更可靠的速度模型。这项研究证实，基于 DCT 的稀疏表示与几何自适应深度学习相结合，显着提高了 3D 地震速度反演的效率、精度和鲁棒性。该框架为大规模 3D FWI 提供了可扩展的解决方案，并且可以扩展到弹性/粘弹性多参数反演和现场数据应用。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2026-03-18"
     },
     {
-      "id": "2603.19226v1",
-      "title": "Under One Sun: Multi-Object Generative Perception of Materials and Illumination",
-      "abstract": "We introduce Multi-Object Generative Perception (MultiGP), a generative inverse rendering method for stochastic sampling of all radiometric constituents -- reflectance, texture, and illumination -- underlying object appearance from a single image. Our key idea to solve this inherently ambiguous radiometric disentanglement is to leverage the fact that while their texture and reflectance may differ, objects in the same scene are all lit by the same illumination. MultiGP exploits this consensus to produce samples of reflectance, texture, and illumination from a single image of known shapes based on four key technical contributions: a cascaded end-to-end architecture that combines image-space and angular-space disentanglement; Coordinated Guidance for diffusion convergence to a single consistent illumination estimate; Axial Attention applied to facilitate ``cross-talk'' between objects of different reflectance; and a Texture Extraction ControlNet to preserve high-frequency texture details while ensuring decoupling from estimated lighting. Experimental results demonstrate that MultiGP effectively leverages the complementary spatial and frequency characteristics of multiple object appearances to recover individual texture and reflectance as well as the common illumination.",
-      "translated_abstract": "我们引入了多对象生成感知 (MultiGP)，这是一种生成逆渲染方法，用于对单个图像中的所有辐射成分（反射率、纹理和照明）进行随机采样，作为基础对象外观。我们解决这种本质上不明确的辐射解缠结的关键想法是利用这样一个事实：虽然它们的纹理和反射率可能不同，但同一场景中的物体都被相同的照明照亮。 MultiGP 利用这一共识，基于四个关键技术贡献，从已知形状的单个图像中生成反射率、纹理和照明的样本：结合图像空间和角度空间解缠结的级联端到端架构；扩散收敛到单一一致照明估计的协调指南；轴向注意力用于促进不同反射率的物体之间的“串扰”；纹理提取 ControlNet 可保留高频纹理细节，同时确保与估计照明的解耦。实验结果表明，MultiGP 有效地利用多个对象外观的互补空间和频率特性来恢复个体纹理和反射率以及共同照明。",
-      "authors": [
-        "Nobuo Yoshii",
-        "Xinran Nicole Han",
-        "Ryo Kawahara",
-        "Todd Zickler",
-        "Ko Nishino"
+      "id": "2603.16393v1",
+      "title": "Robust Physics-Guided Diffusion for Full-Waveform Inversion",
+      "url": "https://arxiv.org/abs/2603.16393v1",
+      "first_author": "Jishen Peng",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Clinical Characteristics of Coronavirus Disease 2019 in China",
+          "year": 2020,
+          "url": "https://doi.org/10.1056/nejmoa2002032"
+        },
+        {
+          "title": "Clinical Characteristics of 138 Hospitalized Patients With 2019 Novel Coronavirus–Infected Pneumonia in Wuhan, China",
+          "year": 2020,
+          "url": "https://doi.org/10.1001/jama.2020.1585"
+        },
+        {
+          "title": "A pneumonia outbreak associated with a new coronavirus of probable bat origin",
+          "year": 2020,
+          "url": "https://doi.org/10.1038/s41586-020-2012-7"
+        }
       ],
-      "published": "2026-03-19T17:59:45Z",
-      "updated": "2026-03-19T17:59:45Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Nobuo Yoshii"
+      "abs_zh": "我们开发了一个用于全波形反演的强大的物理引导扩散框架，该框架将基于分数的生成先验与通过波动方程模拟计算的似然指导相结合。我们采用基于传输的数据一致性潜力（Wasserstein-2），通过有界加权和观测相关归一化结合波场增强，从而提高对幅度不平衡和时间/相位未对准的鲁棒性。在推理方面，我们引入了一种预处理引导反向扩散方案，该方案可以在整个反向时间动态中调整引导强度和空间缩放，从而产生比标准扩散后验采样（DPS）更稳定、更有效的数据一致性引导步骤。 OpenFWI 数据集上的数值实验表明，在可比较的计算预算下，重建质量优于确定性优化基线和标准 DPS。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2026-03-17"
     },
     {
-      "id": "2603.19222v1",
-      "title": "Spectrally-Guided Diffusion Noise Schedules",
-      "abstract": "Denoising diffusion models are widely used for high-quality image and video generation. Their performance depends on noise schedules, which define the distribution of noise levels applied during training and the sequence of noise levels traversed during sampling. Noise schedules are typically handcrafted and require manual tuning across different resolutions. In this work, we propose a principled way to design per-instance noise schedules for pixel diffusion, based on the image's spectral properties. By deriving theoretical bounds on the efficacy of minimum and maximum noise levels, we design ``tight'' noise schedules that eliminate redundant steps. During inference, we propose to conditionally sample such noise schedules. Experiments show that our noise schedules improve generative quality of single-stage pixel diffusion models, particularly in the low-step regime.",
-      "translated_abstract": "去噪扩散模型广泛用于高质量图像和视频生成。它们的性能取决于噪声时间表，噪声时间表定义了训练期间应用的噪声级别的分布以及采样期间遍历的噪声级别的序列。噪声表通常是手工制作的，需要在不同的分辨率下进行手动调整。在这项工作中，我们提出了一种基于图像的光谱特性来设计像素扩散的每个实例噪声表的原则方法。通过推导最小和最大噪声水平功效的理论界限，我们设计了“严格”​​的噪声时间表，消除了冗余步骤。在推理过程中，我们建议对此类噪声表进行条件采样。实验表明，我们的噪声计划提高了单级像素扩散模型的生成质量，特别是在低步状态下。",
-      "authors": [
-        "Carlos Esteves",
-        "Ameesh Makadia"
+      "id": "2603.15354v1",
+      "title": "Conditional Rectified Flow-based End-to-End Rapid Seismic Inversion Method",
+      "url": "https://arxiv.org/abs/2603.15354v1",
+      "first_author": "Haofei Xu",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+        },
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": 2020,
+          "url": "https://doi.org/10.1056/nejmoa2001017"
+        },
+        {
+          "title": "Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30566-3"
+        }
       ],
-      "published": "2026-03-19T17:59:12Z",
-      "updated": "2026-03-19T17:59:12Z",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "first_author": "Carlos Esteves"
+      "abs_zh": "地震反演是地球物理勘探的核心问题，传统方法计算成本高，并且容易受到初始模型依赖性的影响。近年来，基于深层生成模型的地震反演方法取得了显着进展，但现有的生成模型难以平衡采样效率和反演精度。本文提出一种基于条件整流流的端到端快速地震反演方法[1]，该方法设计专用地震编码器提取多尺度地震特征，并采用逐层注入控制策略实现细粒度条件控制。实验结果表明，该方法在OpenFWI[2]基准数据集上取得了良好的反演精度。与Diffusion[3,4]方法相比，实现了采样加速；与InversionNet[5,6,7]方法相比，其生成精度更高。我们在Marmousi[8,9]真实数据上进行的零样本泛化实验进一步验证了该方法的实用价值。实验结果表明，该方法在OpenFWI基准数据集上取得了优异的反演精度；与Diffusion方法相比，实现了采样加速，同时保持了比InversionNet方法更高的精度；基于Marmousi标准模型的实验进一步验证了该方法能够以零射击的方式生成高质量的初速度模型，有效缓解传统全波形反演（FWI）中的初始模型依赖问题，具有工业实用价值。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2026-03-16"
     },
     {
-      "id": "2603.19219v1",
-      "title": "DriveTok: 3D Driving Scene Tokenization for Unified Multi-View Reconstruction and Understanding",
-      "abstract": "With the growing adoption of vision-language-action models and world models in autonomous driving systems, scalable image tokenization becomes crucial as the interface for the visual modality. However, most existing tokenizers are designed for monocular and 2D scenes, leading to inefficiency and inter-view inconsistency when applied to high-resolution multi-view driving scenes. To address this, we propose DriveTok, an efficient 3D driving scene tokenizer for unified multi-view reconstruction and understanding. DriveTok first obtains semantically rich visual features from vision foundation models and then transforms them into the scene tokens with 3D deformable cross-attention. For decoding, we employ a multi-view transformer to reconstruct multi-view features from the scene tokens and use multiple heads to obtain RGB, depth, and semantic reconstructions. We also add a 3D head directly on the scene tokens for 3D semantic occupancy prediction for better spatial awareness. With the multiple training objectives, DriveTok learns unified scene tokens that integrate semantic, geometric, and textural information for efficient multi-view tokenization. Extensive experiments on the widely used nuScenes dataset demonstrate that the scene tokens from DriveTok perform well on image reconstruction, semantic segmentation, depth prediction, and 3D occupancy prediction tasks.",
-      "translated_abstract": "随着自动驾驶系统中越来越多地采用视觉-语言-动作模型和世界模型，可扩展的图像标记化作为视觉模态的接口变得至关重要。然而，大多数现有的分词器都是针对单目和 2D 场景设计的，当应用于高分辨率多视图驾驶场景时，会导致效率低下和视图间不一致。为了解决这个问题，我们提出了 DriveTok，一种高效的 3D 驾驶场景标记器，用于统一的多视图重建和理解。 DriveTok首先从视觉基础模型中获取语义丰富的视觉特征，然后将其转换为具有3D可变形交叉注意力的场景标记。对于解码，我们采用多视图转换器从场景标记中重建多视图特征，并使用多个头来获得 RGB、深度和语义重建。我们还直接在场景标记上添加 3D 头部，以进行 3D 语义占用预测，以实现更好的空间感知。通过多个训练目标，DriveTok 学习统一的场景标记，这些标记集成了语义、几何和纹理信息，以实现高效的多视图标记化。对广泛使用的 nuScenes 数据集进行的大量实验表明，DriveTok 的场景标记在图像重建、语义分割、深度预测和 3D 占用预测任务上表现良好。",
-      "authors": [
-        "Dong Zhuo",
-        "Wenzhao Zheng",
-        "Sicheng Zuo",
-        "Siming Yan",
-        "Lu Hou",
-        "Jie Zhou",
-        "Jiwen Lu"
+      "id": "2603.14879v1",
+      "title": "Seismic full-waveform inversion based on a physics-driven generative adversarial network",
+      "url": "https://arxiv.org/abs/2603.14879v1",
+      "first_author": "Xinyi Zhang",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Deep Residual Learning for Image Recognition",
+          "year": 2016,
+          "url": "https://doi.org/10.1109/cvpr.2016.90"
+        },
+        {
+          "title": "Electric Field Effect in Atomically Thin Carbon Films",
+          "year": 2004,
+          "url": "https://doi.org/10.1126/science.1102896"
+        },
+        {
+          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+        }
       ],
-      "published": "2026-03-19T17:58:22Z",
-      "updated": "2026-03-19T17:58:22Z",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "first_author": "Dong Zhuo"
+      "abs_zh": "目标：全波形反演（FWI）是一种高分辨率地球物理成像技术，通过迭代最小化预测和观测的地震数据之间的失配来重建地下速度模型。然而，在复杂的地质条件下，传统的FWI对初始模型的依赖性很强，当数据稀疏或受到噪声污染时往往会产生不稳定的结果。方法：为了解决这些局限性，本文提出了一种基于物理驱动的生成对抗网络的全波形反演方法。该方法将深度神经网络的数据驱动能力与地震波方程施加的物理约束相结合，并通过判别器采用对抗训练来增强反演结果的稳定性和鲁棒性。结果：在两个具有代表性的基准地质模型上的实验结果表明，该方法能够有效地恢复复杂的速度结构，并在结构相似性（SSIM）和信噪比（SNR）方面取得了优越的性能。结论：该方法为减轻全波形反演中的初始模型依赖性提供了一种有前景的解决方案，并显示出巨大的实际应用潜力。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2026-03-16"
     },
     {
-      "id": "2603.19209v1",
-      "title": "Do VLMs Need Vision Transformers? Evaluating State Space Models as Vision Encoders",
-      "abstract": "Large vision--language models (VLMs) often use a frozen vision backbone, whose image features are mapped into a large language model through a lightweight connector. While transformer-based encoders are the standard visual backbone, we ask whether state space model (SSM) vision backbones can be a strong alternative. We systematically evaluate SSM vision backbones for VLMs in a controlled setting. Under matched ImageNet-1K initialization, the SSM backbone achieves the strongest overall performance across both VQA and grounding/localization. We further adapt both SSM and ViT-family backbones with detection or segmentation training and find that dense-task tuning generally improves performance across families; after this adaptation, the SSM backbone remains competitive while operating at a substantially smaller model scale. We further observe that (i) higher ImageNet accuracy or larger backbones do not reliably translate into better VLM performance, and (ii) some visual backbones are unstable in localization. Based on these findings, we propose stabilization strategies that improve robustness for both backbone families and highlight SSM backbones as a strong alternative to transformer-based vision encoders in VLMs.",
-      "translated_abstract": "大视觉语言模型（VLM）通常使用冻结视觉主干，其图像特征通过轻量级连接器映射到大语言模型中。虽然基于 Transformer 的编码器是标准的视觉主干，但我们询问状态空间模型 (SSM) 视觉主干是否可以成为一个强大的替代方案。我们在受控环境中系统地评估 VLM 的 SSM 视觉主干。在匹配的 ImageNet-1K 初始化下，SSM 主干在 VQA 和接地/定位方面实现了最强的整体性能。我们进一步通过检测或分割训练来调整 SSM 和 ViT 系列骨干网，并发现密集任务调整通常可以提高跨系列的性能；经过这次调整后，SSM 主干网在模型规模小得多的情况下运行时仍保持竞争力。我们进一步观察到 (i) 更高的 ImageNet 精度或更大的主干网并不能可靠地转化为更好的 VLM 性能，以及 (ii) 一些视觉主干网在定位中不稳定。基于这些发现，我们提出了稳定策略，可以提高两个主干系列的鲁棒性，并强调 SSM 主干作为 VLM 中基于变压器的视觉编码器的强大替代品。",
-      "authors": [
-        "Shang-Jui Ray Kuo",
-        "Paola Cascante-Bonilla"
+      "id": "2603.14284v2",
+      "title": "High-Fidelity Compression of Seismic Velocity Models via SIREN Auto-Decoders",
+      "url": "https://arxiv.org/abs/2603.14284v2",
+      "first_author": "Caiyun Liu",
+      "corr_author": "Preprint",
+      "affiliation": "arXiv",
+      "other_works": [
+        {
+          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+        },
+        {
+          "title": "Going deeper with convolutions",
+          "year": 2015,
+          "url": "https://doi.org/10.1109/cvpr.2015.7298594"
+        },
+        {
+          "title": "Densely Connected Convolutional Networks",
+          "year": 2017,
+          "url": "https://doi.org/10.1109/cvpr.2017.243"
+        }
       ],
-      "published": "2026-03-19T17:56:32Z",
-      "updated": "2026-03-19T17:56:32Z",
-      "categories": [
-        "cs.CV",
-        "cs.LG"
-      ],
-      "first_author": "Shang-Jui Ray Kuo"
+      "abs_zh": "隐式神经表示（INR）已成为独立于网格分辨率表示连续信号的强大范例。在本文中，我们提出了一种基于 SIREN（正弦表示网络）自动解码器的高保真神经压缩框架，用于表示来自 OpenFWI 基准的多结构地震速度模型。我们的方法将每个 70x70 速度图（4,900 个点）压缩为紧凑的 256 维潜在向量，实现 19:1 的压缩比。我们评估了五个不同地质族的 1,000 个样本的框架：FlatVel、CurveVel、FlatFault、CurveFault 和 Style。实验结果表明，平均 PSNR 为 32.47 dB，SSIM 为 0.956，表明重建质量很高。此外，我们展示了隐式表示的两个关键优势：（1）平滑的潜在空间插值，可生成合理的中间速度结构；（2）零样本超分辨率能力，可在高达 280x280 的任意分辨率下重建速度场，无需额外训练。结果凸显了基于 INR 的自动解码器在高效存储、多尺度分析和下游地球物理应用（例如全波形反演）方面的潜力。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "arXiv",
+      "published": "2026-03-15"
     },
     {
-      "id": "2603.19206v1",
-      "title": "RPiAE: A Representation-Pivoted Autoencoder Enhancing Both Image Generation and Editing",
-      "abstract": "Diffusion models have become the dominant paradigm for image generation and editing, with latent diffusion models shifting denoising to a compact latent space for efficiency and scalability. Recent attempts to leverage pretrained visual representation models as tokenizer priors either align diffusion features to representation features or directly reuse representation encoders as frozen tokenizers. Although such approaches can improve generation metrics, they often suffer from limited reconstruction fidelity due to frozen encoders, which in turn degrades editing quality, as well as overly high-dimensional latents that make diffusion modeling difficult. To address these limitations, We propose Representation-Pivoted AutoEncoder, a representation-based tokenizer that improves both generation and editing. We introduce Representation-Pivot Regularization, a training strategy that enables a representation-initialized encoder to be fine-tuned for reconstruction while preserving the semantic structure of the pretrained representation space, followed by a variational bridge which compress latent space into a compact one for better diffusion modeling. We adopt an objective-decoupled stage-wise training strategy that sequentially optimizes generative tractability and reconstruction-fidelity objectives. Together, these components yield a tokenizer that preserves strong semantics, reconstructs faithfully, and produces latents with reduced diffusion modeling complexity. Experiments demonstrate that RPiAE outperforms other visual tokenizers on text-to-image generation and image editing, while delivering the best reconstruction fidelity among representation-based tokenizers.",
-      "translated_abstract": "扩散模型已成为图像生成和编辑的主导范例，潜在扩散模型将去噪转移到紧凑的潜在空间，以提高效率和可扩展性。最近尝试利用预训练的视觉表示模型作为分词器先验，将扩散特征与表示特征对齐，或者直接重用表示编码器作为冻结分词器。尽管此类方法可以改善生成指标，但由于编码器冻结，它们通常会受到有限的重建保真度的影响，这反过来又会降低编辑质量，并且潜在维度过高，使扩散建模变得困难。为了解决这些限制，我们提出了 Representation-Pivoted AutoEncoder，这是一种基于表示的分词器，可以改进生成和编辑。我们引入了表示枢轴正则化，这是一种训练策略，可以对表示初始化的编码器进行微调以进行重建，同时保留预训练表示空间的语义结构，然后是一个变分桥，将潜在空间压缩为紧凑的空间，以实现更好的扩散建模。我们采用目标解耦的分阶段训练策略，依次优化生成可处理性和重建保真度目标。这些组件共同产生了一个分词器，它保留了强大的语义，忠实地重建，并以降低的扩散建模复杂性产生潜在的。实验恶魔",
-      "authors": [
-        "Yue Gong",
-        "Hongyu Li",
-        "Shanyuan Liu",
-        "Bo Cheng",
-        "Yuhang Ma",
-        "Liebucha Wu",
-        "Xiaoyu Wu",
-        "Manyuan Zhang",
-        "Dawei Leng",
-        "Yuhui Yin",
-        "Lijun Zhang"
+      "id": "10.1016/j.epsl.2026.119933",
+      "title": "Implications of long lasting post-seismic deformation following the 2005 Mw 7.6 Kashmir earthquake inferred from GNSS &amp; InSAR data",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119933",
+      "first_author": "Pauline Meyer",
+      "corr_author": "Adnan Alam Awan",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "Highly accurate protein structure prediction with AlphaFold",
+          "year": 2021,
+          "url": "https://doi.org/10.1038/s41586-021-03819-2"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": 2019,
+          "url": "https://doi.org/10.1038/s41587-019-0209-9"
+        },
+        {
+          "title": "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+          "year": 2002,
+          "url": "https://doi.org/10.1086/226550"
+        }
       ],
-      "published": "2026-03-19T17:54:43Z",
-      "updated": "2026-03-19T17:54:43Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Yue Gong"
+      "abs_zh": "发表于主要期刊。单击 DOI 了解详细信息。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19203v1",
-      "title": "Tinted Frames: Question Framing Blinds Vision-Language Models",
-      "abstract": "Vision-Language Models (VLMs) have been shown to be blind, often underutilizing their visual inputs even on tasks that require visual reasoning. In this work, we demonstrate that VLMs are selectively blind. They modulate the amount of attention applied to visual inputs based on linguistic framing even when alternative framings demand identical visual reasoning. Using visual attention as a probe, we quantify how framing alters both the amount and distribution of attention over the image. Constrained framings, such as multiple choice and yes/no, induce substantially lower attention to image context compared to open-ended, reduce focus on task-relevant regions, and shift attention towards uninformative tokens. We further demonstrate that this attention misallocation is the principal cause of degraded accuracy and cross-framing inconsistency. Building on this mechanistic insight, we introduce a lightweight prompt-tuning method using learnable tokens that encourages the robust, visually grounded attention patterns observed in open-ended settings, improving visual grounding and improving performance across framings.",
-      "translated_abstract": "视觉语言模型 (VLM) 已被证明是盲目的，即使在需要视觉推理的任务中也经常未充分利用其视觉输入。在这项工作中，我们证明了 VLM 是选择性盲的。即使替代框架需要相同的视觉推理，它们也会根据语言框架调节应用于视觉输入的注意力量。使用视觉注意力作为探针，我们量化取景如何改变图像上注意力的数量和分布。与开放式相比，受限框架（例如多项选择和是/否）会大大降低对图像上下文的关注，减少对任务相关区域的关注，并将注意力转移到无信息的标记上。我们进一步证明，这种注意力错配是准确性下降和跨框架不一致的主要原因。基于这种机械洞察力，我们引入了一种使用可学习标记的轻量级提示调整方法，该方法鼓励在开放式环境中观察到的强大的、基于视觉的注意力模式，从而改善视觉基础并提高跨框架的性能。",
-      "authors": [
-        "Wan-Cyuan Fan",
-        "Jiayun Luo",
-        "Declan Kutscher",
-        "Leonid Sigal",
-        "Ritwik Gupta"
+      "id": "10.1016/j.epsl.2026.119858",
+      "title": "Zircon deformation features reveal sequence of transient high stress, tension and shearing during seismic faulting: A case study from the Ivrea-Verbano Zone, Italy",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119858",
+      "first_author": "Sandra Piazolo",
+      "corr_author": "Antonio Langone",
+      "affiliation": "Seismology Lab",
+      "other_works": [
+        {
+          "title": "RoB 2: a revised tool for assessing risk of bias in randomised trials",
+          "year": 2019,
+          "url": "https://doi.org/10.1136/bmj.l4898"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": 2002,
+          "url": "https://doi.org/10.1038/35057062"
+        },
+        {
+          "title": "SARS-CoV-2 Cell Entry Depends on ACE2 and TMPRSS2 and Is Blocked by a Clinically Proven Protease Inhibitor",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/j.cell.2020.02.052"
+        }
       ],
-      "published": "2026-03-19T17:53:09Z",
-      "updated": "2026-03-19T17:53:09Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Wan-Cyuan Fan"
+      "abs_zh": "发表于主要期刊。单击 DOI 了解详细信息。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19200v1",
-      "title": "Measurement-Induced Quantum Neural Network",
-      "abstract": "We introduce a measurement-induced quantum neural network (MINN), an adaptive monitored-circuit architecture in which mid-circuit measurement outcomes determine the entangling gates in subsequent layers. In contrast to standard monitored circuits where sites and gates are sampled randomly, the gates are parametrized and variational, producing correlated history-dependent dynamics and injecting nonlinearity through measurement back-action. A generic MINN is not expected to be efficiently classically simulable. To demonstrate feasibility, we study a matchgate MINN that admits exact fermionic simulation and can be trained with gradient estimators. We apply the architecture to continuous optimization, image classification, and ground-state search in the Sherrington-Kirkpatrick spin glass, finding effective training and performance over a broad range of monitoring rates.",
-      "translated_abstract": "我们引入了测量诱发的量子神经网络（MINN），这是一种自适应监控电路架构，其中中间电路测量结果决定后续层中的纠缠门。与随机采样站点和门的标准监控电路相比，门是参数化和变分的，产生相关的历史相关动态并通过测量反作用注入非线性。通用 MINN 预计无法进行有效的经典模拟。为了证明可行性，我们研究了一个匹配门 MINN，它允许精确的费米子模拟，并且可以使用梯度估计器进行训练。我们将该架构应用于 Sherrington-Kirkpatrick 自旋玻璃中的连续优化、图像分类和基态搜索，在广泛的监测速率下找到有效的训练和性能。",
-      "authors": [
-        "Paul Argyle",
-        "Djamil Lakhdar-Hamina",
-        "Sarah H. Miller",
-        "Victor Galitski"
+      "id": "10.1029/2025gl120455",
+      "title": "Monitoring Near‐Surface Changes Using Anthropogenic Seismic Vibrations",
+      "url": "https://doi.org/10.1029/2025gl120455",
+      "first_author": "Sayan Mukherjee",
+      "corr_author": "Heng Zhang",
+      "affiliation": "Purdue University  West Lafayette IN USA",
+      "other_works": [
+        {
+          "title": "Gene set enrichment analysis: A knowledge-based approach for interpreting genome-wide expression profiles",
+          "year": 2005,
+          "url": "https://doi.org/10.1073/pnas.0506580102"
+        },
+        {
+          "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+          "year": 2016,
+          "url": "https://doi.org/10.1103/physrevlett.116.061102"
+        },
+        {
+          "title": "How to conduct a bibliometric analysis: An overview and guidelines",
+          "year": 2021,
+          "url": "https://doi.org/10.1016/j.jbusres.2021.04.070"
+        }
       ],
-      "published": "2026-03-19T17:52:14Z",
-      "updated": "2026-03-19T17:52:14Z",
-      "categories": [
-        "quant-ph"
-      ],
-      "first_author": "Paul Argyle"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  丰富的人为地震噪声为监测动态地下属性变化提供了宝贵的资源。我们利用地震检波器阵列记录的铁路和风力涡轮机引起的振动来估计伊利诺伊州底层冰川沉积物中的表面波衰减和速度。在 12 个月的监测期内，衰减 () 变化范围为 ，表明对环境变化的敏感性比速度（变化范围为 ）更强。我们观察到，通常在强降雨之后，衰减会急剧增加，而在大量抽取地下水进行灌溉期间，衰减会迅速下降。这些发现表明，从持续的人为噪声源测量的地震衰减为连续的近地表水文过程提供了稳健、高灵敏度和高时间分辨率的代理，与传统的基于地震速度的方法相补充。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19193v1",
-      "title": "Reconstruction Matters: Learning Geometry-Aligned BEV Representation through 3D Gaussian Splatting",
-      "abstract": "Bird's-Eye-View (BEV) perception serves as a cornerstone for autonomous driving, offering a unified spatial representation that fuses surrounding-view images to enable reasoning for various downstream tasks, such as semantic segmentation, 3D object detection, and motion prediction. However, most existing BEV perception frameworks adopt an end-to-end training paradigm, where image features are directly transformed into the BEV space and optimized solely through downstream task supervision. This formulation treats the entire perception process as a black box, often lacking explicit 3D geometric understanding and interpretability, leading to suboptimal performance. In this paper, we claim that an explicit 3D representation matters for accurate BEV perception, and we propose Splat2BEV, a Gaussian Splatting-assisted framework for BEV tasks. Splat2BEV aims to learn BEV feature representations that are both semantically rich and geometrically precise. We first pre-train a Gaussian generator that explicitly reconstructs 3D scenes from multi-view inputs, enabling the generation of geometry-aligned feature representations. These representations are then projected into the BEV space to serve as inputs for downstream tasks. Extensive experiments on nuScenes and argoverse dataset demonstrate that Splat2BEV achieves state-of-the-art performance and validate the effectiveness of incorporating explicit 3D reconstruction into BEV perception.",
-      "translated_abstract": "鸟瞰 (BEV) 感知是自动驾驶的基石，提供统一的空间表示，融合周围视图图像，从而支持各种下游任务的推理，例如语义分割、3D 对象检测和运动预测。然而，大多数现有的 BEV 感知框架采用端到端训练范例，其中图像特征直接转换到 BEV 空间，并仅通过下游任务监督进行优化。该公式将整个感知过程视为黑匣子，通常缺乏明确的 3D 几何理解和可解释性，从而导致性能不佳。在本文中，我们声称明确的 3D 表示对于准确的 BEV 感知很重要，并且我们提出了 Splat2BEV，一种用于 BEV 任务的高斯 Splatting 辅助框架。 Splat2BEV 旨在学习语义丰富且几何精确的 BEV 特征表示。我们首先预训练一个高斯生成器，它可以根据多视图输入显式重建 3D 场景，从而生成几何对齐的特征表示。然后，这些表示被投影到 BEV 空间中，作为下游任务的输入。在 nuScenes 和 argoverse 数据集上进行的大量实验表明，Splat2BEV 实现了最先进的性能，并验证了将显式 3D 重建纳入 BEV 感知的有效性。",
-      "authors": [
-        "Yiren Lu",
-        "Xin Ye",
-        "Burhaneddin Yaman",
-        "Jingru Luo",
-        "Zhexiao Xiong",
-        "Liu Ren",
-        "Yu Yin"
+      "id": "10.1093/gji/ggag106",
+      "title": "Dynamic Lattice Method for Elastic Wave Simulation in 3-dimensional Arbitrary Anisotropic Media",
+      "url": "https://doi.org/10.1093/gji/ggag106",
+      "first_author": "Xiaolin Hu",
+      "corr_author": "Xiaofeng Jia",
+      "affiliation": "State Key Laboratory of Precision Geodesy, School of Earth and Space Sciences, University of Science and Technology of China , Hefei 230026 ,",
+      "other_works": [
+        {
+          "title": "Cutoff criteria for fit indexes in covariance structure analysis: Conventional criteria versus new alternatives",
+          "year": 2009,
+          "url": "https://doi.org/10.1080/10705519909540118"
+        },
+        {
+          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+        },
+        {
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": 2015,
+          "url": "https://doi.org/10.1093/nar/gkv007"
+        }
       ],
-      "published": "2026-03-19T17:49:43Z",
-      "updated": "2026-03-19T17:49:43Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Yiren Lu"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  模拟地质材料的行为是地球物理研究的一个基本目标。为了实现这一目标，针对不同场景开发了各种模型。虽然最常用的是基于连续介质力学的连续介质模型，但也开发了离散元模型和晶格模型等非连续介质方法来解决地质材料固有的普遍不连续性。然而，现有的非连续介质模型主要局限于各向同性条件，极大地限制了它们的适用性。本研究提出的动态晶格方法旨在克服这一局限性。通过根据晶格键的空间方向独立地分配弹性属性，我们成功地将各向异性引入三维晶格模型中。晶格模型参数与其连续体对应物之间的线性关系是根据弹性性质建立的。这种先进的三维晶格模型已有效地应用于任意各向异性介质中的弹性地震波模拟。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Journal International",
+      "published": "2026"
     },
     {
-      "id": "2603.19187v1",
-      "title": "GenMFSR: Generative Multi-Frame Image Restoration and Super-Resolution",
-      "abstract": "Camera pipelines receive raw Bayer-format frames that need to be denoised, demosaiced, and often super-resolved. Multiple frames are captured to utilize natural hand tremors and enhance resolution. Multi-frame super-resolution is therefore a fundamental problem in camera pipelines. Existing adversarial methods are constrained by the quality of ground truth. We propose GenMFSR, the first Generative Multi-Frame Raw-to-RGB Super Resolution pipeline, that incorporates image priors from foundation models to obtain sub-pixel information for camera ISP applications. GenMFSR can align multiple raw frames, unlike existing single-frame super-resolution methods, and we propose a loss term that restricts generation to high-frequency regions in the raw domain, thus preventing low-frequency artifacts.",
-      "translated_abstract": "相机管道接收原始拜耳格式帧，这些帧需要去噪、去马赛克，并且通常需要超分辨率。捕获多帧以利用自然手颤并提高分辨率。因此，多帧超分辨率是相机管线中的一个基本问题。现有的对抗方法受到基本事实质量的限制。我们提出了 GenMFSR，第一个生成多帧原始到 RGB 超分辨率管道，它结合了基础模型的图像先验，为相机 ISP 应用程序获取子像素信息。与现有的单帧超分辨率方法不同，GenMFSR 可以对齐多个原始帧，并且我们提出了一个损失项，将生成限制在原始域中的高频区域，从而防止低频伪影。",
-      "authors": [
-        "Harshana Weligampola",
-        "Joshua Peter Ebenezer",
-        "Weidi Liu",
-        "Abhinau K. Venkataramanan",
-        "Sreenithy Chandran",
-        "Seok-Jun Lee",
-        "Hamid Rahim Sheikh"
+      "id": "10.1093/gji/ggag111",
+      "title": "Seismic attenuation and scattering tomography reveal lithospheric complexity and fluid signatures across the Southern Apennines – Northern Calabrian boundary (South Italy)",
+      "url": "https://doi.org/10.1093/gji/ggag111",
+      "first_author": "Malik Adam Alddoum Adam",
+      "corr_author": "Luca De Siena",
+      "affiliation": "Physical Sciences and Earth Sciences, University of Messina Department of Mathematical and Computer Sciences, ,",
+      "other_works": [
+        {
+          "title": "Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation",
+          "year": 2014,
+          "url": "https://doi.org/10.1109/cvpr.2014.81"
+        },
+        {
+          "title": "Reproducible, interactive, scalable and extensible microbiome data science using QIIME 2",
+          "year": 2019,
+          "url": "https://doi.org/10.1038/s41587-019-0209-9"
+        },
+        {
+          "title": "Initial sequencing and analysis of the human genome",
+          "year": 2002,
+          "url": "https://doi.org/10.1038/35057062"
+        }
       ],
-      "published": "2026-03-19T17:43:16Z",
-      "updated": "2026-03-19T17:43:16Z",
-      "categories": [
-        "eess.IV"
-      ],
-      "first_author": "Harshana Weligampola"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  南亚平宁山脉-北卡拉布里亚边界是一个岩性非均质性、地球动力学和构造复杂、容易发生重大地震灾害的地区。该区域是复杂地球动力学系统的一部分，非洲-欧亚大陆交汇、爱奥尼亚俯冲和板片后退并存。其结构和地震活动源自广泛的岩石圈非均质性和与流体相关的过程，而这两者都受到很弱的约束。在这里，我们提出了该地区地震衰减和散射断层扫描在区域尺度上的新颖应用。我们使用 2004 年至 2024 年间发生的 32 个台站记录的 1581 个与 95 M ≥ 3.0 级地震相关的波形数据集估计了南亚平宁山脉 - 北卡拉布里亚地区的地震波衰减和散射。我们通过绘制 P 波峰值延迟和反演尾波归一化能量以获得总衰减 (1/Q)，限制了南亚平宁山脉 - 北卡拉布里亚地区的非均质特性和流体饱和度。结果一致揭示了两个域之间不同的地震能量耗散机制，反映了它们在峰值延迟和衰减模式方面的不同特征。南亚平宁山脉在所有深度都表现出较高的峰值延迟值，并且几乎没有显着的总衰减异常，这与弱固结、断裂的沉积层序和有限的流体含量相一致。然而，在 5.4 公里的深度，可以检测到相对较高的衰减模式，这可能与存在粘性较低和潜在流体饱和的单元有关。相反，北卡拉布里亚在研究的深度范围内显示出低峰值延迟和高衰减，反映了波通过具有显着流体循环的连贯结晶岩石传播，可能受到超压材料或活跃迁移路径的青睐。高衰减之间的空间相关性，",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Journal International",
+      "published": "2026"
     },
     {
-      "id": "2603.19169v1",
-      "title": "ARIADNE: A Perception-Reasoning Synergy Framework for Trustworthy Coronary Angiography Analysis",
-      "abstract": "Conventional pixel-wise loss functions fail to enforce topological constraints in coronary vessel segmentation, producing fragmented vascular trees despite high pixel-level accuracy. We present ARIADNE, a two-stage framework coupling preference-aligned perception with RL-based diagnostic reasoning for topologically coherent stenosis detection. The perception module employs DPO to fine-tune the Sa2VA vision-language foundation model using Betti number constraints as preference signals, aligning the policy toward geometrically complete vessel structures rather than pixel-wise overlap metrics. The reasoning module formulates stenosis localization as a Markov Decision Process with an explicit rejection mechanism that autonomously defers ambiguous anatomical candidates such as bifurcations and vessel crossings, shifting from coverage maximization to reliability optimization. On 1,400 clinical angiograms, ARIADNE achieves state-of-the-art centerline Dice of 0.838, reduces false positives by 41% compared to geometric baselines. External validation on multi-center benchmarks ARCADE and XCAD confirms generalization across acquisition protocols. This represents the first application of DPO for topological alignment in medical imaging, demonstrating that preference-based learning over structural constraints mitigates topological violations while maintaining diagnostic sensitivity in interventional cardiology workflows.",
-      "translated_abstract": "传统的像素级损失函数无法在冠状血管分割中强制实施拓扑约束，尽管像素级精度很高，但仍会产生支离破碎的血管树。我们提出了 ARIADNE，一个两阶段框架，将偏好对齐感知与基于 RL 的诊断推理相结合，用于拓扑相干的狭窄检测。感知模块采用 DPO 来微调 Sa2VA 视觉语言基础模型，使用 Betti 数约束作为偏好信号，将策略调整为几何完整的血管结构，而不是像素级的重叠度量。推理模块将狭窄定位制定为马尔可夫决策过程，具有明确的拒绝机制，可自主推迟不明确的解剖候选对象，例如分叉和血管交叉，从覆盖最大化转向可靠性优化。在 1,400 张临床血管造影照片中，ARIADNE 实现了最先进的中心线 Dice 0.838，与几何基线相比，误报率降低了 41%。多中心基准 ARCADE 和 XCAD 的外部验证证实了跨采集协议的通用性。这代表了 DPO 在医学成像中拓扑对齐的首次应用，表明基于偏好的结构约束学习可以减轻拓扑违规，同时保持介入心脏病学工作流程中的诊断灵敏度。",
-      "authors": [
-        "Zhan Jin",
-        "Yu Luo",
-        "Yizhou Zhang",
-        "Ziyang Cui",
-        "Yuqing Wei",
-        "Xianchao Liu",
-        "Xueying Zeng",
-        "Qing Zhang"
+      "id": "10.1785/0220250167",
+      "title": "SEED-Vault: A New Software Package for Browsing, Downloading, and Archiving Continuous and Event-Based Seismic Data via FDSN",
+      "url": "https://doi.org/10.1785/0220250167",
+      "first_author": "Robert Pickle",
+      "corr_author": "Yunlong Li",
+      "affiliation": "1Research School of Earth Sciences, Australian National University, Acton, Australia",
+      "other_works": [
+        {
+          "title": "Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density",
+          "year": 2002,
+          "url": "https://doi.org/10.1103/physrevb.37.785"
+        },
+        {
+          "title": "Hallmarks of Cancer: The Next Generation",
+          "year": 2011,
+          "url": "https://doi.org/10.1016/j.cell.2011.02.013"
+        },
+        {
+          "title": "Research electronic data capture (REDCap)—A metadata-driven methodology and workflow process for providing translational research informatics support",
+          "year": 2008,
+          "url": "https://doi.org/10.1016/j.jbi.2008.08.010"
+        }
       ],
-      "published": "2026-03-19T17:25:19Z",
-      "updated": "2026-03-19T17:25:19Z",
-      "categories": [
-        "cs.CV",
-        "cs.AI"
-      ],
-      "first_author": "Zhan Jin"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  我们推出了 SEED-Vault，这是一种新的开源软件包，可促进从国际数字地震仪网络联合会 (FDSN) 服务器下载和存档地震数据。该代码围绕 ObsPy 包构建，并在大多数当前软件的基础上进行了扩展，允许用户在地震学的三种常见工作流程之间进行选择，此外还为大型或重复的归档任务提供简单的图形用户界面 (GUI) 和可编写脚本的命令行界面 (CLI)。 GUI 在网络浏览器中运行，提供简单的跨平台兼容性，可以快速浏览事件、台站和地震到达，以及下载 BibTeX 格式的元数据、波形数据、网络参考和 DOI。该代码还可以通过 CLI 运行来处理大型或自动化请求，这使得新手和高级用户都可以轻松下载大型数据集，并使本地存档与远程 FDSN 服务器保持同步。下载的数据由 SQLite 数据库存储和交叉引用，以确保请求经过定制和组合，以避免不必要或重复的下载。该代码（可通过 PyPI 作为“seed-vault”获得）仍在积极开发中，目前版本为 1.1.0，这是其第 12 个版本。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19158v1",
-      "title": "Adaptive Auxiliary Prompt Blending for Target-Faithful Diffusion Generation",
-      "abstract": "Diffusion-based text-to-image (T2I) models have made remarkable progress in generating photorealistic and semantically rich images. However, when the target concepts lie in low-density regions of the training distribution, these models often produce semantically misaligned or structurally inconsistent results. This limitation arises from the long-tailed nature of text-image datasets, where rare concepts or editing instructions are underrepresented. To address this, we introduce Adaptive Auxiliary Prompt Blending (AAPB) - a unified framework that stabilizes the diffusion process in low-density regions. AAPB leverages auxiliary anchor prompts to provide semantic support in rare concept generation and structural support in image editing, ensuring faithful guidance toward the target prompt. Unlike prior heuristic prompt alternation methods, AAPB derives a closed-form adaptive coefficient that optimally balances the influence between the auxiliary anchor and the target prompt at each diffusion step. Grounded in Tweedie's identity, our formulation provides a principled and training-free framework for adaptive prompt blending, ensuring stable and target-faithful generation. We demonstrate the effectiveness of adaptive interpolation over fixed interpolation through controlled experiments and empirically show consistent improvements on the RareBench and FlowEdit datasets, achieving superior semantic accuracy and structural fidelity compared to prior training-free baselines.",
-      "translated_abstract": "基于扩散的文本到图像（T2I）模型在生成逼真且语义丰富的图像方面取得了显着进展。然而，当目标概念位于训练分布的低密度区域时，这些模型通常会产生语义不一致或结构不一致的结果。这种限制源于文本图像数据集的长尾性质，其中罕见的概念或编辑指令代表性不足。为了解决这个问题，我们引入了自适应辅助提示混合（AAPB）——一个稳定低密度区域扩散过程的统一框架。 AAPB 利用辅助锚点提示为罕见概念生成提供语义支持，并为图像编辑提供结构支持，确保忠实引导目标提示。与之前的启发式提示交替方法不同，AAPB 导出一个封闭式自适应系数，在每个扩散步骤中最佳地平衡辅助锚点和目标提示之间的影响。基于 Tweedie 的身份，我们的公式为自适应即时混合提供了一个有原则且无需培训的框架，确保稳定且忠实于目标的生成。我们通过受控实验证明了自适应插值相对于固定插值的有效性，并凭经验证明了 RareBench 和 FlowEdit 数据集的一致改进，与之前的免训练基线相比，实现了卓越的语义准确性和结构保真度。",
-      "authors": [
-        "Kwanyoung Lee",
-        "SeungJu Cha",
-        "Yebin Ahn",
-        "Hyunwoo Oh",
-        "Sungho Koh",
-        "Dong-Jin Kim"
+      "id": "10.1029/2025gl120624",
+      "title": "Mirror Mode Mediated EMIC Wave Generation in the Magnetosheath",
+      "url": "https://doi.org/10.1029/2025gl120624",
+      "first_author": "Yifan Wu",
+      "corr_author": "Xin Tao",
+      "affiliation": "National Key Laboratory of Deep Space Exploration School of Earth and Space Sciences University of Science and Technology of China  Hefei China",
+      "other_works": [
+        {
+          "title": "Clinical features of patients infected with 2019 novel coronavirus in Wuhan, China",
+          "year": 2020,
+          "url": "https://doi.org/10.1016/s0140-6736(20)30183-5"
+        },
+        {
+          "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+          "year": 2015,
+          "url": "https://doi.org/10.1093/nar/gkv007"
+        },
+        {
+          "title": "A Novel Coronavirus from Patients with Pneumonia in China, 2019",
+          "year": 2020,
+          "url": "https://doi.org/10.1056/nejmoa2001017"
+        }
       ],
-      "published": "2026-03-19T17:12:03Z",
-      "updated": "2026-03-19T17:12:03Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Kwanyoung Lee"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  电磁离子回旋加速器 (EMIC) 波和镜像模式 (MM) 均由离子温度各向异性驱动，通常在行星磁鞘中观察到。对它们共现的传统解释很大程度上基于质子电子等离子体中的线性不稳定性理论，这需要 EMIC 和 MM 不稳定性具有可比的增长率。然而，磁鞘等离子体含有一小部分重离子，而这种成分如何影响 EMIC 波和 MM 的共存却鲜为人知。使用具有典型磁鞘参数的动力学混合模拟，我们表明，尽管重离子的存在抑制了初始线性 EMIC 不稳定性，但随着 MM 的发展，EMIC 波出现了。不断发展的MM产生平顶质子速度分布，并具有增强的共振布居，进而激发EMIC波。这些结果扩展了MM和EMIC波的传统共存场景，并揭示了磁鞘等离子体中MM、EMIC波和粒子之间能量转移的新途径。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Geophysical Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19157v1",
-      "title": "ADAPT: Attention Driven Adaptive Prompt Scheduling and InTerpolating Orthogonal Complements for Rare Concepts Generation",
-      "abstract": "Generating rare compositional concepts in text-to-image synthesis remains a challenge for diffusion models, particularly for attributes that are uncommon in the training data. While recent approaches, such as R2F, address this challenge by utilizing LLM for prompt scheduling, they suffer from inherent variance due to the randomness of language models and suboptimal guidance from iterative text embedding switching. To address these problems, we propose the ADAPT framework, a training-free framework that deterministically plans and semantically aligns prompt schedules, providing consistent guidance to enhance the composition of rare concepts. By leveraging attention scores and orthogonal components, ADAPT significantly enhances compositional generation of rare concepts in the RareBench benchmark without additional training or fine-tuning. Through comprehensive experiments, we demonstrate that ADAPT achieves superior performance in RareBench and accurately reflects the semantic information of rare attributes, providing deterministic and precise control over the generation of rare compositions without compromising visual integrity.",
-      "translated_abstract": "在文本到图像的合成中生成罕见的组合概念对于扩散模型来说仍然是一个挑战，特别是对于训练数据中不常见的属性。虽然最近的方法（例如 R2F）通过利用 LLM 进行即时调度来解决这一挑战，但由于语言模型的随机性和迭代文本嵌入切换的次优指导，它们受到固有的方差的影响。为了解决这些问题，我们提出了 ADAPT 框架，这是一个无需培训的框架，可以确定性地规划​​和语义上调整提示时间表，为增强稀有概念的构成提供一致的指导。通过利用注意力分数和正交分量，ADAPT 显着增强了 RareBench 基准中稀有概念的组合生成，无需额外的训练或微调。通过全面的实验，我们证明 ADAPT 在 RareBench 中实现了卓越的性能，准确地反映了稀有属性的语义信息，在不影响视觉完整性的情况下，对稀有成分的生成提供了确定性和精确的控制。",
-      "authors": [
-        "Kwanyoung Lee",
-        "Hyunwoo Oh",
-        "SeungJu Cha",
-        "Sungho Koh",
-        "Dong-Jin Kim"
+      "id": "10.1785/0220250329",
+      "title": "On the Seismic Hazard Regulations for NPP Sites in Europe: A Controversial Case in Slovenia",
+      "url": "https://doi.org/10.1785/0220250329",
+      "first_author": "Livio Sirovich",
+      "corr_author": "Kurt Decker",
+      "affiliation": "1National Institute of Oceanography and Applied Geophysics, OGS, (retired), Trieste, Italy",
+      "other_works": [
+        {
+          "title": "Turbulence and the dynamics of coherent structures. I. Coherent structures",
+          "year": 2016,
+          "url": "https://doi.org/10.1090/qam/910462"
+        },
+        {
+          "title": "Baseline Characteristics and Outcomes of 1591 Patients Infected With SARS-CoV-2 Admitted to ICUs of the Lombardy Region, Italy",
+          "year": 2020,
+          "url": "https://doi.org/10.1001/jama.2020.5394"
+        },
+        {
+          "title": "Type Ia Supernova Discoveries at<i>z</i>&gt; 1 from the<i>Hubble Space Telescope</i>: Evidence for Past Deceleration and Constraints on Dark Energy Evolution",
+          "year": 2004,
+          "url": "https://doi.org/10.1086/383612"
+        }
       ],
-      "published": "2026-03-19T17:11:49Z",
-      "updated": "2026-03-19T17:11:49Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Kwanyoung Lee"
+      "abs_zh": "发表于主要期刊。单击 DOI 了解详细信息。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19147v1",
-      "title": "Fast and Effective Computation of Generalized Symmetric Matrix Factorization",
-      "abstract": "In this paper, we study a nonconvex, nonsmooth, and non-Lipschitz generalized symmetric matrix factorization model that unifies a broad class of matrix factorization formulations arising in machine learning, image science, engineering, and related areas. We first establish two exactness properties. On the modeling side, we prove an exact penalty property showing that, under suitable conditions, the symmetry-inducing quadratic penalty enforces symmetry whenever the penalty parameter is sufficiently large but finite, thereby exactly recovering the associated symmetric formulation. On the algorithmic side, we introduce an auxiliary-variable splitting formulation and establish an exact relaxation relationship that rigorously links stationary points of the original objective function to those of a relaxed potential function. Building on these exactness properties, we propose an average-type nonmonotone alternating updating method (A-NAUM) based on the relaxed potential function. At each iteration, A-NAUM alternately updates the two factor blocks by (approximately) minimizing the potential function, while the auxiliary block is updated in closed form. To ensure the convergence and enhance practical performance, we further incorporate an average-type nonmonotone line search and show that it is well-defined under mild conditions. Moreover, based on the Kurdyka-Łojasiewicz property and its associated exponent, we establish global convergence of the entire sequence to a stationary point and derive convergence rate results. Finally, numerical experiments on real datasets demonstrate the efficiency of A-NAUM.",
-      "translated_abstract": "在本文中，我们研究了一种非凸、非平滑和非 Lipschitz 广义对称矩阵分解模型，该模型统一了机器学习、图像科学、工程和相关领域中出现的广泛矩阵分解公式。我们首先建立两个精确性属性。在建模方面，我们证明了精确的惩罚性质，表明在适当的条件下，只要惩罚参数足够大但有限，对称性诱导的二次惩罚就会强制对称，从而精确地恢复相关的对称公式。在算法方面，我们引入了辅助变量分裂公式，并建立了精确的松弛关系，将原始目标函数的驻点与松弛势函数的驻点严格联系起来。基于这些精确性，我们提出了一种基于松弛势函数的平均型非单调交替更新方法（A-NAUM）。在每次迭代中，A-NAUM 通过（近似）最小化势函数交替更新两个因子块，同时辅助块以封闭形式更新。为了确保收敛性并提高实际性能，我们进一步结合了平均型非单调线搜索，并证明它在温和条件下是明确定义的。此外，基于 Kurdyka-Łojasiewicz 性质及其相关指数，我们建立了整个序列到驻点的全局收敛",
-      "authors": [
-        "Lei Yang",
-        "Han Wan",
-        "Min Zhang",
-        "Ling Liang"
+      "id": "10.1785/0220250161",
+      "title": "Analysis of Rupture Directivity and Wave Propagation Effects on Simulated Ground Motion for Mw 7 Earthquakes on the Hayward Fault",
+      "url": "https://doi.org/10.1785/0220250161",
+      "first_author": "Rie Nakata",
+      "corr_author": "Camilo Pinilla-Ramos",
+      "affiliation": "1Lawrence Berkeley National Laboratory, Berkeley, California, U.S.A.",
+      "other_works": [
+        {
+          "title": "Accurate prediction of protein structures and interactions using a three-track neural network",
+          "year": 2021,
+          "url": "https://doi.org/10.1126/science.abj8754"
+        },
+        {
+          "title": "Global surveillance of trends in cancer survival 2000–14 (CONCORD-3): analysis of individual records for 37 513 025 patients diagnosed with one of 18 cancers from 322 population-based registries in 71 countries",
+          "year": 2018,
+          "url": "https://doi.org/10.1016/s0140-6736(17)33326-3"
+        },
+        {
+          "title": "Multi-messenger Observations of a Binary Neutron Star Merger<sup>*</sup>",
+          "year": 2017,
+          "url": "https://doi.org/10.3847/2041-8213/aa91c9"
+        }
       ],
-      "published": "2026-03-19T17:03:52Z",
-      "updated": "2026-03-19T17:03:52Z",
-      "categories": [
-        "math.OC",
-        "cs.LG"
-      ],
-      "first_author": "Lei Yang"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  作为圣安德烈亚斯断层系统的一部分，地震活跃的海沃德断层是造成旧金山湾区 (SFBA) 重大地震灾害的主要原因。对该断层上的大地震进行准确的地面运动预测至关重要，但由于断层在未来地震中如何破裂以及高度不均匀的地下地质结构引起的波传播效应将如何影响与场地相关的地面运动的不确定性，因此出现了挑战。本研究使用模拟宽带地震图，研究了破裂运动学和地下结构对地面运动的综合影响，实现了 Mw 7 海沃德断层地震的 50 次破裂。地面运动是在基于物理的地震模拟断层到结构百亿亿级计算框架和 Graves-Pitarka 运动学断层破裂发生器内生成的。除了与经验地震动模型 (GMM) 估计进行直接比较之外，集合平均地震动强度还用于隔离和评估震源和波路效应。我们发现局部结构会导致复杂的波传播和空间变化，而 GMM 无法完全体现这一点。破裂方向性沿着断层产生近乎对称的放大和消放大，而大滑移斑块产生局部影响。在这些因素中，波传播效应是与 GMM 预测偏差最大的因素。此外，它们在不同频率上的贡献也不同：方向性效应在中频（~1.5 s）达到峰值，但盆地放大和大滑移斑块效应在较低频率下最为突出。这项研究有助于更广泛地了解控制 SFBA 地面运动变化的关键因素，并为特定区域的非遍历 GMM 的开发提供详细的约束。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2603.19122v1",
-      "title": "Revisiting Autoregressive Models for Generative Image Classification",
-      "abstract": "Class-conditional generative models have emerged as accurate and robust classifiers, with diffusion models demonstrating clear advantages over other visual generative paradigms, including autoregressive (AR) models. In this work, we revisit visual AR-based generative classifiers and identify an important limitation of prior approaches: their reliance on a fixed token order, which imposes a restrictive inductive bias for image understanding. We observe that single-order predictions rely more on partial discriminative cues, while averaging over multiple token orders provides a more comprehensive signal. Based on this insight, we leverage recent any-order AR models to estimate order-marginalized predictions, unlocking the high classification potential of AR models. Our approach consistently outperforms diffusion-based classifiers across diverse image classification benchmarks, while being up to 25x more efficient. Compared to state-of-the-art self-supervised discriminative models, our method delivers competitive classification performance - a notable achievement for generative classifiers.",
-      "translated_abstract": "类条件生成模型已经成为准确而强大的分类器，扩散模型比其他视觉生成范例（包括自回归（AR）模型）表现出明显的优势。在这项工作中，我们重新审视基于视觉 AR 的生成分类器，并确定了先前方法的一个重要限制：它们依赖于固定的标记顺序，这对图像理解施加了限制性归纳偏差。我们观察到，单阶预测更多地依赖于部分判别线索，而对多个令牌阶进行平均可以提供更全面的信号。基于这一见解，我们利用最新的任意阶 AR 模型来估计阶边缘化预测，从而释放 AR 模型的高分类潜力。我们的方法在不同的图像分类基准中始终优于基于扩散的分类器，同时效率提高了 25 倍。与最先进的自监督判别模型相比，我们的方法提供了有竞争力的分类性能——这是生成分类器的显着成就。",
-      "authors": [
-        "Ilia Sudakov",
-        "Artem Babenko",
-        "Dmitry Baranchuk"
+      "id": "10.1785/0220250071",
+      "title": "Quantifying Seismic Properties of a River Channel at Mount Rainier for Use in Debris Flow Monitoring and Analysis",
+      "url": "https://doi.org/10.1785/0220250071",
+      "first_author": "Avery E. Conner",
+      "corr_author": "Katherine M. Biegel",
+      "affiliation": "1Department of Earth Sciences, University of Oregon, Eugene, Oregon, U.S.A.",
+      "other_works": [
+        {
+          "title": "The Sloan Digital Sky Survey: Technical Summary",
+          "year": 2002,
+          "url": "https://doi.org/10.1086/301513"
+        },
+        {
+          "title": "Efficacy of the Theory of Planned Behaviour: A meta‐analytic review",
+          "year": 2003,
+          "url": "https://doi.org/10.1348/014466601164939"
+        },
+        {
+          "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+          "year": 2012,
+          "url": "https://doi.org/10.1016/j.physletb.2012.08.021"
+        }
       ],
-      "published": "2026-03-19T16:44:23Z",
-      "updated": "2026-03-19T16:44:23Z",
-      "categories": [
-        "cs.CV"
-      ],
-      "first_author": "Ilia Sudakov"
+      "abs_zh": "<jats:title>摘要</jats:title>\n                  将泥石流特性与其地震特征联系起来的理论模型表明，地震方法可用于远程表征这些事件的特性。然而，泥石流来源的复杂性和近地表环境中材料特性的较差约束限制了我们仅根据地震记录确定泥石流重要属性（例如体积和颗粒尺寸分布）的能力。在这项研究中，我们利用已建立的泥石流地震活动模型和美国雷尼尔山塔霍马河河道主动源测量得出的地下特性，探讨了泥石流地震信号对地下地震特征的敏感性。利用表面波的折射和多通道分析，我们估计了 11 m 深度的一维一次和二次波速度剖面，并计算了 9 到 50 Hz 之间频率的变频相速度 (vc) 和瑞利波品质因数 (QR)。我们发现 Tahoma Creek 河道的 vc 较低，随频率在 226 至 434 m/s 之间变化，并且衰减程度较高，在所有分析频率下 QR 估计低于 13.3。我们使用测量值对 Tahoma Creek 假设的泥石流的地震信号进行了建模，并将结果与​​同一模型进行比较，但在无法获得测量值时，在文献中常用的频率无关的单一值范围内改变 vc 和 QR（vc=250–750  m/s，QR=3–33）。我们发现，模拟泥石流的功率谱密度在我们的测试值子集中变化了几个数量级，这凸显了在使用模拟泥石流地震信号进行定量监测时测量材料特性的好处。",
+      "analysis": {
+        "importance": "该研究通过高时空分辨率观测，显著提升了对关键地球物理过程的认识，对防震减灾及环境监测具有重要意义。",
+        "prev_research": "传统研究受限于台站密度或信号信噪比，在微弱信号识别及非线性模型反演方面存在挑战。",
+        "methodology": "本文集成了多种观测手段，采用先进的波形处理算法与高性能计算框架，实现了对目标区域的高精度成像/定位。",
+        "innovation": "核心创新在于算法的跨尺度适应性以及对多源异构数据的高效融合利用。",
+        "contribution": "为相关领域的研究提供了标准化的技术流及公开的高质量数据集。",
+        "limitation": "对于超深部或极复杂介质的解析仍有待进一步验证。"
+      },
+      "source": "Seismological Research Letters",
+      "published": "2026"
     }
   ]
 }
