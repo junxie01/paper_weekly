@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-03-14 至 2026-03-21 10:35",
+  "last_update": "2026-03-15 至 2026-03-22 02:26",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -97,7 +97,7 @@
       "first_author": "Rajiv R. Singh",
       "corr_author": "Maria A. Schumacher",
       "affiliation": "Department of Biochemistry, Duke University Medical Center, 307 Research Dr., Box 3711, Durham, NC 27710, USA.",
-      "abs_zh": "DNA 损伤修复机制对于细胞生存至关重要。在细菌中，\n                    新月柄杆菌\n                    , DriD 是一种独特的、非常规 DNA 损伤途径的主调节器。 DriD 与 ssDNA 结合，在 DNA 损伤时产生，刺激其激活几个参与 DNA 损伤反应的启动子转录的能力。然而，DriD 与 RNAP 全酶相互作用以激活其多个启动子转录的机制尚不清楚。在这里，我们描述了与 RNAP 全酶和三个 DriD 调节的启动子结合的 DriD-ssDNA 的冷冻电镜结构。同源二聚体 DriD 的每个亚基都包含 DNA 结合\n                    氮\n                    -末端有翼螺旋-转角-螺旋(wHTH)通过接头3-螺旋束(3HB)模块连接至WYL结构域。这些结构揭示了启动子上的组装机制，其中 DriD 的 3HB 结合 RNAP α-CTD 和 β 结构域，将 RNAP 全酶锚定到受调节的启动子上。 3HB 与 apo DriD 中的 DNABD 形成自抑制接触，因此充当 ssDNA 驱动的触发域，在 ssDNA 介导的激活时在 DNABD 结合的 apo 和 RNAP 结合形式之间切换。因此，这些结构揭示了一种独特的转录激活机制，该机制可能在同型二聚体 WYL 激活剂大家族中保守。",
+      "abs_zh": "DNA 损伤修复机制对于细胞生存至关重要。在细菌中，\n                    新月柄杆菌\n                    , DriD 是一种独特的、非常规 DNA 损伤途径的主调节器。 DriD 与 DNA 损伤时产生的 ssDNA 结合，刺激其激活几个参与 DNA 损伤反应的启动子转录的能力。然而，DriD 与 RNAP 全酶相互作用以激活其多个启动子转录的机制尚不清楚。在这里，我们描述了与 RNAP 全酶和三个 DriD 调节的启动子结合的 DriD-ssDNA 的冷冻电镜结构。同源二聚体 DriD 的每个亚基都包含 DNA 结合\n                    氮\n                    -末端有翼螺旋-转角-螺旋(wHTH)通过接头3-螺旋束(3HB)模块连接至WYL结构域。这些结构揭示了启动子上的组装机制，其中 DriD 的 3HB 结合 RNAP α-CTD 和 β 结构域，将 RNAP 全酶锚定到受调节的启动子上。 3HB 与 apo DriD 中的 DNABD 形成自抑制接触，因此充当 ssDNA 驱动的触发域，在 ssDNA 介导的激活时在 DNABD 结合的 apo 和 RNAP 结合形式之间切换。因此，这些结构揭示了一种独特的转录激活机制，该机制可能在同二聚体 WYL 激活剂大家族中保守。",
       "source": "Science Advances",
       "published": "2026"
     },
