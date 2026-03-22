@@ -119,8 +119,7 @@ def search_arxiv(topic_config, max_results=5):
     return papers
 
 if __name__ == "__main__":
-    target_dir = 'frontend'
-    os.makedirs(target_dir, exist_ok=True)
+    target_dir = '.'
     
     # 计算日期范围
     now = datetime.now()
