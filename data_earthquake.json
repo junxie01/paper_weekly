@@ -1,51 +1,7 @@
 {
-  "last_update": "2026-03-15 至 2026-03-22 03:10",
+  "last_update": "2026-03-22 至 2026-03-29 02:35",
   "topic_name": "地震研究",
   "papers": [
-    {
-      "id": "2603.18925v1",
-      "title": "Improving moment tensor solutions under Earth structure uncertainty with simulation-based inference",
-      "url": "http://arxiv.org/abs/2603.18925v1",
-      "first_author": "A. A. Saoulis",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "贝叶斯推理代表了将地球结构不确定性纳入全波形矩张量反演中的原则性方法，但传统方法通常需要显着的近似，这可能会导致结果解出现偏差。我们引入了一种使用基于模拟的推理（SBI）来处理理论错误的稳健方法，这是一种机器学习方法，可以根据经验模拟理论错误对观察的影响。该框架保留了贝叶斯推理的严谨性，同时避免了对不确定性函数形式的限制性假设。我们首先证明理论误差的常见高斯参数化在较小的（$1-3 \\%$）一维地球模型不确定性下会崩溃。为了解决这个问题，我们开发了两种利用 SBI 来提高矩张量解决方案质量的形式：一种使用基于物理的理论错误洞察，另一种使用端到端深度学习算法。然后，我们将矩张量反演的结果与标准高斯方法和 SBI 进行比较，并证明高斯假设会产生偏差并显着低估矩张量的不确定性。我们还表明，当反演短期数据和浅层各向同性事件时，这些影响尤其成问题。另一方面，SBI 产生更可靠、更好校准的震源机制后验。最后，我们成功地将我们的方法应用于两次经过深入研究的中震级地震：一次来自 1997 年的长谷火山口火山地震序列，另一次来自 2020 年的萨格勒布地震。",
-      "source": "arXiv",
-      "published": "2026-03-19"
-    },
-    {
-      "id": "2603.15982v1",
-      "title": "Elastic waveform inversion for double-couple microseismic source estimation in vertically fractured transversely isotropic media",
-      "url": "http://arxiv.org/abs/2603.15982v1",
-      "first_author": "Ujjwal Shekhar",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "准确表征沉积地层流体注入过程中的微震事件对于减轻环境风险至关重要。与断层面上滑动相关的微震事件的震源机制由双力偶给出。波形反演已成为一种用于估计双耦合源的矩张量和位置矢量的有前途的技术。在双偶源矩张量的波形反演的大多数应用中，通常假设地层是各向同性的，或者较少见的是横观各向同性的。在反演微震波形数据时，未包括对矩张量表示的修改，以考虑横向各向同性地层中对齐的垂直裂缝所产生的各向异性。在这项关于合成微震数据的研究中，我们提出了一种包含这种修改的波形反演算法，考虑到震源区域中的地层是垂直断裂横观各向同性（VFTI）并具有正交对称性。由于 VFTI 介质缺乏旋转对称性，因此没有对发生滑移的断层面的方向做出任何假设。双力偶源的力矩张量是根据VFTI介质的弹性参数和滑移幅度、滑移角、断层倾角和断层法线方位角等几何参数来公式化的。源反演被视为局部优化问题，我们针对源位置和几何参数进行反演。这些几何参数比矩张量分量更直接地受到地震数据的约束，并提供了具有地质意义的见解。这种方法增强了裂缝地层的微震监测，并且可以扩展到更复杂的各向异性介质，例如单斜系统。",
-      "source": "arXiv",
-      "published": "2026-03-16"
-    },
-    {
-      "id": "2602.12427v1",
-      "title": "A variational critical-state theory of friction",
-      "url": "http://arxiv.org/abs/2602.12427v1",
-      "first_author": "Mary Agajanian",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "摩擦在许多自然过程中发挥着重要作用，包括地震、山体滑坡和火山爆发。当高度压缩的断层表面积聚足够大的剪切应力，导致断层彼此相对移动或滑动时，就会发生地震。滑移被容纳在断层表面之间的一层薄薄的粉碎颗粒材料（称为断层泥）内。因此，表征断层泥响应剪切的力学行为是震源物理学中的一个主要开放问题。由于大变形、无弹性、速率依赖性和体积变化，模拟凿岩变得复杂。因此，研究人员通常依靠经验公式来捕捉有效的反应。在这里，我们系统地开发了断层泥的变分有限运动学框架。我们首先描述了刚性粘塑性压敏材料的一般理论，其中塑性演化遵循最大耗散原理。然后，我们专门研究剪切和膨胀层内 Cam-Clay 材料的控制方程。我们依靠凸性考虑因素和颗粒层固结测试的实验观察来校准模型，并为模型在恒定压缩法向应力和规定剪切速率下的剪切测试的速率和状态相关响应开发明确的解决方案。为了验证模型，我们选择常见的速率函数，并将数值材料点测试和理论解决方案与剪切颗粒层的标准实验室实验进行比较。最后，我们讨论模型与经验速率和状态摩擦定律的联系。",
-      "source": "arXiv",
-      "published": "2026-02-12"
-    },
-    {
-      "id": "2601.06320v2",
-      "title": "SourceNet: Interpretable Sim-to-Real Inference on Variable-Geometry Sensor Arrays for Earthquake Source Inversion",
-      "url": "http://arxiv.org/abs/2601.06320v2",
-      "first_author": "Zhe Jia",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "从稀疏的临时传感器阵列推断高维物理状态是科学人工智能面临的一项基本挑战，但 CNN 和 DeepSet 等标准架构却难以捕捉地震学等领域固有的不规则几何形状和关系物理。为了解决这个问题，我们提出了 SourceNet，这是一个基于 Transformer 的框架，通过物理结构域随机化 (PSDR) 弥合了巨大的模拟与真实差距，PSDR 是一种随机化控制物理动力学的协议，以增强未建模环境异质性的不变性。通过对 100,000 个合成事件进行预训练并对约 2,500 个真实世界事件进行微调，SourceNet 在保留的真实数据上实现了最先进的精度，与传统求解器相比，展示了卓越的数据效率和实时能力。除了预测之外，可解释性分析还表明该模型显示出类似科学代理的特征：它自主发现几何信息瓶颈并学习优先考虑稀疏传感器放置的注意力策略，从而仅从数据中有效地恢复最佳实验设计的原则。",
-      "source": "arXiv",
-      "published": "2026-01-09"
-    },
     {
       "id": "10.1016/j.epsl.2026.119985",
       "title": "Volcanic source change triggers divergent climatic responses across the Guadalupian–Lopingian transition in eastern South China",
@@ -80,6 +36,72 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.adz5711",
+      "title": "Seismic rhythms: Earthquake response to tectonic, hydrological, and tidal forcing in California",
+      "url": "https://doi.org/10.1126/sciadv.adz5711",
+      "first_author": "Krittanon Sirorattanakul",
+      "corr_author": "Jean-Philippe Avouac",
+      "affiliation": "Seismological Laboratory, Division of Geological and Planetary Sciences, California Institute of Technology, Pasadena, CA, USA.",
+      "abs_zh": "地震活动主要由构造驱动，但自然或人为来源的应力变化可以引起可检测的调制，从而为地震物理学提供见解。在这里，我们确定了加利福尼亚州的一些区域，这些区域表现出与水文表面负荷相关的地震活动率的显着季节性调制，但没有显着的半日潮汐调制。地震活动峰值速率比应力峰值滞后半个月。假设瞬时成核大大高估了响应，而由速率和状态摩擦控制的时间相关成核则通过摩擦应力参数准确捕获振幅和时间延迟\n                    一个\n                    σ ~ 1 至 10 千帕 (kPa) 和特征弛豫时间\n                    t\n                    \n                      一个\n                    \n                    ~ 0.05 至 1 年。对潮汐和季节性应力扰动的地震活动响应使我们能够探测断层力学特性，从而提供改进地震灾害评估的方法。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec5067",
+      "title": "Mechanism of ribosome stalling by the AMD1 C-terminal tail arrest peptide",
+      "url": "https://doi.org/10.1126/sciadv.aec5067",
+      "first_author": "Emir Maldosevic",
+      "corr_author": "Ahmad Jomaa",
+      "affiliation": "Department of Molecular Physiology and Biological Physics, University of Virginia, Charlottesville, VA 22903, USA.",
+      "abs_zh": "AMD1\n                    编码腺苷甲硫氨酸脱羧酶 1 (AMD1)，这是多胺生物合成中的关键酶。核糖体的一个子集，翻译\n                    AMD1\n                    编码序列读取终止密码子并在下游 384 个核苷酸的第二个框内终止处暂停，产生保守的 C 末端延伸（C 尾）。尽管越来越多的证据表明此类顺式作用元件调节其基因的翻译，但 C 尾介导核糖体停滞的分子机制仍不清楚。在这里，我们确定了由 AMD1 C 尾暂停的核糖体新生链复合物的结构，该复合物捕获真核释放因子 1 (eRF1) 与 ATP 结合盒亚家族 E 成员 1 (ABCE1)。新生链形成分子夹，将精氨酸钩定位在肽基转移酶中心，阻断 eRF1 GGQ 基序的容纳，从而阻碍翻译终止。对聚合核糖体分析数据的分析揭示了几个具有终止密码子通读模式的基因，随后核糖体在特定位置停滞，这表明监管通读停滞机制可能不仅限于\n                    AMD1\n                    。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.aeb8634",
+      "title": "SWOT detects dispersive tsunami tied to a near-trench source in the 2025 Kamchatka earthquake",
+      "url": "https://doi.org/10.1126/science.aeb8634",
+      "first_author": "Ignacio Sepúlveda",
+      "corr_author": "David Sandwell",
+      "affiliation": "Coastal Engineering Lab, Department of Civil, Construction, and Environmental Engineering, College of Engineering, San Diego State University, San Diego, CA, USA.",
+      "abs_zh": "大型俯冲地震引发的海啸对海岸造成严重危害，但海沟附近的海啸起源仍然很少受到陆基地震大地测量数据和遥远的深水传感器的限制。 2025 年 7 月 29 日堪察加半岛发生 8.8 级地震后，NASA/CNES 地表水和海洋地形 (SWOT) 卫星捕捉到了一系列独特的短波长海啸波，我们将其与近海沟海啸发生联系起来。地震滑动的敏感性分析表明，海沟附近 10 公里范围内发生了海啸，这一推论无法仅根据陆地地震学和大地测量学或稀疏的深水海底压力记录得出。这些结果提供了首次高分辨率、二维星载观测，将测量的色散海啸波场与近海沟海啸发生直接联系起来，扩展了早期基于模型和测量仪的推论。他们将 SWOT 建立为对源过程的约束，对海啸灾害科学和俯冲带地球动力学具有影响。",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260102",
+      "title": "<i>Erratum to</i>\n                    pySATSI: A Python Package for Computing Focal Mechanism Stress Inversions",
+      "url": "https://doi.org/10.1785/0220260102",
+      "first_author": "Robert J. Skoumal",
+      "corr_author": "Andrew J. Michael",
+      "affiliation": "1U.S. Geological Survey, Moffett Field, California, U.S.A.",
+      "abs_zh": "无摘要详情",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250350",
+      "title": "Integrating Submarine DAS into a Regional Seismic Network for Enhanced Offshore Earthquake Location: A Case Study from the Canary Islands",
+      "url": "https://doi.org/10.1785/0220250350",
+      "first_author": "Melania Cubas Armas",
+      "corr_author": "Antonio Villaseñor",
+      "affiliation": "1Institute of Marine Sciences, ICM-CSIC, Barcelona, Spain",
+      "abs_zh": "将海底通信电缆重新用作分布式声学传感器 (DAS) 可以显着增强加那利群岛的地震监测，该群岛的大部分地震活动都发生在近海。 2020 年 7 月 26 日至 9 月 29 日，我们对特内里费岛和大加那利岛之间的暗光纤电缆的两个 ∼60 公里段进行了询问。首先使用深度学习模型进行相位拾取来检测当地地震的 P 波和 S 波，然后与 Instituto Geográfico Nacional 地震网络的到达时间读数合并。为了防止密集的 DAS 阵列相对于稀疏的陆基站的权重过大，我们设计了一种选择策略，该策略使用基于机器学习的信道质量指数算法来自动保留每个事件的有限数量的高信噪比 DAS 信道。所选通道的间距是根据国家地震台网在岛屿上的实际台距而定的。我们使用非线性概率地震定位方法重新定位了 31 次地震 (1.1≤mbLg≤3.2)。 DAS 数据的添加将中位方位角间隙缩小了约 12°，并将中位深度不确定性从 12 公里以上减少到 3.4 公里。在 Enmedio 海底火山走廊内，DAS-陆地混合网络检测到 66% mbLg≥1.5 的事件，并且在电缆 50 公里范围内检测到所有 mbLg=2.0 以上的事件。这些结果表明，即使是少量精心选择的 DAS 通道也可以显着提高海底环境中地震定位的精度，为增强海上地震和火山监测提供可扩展且操作兼容的路径。数据量的减少还确保 DAS 集成不会压垮现有的处理管道，使其可以用于实时警报系统。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120250275",
+      "title": "Crustal Stress Information Revealed by the Distribution of P and T Axes of Earthquake Focal Mechanisms",
+      "url": "https://doi.org/10.1785/0120250275",
+      "first_author": "Zhenyue Li",
+      "corr_author": "Yongge Wan",
+      "affiliation": "1Institute of Disaster Prevention, Sanhe, China",
+      "abs_zh": "地震震源机制对地壳的应力状态提供了重要的约束。传统的应力张量反演依赖于拟合多个断层上的滑移方向，但由于双偶震源机制也可以用P轴和T轴的方向来表示，因此这种反演可以有效地拟合这些轴的空间分布。本研究探讨仅P轴和T轴的分布模式是否可以直接约束地应力张量。我们进行建模实验，模拟一系列应力状态和断层失效标准下的断层不稳定和滑动。结果表明，应力条件的系统变化会在 P 轴和 T 轴分布中产生明显且可预测的转变。簇轴的几何中心对应于主应力轴的方向。与圆形T轴图案组合的聚集的P轴分布指示σ2和σ3的可比较的量值，而具有圆形P轴图案的聚集的T轴分布不需要并且在量值上相似。模拟中不会出现随机混合的 P 轴和 T 轴分布，这表明在实际数据中观察到的这种模式可能反映了应力异质性或震源机制解决方案的不准确性。这些结论使用真实的断层滑动数据和地震震源机制得到了验证。结果为诊断应力异质性、评估数据质量和预测应力反演结果的可靠性提供了实用的框架。",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
       "id": "10.1029/2025gl120455",
       "title": "Monitoring Near‐Surface Changes Using Anthropogenic Seismic Vibrations",
       "url": "https://doi.org/10.1029/2025gl120455",
@@ -89,83 +111,6 @@
       "abs_zh": "丰富的人为地震噪声为监测动态地下属性变化提供了宝贵的资源。我们利用地震检波器阵列记录的铁路和风力涡轮机引起的振动来估计伊利诺伊州底层冰川沉积物中的表面波衰减和速度。在 12 个月的监测期内，衰减 () 变化范围为 ，表明对环境变化的敏感性比速度（变化范围为 ）更强。我们观察到，通常在强降雨之后，衰减会急剧增加，而在大量抽取地下水进行灌溉期间，衰减会迅速下降。这些发现表明，从持续的人为噪声源测量的地震衰减为连续的近地表水文过程提供了稳健、高灵敏度和高时间分辨率的代理，与传统的基于地震速度的方法相补充。",
       "source": "Geophysical Research Letters",
       "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec6337",
-      "title": "Transcription activation mechanism of a noncanonical DNA damage response pathway by the WYL-activator, DriD",
-      "url": "https://doi.org/10.1126/sciadv.aec6337",
-      "first_author": "Rajiv R. Singh",
-      "corr_author": "Maria A. Schumacher",
-      "affiliation": "Department of Biochemistry, Duke University Medical Center, 307 Research Dr., Box 3711, Durham, NC 27710, USA.",
-      "abs_zh": "DNA 损伤修复机制对于细胞生存至关重要。在细菌中，\n                    新月柄杆菌\n                    , DriD 是一种独特的、非常规 DNA 损伤途径的主调节器。 DriD 与 DNA 损伤时产生的 ssDNA 结合，刺激其激活几个参与 DNA 损伤反应的启动子转录的能力。然而，DriD 与 RNAP 全酶相互作用以激活其多个启动子转录的机制尚不清楚。在这里，我们描述了与 RNAP 全酶和三个 DriD 调节的启动子结合的 DriD-ssDNA 的冷冻电镜结构。同源二聚体 DriD 的每个亚基都包含 DNA 结合\n                    氮\n                    -末端有翼螺旋-转角-螺旋(wHTH)通过接头3-螺旋束(3HB)模块连接至WYL结构域。这些结构揭示了启动子上的组装机制，其中 DriD 的 3HB 结合 RNAP α-CTD 和 β 结构域，将 RNAP 全酶锚定到受调节的启动子上。 3HB 与 apo DriD 中的 DNABD 形成自抑制接触，因此充当 ssDNA 驱动的触发域，在 ssDNA 介导的激活时在 DNABD 结合的 apo 和 RNAP 结合形式之间切换。因此，这些结构揭示了一种独特的转录激活机制，该机制可能在同二聚体 WYL 激活剂大家族中保守。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120250161",
-      "title": "Constraining Source and Path Effects of Large Magnitude Earthquakes Using Ground-Motion Simulations",
-      "url": "https://doi.org/10.1785/0120250161",
-      "first_author": "Xiaofeng Meng",
-      "corr_author": "Christine Goulet",
-      "affiliation": "1Statewide California Earthquake Center, University of Southern California, Los Angeles, California, U.S.A.",
-      "abs_zh": "本研究的目的是利用地面运动模拟来研究如何在非遍历地面运动模型 (GMM) 中表示大震级地震的震源和路径效应。为了实现这一目标，我们在旧金山湾区设计了一项地面运动研究，其中包括均匀分布在断层面上的各种震级的地震，以及覆盖大范围破裂距离和方位角的地点。在运行大量运动学模拟（幅度 4-7）后，我们使用模拟数据开发非遍历 GMM。我们发现场内残差的趋势受到地震辐射模式、破裂方向性和滑移模式的显着影响。接下来，我们修改现有的破裂方向性模型以拟合并从残差中删除观察到的辐射方向图和破裂方向性。我们还通过对多个源实现之间的站点内残差进行平均来最小化滑移模式的贡献。最后，在从场内残差中去除源效应后，我们使用两种方法比较了不同幅度组计算的路径效应。第一种方法仅考虑与大事件具有相同到站点的最短路径的小事件，而第二种方法则考虑断层面上的所有小事件。结果表明，使用任何一种方法都很难令人满意地近似大事件的路径效应与小事件的路径效应，至少在模拟的情况下是如此。",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10397-8",
-      "title": "Editorial Expression of Concern: A FADD-dependent innate immune mechanism in mammalian cells",
-      "url": "https://doi.org/10.1038/s41586-026-10397-8",
-      "first_author": "Siddharth Balachandran",
-      "corr_author": "Glen N. Barber",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10232-0",
-      "title": "The E3 ubiquitin ligase mechanism specifying targeted microRNA degradation",
-      "url": "https://doi.org/10.1038/s41586-026-10232-0",
-      "first_author": "Jakob Farnung",
-      "corr_author": "David P. Bartel",
-      "affiliation": "未知机构",
-      "abs_zh": "MicroRNA (miRNA) 与 Argonaute (AGO) 蛋白结合形成复合物，下调靶 RNA，包括来自大多数人类基因的信使 RNA\n                    1–3\n                    。在每个复合物中，miRNA 与靶 RNA 配对，AGO 提供效应器功能，同时还保护 miRNA 免受细胞核酸酶的影响\n                    2–5\n                    。尽管人们对 miRNA 指导的基因调控了解甚多，但对 miRNA 本身如何调控却知之甚少。调节 miRNA 的一种途径涉及称为“触发”RNA 的不寻常目标，它逆转了规范的调节逻辑，而是下调 miRNA\n                    6-9\n                    。这种靶向 miRNA 降解 (TDMD) 被认为需要 cullin-RING E3 连接酶，因为它依赖于 cullin 蛋白 CUL3 和其他泛素化成分，包括 BC-box 蛋白 ZSWIM8（参考文献 1）。 \n                    10,11\n                    ）。 ZSWIM8 是小鼠围产期活力和大多数短命 miRNA 不稳定所必需的，这表明 TDMD 的生物学重要性\n                    11–13\n                    。在此，生化和细胞测定确定 ZSWIM8–CUL3 E3 连接酶的 AGO 结合和多泛素化作为 TDMD 的关键调控步骤，从而定义了独特的 cullin–RING E3 连接酶类别。低温电子显微镜分析显示，ZSWIM8 可以识别由 miRNA 与触发器配对形成的不同 AGO 和 RNA 构象。 AGO 泛素化的特异性是通过可推广的 RNA-RNA、RNA-蛋白质和蛋白质-蛋白质相互作用建立的。 E3连接酶识别的底物特征不符合常规降解决定子\n                    14,15\n                    而是建立一个双 RNA 因子验证机制来指定蛋白质泛素化底物。",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250071",
-      "title": "Quantifying Seismic Properties of a River Channel at Mount Rainier for Use in Debris Flow Monitoring and Analysis",
-      "url": "https://doi.org/10.1785/0220250071",
-      "first_author": "Avery E. Conner",
-      "corr_author": "Katherine M. Biegel",
-      "affiliation": "1Department of Earth Sciences, University of Oregon, Eugene, Oregon, U.S.A.",
-      "abs_zh": "将泥石流特性与其地震特征联系起来的理论模型表明，地震方法可用于远程表征这些事件的特性。然而，泥石流来源的复杂性和近地表环境中材料特性的较差约束限制了我们仅根据地震记录确定泥石流重要属性（例如体积和颗粒尺寸分布）的能力。在这项研究中，我们利用已建立的泥石流地震活动模型和美国雷尼尔山塔霍马河河道主动源测量得出的地下特性，探讨了泥石流地震信号对地下地震特征的敏感性。利用表面波的折射和多通道分析，我们估计了 11 m 深度的一维一次和二次波速度剖面，并计算了 9 到 50 Hz 之间频率的变频相速度 (vc) 和瑞利波品质因数 (QR)。我们发现 Tahoma Creek 河道的 vc 较低，随频率在 226 至 434 m/s 之间变化，并且衰减程度较高，在所有分析频率下 QR 估计低于 13.3。我们使用测量值对 Tahoma Creek 假设的泥石流的地震信号进行了建模，并将结果与​​同一模型进行比较，但在无法获得测量值时，在文献中常用的频率无关的单一值范围内改变 vc 和 QR（vc=250–750  m/s，QR=3–33）。我们发现，模拟泥石流的功率谱密度在我们的测试值子集中变化了几个数量级，这凸显了在使用模拟泥石流地震信号进行定量监测时测量材料特性的好处。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119502",
-      "title": "Frictional Heterogeneity Governs Slip Partitioning and Seismic Hazard in the 2023 Turkey Earthquake Doublet",
-      "url": "https://doi.org/10.1029/2025gl119502",
-      "first_author": "Jianlong Chen",
-      "corr_author": "Lejun Lu",
-      "affiliation": "Guangdong Provincial Key Laboratory of Geodynamics and Geohazards School of Earth Sciences and Engineering Sun Yat‐Sen University  Guangzhou China",
-      "abs_zh": "量化断层摩擦特性是理解滑动行为和地震危险的基础。我们使用独立分量分析增强型小基线子集 InSAR 分析了 2023 年土耳其地震双峰之后的 2 年 Sentinel-1 SAR 数据，以解决东安纳托利亚断层和恰尔达克断层上的震后变形和后滑反演问题。在速率和状态框架内，我们估计震后稳定区域的摩擦参数（\n                    右\n                    2\n                     > 0.9），表明后滑主要发生在高速加强区，而同震破裂和余震则集中在低区或邻近的不稳定斑块附近。深度相关的滑移划分表明了摩擦不均匀性调节的脆性转变，深部后滑向东的迁移和滑移行为的分割凸显了震后变形的复杂性。 Pütürge 段上的升高值表明破裂传播受到速度加强区域的限制。这些结果表明，摩擦不均匀性可能控制滑移划分，并为大陆断层系统中的地震危险性评估提供定量约束。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "2512.13197v1",
-      "title": "MicroPhaseNO: Adapting an Earthquake-Trained Phase Neural Operator for Microseismic Phase Picking",
-      "url": "http://arxiv.org/abs/2512.13197v1",
-      "first_author": "Ayrat Abdullin",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "地震相位拾取经常用于微震监测和地下成像。传统的手动处理对于实时应用程序或大型阵列来说都是不可行的。经过大型地震目录训练的基于深度学习的选择器提供了一种自动化的替代方案。然而，它们通常针对高信噪比、长持续时间的网络进行优化，并努力应对微震数据集带来的挑战，这些数据集是专门为有限的时间而构建的，之前没有检测到地震活动。在本研究中，我们演示了如何使用迁移学习将全网络地震相位选择器、相位神经算子 (PhaseNO) 应用于微震监测。从对超过 57,000 个三分量地震和噪声记录进行预训练的 PhaseNO 模型开始，我们仅使用来自水力压裂环境中诱发事件的 200 个标记地震图和噪声地震图对模型进行微调。因此，经过微调的模型保留了从丰富的地震数据中学到的丰富的时空表示，同时适应微震阶段的特征和标记惯例，这些阶段通常是在波峰或波谷而不是爆发时选取的。我们评估了具有不同网络几何结构和采集参数的三个不同的现实世界微震数据集的性能。与原始 PhaseNO 和传统工作流程相比，改编后的模型将 F1 分数和准确性提高了 30%，并大大降低了系统时序偏差和选择不确定性。由于适应依赖于小型的、特定于活动的校准集，因此该方法可以轻松转移到可访问公共地震数据和预训练模型的其他微震任务。相关代码将在https://github.com/ayratabd/MicroPhaseNO公开发布。",
-      "source": "arXiv",
-      "published": "2025-12-15"
     }
   ]
 }

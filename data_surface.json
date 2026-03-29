@@ -1,61 +1,17 @@
 {
-  "last_update": "2026-03-15 至 2026-03-22 03:10",
+  "last_update": "2026-03-22 至 2026-03-29 02:35",
   "topic_name": "面波研究",
   "papers": [
     {
-      "id": "2603.18296v1",
-      "title": "Nonlinear Incompressible Shear Wave Models in Hyperelasticity and Viscoelasticity Frameworks, with Applications to Love Waves",
-      "url": "http://arxiv.org/abs/2603.18296v1",
-      "first_author": "Shawn Samuel Carl McAdam",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "提出了描述不可压缩超弹性材料中剪切位移的一般方程，适用于任意形式的应变能密度函数，并将其应用于描述在具有不同力学性能的材料之间的界面上传播的非线性洛夫型波。该模型适用于多种超粘弹性材料。对于三次 Yeoh 模型，剪切波方程包含三次和五次微分多项式项，包括色散项中的粘弹性贡献，其中包括材料位移的混合导数 $u_{xxt}$。对在两层固体中传播的波进行全 (2+1) 维数值模拟，并根据源位置和各层的力学性能进行分析。跟踪界面非线性勒夫波和自由上表面剪切波；证明了在完全非线性情况下，界面波和表面波的变波速一般满足线性Love波存在条件$c_1 < \\abs{v} < c_2$，同时大量趋向于较大的物质波速$c_1$或$c_2$。",
-      "source": "arXiv",
-      "published": "2026-03-18"
-    },
-    {
-      "id": "2603.17758v1",
-      "title": "Magneto-rotation coupling dominates surface acoustic wave driven ferromagnetic resonance in the longitudinal geometry",
-      "url": "http://arxiv.org/abs/2603.17758v1",
-      "first_author": "Gyuyoung Park",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们提出了 mumax+ 微磁框架的声子-磁振子扩展，该框架实现了三种表面声波（SAW）耦合机制：磁弹性应变耦合、反对称位移梯度产生的磁旋转耦合以及晶格角速度产生的自旋旋转（Barnett）耦合。六个基准模拟通过 SAW 驱动的畴壁运动、磁化切换、磁旋转和 Barnett 场验证、瑞利波手性的非互易 SAW 磁振子吸收以及站立 SAW 腔中的空间分辨耦合来验证实施。对于纵向几何结构（m_0 平行于 k_SAW），我们表明，尽管产生了 50 倍大的有效场，但磁弹性耦合产生的横向扭矩为零；磁旋转通道提供唯一的驱动机制。对于 YIG 参数，MR 占主导地位的交叉角是 theta_c 大约 1.1 度。将磁旋转耦合常数 K_mr 作为可调参数，我们绘制了协同相图，并表明仅 MR 就可以实现强耦合（C = 257，K_mr = 1 MJ/m^3），避免交叉分裂为 13.6 MHz。",
-      "source": "arXiv",
-      "published": "2026-03-18"
-    },
-    {
-      "id": "2603.16047v1",
-      "title": "On the Analytic Origin of Two Species of Cochlear Eigenmodes",
-      "url": "http://arxiv.org/abs/2603.16047v1",
-      "first_author": "Asheesh S. Momi",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "进入耳朵后，声波作为表面波沿着耳蜗基底膜传播。在最近的工作中，我们以数字方式表明该系统支持两种类型的模式：局部共振模式，它支撑了现代对耳蜗力学的理解，以及一类新颖的空间扩展模式。在这里，我们开发了一个分析框架来解释这种模式结构的出现。我们表明，扩展模式由全局连续驻波解产生，而局域模式由需要跨奇点匹配的内部谐振产生。这些结果阐明了耳蜗波动方程的一般结构。",
-      "source": "arXiv",
-      "published": "2026-03-17"
-    },
-    {
-      "id": "2603.15157v2",
-      "title": "ANNA: a toolbox for Newtonian Noise Analysis",
-      "url": "http://arxiv.org/abs/2603.15157v2",
-      "first_author": "Pieter Reumers",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "爱因斯坦望远镜 (ET) 是第三代地下引力波天文台，旨在实现低至 3 Hz 的前所未有的灵敏度。由于人为或自然振动源而在土壤中传播的波会产生密度波动，从而引起引力，导致激光干涉仪的镜子运动，称为牛顿噪声。后者是通过积分测试质量周围土壤域上地震波场引起的密度波动来计算的。\n  ANNA 牛顿噪声分析是一个工具箱，它使用高斯求积法根据有限元网格上定义的地震波场计算牛顿噪声。支持由线性和二次四面体（4 节点和 10 节点）和砖块（8 节点和 20 节点）元素组成的 3D 有限元网格。用户在有限元网格上计算（或插值）地震波场，工具箱计算总牛顿噪声以及体积和表面贡献。 ANNA运行在MATLAB编程和数值计算平台上，并与开源GNU Octave科学编程语言兼容； Python 版本也可用。\n  该工具箱针对在弹性均匀全空间中传播的平面 P 波和 S 波进行了验证，其中镜子悬挂在球形腔中，假设波长远大于腔的半径，因此可以忽略波散射。与解析解非常一致。对于悬挂在瑞利波传播的均匀弹性半空间的自由表面上方有限距离处的测试质量的牛顿噪声，也有类似的良好一致性。\n  所提出的有限元框架为计算异质介质中的重力-地震耦合提供了一种物理一致且计算高效的方法。",
-      "source": "arXiv",
-      "published": "2026-03-16"
-    },
-    {
-      "id": "2603.11579v1",
-      "title": "Metasurface Tape for Efficient Millimeter-Wave Power Transfer via Surface-Wave Propagation",
-      "url": "http://arxiv.org/abs/2603.11579v1",
-      "first_author": "Phuc Toan Dang",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "毫米波技术对于未来高速无线通信至关重要。然而，一个根本的挑战仍然是严重的自由空间路径损耗，其中功率密度与距离 r 的平方成反比（即与 r^{-2} 成正比）作为球面依赖性而降低。为了克服这一限制，我们提出了一种柔性超表面胶带，旨在以表面波的形式引导电磁能。与传统的自由空间传播不同，这种工程超表面将场限制在亚波长界面，从而将功率衰减定律改变为循环依赖性（即与 r^{-1} 成比例）。我们首次使用在柔性基板上制造并在大约 100 GHz 下运行的周期性接地贴片阵列通过数值和实验证明了这一概念。测量结果表明，超表面胶带显着增加了发射功率，相对于我们测量几何结构中的自由空间基线，接收功率平均每米提高约 40（例如，2 m 处增加 29 dB）。这一增长是在 95 GHz 至 105 GHz 的宽带宽（即大约 10%）上实现的，可适应高数据速率应用所需的宽带调制方案。胶带具有柔韧、轻便的特性，可以轻松安装在不同的表面上。我们的演示表明，超表面胶带是一个有前途的平台，可用于扩展毫米波系统的有效范围，从而为下一代无线网络中的路径损耗瓶颈提供强大的解决方案。",
-      "source": "arXiv",
-      "published": "2026-03-12"
+      "id": "10.1016/j.epsl.2026.119963",
+      "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119963",
+      "first_author": "Seiji Tsuboi",
+      "corr_author": "Rhett Butler",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
       "id": "10.1016/j.epsl.2026.119868",
@@ -80,6 +36,61 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2025gl120021",
+      "title": "Rapid Land Surface Uplift and Groundwater Recovery Observed During the Syrian War",
+      "url": "https://doi.org/10.1029/2025gl120021",
+      "first_author": "Saeed Mhanna",
+      "corr_author": "Philip Brunner",
+      "affiliation": "Centre d’Hydrogéologie et Géothermie University of Neuchâtel  Neuchâtel Switzerland",
+      "abs_zh": "叙利亚最近的地缘政治动荡正在通过人口回返推动地区经济增长，从而增加了对水资源的需求。在叙利亚西北部，2011 年开始的叙利亚战争期间，农田被广泛废弃，极大地改变了该地区的水文状况。在这里，我们展示了这种构成不协调的大规模“反泵试验”的情况如何导致区域地下水恢复。河流流量增加，泉水重新出现，在潮湿的年份，一些地区的水位每年会间歇性地上升 4 厘米。通过结合冲突事件数据库和遥感技术（包括干涉合成孔径雷达），我们确定了冲突引起的农田废弃与地表抬升之间存在很强的相关性，表明地下水恢复的空间变化。相反，在持续抽取地下水的地区，沉降持续有增无减。由于在饱受战争之苦的叙利亚几乎不存在地面数据，这种基于遥感的方法可以对储水动态进行独特的评估，并揭示未来地下水不可持续开采的风险。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120588",
+      "title": "Impacts of Carbon Dioxide Deposition on Martian Near‐Surface Wave Activity",
+      "url": "https://doi.org/10.1029/2025gl120588",
+      "first_author": "Hung Kwan Fok",
+      "corr_author": "Darryn Waugh",
+      "affiliation": "Department of Earth and Planetary Sciences Johns Hopkins University  Baltimore MD USA",
+      "abs_zh": "火星冬季大气的一个显着特征是近地表斜压波活动。这些波对沙尘暴的变化有很强的控制作用，并有助于热量、动量和灰尘的传输。使用一套火星大气环流模型模拟，我们研究了近地表波活动与火星大气的另一个显着特征之间尚未探索的联系：其主要成分在冬季极地的沉积。我们发现了双重影响：大气在地表的沉积将高波活动的持续时间延长到春季，而沉积期间释放的潜热抑制了冬季的波浪活动。这两种效应都是由西风急流结构的变化引起的。  沉积改变了射流的空间和时间结构，改变了斜压不稳定性的增长率，从而改变了近地表波的强度和时间。我们的研究强调了考虑沉积对于理解火星沙尘暴和大气输送的重要性。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025jb033434",
+      "title": "Measurement of Phase Velocity and Ellipticity of Multi‐Mode Surface Waves by Beamforming Multi‐Component Ambient Seismic Noise",
+      "url": "https://doi.org/10.1029/2025jb033434",
+      "first_author": "Tongwei Qin",
+      "corr_author": "Laiyu Lu",
+      "affiliation": "State Key Laboratory of Earthquake Dynamics and Forecasting Institute of Geophysics China Earthquake Administration  Beijing China",
+      "abs_zh": "多分量环境地震噪声的传统波束形成通常仅利用垂直-垂直（ZZ）分量来提取瑞利波色散曲线或洛夫波的横向-横向（TT）分量。在本研究中，我们将加权和修改的波束成形扩展到不同组件之间的互相关函数。我们证明，具有有限站点的阵列中所有组件的波束成形输出理论上可以用余弦调制的 sinc 函数乘以幅度因子来表示。这种表示解释了通过基于阵列的技术获得的多模色散谱中跨模式分支的能量分布特征。该方法使用不同尺度阵列的合成测试和现场数据进行了验证。我们成功地提取了瑞利波和勒夫波的多模色散曲线，以及带有极性信息的瑞利波椭圆率。通过与解析公式输出的结果进行比较，考虑每种模式的激发强度，研究多模式色散谱的特征。我们从局部盆地尺度的现场数据中观察到基本模式瑞利波中的顺行和逆行粒子运动。我们还观察到，对于某些模式分支，从 ZZ 和 RZ（径向垂直）分量估计的相速度与从 RR 和 ZR 分量估计的相速度存在系统差异，这意味着这可以用来表征地球的偏振各向异性。所提出的方法显示了从环境地震噪声（包括泄漏模式）中提取多模表面波色散曲线和瑞利波椭圆率的潜力。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adz1780",
+      "title": "Altered morphology and diffusivity of water confined in MXenes: Machine learning–accelerated computations combined with experiments",
+      "url": "https://doi.org/10.1126/sciadv.adz1780",
+      "first_author": "Jiawei Tang",
+      "corr_author": "Paul R. C. Kent",
+      "affiliation": "School of Electronic Science and Engineering, Southeast University, Nanjing 210096, China.",
+      "abs_zh": "由于数量有限、氢键受阻和表面相互作用，纳米约束水与散装水相比表现出独特的性质，这些对于能量存储和运输应用至关重要。我们将机器学习加速的从头算分子动力学与 X 射线衍射 (XRD) 和非弹性中子散射 (INS) 相结合，系统地分析功能化（-F、-O 和 -OH）二维 (2D) Ti 之间限制的水的热力学和动力学行为\n                    3\n                    C\n                    2\n                    时间\n                    \n                      x\n                    \n                    MXene 层。当水插入层间时，层间距表现出层相关的分级特征。水极化可以通过与 MXene 表面基团相互作用的插层分子的数量和形态来翻转，从而产生不同的静电势分布。基于界面静电势、氢键寿命和分子取向，我们建立了描述水扩散率的线性组合指数模型。这些计算见解与实验 X 射线和中子测量结果非常吻合，提出了通过定制 MXene 表面化学和水含量来调整水形态和传输的策略，以用于电化学储能和纳米流体应用。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121051",
+      "title": "Atmospheric Dynamics of IR‐Active Particles Released From Mars' Surface",
+      "url": "https://doi.org/10.1029/2025gl121051",
+      "first_author": "Mark I. Richardson",
+      "corr_author": "Edwin S. Kite",
+      "affiliation": "Aeolis Research  Chandler AZ USA",
+      "abs_zh": "表面释放具有高红外（IR）与可见光消光比的辐射活性粒子已被提议作为使火星变暖的一种方法。然而，为了利用气溶胶使火星变暖，局部释放的颗粒必须分散到全球范围内。在这里，我们提供了羽流跟踪干燥火星大气模型的初步参考研究来解决这个问题。输送气溶胶的风会对气溶胶的红外强迫做出反应，这意味着强烈的辐射动力反馈（RDF）。我们研究了碳（石墨烯）和金属（铝）这两种颗粒成分的表面释放的 RDF。自膨松有助于颗粒在局部和区域内上升和扩散，哈德利环流在变暖下增强，有助于纬向混合。在我们的模型中，火星 RDF 能够实现工程气溶胶变暖。三维模型与一维模型相比，变暖程度稍大，并且还取决于辐射传输的光谱分辨率。我们评估对火星变暖的影响。许多开放的大气科学问题仍然存在，包括团聚的作用、干沉积率的不确定性和水循环反馈建模。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag116",
       "title": "Smooth surface reconstruction of earthquake faults from distributed moment-potency-tensor solutions",
       "url": "https://doi.org/10.1093/gji/ggag116",
@@ -99,72 +110,6 @@
       "affiliation": "Purdue University  West Lafayette IN USA",
       "abs_zh": "丰富的人为地震噪声为监测动态地下属性变化提供了宝贵的资源。我们利用地震检波器阵列记录的铁路和风力涡轮机引起的振动来估计伊利诺伊州底层冰川沉积物中的表面波衰减和速度。在 12 个月的监测期内，衰减 () 变化范围为 ，表明对环境变化的敏感性比速度（变化范围为 ）更强。我们观察到，通常在强降雨之后，衰减会急剧增加，而在大量抽取地下水进行灌溉期间，衰减会迅速下降。这些发现表明，从持续的人为噪声源测量的地震衰减为连续的近地表水文过程提供了稳健、高灵敏度和高时间分辨率的代理，与传统的基于地震速度的方法相补充。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag106",
-      "title": "Dynamic Lattice Method for Elastic Wave Simulation in 3-dimensional Arbitrary Anisotropic Media",
-      "url": "https://doi.org/10.1093/gji/ggag106",
-      "first_author": "Xiaolin Hu",
-      "corr_author": "Xiaofeng Jia",
-      "affiliation": "State Key Laboratory of Precision Geodesy, School of Earth and Space Sciences, University of Science and Technology of China , Hefei 230026 ,",
-      "abs_zh": "总结\n                  模拟地质材料的行为是地球物理研究的一个基本目标。为了实现这一目标，针对不同场景开发了各种模型。虽然最常用的是基于连续介质力学的连续介质模型，但也开发了离散元模型和晶格模型等非连续介质方法来解决地质材料固有的普遍不连续性。然而，现有的非连续介质模型主要局限于各向同性条件，极大地限制了它们的适用性。本研究提出的动态晶格方法旨在克服这一局限性。通过根据晶格键的空间取向独立地将弹性属性分配给晶格键，我们成功地将各向异性引入三维晶格模型中。晶格模型参数与其连续体对应物之间的线性关系是根据弹性性质建立的。这种先进的三维晶格模型已有效地应用于任意各向异性介质中的弹性地震波模拟。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec8239",
-      "title": "Experimental observation of energy-band Riemann surface",
-      "url": "https://doi.org/10.1126/sciadv.aec8239",
-      "first_author": "Dali Cheng",
-      "corr_author": "Shanhui Fan",
-      "affiliation": "Ginzton Laboratory, Stanford University, Stanford, CA 94305, USA.",
-      "abs_zh": "非厄米性自然出现在与环境交换能量的物理系统中。非厄米性的存在导致了许多拓扑物理现象和器件应用。在这些物理和应用的基础非厄米能带理论中，能量和波矢量都取复值。因此，能带成为黎曼曲面，并且这样的能带黎曼曲面是非厄米拓扑的所有重要特征的基础。尽管具有悠久的历史和最近的理论兴趣，但能带黎曼曲面尚未经过实验研究。在这里，我们提供了非厄米系统能带黎曼表面的光子观测。这是通过光子合成频率维度中的可调谐虚规范变换来实现的。根据黎曼曲面的测量拓扑，我们揭示了复能量缠绕、开放边界条件谱、广义布里渊区和分支点。我们的研究结果通过对能带黎曼曲面的实验观察，展示了非厄米拓扑物理中不同效应研究的统一框架。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120624",
-      "title": "Mirror Mode Mediated EMIC Wave Generation in the Magnetosheath",
-      "url": "https://doi.org/10.1029/2025gl120624",
-      "first_author": "Yifan Wu",
-      "corr_author": "Xin Tao",
-      "affiliation": "National Key Laboratory of Deep Space Exploration School of Earth and Space Sciences University of Science and Technology of China  Hefei China",
-      "abs_zh": "电磁离子回旋加速器 (EMIC) 波和镜像模式 (MM) 均由离子温度各向异性驱动，通常在行星磁鞘中观察到。对它们共现的传统解释很大程度上基于质子电子等离子体中的线性不稳定性理论，这需要 EMIC 和 MM 不稳定性具有可比的增长率。然而，磁鞘等离子体含有一小部分重离子，而这种成分如何影响 EMIC 波和 MM 的共存却鲜为人知。使用具有典型磁鞘参数的动力学混合模拟，我们表明，尽管重离子的存在抑制了初始线性 EMIC 不稳定性，但随着 MM 的发展，EMIC 波出现了。不断演化的MM产生平顶质子速度分布，并具有增强的共振布居，进而激发EMIC波。这些结果扩展了MM和EMIC波的传统共存场景，并揭示了磁鞘等离子体中MM、EMIC波和粒子之间能量转移的新途径。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250161",
-      "title": "Analysis of Rupture Directivity and Wave Propagation Effects on Simulated Ground Motion for Mw 7 Earthquakes on the Hayward Fault",
-      "url": "https://doi.org/10.1785/0220250161",
-      "first_author": "Rie Nakata",
-      "corr_author": "Camilo Pinilla-Ramos",
-      "affiliation": "1Lawrence Berkeley National Laboratory, Berkeley, California, U.S.A.",
-      "abs_zh": "作为圣安德烈亚斯断层系统的一部分，地震活跃的海沃德断层是造成旧金山湾区 (SFBA) 重大地震灾害的主要原因。对该断层上的大地震进行准确的地面运动预测至关重要，但由于断层在未来地震中如何破裂以及高度不均匀的地下地质结构引起的波传播效应将如何影响与场地相关的地面运动的不确定性，因此出现了挑战。本研究使用模拟宽带地震图，研究了破裂运动学和地下结构对地面运动的综合影响，实现了 Mw 7 海沃德断层地震的 50 次破裂。地面运动是在基于物理的地震模拟断层到结构百亿亿级计算框架和 Graves-Pitarka 运动学断层破裂发生器内生成的。除了与经验地震动模型 (GMM) 估计进行直接比较之外，集合平均地震动强度还用于隔离和评估震源和波路效应。我们发现局部结构会导致复杂的波传播和空间变化，而 GMM 无法完全体现这一点。破裂方向性沿着断层产生近乎对称的放大和消放大，而大滑移斑块产生局部影响。在这些因素中，波传播效应是与 GMM 预测偏差最大的因素。此外，它们在不同频率上的贡献也不同：方向性效应在中频（~1.5 s）达到峰值，但盆地放大和大滑移斑块效应在较低频率下最为突出。这项研究有助于更广泛地了解控制 SFBA 地面运动变化的关键因素，并为特定区域的非遍历 GMM 的开发提供详细的约束。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250184",
-      "title": "Relative Time-Difference Measurement of Array Records of Teleseismic\n                    <i>P</i>\n                    -Wave Using Phase-Only Correlation",
-      "url": "https://doi.org/10.1785/0220250184",
-      "first_author": "Shenbo Yang",
-      "corr_author": "Jinhai Zhang",
-      "affiliation": "1State Key Laboratory of Deep Petroleum Intelligent Exploration and Development, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
-      "abs_zh": "本研究引入了将纯相位相关集成到多通道互相关（MCCC）框架中，以增强远震纵波阵列记录的相对时差测量。当近接收器结构异质性使波形失真时，传统互相关方法的精度通常会降低。我们的方法利用仅相位相关性来减轻与幅度相关的失真，同时保持相位相干性。从噪声污染信号到被这种复杂的近站结构完全扭曲的波场，复杂性逐渐增加的综合测试表明，与传统方法相比，时差精度得到了持续改进。重要的是，合成断层扫描实验验证了该方法相对于传统方法的实际优势：使用我们的技术成功解决了传统测量所掩盖的速度异常。这些结果建立了纯相位相关性，作为 MCCC 处理的强大增强，对于在地质复杂区域运行的地震台阵特别有价值。通过提高延迟时间测量保真度，该方法提高了地下表征的远震成像的可靠性。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag107",
-      "title": "Multi-scale Wave-induced Fluid Flow in Partially Saturated Dual-Porosity Media: Theory and Numerical Validation of the Biot-patchy-spherical-squirt Model",
-      "url": "https://doi.org/10.1093/gji/ggag107",
-      "first_author": "Binghong Chen",
-      "corr_author": "Bingshou He",
-      "affiliation": "Key Laboratory of Submarine Geosciences and Prospecting Techniques, Ministry of Education and College of Marine Geosciences, Ocean University of China , Qingdao 266100 ,",
-      "abs_zh": "总结\n                  我们开发了一种新颖的综合理论框架，即 Biot-patchy-spherical-squirt (BIPSSQ) 模型，用于部分饱和双孔隙介质中的波传播。该模型同时结合了三种关键的流体流动机制：宏观流动（毕奥流动或全局流动）、介观流动和微观流动（三维球形喷射流）。首先推导 BIPSSQ 模型的本构关系和流体压力表达式，然后根据系统的动能、势能和耗散函数，使用拉格朗日方法建立控制波动方程。通过平面波分析，我们得到快纵波的相速度和衰减。数值例子表明，BIPSSQ 模型预测了多个色散过渡带和相应的衰减峰，归因于来自两种不混溶流体的两个喷射流和两个 Biot 全局流。此外，喷射流的存在显着抑制了介观斑片饱和效应，导致介观色散过渡带和衰减峰消失。还分析了渗透率、饱和度、孔隙度、喷流长度和包裹体半径对速度弥散和衰减的影响。最后，阿克苏露头岩石样本 (800 kHz)、气水饱和 Estaillades 石灰岩 (1 kHz) 和油盐水饱和 Vosgian 砂岩 (350 kHz) 的理论预测与实验测量结果非常吻合，验证了 BIPSSQ 模型的适用性和有效性。此外，BIPSSQ模型在某些条件下可以退化为其他理论（即Biot、BISSQ、BR）。我们提出的模型为解释复杂、部分饱和储层岩石中的波传播现象提供了一个统一且强大的工具。",
-      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]
