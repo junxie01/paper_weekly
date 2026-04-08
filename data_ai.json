@@ -1,5 +1,171 @@
 {
-  "last_update": "2026-04-01 至 2026-04-08 10:02",
+  "last_update": "2026-04-01 至 2026-04-08 02:41",
   "topic_name": "人工智能",
-  "papers": []
+  "papers": [
+    {
+      "id": "2603.03079v1",
+      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
+      "url": "http://arxiv.org/abs/2603.03079v1",
+      "first_author": "Jonas Köhler",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以考虑平衡数据集上的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时仍与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
+      "source": "arXiv",
+      "published": "2026-03-03"
+    },
+    {
+      "id": "2602.09792v1",
+      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
+      "url": "http://arxiv.org/abs/2602.09792v1",
+      "first_author": "Jaehong Chung",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
+      "source": "arXiv",
+      "published": "2026-02-10"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.119983",
+      "title": "Quality/quantity quandary: machine learning framework for assessing tradeoffs in zircon geochemistry",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119983",
+      "first_author": "Pengfei Lv",
+      "corr_author": "Wei Yang",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250303",
+      "title": "Revealing Hidden\n                    <i>T</i>\n                    -Wave Sources in the South China Sea from an Island Seismometer Using Deep Metric Learning",
+      "url": "https://doi.org/10.1785/0220250303",
+      "first_author": "Chunchang Xia",
+      "corr_author": "Min Xu",
+      "affiliation": "1College of Artificial Intelligence, Guangxi Minzu University, Nanning, China",
+      "abs_zh": "T 波是地震波与复杂海底地形相互作用时产生的水声信号，能量转换为海洋声波，以声速（∼1.5 km/s）通过声音固定和测距通道传播。在南海等半封闭盆地中，复杂的测深由于信号模式的变化而造成了具有挑战性的检测条件。我们使用南海（2012-2024）的陆基地震数据开发了一个用于 T 波识别的深度度量学习框架。我们的半监督方法将 M ≥ 5.0 地震分为三类：无 T 相、单 T 相和多 T 相。深度学习模型取得了优异的性能，宏观 F1 分数高达 94.61%，特别是在检测复杂的多个 T 波模式方面表现出色。应用到较小的地震（M < 5.0）揭示了 116 个以前未检测到的 T 波事件。空间分析表明，T波事件集中在菲律宾板块西缘和马尼拉海沟，多个T相事件主要位于台湾岛东部，可能是由于该地区复杂的测深造成的。此外，越南海岸的一部分近岸地震会产生可检测到的 T 波，这表明沿海浅水区可能会实现地震与声能的耦合。这些发现促进了对半封闭盆地 T 波生成机制的理解，并为震声转换的空间模式提供了新的见解。扩展的 T 波目录和自动检测框架为海洋地震监测提供了宝贵的工具，并有助于提高对复杂测深环境中 T 波传播的理解。由于该框架是从单个岛屿地震仪开发而来，因此其对其他台站或地区的适用性仍有待在未来的研究中评估。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adz8130",
+      "title": "Machine learning–assisted discovery of outside-in structure Ni-rich cathode with high performance",
+      "url": "https://doi.org/10.1126/sciadv.adz8130",
+      "first_author": "Guihong Mao",
+      "corr_author": "Laifa Shen",
+      "affiliation": "Jiangsu Key Laboratory of Materials and Technologies for Energy Storage, College of Materials Science and Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China.",
+      "abs_zh": "与钴基材料相比，富镍氧化物由于比能量高、成本更低且可持续性更高，已成为锂离子电池的主要阴极候选材料。然而，富镍阴极会因各向异性晶格应变和界面重建而导致电压和容量下降。在这里，我们报告了一种高性能富镍阴极，具有强大的由外而内的架构，通过机器学习辅助识别铝来实现\n                    3+\n                    和锡\n                    4+\n                    掺杂剂。通过竞争性掺杂机制，这些掺杂剂形成富锡岩盐表面层和均匀的铝掺杂块体。这种高质量的由外而内的结构通过减轻阴极/电解质界面退化和减轻与 H2/H3 相共存相关的各向异性晶格应变来增强界面稳定性和结构可逆性。此外，非磁性铝\n                    3+\n                    和锡\n                    4+\n                    削弱超交换相互作用并抑制Li─Ni紊乱。结果，阴极在 200 次循环后保留了 96.9% 的容量，电压衰减最小。这些发现为高性能富镍阴极的开发提供了见解。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.adv7924",
+      "title": "DefensePredictor: A machine learning model to discover prokaryotic immune systems",
+      "url": "https://doi.org/10.1126/science.adv7924",
+      "first_author": "Peter C. DeWeirdt",
+      "corr_author": "Michael T. Laub",
+      "affiliation": "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+      "abs_zh": "反噬菌体防御系统可保护细菌免受病毒感染，并启发了 CRISPR-Cas9 等重要生物技术，同时也揭示了真核生物先天免疫的进化根源。通过基因组共定位发现了许多系统，但这种方法无法识别防御岛之外的系统。我们提出了 DefensePredictor，这是一种机器学习模型，它使用蛋白质语言模型嵌入将蛋白质分类为防御性蛋白质。将 DefensePredictor 应用于 69 个不同的\n                    大肠杆菌\n                    我们预测了数百个以前未知的系统，并通过实验验证了其中的 42 个。对 1000 个不同的原核生物基因组的分析发现了近 3000 个与已知系统缺乏同源性的蛋白质簇，揭示了巨大的、未表征的防御库。 DefensePredictor 将促进抗噬菌体防御系统的全面发现，有望揭示原核和真核免疫之间的其他联系，并加速生物技术的发展。",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120502",
+      "title": "A Two‐Dimensional Deep Learning Scheme With One Predicator Only to Parametrize Global Lightning",
+      "url": "https://doi.org/10.1029/2025gl120502",
+      "first_author": "Ming Yin",
+      "corr_author": "Jie Liu",
+      "affiliation": "National Key Laboratory of Intelligent Spatial Information  Beijing China",
+      "abs_zh": "闪电模拟长期以来一直面临着重大挑战。这项研究提出了一种新颖的基于二维人工智能的全球闪电方案，该方案使用单一预测因子​​——对流可用势能（CAPE）。新方案显着提高了全局闪电模拟性能，判定系数达到0.89，比现有基于机器学习的全局闪电方案提高了24%。此外，它的绝对偏差降低了 41%，均方根误差降低了 38%。至关重要的是，该方案有效地缓解了当前所有闪电方案由于纳入非局部特征信息而对极端闪电密度的低估。这一发现表明，极端闪电模拟取决于来自相邻网格单元的对流系统的运动或包含多个网格单元的大型对流系统的存在。作为一种轻量级深度神经网络，它在全球气候模型和更广泛的应用中显示出巨大的应用潜力。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-1867-2026",
+      "title": "Past and future changes in avalanche problems in northern Norway estimated with machine-learning models",
+      "url": "https://doi.org/10.5194/tc-20-1867-2026",
+      "first_author": "Kai-Uwe Eiselt",
+      "corr_author": "Rune Grand Graversen",
+      "affiliation": "未知机构",
+      "abs_zh": "。由于气候变化，山区雪崩灾害的频率和严重程度可能会发生变化，特别是在挪威北部等北极地区，温度变化加剧。我们扩展了早期工作，利用动态缩小的再分析数据（包括积雪模拟）训练机器学习 (ML) 模型，以预测挪威北部特罗姆斯县的雪崩危险。与早期的工作相比，经过训练的机器学习模型可以区分雪崩类型，特别是干雪和湿雪。由于雪崩观测不足，我们根据挪威雪崩公报中发布的雪崩危险警告构建了二元指标（雪崩日/非雪崩日）。 ML 模型提供了 1970 年至 2024 年期间雪崩发生频率的后报（基于重新分析）以及对 21 世纪未来的预测（基于气候模型模拟）。在历史时期，结果证实了早期的研究表明，虽然数十年的线性趋势是微不足道的，但雪崩日频率的年际变化与北极涛动有关。预计的未来变化表明雪崩危险总体下降，尤其是干雪雪崩。相比之下，湿雪雪崩危险表现出取决于海拔的变化，直到本世纪中叶在所有海拔地区都增加，但此后仅在较高海拔地区继续增加，而在较低海拔地区则反转为减少。我们的研究结果与21世纪雪崩危险总体下降以及雪崩特征向干雪雪崩减少和湿雪雪崩增加的转变这一新兴共识一致。这种转变对于容易发生雪崩的人群来说可能具有挑战性，因为当前对当地雪崩状况的了解可能变得不太重要，并且越来越无法提供针对雪崩危险的保护。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026jb034262",
+      "title": "Fine‐Scale Segmentation and Spatiotemporal Variability of the 2010\n                    <i>M</i>\n                    <sub>w</sub>\n                    8.8 Maule Aftershock Sequence Revealed by a Deep‐Learning‐Based Earthquake Catalog",
+      "url": "https://doi.org/10.1029/2026jb034262",
+      "first_author": "Rodrigo Flores‐Allende",
+      "corr_author": "Claudio Satriano",
+      "affiliation": "Institut de Physique du Globe de Paris Université Paris Cité UMR 7154  Paris France",
+      "abs_zh": "我们重新审视此次余震序列\n                    中号\n                    w\n                    智利中南部 8.8 马乌莱地震，了解地震活动、震级频率分布和断层结构如何沿破裂带变化。使用国际马乌莱余震部署 (IMAD) 数据集，我们分析了来自大约 156 个临时站的 10 个月的连续数据，并为马乌莱破裂带建立了高分辨率余震目录。我们应用反投影和匹配过滤（BPMF）工作流程，它将深度学习相位选择器与基于反投影的关联、相对重定位和模板匹配集成在一起。我们最初检测并重新定位了 130,575 次地震，然后使用高质量事件的子集作为模板来识别初始检测遗漏的较小地震。最终目录包含 537,387 次地震，比之前的研究多了近 13 倍，完整性震级为 ≈\n                    中号\n                    w\n                    1.8，震级范围为\n                    中号\n                    w\n                    0.2 至\n                    中号\n                    w\n                    6.2.本地震级 () 校准提供了整个网络的均匀震级标度。密集的目录揭示了沿着破裂的详细地震构造特征。在皮奇勒姆地区，余震描绘出具有 L 形几何形状的浅正断层系统，而康塞普西翁地区则包含地震斑块。使用经典的最大似然和更不完全的方法，我们发现序列早期的时间值范围在 1.2 到 1.6 之间，并向 ≈1.0 收敛。同时，值沿走向变化很大，北部的值较高，南部的值较低。这些对比与板块界面上有效应力和孔隙流体压力的沿走向变化一致，与之前的研究一致。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-1841-2026",
+      "title": "Physics-constrained generative machine learning-based high-resolution downscaling of Greenland's surface mass balance and surface temperature",
+      "url": "https://doi.org/10.5194/tc-20-1841-2026",
+      "first_author": "Nils Bochow",
+      "corr_author": "Alexander Robinson",
+      "affiliation": "未知机构",
+      "abs_zh": "。格陵兰冰盖表面质量平衡（SMB）和表面温度的准确、高分辨率预测对于了解未来海平面上升至关重要，但目前的方法要么计算量要求高，要么仅限于粗略的空间尺度。在这里，我们引入了一种基于一致性模型 (CM) 的新型物理约束生成建模框架，可在几个采样步骤中将低分辨率 SMB 和表面温度场缩小高达 32 倍（从 160 公里到 5 公里网格间距）。 CM 根据区域气候模型 MARv3.12 的每月输出进行培训，并以冰盖地形和日照为条件。通过在推理过程中强制执行硬守恒约束，我们确保了粗空间尺度上 SMB 和温度总和的近似保存，以及对极端气候状态的稳健泛化，而无需重新训练。在测试集上，我们的约束 CM 获得了 5.37 mmw.e 的连续排名概率分数。 SMB 每月一次，表面温度为 0.1 K，优于基于插值的降尺度。与空间功率谱分析一起，我们证明了 CM 忠实地再现了空间尺度上的变化。我们进一步应用 NorESM2 地球系统模型和社区地球系统模型 CESM2-WACCM 的偏差校正输出作为我们 CM 的输入，以证明我们的模型直接缩小 ESM 场规模的潜力。我们的方法通过快速推理为冰盖模拟提供真实、高分辨率的气候强迫，并且可以轻松集成到地球系统和冰盖模型工作流程中，以改进对格陵兰岛以及可能的其他冰盖和冰川未来对海平面上升的贡献的预测。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120355",
+      "title": "A Machine Learning‐Based High‐Resolution Inventory of Soil Inorganic Carbon Across the Contiguous United States",
+      "url": "https://doi.org/10.1029/2025gl120355",
+      "first_author": "Zahra Ghahremani",
+      "corr_author": "Jennifer Pierce",
+      "affiliation": "Department of Geosciences Boise State University  Boise ID USA",
+      "abs_zh": "土壤无机碳（SIC）对于碳固存、渗透和气候建模至关重要，但量化其在大陆尺度上的精确空间分布仍然具有挑战性。我们使用在 ISRIC 世界土壤信息服务 (WoSIS) 数据库上训练的机器学习 (ML) 模型引入高分辨率 (30 m) CONUS SIC 地图。与之前基于多边形的清单相比，将基于点的土壤数据与高分辨率气候和地表变量相结合，可以增强预测并减少未采样区域的不确定性。我们的 SIC 随机森林回归 (RFR) 得出的均方根误差 (RMSE) 为 15 kg/m\n                    2\n                    ，多类分类器的准确率为 0.56。我们的模型估计，美国本土土壤表层 1 m 储存了 77 ± 1.8 Pg SIC，这比之前的库存显着增加了 SIC 储存量。我们区分了两种 SIC 储存类型：在潮湿地区持续存在的岩质碳酸盐和通常在干旱土壤中形成的成土碳酸盐。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aeg8830",
+      "title": "Amygdala transcranial ultrasound stimulation disrupts threat acquisition and extinction learning",
+      "url": "https://doi.org/10.1126/sciadv.aeg8830",
+      "first_author": "Gregory A. Fonzo",
+      "corr_author": "Kevin S. LaBar",
+      "affiliation": "Department of Psychiatry and Behavioral Sciences, The University of Texas at Austin Dell Medical School, Austin, TX, USA.",
+      "abs_zh": "应用于人类杏仁核的经颅超声刺激选择性地影响威胁学习的初始阶段及其随后的消退。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "2509.00791v1",
+      "title": "A computer vision-based approach to enhance seismic catalogues",
+      "url": "http://arxiv.org/abs/2509.00791v1",
+      "first_author": "Michele De Solda",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "近年来，人工智能和深度学习地震探测器，加上全球部署的越来越多的密集地震网络，进一步促进了大规模地震目录的创建，大大降低了其完整性。然而，这些自动化目录通常是在没有系统质量控制的情况下发布的，并且可能包含虚假检测、错误定位或不一致的幅度。在具有挑战性的场景中，例如微震监测应用，弱且间隔紧密的事件经常在时间上重叠，基于拾取的检测和定位方法通常无法可靠地关联相位。这会导致漏检或定位精度下降，从而产生被错误或错位事件污染的地震目录。为了解决这一限制，我们提出了一种基于计算机视觉的工作流程，它将基于波形的地震定位方法与深度学习图像分类相结合，以直接从相干矩阵中区分真实的地震事件和噪声。这些通过波形叠加计算的矩阵表现出真实事件（单个、聚焦的最大值）与噪声（模糊、不相干的模式）的不同模式，因此清理地震目录的问题可以作为二值图像分类问题来解决。此外，基于波形的定位方法的鲁棒性允许在地震事件的定位中获得更高的分辨率。这种方法的另一个优点是神经网络的训练可以完全基于合成数据。这种基于合成的训练消除了对大型标记数据集的需求，从而能够在新仪器领域快速部署。我们使用冰岛亨吉尔地热区公开的 COSEISMIQ 数据集来验证我们的工作流程。",
+      "source": "arXiv",
+      "published": "2025-08-31"
+    },
+    {
+      "id": "2508.04925v2",
+      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
+      "url": "http://arxiv.org/abs/2508.04925v2",
+      "first_author": "Sigma Jahan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。 This gap leaves practitioners without actionable diagnostic guidance. To address this gap, we present the first comprehensive empirical study of faults in attention-based neural networks (ABNNs).我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。 Through our analysis, we develop a novel taxonomy comprising seven attention-specific fault categories, not captured by existing work. Our results show that over half of the ABNN faults arise from mechanisms unique to attention architectures. We further analyze the root causes and manifestations of these faults through various symptoms.最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
+      "source": "arXiv",
+      "published": "2025-08-06"
+    },
+    {
+      "id": "2412.16336v1",
+      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
+      "url": "http://arxiv.org/abs/2412.16336v1",
+      "first_author": "Gunel Jahangirova",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
+      "source": "arXiv",
+      "published": "2024-12-20"
+    }
+  ]
 }

@@ -1,5 +1,171 @@
 {
-  "last_update": "2026-04-01 至 2026-04-08 10:02",
+  "last_update": "2026-04-01 至 2026-04-08 02:41",
   "topic_name": "地震成像",
-  "papers": []
+  "papers": [
+    {
+      "id": "2604.00307v1",
+      "title": "SAGE: Subsurface AI-driven Geostatistical Extraction with proxy posterior",
+      "url": "http://arxiv.org/abs/2604.00307v1",
+      "first_author": "Huseyin Tuna Erdinc",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "生成网络的最新进展启用了地下速度模型合成的新方法，为全波形反演等传统方法提供了令人信服的替代方案。然而，这些方法主要依赖于高质量、地质真实的地下速度模型的大规模数据集的可用性，而这些数据集在实践中通常很难获得。我们引入了 SAGE，这是一种新颖的框架，用于根据不完整的观测（特别是稀疏测井曲线和偏移地震图像）生成统计上一致的代理速度。在训练过程中，SAGE 学习以两种模式（井和地震）为条件的速度模型的代理后验；推理时，它会产生仅以迁移图像为条件的全分辨率速度场，并且井信息隐式编码在学习的分布中。这使得能够生成地质上合理且统计上准确的速度实现。我们在合成数据集和现场数据集上验证了 SAGE，证明了它在有限的观测约束下捕获复杂的地下变化的能力。此外，从学习的代理分布中提取的样本可用于训练下游网络，支持反演工作流程。总体而言，SAGE 提供了一种可扩展且数据高效的途径，用于学习地震成像和反演的地质代理后验。回购链接：https://github.com/slimgroup/SAGE。",
+      "source": "arXiv",
+      "published": "2026-03-31"
+    },
+    {
+      "id": "2603.26191v1",
+      "title": "A Multi-physics Alternating Coupled Inversion Using Gravity and Full Waveform Data in Salt Dome",
+      "url": "http://arxiv.org/abs/2603.26191v1",
+      "first_author": "Siyuan Dong",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "复杂的盐几何形状和强烈的速度对比给速度模型构建和盐下成像带来了重大挑战。尽管全波形反演（FWI）提供高分辨率速度模型，但其性能很大程度上取决于初始模型的精度。另一方面，重力聚焦反演（GFI）可以恢复致密的密度分布，为地震勘探提供可靠的长波长构造信息，但其深度分辨率差且具有固有的非唯一性。为了利用全波形和重力数据的优势互补更好地反演盐结构，我们提出了一种盐丘模型多物理场交替耦合反演策略。提出的策略主要包括三个部分。首先，我们使用简单的分层速度模型执行 FWI，以获得初步速度更新并提取盐顶边界。其次，该结构信息被用作 GFI 中的约束，以恢复盐顶下方紧凑的盐密度分布。第三，由此产生的盐几何形状用于为下一阶段的 FWI 构建改进的速度模型。通过迭代交替，FWI为GFI提供了可靠的结构约束，而GFI为FWI提供了更合理的宏观盐模型，有效缓解了对初始模型的强烈依赖。此外，GFI 中引入了随深度变化的密度对比，以更好地表示沉积物压实效​​应。与使用水平分层初始模型的无约束GFI和传统FWI相比，该方法有效地改善了改进的BP盐模型和SEG/EAGE盐模型中的速度和密度重建。",
+      "source": "arXiv",
+      "published": "2026-03-27"
+    },
+    {
+      "id": "2603.24751v1",
+      "title": "Scalable Bayesian full waveform inversion via dual augmented Lagrangian SVGD",
+      "url": "http://arxiv.org/abs/2603.24751v1",
+      "first_author": "Kamal Aghazade",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "全波形反演是一个不适定的反演问题，其解的非唯一性——即由带限、有限孔径、噪声数据引起——需要不确定性量化以避免过度自信的地质解释。贝叶斯推理通过将解描述为后验分布而不是单点估计来满足这一需求。然而，从该分布中进行采样在计算上仍然具有挑战性：马尔可夫链蒙特卡罗和非摊余变分推理需要重复波动方程求解，而避免重复求解的摊余变分推理方法依赖于地球科学中本质上稀缺的训练数据，并且面临高维度中未解决的泛化挑战。为了解决这些限制，我们将斯坦因变分梯度下降与双增广拉格朗日公式下的乘子交替方向方法结合起来。通过将波算子固定在频率批次之间更新的背景模型上，只需每个频率每个粒子分解一次，消除每次迭代重构并将总成本降低到少数确定性反演的总成本，同时继承扩展空间公式的有利条件。应用于 Marmousi~II 模型时，所提出的方法提供了良好校准的不确定性估计，并以计算成本的一小部分实现了与标准增强拉格朗日 SVGD 相当的反演质量。",
+      "source": "arXiv",
+      "published": "2026-03-25"
+    },
+    {
+      "id": "2603.24415v1",
+      "title": "Reconstructing effective ultrasound transducer models via distributed source inversion",
+      "url": "http://arxiv.org/abs/2603.24415v1",
+      "first_author": "Tim Bürchner",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "超声波传播的精确建模对于超声检测中的高保真模拟和成像至关重要。主要挑战在于表征激励源，特别是对于相对于声波波长具有大孔径的换能器。在这种情况下，不均匀激发和空间干扰会显着影响最终的辐射方向图。本文提出了一种分布式源反演策略来重建有效的时空换能器模型，以再现实验测量的波场。重建的源模型可以捕获与孔径相关的相位和幅度变化，而无需详细了解换能器结构。该方法使用铝半圆柱体上的方向性测量进行了验证，其中结合重建源模型的模拟显示与实验方向性模式和波形形状非常一致。最后，逆时偏移和全波形反演的综合研究表明，准确的换能器建模对于基于模拟的成像和反演工作流程的成功至关重要，并显着提高重建质量。",
+      "source": "arXiv",
+      "published": "2026-03-25"
+    },
+    {
+      "id": "2603.23439v1",
+      "title": "SIGMA: A Physics-Based Benchmark for Gas Chimney Understanding in Seismic Images",
+      "url": "http://arxiv.org/abs/2603.23439v1",
+      "first_author": "Bao Truong",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "地震图像根据现场记录重建地下反射率，指导勘探和储层监测。气烟囱是由地下流体运移引起的垂直异常现象。了解这些现象对于评估碳氢化合物潜力和避免钻井危险至关重要。然而，由于强烈的地震衰减和散射，准确检测具有挑战性。传统的基于物理的方法计算成本昂贵且对模型错误敏感，而深度学习提供了有效的替代方案，但缺乏标记数据集。在这项工作中，我们引入了 \\textbf{SIGMA}，这是一种新的基于物理的数据集，用于理解地震图像中的气体烟囱，其特征是（i）用于检测的像素级气体烟囱掩模和（ii）用于增强的配对退化图像和地面实况图像。我们采用了基于物理的方法，涵盖了广泛的地质环境和数据采集条件。综合实验表明，SIGMA 可以作为气烟囱解释的具有挑战性的基准，并有利于一般地震理解。",
+      "source": "arXiv",
+      "published": "2026-03-24"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.119963",
+      "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119963",
+      "first_author": "Seiji Tsuboi",
+      "corr_author": "Rhett Butler",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120004",
+      "title": "New insights into plateau-craton interactions from P and S wave tomography beneath the northeastern Tibetan plateau",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120004",
+      "first_author": "Haibo Wang",
+      "corr_author": "Xiumian Hu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.119933",
+      "title": "Implications of long lasting post-seismic deformation following the 2005 Mw 7.6 Kashmir earthquake inferred from GNSS &amp; InSAR data",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119933",
+      "first_author": "Pauline Meyer",
+      "corr_author": "Adnan Alam Awan",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250303",
+      "title": "Revealing Hidden\n                    <i>T</i>\n                    -Wave Sources in the South China Sea from an Island Seismometer Using Deep Metric Learning",
+      "url": "https://doi.org/10.1785/0220250303",
+      "first_author": "Chunchang Xia",
+      "corr_author": "Min Xu",
+      "affiliation": "1College of Artificial Intelligence, Guangxi Minzu University, Nanning, China",
+      "abs_zh": "T 波是地震波与复杂海底地形相互作用时产生的水声信号，能量转换为海洋声波，以声速（∼1.5 km/s）通过声音固定和测距通道传播。在南海等半封闭盆地中，复杂的测深由于信号模式的变化而造成了具有挑战性的检测条件。我们使用南海（2012-2024）的陆基地震数据开发了一个用于 T 波识别的深度度量学习框架。我们的半监督方法将 M ≥ 5.0 地震分为三类：无 T 相、单 T 相和多 T 相。深度学习模型取得了优异的性能，宏观 F1 分数高达 94.61%，特别是在检测复杂的多个 T 波模式方面表现出色。应用到较小的地震（M < 5.0）揭示了 116 个以前未检测到的 T 波事件。空间分析表明，T波事件集中在菲律宾板块西缘和马尼拉海沟，多个T相事件主要位于台湾岛东部，可能是由于该地区复杂的测深造成的。此外，越南海岸的一部分近岸地震会产生可检测到的 T 波，这表明沿海浅水区可能会实现地震与声能的耦合。这些发现促进了对半封闭盆地 T 波生成机制的理解，并为震声转换的空间模式提供了新的见解。扩展的 T 波目录和自动检测框架为海洋地震监测提供了宝贵的工具，并有助于提高对复杂测深环境中 T 波传播的理解。由于该框架是从单个岛屿地震仪开发而来，因此其对其他台站或地区的适用性仍有待在未来的研究中评估。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag129",
+      "title": "CapsNet-Enhanced Seismic Event Classification: Benchmarking and System Deployment on the DiTing 2.0 Dataset",
+      "url": "https://doi.org/10.1093/gji/ggag129",
+      "first_author": "Zhenyu Pei",
+      "corr_author": "Ke Jia",
+      "affiliation": "School of Automation, Northwestern Polytechnical University , Xi’an 710129 ,",
+      "abs_zh": "总结\n                  自动地震事件分类是现代地震监测和网络操作的关键组成部分，但之前的许多研究受到小数据集或二进制任务的限制。这项工作在大规模 DiTing 2.0 AI 地震数据集上提出了主流深度学习模型的第一个系统基准，包括卷积神经网络 (CNN)、基于 Transformer 的架构和胶囊网络 (CapsNet)，该数据集包含跨越三个类别（自然地震、采石场爆炸和矿井塌陷）的 19,384 个标记的三分量波形。因此，我们为地震事件分类提供了可重复的基线。评估了针对 DiTing 2.0 优化的几种 CapsNet 变体，我们的结果表明，使用 MFCC 表示和数据增强的 CapsNet+Res 模型在保留测试集上实现了 91.08% 的准确率（加权 F1 = 91.10%）。多站投票进一步将事件级准确率提高到 97.52%，而配套的噪声事件分类器则达到 98.47% 的准确率。对演示连续记录的功能测试证实了可转移且用户友好的系统内可靠的端到端操作，强调了其地震台网应用的可行性。总体而言，这项研究通过提供稳健的基线、对输入特征和架构相互作用的洞察以及用于自动分类的实用平台，将方法开发和操作应用联系起来；大规模连续数据评估、跨区域迁移验证和自适应学习策略仍然是未来研究的重要方向。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag130",
+      "title": "P-wave velocity and azimuthal anisotropy of the crust and uppermost mantle beneath Northeast China",
+      "url": "https://doi.org/10.1093/gji/ggag130",
+      "first_author": "Dazhi Song",
+      "corr_author": "Wenshuai Wang",
+      "affiliation": "National Institute of Natural Hazards, Ministry of Emergency Management of China , Beijing 100085 ,",
+      "abs_zh": "总结\n                  中国东北地区是最大的板内新生代火山省之一，经历了古生代的多次碰撞、晚侏罗世-早白垩世的伸展和上新世的挤压。中生代以来，中国东北地区的构造作用很大程度上受西太平洋板块俯冲的控制，其典型特征是形成多个板内火山群和沉积盆地。该地区的构造机制，特别是新生代板内火山的起源和松辽表层沉积盆地的演化仍然存在争议。为了解决这些问题，我们进行了地震层析成像，对中国东北地区地壳和上地幔的纵波速度和方位各向异性进行了成像。在本研究中，我们采用基于程函方程的走时层析成像方法来反演高质量的P波初至。我们从 426 个宽带地震台记录的 890 个区域地震中手动选取了 21,006 个 P 波初至。层析反演揭示了四个显着特征。首先，结果揭示了长白山火山上地幔存在显着的低速异常，且具有强的方位各向异性，快速度方向沿低速异常分布，呈东西向。这一特征表明长白山火山下方最上地幔的水平流动。其次，长白山火山下方中下地壳存在明显的低速异常，暗示存在岩浆房。第三，五大连池火山地壳具有近正速度结构和较强的方位各向异性，快速度方向为南北向，表明岩浆活动对地壳结构影响不大。第四，松辽盆地下方中下地壳广泛存在的明显低速异常反映了",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250409",
+      "title": "Dual-Branch Adaptive Joint Decision-Making: Intelligent Identification of Seismic Events Supported by Single-Component Waveform Data from Multiple Global Regions",
+      "url": "https://doi.org/10.1785/0220250409",
+      "first_author": "Zhao Binghui",
+      "corr_author": "Han Liguo",
+      "affiliation": "1Institute of Geophysics, China Earthquake Administration, Beijing, China",
+      "abs_zh": "地震事件类型分类是可靠监测地震活动、科学评估地震危险性的基本前提。然而，基于台站地震观测数据有效、准确地区分天然地震和人工爆炸事件仍然是地震学和信号处理领域的一个关键研究课题，具有挑战性和价值。针对这一问题，本文提出一种基于深度学习网络的地震事件分类与预测算法。该算法采用双分支联合决策策略，以经过简单预处理的单通道波形数据作为输入。在模型推理过程中，对波形数据及其对应的时频矩阵分别进行特征提取和预测。此外，设计了权重学习子网络，自适应调整两个分支的预测结果在整体决策中的权重比例，从而保证分类和预测结果的稳定性和准确性。实验测试结果表明，该算法应用过程简单，无需依赖大量的人工调参，在不同观测仪器、不同地区的地震数据集中表现出良好的泛化性能。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120419",
+      "title": "Wave‐Based Quantification of Ion Composition in the Earth's Magnetosphere‐Ionosphere‐Coupling Region",
+      "url": "https://doi.org/10.1029/2025gl120419",
+      "first_author": "Zhijie Qin",
+      "corr_author": "Zhenghao She",
+      "affiliation": "Institute of Frontier and Interdisciplinary Science Shandong University  Shandong China",
+      "abs_zh": "离子组成关键决定等离子体的基本动力学特性并影响磁层的能量传输。然而，它随着海拔、纬度、当地时间、经度以及地磁和太阳活动的变化而表现出显着的变化。赤道噪声（EN）发射是内磁层中经常观察到的电磁波，穿过磁场线传播，因此可以到达磁赤道附近的磁层-电离层耦合（MIC）区域，其演化取决于局部离子组成。在这里，我们利用范艾伦探测器近地点附近观察到的 EN 发射的极化反转来导出氦离子和氧离子的成分，并通过 EN 发射的统计分析提供全面的离子成分分布。与国际参考电离层模型和原位等离子体测量的比较验证了估计结果的可靠性。这些发现推进了 MIC 等离子体模型，我们的方法为其他行星上的等离子体诊断提供了间接工具。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120250269",
+      "title": "Waveform-Based Probabilistic Seismic Hazard Analysis Using Ground-Motion Generative Models",
+      "url": "https://doi.org/10.1785/0120250269",
+      "first_author": "Yuma Matsumoto",
+      "corr_author": "Tatsuya Itoi",
+      "affiliation": "1Research Division for Earthquake, Tsunami and Multi-disasters, Department of Catastrophic Geohazard Research, National Research Institute for Earth Science and Disaster Resilience, Ibaraki, Japan",
+      "abs_zh": "在概率地震危险分析 (PSHA) 中，通常会评估地震动强度测量 (IM) 的超出概率。然而，近年来，使用地震动时程作为输入的动力响应分析在地震设计和风险评估中越来越普遍，因此用地震动波形表示地震危险性的需求不断增长。在本研究中，我们提出了一种新颖的PSHA框架，称为基于波形的PSHA，通过将基于深度生成模型（地面运动生成模型[GMGMs]）的地面运动模型（GMM）引入PSHA框架中，可以直接评估地面运动波形的概率分布。在基于波形的 PSHA 中，地震灾害在蒙特卡罗意义上被表示为一组地面运动波形。我们提出了这样一个 PSHA 框架的制定以及执行所需蒙特卡洛模拟的算法。构建了三种不同的基于生成对抗网络的 GMGM。在验证每个 GMGM 的性能后，使用所提出的方法对两个数值示例进行危险评估：一个假设假设的区域源，另一个假设日本的实际地点和源断层。我们证明，地震灾害可以表示为一组地面运动波形，并且从这些波形获得的基于 IM 的灾害与使用 GMM 的传统 PSHA 结果一致。最后，使用评估的地震危险作为输入对建筑模型进行非线性动力响应分析，结果表明，工程需求参数（EDP）的超出概率以及关于 EDP 的危险分解可以在所提出的框架内以简单的方式进行。",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag128",
+      "title": "Characterization of the crust and uppermost mantle beneath the São Francisco Craton (Brazil) and adjacent areas from Rayleigh wave tomography",
+      "url": "https://doi.org/10.1093/gji/ggag128",
+      "first_author": "Estevão Vasconcello Campos Tadeu",
+      "corr_author": "Guilherme Manno Penna Crepaldi Affonso",
+      "affiliation": "University of Brasilia, Institute of Geosciences, Graduate Program in Geology ,",
+      "abs_zh": "总结\n                  本研究通过瑞利波层析成像技术，整合了环境噪声（周期为 6-50 秒）和地震衍生的（周期为 9-180 秒）频散曲线，研究了圣弗朗西斯科克拉通 (SFC) 下方的地壳和上地幔结构，该克拉通构成了更广泛的圣弗朗西斯科古大陆 (SFP) 的核心及其周围的构造省。使用自适应参数化对二维相位和群速度图进行区域化，并通过棋盘测试评估分辨率。生成了深度达 70 公里的伪 3D 剪切波速度 (VS) 模型，并使用最大速度梯度法从中得出了地壳厚度。浅层深度（2-10 公里）的结果将巴拉那盆地、帕尔纳伊巴盆地和图卡诺-贾托巴盆地识别为低速异常，而圣方济各盆地尚未完全解析，因为尽管其表面范围广阔，但其厚度减少低于模型的分辨率极限。在 SFC 内部的中下地壳（20-40 公里）中，帕拉米林奥拉戈根 (Paramirim Aulacogen) 具有低 VS 走廊的特征，突出了继承性裂谷结构和随后克拉通内部热再造的作用。在更深的地方（60-70 公里），Borborema 省表现出较低的速度，这与稳定的 SFC 根部的较高速度形成鲜明对比。来自断层扫描的莫霍面图表明巴拉那盆地和帕尔纳伊巴盆地以及巴西利亚带下方的地壳增厚，与接收函数的估计非常一致。总体而言，SFC 邻近区域的 VS 异常和莫霍面几何揭示了地壳相对较薄（32-36 公里）的高速走廊，延伸穿过托坎廷斯省、曼蒂凯拉省和博尔博雷马省，并向西北突出到帕纳伊巴盆地下方。这些结果表明，圣弗朗西斯科古大陆的边界大大超出了地壳和上地幔内暴露的表面界限。这些边界",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    }
+  ]
 }

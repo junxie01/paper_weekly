@@ -1,5 +1,171 @@
 {
-  "last_update": "2026-04-01 至 2026-04-08 10:02",
+  "last_update": "2026-04-01 至 2026-04-08 02:41",
   "topic_name": "面波研究",
-  "papers": []
+  "papers": [
+    {
+      "id": "2604.04107v1",
+      "title": "Physical Sensitivity Kernels Can Emerge in Data-Driven Forward Models: Evidence From Surface-Wave Dispersion",
+      "url": "http://arxiv.org/abs/2604.04107v1",
+      "first_author": "Ziye Yu",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "数据驱动的神经网络越来越多地用作地球物理学中的替代前向模型，但目前尚不清楚它们是否仅恢复数据映射或还恢复潜在的物理敏感性结构。这里我们使用表面波色散来测试这个问题。通过将神经网络代理的自动微分梯度与理论灵敏度内核进行比较，我们表明学习的梯度可以在广泛的时期内恢复物理内核的主要深度依赖结构。这表明神经代理模型可以学习物理上有意义的差异信息，而不是充当纯粹的黑盒预测器。同时，训练分布中的强结构先验可能会将系统伪影引入推断的敏感性中。我们的结果表明，神经前向代理可以恢复有用的物理信息以进行反演和不确定性分析，同时阐明这种差异结构保持物理一致的条件。",
+      "source": "arXiv",
+      "published": "2026-04-05"
+    },
+    {
+      "id": "2604.03487v1",
+      "title": "Octave-Spanning Terahertz Quarter-Wave Plates Based on Over-Coupled Fabry-Pérot Resonances in Reflective Metal-Dielectric-Metal Metasurfaces",
+      "url": "http://arxiv.org/abs/2604.03487v1",
+      "first_author": "Tae Gwan Park",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "由于双折射材料和谐振结构的固有相色散，太赫兹 (THz) 范围内宽带偏振控制的紧凑型器件具有挑战性。在这里，我们展示了基于过耦合金属-电介质-金属反射超表面的高性能宽带太赫兹四分之一波片。这些器件作为单端口各向异性法布里-珀罗腔运行，其中过耦合谐振的相位色散被设计为在正交场分量之间产生近似恒定的相对相位延迟。通过定制超表面几何形状，可以实现高效的线圆偏振转换，同时保持高反射率。四种互补的超表面设计，以 45^\\circ$ 的入射角运行，共同覆盖典型太赫兹时域光谱系统可访问的 0.25--3 太赫兹频率范围。每个器件都具有大约倍频程宽的带宽，轴比低于 3dB，并且在大部分工作频段偏振转换效率超过 80%。系统优化抑制了与高阶衍射和表面波模式的耦合，进一步扩展了可用带宽，同时保留了所需的相位关系。超表面与晶圆级制造兼容，实验结果与模拟结果非常吻合。这些发现将过耦合反射超表面确立为宽带太赫兹偏振控制的强大且多功能的平台。",
+      "source": "arXiv",
+      "published": "2026-04-03"
+    },
+    {
+      "id": "2603.27275v1",
+      "title": "Frozen Surface Modes on a Moving Interface",
+      "url": "http://arxiv.org/abs/2603.27275v1",
+      "first_author": "S. Azar",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "时空调制使得合成运动能够以接近光速的有效速度进行，为光与物质的相互作用提供了新的机制。当发射器的速度匹配或超过介质支持的电磁模式的相速度时，就会出现传统的切伦科夫型效应。在这里，我们研究相速度和群速度显着不同的色散系统。具体来说，我们探讨了表面波群速度匹配的情况，其中发射器以与能量流相同的速度移动。这会产生在发射器框架中静止的冻结表面模式，并伴随着谐振能量积累。其结果是光学状态的局部密度、从发射器提取的功率以及它所经历的光机械力和扭矩显着增加。由于表面模式自然地表现出缓慢的群速度，因此可以在比相速度效应更低的相对速度下实现。这种现象提供了一条通过真实或合成运动增强光与物质相互作用的途径。",
+      "source": "arXiv",
+      "published": "2026-03-28"
+    },
+    {
+      "id": "2603.25943v1",
+      "title": "Enormous Fluid Antenna Systems (E-FAS) under Correlated Surface-Wave Leakage: Physical Layer Security",
+      "url": "http://arxiv.org/abs/2603.25943v1",
+      "first_author": "Farshad Rostami Ghadi",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "巨型流体天线系统（E-FAS）最近作为一种支持表面波（SW）的架构出现，可以通过引导电磁路由产生可控的大规模信道增益。本文开发了一种用于 E-FAS 辅助下行链路传输的保密分析框架，具有实用的基于导频的信道估计。我们考虑多输入单输出（MISO）窃听设置，其中基站（BS）执行最小均方误差（MMSE）信道估计并采用带有人工噪声（AN）的最大比率传输（MRT）。为了捕获 EFAS 中 SW 路由的泄漏，我们引入了相关的 SW 泄漏模型，该模型解释了由部分重叠的 SW 传播路径引起的合法通道和窃听者通道之间的统计耦合。利用缓慢变化的路由增益和小规模块衰落的双时间尺度性质，我们得出了保密中断概率（SOP）的封闭形式条件表达式以及在存在相关二次形式的情况下遍历保密率（ESR）的易于处理的表征。我们的分析得出了三个关键见解：（i）当且仅当不存在 AN 时，高发射功率下的保密性就会崩溃，而任何严格正的 AN 都可以防止渐近崩溃； (ii) 最佳数据-AN 功率分配是通过严格内部解决方案实现的； (iii) 路由增益提高了接收信号强度和信道估计质量，产生非线性耦合，提高了高信噪比 (SNR) 状态下的信号干扰加噪声比 (SINR) 上限，并在路由状态之间分散了保密性。数值结果表明，与传统的空间波传输相比，E-FAS 显着扩大了安全操作区域。",
+      "source": "arXiv",
+      "published": "2026-03-26"
+    },
+    {
+      "id": "2603.21312v1",
+      "title": "Non-Hermitian chiral surface waves in disordered odd solids",
+      "url": "http://arxiv.org/abs/2603.21312v1",
+      "first_author": "Cheng-Tai Lee",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "手性表面波是沿边界单向传播的表面局域模式，可实现定向传输和最小的反向散射。虽然它们首先在量子系统中被发现，但最近被证明在存在“奇弹性”的经典超材料中出现。由于奇弹性的非互易性，这些波在传播过程中表现出不断增长的振幅，让人想起非厄米集肤效应。迄今为止，奇弹性系统的研究主要集中在有序结构上。结构无序材料是否可以承载非厄米手性表面波（NHCSW）仍有待探索。我们使用扭矩驱动的无序奇固体的最小模型来解决这个问题。此类固体非常丰富，从生物凝胶（例如由运动蛋白驱动的细胞骨架）到合成系统（例如磁性胶体凝胶）。我们发现，与之前的奇数固体晶格模型相比，扭矩驱动的无序奇数固体具有独特的 NHCSW，具有更强的表面局域性和稳定的边界速度。这些独特的特征源于边界扭矩和扭矩驱动奇数固体中奇数弹性之间的内在相互作用。我们的结果提供了一种使用主动扭矩控制 NHCSW 的新策略。",
+      "source": "arXiv",
+      "published": "2026-03-22"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.119963",
+      "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119963",
+      "first_author": "Seiji Tsuboi",
+      "corr_author": "Rhett Butler",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120004",
+      "title": "New insights into plateau-craton interactions from P and S wave tomography beneath the northeastern Tibetan plateau",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120004",
+      "first_author": "Haibo Wang",
+      "corr_author": "Xiumian Hu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.119868",
+      "title": "Kilometer-wide crustal yielding associated with the 2021 Mw7.4 Maduo, Tibet, surface rupture",
+      "url": "https://doi.org/10.1016/j.epsl.2026.119868",
+      "first_author": "S.L. Antoine",
+      "corr_author": "Y. Klinger",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250303",
+      "title": "Revealing Hidden\n                    <i>T</i>\n                    -Wave Sources in the South China Sea from an Island Seismometer Using Deep Metric Learning",
+      "url": "https://doi.org/10.1785/0220250303",
+      "first_author": "Chunchang Xia",
+      "corr_author": "Min Xu",
+      "affiliation": "1College of Artificial Intelligence, Guangxi Minzu University, Nanning, China",
+      "abs_zh": "T 波是地震波与复杂海底地形相互作用时产生的水声信号，能量转换为海洋声波，以声速（∼1.5 km/s）通过声音固定和测距通道传播。在南海等半封闭盆地中，复杂的测深由于信号模式的变化而造成了具有挑战性的检测条件。我们使用南海（2012-2024）的陆基地震数据开发了一个用于 T 波识别的深度度量学习框架。我们的半监督方法将 M ≥ 5.0 地震分为三类：无 T 相、单 T 相和多 T 相。深度学习模型取得了优异的性能，宏观 F1 分数高达 94.61%，特别是在检测复杂的多个 T 波模式方面表现出色。应用到较小的地震（M < 5.0）揭示了 116 个以前未检测到的 T 波事件。空间分析表明，T波事件集中在菲律宾板块西缘和马尼拉海沟，多个T相事件主要位于台湾岛东部，可能是由于该地区复杂的测深造成的。此外，越南海岸的一部分近岸地震会产生可检测到的 T 波，这表明沿海浅水区可能会实现地震与声能的耦合。这些发现促进了对半封闭盆地 T 波生成机制的理解，并为震声转换的空间模式提供了新的见解。扩展的 T 波目录和自动检测框架为海洋地震监测提供了宝贵的工具，并有助于提高对复杂测深环境中 T 波传播的理解。由于该框架是从单个岛屿地震仪开发而来，因此其对其他台站或地区的适用性仍有待在未来的研究中评估。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120111",
+      "title": "Characterization of Near‐Surface Velocity Structure at Haast, New Zealand, Using Distributed Acoustic Sensing (DAS) Measurements of Seismicity",
+      "url": "https://doi.org/10.1029/2025gl120111",
+      "first_author": "Allan Raudsepp",
+      "corr_author": "John Townend",
+      "affiliation": "School of Geography, Environment, and Earth Sciences Victoria University of Wellington  Wellington New Zealand",
+      "abs_zh": "沿着哈斯特附近跨越阿尔卑斯断层的 30 公里长电信光纤收集的分布式声学传感 (DAS) 数据可以分析河流冰川和地震构造过程之间的相互作用。在这里，我们使用 25 次地震的 DAS 记录来探测哈斯特河谷下方的近地表结构。对于每次地震，在常见位置都会观察到与区域速度模型不兼容的延迟 P 波和 S 波到达。我们使用平面板模型表明，这些延迟到达与下方低速结构的厚度成正比。 3D 射线追踪揭示了宽度约为 ∼1-4 km、深度为 200-650 m 的盆地状低速特征，与沿部分共定位线收集的独立地震和重力测量结果一致。我们推断这些低速结构是充满沉积物的侵蚀盆地，可能会加剧大地震中的地面震动。这里开发的方法是通用的，强调了密集 DAS 测量提供高分辨率地下表征的潜力。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag130",
+      "title": "P-wave velocity and azimuthal anisotropy of the crust and uppermost mantle beneath Northeast China",
+      "url": "https://doi.org/10.1093/gji/ggag130",
+      "first_author": "Dazhi Song",
+      "corr_author": "Wenshuai Wang",
+      "affiliation": "National Institute of Natural Hazards, Ministry of Emergency Management of China , Beijing 100085 ,",
+      "abs_zh": "总结\n                  中国东北地区是最大的板内新生代火山省之一，经历了古生代的多次碰撞、晚侏罗世-早白垩世的伸展和上新世的挤压。中生代以来，中国东北地区的构造作用很大程度上受西太平洋板块俯冲的控制，其典型特征是形成多个板内火山群和沉积盆地。该地区的构造机制，特别是新生代板内火山的起源和松辽表层沉积盆地的演化仍然存在争议。为了解决这些问题，我们进行了地震层析成像，对中国东北地区地壳和上地幔的纵波速度和方位各向异性进行了成像。在本研究中，我们采用基于程函方程的走时层析成像方法来反演高质量的P波初至。我们从 426 个宽带地震台记录的 890 个区域地震中手动选取了 21,006 个 P 波初至。层析反演揭示了四个显着特征。首先，结果揭示了长白山火山上地幔存在显着的低速异常，且具有强的方位各向异性，快速度方向沿低速异常分布，呈东西向。这一特征表明长白山火山下方最上地幔的水平流动。其次，长白山火山下方中下地壳存在明显的低速异常，暗示存在岩浆房。第三，五大连池火山地壳具有近正速度结构和较强的方位各向异性，快速度方向为南北向，表明岩浆活动对地壳结构影响不大。第四，松辽盆地下方中下地壳广泛存在的明显低速异常反映了",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120419",
+      "title": "Wave‐Based Quantification of Ion Composition in the Earth's Magnetosphere‐Ionosphere‐Coupling Region",
+      "url": "https://doi.org/10.1029/2025gl120419",
+      "first_author": "Zhijie Qin",
+      "corr_author": "Zhenghao She",
+      "affiliation": "Institute of Frontier and Interdisciplinary Science Shandong University  Shandong China",
+      "abs_zh": "离子组成关键决定等离子体的基本动力学特性并影响磁层的能量传输。然而，它随着海拔、纬度、当地时间、经度以及地磁和太阳活动的变化而表现出显着的变化。赤道噪声（EN）发射是内磁层中经常观察到的电磁波，穿过磁场线传播，因此可以到达磁赤道附近的磁层-电离层耦合（MIC）区域，其演化取决于局部离子组成。在这里，我们利用范艾伦探测器近地点附近观察到的 EN 发射的极化反转来导出氦离子和氧离子的成分，并通过 EN 发射的统计分析提供全面的离子成分分布。与国际参考电离层模型和原位等离子体测量的比较验证了估计结果的可靠性。这些发现推进了 MIC 等离子体模型，我们的方法为其他行星上的等离子体诊断提供了间接工具。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122321",
+      "title": "Height‐Dependent Sensitivity of Cloud Scales to Surface Temperature Anomaly Observed by Active Satellites",
+      "url": "https://doi.org/10.1029/2026gl122321",
+      "first_author": "Lijie Zhang",
+      "corr_author": "Yuan Wang",
+      "affiliation": "Key Laboratory for Semi‐Arid Climate Change of the Ministry of Education, College of Atmospheric Sciences Lanzhou University  Lanzhou China",
+      "abs_zh": "作为关键的宏观物理属性，云水平尺度在云辐射效应（CRE）、降水和对流结构中起着至关重要的作用。然而，到目前为止，云尺度如何随地表温度异常变化及其对 CRE 和降水的后续影响仍不清楚。这项研究填补了利用主动卫星观测的知识空白，并发现云尺度温度敏感性强烈依赖于云高度。具体来说，小规模云（100公里）的贡献则不显着。值得注意的是，降水强度的强劲增加仅发生在低层大尺度云中，其中 15.2% 的解释是云光深度减小，而降水百分比增加了 0.1%–0.5% K\n                    −1\n                    跨尺度。我们的结果为云反馈提供了有价值的观察约束。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag128",
+      "title": "Characterization of the crust and uppermost mantle beneath the São Francisco Craton (Brazil) and adjacent areas from Rayleigh wave tomography",
+      "url": "https://doi.org/10.1093/gji/ggag128",
+      "first_author": "Estevão Vasconcello Campos Tadeu",
+      "corr_author": "Guilherme Manno Penna Crepaldi Affonso",
+      "affiliation": "University of Brasilia, Institute of Geosciences, Graduate Program in Geology ,",
+      "abs_zh": "总结\n                  本研究通过瑞利波层析成像技术，整合了环境噪声（周期为 6-50 秒）和地震衍生的（周期为 9-180 秒）频散曲线，研究了圣弗朗西斯科克拉通 (SFC) 下方的地壳和上地幔结构，该克拉通构成了更广泛的圣弗朗西斯科古大陆 (SFP) 的核心及其周围的构造省。使用自适应参数化对二维相位和群速度图进行区域化，并通过棋盘测试评估分辨率。生成了深度达 70 公里的伪 3D 剪切波速度 (VS) 模型，并使用最大速度梯度法从中得出了地壳厚度。浅层深度（2-10 公里）的结果将巴拉那盆地、帕尔纳伊巴盆地和图卡诺-贾托巴盆地识别为低速异常，而圣方济各盆地尚未完全解析，因为尽管其表面范围广阔，但其厚度减少低于模型的分辨率极限。在 SFC 内部的中下地壳（20-40 公里）中，帕拉米林奥拉戈根 (Paramirim Aulacogen) 具有低 VS 走廊的特征，突出了继承性裂谷结构和随后克拉通内部热再造的作用。在更深的地方（60-70 公里），Borborema 省表现出较低的速度，这与稳定的 SFC 根部的较高速度形成鲜明对比。来自断层扫描的莫霍面图表明巴拉那盆地和帕尔纳伊巴盆地以及巴西利亚带下方的地壳增厚，与接收函数的估计非常一致。总体而言，SFC 邻近区域的 VS 异常和莫霍面几何揭示了地壳相对较薄（32-36 公里）的高速走廊，延伸穿过托坎廷斯省、曼蒂凯拉省和博尔博雷马省，并向西北突出到帕纳伊巴盆地下方。这些结果表明，圣弗朗西斯科古大陆的边界大大超出了地壳和上地幔内暴露的表面界限。这些边界",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120870",
+      "title": "Testing the Strength of Buried Surface Hoar Weak Layers Under Combined Compression and Shear Loading",
+      "url": "https://doi.org/10.1029/2025gl120870",
+      "first_author": "Jakob Schöttner",
+      "corr_author": "Alec van Herwijnen",
+      "affiliation": "WSL Institute for Snow and Avalanche Research SLF  Davos Dorf Switzerland",
+      "abs_zh": "我们通过在定制试验机上结合法向和剪切载荷下的位移控制测试，通过实验确定了埋地表面灰质薄弱层的多轴强度。我们测试了来自三个不同薄弱层的 63 个样本，强度范围为 1 至 10 kPa，且散射程度相当大。虽然剪切强度低于压缩强度（通常约为三分之二），但我们没有观察到莫尔-库仑盖型失效包络线所暗示的非常低的剪切强度。相反，我们的数据可以通过椭圆失效包络线更好地描述，这与其他薄弱层类型的数值预测一致。通过微型计算机断层扫描对密度和微观结构参数进行量化。堆积密度本身并不能预测强度或包络形状，但数据还不足以得出稳健的定量结构-性能关系。包络形状似乎也与弹性特性无关，表明不同的微观结构方面可能控制弹性和强度。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    }
+  ]
 }
