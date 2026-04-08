@@ -7,6 +7,13 @@ import time
 import re
 from datetime import datetime, timedelta
 from deep_translator import GoogleTranslator
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
+from urllib3.exceptions import InsecureRequestWarning
+
+# 禁用 SSL 警告
+import warnings
+warnings.filterwarnings('ignore', category=InsecureRequestWarning)
 
 # 禁用代理设置
 os.environ['HTTP_PROXY'] = ''
@@ -14,9 +21,20 @@ os.environ['HTTPS_PROXY'] = ''
 os.environ['http_proxy'] = ''
 os.environ['https_proxy'] = ''
 
-# 创建 session 并禁用代理适配器
+# 创建 session 并配置重试策略
 session = requests.Session()
 session.trust_env = False  # 忽略环境变量中的代理设置
+
+# 配置重试策略：最多重试3次，间隔1秒
+retry_strategy = Retry(
+    total=3,
+    backoff_factor=1,
+    status_forcelist=[429, 500, 502, 503, 504],
+    allowed_methods=["HEAD", "GET", "OPTIONS"]
+)
+adapter = HTTPAdapter(max_retries=retry_strategy)
+session.mount("https://", adapter)
+session.mount("http://", adapter)
 
 # ==========================================
 # 1. 核心配置：5大专题与精准关键词
@@ -98,7 +116,9 @@ def search_crossref(topic_config, max_results=10):
     
     papers = []
     try:
-        data = session.get(url, timeout=30).json()
+        # 尝试正常请求
+        response = session.get(url, timeout=30)
+        data = response.json()
         for item in data.get('message', {}).get('items', []):
             authors = item.get('author', [])
             first_author = f"{authors[0].get('given', '')} {authors[0].get('family', '')}".strip() if authors else "N/A"
@@ -119,7 +139,34 @@ def search_crossref(topic_config, max_results=10):
                 'source': item.get('container-title', ['Journal'])[0], 
                 'published': str(item.get('created', {}).get('date-parts', [[datetime.now().year]])[0][0])
             })
-    except Exception as e: print(f"Crossref 出错: {e}")
+    except Exception as e:
+        print(f"Crossref 出错: {e}")
+        # 如果失败，尝试不验证 SSL（仅作为备用）
+        try:
+            print(f"  尝试备用方式获取 {topic_config['name_zh']}...")
+            response = session.get(url, timeout=30, verify=False)
+            data = response.json()
+            for item in data.get('message', {}).get('items', []):
+                authors = item.get('author', [])
+                first_author = f"{authors[0].get('given', '')} {authors[0].get('family', '')}".strip() if authors else "N/A"
+                corr_author = f"{authors[-1].get('given', '')} {authors[-1].get('family', '')}".strip() if authors else "N/A"
+                affiliation = authors[0].get('affiliation', [{}])[0].get('name', '未知机构') if (authors and authors[0].get('affiliation')) else "未知机构"
+                abs_raw = clean_abstract(item.get('abstract', ''))
+                if not abs_raw: abs_raw = "点击链接查看原文。"
+                papers.append({
+                    'id': item.get('DOI', ''),
+                    'title': item.get('title', ['No Title'])[0],
+                    'url': f"https://doi.org/{item.get('DOI')}",
+                    'first_author': first_author,
+                    'corr_author': corr_author,
+                    'affiliation': affiliation,
+                    'abs_zh': translate_text(abs_raw),
+                    'source': item.get('container-title', ['Journal'])[0],
+                    'published': str(item.get('created', {}).get('date-parts', [[datetime.now().year]])[0][0])
+                })
+            print(f"  备用方式成功获取 {len(papers)} 篇论文")
+        except Exception as e2:
+            print(f"  备用方式也失败: {e2}")
     return papers
 
 def search_arxiv(topic_config, max_results=5):
