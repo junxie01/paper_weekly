@@ -8,6 +8,16 @@ import re
 from datetime import datetime, timedelta
 from deep_translator import GoogleTranslator
 
+# 禁用代理设置
+os.environ['HTTP_PROXY'] = ''
+os.environ['HTTPS_PROXY'] = ''
+os.environ['http_proxy'] = ''
+os.environ['https_proxy'] = ''
+
+# 创建 session 并禁用代理适配器
+session = requests.Session()
+session.trust_env = False  # 忽略环境变量中的代理设置
+
 # ==========================================
 # 1. 核心配置：5大专题与精准关键词
 # ==========================================
@@ -88,7 +98,7 @@ def search_crossref(topic_config, max_results=10):
     
     papers = []
     try:
-        data = requests.get(url, timeout=30).json()
+        data = session.get(url, timeout=30).json()
         for item in data.get('message', {}).get('items', []):
             authors = item.get('author', [])
             first_author = f"{authors[0].get('given', '')} {authors[0].get('family', '')}".strip() if authors else "N/A"
@@ -118,7 +128,7 @@ def search_arxiv(topic_config, max_results=5):
     url = f'http://export.arxiv.org/api/query?search_query={query}&sortBy=submittedDate&sortOrder=descending&max_results={max_results}'
     papers = []
     try:
-        feed = feedparser.parse(requests.get(url, timeout=30).content)
+        feed = feedparser.parse(session.get(url, timeout=30).content)
         for entry in feed.entries:
             papers.append({
                 'id': entry.id.split('/')[-1],
