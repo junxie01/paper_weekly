@@ -13,14 +13,17 @@
 - [data_cryo.json](file://data_cryo.json)
 - [data_ai.json](file://data_ai.json)
 - [data_imaging.json](file://data_imaging.json)
+- [data_das.json](file://data_das.json)
+- [data_surface.json](file://data_surface.json)
+- [data_earthquake.json](file://data_earthquake.json)
 </cite>
 
 ## Update Summary
 **Changes Made**
-- Added new dedicated Generate report step with dynamic date range calculations
-- Enhanced email configuration with dynamic subject and attachment naming
-- Integrated new report generation system with PDF creation and email body generation
-- Updated workflow execution flow to include report generation between data update and email notification
+- Updated email notification system to use inline text substitution instead of external file references
+- Simplified workflow by removing email_body.txt from git staging operations
+- Enhanced email configuration to use dynamic inline content generation
+- Streamlined report generation process with improved email body handling
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -43,8 +46,8 @@ The workflow is defined in a YAML file under the GitHub Actions workflows direct
 - Python environment setup
 - Dependency installation
 - Execution of the update script
-- **New**: Report generation with dynamic date range calculations
-- Email notification sending with enhanced configuration
+- Report generation with dynamic date range calculations
+- Email notification sending with enhanced inline text substitution
 - Automatic Git commit and push
 
 ```mermaid
@@ -55,7 +58,7 @@ A --> D["Install dependencies"]
 A --> E["Run update script"]
 A --> F["Generate report"]
 A --> G["Get date range for filename"]
-A --> H["Send Email Notification"]
+A --> H["Send Email Notification (Inline Text)"]
 A --> I["Commit and Push changes"]
 ```
 
@@ -68,8 +71,8 @@ A --> I["Commit and Push changes"]
 ## Core Components
 - Workflow definition: Declares schedule and manual dispatch triggers, and the job steps.
 - Update script: Performs paper fetching, translation, and JSON data generation.
-- **New**: Report generation script: Creates PDF reports and email bodies with dynamic date ranges.
-- Email template: Provides the email body content.
+- Report generation script: Creates PDF reports and email bodies with dynamic date ranges.
+- **Enhanced**: Inline email text substitution system: Eliminates external file dependencies for email content.
 - Secrets: Credentials and recipient configured via GitHub Actions Secrets.
 - Deployment helper: Local deployment script for manual updates.
 
@@ -82,7 +85,7 @@ A --> I["Commit and Push changes"]
 - [deploy.sh:1-34](file://deploy.sh#L1-L34)
 
 ## Architecture Overview
-The workflow executes on a Linux runner, installs Python 3.9, runs the update script, generates reports with dynamic date ranges, sends an email notification with enhanced configuration, and pushes changes to the repository.
+The workflow executes on a Linux runner, installs Python 3.9, runs the update script, generates reports with dynamic date ranges, sends an email notification with inline text substitution, and pushes changes to the repository.
 
 ```mermaid
 sequenceDiagram
@@ -105,7 +108,7 @@ Runner->>Report : "Generate report"
 Report->>DateRange : "Calculate date range"
 DateRange-->>Report : "Return date range"
 Report-->>Runner : "Create PDF and email body"
-Runner->>Mail : "Send email notification with dynamic subject"
+Runner->>Mail : "Send email notification with inline text"
 Mail-->>Runner : "Delivery confirmed"
 Runner->>Repo : "Commit and push changes"
 ```
@@ -177,9 +180,9 @@ Pip["pip install requests feedparser deep-translator fpdf"] --> Ready["Dependenc
 2. Set up Python 3.9
 3. Install dependencies
 4. Run update script
-5. **New**: Generate report
-6. **New**: Get date range for filename
-7. Send email notification
+5. Generate report
+6. Get date range for filename
+7. **Enhanced**: Send email notification with inline text substitution
 8. Commit and push changes
 
 ```mermaid
@@ -202,7 +205,7 @@ W->>R : "Generate report"
 R->>DR : "Calculate date range"
 DR-->>R : "Return date range"
 R-->>W : "PDF and email body created"
-W->>E : "Send email notification with dynamic subject"
+W->>E : "Send email notification with inline text"
 W->>G : "Commit and push"
 ```
 
@@ -216,10 +219,10 @@ W->>G : "Commit and push"
 - [update_papers.py:194-217](file://update_papers.py#L194-L217)
 - [generate_report.py:163-175](file://generate_report.py#L163-L175)
 
-### **New**: Report Generation System
+### Report Generation System
 - **Dedicated Generate report step**: Separates data generation from report creation for better modularity.
 - **Dynamic date range calculations**: Both in workflow (shell commands) and report generator (Python datetime).
-- **Enhanced email configuration**: Dynamic subject line and attachment naming based on calculated date ranges.
+- **Enhanced email configuration**: Uses inline text substitution instead of external file references.
 - **Dual output generation**: Creates both PDF reports and email body templates.
 
 ```mermaid
@@ -245,17 +248,20 @@ Attach --> Complete["Report Generation Complete"]
 
 ### **Enhanced** Email Notification Sending
 - Uses a community action to send SMTP emails.
+- **New**: Inline text substitution eliminates external file dependencies.
 - **New**: Dynamic subject line with calculated date range display.
 - **New**: Dynamic attachment naming with date range parameters.
 - Reads credentials and recipients from GitHub Secrets.
-- Sends the generated email body and attaches a PDF report.
+- Sends the generated email body inline without file dependencies.
+
+**Updated** The email notification system now uses inline text substitution instead of external file references, simplifying the workflow and eliminating the need for email_body.txt in git staging operations.
 
 ```mermaid
 flowchart TD
 Start["Email Step"] --> Config["Configure SMTP settings"]
 Config --> Auth["Authenticate with Secrets"]
 Auth --> Subject["Generate dynamic subject with date range"]
-Subject --> Body["Load email body from file"]
+Subject --> Body["Inline text substitution for email body"]
 Body --> Attach["Attach PDF with date range"]
 Attach --> Send["Send email"]
 Send --> Done["Email sent"]
@@ -271,13 +277,15 @@ Send --> Done["Email sent"]
 
 ### Automatic Git Commits and Push
 - Configures a bot user for commits.
-- Adds JSON data files and email body, then pushes changes.
+- **Enhanced**: Simplified staging by focusing on JSON data files only.
 - Handles "no changes to commit" gracefully.
+
+**Updated** The workflow now simplifies git staging operations by focusing on JSON data files and eliminating email_body.txt from the staging process.
 
 ```mermaid
 flowchart TD
 GitStart["Git Commit/Push Step"] --> ConfigUser["Configure user.name and user.email"]
-ConfigUser --> AddFiles["Add JSON data files and email_body.txt"]
+ConfigUser --> AddFiles["Add JSON data files only"]
 AddFiles --> Commit["Commit with message"]
 Commit --> Push["Push to remote"]
 Push --> End["Changes pushed"]
@@ -307,13 +315,18 @@ Security considerations:
 
 ### Data Generation and Output
 - The update script generates topic-specific JSON files.
-- **New**: Report generator processes these files to create PDF reports and email bodies.
+- Report generator processes these files to create PDF reports and email bodies.
 - Example outputs include:
   - data_cryo.json
   - data_ai.json
   - data_imaging.json
-  - **New**: paper_report_YYYYMMDD_YYYYMMDD.pdf (generated dynamically)
-  - **New**: email_body.txt (generated dynamically)
+  - data_das.json
+  - data_surface.json
+  - data_earthquake.json
+  - paper_report_YYYYMMDD_YYYYMMDD.pdf (generated dynamically)
+  - email_body.txt (generated dynamically)
+
+**Updated** The workflow now focuses on JSON data files for staging, while email_body.txt continues to be generated but is not included in git operations.
 
 These files are committed and pushed by the workflow.
 
@@ -323,6 +336,9 @@ These files are committed and pushed by the workflow.
 - [data_cryo.json:1-5](file://data_cryo.json#L1-L5)
 - [data_ai.json:1-5](file://data_ai.json#L1-L5)
 - [data_imaging.json:1-5](file://data_imaging.json#L1-L5)
+- [data_das.json:1-5](file://data_das.json#L1-L5)
+- [data_surface.json:1-5](file://data_surface.json#L1-L5)
+- [data_earthquake.json:1-5](file://data_earthquake.json#L1-L5)
 
 ## Dependency Analysis
 The workflow depends on:
@@ -330,7 +346,9 @@ The workflow depends on:
 - actions/setup-python for Python runtime
 - A community email action for notifications
 - The update script for data generation
-- **New**: The report generation script for PDF and email creation
+- The report generation script for PDF and email creation
+
+**Updated** The workflow now has simplified dependencies with inline text substitution reducing external file dependencies.
 
 ```mermaid
 graph TB
@@ -347,7 +365,7 @@ GR --> EMAIL["Email Body Generation"]
 **Diagram sources**
 - [update.yml:12-22](file://.github/workflows/update.yml#L12-L22)
 - [update.yml:27-39](file://.github/workflows/update.yml#L27-L39)
-- [update_papers.py:1-10](file://update_papers.py#L1-L10)
+- [update_papers.py:1-10](file://update_papers.py#L1-10)
 - [generate_report.py:1-10](file://generate_report.py#L1-10)
 
 **Section sources**
@@ -360,7 +378,8 @@ GR --> EMAIL["Email Body Generation"]
 - Translation limits: The translator is constrained by length and rate limits.
 - Dependency installation: Installing lightweight packages reduces runtime overhead.
 - Email delivery: Using SSL/TLS with correct ports improves reliability.
-- **New**: Report generation optimization: Separate report generation allows for better error handling and caching of processed data.
+- **Enhanced**: Inline text substitution reduces file I/O operations and eliminates external file dependencies.
+- **Improved**: Report generation optimization with streamlined email content processing.
 
 ## Troubleshooting Guide
 Common issues and resolutions:
@@ -368,13 +387,10 @@ Common issues and resolutions:
   - Ensure two-factor authentication is enabled.
   - Use a 16-character application-specific password.
   - Verify SMTP settings in the workflow match the provider's requirements.
-- **New**: Report generation failures:
-  - Check that all JSON data files are properly generated before report creation.
-  - Verify font availability for PDF generation (DejaVu fonts fallback).
-  - Ensure sufficient disk space for PDF creation.
-- **New**: Dynamic date range issues:
-  - Verify system timezone settings in GitHub Actions.
-  - Check that date calculation commands execute successfully.
+- **Enhanced**: Inline text substitution issues:
+  - Verify that the date range calculation commands execute successfully.
+  - Check that the email action supports inline text substitution.
+  - Ensure proper escaping of special characters in inline content.
 - No changes to commit:
   - The workflow handles this case gracefully; ensure the update script produces data.
 - Manual testing:
@@ -385,7 +401,7 @@ Common issues and resolutions:
 - [test_mail.py:12-36](file://test_mail.py#L12-L36)
 
 ## Conclusion
-The GitHub Actions workflow automates weekly paper updates, report generation, email notifications, and repository synchronization. By leveraging scheduled and manual triggers, a controlled Python environment, dedicated report generation system with dynamic date ranges, and secure secret management, the system reliably maintains updated research data and notifies stakeholders with enhanced reporting capabilities.
+The GitHub Actions workflow automates weekly paper updates, report generation, email notifications, and repository synchronization. By leveraging scheduled and manual triggers, a controlled Python environment, dedicated report generation system with dynamic date ranges, inline text substitution for email content, and secure secret management, the system reliably maintains updated research data and notifies stakeholders with enhanced reporting capabilities.
 
 ## Appendices
 
@@ -399,7 +415,7 @@ The GitHub Actions workflow automates weekly paper updates, report generation, e
 ### Adding Custom Steps
 - Extend the workflow by adding new steps after dependency installation.
 - Ensure any new dependencies are installed in the workflow.
-- **New**: Consider adding steps for report validation or additional processing.
+- Consider adding steps for report validation or additional processing.
 
 **Section sources**
 - [update.yml:20-22](file://.github/workflows/update.yml#L20-L22)
@@ -407,12 +423,12 @@ The GitHub Actions workflow automates weekly paper updates, report generation, e
 ### Monitoring Workflow Performance
 - Review workflow logs for errors during dependency installation, script execution, report generation, email sending, and Git operations.
 - Use the manual dispatch option to quickly validate changes.
-- **New**: Monitor report generation step separately for debugging PDF creation issues.
+- Monitor report generation step separately for debugging PDF creation issues.
 
 **Section sources**
 - [update.yml:6](file://.github/workflows/update.yml#L6)
 
-### **New**: Customizing Report Generation
+### Customizing Report Generation
 - Modify the generate_report.py script to change report format or content.
 - Adjust date range calculations for different reporting periods.
 - Customize PDF styling and email templates as needed.
@@ -421,3 +437,13 @@ The GitHub Actions workflow automates weekly paper updates, report generation, e
 - [generate_report.py:12-17](file://generate_report.py#L12-L17)
 - [generate_report.py:55-114](file://generate_report.py#L55-L114)
 - [generate_report.py:116-161](file://generate_report.py#L116-L161)
+
+### **Enhanced**: Email Configuration Best Practices
+- Use inline text substitution for dynamic content generation.
+- Leverage GitHub Actions outputs for date range calculations.
+- Ensure proper email content formatting for different client compatibility.
+- Test email delivery with the provided test script before production use.
+
+**Section sources**
+- [update.yml:39-51](file://.github/workflows/update.yml#L39-L51)
+- [test_mail.py:12-36](file://test_mail.py#L12-L36)

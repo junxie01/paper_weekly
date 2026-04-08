@@ -14,22 +14,22 @@ end_date = datetime.now()
 start_date = end_date - timedelta(days=7)
 start_str = start_date.strftime('%Y%m%d')
 end_str = end_date.strftime('%Y%m%d')
-date_range_display = f"{start_date.strftime('%Y年%m月%d日')}-{end_date.strftime('%Y年%m月%d日')}"
+date_range_display = f"{start_date.strftime('%Y%m%d')}-{end_date.strftime('%Y%m%d')}"
 
 # 专题配置文件
 TOPICS = [
-    ('data_cryo.json', '冰川地震'),
-    ('data_das.json', '光纤传感'),
-    ('data_surface.json', '面波研究'),
-    ('data_imaging.json', '地震成像'),
-    ('data_earthquake.json', '地震研究'),
-    ('data_ai.json', '人工智能')
+    ('data_cryo.json', 'Cryoseismology'),
+    ('data_das.json', 'DAS'),
+    ('data_surface.json', 'Surface Wave'),
+    ('data_imaging.json', 'Seismic Imaging'),
+    ('data_earthquake.json', 'Earthquake Research'),
+    ('data_ai.json', 'AI')
 ]
 
 class PDF(FPDF):
     def header(self):
         self.set_font('Arial', 'B', 16)
-        self.cell(0, 10, f'论文周报 ({date_range_display})', 0, 1, 'C')
+        self.cell(0, 10, f'Paper Weekly Report ({date_range_display})', 0, 1, 'C')
         self.ln(5)
     
     def footer(self):
@@ -75,14 +75,14 @@ def generate_pdf(papers, output_file):
     # 按专题分组
     papers_by_topic = {}
     for paper in papers:
-        topic = paper.get('topic', '其他')
+        topic = paper.get('topic', 'Other')
         if topic not in papers_by_topic:
             papers_by_topic[topic] = []
         papers_by_topic[topic].append(paper)
     
     for topic, topic_papers in papers_by_topic.items():
         pdf.set_font(font_name, 'B', 14)
-        pdf.cell(0, 10, f'【{topic}】', 0, 1)
+        pdf.cell(0, 10, f'[{topic}]', 0, 1)
         pdf.ln(2)
         
         for i, paper in enumerate(topic_papers[:5], 1):  # 每个专题最多显示5篇
@@ -96,15 +96,17 @@ def generate_pdf(papers, output_file):
                 authors += f", {paper.get('corr_author')}"
             
             source = paper.get('source', 'Unknown Journal')
-            pdf.cell(0, 5, f"作者: {authors}", 0, 1)
-            pdf.cell(0, 5, f"期刊: {source}", 0, 1)
+            pdf.cell(0, 5, f"Authors: {authors}", 0, 1)
+            pdf.cell(0, 5, f"Journal: {source}", 0, 1)
             
-            # 摘要（前200字符）
-            abs_zh = paper.get('abs_zh', '')
-            if abs_zh and abs_zh != '无摘要详情':
+            # 摘要（前200字符）- 只使用英文摘要或跳过中文
+            abs_text = paper.get('abstract', '') or paper.get('abs_zh', '')
+            if abs_text and abs_text != '无摘要详情' and len(abs_text) > 10:
                 pdf.set_font(font_name, '', 9)
-                abs_text = abs_zh[:200] + '...' if len(abs_zh) > 200 else abs_zh
-                pdf.multi_cell(0, 5, f"摘要: {abs_text}")
+                # 只使用 ASCII 字符
+                abs_clean = abs_text[:200].encode('ascii', 'ignore').decode('ascii')
+                if abs_clean:
+                    pdf.multi_cell(0, 5, f"Abstract: {abs_clean}...")
             
             pdf.ln(3)
         
@@ -113,53 +115,6 @@ def generate_pdf(papers, output_file):
     pdf.output(output_file)
     print(f"PDF generated: {output_file}")
 
-def generate_email_body(papers, output_file):
-    """生成邮件正文"""
-    lines = [
-        f"{date_range_display}，论文周报更新，请查收。",
-        "",
-        "=" * 50,
-        ""
-    ]
-    
-    if not papers:
-        lines.append("本期暂无新论文。")
-    else:
-        # 按专题分组
-        papers_by_topic = {}
-        for paper in papers:
-            topic = paper.get('topic', '其他')
-            if topic not in papers_by_topic:
-                papers_by_topic[topic] = []
-            papers_by_topic[topic].append(paper)
-        
-        for topic, topic_papers in papers_by_topic.items():
-            lines.append(f"【{topic}】")
-            lines.append("-" * 30)
-            
-            for i, paper in enumerate(topic_papers[:5], 1):
-                title = paper.get('title', 'No Title')
-                authors = paper.get('first_author', 'N/A')
-                if paper.get('corr_author') and paper.get('corr_author') != 'N/A':
-                    authors += f", {paper.get('corr_author')}"
-                
-                source = paper.get('source', 'Unknown Journal')
-                url = paper.get('url', '')
-                
-                lines.append(f"{i}. {title}")
-                lines.append(f"   作者: {authors}")
-                lines.append(f"   期刊: {source}")
-                if url:
-                    lines.append(f"   链接: {url}")
-                lines.append("")
-            
-            lines.append("")
-    
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
-    
-    print(f"Email body generated: {output_file}")
-
 if __name__ == "__main__":
     papers = load_papers()
     
@@ -167,8 +122,7 @@ if __name__ == "__main__":
     pdf_filename = f"paper_report_{start_str}_{end_str}.pdf"
     
     generate_pdf(papers, pdf_filename)
-    generate_email_body(papers, 'email_body.txt')
     
-    print(f"\n报告生成完成!")
-    print(f"PDF文件: {pdf_filename}")
+    print(f"\nReport generated!")
+    print(f"PDF file: {pdf_filename}")
     print(f"日期范围: {date_range_display}")
