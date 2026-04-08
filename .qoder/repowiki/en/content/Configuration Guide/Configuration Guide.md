@@ -6,6 +6,7 @@
 - [update_papers.py](file://update_papers.py)
 - [app.js](file://app.js)
 - [backend/app.py](file://backend/app.py)
+- [generate_report.py](file://generate_report.py)
 - [requirements.txt](file://requirements.txt)
 - [deploy.sh](file://deploy.sh)
 - [README.md](file://README.md)
@@ -13,8 +14,20 @@
 - [email_body.txt](file://email_body.txt)
 - [data_cryo.json](file://data_cryo.json)
 - [data_das.json](file://data_das.json)
+- [data_surface.json](file://data_surface.json)
 - [data_imaging.json](file://data_imaging.json)
+- [data_earthquake.json](file://data_earthquake.json)
+- [data_ai.json](file://data_ai.json)
 </cite>
+
+## Update Summary
+**Changes Made**
+- Updated topic classification system to use English interface labels and topic names
+- Modified date formatting to use numeric date formats instead of Chinese date formatting
+- Updated email notification system to use English subject lines and display dates
+- Revised frontend topic switching to use English topic identifiers and labels
+- Updated backend analysis system to use English topic names and descriptions
+- Modified PDF report generation to use English topic names and numeric date formatting
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -29,7 +42,7 @@
 10. [Appendices](#appendices)
 
 ## Introduction
-This guide documents the configuration of the paper_weekly system, covering GitHub Actions automation, email notifications, topic configuration for seismology areas, deployment options, and operational security and monitoring practices. It is designed for both administrators and developers who need to set up, customize, and maintain the system.
+This guide documents the configuration of the paper_weekly system, covering GitHub Actions automation, email notifications, topic configuration for seismology areas, deployment options, and operational security and monitoring practices. The system has been updated to use English interface labels, numeric date formatting, and English topic classifications throughout the application. It is designed for both administrators and developers who need to set up, customize, and maintain the system.
 
 ## Project Structure
 The repository organizes configuration and automation around a clear separation of concerns:
@@ -44,11 +57,18 @@ graph TB
 GH[".github/workflows/update.yml<br/>GitHub Actions Workflow"] --> UP["update_papers.py<br/>Topic Search + Translation"]
 UP --> D1["data_cryo.json"]
 UP --> D2["data_das.json"]
-UP --> D3["data_imaging.json"]
-GH --> EM["Email Notification<br/>Gmail SMTP via action-send-mail"]
+UP --> D3["data_surface.json"]
+UP --> D4["data_imaging.json"]
+UP --> D5["data_earthquake.json"]
+UP --> D6["data_ai.json"]
+GH --> GR["generate_report.py<br/>PDF Report Generation"]
+GR --> EM["Email Notification<br/>Gmail SMTP via action-send-mail"]
 JS["app.js<br/>Topic Switch + Data Loading"] --> D1
 JS --> D2
 JS --> D3
+JS --> D4
+JS --> D5
+JS --> D6
 BE["backend/app.py<br/>Flask API + APScheduler"] --> DB["SQLite: papers.db"]
 DEP["deploy.sh<br/>Push Script"] --> GH
 DEP --> JS
@@ -56,29 +76,31 @@ DEP --> BE
 ```
 
 **Diagram sources**
-- [update.yml:1-48](file://.github/workflows/update.yml#L1-L48)
-- [update_papers.py:1-149](file://update_papers.py#L1-L149)
+- [update.yml:1-61](file://.github/workflows/update.yml#L1-L61)
+- [update_papers.py:1-217](file://update_papers.py#L1-L217)
+- [generate_report.py:1-129](file://generate_report.py#L1-L129)
 - [app.js:1-148](file://app.js#L1-L148)
 - [backend/app.py:1-236](file://backend/app.py#L1-L236)
 - [deploy.sh:1-34](file://deploy.sh#L1-L34)
 
 **Section sources**
-- [update.yml:1-48](file://.github/workflows/update.yml#L1-L48)
-- [update_papers.py:1-149](file://update_papers.py#L1-L149)
+- [update.yml:1-61](file://.github/workflows/update.yml#L1-L61)
+- [update_papers.py:1-217](file://update_papers.py#L1-L217)
+- [generate_report.py:1-129](file://generate_report.py#L1-L129)
 - [app.js:1-148](file://app.js#L1-L148)
 - [backend/app.py:1-236](file://backend/app.py#L1-L236)
 - [deploy.sh:1-34](file://deploy.sh#L1-L34)
 
 ## Core Components
-- GitHub Actions workflow: schedules weekly runs, installs dependencies, executes the update script, sends email notifications, and pushes changes.
-- Topic configuration: defines six seismology topics with keywords and output files.
+- GitHub Actions workflow: schedules weekly runs, installs dependencies, executes the update script, generates PDF reports, sends email notifications, and pushes changes.
+- Topic configuration: defines six seismology topics with English names, keywords, and output files.
 - Frontend topic switching: maps topic identifiers to JSON data files and renders lists with metadata.
 - Backend API: exposes endpoints for search, retrieval, and analysis; persists results to SQLite; includes a background scheduler.
 - Deployment: automated push script and README guidance for site integration with Hexo.
 
 **Section sources**
-- [update.yml:1-48](file://.github/workflows/update.yml#L1-L48)
-- [update_papers.py:14-45](file://update_papers.py#L14-L45)
+- [update.yml:1-61](file://.github/workflows/update.yml#L1-L61)
+- [update_papers.py:42-84](file://update_papers.py#L42-L84)
 - [app.js:4-11](file://app.js#L4-L11)
 - [backend/app.py:175-218](file://backend/app.py#L175-L218)
 - [README.md:14-39](file://README.md#L14-L39)
@@ -95,6 +117,7 @@ participant CR as "Crossref API"
 participant AR as "arXiv API"
 participant TR as "Google Translator"
 participant FS as "Filesystem"
+participant PDF as "generate_report.py"
 participant Mail as "Gmail SMTP"
 participant Git as "Git Push"
 Cron->>WF : "Trigger weekly at midnight UTC"
@@ -106,13 +129,16 @@ AR-->>Py : "Preprints with metadata"
 Py->>TR : "Translate abstracts"
 TR-->>Py : "Translated text"
 Py->>FS : "Write topic JSON files"
+WF->>PDF : "Generate PDF report"
+PDF->>FS : "Create paper_report_YYYYMMDD_YYYYMMDD.pdf"
 WF->>Mail : "Send email with PDF attachment"
 WF->>Git : "Commit and push JSON updates"
 ```
 
 **Diagram sources**
-- [update.yml:3-47](file://.github/workflows/update.yml#L3-L47)
-- [update_papers.py:72-124](file://update_papers.py#L72-L124)
+- [update.yml:3-60](file://.github/workflows/update.yml#L3-L60)
+- [update_papers.py:194-217](file://update_papers.py#L194-L217)
+- [generate_report.py:118-129](file://generate_report.py#L118-L129)
 - [email_body.txt:1-74](file://email_body.txt#L1-L74)
 
 ## Detailed Component Analysis
@@ -128,17 +154,20 @@ WF->>Git : "Commit and push JSON updates"
   - Set up Python.
   - Install dependencies.
   - Run the update script.
+  - Generate PDF report with numeric date formatting.
   - Send email notification via action-send-mail with Gmail SMTP (SSL port 465).
   - Commit and push changes with a timestamped message.
 
 Key configuration points:
 - Schedule: [update.yml:4-5](file://.github/workflows/update.yml#L4-L5)
 - Dependencies installation: [update.yml:20-22](file://.github/workflows/update.yml#L20-L22)
-- Email notification: [update.yml:27-39](file://.github/workflows/update.yml#L27-L39)
-- Commit and push: [update.yml:41-47](file://.github/workflows/update.yml#L41-L47)
+- PDF generation: [update.yml:27-28](file://.github/workflows/update.yml#L27-L28)
+- Date range calculation: [update.yml:30-37](file://.github/workflows/update.yml#L30-L37)
+- Email notification: [update.yml:39-51](file://.github/workflows/update.yml#L39-L51)
+- Commit and push: [update.yml:53-61](file://.github/workflows/update.yml#L53-L61)
 
 **Section sources**
-- [update.yml:1-48](file://.github/workflows/update.yml#L1-L48)
+- [update.yml:1-61](file://.github/workflows/update.yml#L1-L61)
 
 ### Email Notification System (Gmail SMTP)
 - SMTP settings: Host, port, and SSL enabled.
@@ -152,19 +181,19 @@ Security and troubleshooting:
 - Test script included for validating login and sending a test email.
 
 Operational details:
-- SMTP host/port and secure flag: [update.yml:30-32](file://.github/workflows/update.yml#L30-L32)
-- Credentials from secrets: [update.yml:33-36](file://.github/workflows/update.yml#L33-L36)
-- Body file and attachment: [update.yml:35-39](file://.github/workflows/update.yml#L35-L39)
+- SMTP host/port and secure flag: [update.yml:40-44](file://.github/workflows/update.yml#L40-L44)
+- Credentials from secrets: [update.yml:45-46](file://.github/workflows/update.yml#L45-L46)
+- Body file and attachment: [update.yml:49-51](file://.github/workflows/update.yml#L49-L51)
 - Troubleshooting guidance: [README.md:26-32](file://README.md#L26-L32)
 - Test script: [test_mail.py:1-37](file://test_mail.py#L1-L37)
 
 **Section sources**
-- [update.yml:27-39](file://.github/workflows/update.yml#L27-L39)
+- [update.yml:39-51](file://.github/workflows/update.yml#L39-L51)
 - [README.md:26-32](file://README.md#L26-L32)
 - [test_mail.py:1-37](file://test_mail.py#L1-L37)
 
 ### Topic Configuration System and Customization
-The system defines six topics, each with a Chinese name, a keyword list, and an output JSON filename. The update script iterates through topics, searches Crossref and arXiv, merges results, sorts by publication date, and writes a structured JSON file containing last update timestamp, topic name, and a list of papers.
+The system defines six topics, each with an English name, a keyword list, and an output JSON filename. The update script iterates through topics, searches Crossref and arXiv, merges results, sorts by publication date, and writes a structured JSON file containing last update timestamp, topic name, and a list of papers.
 
 Customization options:
 - Modify keywords per topic to refine search scope.
@@ -177,19 +206,23 @@ Data model:
 - JSON structure includes topic metadata and paper entries.
 
 References:
-- Topic definitions: [update_papers.py:14-45](file://update_papers.py#L14-L45)
-- Crossref search: [update_papers.py:72-102](file://update_papers.py#L72-L102)
-- arXiv search: [update_papers.py:104-124](file://update_papers.py#L104-L124)
-- Output structure: [update_papers.py:141-146](file://update_papers.py#L141-L146)
-- Example data files: [data_cryo.json:1-5](file://data_cryo.json#L1-L5), [data_das.json:1-5](file://data_das.json#L1-L5), [data_imaging.json:1-171](file://data_imaging.json#L1-L171)
+- Topic definitions: [update_papers.py:42-84](file://update_papers.py#L42-L84)
+- Crossref search: [update_papers.py:111-170](file://update_papers.py#L111-L170)
+- arXiv search: [update_papers.py:172-192](file://update_papers.py#L172-L192)
+- Output structure: [update_papers.py:209-216](file://update_papers.py#L209-L216)
+- Example data files: [data_cryo.json:1-5](file://data_cryo.json#L1-L5), [data_das.json:1-5](file://data_das.json#L1-L5), [data_surface.json:1-5](file://data_surface.json#L1-L5), [data_imaging.json:1-5](file://data_imaging.json#L1-L5), [data_earthquake.json:1-5](file://data_earthquake.json#L1-L5), [data_ai.json:1-5](file://data_ai.json#L1-L5)
 
 **Section sources**
-- [update_papers.py:14-45](file://update_papers.py#L14-L45)
-- [update_papers.py:72-124](file://update_papers.py#L72-L124)
-- [update_papers.py:141-146](file://update_papers.py#L141-L146)
+- [update_papers.py:42-84](file://update_papers.py#L42-L84)
+- [update_papers.py:111-170](file://update_papers.py#L111-L170)
+- [update_papers.py:172-192](file://update_papers.py#L172-L192)
+- [update_papers.py:209-216](file://update_papers.py#L209-L216)
 - [data_cryo.json:1-5](file://data_cryo.json#L1-L5)
 - [data_das.json:1-5](file://data_das.json#L1-L5)
-- [data_imaging.json:1-171](file://data_imaging.json#L1-L171)
+- [data_surface.json:1-5](file://data_surface.json#L1-L5)
+- [data_imaging.json:1-5](file://data_imaging.json#L1-L5)
+- [data_earthquake.json:1-5](file://data_earthquake.json#L1-L5)
+- [data_ai.json:1-5](file://data_ai.json#L1-L5)
 
 ### Frontend Topic Switching and Data Loading
 The frontend JavaScript manages topic selection and data loading:
@@ -263,6 +296,23 @@ References:
 - [deploy.sh:1-34](file://deploy.sh#L1-L34)
 - [README.md:5-12](file://README.md#L5-L12)
 
+### PDF Report Generation and Internationalization
+The PDF report generation system creates weekly reports with English topic names and numeric date formatting:
+- Date range calculation: uses numeric date formatting (YYYYMMDD) for filename generation.
+- Topic configuration: defines English topic names for report sections.
+- Report structure: organizes papers by topic with English section headers.
+- Font support: attempts to use DejaVu fonts for better Unicode support.
+
+References:
+- Date range calculation: [generate_report.py:12-17](file://generate_report.py#L12-L17)
+- Topic configuration: [generate_report.py:19-27](file://generate_report.py#L19-L27)
+- Report generation: [generate_report.py:55-116](file://generate_report.py#L55-L116)
+
+**Section sources**
+- [generate_report.py:12-17](file://generate_report.py#L12-L17)
+- [generate_report.py:19-27](file://generate_report.py#L19-L27)
+- [generate_report.py:55-116](file://generate_report.py#L55-L116)
+
 ## Dependency Analysis
 External dependencies and integrations:
 - GitHub Actions runtime and actions ecosystem for scheduling and email delivery.
@@ -303,11 +353,9 @@ B --> K["Google Translate"]
 - Database growth: Monitor SQLite storage growth and consider archival strategies for older entries.
 - Background scheduler: Ensure the scheduler does not overlap with manual runs; verify concurrency controls.
 
-[No sources needed since this section provides general guidance]
-
 ## Troubleshooting Guide
 Common issues and resolutions:
-- Email authentication failures (e.g., “535 Login fail”):
+- Email authentication failures (e.g., "535 Login fail"):
   - Ensure two-factor authentication is enabled on the Gmail account.
   - Use a 16-character application-specific password in secrets.
   - Confirm YAML sets secure mode and port 465.
@@ -334,9 +382,7 @@ References:
 - [backend/app.py:228-230](file://backend/app.py#L228-L230)
 
 ## Conclusion
-The paper_weekly system integrates GitHub Actions automation, topic-based paper discovery, translation, and presentation through a simple frontend. By configuring secrets, customizing topic keywords, and following deployment and security practices, administrators can maintain a reliable, up-to-date resource for seismology research across multiple domains.
-
-[No sources needed since this section summarizes without analyzing specific files]
+The paper_weekly system integrates GitHub Actions automation, topic-based paper discovery, translation, and presentation through a simple frontend. By configuring secrets, customizing topic keywords, and following deployment and security practices, administrators can maintain a reliable, up-to-date resource for seismology research across multiple domains. The system now uses English interface labels, numeric date formatting, and English topic classifications throughout, providing a fully internationalized experience.
 
 ## Appendices
 
@@ -352,7 +398,7 @@ The paper_weekly system integrates GitHub Actions automation, topic-based paper 
   - Review permissions for collaborators and actions.
 
 **Section sources**
-- [update.yml:33-36](file://.github/workflows/update.yml#L33-L36)
+- [update.yml:45-46](file://.github/workflows/update.yml#L45-L46)
 - [README.md:19-25](file://README.md#L19-L25)
 
 ### Backup Strategies
@@ -364,8 +410,6 @@ The paper_weekly system integrates GitHub Actions automation, topic-based paper 
 - Offsite storage:
   - Store copies of sensitive configuration artifacts offsite.
 
-[No sources needed since this section provides general guidance]
-
 ### Monitoring Setup
 - Workflow logs:
   - Monitor GitHub Actions logs for failures in dependency installation, script execution, and email delivery.
@@ -375,5 +419,3 @@ The paper_weekly system integrates GitHub Actions automation, topic-based paper 
   - Integrate workflow failure alerts to email or chat channels.
 - Frontend monitoring:
   - Track availability and responsiveness of the topic pages.
-
-[No sources needed since this section provides general guidance]

@@ -48,7 +48,7 @@ Key components involved in email delivery:
 ```mermaid
 graph TB
 A["GitHub Actions Workflow<br/>.github/workflows/update.yml"] --> B["Generate Report Content<br/>update_papers.py"]
-A --> C["Generate Email Body<br/>generate_report.py"]
+A --> C["Generate PDF Report<br/>generate_report.py"]
 B --> D["PDF Generation<br/>generate_report.py"]
 A --> E["Send Email Action<br/>dawidd6/action-send-mail"]
 E --> F["Gmail SMTP<br/>smtp.gmail.com:465"]
@@ -103,7 +103,7 @@ participant Action as "dawidd6/action-send-mail"
 participant SMTP as "Gmail SMTP (smtp.gmail.com : 465)"
 Scheduler->>Job : Trigger weekly or manual
 Job->>Script : Execute to generate data and PDF
-Job->>Generator : Generate email body content
+Job->>Generator : Generate PDF report
 Generator->>Generator : Calculate date range and format content
 Job->>Action : Configure SMTP, credentials, subject, recipients
 Action->>Action : Embed dynamic email body content
@@ -218,7 +218,7 @@ B --> F["fpdf"]
 A --> G["Run update_papers.py"]
 G --> H["Generate JSON and PDF"]
 A --> I["Run generate_report.py"]
-I --> J["Generate email_body.txt (optional)"]
+I --> J["Generate PDF (email_body.txt still created but unused)"]
 ```
 
 **Diagram sources**
