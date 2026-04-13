@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-06 至 2026-04-13 02:42",
+  "last_update": "2026-04-06 至 2026-04-13 04:23",
   "topic_name": "地震成像",
   "papers": [
     {
@@ -146,6 +146,17 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag095",
+      "title": "Estimation of shear wave velocity via rock physics-constrained KAN transformer",
+      "url": "https://doi.org/10.1093/gji/ggag095",
+      "first_author": "Siyu Wang",
+      "corr_author": "Xiangyun Hu",
+      "affiliation": "School of Geophysics and Information Technology, China University of Geosciences , Beijing 100083 ,",
+      "abs_zh": "储层弹性波速度是测井评价、地震预测和油气勘探的基本参数之一。在传统的地球物理测井中，剪切波速度（VS）是从阵列声波测井中获得的，其特点是操作成本高且过程耗时，限制了其广泛应用。因此，准确的VS估计已成为储层预测的一项重要任务。目前预测VS的主要方法包括岩石物理模型和机器学习。然而，传统的物理岩石模型忽视了流体流动的影响，现有的机器学习模型缺乏物理知识约束。提出了一种集成岩石物理模型（RPM）和柯尔莫哥洛夫-阿诺德变换器（KAT）的新型预测框架来估计弹性波速度。首先，通过结合多种波引起的流体流动效应，特别是整合“静态、微观和宏观流动”状态来建立转速。随后，通过在变压器架构中创新性地用 Kolmogorov-Arnold 网络层替换标准多层感知器层，构建了一个新的时间序列网络 KAT，它可以捕获测井数据的顺序依赖性并提高模型性能。最后，构建的 KAT 进一步受到 RPM 的约束，并且所提出的框架应用于估计深层致密砂岩地层中的 VS。结果表明，与纯数据驱动方法或物理模型驱动方法相比，该框架最大限度地减少了测量的 VS 和估计的 VS 之间的预测误差。总体而言，该框架表现出高可靠性，从而有助于更精确的地下参数预测。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag132",
       "title": "TTI Reflection waveform inversion based on the modified gradient sampling algorithm",
       "url": "https://doi.org/10.1093/gji/ggag132",
@@ -154,17 +165,6 @@
       "affiliation": "State Key Laboratory of Marine Geology, Tongji University , Shanghai, 200092 ,",
       "abs_zh": "总结\n                  反射波形反演（RWI）是重建中低波数地下参数的有效方法。随着各向异性对地震资料的影响越来越显着，RWI应扩展到倾斜横观各向同性(TTI)介质(TTI-RWI)以提高反演精度。与传统的各向同性或垂直横向各向同性 (VTI) 假设不同，TTI 模型提供了具有强烈构造活动的地质结构的更真实的表示。然而，TTI-RWI 的实际实施面临两个挑战。首先，由于它依赖于波形匹配，不准确的初始模型可能会导致周期跳跃和收敛到局部最小值。其次，速度和各向异性参数之间的固有耦合导致显着的参数串扰。当先验信息有限时，这些问题通常会同时存在。为了解决第一个挑战，我们提出了一种改进的梯度采样算法（GSA），该算法结合了全局优化信息，以在不增加计算成本的情况下减少周期跳跃。对于第二个挑战，我们设计了一种两阶段反演策略，其中首先使用 GSA 反演垂直纵波速度 vp0，然后通过高斯-牛顿优化联合反演 vp0 和各向异性参数 ε。所提出的 TTI-RWI 方法的有效性通过 Overthrust 模型的数值实验和现场海洋拖缆数据的应用得到了验证。",
       "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250303",
-      "title": "Revealing Hidden\n                    <i>T</i>\n                    -Wave Sources in the South China Sea from an Island Seismometer Using Deep Metric Learning",
-      "url": "https://doi.org/10.1785/0220250303",
-      "first_author": "Chunchang Xia",
-      "corr_author": "Min Xu",
-      "affiliation": "1College of Artificial Intelligence, Guangxi Minzu University, Nanning, China",
-      "abs_zh": "T 波是地震波与复杂海底地形相互作用时产生的水声信号，能量转换为海洋声波，以声速（∼1.5 km/s）通过声音固定和测距通道传播。在南海等半封闭盆地中，复杂的测深由于信号模式的变化而造成了具有挑战性的检测条件。我们使用南海（2012-2024）的陆基地震数据开发了一个用于 T 波识别的深度度量学习框架。我们的半监督方法将 M ≥ 5.0 地震分为三类：无 T 相、单 T 相和多 T 相。深度学习模型取得了优异的性能，宏观 F1 分数高达 94.61%，特别是在检测复杂的多个 T 波模式方面表现出色。应用到较小的地震（M < 5.0）揭示了 116 个以前未检测到的 T 波事件。空间分析表明，T波事件集中在菲律宾板块西缘和马尼拉海沟，多个T相事件主要位于台湾岛东部，可能是由于该地区复杂的测深造成的。此外，越南海岸的一部分近岸地震会产生可检测到的 T 波，这表明沿海浅水区可能会实现地震与声能的耦合。这些发现促进了对半封闭盆地 T 波生成机制的理解，并为震声转换的空间模式提供了新的见解。扩展的 T 波目录和自动检测框架为海洋地震监测提供了宝贵的工具，并有助于提高对复杂测深环境中 T 波传播的理解。由于该框架是从单个岛屿地震仪开发而来，因此其对其他台站或地区的适用性仍有待在未来的研究中评估。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]
