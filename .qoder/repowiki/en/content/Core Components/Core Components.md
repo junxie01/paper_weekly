@@ -19,11 +19,11 @@
 
 ## Update Summary
 **Changes Made**
-- Updated PDF generation section to reflect ASCII-only character processing improvements
-- Added documentation for enhanced abstract text validation in PDF reports
-- Updated topic classification terminology to English-only interface
+- Updated PDF generation section to reflect enhanced ASCII-only character processing improvements
+- Added documentation for improved Unicode processing capabilities in PDF reports
 - Enhanced translation service documentation with improved validation
-- Updated data processing pipeline with ASCII character filtering
+- Updated data processing pipeline with ASCII character filtering for PDF generation
+- Improved internationalization coverage in PDF generation module
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -44,7 +44,7 @@ This document explains the core components of the paper_weekly system, focusing 
 - Component interactions, data models for paper representation, and the modular design supporting multiple seismology topics.
 - Practical integration patterns, configuration parameters, and user interaction behaviors.
 
-**Updated** The system now includes enhanced PDF generation capabilities with ASCII-only character processing, English-only interface consistency, and improved abstract text validation for reliable report generation.
+**Updated** The system now includes enhanced PDF generation capabilities with ASCII-only character processing, improved Unicode handling for reliable report generation, and comprehensive internationalization support across all components.
 
 The system is designed to automatically collect recent papers from high-impact journals and arXiv, translate abstracts, validate text content, and present them in a responsive, topic-filtered web interface with robust PDF reporting capabilities.
 
@@ -53,7 +53,7 @@ The repository organizes the system into:
 - A Python data pipeline that scrapes, filters, translates, validates, and writes JSON files for each topic.
 - A lightweight Flask backend that serves the frontend and exposes a simple API for fetching and analyzing papers.
 - A static frontend with HTML, CSS, and JavaScript that renders topic-specific paper lists and modals.
-- A PDF generation module that creates weekly reports with ASCII-only character processing and enhanced validation.
+- A PDF generation module that creates weekly reports with enhanced ASCII-only character processing and improved Unicode support.
 
 ```mermaid
 graph TB
@@ -102,14 +102,14 @@ PDFGEN --> DATA_JSON
 - Python data pipeline (update_papers.py): Defines topic configurations, searches Crossref and arXiv, cleans and translates abstracts, validates text content, and writes topic-specific JSON files.
 - Flask backend (backend/app.py): Initializes a database, exposes endpoints to search and fetch papers, and performs on-demand translations and analysis.
 - Frontend (index.html, app.js, style.css): Renders topic navigation, loads JSON data dynamically, displays cards, and shows a modal with translated abstracts and links.
-- PDF generation (generate_report.py): Creates weekly paper reports with ASCII-only character processing, enhanced abstract validation, and English-only interface.
+- PDF generation (generate_report.py): Creates weekly paper reports with enhanced ASCII-only character processing, improved Unicode handling, and comprehensive internationalization support.
 
 Key responsibilities:
 - API integration: Crossref and arXiv via HTTP requests and feedparser.
 - Data processing: Cleaning XML/HTML tags, translating text, validating abstracts, and structuring paper records.
 - JSON generation: Producing topic-scoped JSON with metadata and translated abstracts.
 - Frontend rendering: Dynamic loading, modal presentation, and responsive styling.
-- PDF generation: Creating reports with ASCII character filtering and enhanced validation.
+- PDF generation: Creating reports with ASCII character filtering, enhanced validation, and improved Unicode support.
 
 **Section sources**
 - [update_papers.py:14-45](file://update_papers.py#L14-L45)
@@ -126,7 +126,7 @@ The system follows a client-server architecture with enhanced PDF generation cap
 - Backend server (Flask) serves static HTML and JSON data, and exposes endpoints for paper search and analysis.
 - Frontend loads topic-specific JSON files and renders interactive cards and modals.
 - Data pipeline runs periodically to refresh JSON files with validated abstract content.
-- PDF generation module processes JSON data to create weekly reports with ASCII-only character filtering.
+- PDF generation module processes JSON data to create weekly reports with enhanced ASCII-only character filtering and improved Unicode support.
 
 ```mermaid
 sequenceDiagram
@@ -151,8 +151,8 @@ Backend->>Translator : translate abstracts
 Translator-->>Backend : translated text
 Backend-->>Browser : JSON {papers}
 Browser->>PDFGen : Generate weekly report
-PDFGen->>PDFGen : Process JSON with ASCII validation
-PDFGen-->>Browser : PDF file with validated content
+PDFGen->>PDFGen : Process JSON with ASCII validation and Unicode handling
+PDFGen-->>Browser : PDF file with validated content and improved character encoding
 ```
 
 **Diagram sources**
@@ -195,11 +195,11 @@ Integration patterns:
 - [update_papers.py:126-149](file://update_papers.py#L126-L149)
 
 ### PDF Generation Module (generate_report.py)
-**Updated** New component for creating weekly paper reports with enhanced character processing and validation.
+**Updated** Enhanced component for creating weekly paper reports with comprehensive ASCII-only character processing and improved Unicode handling.
 
 Responsibilities:
 - Load paper data from all topic JSON files.
-- Generate weekly PDF reports with ASCII-only character processing.
+- Generate weekly PDF reports with enhanced ASCII-only character processing.
 - Validate abstract text content for reliable PDF generation.
 - Create structured reports with topic categorization and author information.
 - Implement fallback font handling for better Unicode support.
@@ -209,12 +209,14 @@ Key features:
 - Enhanced validation: Checks for minimum abstract length and handles empty or invalid content gracefully.
 - Topic grouping: Organizes papers by topic categories for structured reporting.
 - Font fallback: Attempts to use DejaVu fonts for better Unicode support, falls back to Arial if unavailable.
+- Comprehensive internationalization: Improved character encoding handling for global accessibility.
 
 Processing pipeline:
 - Loads papers from data_cryo.json, data_das.json, data_surface.json, data_imaging.json, data_earthquake.json, and data_ai.json.
 - Groups papers by topic and limits to 5 papers per topic.
-- Processes abstracts to extract first 200 characters and convert to ASCII-only format.
+- Processes abstracts to extract first 200 characters and convert to ASCII-only format using encode('ascii', 'ignore').
 - Generates PDF with proper headers, footers, and formatted content.
+- Implements robust error handling for edge cases in character processing.
 
 **Section sources**
 - [generate_report.py:1-129](file://generate_report.py#L1-L129)
@@ -296,7 +298,7 @@ Example references:
 - Frontend loads topic JSON files and renders cards.
 - Backend serves JSON files and exposes endpoints for dynamic search and analysis.
 - Translation service is invoked either by the data pipeline or backend depending on the flow.
-- PDF generation module processes JSON data to create weekly reports with ASCII-only character filtering.
+- PDF generation module processes JSON data to create weekly reports with enhanced ASCII-only character filtering and improved Unicode handling.
 
 ```mermaid
 flowchart TD
@@ -307,8 +309,8 @@ ClickCard --> ShowModal["Show modal with translated abstract"]
 ShowModal --> ExternalLink["Open external link (DOI/arXiv)"]
 ExternalLink --> End(["Done"])
 StartPDF["Generate Weekly Report"] --> LoadData["Load all topic JSON files"]
-LoadData --> ProcessData["Process with ASCII validation"]
-ProcessData --> GeneratePDF["Generate PDF with ASCII-only content"]
+LoadData --> ProcessData["Process with ASCII validation and Unicode handling"]
+ProcessData --> GeneratePDF["Generate PDF with ASCII-only content and improved encoding"]
 GeneratePDF --> SavePDF["Save PDF file"]
 ```
 
@@ -326,7 +328,7 @@ External libraries and their roles:
 - apscheduler: Background job scheduling for periodic searches.
 - fpdf: PDF generation library for weekly report creation.
 
-**Updated** Added fpdf dependency for PDF generation capabilities with enhanced character processing.
+**Updated** Added fpdf dependency for PDF generation capabilities with enhanced character processing and improved Unicode support.
 
 ```mermaid
 graph LR
@@ -354,7 +356,7 @@ FPDF["fpdf"] --> PDFGEN["generate_report.py"]
 - Rendering performance: Large paper lists can impact DOM rendering; virtualization or pagination can help.
 - Network latency: Prefetching JSON files and caching can improve perceived performance.
 - Database operations: Batch inserts and indexing can reduce write overhead.
-- **Updated** PDF generation performance: ASCII character filtering adds minimal overhead but ensures reliable PDF rendering across different systems.
+- **Updated** PDF generation performance: ASCII character filtering adds minimal overhead but ensures reliable PDF rendering across different systems with improved Unicode handling.
 
 ## Troubleshooting Guide
 Common issues and remedies:
@@ -364,6 +366,7 @@ Common issues and remedies:
 - Backend startup: Verify database initialization and scheduler configuration.
 - **Updated** PDF generation issues: Check font availability for DejaVu fonts; system falls back to Arial if fonts are not available.
 - **Updated** ASCII character processing: Verify that abstract text processing is working correctly; check for encoding issues in downloaded content.
+- **Updated** Internationalization issues: Ensure proper character encoding handling for non-English content in PDF generation.
 
 **Section sources**
 - [update_papers.py:63-71](file://update_papers.py#L63-L71)
@@ -372,7 +375,7 @@ Common issues and remedies:
 - [generate_report.py:62-67](file://generate_report.py#L62-L67)
 
 ## Conclusion
-The paper_weekly system integrates multiple data sources, applies translation and analysis, and presents a responsive, topic-filtered interface. The modular design allows easy extension to additional topics and data sources. The backend provides a simple API for dynamic operations, while the frontend focuses on fast, user-friendly interaction. **Updated** The addition of PDF generation capabilities with ASCII-only character processing and enhanced abstract validation ensures reliable report creation across different environments and platforms.
+The paper_weekly system integrates multiple data sources, applies translation and analysis, and presents a responsive, topic-filtered interface. The modular design allows easy extension to additional topics and data sources. The backend provides a simple API for dynamic operations, while the frontend focuses on fast, user-friendly interaction. **Updated** The addition of PDF generation capabilities with enhanced ASCII-only character processing, improved Unicode handling, and comprehensive internationalization support ensures reliable report creation across different environments and platforms with better character encoding support.
 
 ## Appendices
 
@@ -394,7 +397,7 @@ The paper_weekly system integrates multiple data sources, applies translation an
 - Topic configuration keys: name, name_zh, keywords, file.
 - Journal filters: curated list of high-impact journals.
 - Translation parameters: target language and text length limits.
-- **Updated** PDF generation parameters: ASCII character filtering, font fallback options, and abstract validation thresholds.
+- **Updated** PDF generation parameters: ASCII character filtering, font fallback options, abstract validation thresholds, and enhanced Unicode processing capabilities.
 
 **Section sources**
 - [update_papers.py:14-45](file://update_papers.py#L14-L45)
@@ -406,7 +409,7 @@ The paper_weekly system integrates multiple data sources, applies translation an
 - Topic switching: Buttons trigger JSON reload and update UI state.
 - Card click: Opens modal with translated abstract and external link.
 - Loading states: Spinner indicates asynchronous data fetch.
-- **Updated** PDF generation: Users can generate weekly reports with validated content and ASCII-only character processing.
+- **Updated** PDF generation: Users can generate weekly reports with validated content, ASCII-only character processing, and improved Unicode support.
 
 **Section sources**
 - [index.html:16-44](file://index.html#L16-L44)
@@ -415,14 +418,16 @@ The paper_weekly system integrates multiple data sources, applies translation an
 - [generate_report.py:118-129](file://generate_report.py#L118-L129)
 
 ### PDF Generation Features
-**New Section** Enhanced PDF generation capabilities with ASCII-only character processing and validation.
+**New Section** Enhanced PDF generation capabilities with ASCII-only character processing, improved Unicode handling, and comprehensive internationalization support.
 
 - Automatic weekly report generation
-- ASCII-only character filtering for reliable PDF rendering
+- ASCII-only character filtering for reliable PDF rendering with encode('ascii', 'ignore')
 - Enhanced abstract text validation with minimum length checks
 - Topic-based organization with structured formatting
-- Font fallback support for international character sets
+- Font fallback support for international character sets with DejaVu and Arial
 - Error handling for empty or invalid abstract content
+- Comprehensive internationalization support for global accessibility
+- Improved character encoding handling for non-English content
 
 **Section sources**
 - [generate_report.py:55-116](file://generate_report.py#L55-L116)

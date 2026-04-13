@@ -7,7 +7,8 @@ const topicFiles = {
     'surface': 'data_surface.json',
     'imaging': 'data_imaging.json',
     'earthquake': 'data_earthquake.json',
-    'ai': 'data_ai.json'
+    'ai': 'data_ai.json',
+    'citations': 'data_citations.json'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -116,6 +117,12 @@ function showModal(paper) {
             <h3>📖 摘要翻译</h3>
             <div class="abs-content">${escapeHtml(paper.abs_zh || "暂无翻译内容")}</div>
         </div>
+
+        ${paper.cited_paper ? `
+        <div class="analysis-section">
+            <h3>📌 引用的文章</h3>
+            <div class="abs-content">${escapeHtml(paper.cited_paper)}</div>
+        </div>` : ''}
 
         <div class="modal-footer">
             <a href="${paper.url}" target="_blank" class="primary-btn">🔗 访问原文链接 (DOI/arXiv)</a>

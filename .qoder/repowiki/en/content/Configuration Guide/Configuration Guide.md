@@ -22,12 +22,10 @@
 
 ## Update Summary
 **Changes Made**
-- Updated topic classification system to use English interface labels and topic names
-- Modified date formatting to use numeric date formats instead of Chinese date formatting
-- Updated email notification system to use English subject lines and display dates
-- Revised frontend topic switching to use English topic identifiers and labels
-- Updated backend analysis system to use English topic names and descriptions
-- Modified PDF report generation to use English topic names and numeric date formatting
+- Updated PDF report generation system to use English topic names and numeric date formatting throughout the internationalization effort
+- Enhanced Unicode support with DejaVu font fallback and ASCII-only character processing for improved PDF rendering
+- Maintained backward compatibility with existing Chinese topic names in JSON data files while ensuring English display in reports
+- Updated GitHub Actions workflow to handle mixed-language content in email notifications
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -42,7 +40,7 @@
 10. [Appendices](#appendices)
 
 ## Introduction
-This guide documents the configuration of the paper_weekly system, covering GitHub Actions automation, email notifications, topic configuration for seismology areas, deployment options, and operational security and monitoring practices. The system has been updated to use English interface labels, numeric date formatting, and English topic classifications throughout the application. It is designed for both administrators and developers who need to set up, customize, and maintain the system.
+This guide documents the configuration of the paper_weekly system, covering GitHub Actions automation, email notifications, topic configuration for seismology areas, deployment options, and operational security and monitoring practices. The system has been updated to use English interface labels, numeric date formatting, and English topic classifications throughout the application with enhanced Unicode support and ASCII-only character processing for PDF generation. It is designed for both administrators and developers who need to set up, customize, and maintain the system.
 
 ## Project Structure
 The repository organizes configuration and automation around a clear separation of concerns:
@@ -302,16 +300,23 @@ The PDF report generation system creates weekly reports with English topic names
 - Topic configuration: defines English topic names for report sections.
 - Report structure: organizes papers by topic with English section headers.
 - Font support: attempts to use DejaVu fonts for better Unicode support.
+- ASCII processing: applies ASCII-only filtering to abstract text for improved compatibility.
+
+**Updated** Enhanced Unicode support with DejaVu font fallback and ASCII-only character processing for improved PDF rendering across different systems.
 
 References:
 - Date range calculation: [generate_report.py:12-17](file://generate_report.py#L12-L17)
 - Topic configuration: [generate_report.py:19-27](file://generate_report.py#L19-L27)
 - Report generation: [generate_report.py:55-116](file://generate_report.py#L55-L116)
+- Font fallback: [generate_report.py:61-67](file://generate_report.py#L61-L67)
+- ASCII processing: [generate_report.py:102-110](file://generate_report.py#L102-L110)
 
 **Section sources**
 - [generate_report.py:12-17](file://generate_report.py#L12-L17)
 - [generate_report.py:19-27](file://generate_report.py#L19-L27)
 - [generate_report.py:55-116](file://generate_report.py#L55-L116)
+- [generate_report.py:61-67](file://generate_report.py#L61-L67)
+- [generate_report.py:102-110](file://generate_report.py#L102-L110)
 
 ## Dependency Analysis
 External dependencies and integrations:
@@ -352,6 +357,7 @@ B --> K["Google Translate"]
 - Translation costs: Translation is performed on demand; consider caching translated content to reduce repeated calls.
 - Database growth: Monitor SQLite storage growth and consider archival strategies for older entries.
 - Background scheduler: Ensure the scheduler does not overlap with manual runs; verify concurrency controls.
+- Font rendering: DejaVu font fallback reduces rendering issues across different systems.
 
 ## Troubleshooting Guide
 Common issues and resolutions:
@@ -366,6 +372,10 @@ Common issues and resolutions:
 - Backend API issues:
   - Confirm database initialization and schema creation.
   - Validate that the background scheduler is running and not conflicting with manual runs.
+- PDF rendering issues:
+  - Ensure DejaVu fonts are installed on the system for proper Unicode support.
+  - Verify ASCII-only processing is working correctly for abstract text.
+  - Check numeric date formatting compatibility across different locales.
 
 References:
 - Troubleshooting steps: [README.md:26-32](file://README.md#L26-L32)
@@ -382,7 +392,7 @@ References:
 - [backend/app.py:228-230](file://backend/app.py#L228-L230)
 
 ## Conclusion
-The paper_weekly system integrates GitHub Actions automation, topic-based paper discovery, translation, and presentation through a simple frontend. By configuring secrets, customizing topic keywords, and following deployment and security practices, administrators can maintain a reliable, up-to-date resource for seismology research across multiple domains. The system now uses English interface labels, numeric date formatting, and English topic classifications throughout, providing a fully internationalized experience.
+The paper_weekly system integrates GitHub Actions automation, topic-based paper discovery, translation, and presentation through a simple frontend. By configuring secrets, customizing topic keywords, and following deployment and security practices, administrators can maintain a reliable, up-to-date resource for seismology research across multiple domains. The system now uses English interface labels, numeric date formatting, and English topic classifications throughout, providing a fully internationalized experience with enhanced Unicode support and ASCII-only character processing for improved PDF compatibility.
 
 ## Appendices
 
@@ -419,3 +429,6 @@ The paper_weekly system integrates GitHub Actions automation, topic-based paper 
   - Integrate workflow failure alerts to email or chat channels.
 - Frontend monitoring:
   - Track availability and responsiveness of the topic pages.
+- PDF generation monitoring:
+  - Verify DejaVu font availability and ASCII processing effectiveness.
+  - Monitor numeric date formatting consistency across different environments.

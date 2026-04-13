@@ -19,10 +19,13 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests feedparser deep-translator fpdf
+          pip install requests feedparser deep-translator fpdf scholarly
 
       - name: Run update script
         run: python update_papers.py
+
+      - name: Fetch citations
+        run: python update_citations.py
 
       - name: Generate report
         run: python generate_report.py
