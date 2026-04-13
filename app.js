@@ -75,7 +75,10 @@ function renderPapersList() {
     const container = document.getElementById('papers-list');
     
     if (!papers || papers.length === 0) {
-        container.innerHTML = `<div class="empty-state"><h2>📚 暂无论文</h2><p>目前没有找到相关的论文。</p></div>`;
+        const emptyMsg = currentTopic === 'citations'
+            ? `<div class="empty-state"><h2>😔 没有引用</h2><p>过去的一周没有人引用你的文章，多发几篇好的，或者出去开会推销一下啊 looser。</p></div>`
+            : `<div class="empty-state"><h2>📚 暂无论文</h2><p>目前没有找到相关的论文。</p></div>`;
+        container.innerHTML = emptyMsg;
         return;
     }
     
