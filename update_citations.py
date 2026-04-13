@@ -239,17 +239,6 @@ MY_PAPERS = [
     },
 ]
 
-# ── manually known citing papers ─────────────────────────────────────────────
-# If you know a specific paper's DOI that cites your work, add it here.
-# These are always fetched directly and will appear immediately.
-# Format: {'doi': '10.xxx/xxx', 'cited_paper_doi': '10.yyy/yyy'}
-KNOWN_CITING_DOIS = [
-    {
-        'doi': '10.1038/s41467-026-71541-6',  # Poli et al. 2026, Nat Comms
-        'cited_paper_doi': '10.1016/j.epsl.2021.117334',
-    },
-]
-
 # Seismology / geophysics journals to scan in Crossref
 SEISMO_JOURNALS = [
     'Nature',
@@ -326,28 +315,88 @@ def _make_entry(item: dict, paper: dict, source_tag: str) -> dict:
 
 
 def fetch_known_citing_dois() -> list:
-    """Directly fetch metadata for manually-known citing papers."""
-    results = []
-    paper_map = {p['doi'].lower(): p for p in MY_PAPERS}
+    return []  # removed — replaced by Semantic Scholar
 
-    for entry in KNOWN_CITING_DOIS:
-        doi = entry.get('doi', '')
-        cited_doi = entry.get('cited_paper_doi', '').lower()
-        paper = paper_map.get(cited_doi)
-        if not doi or not paper:
-            continue
+
+# ── Strategy 1: Semantic Scholar (primary, fastest index) ────────────────────
+
+def _s2_entry(citing_paper: dict, paper: dict) -> dict:
+    """Build a result dict from a Semantic Scholar citingPaper object."""
+    authors = citing_paper.get('authors', [])
+    first_author = authors[0].get('name', 'N/A') if authors else 'N/A'
+    corr_author = authors[-1].get('name', 'N/A') if len(authors) > 1 else first_author
+    ext_ids = citing_paper.get('externalIds', {}) or {}
+    doi = ext_ids.get('DOI', '') or ''
+    url = f'https://doi.org/{doi}' if doi else citing_paper.get('url', '')
+    published = citing_paper.get('publicationDate', '') or str(citing_paper.get('year', ''))
+    return {
+        'id': doi or citing_paper.get('paperId', ''),
+        'title': citing_paper.get('title', 'No Title'),
+        'url': url,
+        'first_author': first_author,
+        'corr_author': corr_author,
+        'affiliation': 'N/A',
+        'abs_zh': f'This paper cited: {paper["title"]}',
+        'source': (citing_paper.get('venue') or citing_paper.get('journal', {}).get('name', 'Unknown') if isinstance(citing_paper.get('journal'), dict) else 'Unknown'),
+        'published': published,
+        'cited_paper': paper['title'],
+        '_source_tag': 'S2',
+    }
+
+
+def fetch_semantic_scholar(paper: dict) -> list:
+    """
+    Use Semantic Scholar Graph API to get all papers citing this paper.
+    Paginates through all results (500 per page).
+    No API key required (free tier: 1 req/s).
+    """
+    results = []
+    doi = paper.get('doi', '')
+    if not doi:
+        return results
+
+    fields = 'title,authors,year,publicationDate,externalIds,venue,journal'
+    base = f'https://api.semanticscholar.org/graph/v1/paper/DOI:{doi}/citations'
+    offset = 0
+    limit = 500
+    total_fetched = 0
+
+    while True:
+        url = f'{base}?fields={fields}&limit={limit}&offset={offset}'
         try:
-            url = f'https://api.crossref.org/works/{doi}'
-            meta = session.get(url, timeout=15).json().get('message', {})
-            entry_data = _make_entry(meta, paper, 'known')
-            results.append(entry_data)
-            print(f'  [Known] Fetched: {entry_data["title"][:70]}')
+            r = session.get(url, timeout=30, headers={'User-Agent': 'paper-weekly-bot/1.0'})
+            if r.status_code == 404:
+                print(f'  [S2] Paper not found: {doi}')
+                break
+            if r.status_code == 429:
+                print(f'  [S2] Rate limited, waiting 10s...')
+                time.sleep(10)
+                continue
+            data = r.json()
         except Exception as e:
-            print(f'  [Known] Error fetching {doi}: {e}')
+            print(f'  [S2] Request error for {doi}: {e}')
+            break
+
+        items = data.get('data', [])
+        for item in items:
+            cp = item.get('citingPaper', {})
+            if cp:
+                results.append(_s2_entry(cp, paper))
+        total_fetched += len(items)
+
+        # Check if more pages exist
+        next_offset = data.get('next', None)
+        if next_offset is None or len(items) < limit:
+            break
+        offset = next_offset
+        time.sleep(1)  # respect rate limit
+
+    if total_fetched:
+        print(f'  [S2] {total_fetched} citation(s) for {doi}')
     return results
 
 
-# ── Strategy 1: OpenCitations ────────────────────────────────────────────────
+# ── Strategy 2: OpenCitations
 
 def fetch_opencitations(paper: dict) -> list:
     """Query OpenCitations COCI for confirmed citations of a DOI."""
@@ -390,7 +439,7 @@ def fetch_opencitations(paper: dict) -> list:
     return results
 
 
-# ── Strategy 2: Crossref journal scan ───────────────────────────────────────
+# ── Strategy 3: Crossref journal scan ───────────────────────────────────────
 
 def fetch_crossref_scan(paper: dict, since: str) -> list:
     """
@@ -449,7 +498,7 @@ def fetch_crossref_scan(paper: dict, since: str) -> list:
     return results
 
 
-# ── Strategy 3: scholarly (Google Scholar) ───────────────────────────────────
+# ── Strategy 4: scholarly (Google Scholar) ───────────────────────────────────
 
 def fetch_scholarly(paper: dict) -> list:
     """Fallback: Google Scholar 'Cited by' via scholarly library."""
@@ -498,28 +547,29 @@ def fetch_citing_papers():
     since = (now - timedelta(days=SCAN_DAYS)).strftime('%Y-%m-%d')
     all_results = []
 
-    # 0. Manually known citing papers (always fetched, no lag)
-    print('=== Fetching manually known citing papers...')
-    r0 = fetch_known_citing_dois()
-    all_results.extend(r0)
-
     for paper in MY_PAPERS:
-        print(f'\n=== Searching citations for: {paper["title"][:60]}...')
+        print(f'\n=== Citations for: {paper["title"][:65]}...')
 
-        # 1. OpenCitations
-        r1 = fetch_opencitations(paper)
+        # 1. Semantic Scholar — fastest, most up-to-date citation index
+        r1 = fetch_semantic_scholar(paper)
         all_results.extend(r1)
         time.sleep(1)
 
-        # 2. Crossref journal scan (recent papers)
-        print(f'  [Crossref] Scanning journals for papers deposited since {since}...')
-        r2 = fetch_crossref_scan(paper, since)
+        # 2. OpenCitations — confirmed citation graph (may lag weeks)
+        r2 = fetch_opencitations(paper)
         all_results.extend(r2)
-        time.sleep(1)
+        time.sleep(0.5)
 
-        # 3. scholarly
-        r3 = fetch_scholarly(paper)
-        all_results.extend(r3)
+        # 3. Crossref journal scan — catches papers not yet in S2/OC
+        #    Only run this for papers where S2 returned 0 results
+        if not r1:
+            print(f'  [Crossref] S2 had no results, scanning journals since {since}...')
+            r3 = fetch_crossref_scan(paper, since)
+            all_results.extend(r3)
+            time.sleep(0.5)
+
+        # 4. scholarly — slowest, skip unless specifically needed
+        # (disabled by default to avoid rate limiting in CI)
 
     # Deduplicate by id (lowercased)
     seen = set()
@@ -528,7 +578,6 @@ def fetch_citing_papers():
         key = (r.get('id') or r.get('title', '')[:60]).lower()
         if key and key not in seen:
             seen.add(key)
-            # Remove internal tag before saving
             r.pop('_source_tag', None)
             unique.append(r)
 
