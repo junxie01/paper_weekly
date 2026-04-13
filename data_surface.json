@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-04-05 至 2026-04-12 02:44",
+  "last_update": "2026-04-06 至 2026-04-13 01:10",
   "topic_name": "面波研究",
   "papers": [
-    {
-      "id": "2604.08225v1",
-      "title": "Comparative performance of three optical biosensing platforms for SARS-CoV-2 antibodies detection in human serum",
-      "url": "http://arxiv.org/abs/2604.08225v1",
-      "first_author": "Agostino Occhicone",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "本研究对用于检测人血清中 SARS-CoV-2 抗体的两种无标记光学生物传感平台——布洛赫表面波 (BSW) 和微环谐振器 (MRR) 进行了严格的比较分析。为了确保直接可比性，我们在现有 MRR 平台旁边建立了新的 BSW 读出系统，允许在几乎相同的实验条件下进行测定。这两种传感器都具有各种 SARS-CoV-2 Spike 和核衣壳蛋白变体的功能，以捕获特定的宿主抗体。结果表明，两个平台均可快速、定量且灵敏地检测抗刺突抗体和抗核衣壳抗体，无需二次标记。此外，这些平台与纵向血清学基准表现出极好的一致性，并且在不同生物芯片批次之间具有高重复性。这项工作将 BSW 和 MRR 技术确立为下一代临床诊断和血清学监测的强大、低成本候选技术。",
-      "source": "arXiv",
-      "published": "2026-04-09"
-    },
-    {
-      "id": "2604.06433v1",
-      "title": "Operator Learning for Surrogate Modeling of Wave-Induced Forces from Sea Surface Waves",
-      "url": "http://arxiv.org/abs/2604.06433v1",
-      "first_author": "Shukai Cai",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "波浪装置在将波浪引起的能量传递给水流并导致水位上升方面发挥着重要作用。这种多余的动量通量（称为辐射应力）促进了环流模型与波浪模型的耦合，以提高风暴潮预测的准确性，然而，传统的数值波浪模型非常复杂且计算成本昂贵。因此，在实际的耦合模拟中，波浪模型通常以比环流模型粗得多的时间分辨率执行。在这项工作中，我们探索使用深度算子网络 (DeepONets) 作为近岸模拟波浪 (SWAN) 数值波浪模型的替代品。所提出的替代模型在具有可变边界波条件和风场的三个不同的一维和二维稳态数值示例上进行了测试。当应用于北卡罗来纳州达克的稳态波浪模拟的实际数值示例时，该模型在预测代表性场景中的辐射应力梯度分量和有效波高方面取得了一致的高精度。",
-      "source": "arXiv",
-      "published": "2026-04-07"
-    },
-    {
-      "id": "2604.04107v1",
-      "title": "Physical Sensitivity Kernels Can Emerge in Data-Driven Forward Models: Evidence From Surface-Wave Dispersion",
-      "url": "http://arxiv.org/abs/2604.04107v1",
-      "first_author": "Ziye Yu",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "数据驱动的神经网络越来越多地用作地球物理学中的替代前向模型，但目前尚不清楚它们是否仅恢复数据映射或还恢复潜在的物理敏感性结构。这里我们使用表面波色散来测试这个问题。通过将神经网络代理的自动微分梯度与理论灵敏度内核进行比较，我们表明学习的梯度可以在广泛的时期内恢复物理内核的主要深度依赖结构。这表明神经代理模型可以学习物理上有意义的差异信息，而不是充当纯粹的黑盒预测器。同时，训练分布中的强结构先验可能会将系统伪影引入推断的敏感性中。我们的结果表明，神经前向代理可以恢复有用的物理信息以进行反演和不确定性分析，同时阐明这种差异结构保持物理一致的条件。",
-      "source": "arXiv",
-      "published": "2026-04-05"
-    },
-    {
-      "id": "2604.03487v1",
-      "title": "Octave-Spanning Terahertz Quarter-Wave Plates Based on Over-Coupled Fabry-Pérot Resonances in Reflective Metal-Dielectric-Metal Metasurfaces",
-      "url": "http://arxiv.org/abs/2604.03487v1",
-      "first_author": "Tae Gwan Park",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "由于双折射材料和谐振结构的固有相色散，太赫兹 (THz) 范围内宽带偏振控制的紧凑型器件具有挑战性。在这里，我们展示了基于过耦合金属-电介质-金属反射超表面的高性能宽带太赫兹四分之一波片。这些器件作为单端口各向异性法布里-珀罗腔运行，其中过耦合谐振的相位色散被设计为在正交场分量之间产生近似恒定的相对相位延迟。通过定制超表面几何形状，可以实现高效的线圆偏振转换，同时保持高反射率。四种互补的超表面设计，以 45^\\circ$ 的入射角运行，共同覆盖典型太赫兹时域光谱系统可访问的 0.25--3 太赫兹频率范围。每个器件都具有大约倍频程宽的带宽，轴比低于 3dB，并且在大部分工作频段偏振转换效率超过 80%。系统优化抑制了与高阶衍射和表面波模式的耦合，进一步扩展了可用带宽，同时保留了所需的相位关系。超表面与晶圆级制造兼容，实验结果与模拟结果非常吻合。这些发现将过耦合反射超表面确立为宽带太赫兹偏振控制的强大且多功能的平台。",
-      "source": "arXiv",
-      "published": "2026-04-03"
-    },
-    {
-      "id": "2603.27275v1",
-      "title": "Frozen Surface Modes on a Moving Interface",
-      "url": "http://arxiv.org/abs/2603.27275v1",
-      "first_author": "S. Azar",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "时空调制使得合成运动能够以接近光速的有效速度进行，为光与物质的相互作用提供了新的机制。当发射器的速度匹配或超过介质支持的电磁模式的相速度时，就会出现传统的切伦科夫型效应。在这里，我们研究相速度和群速度显着不同的色散系统。具体来说，我们探讨了表面波群速度匹配的情况，其中发射器以与能量流相同的速度移动。这会产生在发射器框架中静止的冻结表面模式，并伴随着谐振能量积累。其结果是光学状态的局部密度、从发射器提取的功率以及它所经历的光机械力和扭矩显着增加。由于表面模式自然地表现出缓慢的群速度，因此可以在比相速度效应更低的相对速度下实现。这种现象提供了一条通过真实或合成运动增强光与物质相互作用的途径。",
-      "source": "arXiv",
-      "published": "2026-03-28"
-    },
     {
       "id": "10.1016/j.epsl.2026.119963",
       "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
@@ -135,6 +80,17 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag096",
+      "title": "Estimation of elastic wave properties of tight sandstones using a reformulated digital rock physics method and ultrasonic experiments",
+      "url": "https://doi.org/10.1093/gji/ggag096",
+      "first_author": "Jing Ba",
+      "corr_author": "Martin Balcewicz",
+      "affiliation": "School of Earth Sciences and Engineering, Hohai University , Nanjing 211100 ,",
+      "abs_zh": "致密砂岩油藏作为一种分布广泛的非常规油气资源，其微观结构特征复杂，弹性波响应复杂。在这项研究中，我们使用重新制定的数字岩石物理方法来估计致密砂岩的波浪特性。选择来自中国四川盆地和鄂尔多斯盆地的 9 个致密砂岩岩心，在不同压力和流体饱和度下进行 X 射线衍射和超声测量。针对气体和水饱和度，分析了弹性波速度相对于有效压力的变化。进行两种分辨率的计算机断层扫描 (CT) 扫描，以重建多相数字岩石并研究矿物边界 (MB) 的影响。然后使用有限元和有限差分方法进行数值模拟并与超声数据进行比较。结果表明，在考虑 MB 的影响时，模拟可以有效地估计弹性特性。此外，CT 扫描的分辨率决定了捕获的微观结构的规模，这反过来又决定了数值模拟产生有效结果的压力范围。研究结果表明，从这些模拟中得出的波响应与扫描分辨率有着内在的联系。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1126/science.aea2100",
       "title": "Luminal surface proteome of the brain vasculature uncovers blood-brain barrier regulators",
       "url": "https://doi.org/10.1126/science.aea2100",
@@ -154,17 +110,6 @@
       "affiliation": "School of Earth Sciences China University of Geosciences  Wuhan China",
       "abs_zh": "将地震矩张量分解为各向同性和偏向分量是地震学中的标准。偏差部分进一步分为双耦合 (DC) 和非双耦合 (NDC) 分量，其中 NDC 提供了对源复杂性的洞察。然而，现有方法经常会因不同的物理解释而产生不一致的结果。我们提出了一种新颖的分解方法，将地震建模为两个直流子事件，其中第一个子事件由纵波初动数据确定，第二个子事件通过矩守恒分析得出。该方法简单、高效且可物理解释。我们评估其稳定性并将其应用于全球八个\n                    中号\n                    \n                      w\n                    \n                     ≥ 7.5 次地震（2000 年至 2023 年），NDC 成分大于 40%。结果与之前的研究非常吻合，证明了稳健性。当附加约束（例如余震机制）可用时，此方法可以扩展到多个子事件。它为探索复杂的破裂过程和了解大地震的物理机制提供了强大的工具。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250303",
-      "title": "Revealing Hidden\n                    <i>T</i>\n                    -Wave Sources in the South China Sea from an Island Seismometer Using Deep Metric Learning",
-      "url": "https://doi.org/10.1785/0220250303",
-      "first_author": "Chunchang Xia",
-      "corr_author": "Min Xu",
-      "affiliation": "1College of Artificial Intelligence, Guangxi Minzu University, Nanning, China",
-      "abs_zh": "T 波是地震波与复杂海底地形相互作用时产生的水声信号，能量转换为海洋声波，以声速（∼1.5 km/s）通过声音固定和测距通道传播。在南海等半封闭盆地中，复杂的测深由于信号模式的变化而造成了具有挑战性的检测条件。我们使用南海（2012-2024）的陆基地震数据开发了一个用于 T 波识别的深度度量学习框架。我们的半监督方法将 M ≥ 5.0 地震分为三类：无 T 相、单 T 相和多 T 相。深度学习模型取得了优异的性能，宏观 F1 分数高达 94.61%，特别是在检测复杂的多个 T 波模式方面表现出色。应用到较小的地震（M < 5.0）揭示了 116 个以前未检测到的 T 波事件。空间分析表明，T波事件集中在菲律宾板块西缘和马尼拉海沟，多个T相事件主要位于台湾岛东部，可能是由于该地区复杂的测深造成的。此外，越南海岸的一部分近岸地震会产生可检测到的 T 波，这表明沿海浅水区可能会实现地震与声能的耦合。这些发现促进了对半封闭盆地 T 波生成机制的理解，并为震声转换的空间模式提供了新的见解。扩展的 T 波目录和自动检测框架为海洋地震监测提供了宝贵的工具，并有助于提高对复杂测深环境中 T 波传播的理解。由于该框架是从单个岛屿地震仪开发而来，因此其对其他台站或地区的适用性仍有待在未来的研究中评估。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

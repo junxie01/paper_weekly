@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-04-05 至 2026-04-12 02:44",
+  "last_update": "2026-04-06 至 2026-04-13 01:10",
   "topic_name": "地震研究",
   "papers": [
-    {
-      "id": "2604.02472v1",
-      "title": "VALOR: Value-Aware Revenue Uplift Modeling with Treatment-Gated Representation for B2B Sales",
-      "url": "http://arxiv.org/abs/2604.02472v1",
-      "first_author": "Vamshi Guduguntla",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "B2B 销售组织必须在零膨胀的收入分配中确定“可说服的”账户，以优化昂贵的人力资源分配。标准提升框架面临着高维空间中治疗信号崩溃以及回归校准和高价值“鲸鱼”排名之间不一致的问题。我们引入了 VALOR（优化（B2B）收入的价值感知学习），这是一个统一框架，具有治疗门控稀疏收入网络，使用双线性交互来防止因果信号崩溃。该框架通过新颖的成本敏感型 Focal-ZILN 目标进行了优化，该目标将分布稳健性的焦点机制与根据财务规模调整惩罚的价值加权排名损失相结合。为了提供高接触销售计划的可解释性，我们进一步推导了 Robust ZILN-GBDT，这是一种基于树的变体，利用自定义分割标准来提升异质性。广泛的评估证实了 VALOR 的主导地位，与公共基准上最先进的方法相比，其排名提高了 20%，并且在严格的 4 个月生产 A/B 测试中，每个帐户的增量收入经验证增加了 2.7 倍。",
-      "source": "arXiv",
-      "published": "2026-04-02"
-    },
-    {
-      "id": "2603.27860v1",
-      "title": "Relative Focal Mechanism Inversion Using Relative Polarities and S/P Double Ratios",
-      "url": "http://arxiv.org/abs/2603.27860v1",
-      "first_author": "Miao Zhang",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "小地震的震源机制对于表征断层和区域应力至关重要。 P 波极性和 S/P 振幅比（例如，在 HASH 中）被广泛用于确定小地震的震源机制，但对于突发事件来说，初动拾取可能很困难，而且由于不完善的速度模型和未知的场地响应，S/P 比通常高度不一致。在这里，我介绍 FocMecDR，一种使用相对极性和 S/P 振幅双倍比的相对焦点机制反演方法。与双差地震定位类似，FocMecDR 使用具有已知震源机制的参考事件，通过最小化观测到的 S/P 振幅双倍比与理论 S/P 振幅双比之间的失配，同时强制执行基于互相关的相对极性，来求解附近地震的震源机制。广泛的合成测试证明了该方法的有效性和准确性。使用反相似地震对和 2019 年 Ridgecrest 破裂带西北端余震的现场验证进一步证实了其可靠性。对 2019 年 Ridgecrest 主震之前的前震的应用揭示了成核过程中高度均匀的应力场，这提出了评估大地震前断层带应力和破裂准备情况的可能框架。",
-      "source": "arXiv",
-      "published": "2026-03-29"
-    },
-    {
-      "id": "2603.20902v1",
-      "title": "Virtual receiver functions via conditional diffusion transformers for robust crustal imaging",
-      "url": "http://arxiv.org/abs/2603.20902v1",
-      "first_author": "Tiente R. Koireng",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "接收函数（RF）广泛用于对地壳和上地幔结构进行成像，其随方位角和震中距离的变化包含有关分层和方位各向异性的关键信息。然而，实际上，射频受到未知地震源特征和地震噪声的干扰影响，从而阻碍了可靠的地壳成像。后方位角和震中距离的稀疏射频覆盖也会导致各向异性估计出现偏差。我们使用条件扩散模型来应对这些挑战，以后方位角、震中距和台站坐标为条件，生成高质量的虚拟径向和横向射频。来自具有相似方位角和震中距离的地震的射频具有一致的地壳响应，但滋扰效应不同，从而使模型能够抑制后者。我们的框架在后方位角和震中距离覆盖范围内生成虚拟射频，增强对地壳各向异性和分层的解释。在具有真实非高斯噪声的合成射频上，虚拟射频与真实射频的相关性比传统线性或相位加权叠加更强。应用于卡斯卡迪亚俯冲带时，虚拟径向射频对来自倾斜板片的散射 S 波进行了清晰的成像，与之前的工作相比，具有增强的相位清晰度和后向覆盖范围。在南加州，从虚拟 RF 推断出的各向异性参数在空间上是相干的，并且与区域断层几何形状一致。我们的方法利用所有可用的射频（无论质量如何）来增加空间覆盖范围并支持强大的自动化射频分析。",
-      "source": "arXiv",
-      "published": "2026-03-21"
-    },
-    {
-      "id": "2603.18925v1",
-      "title": "Improving moment tensor solutions under Earth structure uncertainty with simulation-based inference",
-      "url": "http://arxiv.org/abs/2603.18925v1",
-      "first_author": "A. A. Saoulis",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "贝叶斯推理代表了将地球结构不确定性纳入全波形矩张量反演中的原则性方法，但传统方法通常需要显着的近似，这可能会导致结果解出现偏差。我们引入了一种使用基于模拟的推理（SBI）来处理理论错误的稳健方法，这是一种机器学习方法，可以根据经验模拟理论错误对观察的影响。该框架保留了贝叶斯推理的严谨性，同时避免了对不确定性函数形式的限制性假设。我们首先证明理论误差的常见高斯参数化在较小的（$1-3 \\%$）一维地球模型不确定性下会崩溃。为了解决这个问题，我们开发了两种利用 SBI 来提高矩张量解决方案质量的形式：一种使用基于物理的理论错误洞察，另一种使用端到端深度学习算法。然后，我们将矩张量反演的结果与标准高斯方法和 SBI 进行比较，并证明高斯假设会产生偏差并显着低估矩张量的不确定性。我们还表明，当反演短期数据和浅层各向同性事件时，这些影响尤其成问题。另一方面，SBI 产生更可靠、更好校准的震源机制后验。最后，我们成功地将我们的方法应用于两次经过深入研究的中震级地震：一次来自 1997 年的长谷火山口火山地震序列，另一次来自 2020 年的萨格勒布地震。",
-      "source": "arXiv",
-      "published": "2026-03-19"
-    },
-    {
-      "id": "2603.15982v1",
-      "title": "Elastic waveform inversion for double-couple microseismic source estimation in vertically fractured transversely isotropic media",
-      "url": "http://arxiv.org/abs/2603.15982v1",
-      "first_author": "Ujjwal Shekhar",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "准确表征沉积地层流体注入过程中的微震事件对于减轻环境风险至关重要。与断层面上滑动相关的微震事件的震源机制由双力偶给出。波形反演已成为一种用于估计双耦合源的矩张量和位置矢量的有前途的技术。在双偶源矩张量的波形反演的大多数应用中，通常假设地层是各向同性的，或者较少见的是横观各向同性的。在反演微震波形数据时，未包括对矩张量表示的修改，以考虑横向各向同性地层中对齐的垂直裂缝所产生的各向异性。在这项关于合成微震数据的研究中，我们提出了一种包含这种修改的波形反演算法，考虑到震源区域中的地层是垂直断裂横观各向同性（VFTI）并具有正交对称性。由于 VFTI 介质缺乏旋转对称性，因此没有对发生滑移的断层面的方向做出任何假设。双力偶源的力矩张量是根据VFTI介质的弹性参数和滑移幅度、滑移角、断层倾角和断层法线方位角等几何参数来公式化的。源反演被视为局部优化问题，我们针对源位置和几何参数进行反演。这些几何参数比矩张量分量更直接地受到地震数据的约束，并提供了具有地质意义的见解。这种方法增强了裂缝地层的微震监测，并且可以扩展到更复杂的各向异性介质，例如单斜系统。",
-      "source": "arXiv",
-      "published": "2026-03-16"
-    },
     {
       "id": "10.1016/j.epsl.2026.119985",
       "title": "Volcanic source change triggers divergent climatic responses across the Guadalupian–Lopingian transition in eastern South China",

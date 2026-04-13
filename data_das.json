@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-04-05 至 2026-04-12 02:44",
+  "last_update": "2026-04-06 至 2026-04-13 01:10",
   "topic_name": "分布式光纤传感",
   "papers": [
-    {
-      "id": "2604.08450v1",
-      "title": "DeepFense: A Unified, Modular, and Extensible Framework for Robust Deepfake Audio Detection",
-      "url": "http://arxiv.org/abs/2604.08450v1",
-      "first_author": "Yassine El Kheir",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "语音深度伪造检测是一个成熟的研究领域，拥有不同的模型、数据集和训练策略。然而，缺乏标准化的实施和评估协议限制了研究的可重复性、基准测试和比较。在这项工作中，我们展示了 DeepFense，这是一个全面的开源 PyTorch 工具包，集成了最新的架构、损失函数和增强管道，以及 100 多个配方。使用 DeepFense，我们对 400 多个模型进行了大规模评估。我们的研究结果表明，虽然精心策划的训练数据可以提高跨域泛化能力，但预训练的前端特征提取器的选择主导了整体性能差异。至关重要的是，我们在音频质量、说话者性别和语言方面的高性能模型中表现出了严重的偏见。 DeepFense 预计将通过必要的工具促进现实世界的部署，以解决公平的训练数据选择和前端微调问题。",
-      "source": "arXiv",
-      "published": "2026-04-09"
-    },
-    {
-      "id": "2604.08264v1",
-      "title": "A Survey of Baker Wandering Domains",
-      "url": "http://arxiv.org/abs/2604.08264v1",
-      "first_author": "Sukanta Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "设 $f:\\mathbb C\\to \\widehat{\\mathbb C}=\\mathbb C \\cup\\{\\infty\\}$ 是具有单个本质奇点的超越亚纯函数（可能没有任何极点），并且选择位于 $\\infty$ 处。定义迭代族 $\\{f^n\\}_{n\\geq 0}$ 的点集 $z\\in\\mathbb{\\widehat{C}}$ 并在 $z$ 的邻域中形成正规族，称为 $f$ 的 Fatou 集。对于 Fatou 分量 $W$，令 $W_j$ 表示包含 $f^j(W)$ 的 Fatou 分量。如果对于所有 $m \\neq n$ $W_m\\bigcap W_n=\\emptyset$，则 Fatou 组件 $W$ 称为徘徊。 $f$ 的漫游域 $W$ 称为 Baker 漫游域，如果每个 $W_n$ 是有界的、多重连通的，并且对于所有大 $n$，$W_n$ 围绕 $0$，并且 dist$(W_n,0)\\to\\infty$ 为 $n\\to\\infty$。\n  本文调查了贝克漫游领域的知识现状。我们回顾贝克漫游域的第一个示例，然后是其他示例。给出了贝克漂移域对函数奇异值和动力学的影响。我们还讨论了一些不具有任何贝克漫游域的函数类别。文章在相关地方提出了几个问题。",
-      "source": "arXiv",
-      "published": "2026-04-09"
-    },
-    {
-      "id": "2604.08244v1",
-      "title": "FORSLICE: An Automated Formal Framework for Efficient PRB-Allocation towards Slicing Multiple Network Services",
-      "url": "http://arxiv.org/abs/2604.08244v1",
-      "first_author": "Debarpita Banerjee",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "网络切片是一种现代 5G 技术，可为不同的用例提供高效的网络体验。它是一种将单个物理网络基础设施划分为多个虚拟网络（称为切片）的技术，每个网络都针对特定的服务和要求进行配置。在这项工作中，我们特别处理无线接入网络（RAN）切片和 RAN 切片的资源分配。在5G中，物理资源块（PRB）是无线资源的基本单位，我们的主要关注点是将PRB有效地分配给切片。在满足多种服务或具有多优先级的相同服务的一系列需求时，我们需要确保两个重要的系统属性：i）即使在对特定服务类型进行优先级排序之后，对每种服务类型的公平性（即提供所需的资源和所需的吞吐量范围），以及ii）PRB 最优性或最小化切片中未使用的 PRB。这些作为我们工作中PRB分配的核心绩效评估指标。\n  我们采用3层分层PRB分区技术将PRB分配给网络切片。最先进方法的基于案例的、基于人工智能的解决方案缺乏足够的正确性来确保一致的系统性能。为了保证正确性和完整性，我们利用形式化方法并提出了第一种方法，以将 PRB 公平且最优地分配给 RAN 切片。我们将 PRB 分配问题正式建模为一个 3 层框架 FORSLICE，特别是通过采用可满足性模理论。接下来，我们应用形式验证来确保模型满足所需的系统属性：公平性和 PRB 最优性。所提出的方法提供了一种与所有三层分层网络结构配置兼容的高效、通用和自动化的方法，与基线相比，产生了显着的系统性能改进。",
-      "source": "arXiv",
-      "published": "2026-04-09"
-    },
-    {
-      "id": "2604.08040v1",
-      "title": "Group Structure via Subgroup Counts",
-      "url": "http://arxiv.org/abs/2604.08040v1",
-      "first_author": "Angsuman Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "子群的数量和循环子群的数量是有限群的自然组合不变量。我们研究对这些量的限制以及 $|G|$ 的不同素因数的数量如何强制 $G$ 的幂零性、超可解性和可解性。这些标准改进了仅依赖于子群总数的早期结果，并且它们是尖锐的，因为对于每个界限，都存在达到界限的非幂零（分别为不可超解、不可解）群。",
-      "source": "arXiv",
-      "published": "2026-04-09"
-    },
-    {
-      "id": "2604.07983v1",
-      "title": "A Natural $\\gtrsim 100\\times$ Telescope: Discovery of the Strongly Lensed Type II SN 2025mkn at $z=1.37$",
-      "url": "http://arxiv.org/abs/2604.07983v1",
-      "first_author": "Cameron Lemon",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们介绍了 SN 2025mkn 的发现，这是一颗引力透镜型 II 型超新星。首先在 ZTF 中检测到蓝色瞬变，0.83$^{\\prime\\prime}$ 来自 $z=0.42$ 椭圆星系，后续 SNIFS/UH2.2m 和 LRIS/Keck 光谱显示 $z=1.371$ 处的吸收线。后来的 JWST NIRCam 成像显示，明亮的瞬变是一对由 $\\sim 0.07^{\\prime\\prime}$ 分隔的近距离点源，以及与镜头相对的 30 倍微弱的反像，其中 NIRSpec 在 $z=1.371$ 处也显示出强烈的 H$α$ 发射。光变曲线和光谱与 II 型超新星源被放大 $\\gtrsim 100$ 倍一致，需要 $\\sim 250$ 才能使其光度与附近事件（例如 SN 2023ixf）的光度相一致。镜头模型与如此高的放大倍率一致，并且始终显示微弱图像首先到达（在早期 ZTF 成像中未检测到），与该较微弱图像的后期光谱相位一致。第四幅图像也被预测并可能在 NIRSpec 数据中检测到。由于第一张图像最暗，因此无法进行基于光曲线的时间延迟测量；然而，解析的近红外光谱为未来通过超新星相位测量进行延时宇宙学提供了机会。",
-      "source": "arXiv",
-      "published": "2026-04-09"
-    },
     {
       "id": "10.1029/2025gl120111",
       "title": "Characterization of Near‐Surface Velocity Structure at Haast, New Zealand, Using Distributed Acoustic Sensing (DAS) Measurements of Seismicity",
