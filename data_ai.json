@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-06 至 2026-04-13 04:23",
+  "last_update": "2026-04-12 至 2026-04-19 02:50",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -36,6 +36,83 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.ady9955",
+      "title": "Steering semi-flexible molecular diffusion model for structure-based drug design with reinforcement learning",
+      "url": "https://doi.org/10.1126/sciadv.ady9955",
+      "first_author": "Xudong Zhang",
+      "corr_author": "Changjun Jiang",
+      "affiliation": "Shanghai Key Laboratory of Maternal Fetal Medicine, Clinical and Translational Research Center of Shanghai First Maternity and Infant Hospital, School of Computer Science and Technology, Tongji University, Shanghai 200092, China.",
+      "abs_zh": "当前基于结构的分子生成面临着一个根本性的困境：虽然静态配体建模在计算方法中占主导地位，但现实世界的分子相互作用本质上是动态的。受配体在半柔性对接过程中经历的构象变化的启发，我们提出了一种强化学习（RL）引导的扩散框架，用于蛋白质口袋中的半柔性分子生成。通过将去噪过程定义为马尔可夫决策过程，强化学习通过迭代探索动态调整分子结构。同时，我们将多种分子特性作为条件，将去噪策略限制在类药物区域，并对无目标分子和特定目标分子进行自我监督的严格训练。此外，我们提出了快速采样策略，将采样速度加快了20倍，从而提高了训练和采样的效率。实验表明，我们的方法优于最先进的方法，Vina 分数为 -7.23 kcal/mol，成功率为 11.53%。针对现实世界中看不见的蛋白质，生成的分子保留了规范的相互作用模式，同时发现了以前未知的结合化学型。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250453",
+      "title": "Variability in Performance of a Machine Learning Seismicity Catalog: Central Italy, 2016–2017",
+      "url": "https://doi.org/10.1785/0220250453",
+      "first_author": "Jaehong Chung",
+      "corr_author": "Gregory C. Beroza",
+      "affiliation": "1Department of Geophysics, Stanford University, Stanford, California, U.S.A.",
+      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的大小大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aea0485",
+      "title": "PATCH: A deep learning method to assess heterogeneity of artistic practice in historical paintings",
+      "url": "https://doi.org/10.1126/sciadv.aea0485",
+      "first_author": "Andrew Van Horn",
+      "corr_author": "Michael Hinczewski",
+      "affiliation": "Department of Anthropology, Purdue University, West Lafayette, IN 47907, USA.",
+      "abs_zh": "在文艺复兴和早期现代时期，绘画主要是由画家大师创作的，他们指导学徒和其他经常为作品做出贡献的人的工作室。辨别谁创作了这些杰作以及他们是如何创作的，是技术艺术史上的一个核心问题，也是机器学习可以通过将分析扩展到微观尺度来帮助解决的一个重要问题。然而，对作坊绘画的分析提出了挑战，因为有关作坊成员和艺术品创作过程的信息仍然难以捉摸。因此，外部示例不可用于训练网络进行识别。在这里，我们提出了一种新颖的机器学习方法，我们称之为用于分类异质性的成对分配训练（PATCH），它能够在没有外部训练数据的情况下识别个人艺术实践体系。我们将这种方法应用于西班牙文艺复兴时期大师埃尔·格列柯的两幅历史画作，我们对其中一幅作品的发现可能会挑战之前的研究，即该画作的相当一部分是在埃尔·格列柯去世后由工作室成员完成的。在这个缺乏“真实数据”的复杂成对比较问题上，PATCH 的表现优于统计和无监督机器学习方法，这使得它在社会和自然科学中的类似案例中具有潜在的用途，包括遥感中的图像分割、城市开发和设计以及异常检测制造环境等。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec5049",
+      "title": "Quantum-informed machine learning for predicting spatiotemporal chaos with practical quantum advantage",
+      "url": "https://doi.org/10.1126/sciadv.aec5049",
+      "first_author": "Maida Wang",
+      "corr_author": "Peter V. Coveney",
+      "affiliation": "Centre for Computational Science, University College London, London, UK.",
+      "abs_zh": "我们引入了量子信息机器学习（QIML）框架，用于对高维混沌系统的长期行为进行建模。 QIML 将一次性离线训练的量子生成模型与经典自回归预测器相结合，用于时空场生成。量子模型学习量子先验（Q-Prior），指导小尺度相互作用的表示并改进精细尺度动力学的建模。我们在 Kuramoto-Sivashinsky 方程、二维 Kolmogorov 流和用作实际流入条件的三维湍流通道流上评估 QIML。在这些系统中，相对于经典基线，QIML 将预测分布精度提高了 17.25%，全谱保真度提高了 29.36%。对于湍流通道流入，Q-Prior 在超导量子处理器上进行训练，并被证明是至关重要的：没有它，预测就会变得不稳定，而 QIML 会产生物理上一致的长期预测，其性能优于领先的偏微分方程求解器。除了准确性之外，QIML 通过将兆字节数据集压缩为千字节级 Q-Prior 来提供内存优势，从而能够将量子资源可扩展地集成到科学建模中。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.ady9194",
+      "title": "Enhancing biomedical optical volumetric imaging via self-supervised orthogonal learning",
+      "url": "https://doi.org/10.1126/sciadv.ady9194",
+      "first_author": "Yuanjie Gu",
+      "corr_author": "Biqin Dong",
+      "affiliation": "College of Biomedical Engineering, Yiwu Research Institute, Fudan University, Shanghai, China.",
+      "abs_zh": "光学体积成像解决了由光子预算限制、光散射和空间带宽乘积瓶颈引起的固有噪声问题，所有这些问题都会降低结构保真度，并且比平面成像更加明显。虽然深度学习具有去噪的潜力，但监督方法受到配对数据集的不切实际的阻碍，并且现有的自监督方法无法充分利用光学成像固有的体积结构冗余。在这里，我们提出了一种自监督体积生物医学成像降噪器（VALID），它利用固有的三维空间相干性，通过自监督正交学习框架实现高效的体积去噪。 VALID 展示了跨多种成像模式的强大去噪性能，包括两光子和三光子显微镜、光场显微镜和光学相干断层扫描，显着增强了深层组织、多模态和动态成像场景中的结构保真度。通过将计算效率与零样本适应性相结合，VALID 建立了一种具有结构感知精度的体积图像增强的变革性方法。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121503",
+      "title": "Classification of the Atmospheric Boundary Layer Based on Turbulent Kinetic Energy Budget Terms Using Machine‐Learning Methods",
+      "url": "https://doi.org/10.1029/2025gl121503",
+      "first_author": "Jinhong Xian",
+      "corr_author": "Honglong Yang",
+      "affiliation": "Shenzhen National Climate Observatory Meteorological Bureau of Shenzhen Municipality  Shenzhen China",
+      "abs_zh": "大气边界层（ABL）控制着地表大气交换，但准确捕捉其全部复杂性，特别是在不同天气条件下湍流的动态演变性质，仍然是传统分类方法的巨大挑战。本研究引入了一种新颖的框架，该框架将相干多普勒激光雷达观测与机器学习相结合，根据湍流动能 (TKE) 预算的主要术语（浮力产生、剪切产生、耗散率和湍流传输）对 ABL 状态进行分类。这种方法利用了完整的能源循环（生产、运输和耗散），为分类提供了坚实的物理基础。我们确定了四种不同的 ABL 类型 (I-IV)，它们代表一系列湍流状态，从连续剪切驱动到强昼夜强迫，每种类型在其 TKE 预算中都有独特的特征，并且与特定的天气尺度天气模式有明确的联系。这些发现提供了对 ABL 过程的深入理解，并为增强数值模型中的湍流参数化奠定了坚实的基础。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120241",
+      "title": "Process‐Oriented Calibration of a Turbulence Scheme in the DOE's Global Storm‐Resolving Model Using Machine Learning",
+      "url": "https://doi.org/10.1029/2025gl120241",
+      "first_author": "Yunyan Zhang",
+      "corr_author": "Peter Caldwell",
+      "affiliation": "Lawrence Livermore National Laboratory  Livermore CA USA",
+      "abs_zh": "针对美国能源部简单云解析 E3SM 大气模型 (SCREAM) 中的简化高阶闭合 (SHOC) 湍流方案开发了面向过程的校准框架。该框架利用机器学习代理和观测约束来有效校准两个对流状态下的 SHOC 可调参数：来自 ARM 观测的晴空干燥对流边界层和晴天浅积云。我们使用 SCREAM 双周期版本的扰动参数集合来训练代理，并应用基于基准大涡模拟和观察的成本函数引导的马尔可夫链蒙特卡罗采样，以确定在两种状态下都表现良好的优化参数集。校准的 SHOC 参数极大地改善了边界层湍流和云边界，并且模拟的云分数和辐射效应比默认值更符合观测结果。这些结果表明，将多个特定过程的对流状态与机器学习替代项相结合可以减少参数不确定性，并产生更忠实于云-湍流相互作用的模型。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1126/sciadv.aeb1397",
       "title": "Experimental data reuploading with provable enhanced learning capabilities",
       "url": "https://doi.org/10.1126/sciadv.aeb1397",
@@ -55,83 +132,6 @@
       "affiliation": "State Key Laboratory of Earth System Numerical Modeling and Application (LabESM) Institute of Atmospheric Physics (IAP) Chinese Academy of Sciences  Beijing China",
       "abs_zh": "由于长期集成过程中累积的错误，基于机器学习（ML）的方案面临在线稳定性和偏差的挑战。在这里，我们提出了一种新的对流过程 ML 训练策略，以更系统的方式提供趋势在线校正，并显着提高稳定性和偏差。新的训练策略采用重新分析动态场的模拟作为目标，而非推动模拟作为输入。低分辨率混合机器学习物理模型的结果表明，新的机器学习方案的性能要好得多，因为它增强了重层状和总降水量，并减少了温度偏差，成为有效的在线偏差校正机制。此外，由此产生的混合模型缓解了长期以来对热带对流与总降水比率的高估。最后，混合模型可以稳定运行一年以上，凸显了新训练策略的有效性和普适性。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10326-9",
-      "title": "Multiomics and deep learning dissect regulatory syntax in human development",
-      "url": "https://doi.org/10.1038/s41586-026-10326-9",
-      "first_author": "Betty B. Liu",
-      "corr_author": "William J. Greenleaf",
-      "affiliation": "未知机构",
-      "abs_zh": "转录因子在发育过程中通过以序列特异性方式结合调节 DNA 来建立细胞身份，通常促进局部染色质可及性并调节基因表达\n                    1\n                    。绘制可及的染色质图谱为转录控制提供了重要的见解，但人类发育的可用数据集仅限于大块组织、单个器官或单一模式\n                    2\n                    。在这里，我们展示了人类发育多组学图谱，这是一个单细胞图谱，包含来自 12 个器官的 817,740 个胎儿细胞的染色质可及性和基因表达，涵盖 203 种细胞类型和超过 100 万个候选细胞\n                    顺式\n                    -调节元件，其中许多表现出器官特异性的体内增强子活性。经过训练的深度学习模型可以根据本地 DNA 序列预测可访问性，从而揭示了影响可访问性的综合主题词汇，包括表现出不同句法限制的复合主题，预计这些限制可以介导转录因子的协同性。我们确定了需要精确的主题间距和方向的“硬”句法规则，允许灵活的主题排列的“软”规则，以及抑制可访问性的普遍存在的主题。基于模型的遗传变异解释表明，具有积极和消极影响的基序的破坏与对基因表达的一致影响有关。我们的工作描述了主题语法如何控制细胞类型特异性染色质可及性，并为解码提供了基础资源\n                    顺式\n                    -人类发育过程中的调控逻辑和遗传变异的解释。",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250303",
-      "title": "Revealing Hidden\n                    <i>T</i>\n                    -Wave Sources in the South China Sea from an Island Seismometer Using Deep Metric Learning",
-      "url": "https://doi.org/10.1785/0220250303",
-      "first_author": "Chunchang Xia",
-      "corr_author": "Min Xu",
-      "affiliation": "1College of Artificial Intelligence, Guangxi Minzu University, Nanning, China",
-      "abs_zh": "T 波是地震波与复杂海底地形相互作用时产生的水声信号，能量转换为海洋声波，以声速（∼1.5 km/s）通过声音固定和测距通道传播。在南海等半封闭盆地中，复杂的测深由于信号模式的变化而造成了具有挑战性的检测条件。我们使用南海（2012-2024）的陆基地震数据开发了一个用于 T 波识别的深度度量学习框架。我们的半监督方法将 M ≥ 5.0 地震分为三类：无 T 相、单 T 相和多 T 相。深度学习模型取得了优异的性能，宏观 F1 分数高达 94.61%，特别是在检测复杂的多个 T 波模式方面表现出色。应用到较小的地震（M < 5.0）揭示了 116 个以前未检测到的 T 波事件。空间分析表明，T波事件集中在菲律宾板块西缘和马尼拉海沟，多个T相事件主要位于台湾岛东部，可能是由于该地区复杂的测深造成的。此外，越南海岸的一部分近岸地震会产生可检测到的 T 波，这表明沿海浅水区可能会实现地震与声能的耦合。这些发现促进了对半封闭盆地 T 波生成机制的理解，并为震声转换的空间模式提供了新的见解。扩展的 T 波目录和自动检测框架为海洋地震监测提供了宝贵的工具，并有助于提高对复杂测深环境中 T 波传播的理解。由于该框架是从单个岛屿地震仪开发而来，因此其对其他台站或地区的适用性仍有待在未来的研究中评估。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adz8130",
-      "title": "Machine learning–assisted discovery of outside-in structure Ni-rich cathode with high performance",
-      "url": "https://doi.org/10.1126/sciadv.adz8130",
-      "first_author": "Guihong Mao",
-      "corr_author": "Laifa Shen",
-      "affiliation": "Jiangsu Key Laboratory of Materials and Technologies for Energy Storage, College of Materials Science and Technology, Nanjing University of Aeronautics and Astronautics, Nanjing 210016, China.",
-      "abs_zh": "与钴基材料相比，富镍氧化物由于比能量高、成本更低且可持续性更高，已成为锂离子电池的主要阴极候选材料。然而，富镍阴极会因各向异性晶格应变和界面重建而导致电压和容量下降。在这里，我们报告了一种高性能富镍阴极，具有强大的由外而内的架构，通过机器学习辅助识别铝来实现\n                    3+\n                    和锡\n                    4+\n                    掺杂剂。通过竞争性掺杂机制，这些掺杂剂形成富锡岩盐表面层和均匀的铝掺杂块体。这种高质量的由外而内的结构通过减轻阴极/电解质界面退化和减轻与 H2/H3 相共存相关的各向异性晶格应变来增强界面稳定性和结构可逆性。此外，非磁性铝\n                    3+\n                    和锡\n                    4+\n                    削弱超交换相互作用并抑制Li─Ni紊乱。结果，阴极在 200 次循环后保留了 96.9% 的容量，电压衰减最小。这些发现为高性能富镍阴极的开发提供了见解。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.adv7924",
-      "title": "DefensePredictor: A machine learning model to discover prokaryotic immune systems",
-      "url": "https://doi.org/10.1126/science.adv7924",
-      "first_author": "Peter C. DeWeirdt",
-      "corr_author": "Michael T. Laub",
-      "affiliation": "Department of Biology, Massachusetts Institute of Technology, Cambridge, MA, USA.",
-      "abs_zh": "反噬菌体防御系统可保护细菌免受病毒感染，并启发了 CRISPR-Cas9 等重要生物技术，同时也揭示了真核生物先天免疫的进化根源。通过基因组共定位发现了许多系统，但这种方法无法识别防御岛之外的系统。我们提出了 DefensePredictor，这是一种机器学习模型，它使用蛋白质语言模型嵌入将蛋白质分类为防御性蛋白质。将 DefensePredictor 应用于 69 个不同的\n                    大肠杆菌\n                    我们预测了数百个以前未知的系统，并通过实验验证了其中的 42 个。对 1000 个不同的原核生物基因组的分析发现了近 3000 个与已知系统缺乏同源性的蛋白质簇，揭示了巨大的、未表征的防御库。 DefensePredictor 将促进抗噬菌体防御系统的全面发现，有望揭示原核和真核免疫之间的其他联系，并加速生物技术的发展。",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120502",
-      "title": "A Two‐Dimensional Deep Learning Scheme With One Predicator Only to Parametrize Global Lightning",
-      "url": "https://doi.org/10.1029/2025gl120502",
-      "first_author": "Ming Yin",
-      "corr_author": "Jie Liu",
-      "affiliation": "National Key Laboratory of Intelligent Spatial Information  Beijing China",
-      "abs_zh": "闪电模拟长期以来一直面临着重大挑战。这项研究提出了一种新颖的基于二维人工智能的全球闪电方案，该方案使用单一预测因子​​——对流可用势能（CAPE）。新方案显着提高了全局闪电模拟性能，判定系数达到0.89，比现有基于机器学习的全局闪电方案提高了24%。此外，它的绝对偏差降低了 41%，均方根误差降低了 38%。至关重要的是，该方案有效地缓解了当前所有闪电方案由于纳入非局部特征信息而对极端闪电密度的低估。这一发现表明，极端闪电模拟取决于来自相邻网格单元的对流系统的运动或包含多个网格单元的大型对流系统的存在。作为一种轻量级深度神经网络，它在全球气候模型和更广泛的应用中显示出巨大的应用潜力。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb032618",
-      "title": "Three‐Dimensional Crustal Deformation Analysis Using Physics‐Informed Deep Learning",
-      "url": "https://doi.org/10.1029/2025jb032618",
-      "first_author": "Tomohisa Okazaki",
-      "corr_author": "Naonori Ueda",
-      "affiliation": "Disaster Prevention Research Institute Kyoto University  Uji Japan",
-      "abs_zh": "地震波和地壳变形等与地震相关的现象影响广泛的区域，需要大规模 3D 建模并仔细处理模型域的边界。一种被称为物理信息神经网络（PINN）的深度学习方法具有解决涉及观测数据的大规模问题的潜力。 PINN 已被研究用于模拟二维结构中的同震地壳变形。在本研究中，使用 PINN 分析了 3D 结构中的地壳变形。为了提高建模精度，构建了四个神经网络来表示由断层表面及其延伸划分的两个子域中的位移和应力场。正向模拟显示了内部变形的高精度，但产生了刚性运动的误差，这凸显了在远处约束静态变形的固有困难。此外，还结合地表地形和弹性非均质结构估算了2008年岩手宫城内陆地震的断层滑动分布。结果显示断层滑动与之前的研究一致，尽管其程度被低估。因此，我们展示了 PINN 模拟 3D 地壳变形的能力，从而为使用真实世界观测和地壳结构进行大规模地震建模提供了一种灵活的方法。",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-1867-2026",
-      "title": "Past and future changes in avalanche problems in northern Norway estimated with machine-learning models",
-      "url": "https://doi.org/10.5194/tc-20-1867-2026",
-      "first_author": "Kai-Uwe Eiselt",
-      "corr_author": "Rune Grand Graversen",
-      "affiliation": "未知机构",
-      "abs_zh": "。由于气候变化，山区雪崩灾害的频率和严重程度可能会发生变化，特别是在挪威北部等北极地区，温度变化加剧。我们扩展了早期工作，利用动态缩小的再分析数据（包括积雪模拟）训练机器学习 (ML) 模型，以预测挪威北部特罗姆斯郡的雪崩危险。与早期的工作相比，经过训练的机器学习模型可以区分雪崩类型，特别是干雪和湿雪。由于雪崩观测不足，我们根据挪威雪崩公报中发布的雪崩危险警告构建了二元指标（雪崩日/非雪崩日）。 ML 模型提供了 1970 年至 2024 年期间雪崩发生频率的后报（基于重新分析）以及对 21 世纪未来的预测（基于气候模型模拟）。在历史时期，结果证实了早期的研究表明，虽然数十年的线性趋势是微不足道的，但雪崩日频率的年际变化与北极涛动有关。预计的未来变化表明雪崩危险总体下降，尤其是干雪雪崩。相比之下，湿雪雪崩危险表现出取决于海拔的变化，直到本世纪中叶在所有海拔地区都增加，但此后仅在较高海拔地区继续增加，而在较低海拔地区则反转为减少。我们的研究结果与21世纪雪崩危险总体下降以及雪崩特征向干雪雪崩减少和湿雪雪崩增加的转变这一新兴共识一致。这种转变对于容易发生雪崩的人群来说可能具有挑战性，因为当前对当地雪崩状况的了解可能变得不太重要，并且越来越无法提供针对雪崩危险的保护。",
-      "source": "The Cryosphere",
       "published": "2026"
     },
     {

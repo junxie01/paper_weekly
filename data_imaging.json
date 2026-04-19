@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-04-06 至 2026-04-13 04:23",
+  "last_update": "2026-04-12 至 2026-04-19 02:50",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2604.11920v1",
+      "title": "pDSurfTomo: A High-Performance Parallel Computing Package for Direct Surface Wave Tomography",
+      "url": "http://arxiv.org/abs/2604.11920v1",
+      "first_author": "Shaohang Zhu",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "表面波层析成像对于研究地壳和上地幔的剪切波速度结构至关重要。直接表面波层析成像方法 DSurfTomo 已成为最广泛采用的软件包之一，因为它能够考虑复杂介质中的射线路径弯曲，从而提高地下表征的准确性。但其固有的串行架构缺乏对多核CPU和GPU的有效支持。此外，在求解大规模线性系统时，其内置求解器的计算成本很高。因此，该软件很难满足当前对大规模、高分辨率表面波断层扫描的需求。为了解决这些限制，我们提出了 pDSurfTomo，这是一种利用混合 CPU-GPU 加速的高度优化包。首先，通过精细化的并行设计，克服了灵敏度核计算的可扩展性瓶颈；此外，它还利用矢量化技术加速面波色散建模，实现灵敏度核的高效计算。其次，它使用OpenMP实现了串行快速行进方法的并行化，显着减少了表面波走时的计算时间。最后，它结合了 GPU 加速来有效解决大规模稀疏线性最小二乘问题。为了简化工作流程，我们提供了具有远程服务器连接的跨平台 GUI，允许用户在本地执行和可视化反演任务，同时无缝利用远程计算集群。对华北 229 个站点观测到的色散数据集的应用表明，与原始 DSurfTomo 相比，pDSurfTomo 将计算时间减少了一个数量级以上，同时保持了可以忽略不计的差异。预计 pDSurfTomo 将为大规模、高分辨率表面波断层扫描提供高效且易于使用的解决方案。",
+      "source": "arXiv",
+      "published": "2026-04-13"
+    },
     {
       "id": "2604.07421v1",
       "title": "SPAMoE: Spectrum-Aware Hybrid Operator Framework for Full-Waveform Inversion",
@@ -12,6 +23,17 @@
       "abs_zh": "全波形反演（FWI）对于重建高分辨率地下速度模型至关重要，但仍然计算密集且不适定。虽然深度学习方法保证了效率，但现有的卷积神经网络 (CNN) 和单范式神经算子 (NO) 都在努力解决一个基本问题：多尺度地质特征的频率纠缠。为了应对这一挑战，我们提出了频谱保留自适应 MoE (SPAMoE)，这是一种新颖的频谱感知框架，用于解决复杂多尺度结构的逆问题。我们的方法引入了频谱保留 DINO 编码器，该编码器强制编码表示的高低频能量比的下限，减轻高频崩溃并稳定后续的频域建模。此外，我们设计了一种新颖的频谱分解和路由机制，可以动态地将频段分配给由 FNO、MNO 和 LNO 组成的专家混合 (MoE) 系综。在 OpenFWI 的 10 个子数据集上，实验表明，SPAMoE 相对于官方报告的最佳 OpenFWI 基线，平均 MAE 降低了 54.1%，从而为基于学习的全波形反演建立了新的架构框架。",
       "source": "arXiv",
       "published": "2026-04-08"
+    },
+    {
+      "id": "2604.14189v1",
+      "title": "SWEEP (Seismic Wave Equation Exploration Platform): A Unified Solver Framework for Differentiable Wave Physics",
+      "url": "http://arxiv.org/abs/2604.14189v1",
+      "first_author": "Shaowen Wang",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "SWEEP（地震波方程探索平台）是一个统一的、可扩展的波动方程求解器库，专为波场建模和反演而设计。它支持各种波传播引擎，包括声学、弹性、衰减、VTI、TTI 及其玻恩近似等。凭借对自动微分的内置支持，该框架可以无缝实施全波形反演 (FWI)、最小二乘逆时偏移 (LSRTM) 和其他基于梯度的优化方法。它还具有即插即用架构，允许轻松集成和灵活组合自定义损失函数、多 GPU 计算、神经网络等。这使得 Sweep 成为解决高级地震反演问题的强大且可定制的平台。",
+      "source": "arXiv",
+      "published": "2026-04-01"
     },
     {
       "id": "2604.00307v1",
@@ -34,28 +56,6 @@
       "abs_zh": "复杂的盐几何形状和强烈的速度对比给速度模型构建和盐下成像带来了重大挑战。尽管全波形反演（FWI）提供高分辨率速度模型，但其性能很大程度上取决于初始模型的精度。另一方面，重力聚焦反演（GFI）可以恢复致密的密度分布，为地震勘探提供可靠的长波长构造信息，但其深度分辨率差且具有固有的非唯一性。为了利用全波形和重力数据的优势互补更好地反演盐结构，我们提出了一种盐丘模型多物理场交替耦合反演策略。提出的策略主要包括三个部分。首先，我们使用简单的分层速度模型执行 FWI，以获得初步速度更新并提取盐顶边界。其次，该结构信息被用作 GFI 中的约束，以恢复盐顶下方紧凑的盐密度分布。第三，由此产生的盐几何形状用于为下一阶段的 FWI 构建改进的速度模型。通过迭代交替，FWI为GFI提供了可靠的结构约束，而GFI为FWI提供了更合理的宏观盐模型，有效缓解了对初始模型的强烈依赖。此外，GFI 中引入了随深度变化的密度对比，以更好地表示沉积物压实效​​应。与使用水平分层初始模型的无约束GFI和传统FWI相比，该方法有效地改善了改进的BP盐模型和SEG/EAGE盐模型中的速度和密度重建。",
       "source": "arXiv",
       "published": "2026-03-27"
-    },
-    {
-      "id": "2603.24751v1",
-      "title": "Scalable Bayesian full waveform inversion via dual augmented Lagrangian SVGD",
-      "url": "http://arxiv.org/abs/2603.24751v1",
-      "first_author": "Kamal Aghazade",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "全波形反演是一个不适定的反演问题，其解的非唯一性——即由带限、有限孔径、噪声数据引起——需要不确定性量化以避免过度自信的地质解释。贝叶斯推理通过将解描述为后验分布而不是单点估计来满足这一需求。然而，从该分布中进行采样在计算上仍然具有挑战性：马尔可夫链蒙特卡罗和非摊余变分推理需要重复波动方程求解，而避免重复求解的摊余变分推理方法依赖于地球科学中本质上稀缺的训练数据，并且面临高维度中未解决的泛化挑战。为了解决这些限制，我们将斯坦因变分梯度下降与双增广拉格朗日公式下的乘子交替方向方法结合起来。通过将波算子固定在频率批次之间更新的背景模型上，只需每个频率每个粒子分解一次，消除每次迭代重构并将总成本降低到少数确定性反演的总成本，同时继承扩展空间公式的有利条件。应用于 Marmousi~II 模型时，所提出的方法提供了良好校准的不确定性估计，并以计算成本的一小部分实现了与标准增强拉格朗日 SVGD 相当的反演质量。",
-      "source": "arXiv",
-      "published": "2026-03-25"
-    },
-    {
-      "id": "2603.24415v1",
-      "title": "Reconstructing effective ultrasound transducer models via distributed source inversion",
-      "url": "http://arxiv.org/abs/2603.24415v1",
-      "first_author": "Tim Bürchner",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "超声波传播的精确建模对于超声检测中的高保真模拟和成像至关重要。主要挑战在于表征激励源，特别是对于相对于声波波长具有大孔径的换能器。在这种情况下，不均匀激发和空间干扰会显着影响最终的辐射方向图。本文提出了一种分布式源反演策略来重建有效的时空换能器模型，以再现实验测量的波场。重建的源模型可以捕获与孔径相关的相位和幅度变化，而无需详细了解换能器结构。该方法使用铝半圆柱体上的方向性测量进行了验证，其中结合重建源模型的模拟显示与实验方向性模式和波形形状非常一致。最后，逆时偏移和全波形反演的综合研究表明，准确的换能器建模对于基于模拟的成像和反演工作流程的成功至关重要，并显着提高重建质量。",
-      "source": "arXiv",
-      "published": "2026-03-25"
     },
     {
       "id": "10.1016/j.epsl.2026.119963",
@@ -102,69 +102,69 @@
       "published": "2026"
     },
     {
-      "id": "10.1029/2025gl119526",
-      "title": "Mesoscale Eddy Currents Reshape the Spatial Distribution of Wave Height in the Southern Ocean",
-      "url": "https://doi.org/10.1029/2025gl119526",
-      "first_author": "Tianyi Cheng",
-      "corr_author": "Alexander V. Babanin",
-      "affiliation": "Frontier Science Center for Deep Ocean Multispheres and Earth System (FDOMES) and Physical Oceanography Laboratory Ocean University of China  Qingdao China",
-      "abs_zh": "中尺度涡流影响海洋表面波浪，但它们对波高的影响仍然很难通过观测描述。在这里，我们使用沿轨 Jason-3 高度计测量结果检查了与南大洋 42,000 多个中尺度涡流相关的显着波高 (SWH) 变化。高度计复合材料显示出明显的子午偶极子，其中波传播与涡流一致的 SWH 降低，而相反侧的 SWH 增强。典型涡流（半径约 45 公里，地转速度异常约 0.15 米·秒）\n                    −1\n                    ）与 ∼5 cm 的 SWH 异常相关。再分析数据和理想化模拟进一步表明，与涡流相关的风异常、相对风效应和直流效应都对观测到的 SWH 模式有贡献，其中折射起着关键作用。这些结果强调了中尺度水流在重新分配波浪能量和塑造波高空间分布中的作用。",
+      "id": "10.1029/2025gl121583",
+      "title": "Seismic Attenuation Reveals Fault and Forearc Structure Across the Subduction‐Collision Transition in Southern Taiwan",
+      "url": "https://doi.org/10.1029/2025gl121583",
+      "first_author": "Yu‐Pin Lin",
+      "corr_author": "Ying‐Nien Chen",
+      "affiliation": "Department of Geosciences National Taiwan University  Taipei Taiwan",
+      "abs_zh": "台湾岩石圈与隆起实验南部阵列（SALUTE）为了解台湾南部俯冲碰撞过渡带提供了一个新窗口，欧亚板块-吕宋岛弧辐合在这里驱动了强烈的造山运动和地壳变形。使用密集\n                    磷\n                    ‐ 和\n                    S\n                    ‐SALUTE 记录的波谱幅度数据和品质因数（\n                    问\n                    ）断层扫描，我们以提高特征清晰度的方式对衰减结构进行成像。结果描绘了主要断层之间的急剧衰减对比，反映了不同岩性域的并置和广泛的低层\n                    问\n                    和\n                    问\n                    \n                      磷\n                    \n                    /\n                    问\n                    \n                      S\n                    \n                    速度断层扫描无法解决内部变形区域内的异常情况。我们的模型与绘制的断层几何形状紧密匹配，并且首次将近海弧前区块揭示为向北倾斜（~15°）、缩小的低地层。\n                    问\n                    \n                      磷\n                    \n                    体积和低的空间重合\n                    问\n                    和\n                    问\n                    \n                      磷\n                    \n                    /\n                    问\n                    \n                      S\n                    \n                    构造震颤异常，突出了衰减成像对台湾南部断层相关灾害、弧前变形、流体促进过程和造山动力学的诊断价值。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag137",
-      "title": "Uncertainty in Hydrogeophysics: Electrical Resistivity Tomography with Variational Inference",
-      "url": "https://doi.org/10.1093/gji/ggag137",
-      "first_author": "Jiahe Yan",
-      "corr_author": "Andrew Binley",
-      "affiliation": "Lancaster Environment Centre, Lancaster University , Lancaster LA1 4YQ ,",
-      "abs_zh": "总结\n                  电阻率层析成像（ERT）是水文地质调查中广泛使用且有效的工具。传统的 ERT 反演方法基于基于梯度的算法，该算法通常提供确定性最优解，但存在不确定性。这种不确定性可能会对使用 ERT 进行水文地质解释产生重大影响。模型评价是反演后的关键一步，然而传统的评价方法都是定性的，主观性强。为了解决这些局限性，本研究引入了概率变分推理 (VI) 方法，称为 Stein 变分梯度下降 (SVGD)，以量化 ERT 反演中的电阻率分布和相关不确定性。通过综合实例来研究配置和噪声的影响，并将 SVGD 的性能与传统的反演和模型评估技术进行比较。还提出了现场案例研究及其模型验证，以证明现场不确定性量化的实际优势。结果表明，与传统方法相比，SVGD 可以有效减少正则化引入的伪影，并提供对地下结构更全面的定量见解。该研究还揭示了不确定性估计的基本统计数据解释的局限性，强调需要检查参数值的整个后验分布。此外，这项研究表明，最终的不确定性源于多种因素之间的权衡，例如地下结构的几何形状、测量技术和数据噪声水平。最后，我们还讨论了与水文地球物理中其他概率框架的一些比较，强调了其改善 ERT 中的不确定性和概率量化的潜力，以及水文地球物理耦合反演的未来可能的发展。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag096",
-      "title": "Estimation of elastic wave properties of tight sandstones using a reformulated digital rock physics method and ultrasonic experiments",
-      "url": "https://doi.org/10.1093/gji/ggag096",
-      "first_author": "Jing Ba",
-      "corr_author": "Martin Balcewicz",
-      "affiliation": "School of Earth Sciences and Engineering, Hohai University , Nanjing 211100 ,",
-      "abs_zh": "致密砂岩油藏作为一种分布广泛的非常规油气资源，其微观结构特征复杂，弹性波响应复杂。在这项研究中，我们使用重新制定的数字岩石物理方法来估计致密砂岩的波浪特性。选择来自中国四川盆地和鄂尔多斯盆地的 9 个致密砂岩岩心，在不同压力和流体饱和度下进行 X 射线衍射和超声测量。针对气体和水饱和度，分析了弹性波速度相对于有效压力的变化。进行两种分辨率的计算机断层扫描 (CT) 扫描，以重建多相数字岩石并研究矿物边界 (MB) 的影响。然后使用有限元和有限差分方法进行数值模拟并与超声数据进行比较。结果表明，在考虑 MB 的影响时，模拟可以有效地估计弹性特性。此外，CT 扫描的分辨率决定了捕获的微观结构的规模，这反过来又决定了数值模拟产生有效结果的压力范围。研究结果表明，从这些模拟中得出的波响应与扫描分辨率有着内在的联系。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121541",
-      "title": "Decomposing Earthquake Moment Tensors Using P‐Wave First Motion: Insights Into Global Events With Significant Non‐Double‐Couple Components",
-      "url": "https://doi.org/10.1029/2025gl121541",
-      "first_author": "Zhifeng Wang",
-      "corr_author": "Yuyang Peng",
-      "affiliation": "School of Earth Sciences China University of Geosciences  Wuhan China",
-      "abs_zh": "将地震矩张量分解为各向同性和偏向分量是地震学中的标准。偏差部分进一步分为双耦合 (DC) 和非双耦合 (NDC) 分量，其中 NDC 提供了对源复杂性的洞察。然而，现有方法经常会因不同的物理解释而产生不一致的结果。我们提出了一种新颖的分解方法，将地震建模为两个直流子事件，其中第一个子事件由纵波初动数据确定，第二个子事件通过矩守恒分析得出。该方法简单、高效且可物理解释。我们评估其稳定性并将其应用于全球八个\n                    中号\n                    \n                      w\n                    \n                     ≥ 7.5 次地震（2000 年至 2023 年），NDC 成分大于 40%。结果与之前的研究非常吻合，证明了稳健性。当附加约束（例如余震机制）可用时，此方法可以扩展到多个子事件。它为探索复杂的破裂过程和了解大地震的物理机制提供了强大的工具。",
+      "id": "10.1029/2025gl121324",
+      "title": "Influence of the Eccentric Geomagnetic Dipole on Longitude Variations of Compressional Upstream Wave Amplitudes in the Topside Ionosphere: Results From the MSS‐1A Satellite",
+      "url": "https://doi.org/10.1029/2025gl121324",
+      "first_author": "Chao Xiong",
+      "corr_author": "Chunyu Xu",
+      "affiliation": "School of Earth and Space Science and Technology Wuhan University  Wuhan China",
+      "abs_zh": "根据澳门科学卫星的 2 年磁数据，我们研究了由上游波 (UW) 驱动的压缩 Pc3-4 脉动（16 至 100 mHz 之间）。我们的结果证实了南大西洋异常 (SAA) 经度上的 UW 振幅较大，这与之前的任务一致。我们将这种纵向变化解释为由于地球偏心地磁偶极子引起的磁层顶间隔距离的变化，一天内振荡约 1,090 公里。将 UW 振幅归一化为恒定的太阳风速度后（\n                    V\n                    SW\n                    ），最大振幅出现在磁层顶最接近地球的经度处（靠近 SAA）。此外，还增加了\n                    V\n                    SW\n                    将磁层顶向内推 1,090 公里将产生类似的 UW 振幅增长。两种机制都会导致波幅增加 4-5 pT。这一出色的一致性为我们的假设提供了强有力的支持，即超电磁波的振幅很大程度上取决于到磁层顶的距离。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag095",
-      "title": "Estimation of shear wave velocity via rock physics-constrained KAN transformer",
-      "url": "https://doi.org/10.1093/gji/ggag095",
-      "first_author": "Siyu Wang",
-      "corr_author": "Xiangyun Hu",
-      "affiliation": "School of Geophysics and Information Technology, China University of Geosciences , Beijing 100083 ,",
-      "abs_zh": "储层弹性波速度是测井评价、地震预测和油气勘探的基本参数之一。在传统的地球物理测井中，剪切波速度（VS）是从阵列声波测井中获得的，其特点是操作成本高且过程耗时，限制了其广泛应用。因此，准确的VS估计已成为储层预测的一项重要任务。目前预测VS的主要方法包括岩石物理模型和机器学习。然而，传统的物理岩石模型忽视了流体流动的影响，现有的机器学习模型缺乏物理知识约束。提出了一种集成岩石物理模型（RPM）和柯尔莫哥洛夫-阿诺德变换器（KAT）的新型预测框架来估计弹性波速度。首先，通过结合多种波引起的流体流动效应，特别是整合“静态、微观和宏观流动”状态来建立转速。随后，通过在变压器架构中创新性地用 Kolmogorov-Arnold 网络层替换标准多层感知器层，构建了一个新的时间序列网络 KAT，它可以捕获测井数据的顺序依赖性并提高模型性能。最后，构建的 KAT 进一步受到 RPM 的约束，并且所提出的框架应用于估计深层致密砂岩地层中的 VS。结果表明，与纯数据驱动方法或物理模型驱动方法相比，该框架最大限度地减少了测量的 VS 和估计的 VS 之间的预测误差。总体而言，该框架表现出高可靠性，从而有助于更精确的地下参数预测。",
-      "source": "Geophysical Journal International",
+      "id": "10.1029/2025gl119281",
+      "title": "Al\n                    <sub>2</sub>\n                    O\n                    <sub>3</sub>\n                    in Anorthositic Slabs: A New Perspective on LLSVPs and Seismic Velocity Variations",
+      "url": "https://doi.org/10.1029/2025gl119281",
+      "first_author": "Ishita Das",
+      "corr_author": "Gaurav Shukla",
+      "affiliation": "Department of Earth Sciences Indian Institute of Science Education and Research Kolkata  Mohanpur India",
+      "abs_zh": "铝是地壳和地幔矿物的关键成分，影响地球内部的熔化和地球化学演化。铝\n                    2\n                    氧\n                    3\n                    在地表和上地幔条件下以刚玉形式存在，但会转变为高压相，如 Rh\n                    2\n                    氧\n                    3\n                    （II）在较低的地幔深度，能够在较宽的压力范围内保持稳定。它也是斜长岩岩性的主要相，可能代表地球早期地壳的残余物，并导致深部地幔的异质性。我们计算这些铝的热弹性\n                    2\n                    氧\n                    3\n                    相并模拟它们在地幔岩性中的行为，例如斜长岩、大洋中脊玄武岩和沿相关地温的叶熔岩。结果表明，铝\n                    2\n                    氧\n                    3\n                    可以作为Rh持续存在\n                    2\n                    氧\n                    3\n                    (II) 在大低剪切速度区和 Dʺ 层内，而刚玉在高速区可以保持稳定。将这些相整合到多相组合中，为深部地幔成分提供了新的限制，并支持了下地幔中保存原始地壳材料的想法。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag132",
-      "title": "TTI Reflection waveform inversion based on the modified gradient sampling algorithm",
-      "url": "https://doi.org/10.1093/gji/ggag132",
-      "first_author": "Hengli Song",
-      "corr_author": "Jianming Zhang",
-      "affiliation": "State Key Laboratory of Marine Geology, Tongji University , Shanghai, 200092 ,",
-      "abs_zh": "总结\n                  反射波形反演（RWI）是重建中低波数地下参数的有效方法。随着各向异性对地震资料的影响越来越显着，RWI应扩展到倾斜横观各向同性(TTI)介质(TTI-RWI)以提高反演精度。与传统的各向同性或垂直横向各向同性 (VTI) 假设不同，TTI 模型提供了具有强烈构造活动的地质结构的更真实的表示。然而，TTI-RWI 的实际实施面临两个挑战。首先，由于它依赖于波形匹配，不准确的初始模型可能会导致周期跳跃和收敛到局部最小值。其次，速度和各向异性参数之间的固有耦合导致显着的参数串扰。当先验信息有限时，这些问题通常会同时存在。为了解决第一个挑战，我们提出了一种改进的梯度采样算法（GSA），该算法结合了全局优化信息，以在不增加计算成本的情况下减少周期跳跃。对于第二个挑战，我们设计了一种两阶段反演策略，其中首先使用 GSA 反演垂直纵波速度 vp0，然后通过高斯-牛顿优化联合反演 vp0 和各向异性参数 ε。所提出的 TTI-RWI 方法的有效性通过 Overthrust 模型的数值实验和现场海洋拖缆数据的应用得到了验证。",
-      "source": "Geophysical Journal International",
+      "id": "10.1785/0120250174",
+      "title": "Nonsymmetric Seismic Moment Tensors and Seismic Torques: Theory and Application to Caldera Collapse Earthquakes at the Kīlauea Volcano in 2018",
+      "url": "https://doi.org/10.1785/0120250174",
+      "first_author": "Taiyi A. Wang",
+      "corr_author": "Eric M. Dunham",
+      "affiliation": "1Department of Geophysics, Stanford University, Stanford, California, U.S.A.",
+      "abs_zh": "我们在 Burridge 等人的基础上推导出一个新颖的地震表示定理，用于由表面 S 包围的任意形状的 3D 体积中的非弹性动力学。 (1993) 并扩展 Coppess 等人。 （2022）。新的结果是具有九个独立分量的广义地震矩张量，Mji(t)=∫S[λδijuknk+μ(uinj+ujni)−xj′ΔTi]dA，其反对称部分产生地震扭矩，Nl(t)=−εlji∫Sxj′ΔTidA。这些表达式用扰动牵引力 ΔTi（由周围固体施加在源区域上）、弹性位移 ui、从源质心延伸到 S 的杠杆臂 xi' 以及各向同性固体中的弹性模量 λ 和 μ 的表面积分来编写。这里，δij 是克罗内克三角洲，εlji 是 Levi-Civita 符号，nj 是 S 上的外向单位法线。这些表达式对于源区域内的任意流变学都有效。当与适当的格林函数结合使用时，这些表达式提供了源区域内的非弹性动力学与源区域外的位移（在与源尺寸相比较大的波长处）之间的严格联系。我们将该定理应用于玄武岩火山口塌陷地震的动态破裂模拟，这是一个复杂的震源过程，涉及环断层、火山口块沉降以及火山口块和火山口下岩浆房之间的机械耦合，产生代表动力学的与时间相关的力、力矩和扭矩。结果根据倒塌地震的动力学建立了对地震表示的正确解释。我们通过证明地震表示生成的表面波场在长波长限制下收敛于动态破裂模拟的表面波场来实证验证该定理。当独立于源动力学模拟奇异地球物理现象的长周期波场时，该定理可以实现有效的正演建模方法，从而显着减少",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120445",
+      "title": "Adsorption Preceding Wetting Front Controls Seismic Velocity",
+      "url": "https://doi.org/10.1029/2025gl120445",
+      "first_author": "Rui Wu",
+      "corr_author": "Xiaoping Jia",
+      "affiliation": "CCTEG Coal Mining Research Institute  Beijing China",
+      "abs_zh": "岩石弹性随着湿度和水饱和度的变化而变化，尽管在自然界中蒸汽吸附和液体渗透是同时发生的，但它们的综合影响仍然知之甚少。在这里，我们展示了经历渐进润湿的独立砂岩中纵波速度和体积膨胀的实验数据。纵波速度降低所证明的弹性软化发生在润湿锋之前，随后随着液体渗透逆转这一趋势而发生硬化。为了协调这些软化/硬化行为，通过受实验数据约束的水分传输的数值模拟来捕获润湿锋之前的蒸汽迁移。初始软化是通过微机械模型来解释的，该模型由颗粒接触处的表面能降低控制，并通过独立的蒸气吸附测试进行验证。随后的硬化归因于水的渗透，与斑块饱和理论一致。我们认为软化和硬化是由前进的润湿锋控制的过渡过程，对地壳岩石中渐进润湿过程的地震成像具有影响。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122277",
+      "title": "Quasi‐Stationary Atmospheric Rivers as the Primary Driver of Rossby Wave Activity in the Global Subtropics",
+      "url": "https://doi.org/10.1029/2026gl122277",
+      "first_author": "Hung‐I. Lee",
+      "corr_author": "Noboru Nakamura",
+      "affiliation": "Department of Geophysical Sciences University of Chicago  Chicago IL USA",
+      "abs_zh": "对流层上层局地（罗斯比）波活动（LWA）的 Hovmöller 图显示，北太平洋/大西洋盆地的副热带在准静止大气河（QSAR）的上游相对无波，而下游则波动较大。本研究利用 LWA 预算分析研究了 QSAR 下游 LWA 显着增强背后的物理机制。分析表明，在副热带地区，QSAR 内潜热加热的非绝热效应作为波源的作用比动力强迫（Eliassen-Palm 通量收敛）更重要。 QSAR 产生的 LWA 通过射流向下游传输，通量在 QSAR 下游汇聚，导致观察到的增强。从预算中去除 QSAR 引起的非绝热源会导致 QSAR 下游的 LWA 大幅减少，全球范围内减少约 70%。这凸显了 QSAR 作为副热带对流层上层主要造波者的重要性。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
