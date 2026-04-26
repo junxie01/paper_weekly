@@ -1,7 +1,40 @@
 {
-  "last_update": "2026-04-12 至 2026-04-19 02:50",
+  "last_update": "2026-04-19 至 2026-04-26 02:52",
   "topic_name": "面波研究",
   "papers": [
+    {
+      "id": "2604.21543v1",
+      "title": "Unified Hydrodynamic Analogue of Aharonov-Bohm and Lense-Thirring Effects",
+      "url": "http://arxiv.org/abs/2604.21543v1",
+      "first_author": "Aditya Singh",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们表明，排水浴缸涡流中的表面波提供了单个系统内阿哈罗诺夫-玻姆相移和 Lense-Thirring 框架拖动的流体动力学实现。静态时间变换将平面 (2+1) 维波动方程映射到对流浅水方程上，产生由背景流设置的有效矢量势。在这种几何结构中，环流定义了控制波结构的全局相位完整性。行波表现出阿哈罗诺夫-玻姆散射的波前位错特征，而驻波叠加产生以循环固定的角速度旋转的节点图案，提供了框架拖动的直接模拟。对于非整数循环，问题自然地定义在通用覆盖上，确保单值部分波解。受控涡旋实验证实了这些预测，并建立了一个实验室平台，其中拓扑相位和惯性效应（规范和引力物理学的核心）从可测量的速度场中产生。",
+      "source": "arXiv",
+      "published": "2026-04-23"
+    },
+    {
+      "id": "2604.17913v1",
+      "title": "Synthetic Seismograms from Particle Bed Interactions and Turbulent River Flow: Modeling and Comparison with Observations",
+      "url": "http://arxiv.org/abs/2604.17913v1",
+      "first_author": "Sara Nicoletti",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们提出了一个基于物理的数值模型，用于估计砾石河床中水沉积物流产生的地震辐射。该模型再现了单个颗粒的轨迹，评估了颗粒尺度动力学的冲击力和滚动力，并解释了水柱中的宽带湍流和涡流脱落。使用瑞利波格林函数方法将合成地震信号传播到接收器，并估计合成地速信号。受控测试案例的应用表明间歇性、尺寸选择性沉积物传输机制如何产生独特的光谱特征。与托斯卡纳亚平宁山脉山洪洪水事件的地震数据进行比较，显示出与观测到的频带总体一致，并阐明了粒子碰撞和湍流的相对宽度。这些结果表明，解析的颗粒尺度动力学提供了一个框架，用于区分沉积物迁移和水流对河流地震噪声的贡献。",
+      "source": "arXiv",
+      "published": "2026-04-20"
+    },
+    {
+      "id": "2604.17903v2",
+      "title": "Research on mode transition of micro-newton-level cusped field Hall thruster",
+      "url": "http://arxiv.org/abs/2604.17903v2",
+      "first_author": "Jiahao Wu",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "微牛顿会切场霍尔推进器是一种采用微波辅助电离控制的电力推进装置。它作为无阻力控制系统中的执行器，通过提供大范围连续可调的推力来确保控制精度和稳定性。然而，调节过程中发生的模式转换可能会导致阳极电流突然变化，从而降低控制精度和稳定性。因此，有必要研究模式转变的潜在模式。本研究主要通过探针诊断来检查微波模式转换前后推进器内部等离子体参数和放电特性的变化。实验结果表明，在模式转换之前，等离子体发光区域主要集中在电子回旋共振（ECR）区域内，位于阳极上游约1-3毫米处。转变后，发光区进一步向上游移动，阳极附近的等离子体密度超过截止密度，沿轴向急剧下降。电子加热机制变化的根本原因是由于等离子体密度变化而导致基波传播特性的改变。当等离子体密度上升到截止密度时，驱动电离的R波和O波迅速衰减或反射。此时，R波无法到达共振层，导致占主导地位的ECR电离变得无效。电离机制从以R波和O波为主转变为以O波为主。由此，电子加热机制从体积加热转变为表面波加热……",
+      "source": "arXiv",
+      "published": "2026-04-20"
+    },
     {
       "id": "2604.11920v1",
       "title": "pDSurfTomo: A High-Performance Parallel Computing Package for Direct Surface Wave Tomography",
@@ -23,39 +56,6 @@
       "abs_zh": "本研究对用于检测人血清中 SARS-CoV-2 抗体的两种无标记光学生物传感平台——布洛赫表面波 (BSW) 和微环谐振器 (MRR) 进行了严格的比较分析。为了确保直接可比性，我们在现有 MRR 平台旁边建立了新的 BSW 读出系统，允许在几乎相同的实验条件下进行测定。这两种传感器都具有各种 SARS-CoV-2 Spike 和核衣壳蛋白变体的功能，以捕获特定的宿主抗体。结果表明，两个平台均可快速、定量且灵敏地检测抗刺突抗体和抗核衣壳抗体，无需二次标记。此外，这些平台与纵向血清学基准表现出极好的一致性，并且在不同生物芯片批次之间具有高重复性。这项工作将 BSW 和 MRR 技术确立为下一代临床诊断和血清学监测的强大、低成本候选技术。",
       "source": "arXiv",
       "published": "2026-04-09"
-    },
-    {
-      "id": "2604.06433v1",
-      "title": "Operator Learning for Surrogate Modeling of Wave-Induced Forces from Sea Surface Waves",
-      "url": "http://arxiv.org/abs/2604.06433v1",
-      "first_author": "Shukai Cai",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "波浪装置在将波浪引起的能量传递给水流并导致水位上升方面发挥着重要作用。这种多余的动量通量（称为辐射应力）促进了环流模型与波浪模型的耦合，以提高风暴潮预测的准确性，然而，传统的数值波浪模型非常复杂且计算成本昂贵。因此，在实际的耦合模拟中，波浪模型通常以比环流模型粗得多的时间分辨率执行。在这项工作中，我们探索使用深度算子网络 (DeepONets) 作为近岸模拟波浪 (SWAN) 数值波浪模型的替代品。所提出的替代模型在具有可变边界波条件和风场的三个不同的一维和二维稳态数值示例上进行了测试。当应用于北卡罗来纳州达克的稳态波浪模拟的实际数值示例时，该模型在预测代表性场景中的辐射应力梯度分量和有效波高方面取得了一致的高精度。",
-      "source": "arXiv",
-      "published": "2026-04-07"
-    },
-    {
-      "id": "2604.04107v1",
-      "title": "Physical Sensitivity Kernels Can Emerge in Data-Driven Forward Models: Evidence From Surface-Wave Dispersion",
-      "url": "http://arxiv.org/abs/2604.04107v1",
-      "first_author": "Ziye Yu",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "数据驱动的神经网络越来越多地用作地球物理学中的替代前向模型，但目前尚不清楚它们是否仅恢复数据映射或还恢复潜在的物理敏感性结构。这里我们使用表面波色散来测试这个问题。通过将神经网络代理的自动微分梯度与理论灵敏度内核进行比较，我们表明学习的梯度可以在广泛的时期内恢复物理内核的主要深度依赖结构。这表明神经代理模型可以学习物理上有意义的差异信息，而不是充当纯粹的黑盒预测器。同时，训练分布中的强结构先验可能会将系统伪影引入推断的敏感性中。我们的结果表明，神经前向代理可以恢复有用的物理信息以进行反演和不确定性分析，同时阐明这种差异结构保持物理一致的条件。",
-      "source": "arXiv",
-      "published": "2026-04-05"
-    },
-    {
-      "id": "2604.03487v1",
-      "title": "Octave-Spanning Terahertz Quarter-Wave Plates Based on Over-Coupled Fabry-Pérot Resonances in Reflective Metal-Dielectric-Metal Metasurfaces",
-      "url": "http://arxiv.org/abs/2604.03487v1",
-      "first_author": "Tae Gwan Park",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "由于双折射材料和谐振结构的固有相色散，太赫兹 (THz) 范围内宽带偏振控制的紧凑型器件具有挑战性。在这里，我们展示了基于过耦合金属-电介质-金属反射超表面的高性能宽带太赫兹四分之一波片。这些器件作为单端口各向异性法布里-珀罗腔运行，其中过耦合谐振的相位色散被设计为在正交场分量之间产生近似恒定的相对相位延迟。通过定制超表面几何形状，可以实现高效的线圆偏振转换，同时保持高反射率。四种互补的超表面设计，以 45^\\circ$ 的入射角运行，共同覆盖典型太赫兹时域光谱系统可访问的 0.25--3 太赫兹频率范围。每个器件都具有大约倍频程宽的带宽，轴比低于 3dB，并且在大部分工作频段偏振转换效率超过 80%。系统优化抑制了与高阶衍射和表面波模式的耦合，进一步扩展了可用带宽，同时保留了所需的相位关系。超表面与晶圆级制造兼容，实验结果与模拟结果非常吻合。这些发现将过耦合反射超表面确立为宽带太赫兹偏振控制的强大且多功能的平台。",
-      "source": "arXiv",
-      "published": "2026-04-03"
     },
     {
       "id": "10.1016/j.epsl.2026.119963",
@@ -91,79 +91,79 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag158",
+      "title": "Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea",
+      "url": "https://doi.org/10.1093/gji/ggag158",
+      "first_author": "Eduardo Valero Cano",
+      "corr_author": "Paul Martin Mai",
+      "affiliation": "PSE Division, King Abdullah University of Science and Technology (KAUST) , Thuwal 23955-6900 ,",
+      "abs_zh": "总结\n                  红海是地球上最年轻的超慢扩张海脊之一，也是研究从大陆裂谷到海洋扩张过渡的理想场所。在此背景下，扎巴尔加德断裂带 (ZFZ) 成为一个特别有趣的地区。 ZFZ 拥有显着特征，包括红海扩张轴的偏移、马巴希斯蒙斯海底火山和科布里特深卤水池。此外，该地区地震活跃，对附近沿海社区构成危险。尽管之前进行了地球物理研究，但很少有地震速度模型能够对 ZFZ 的浅层地下结构进行成像。在这项工作中，我们使用五个宽带站和 14 个海底地震仪记录的大约一年的地震环境噪声来估计 ZFZ 的剪切波速度结构。为此，我们计算垂直-垂直、径向-径向和横向-横向噪声相关性，获得瑞利波和拉夫波在 3 至 12 秒周期带内的群速度和相速度色散曲线，并采用跨维断层扫描来估计 ZFZ 的 1 维和 3 维各向同性剪切波速度模型。我们的一维速度模型表明，平均而言，ZFZ 地壳结构包括 1.5 公里厚的层（包括半远洋沉积物和蒸发岩）、2.8 公里厚的海洋基底以及从海平面以下 6.5 公里延伸到 8 公里的壳幔过渡层。同时，我们的 3D 模型与之前的地质和地球物理观测结果一致，并揭示了新的地下结构。特别是，它显示了马巴希斯深渊东部和南部的低速区域，与已知的沉积盆地相关。此外，我们的 3D 模型包含 Kebrit Deep 附近的低速区域，该区域与低地震活动区域和最近推断的扩展轴段相关。根据之前热液喷口不活跃的证据，我们推断这个低速区域表明基底温度较高",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adp3054",
+      "title": "Resonant Rossby wave mechanism for extreme weather performs poorly in simple model test",
+      "url": "https://doi.org/10.1126/sciadv.adp3054",
+      "first_author": "Todd A. Mooring",
+      "corr_author": "Marianna Linz",
+      "affiliation": "Department of Earth and Planetary Sciences, Harvard University, Cambridge, MA 02138, USA.",
+      "abs_zh": "准静止罗斯贝波的准共振放大（QRA）是一种针对中纬度极端天气的机制，已被多次提出但仅经过有限的测试。在这里，我们通过尝试在理想化的大气环流模型中创建准共振罗斯贝波来测试 QRA 理论，在该模型中，我们确定了预期适合（和不适合）准共振罗斯贝波存在的平均流动状态，并量化了相关波幅。对于被认为适合 QRA 的平均流量条件，反而发现相关波数的波比表面上不适合 QRA 的条件下更弱。这种情况不能通过改变适合 QRA 的平均流量的定义来强有力地改变。这些发现对目前形式的 QRA 理论作为解释工具的价值提出了质疑，并且更普遍地需要谨慎使用纯二维理论和/或纬向平均流来解释对流层极端事件动力学。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-2317-2026",
+      "title": "Changes in 1958–2019 Greenland surface mass balance are attributable to both greenhouse gases and anthropogenic aerosols",
+      "url": "https://doi.org/10.5194/tc-20-2317-2026",
+      "first_author": "Yan-Ning Kuo",
+      "corr_author": "Flavio Lehner",
+      "affiliation": "未知机构",
+      "abs_zh": "。格陵兰冰盖 (GrIS) 质量损失是全球平均海平面 (GMSL) 上升的主要原因，由于表面质量平衡 (SMB) 变化而表现出年代际变化。长期以来，温室气体 (GHG) 一直被认为是变暖引起的径流导致 GrIS 质量损失的关键驱动因素。然而，尚未将历史上的 GrIS SMB 变化正式归因于温室气体以及人为气溶胶 (AAER) 等其他强迫的潜在作用。在这里，我们使用社区地球系统模型版本 2 大型系综和单强迫大型系综（CESM2-LE 和 CESM2-SFLE）来制定历史 GrIS SMB 变化的检测和归因分析。我们表明，SMB 的年代际变化是由历史辐射强迫造成的，而历史辐射强迫可归因于 GHG 和 AAER 通过径流的强制变化。这凸显出，除了经常提到的温室气体之外，AAER 还对历史时期的中小企业变化做出了贡献。 GHG 主要通过长期辐射强迫变暖来影响 GrIS 径流，而 AAER 通过大气环流的年代际变化来影响 GrIS 径流，这种变化投射到格陵兰岛阻塞模式上，导致 1980 年之前格陵兰岛气旋环流的相对冷却和此后反气旋环流的相对变暖。由于信号较弱且置信区间较宽，因此 SMB（特别是径流）归因于 AAER 的信噪比 (S / N) 低于归因于 GHG 的信噪比 (S / N)。将径流变化归因于 AAER 时 S / N 较低，部分是由于 AAER 中的温度响应比 GHG 中的更小，部分是由于径流敏感性的平均状态温度依赖性。在仅使用 AAER 的模拟中，气候比使用所有强迫或仅使用 GHG 的模拟中更冷，导致在温度变化对径流影响不大的情况下，冰点以下的时间更长。我们通过将所有力的模拟与以下模拟进行比较来解决这个问题",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag151",
+      "title": "Surface wave analysis using DAS and dense nodal array recordings in near-surface active surveying",
+      "url": "https://doi.org/10.1093/gji/ggag151",
+      "first_author": "Junwei Ma",
+      "corr_author": "Lipeng He",
+      "affiliation": "Southern University of Science and Technology Department of Ocean Science and Engineering, , Shenzhen ,",
+      "abs_zh": "总结\n                  分布式声学传感 (DAS) 通过精确测量光纤中反向散射激光脉冲信号的相位变化来捕获地震波场，从而反映连续光纤段上的分布应变或应变率。 DAS 波场测量对近地表成像的局限性仍不清楚，值得用传统的密集节点阵列进行验证。本研究比较了在中国深圳进行的近地表活动调查中的同位 DAS 和密集节点阵列记录。我们的现场实验揭示了 DAS 波场记录中相干信号的空间固定、阶梯状失真。这些伪影归因于标距空间平均值作用于具有异质灵敏度的光纤段，这可能是由反向散射强度和电缆耦合条件的变化引起的。这些失真导致 DAS 和同位地震仪的波形与其理论关系存在部分偏差。对所有节点上的 DAS 和地震仪波形之间的相位差进行统计比较，揭示出正态分布，表明 DAS 记录中普遍存在这种失真。此外，随着频率的增加，失真变得更加严重，导致DAS和地震仪之间的相位差分布过于分散。这导致在高频下从它们提取的色散曲线存在差异，因为色散提取取决于主通道贡献的相对能量峰值。这项研究表明，在不受失真严重影响的频率范围内，DAS 可以有效地提取可比较的色散曲线和速度结构剖面，代替节点阵列用于近地表成像应用，并通过全剖面比较进行验证。但 DAS 波场畸变限制了完整波场的高级应用，以获得更好的地下特性",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250257",
+      "title": "Surface Rupture and Slip Distribution of the 2025 Mw 7.7 Mandalay Earthquake and Updated Length Scaling of Supershear Earthquakes",
+      "url": "https://doi.org/10.1785/0220250257",
+      "first_author": "Nadine G. Reitman",
+      "corr_author": "Robert Schmitt",
+      "affiliation": "1U.S. Geological Survey, Geologic Hazards Science Center, Golden, Colorado, U.S.A.",
+      "abs_zh": "2025 年缅甸曼德勒 7.7 级地震使实皆中部断层 475 公里破裂，是有记录以来最长的大陆走滑破裂。观测到的破裂长度是现有走滑地震长度-震级比例关系预期值（100-300 km）的 1.6-4.7 倍。这次地震由浅层右旋断层引起，在震中以南以超剪切速度发生双边破裂，破裂位置靠近缅甸三个主要城市，使超过 600 万人遭受剧烈或极端震动。我们根据 Sentinel-2 (10 m) 和 Planet Dove (3 m) 光学图像的亚像素相关性以及 SkySat 和 WorldView (0.3–0.5 m) 光学图像的视觉分析来报告表面破裂特征、长度和滑移分布。这次地震具有中等的地表滑移（平均值 = 3.3 m，最大值 = 5.6 m，25%–75%，范围 = 3.0–4.0 m），变形区宽度窄（子像素相关性为 1–10 个像素，详细地表破裂绘图≤190 m），断层几何形状简单（走向没有步距或大的变化，详细绘制的破裂中 87% 是单股）。我们将曼德勒地震的极端长度归因于超剪切破裂速度、简单的断层几何形状、狭窄的下倾宽度和适度的表面滑移。根据对 25 起超剪切走滑地震（Mw 6.5–8.6；1979–2025）的汇编，我们发现超剪切地震的破裂长度不符合根据震级预测长度的走滑地震的经验标度关系。基于超剪切地震的长度-震级标度关系的最佳拟合值为 log10（表面破裂长度）= 0.89 Mw – 4.44，这表明对于任何给定震级，超剪切地震往往比亚剪切地震更长，因此可能使更多的人口遭受震动。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-2257-2026",
+      "title": "Glacial decline next to stable permafrost in the Dry Andes? Vertical glacier surface changes and rock glacier kinematics based on Pléiades imagery (Rodeo basin, 2019–2025)",
+      "url": "https://doi.org/10.5194/tc-20-2257-2026",
+      "first_author": "Melanie Stammler",
+      "corr_author": "Lothar Schrott",
+      "affiliation": "未知机构",
+      "abs_zh": "。高山冰冻圈特征的存在和体积受到全球范围内气温上升的极大影响。在干燥的安第斯山脉，降水极其稀少，水文意义转向固体水库、冰川和地面冰。虽然冰川的表面积和体积减少，但冰缘储存的水（例如岩石冰川中的水）对大气强迫的反应更加迟缓，可能缓冲未来的可用水量。尽管气温不断上升，但最近的研究表明，基于过去十年的钻孔调查和岩石冰川运动学，干燥安第斯山脉的永久冻土条件稳定。这种明显的稳定性可能部分反映了极端干旱条件，限制了雪的隔热和液态水的输入，从而抑制了地热条件的年际变化和岩石冰川蠕变的相关变化。我们调查了 2019 年至 2025 年期间罗迪欧盆地（阿根廷安第斯山脉）的 19 条冰川、3 条碎屑覆盖冰川和 59 条岩石冰川的垂直表面变化。此外，我们还计算了 59 个岩石冰川中 47 个的岩石冰川速度，我们拥有所有时间段的数据。遵循摄影测量原理，使用（三）立体、全色 Pléiades 图像在 Ames Stereo Pipeline 中生成投影光学图像和 DEM。在进行垂直表面变化计算的 DEM 差分之前，将生成的 DEM 进行共同配准。为了获得岩石冰川速度，对全色昴宿星团正射影像应用了特征跟踪方法。我们检测到冰川表面下降幅度高达-8.99米（总变化，2019-2025年），并且所有调查的冰川主要呈年度表面下降。碎片覆盖的冰川上的垂直表面下降远低于冰川的大小，但高于岩石冰川 - 后者不超过一分米。平均岩石冰川速度介于 0.28 和 0.82 m yr−1 之间（检测水平，LoD：±0.1",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
       "id": "10.1029/2025gl118834",
       "title": "The Role of Groundwater in Contributing to Surface Water Salinization in the Upper Colorado River Basin",
       "url": "https://doi.org/10.1029/2025gl118834",
       "first_author": "Matthew P. Miller",
       "corr_author": "Jay R. Alder",
       "affiliation": "U.S. Geological Survey Water Resources Mission Area  Boulder CO USA",
-      "abs_zh": "淡水盐碱化影响了全球人类用水和生态系统的需求。据估计，科罗拉多河流域的总溶解固体 (TDS) 每年造成 3.5 亿美元的损失，大量资源用于减少河流中的 TDS 负荷。本研究描述了耦合流域模型的开发和应用，该模型能够在科罗拉多河流域上游 35 年中以季节时间步长通过地下和整个景观进行 TDS 源跟踪。结果表明，平均而言，流中 75% 的 TDS 负载源自基流，50% 的负载在交付时滞后超过一个季节。融雪被认为是控制滞后 TDS 向河流传输的主要过程。这种方法可以告知 TDS 缓解措施在作为美国西南部重要供水的流域中何时何地可能有效。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121324",
-      "title": "Influence of the Eccentric Geomagnetic Dipole on Longitude Variations of Compressional Upstream Wave Amplitudes in the Topside Ionosphere: Results From the MSS‐1A Satellite",
-      "url": "https://doi.org/10.1029/2025gl121324",
-      "first_author": "Chao Xiong",
-      "corr_author": "Chunyu Xu",
-      "affiliation": "School of Earth and Space Science and Technology Wuhan University  Wuhan China",
-      "abs_zh": "根据澳门科学卫星的 2 年磁数据，我们研究了由上游波 (UW) 驱动的压缩 Pc3-4 脉动（16 至 100 mHz 之间）。我们的结果证实了南大西洋异常 (SAA) 经度上的 UW 振幅较大，这与之前的任务一致。我们将这种纵向变化解释为由于地球偏心地磁偶极子引起的磁层顶间隔距离的变化，一天内振荡约 1,090 公里。将 UW 振幅归一化为恒定的太阳风速度后（\n                    V\n                    SW\n                    ），最大振幅出现在磁层顶最接近地球的经度处（靠近 SAA）。此外，还增加了\n                    V\n                    SW\n                    将磁层顶向内推 1,090 公里将产生类似的 UW 振幅增长。两种机制都会导致波幅增加 4-5 pT。这一出色的一致性为我们的假设提供了强有力的支持，即超电磁波的振幅很大程度上取决于到磁层顶的距离。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl118985",
-      "title": "Airborne Radar Reveals Area‐Wide Decadal Increase of Surface Mass Balance on the Plateau in Dronning Maud Land, East Antarctica",
-      "url": "https://doi.org/10.1029/2025gl118985",
-      "first_author": "Alexandra M. Zuhr",
-      "corr_author": "Reinhard Drews",
-      "affiliation": "Department of Geosciences University of Tübingen  Tübingen Germany",
-      "abs_zh": "对南极洲海平面贡献的预测取决于表面质量平衡（SMB）的未来变化，但鉴于先前研究的不同趋势，气候变化是否已经影响了东南极高原的SMB仍然不确定。利用来自 Dronning Maud Land (DML) 西部约 3,000 公里的机载雷达数据，我们重建了过去约 800 年（公元 1209 年至 2024 年）的 SMB，并发现 1977 年之前的百年平均值稳定，随后近几十年增加了 21%。尽管地形和风的重新分布驱动了强烈的小尺度变化，但这种增加在空间上是一致的，这可能会导致云核记录的放大产生偏差。整合 ∼5 5 km 处的雷达和 firn 核心数据\n                    2\n                    尺度减少了这种偏差。我们的结果显示，过去 50 年来，西方 DML 中的 SMB 有所增加。如果持续下去，它将有助于减缓海平面上升。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122277",
-      "title": "Quasi‐Stationary Atmospheric Rivers as the Primary Driver of Rossby Wave Activity in the Global Subtropics",
-      "url": "https://doi.org/10.1029/2026gl122277",
-      "first_author": "Hung‐I. Lee",
-      "corr_author": "Noboru Nakamura",
-      "affiliation": "Department of Geophysical Sciences University of Chicago  Chicago IL USA",
-      "abs_zh": "对流层上层局地（罗斯比）波活动（LWA）的 Hovmöller 图显示，北太平洋/大西洋盆地的副热带在准静止大气河（QSAR）的上游相对无波，而下游则波动较大。本研究利用 LWA 预算分析研究了 QSAR 下游 LWA 显着增强背后的物理机制。分析表明，在副热带地区，QSAR 内潜热加热的非绝热效应作为波源的作用比动力强迫（Eliassen-Palm 通量收敛）更重要。 QSAR 产生的 LWA 通过射流向下游传输，通量在 QSAR 下游汇聚，导致观察到的增强。从预算中去除 QSAR 引起的非绝热源会导致 QSAR 下游的 LWA 大幅减少，全球范围内减少约 70%。这凸显了 QSAR 作为副热带对流层上层主要造波者的重要性。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag145",
-      "title": "P and S wave speed evolution during rock deformation from coda wave interferometry and energy partitioning inversion",
-      "url": "https://doi.org/10.1093/gji/ggag145",
-      "first_author": "Jack-Andrew Smith",
-      "corr_author": "Ian B Butler",
-      "affiliation": "University of Edinburgh , Edinburgh ,",
-      "abs_zh": "总结\n                  地震波速监测对于响应外力作用的材料特性的无损评估非常重要。尾波干涉测量 (CWI) 使用多重散射地震波列（地震尾波）中的走时扰动来检测体波速度的细微扰动。然而，传统的体波 CWI 无法分离 P 波和 S 波的耦合贡献，而 P 波和 S 波对不同的材料特性很敏感。我们引入了能量分配反演，通过将散射模型与非等分尾声窗口内的 CWI 测量相结合来解耦这些模式。我们在 Clashach 砂岩的两个实验室加载实验中应用这种方法进行重复超声波脉冲测量：动态实验（恒定应变率直到脆性破坏）和准静态实验（调制应力以保持恒定的声发射率并减缓破坏过程）。在多个尾声窗口中测量相对走时扰动及其所有调查对之间的完整协方差，并使用最小二乘法对单个扰动剖面进行反演，以最小化剖面的方差。使用各向同性点散射体模型来预测相对于尾声经过时间的模式划分，我们通过马尔可夫链蒙特卡罗反演来反演散射平均自由程传播时间的传播时间扰动以及相对 P 和 S 波速度扰动，以量化不确定性。 P 波和 S 波速度扰动的 95% 可信区间分别为 0.025% 和 0.008%。在准静态实验期间，时间分辨率足以捕获 P 波和 S 波速度从峰值到失效的准线性下降，分别约 50% 和约 14%。与动态实验中发现的相比，峰值 P 波和 S 波速度扰动分别低约 33% 和高约 75%。这些结果表明",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-2089-2026",
-      "title": "Brief communication: Uncertainties in Southern Ocean sea surface conditions and their impact on Antarctic climate over 1958–1978",
-      "url": "https://doi.org/10.5194/tc-20-2089-2026",
-      "first_author": "Quentin Dalaiden",
-      "corr_author": "Ingo Bethke",
-      "affiliation": "未知机构",
-      "abs_zh": "。 1979 年之前的大气重新分析（包括 ERA5）显示 1958 年至 1978 年期间南极洲存在显着的冷偏向。由于南大洋海面条件 (SSC) 在此期间受到的约束很弱，因此我们使用由不同 SSC 数据集驱动的全球大气模型的两个集合来评估其作用。第一个使用广泛使用的 HadISST 产品，而第二个则基于最近吸收大陆观测的重建。我们的结果表明，SSC 差异强烈改变了南极表面气候，但在我们的模型实验中仅解释了 ERA5 冷偏差 ERA5 的约 30%，表明还有其他因素导致了这种偏差。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122048",
-      "title": "Surface Runoff Discrepancy in Urban‐PLUMBER Land Surface Models",
-      "url": "https://doi.org/10.1029/2026gl122048",
-      "first_author": "H. J. Jongen",
-      "corr_author": "G. J. Steeneveld",
-      "affiliation": "Institute for Water and Environment Karlsruhe Institute of Technology  Karlsruhe Germany",
-      "abs_zh": "城市环境中地表径流的增加减少了可用水量并限制了蒸发冷却潜力。我们评估了 Urban-PLUMBER 中 18 个城市地表模型 (ULSM) 中 21 个城市地点的 6,570 次降雨事件的地表径流。当降雨量超过渗透、饱和或拦截能力时，就会发生地表径流。十个模型至少省略了其中一个过程，而七个模型未能随着不渗透性的增加而增加径流。令人惊讶的是，一些模型在强降雨 (>) 或长时间降雨 (>20 毫米) 期间缺乏任何径流。城市地表模型 (ULSM) 将 0%–86% 的降雨转化为径流。大多数模型产生的径流与 CN 方法提供的经验比较一致，特别是对于高不渗透性。然而，对于低不透水部分，ULSM 径流超过了 CN 径流估计值，特别是通过过程描述不完整和低强度降雨的模型。 ULSM 之间的巨大差异要求提高 ULSM 中的城市水文表征，这对于正确模拟城市蒸发冷却至关重要。",
+      "abs_zh": "淡水盐碱化影响了全球人类用水和生态系统的需求。据估计，科罗拉多河流域的总溶解固体 (TDS) 每年造成 3.5 亿美元的损失，大量资源用于减少河流中的 TDS 负荷。本研究描述了耦合流域模型的开发和应用，该模型能够在科罗拉多河流域上游 35 年中以季节性时间步长通过地下和整个景观进行 TDS 源跟踪。结果表明，平均而言，流中 75% 的 TDS 负载源自基流，50% 的负载在交付时滞后超过一个季节。融雪被认为是控制滞后 TDS 向河流传输的主要过程。这种方法可以告知 TDS 缓解措施在作为美国西南部重要供水的流域中何时何地可能有效。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     }

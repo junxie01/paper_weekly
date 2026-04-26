@@ -1,61 +1,61 @@
 {
-  "last_update": "2026-04-12 至 2026-04-19 02:50",
+  "last_update": "2026-04-19 至 2026-04-26 02:52",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2604.15080v1",
-      "title": "Codes with Large Minimum Distance in Product Codes: Explicit Constructions and Bounds",
-      "url": "http://arxiv.org/abs/2604.15080v1",
-      "first_author": "Amit Berman",
+      "id": "2604.21585v1",
+      "title": "Scalable Multimodal Beam Alignment in V2X: An Anti-Imbalance Graph Learning Approach",
+      "url": "http://arxiv.org/abs/2604.21585v1",
+      "first_author": "Jiahui Liang",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "MDS 代码的产品具有重大的实际意义；举个最近的例子，它们被用于 Celestia 等区块链网络中的数据可用性采样 (DAS)，并作为以太坊路线图的一部分。这促使我们考虑此类代码的子代码，以获得更大的最小距离。在本文中，我们提出了 Reed-Solomon 乘积码子码的显式构造，以及它们的最小距离的界限。特别是，它们实现了最佳或接近最佳的维度-距离权衡。对于维度 $r$ 的组件代码，我们的构造需要一个大小由整个产品代码长度线性限制的字段，并获得子代码维度 $r^2-1$、$r^2-2$ 以及最多 $2r-1$ 的所有维度的最大可能最小距离。此外，我们建立了具有相同参数的两个码的乘积的子码的最小距离的新上限。",
+      "abs_zh": "高效的光束对准是​​车对万物 (V2X) 系统中高吞吐量和可靠连接的基础。然而，动态车辆拓扑中的传统波束管理会产生过高的对准开销，并且难以在快速移动下保持稳健的链路。为了克服这些挑战，本文提出了一种分布式多模态图光束对准（GBA）框架。核心创新在于利用机载多模态传感数据来预测隐式反馈，同时利用图神经网络来协调多用户对齐，从而共同增强可扩展性并大幅减少开销。该架构采用GBA-RSU和GBA-Vehicle单元的双网络设计，通过集中学习和联邦学习（FL）的混合策略进行优化，以平衡全局性能与本地隐私。此外，引入了专用的数据增强（DA）方案来解决车辆网络中的多模态数据不平衡问题。负增强应用主导模态丢失来增强鲁棒性，而正增强则生成代表性不足的样本以减轻标签不平衡。数值结果表明，GBA 保持了与基于高分辨率码本的反馈相当的有竞争力的总速率，同时将波束对准开销减少了 90% 以上，并在移动场景中有效扩展。值得注意的是，集成 DA 使 GBA 能够始终优于最先进的基于 FL 的对齐基准，在严重的标签和模态不平衡的情况下收益尤其显着，从而为 V2X 波束管理建立了实用的解决方案。",
       "source": "arXiv",
-      "published": "2026-04-16"
+      "published": "2026-04-23"
     },
     {
-      "id": "2604.14923v1",
-      "title": "Harnack inequality for mixed local-nonlocal weighted homogeneous equations",
-      "url": "http://arxiv.org/abs/2604.14923v1",
-      "first_author": "Nirjan Biswas",
+      "id": "2604.21566v1",
+      "title": "Leveraging SIMD for Accelerating Large-number Arithmetic",
+      "url": "http://arxiv.org/abs/2604.21566v1",
+      "first_author": "Subhrajit Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "我们考虑以下一类混合局部-非局部方程： \\begin{align}\\label{abs}\\tag{$\\mathcal{P}$}\n  -Δ_p u + (-Δ)_p^s u = V |u|^{p-2}u \\text{ in } Ω, \\end{align} 其中 $s \\in (0,1), p \\in (1, \\infty)$，权重函数 $V$ 位于缩放亚临界勒贝格空间 $L^q(Ω)$ 中，其中 $q>\\frac{d}{p}$ 当 $d>p$ 时，$q>1$ 当 $d \\le p$。我们建立弱解的哈纳克不等式和 ($\\mathcal{P}$) 的弱超解的弱哈纳克不等式。我们的方法基于 De Giorgi-Nash-Moser 理论、正性扩展和涉及尾项的估计。我们的结果也适用于积分微分算子，其原型由 $(-Δ)_p^s$ 给出。这项工作将Garain-Kinnunen (Trans. Am. Math. Soc., 375(8), 2022) 和Garain (Nonlinear Anal., 256, 2025) 的一些规律性结果推广到一般权重函数的设置。",
+      "abs_zh": "广泛应用于科学计算和密码学中的大数算术，由于传统算法固有的依赖性，现代 CPU 上单指令多数据 (SIMD) 并行性的采用有限。我们提出了 DigitsOnTurbo (DoT)，它围绕独立的数据并行操作重构计算，而不是矢量化标准算法，从而利用 SIMD 提供的优势。与之前的 SIMD 实现相比，DoT 在加法和减法方面实现了高达 1.85 倍的加速，在乘法方面实现了 2.3 倍的加速。当集成到最先进的库中时，DoT 的加法和减法加速高达 4 倍，乘法加速高达 2 倍，科学计算的端到端吞吐量提高高达 19.3%，加密实现的延迟提高高达 7.9%，吞吐量提高 5.9%。",
       "source": "arXiv",
-      "published": "2026-04-16"
+      "published": "2026-04-23"
     },
     {
-      "id": "2604.14884v1",
-      "title": "FSDETR: Frequency-Spatial Feature Enhancement for Small Object Detection",
-      "url": "http://arxiv.org/abs/2604.14884v1",
-      "first_author": "Jianchao Huang",
+      "id": "2604.21492v1",
+      "title": "Solving Cosmological Puzzles using Finite Temperature $ν$SMEFT",
+      "url": "http://arxiv.org/abs/2604.21492v1",
+      "first_author": "Debajyoti Choudhury",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "由于下采样导致的特征退化、密集簇中的相互遮挡以及复杂的背景干扰，小物体检测仍然是一个重大挑战。为了解决这些问题，本文提出了 FSDETR，一种基于 RT-DETR 基线的频率空间特征增强框架。通过建立协作建模机制，该方法有效地利用互补的结构信息。具体来说，空间分层注意力块（SHAB）捕获局部细节和全局依赖关系以加强语义表示。此外，为了减轻密集场景中的遮挡，基于可变形注意力的尺度内特征交互（DA-AIFI）通过动态采样关注信息区域。最后，频率空间特征金字塔网络（FSFPN）通过跨域频率空间块（CFSB）将频率滤波与空间边缘提取集成在一起，以保留细粒度的细节。实验结果表明，仅用 1470 万个参数，FSDETR 在 VisDrone 2019 上实现了 13.9% APS，在 TinyPerson 上实现了 48.95% AP50tiny，在小物体基准测试中表现出了强劲的性能。代码和模型可在 https://github.com/YT3DVision/FSDETR 获取。",
+      "abs_zh": "我们研究了一个最小的框架，它可以自然地产生可行的暗物质、强的一阶电弱相变和低尺度共振轻子发生。用三个重马约拉纳中微子增强标准模型，我们研究了相应的中微子扩展标准模型有效场论，包括质量维六的算子。纯希格斯算子提供了强一阶电弱相变所需的主要增强，而其余算子产生与电弱精度约束一致的次主导效应。随机引力波背景的信号以等离子体中的声波为主，磁流体动力湍流提供了次要的贡献。低尺度共振轻子发生是通过准简并重中微子之间的微小质量分裂来实现的，准简并重中微子是通过单环RG引起的校正和有限温度贡献的综合作用在对称相动态生成的。求解玻尔兹曼方程，我们表明可以再现观测到的宇宙重子不对称性，同时与中微子振荡数据和带电轻子味违反约束保持一致。其中一个重中微子通过离散对称性而稳定，从而充当费米子暗物质候选者。它与标准模型的相互作用来自五维和六维有效算子，导致可行的湮灭、弹性散射和与当前实验范围兼容的间接检测现象学。暗物质部分仍然与电弱相变和轻子发生的动力学脱钩，从而允许所有三种现象在统一的有效场论框架内一致地实现。",
       "source": "arXiv",
-      "published": "2026-04-16"
+      "published": "2026-04-23"
     },
     {
-      "id": "2604.14720v1",
-      "title": "Data Synthesis Improves 3D Myotube Instance Segmentation",
-      "url": "http://arxiv.org/abs/2604.14720v1",
-      "first_author": "David Exler",
+      "id": "2604.21490v1",
+      "title": "Impact of the Infrared Cutoff on Structure Formation in Tsallis Holographic Dark Energy",
+      "url": "http://arxiv.org/abs/2604.21490v1",
+      "first_author": "Biswajit Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "肌管是多核肌纤维，是研究肌肉生理学、疾病机制和药物反应的关键模型系统。因此，机理研究和药物筛选依赖于定量形态学读数，例如直径、长度和分支度，而这又需要精确的三维实例分割。然而，由于缺乏大量带注释的肌管数据集，已建立的预训练生物医学分割模型无法推广到该领域。我们引入了一种几何驱动的合成管道，该管道通过多项式中心线、局部变化的半径、分支结构和源自真实显微镜观察的椭圆体端盖对单个肌管进行建模。合成体积使用真实噪声、光学伪影和基于 CycleGAN 的域适应 (DA) 进行渲染。具有自监督编码器预训练功能的紧凑型 3D U-Net，专门针对合成数据进行训练，在真实数据上实现了 0.22 的平均 IPQ，显着优于三个已建立的零样本分割模型，这表明生物物理学驱动的合成能够在注释稀缺的生物医学领域实现有效的实例分割。",
+      "abs_zh": "我们研究了 Tsallis 全息暗能量 (THDE) 模型的可行性，重点关注红外 (IR) 截止在宇宙结构生长中的作用。考虑两种常用的截断选择，粒子视界和未来事件视界，我们分析线性物质扰动的演化并计算增长因子、增长率和可观测$fσ_8(z)$。将这些预测与红移空间畸变测量的观测数据进行比较。我们发现生长历史对 IR 截止值的选择高度敏感。基于未来事件视界的模型与观测数据一致，并且可以为 Tsallis 参数 $δ$ 的合适值提供与 $Λ$CDM 模型相当或稍好的拟合。相比之下，使用粒子视界构建的模型通常无法重现观察到的结构生长。这些结果表明，THDE 模型的可行性主要取决于红外截止的选择，并强调了结构形成作为广义全息暗能量场景的严格测试的重要性。",
       "source": "arXiv",
-      "published": "2026-04-16"
+      "published": "2026-04-23"
     },
     {
-      "id": "2604.14714v1",
-      "title": "Temporal Logic Resilience for Continuous-time Systems",
-      "url": "http://arxiv.org/abs/2604.14714v1",
-      "first_author": "Ratnangshu Das",
+      "id": "2604.21347v1",
+      "title": "$A^p_α$ classes in the Dirichlet range: inner-outer factorization, Carleson measures and weak products",
+      "url": "http://arxiv.org/abs/2604.21347v1",
+      "first_author": "Alberto Dayan",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "在本文中，我们提出了一种新颖的框架，用于量化受外部干扰的连续时间（非线性）线性系统的弹性下限，同时确保满足信号时序逻辑规范。与评估系统在给定干扰下满足规范的程度的鲁棒性不同，弹性衡量系统在保持规范满足的同时从给定初始状态可以承受的最大干扰。我们首先推导扰动轨迹的界限，然后使用它们制定基于场景优化的计算方法，以有效计算最大允许扰动。我们通过案例研究验证了我们的方法，包括直流电机、温度调节、非线性数值示例和车辆防撞案例。",
+      "abs_zh": "我们研究狄利克雷范围内 $A^p_α$ 空间的性质，最近由 Brevig、Kulikov、Seip 和 Zlotnikov 定义为单位圆盘 $\\mathbb{D}$ 上所有全纯函数的集合，使得\n  \\[\n  \\int_{\\mathbb{D}} |f(z)|^{p-2} |f'(z)|^2 (1 - |z|^2)^α \\, dA(z) 0$。我们以否定的方式回答 Brevig 等人提出的两个问题。通过证明，如果 $p\\ne2$ 且 $p > \\frac{1}{2}$，则 $A^p_α$ 不是向量空间，并且范数在 $p$ 中通常不会增加。这是通过 $A^p_α$ 的等效描述来实现的，该描述是根据其居民边界函数的泊松积分给出的。这种范数还导致对 Dirichlet 范围内的 $A^p_α$ 函数的描述，根据其内部和外部因素给出。作为推论，我们证明 $A^1_α$ 包含在狄利克雷型空间的弱积中。",
       "source": "arXiv",
-      "published": "2026-04-16"
+      "published": "2026-04-23"
     },
     {
       "id": "10.1093/gji/ggag140",
@@ -108,7 +108,7 @@
       "first_author": "Ettore Biondi",
       "corr_author": "Allen L. Husker",
       "affiliation": "1California Institute of Technology, Seismological Laboratory, Pasadena, California, U.S.A.",
-      "abs_zh": "我们引入了一个模块化软件框架，旨在将分布式声学传感（DAS）数据集成到可操作的地震监测系统中。我们的解决方案以先进国家地震系统 (ANSS) 和南加州地震网络的基础设施为基础，采用 ANSS 地震监测软件 (AQMS)，支持实时 DAS 波形流和基于机器学习的走时拾取，以利用 DAS 阵列的密集空间采样。为了实现与 AQMS 的无缝兼容，我们的方法使用标准化地震数据格式来合并预定的 DAS 通道。我们演示了部署在加利福尼亚州里奇克莱斯特的 100 公里长 DAS 阵列的数据集成，并提供了软件组件和部署策略的详细描述。这项工作代表了将 DAS 纳入常规地震监测中的一步，并为使用光纤网络进行实时灾害评估开辟了新的可能性。",
+      "abs_zh": "我们引入了一个模块化软件框架，旨在将分布式声学传感（DAS）数据集成到可操作的地震监测系统中。我们的解决方案以先进国家地震系统 (ANSS) 和南加州地震台网的基础设施为基础，采用 ANSS 地震监测软件 (AQMS)，支持实时 DAS 波形流和基于机器学习的走时选取，以利用 DAS 阵列的密集空间采样。为了实现与 AQMS 的无缝兼容，我们的方法使用标准化地震数据格式来合并预定的 DAS 通道。我们演示了部署在加利福尼亚州里奇克莱斯特的 100 公里长 DAS 阵列的数据集成，并提供了软件组件和部署策略的详细描述。这项工作代表了将 DAS 纳入常规地震监测中的一步，并为使用光纤网络进行实时灾害评估开辟了新的可能性。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -130,7 +130,7 @@
       "first_author": "Ismael Vera Rodriguez",
       "corr_author": "Jonathan Ajo-Franklin",
       "affiliation": "1Silixa, E&S, Missoula, Montana, U.S.A.",
-      "abs_zh": "地震矩张量为了解震源的起源和性质提供了重要信息。它们已被用来阐明板块构造的动力学、活火山的状态以及描述地下储层的特征。分布式光纤传感 (DFOS) 提供无与伦比的震源辐射模式采样，这是估计矩张量 (MT) 所必需的。在这项研究中，我们展示了利用 DFOS 挖掘矩张量反演潜力的重要一步。为此，我们分析了超过 1450 万次地震波，以自动估计数千个地震事件的完整 MT。犹他州地热能研究前沿观测站地下实验室的地热储层特征证明了获取大量 MT 的好处。该解释揭示了诱发裂缝和天然裂缝之间的相互作用在为现场增强的地热系统提供水力连通性方面的重要作用。此外，估计的 MT 通过提供有关天然裂缝的空间变异性和水力相关性的其他无法获得的信息来补充以前的研究。",
+      "abs_zh": "地震矩张量为了解震源的起源和性质提供了重要信息。它们已被用来阐明板块构造的动力学、活火山的状态以及描述地下储层的特征。分布式光纤传感 (DFOS) 提供无与伦比的震源辐射模式采样，这是估计矩张量 (MT) 所必需的。在这项研究中，我们展示了利用 DFOS 挖掘矩张量反演潜力的重要一步。为此，我们分析了超过 1450 万次地震波，以自动估计数千个地震事件的完整 MT。犹他州地热能研究前沿观测站地下实验室的地热储层特征证明了获取大量 MT 的好处。该解释揭示了诱导裂缝和天然裂缝之间的相互作用在为现场增强的地热系统提供水力连通性方面的重要作用。此外，估计的 MT 通过提供有关天然裂缝的空间变异性和水力相关性的其他无法获得的信息来补充以前的研究。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },

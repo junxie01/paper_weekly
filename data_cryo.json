@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-12 至 2026-04-19 02:50",
+  "last_update": "2026-04-19 至 2026-04-26 02:52",
   "topic_name": "冰川地震学",
   "papers": [
     {
@@ -22,6 +22,50 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120119",
+      "title": "Ice‐Dynamic Constraints on Glacier Climatic Mass Balance Using Inverse Techniques",
+      "url": "https://doi.org/10.1029/2025gl120119",
+      "first_author": "Anna Zöller",
+      "corr_author": "Johannes J. Fürst",
+      "affiliation": "Friedrich‐Alexander‐Universität Erlangen‐Nürnberg Institute of Geography  Erlangen Germany",
+      "abs_zh": "准确的冰川气候质量平衡（CMB）建模依赖于相关的大气数据进行强迫和原位桩测量进行校准，而这些数据在偏远的高山地区通常很少或无法获得。这项研究通过将质量守恒和冰动力学与海拔变化、冰速度和冰厚度的遥感观测相结合，提出了估计冰川范围 CMB 场的概念验证。使用指导冰川模型的数据同化工具，我们绘制冰川厚度并推断通量散度。灵敏度分析强调了厚度对反演过程的主要影响，并研究了其对通量发散场的影响。该方法在罗讷冰川上得到验证，并扩展到瑞士冰川监测网络内的所有冰川，与观测结果高度一致。由于该方法仅依赖于遥感数据，因此可以推广到其他地区，适合数据稀疏地区的固体降水估算。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.ady8474",
+      "title": "Ocean stratification and tides control basal melting at the Ross Ice Shelf Grounding Zone",
+      "url": "https://doi.org/10.1126/sciadv.ady8474",
+      "first_author": "Craig L. Stevens",
+      "corr_author": "Gavin B. Dunbar",
+      "affiliation": "Earth Sciences New Zealand, Wellington, New Zealand.",
+      "abs_zh": "南极接地区的冰、海洋和海底之间的相互作用对未来一个世纪及以后的全球海平面上升具有重大影响。融水浮力意味着接地区条件影响整个空腔的基底边界层。由于直接访问的困难，接地区海洋环境仅被采样了几次，并且通常仅作为简短的数据快照。在这里，我们展示了来自罗斯冰架卡姆冰流接地区的海洋数据，这些数据揭示了近 600 米的冰雪之下始终分层的 30 米厚的水柱。较温暖的流入海水与上覆较冷的流出海水和冰川融水混合物垂直分离。长达 10 个月的分层时间序列表明，这种分层是有弹性的，但又是可变的，内波活动导致两层之间频繁混合，这表明接地区作为空腔内的一个独特区域有机械基础。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-2393-2026",
+      "title": "Explicit representation of liquid water retention over bare ice using the SURFEX/ISBA-Crocus model: implications for mass balance at Mera glacier (Nepal)",
+      "url": "https://doi.org/10.5194/tc-20-2393-2026",
+      "first_author": "Audrey Goutard",
+      "corr_author": "Matthieu Lafaysse",
+      "affiliation": "未知机构",
+      "abs_zh": "。在气候变暖的情况下，冰川将经历更多的液体降水和融化，因此更好地理解和模拟相关的表面过程至关重要。本研究提出了一种建模方法，旨在使用 SURFEX/ISBA-Crocus 模型研究地表液态水和裸冰之间的动态相互作用。描述了在冰面暂时保留来自雨水或融化的液态水的实施方式。根据气象条件，水会被排出或重新冻结，直接影响反照率、热剖面和冰川质量平衡。这项新开发成果在梅拉冰川（尼泊尔）进行了测试，结果显示，它对年度质量平衡的影响高达 6%，并且根据气象条件的不同，效果形成对比。在季风前季节，这种实施会导致地表液态水造成更大的质量损失（高达 20%），这会加剧变暖，而不是通过重新冻结来补偿。在季风季节和季风后季节，由于重新冻结的增加，它会减少负质量平衡。敏感性分析将排水量和反照率确定为关键模型参数。储存的液态水排放量变化 10% 会导致年度质量平衡变化 10%。裸冰和冰上液态水的反照率是造成质量平衡损失和最大不确定性的主要因素，使它们成为进一步研究和改进表征的优先目标。这种基于物理的模型开发对于全球未来的气候预测至关重要，特别是考虑到气候变化下融化、降雨和裸冰暴露的增加。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-2257-2026",
+      "title": "Glacial decline next to stable permafrost in the Dry Andes? Vertical glacier surface changes and rock glacier kinematics based on Pléiades imagery (Rodeo basin, 2019–2025)",
+      "url": "https://doi.org/10.5194/tc-20-2257-2026",
+      "first_author": "Melanie Stammler",
+      "corr_author": "Lothar Schrott",
+      "affiliation": "未知机构",
+      "abs_zh": "。高山冰冻圈特征的存在和体积受到全球范围内气温上升的极大影响。在干燥的安第斯山脉，降水极其稀少，水文意义转向固体水库、冰川和地面冰。虽然冰川的表面积和体积减少，但冰缘储存的水（例如岩石冰川中的水）对大气强迫的反应更加迟缓，可能缓冲未来的可用水量。尽管气温不断上升，但最近的研究表明，基于过去十年的钻孔调查和岩石冰川运动学，干燥安第斯山脉的永久冻土条件稳定。这种明显的稳定性可能部分反映了极端干旱条件，限制了雪的隔热和液态水的输入，从而抑制了地热条件的年际变化和岩石冰川蠕变的相关变化。我们调查了 2019 年至 2025 年期间罗迪欧盆地（阿根廷安第斯山脉）的 19 条冰川、3 条碎屑覆盖冰川和 59 条岩石冰川的垂直表面变化。此外，我们还计算了 59 个岩石冰川中 47 个的岩石冰川速度，我们拥有所有时间段的数据。遵循摄影测量原理，使用（三）立体、全色 Pléiades 图像在 Ames Stereo Pipeline 中生成投影光学图像和 DEM。在进行垂直表面变化计算的 DEM 差分之前，将生成的 DEM 进行共同配准。为了获得岩石冰川速度，对全色昴宿星团正射影像应用了特征跟踪方法。我们检测到冰川表面下降幅度高达-8.99米（总变化，2019-2025年），并且所有调查的冰川主要呈年度表面下降。碎片覆盖的冰川上的垂直表面下降远低于冰川的大小，但高于岩石冰川 - 后者不超过一分米。平均岩石冰川速度介于 0.28 和 0.82 m yr−1 之间（检测水平，LoD：±0.1",
+      "source": "The Cryosphere",
       "published": "2026"
     },
     {
@@ -64,7 +108,7 @@
       "first_author": "T. Finley",
       "corr_author": "B. Miller",
       "affiliation": "School of Earth and Ocean Sciences University of Victoria  Victoria BC Canada",
-      "abs_zh": "南落基山海沟（SRMT）是加拿大东部科迪勒拉山脉的一个显着山谷。它位于岩石圈强度和厚度急剧变化的上方，并被一条被认为最后活跃于始新世的正断层所占据。然而，它的地貌突出、广泛的区域地震活动（包括历史上著名的地震）的发生以及微妙的大地应变梯度都暗示它仍然有可能发生大型地表破裂地震。利用新的高分辨率地形数据、地表测绘、陡坡形态分析和浅层地球物理学，我们提供了不列颠哥伦比亚省哥伦比亚湖附近 SRMT 断层上多次全新世表面破裂的证据。冰缘扇表面垂直偏移约 3 m，而扇表面较年轻的河道仅偏移约 2 m，这意味着扇记录了多次地震的累积偏移量。电阻率断层扫描数据证实，正常断层在陡坡下方继续存在，地下电阻率层位偏移约 9 m。对冰缘沉积的区域地质年代学限制将滑移率限制在 0.1 至 1.1 毫米/年之间。从全新世早期到全新世晚期滑动率可能下降，这可能表明断层活动受到最后一次盛冰期之后的冰川均衡调整的调节。然而，构造运动的根本原因可能是科迪勒拉山脉的重力塌陷。我们认为SRMT代表了美国西部山间地震带的向北延伸，该地震带在近几十年来发生了破坏性的正断层地震。",
+      "abs_zh": "南落基山海沟（SRMT）是加拿大东部科迪勒拉山脉的一个显着山谷。它位于岩石圈强度和厚度急剧变化的上方，并被一条被认为最后活跃于始新世的正断层所占据。然而，它的地貌突出、广泛的区域地震活动（包括历史上著名的地震）的发生以及微妙的大地应变梯度都暗示它仍然有可能发生大型地表破裂地震。利用新的高分辨率地形数据、地表测绘、陡坡形态分析和浅层地球物理学，我们提供了不列颠哥伦比亚省哥伦比亚湖附近 SRMT 断层上多次全新世表面破裂的证据。冰缘扇表面垂直偏移约 3 m，而扇表面较年轻的河道仅偏移约 2 m，这意味着扇记录了多次地震的累积偏移量。电阻率断层扫描数据证实，正常断层在陡坡下方继续存在，地下电阻率层位偏移约 9 m。对冰缘沉积的区域地质年代学限制将滑移率限制在 0.1 至 1.1 毫米/年之间。从全新世早期到全新世晚期滑动率可能下降，这可能表明断层活动受到最后一次盛冰期之后的冰川均衡调整的调节。然而，构造运动的根本原因可能是科迪勒拉山脉的重力塌陷。我们认为，SRMT 代表了美国西部山间地震带的向北延伸，近几十年来，该地震带发生了破坏性的正断层地震。",
       "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     },
@@ -77,50 +121,6 @@
       "affiliation": "Geophysical Institute University of Alaska Fairbanks  Fairbanks AK USA",
       "abs_zh": "我们使用哥伦比亚冰川作为案例研究，展示阿拉斯加地震记录的崩解事件如何跟踪二十年来的冰川演化。通过将这个目录（地震监测的偶然副产品）与终点位置、测深、冰川厚度、表面速度和环境记录相结合，我们展示了这种地震活动如何响应冰川的变化。我们发现终点站的峡湾测深对地震活动有很强的控制作用。随着冰川退入浅水区，由于过渡到接地条件，冰川地震的次数会增加，这有利于冰塔的破坏。我们发现证据表明冰川速度、降水和温暖的海洋温度会增加冰川地震的发生率。我们还观察到，单个地震的能量随着终点站的海拔而增加。我们的结果强调了阿拉斯加编目崩解记录的未来潜在用途，该记录跨越了十多个其他冰川系统。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag103",
-      "title": "Characterization of icequake mechanisms on the Argentière glacier by 3-D elastic full waveform inversion",
-      "url": "https://doi.org/10.1093/gji/ggag103",
-      "first_author": "A Grange",
-      "corr_author": "J Thurin",
-      "affiliation": "ISTerre, CNRS, Univ. Grenoble Alpes , F-38000 Grenoble ,",
-      "abs_zh": "冰川是全球气候系统的关键组成部分，也是环境变化的敏感指标。它们的动力学产生不同的地震信号，其源机制为了解其内应力条件提供了宝贵的见解。虽然矩张量反演已应用于一些高山和极地冰川的冰震，但尚未在阿让蒂埃冰川（法国阿尔卑斯山）上实施。在这项研究中，我们基于 RESOLVE 项目期间部署在冰川表面的 98 个三组件传感器记录的 14 057 个近地表事件的密集数据集，对冰震源机制进行了系统的表征。我们应用全波形反演方法来联合重建每个事件的矩张量和源时间小波。反演中使用的矩张量格林函数是通过 3D 介质中弹性波传播的数值模拟计算的，并结合了真实的表面形貌。这种方法使我们能够充分利用记录的地震信号的复杂性，并超越之前基于简化模型和单分量数据的分析。结果表明，开口型（拉伸裂纹）机制明显占主导地位，与裂口位置的拉伸应力状态一致，主应力方向几乎垂直于局部裂口方向。该目录的巨大规模使得能够对源机制中的空间模式进行详细调查，特别是突出了严重裂缝的下游区域的结构复杂性。拉伸和压缩机制的分布进一步表明冰川表面存在高度不均匀的应力场，受局部裂缝几何形状的影响。重建矩张量的深度相关变化表明，更深的事件往往涉及更多的各向同性成分，可能反映了上覆应力下的压力驱动失效。这些",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120181",
-      "title": "Major Melting Event on the Ross Ice Shelf, Antarctica, Connected With Enhanced Atmospheric Turbulence",
-      "url": "https://doi.org/10.1029/2025gl120181",
-      "first_author": "Dhiman R. Mondal",
-      "corr_author": "Scott Paine",
-      "affiliation": "Massachusetts Institute of Technology Haystack Observatory  Westford MA USA",
-      "abs_zh": "2016 年 1 月，在南大洋上空输送的温暖潮湿空气的推动下，西南极洲的罗斯冰架 (RIS) 经历了大范围的表面融化。很少有研究报告该地区在这次事件期间大气水蒸气和湍流混合增加，由于地处偏远和极端条件，表面测量的可用性具有挑战性。在这里，我们使用了 2015 年至 2016 年南方夏季部署在 RIS 上的 13 个 GNSS 接收器网络的大气估计。我们估计了整个网络的时空变化结构函数，以量化大气湍流的相对强度，该强度比 RIS 非融化期间的值高出约 4 倍。这一结果进一步支持了冰架融化事件的大气联系。该结果还展示了 GNSS 的一个以前未研究过的新应用，即通过极地对流层的湍流敏感性来融化冰架。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-1405-2026",
-      "title": "The effect of the present-day imbalance on schematic and climate forced simulations of the West Antarctic Ice Sheet collapse",
-      "url": "https://doi.org/10.5194/tc-20-1405-2026",
-      "first_author": "Tim van den Akker",
-      "corr_author": "Roderik S. W. van de Wal",
-      "affiliation": "未知机构",
-      "abs_zh": "。最近的观测表明，南极洲西部冰盖正在迅速变薄，特别是在其两个最大的出口冰川，松岛冰川和思韦茨冰川，而南极洲东部则保持相对稳定。未来几个世纪的冰盖模型预测给出了一幅复杂的图景，一些受气候模型影响的冰盖模型通过增加表面质量平衡来预测质量增加，而大多数模型通过增加冰排放来预测中度至严重的质量损失。在这项研究中，我们探讨了当前冰厚度变化率对使用社区冰盖模型（CISM）强制未来模拟南极冰盖的影响。我们从阿蒙森海湾 (ASE) 的一系列示意性、均匀的海洋温度扰动开始，以探讨模拟的当前不平衡对海洋变暖的敏感性。然后，我们应用来自 CMIP5 和 CMIP6 系综的五个地球系统模型 (ESM) 生成的七个数据集的海洋和大气强迫来模拟 2015 年至 2500 年的南极冰盖。示意性实验表明存在冰动力极限；在~2100年之前，思韦茨冰川（TG）在这些实验中不会崩塌（即，冰川消融加速，导致大量的接地冰质量损失），且海洋变暖幅度不超过2°。与此同时，崩塌期间来自ASE的全球平均海平面上升（GMSLr）的最大速率随海洋温度线性增加，这表明虽然较早的崩塌时间显示出收益递减，但海平面上升的速率随着更强的强迫而持续加速。在气候强迫下，随着（海洋）变暖程度的加大，包括当前观测到的质量损失率在内的相对重要性会降低，并且随着时间的推移而降低。对于较短时间尺度（直到 2100 年）的东南极冰盖来说，加上目前观测到的质量变化率，使其对全球平均海平面上升的贡献翻倍。在较长的时间尺度（2100-2500）上，",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-1363-2026",
-      "title": "A new coastal ice-core site identified in Dronning Maud Land, Antarctica, for high-resolution climate reconstructions to the Last Glacial Maximum",
-      "url": "https://doi.org/10.5194/tc-20-1363-2026",
-      "first_author": "Vikram Goel",
-      "corr_author": "Meloth Thamban",
-      "affiliation": "未知机构",
-      "abs_zh": "。南极冰盖边缘的高分辨率冰芯对于重建南极洲和南大洋的气候历史至关重要。位置稳定且积雪丰富的冰升山顶可能是此类冰芯的理想场所。我们在拉扎列夫冰架东部边缘的东经 16° 处测量了两个冰隆。 Kupol Verbljud (VER) 是崩解前沿的一座岛屿，Kamelryggen (KAM) 是 VER 向陆的一个海角。雷达测量显示 VER 山顶下的冰层厚度为 560 米，KAM 山顶下的冰层厚度为 525 米。在两次冰隆中都观察到了长期稳定的冰川特征，即雷蒙德拱门，但当 VER 的拱门倾斜时，KAM 在其顶峰内呈现出垂直对齐的拱门，表明山顶位置更稳定。我们发现 KAM 的山顶区域更适合长冰芯，因为它的床坡更平缓，冰地层也更简单。从过时的内部反射地平线得出的表面质量平衡显示出近几十年来一致的空间模式。使用一维年龄深度模型，我们将局部冰流视为两种极端情况的组合：发散分流和剪切主导的侧翼流。我们确定这些流态的哪种组合最好地再现了绘制的冰川雷达地层学，并用它来估计冰的年龄。我们得出的结论是，KAM 的顶峰非常适合获得末次盛冰期之后的高分辨率冰芯记录，预计在河床上方 80 米深度处存在约 20 ka 年龄的冰，其分辨率预计为 2.5 a cm−1。",
-      "source": "The Cryosphere",
       "published": "2026"
     },
     {

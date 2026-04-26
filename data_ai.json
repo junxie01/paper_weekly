@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-12 至 2026-04-19 02:50",
+  "last_update": "2026-04-19 至 2026-04-26 02:52",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -20,7 +20,7 @@
       "first_author": "Jaehong Chung",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
+      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将此方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
       "source": "arXiv",
       "published": "2026-02-10"
     },
@@ -33,6 +33,61 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl118317",
+      "title": "The Value of Forecasters‐in‐the‐Loop in Real‐Time Flood Forecasting in the Age of Machine Learning",
+      "url": "https://doi.org/10.1029/2025gl118317",
+      "first_author": "Vinh Ngoc Tran",
+      "corr_author": "Valeriy Y. Ivanov",
+      "affiliation": "Department of Civil and Environmental Engineering University of Michigan  Ann Arbor MI USA",
+      "abs_zh": "机器学习（ML）在水文预报中的应用越来越普遍，并显示出巨大的潜力。然而，许多先前的研究仅通过与简化基线相比的重新分析或回顾性模拟来评估性能。这项研究首次根据加州内华达河预报中心 (CNRFC) 运营的实际业务预报系统对机器学习性能进行了评估，该系统将社区水文预报系统 (CHPS) 与预报员在环相结合。结果表明，即使 ML 模型使用观测到的强迫，预报员在环系统在一般预报和洪水警报方面始终优于 ML 模型，交付时间长达 96 小时，而 CNRFC 操作流程依赖于有偏差的天气预报。我们的分析表明，尽管降水输入不准确，预报员的专业知识仍能保持预报的可靠性，而人工引导系统在较长的交付时间内表现出卓越的性能退化特征。这些发现凸显了人类专业知识在运营预测方面的不可替代的价值，并警告不要夸大现实应用中当前的机器学习能力。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adx2372",
+      "title": "ArchesWeatherGen: Skillful and compute-efficient probabilistic weather forecasting with machine learning",
+      "url": "https://doi.org/10.1126/sciadv.adx2372",
+      "first_author": "Guillaume Couairon",
+      "corr_author": "Claire Monteleoni",
+      "affiliation": "INRIA, Paris, France.",
+      "abs_zh": "天气预报在当今社会中发挥着至关重要的作用，从农业和物流到预测可再生能源的产量和为极端天气事件做好准备。与数值全球环流模型相比，在 ERA5 上使用下一个状态预测目标训练的深度学习天气预报模型已显示出巨大的成功。在这里，我们提出了一种在概率天气模型设计中利用确定性天气模型的方法，从而提高性能并降低计算成本。我们设计了一个基于流匹配的概率天气模型，这是扩散模型的现代变体，经过训练，可以将确定性天气预报投射到 ERA5 天气​​状态的分布。我们的模型 ArchesWeatherGen 在所有 WeatherBench 标题变量上都超过了 IFS ENS 和 NeuralGCM（NeuralGCM 的地势除外）。我们的工作还旨在使生成机器学习模型在天气预报研究中的使用民主化。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aea2020",
+      "title": "Wearable thumb sleeves enabled by self-supervised learning with few stretchable sensors and few-shot data for switchable finger tasks",
+      "url": "https://doi.org/10.1126/sciadv.aea2020",
+      "first_author": "Kunpeng Li",
+      "corr_author": "Jong-Chul Lee",
+      "affiliation": "Department of Electronic Convergence Engineering, Kwangwoon University, Seoul 01897, South Korea.",
+      "abs_zh": "人类手指表现出非凡的灵活性，是自然人机交互的理想选择。传统方法需要每个手指至少一个设备和大量标记数据，通常将模型限制为单个用户和任务。在这里，我们提出了一种与自监督学习相结合的可穿戴拇指套，它具有用户独立性和数据效率，能够识别各种与手指相关的任务。拇指套在拇指关节处仅配备了两个可拉伸传感器，并从未标记的随机拇指运动数据中学习潜在特征。通过使用五次标记数据进行微调，它可以快速适应新的用户和任务，包括八个方向命令和 10 个指关节按键输入。它允许任务之间自由切换，无需重建或重新训练模型。所提出的方法展示了现实应用程序的巨大潜力，可以替代鼠标和键盘来完成在线购物等任务。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-2295-2026",
+      "title": "Identification and correction of snow depth bias in ERA5 datasets over Central Europe using machine learning",
+      "url": "https://doi.org/10.5194/tc-20-2295-2026",
+      "first_author": "Gabiel Stachura",
+      "corr_author": "Zbigniew Ustrnul",
+      "affiliation": "未知机构",
+      "abs_zh": "。从气象和水文的角度来看，准确估算积雪深度是一个至关重要的问题。全球和区域的重新分析仍然难以解决这个问题，主要是因为雪空间异质性的规模远远超出了数据集当前的分辨率。在这项研究中，将哥白尼重新分析 ERA5 和 ERA5-Land 的雪深估计与 2001/2002 年至 2020/2021 年冬季波兰、捷克共和国和斯洛伐克的点测量进行了比较和评估。此外，还开发了随机森林 (RF) 模型，以减少基于重新分析和数字高程模型得出的各种环境变量和参数而识别的错误。由于山脉是中欧的主要雪水库，因此该模型用于在山地地形的细尺度子域上在空间上缩小雪深。对于这两次重新分析，在平坦或平缓起伏的地形（低于 500米a.s.l.）中，偏差相对较小。由于存在数据同化，ERA5 (0.25°) 优于 ERA5-Land (0.1°)。由于仅同化天气观测数据，因此这些站的误差最低，但气候和降水站也会受到影响。在更复杂的地形中，两次重新分析都显示出低估的雪量，雪量随着海拔的升高而增加。在这一领域，ERA5-Land 的偏差稍微小一些，因为它具有更高的分辨率，而且来自山区的观测结果经常被 ERA5 中的数据同化所掩盖。相对于最佳重新分析，所提出的 RF 模型将估计精度提高了约 48%。空间缩小的结果无疑为复杂地形中的雪估计问题提供了附加值。尽管它们不能被认为是完全有效和可靠的，因为并未考虑到在这种分辨率下决定雪的空间变化的所有因素，但它们可能对未来的研究有用，例如关于雪的气候变化的研究。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag149",
+      "title": "A Unified Mixed-Effects Framework for Earthquake Source-Parameter Scaling across Tectonics, Fault Mechanisms, Seismic Regions, and Finite-Fault Inversion Characteristics",
+      "url": "https://doi.org/10.1093/gji/ggag149",
+      "first_author": "Bhargavi Podili",
+      "corr_author": "S T G Raghukanth",
+      "affiliation": "Indian Institute of Technology Madras Department of Civil Engineering, , Chennai, TN , – 600 036",
+      "abs_zh": "总结\n                  地震源通常被描述为复杂断层几何形状上的随机滑移分布，这对计算建模提出了重大挑战。然而，震源标度定律通过将简化的断层几何形状和滑移特征与地震震级相关联，提供了一种简化的替代方案。到目前为止，针对不同的构造背景和断层机制已经制定了不同的标度法则。然而，源参数的区域差异尚未得到明确量化。例如，目前尚不清楚在相似的构造环境（例如俯冲带）和断层机制（例如反向断层）中发生的地震是否表现出类似的震源特征，或者如何将这种变化纳入尺度关系中。为了解决这一差距，本研究对仅从有限断层模型导出的地震源属性进行了全面的探索性分析，包括应力降以及标准断层几何形状和滑动参数。该分析涵盖了由构造环境、断层机制、地震区域、震源深度、地壳类型以及断层面反演模态和空间分辨率定义的多个分组，对这些分组进行检查以解释数据集中与建模相关的变异性。应力降代理和滑移参数估计，特别是对于大震级地震，显示出与自相似尺度假设的系统偏差。断层模态（由反演中使用的地震和/或大地测量数据的类型定义）和断层分辨率（通过子断层离散化量化）被发现与推断的滑移和粗糙度参数的系统差异相关，并有助于解释当同一地震存在多个模型时观察到的部分事件内变化。因此，这些因素被明确纳入 iso",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
@@ -53,7 +108,7 @@
       "first_author": "Jaehong Chung",
       "corr_author": "Gregory C. Beroza",
       "affiliation": "1Department of Geophysics, Stanford University, Stanford, California, U.S.A.",
-      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的大小大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
+      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的大小显着下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -64,7 +119,7 @@
       "first_author": "Andrew Van Horn",
       "corr_author": "Michael Hinczewski",
       "affiliation": "Department of Anthropology, Purdue University, West Lafayette, IN 47907, USA.",
-      "abs_zh": "在文艺复兴和早期现代时期，绘画主要是由画家大师创作的，他们指导学徒和其他经常为作品做出贡献的人的工作室。辨别谁创作了这些杰作以及他们是如何创作的，是技术艺术史上的一个核心问题，也是机器学习可以通过将分析扩展到微观尺度来帮助解决的一个重要问题。然而，对作坊绘画的分析提出了挑战，因为有关作坊成员和艺术品创作过程的信息仍然难以捉摸。因此，外部示例不可用于训练网络进行识别。在这里，我们提出了一种新颖的机器学习方法，我们称之为用于分类异质性的成对分配训练（PATCH），它能够在没有外部训练数据的情况下识别个人艺术实践体系。我们将这种方法应用于西班牙文艺复兴时期大师埃尔·格列柯的两幅历史画作，我们对其中一幅作品的发现可能会挑战之前的研究，即该画作的相当一部分是在埃尔·格列柯去世后由工作室成员完成的。在这个缺乏“真实数据”的复杂成对比较问题上，PATCH 的表现优于统计和无监督机器学习方法，这使得它在社会和自然科学中的类似案例中具有潜在的用途，包括遥感中的图像分割、城市开发和设计以及异常检测制造环境等。",
+      "abs_zh": "在文艺复兴和早期现代时期，绘画主要是由画家大师创作的，他们指导学徒和其他经常为作品做出贡献的人的工作室。辨别谁创作了这些杰作以及他们是如何创作的，是技术艺术史上的一个核心问题，也是机器学习可以通过将分析扩展到微观尺度来帮助解决的一个重要问题。然而，对作坊绘画的分析提出了挑战，因为有关作坊成员和艺术品创作过程的信息仍然难以捉摸。因此，外部示例不可用于训练网络进行识别。在这里，我们提出了一种新颖的机器学习方法，我们称之为用于分类异质性的成对分配训练（PATCH），它能够在没有外部训练数据的情况下识别个人艺术实践制度。我们将这种方法应用于西班牙文艺复兴时期大师埃尔·格列柯的两幅历史画作，我们对其中一幅作品的发现可能会挑战之前的研究，即该画作的相当一部分是在埃尔·格列柯去世后由工作室成员完成的。在这个缺乏“真实数据”的复杂成对比较问题上，PATCH 的表现优于统计和无监督机器学习方法，这使得它在社会和自然科学中的类似案例中具有潜在的用途，包括遥感中的图像分割、城市开发和设计以及异常检测制造环境等。",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -77,61 +132,6 @@
       "affiliation": "Centre for Computational Science, University College London, London, UK.",
       "abs_zh": "我们引入了量子信息机器学习（QIML）框架，用于对高维混沌系统的长期行为进行建模。 QIML 将一次性离线训练的量子生成模型与经典自回归预测器相结合，用于时空场生成。量子模型学习量子先验（Q-Prior），指导小尺度相互作用的表示并改进精细尺度动力学的建模。我们在 Kuramoto-Sivashinsky 方程、二维 Kolmogorov 流和用作实际流入条件的三维湍流通道流上评估 QIML。在这些系统中，相对于经典基线，QIML 将预测分布精度提高了 17.25%，全谱保真度提高了 29.36%。对于湍流通道流入，Q-Prior 在超导量子处理器上进行训练，并被证明是至关重要的：没有它，预测就会变得不稳定，而 QIML 会产生物理上一致的长期预测，其性能优于领先的偏微分方程求解器。除了准确性之外，QIML 通过将兆字节数据集压缩为千字节级 Q-Prior 来提供内存优势，从而能够将量子资源可扩展地集成到科学建模中。",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.ady9194",
-      "title": "Enhancing biomedical optical volumetric imaging via self-supervised orthogonal learning",
-      "url": "https://doi.org/10.1126/sciadv.ady9194",
-      "first_author": "Yuanjie Gu",
-      "corr_author": "Biqin Dong",
-      "affiliation": "College of Biomedical Engineering, Yiwu Research Institute, Fudan University, Shanghai, China.",
-      "abs_zh": "光学体积成像解决了由光子预算限制、光散射和空间带宽乘积瓶颈引起的固有噪声问题，所有这些问题都会降低结构保真度，并且比平面成像更加明显。虽然深度学习具有去噪的潜力，但监督方法受到配对数据集的不切实际的阻碍，并且现有的自监督方法无法充分利用光学成像固有的体积结构冗余。在这里，我们提出了一种自监督体积生物医学成像降噪器（VALID），它利用固有的三维空间相干性，通过自监督正交学习框架实现高效的体积去噪。 VALID 展示了跨多种成像模式的强大去噪性能，包括两光子和三光子显微镜、光场显微镜和光学相干断层扫描，显着增强了深层组织、多模态和动态成像场景中的结构保真度。通过将计算效率与零样本适应性相结合，VALID 建立了一种具有结构感知精度的体积图像增强的变革性方法。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121503",
-      "title": "Classification of the Atmospheric Boundary Layer Based on Turbulent Kinetic Energy Budget Terms Using Machine‐Learning Methods",
-      "url": "https://doi.org/10.1029/2025gl121503",
-      "first_author": "Jinhong Xian",
-      "corr_author": "Honglong Yang",
-      "affiliation": "Shenzhen National Climate Observatory Meteorological Bureau of Shenzhen Municipality  Shenzhen China",
-      "abs_zh": "大气边界层（ABL）控制着地表大气交换，但准确捕捉其全部复杂性，特别是在不同天气条件下湍流的动态演变性质，仍然是传统分类方法的巨大挑战。本研究引入了一种新颖的框架，该框架将相干多普勒激光雷达观测与机器学习相结合，根据湍流动能 (TKE) 预算的主要术语（浮力产生、剪切产生、耗散率和湍流传输）对 ABL 状态进行分类。这种方法利用了完整的能源循环（生产、运输和耗散），为分类提供了坚实的物理基础。我们确定了四种不同的 ABL 类型 (I-IV)，它们代表一系列湍流状态，从连续剪切驱动到强昼夜强迫，每种类型在其 TKE 预算中都有独特的特征，并且与特定的天气尺度天气模式有明确的联系。这些发现提供了对 ABL 过程的深入理解，并为增强数值模型中的湍流参数化奠定了坚实的基础。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120241",
-      "title": "Process‐Oriented Calibration of a Turbulence Scheme in the DOE's Global Storm‐Resolving Model Using Machine Learning",
-      "url": "https://doi.org/10.1029/2025gl120241",
-      "first_author": "Yunyan Zhang",
-      "corr_author": "Peter Caldwell",
-      "affiliation": "Lawrence Livermore National Laboratory  Livermore CA USA",
-      "abs_zh": "针对美国能源部简单云解析 E3SM 大气模型 (SCREAM) 中的简化高阶闭合 (SHOC) 湍流方案开发了面向过程的校准框架。该框架利用机器学习代理和观测约束来有效校准两个对流状态下的 SHOC 可调参数：来自 ARM 观测的晴空干燥对流边界层和晴天浅积云。我们使用 SCREAM 双周期版本的扰动参数集合来训练代理，并应用基于基准大涡模拟和观察的成本函数引导的马尔可夫链蒙特卡罗采样，以确定在两种状态下都表现良好的优化参数集。校准的 SHOC 参数极大地改善了边界层湍流和云边界，并且模拟的云分数和辐射效应比默认值更符合观测结果。这些结果表明，将多个特定过程的对流状态与机器学习替代项相结合可以减少参数不确定性，并产生更忠实于云-湍流相互作用的模型。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeb1397",
-      "title": "Experimental data reuploading with provable enhanced learning capabilities",
-      "url": "https://doi.org/10.1126/sciadv.aeb1397",
-      "first_author": "Martin F. X. Mauser",
-      "corr_author": "Philip Walther",
-      "affiliation": "University of Vienna, Faculty of Physics, Vienna Center for Quantum Science and Technology (VCQ), Boltzmanngasse 5, Vienna 1090, Austria.",
-      "abs_zh": "过去几十年见证了量子机器学习的发展，源于量子计算和机器学习的交叉。该领域对于替代量子（或量子启发）计算范式的设计特别有前途，与标准计算范式相比，这些计算范式可能需要更少的资源，例如在能源消耗方面。在这种情况下，我们提出了在光子集成处理器上实现数据重新上传方案，在多个图像分类任务中实现了高精度。我们彻底研究了这个看似简单的模型的功能，该模型依赖于单量子位状态的演化，通过提供分析证明来证明我们的实现是一个通用分类器和有效的学习器，能够泛化到新的未知数据。因此，我们的结果不仅证明了在潜在的资源高效光学实现中的数据重新上传，而且还提供了对该算法、其可训练性和通用性属性的理论见解。这为开发资源效率更高的机器学习算法奠定了基础，利用我们的方案作为子程序。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120062",
-      "title": "Observation‐Informed Machine Learning Convective Scheme: A New Training Strategy",
-      "url": "https://doi.org/10.1029/2025gl120062",
-      "first_author": "Junjie Huang",
-      "corr_author": "Gaoping Liu",
-      "affiliation": "State Key Laboratory of Earth System Numerical Modeling and Application (LabESM) Institute of Atmospheric Physics (IAP) Chinese Academy of Sciences  Beijing China",
-      "abs_zh": "由于长期集成过程中累积的错误，基于机器学习（ML）的方案面临在线稳定性和偏差的挑战。在这里，我们提出了一种新的对流过程 ML 训练策略，以更系统的方式提供趋势在线校正，并显着提高稳定性和偏差。新的训练策略采用重新分析动态场的模拟作为目标，而非推动模拟作为输入。低分辨率混合机器学习物理模型的结果表明，新的机器学习方案的性能要好得多，因为它增强了重层状和总降水量，并减少了温度偏差，成为有效的在线偏差校正机制。此外，由此产生的混合模型缓解了长期以来对热带对流与总降水比率的高估。最后，混合模型可以稳定运行一年以上，凸显了新训练策略的有效性和普适性。",
-      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -163,7 +163,7 @@
       "first_author": "Gunel Jahangirova",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
+      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障的能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
       "source": "arXiv",
       "published": "2024-12-20"
     }
