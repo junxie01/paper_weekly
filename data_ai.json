@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-26 至 2026-05-03 03:24",
+  "last_update": "2026-05-03 至 2026-05-10 03:27",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -25,6 +25,17 @@
       "published": "2026-02-10"
     },
     {
+      "id": "10.1016/j.epsl.2026.120091",
+      "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120091",
+      "first_author": "Ying Huang",
+      "corr_author": "Shengli Ma",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.119983",
       "title": "Quality/quantity quandary: machine learning framework for assessing tradeoffs in zircon geochemistry",
       "url": "https://doi.org/10.1016/j.epsl.2026.119983",
@@ -36,6 +47,83 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag171",
+      "title": "Deep Learning-based Microseismic Source Location with Joint Constraints of Source Imaging and Traveltime Residuals",
+      "url": "https://doi.org/10.1093/gji/ggag171",
+      "first_author": "Lei Li",
+      "corr_author": "Jianxin Liu",
+      "affiliation": "State Key Laboratory for Critical Mineral Research and Exploration, School of Geosciences and Info-physics, Central South University , Changsha, Hunan ,",
+      "abs_zh": "总结\n                  微震震源定位对于地震监测和地下资源开发至关重要。在复杂速度模型下处理低信噪比 (SNR) 数据时，走时反演和波形叠加方法的精度都有限。现有的深度学习方法主要采用纯粹的数据驱动策略，没有物理约束，抑制大的和意外的位置错误的能力有限。我们提出了一种用于微震震源定位的物理约束深度学习方法，该方法将互相关叠加（CCS）成像的物理原理集成到网络训练中。该方法结合了源成像质量损失和走时一致性损失的联合损失函数，以及帕累托动态加权策略来平衡不同的损失分量。 Marmousi 速度模型的综合实验表明，与纯数据驱动方法相比，联合约束方法将平均绝对误差 (MAE) 从 34.09 m 降低到 27.91 m。最大误差从280.18 m下降到130.38 m，降低了53.5%，有效抑制了较大的定位误差。经过训练的网络在 0.04 秒内实现单事件成像预测，比传统 CCS 所需的 3 秒加速了 75 倍。该方法在密集阵列的近实时微震监测中显示出巨大的潜力。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adz1865",
+      "title": "Machine learning–driven discovery of optimal designs for water electrolysis devices",
+      "url": "https://doi.org/10.1126/sciadv.adz1865",
+      "first_author": "Zirui Zhang",
+      "corr_author": "Haihui Wang",
+      "affiliation": "Department of Chemical Engineering, State Key Laboratory of Chemical Engineering and Low-carbon Technology, Tsinghua University, Beijing 100084, China.",
+      "abs_zh": "通过水电解生产绿色氢气是能源系统脱碳的关键，但由于气泡截留和手动优化，目前的电解槽设计是能源密集型的。这项研究引入了一种机器学习（ML）策略，可以自主设计高效电解槽流道。我们使用专家混合框架确定了一种阵列型通道几何形状，可以增强气泡去除效果，并通过参数分析建立结构-性能关系。与传统蛇形设计相比，采用人工智能优化通道的原型电解槽在 2 V 电压下的电流密度提高了约 23%。这种增强在放大的设备中始终如一，强调了跨尺度设计的有效性。与模拟每种几何形状的基于计算流体动力学的方法相比，我们的机器学习代理执行数据驱动的筛选，以有效识别和验证高性能通道结构。通过解码拓扑特征和多相传输之间的关系，这项工作概述了下一代电化学系统自主设计的可扩展途径。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120250263",
+      "title": "Machine Learning–Based Automatic Microseismic Event Detection During the 17 August 2015 Mw 4.6 Induced Earthquake Sequence in Northern Montney, British Columbia, Canada",
+      "url": "https://doi.org/10.1785/0120250263",
+      "first_author": "Mohammad Hossein Khosravi",
+      "corr_author": "Qinya Liu",
+      "affiliation": "1Department of Earth Sciences, University of Toronto, Toronto, Canada",
+      "abs_zh": "微震活动监测对于更好地了解水力压裂（HF）作业中的裂缝扩展和储层行为，以及诱发地震的断层激活过程和人为过程引起的相关地震灾害至关重要。检测地震事件并选取首波纵波和横波相位是微震监测和安全资源管理的基本任务。在这项研究中，我们对2015年8月10日至9月10日加拿大不列颠哥伦比亚省蒙尼区北部的高频操作记录的地震检波器数据集进行了微震事件检测的最先进深度学习（DL）模型的受控域转移基准测试。在此期间，发生了4.6级诱发地震。在评估多个预训练选择器后，我们选择 PhaseNet 并通过将输入数据采样率从 100 Hz 提高到 500 Hz 来优化其在显着域转移下的性能，从而显着增强其准确识别低信噪比 (SNR) 微震相位的能力。通过应用自动相位关联和事件定位算法的工作流程，我们构建了一个高置信度、面向精确的事件目录，该目录成功识别了通过基于迁移的堆叠生成的参考工业目录的约 55%。 DL 目录显示了高度一致的时空模式和矩量级 (Mw 4.6) 检测能力。我们证明，检测差距主要反映了单站分类器和网络级亮度方法之间的根本差异，错过的事件通常是真正的低信噪比到达或参考目录中的视觉噪声片段，而不是被时间信号重叠所掩盖。这些发现表明，与微震领域的专有商业软件相比，用于自动事件检测和定位的基于开源包的工作流程可能足够好",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.adx4358",
+      "title": "Tuft dendrites in frontal motor cortex enable flexible learning",
+      "url": "https://doi.org/10.1126/science.adx4358",
+      "first_author": "Eduardo Maristany de las Casas",
+      "corr_author": "Matthew E. Larkum",
+      "affiliation": "Institute for Biology, Humboldt University of Berlin, Berlin, Germany.",
+      "abs_zh": "灵活的学习依赖于整合感官和情境信息来调整不同环境中的行为输出。前外侧运动皮层（ALM）是啮齿类动物动作选择的关键额叶区域。我们发现对决策至关重要的输入集中在 ALM 中第 5b 层锥体神经元的顶端簇树突上。因此，我们研究了这些树突在规则转换范式中的作用。树突抑制层 1 中间神经元的激活会损害再学习，但不会影响之前学习的行为。这种抑制作用极大地抑制了树突轴中的整体钙活性，但没有抑制树突棘中的局部瞬变，同时还减少了爆发放电。此外，簇树突的兴奋性突触输入表现出规则依赖性聚类。我们得出的结论是，树突状钙信号传导是灵活学习的关键计算组成部分。",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121238",
+      "title": "Decoupling Seasonal Seismic Velocity Changes on Slow‐Moving Slopes in Southwest China Using Tree Ensemble Machine Learning",
+      "url": "https://doi.org/10.1029/2025gl121238",
+      "first_author": "Dekang Li",
+      "corr_author": "Hengshu Zhu",
+      "affiliation": "Computer Network Information Center Chinese Academy of Sciences  Beijing China",
+      "abs_zh": "地震特性的变化可以帮助评估斜坡损坏，斜坡损坏受到温度、相对湿度、降雨、气压和当地地震活动等外部因素的影响。然而，这些因素的贡献，以及主导因素如何调节瞬态和季节性地震速度变化（），在不同的斜坡类型中仍不清楚。我们对中国西南地区两个具有代表性的边坡进行了为期两年的日常现场监测：瀑布沟 (PBG) 岩石边坡和锦屏子 (JPZ) 碎屑土边坡。我们应用 eXtreme Gradient Boosting (XGBoost) 回归器和 SHapley Additive exPlanation (SHAP) 来量化每个因素的边际贡献。 XGBoost 模型在预测方面优于其他常见模型。 SHAP 分析强调温度是最有影响力的因素，同时揭示了一种对比模式：PBG 斜率上的线性相关性与 JPZ 斜率上的非线性关系。这种差异主要归因于不同斜坡类型的固有材料特性。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl119400",
+      "title": "Phase Relations and Melting of SiO\n                    <sub>2</sub>\n                    Under Mantle Conditions Determined From Machine Learning Potentials",
+      "url": "https://doi.org/10.1029/2025gl119400",
+      "first_author": "Xin Deng",
+      "corr_author": "R. E. Cohen",
+      "affiliation": "Earth and Planets Laboratory Carnegie Institution for Science  Washington DC USA",
+      "abs_zh": "二氧化硅\n                    2\n                    是行星内部的基本组成部分，但其高压熔化和相关系仍然不确定。我们开发了具有第一原理准确性的机器学习潜力，并进行了大规模两相共存模拟，以确定高达 160 GPa 的 Stishovite、Post Stishovite 和 Seifertite 的熔化曲线，不确定性约为 10 K。这种前所未有的精度使我们能够在 110 GPa/6060 K（stishovite/post-stishovite/liquid）处找到一个三临界点，在 130 GPa/6220 K（post-stishovite/seifertite/liquid）处找到一个三相点，从而固定二氧化硅高压多晶型物的相界。在俯冲板片中，斯石英到后斯石英的转变发生在~1,510–1,640公里深度（~65GPa和1930K），与之前的估计一致，而后石英矿到镁铁矿的转变发生在比之前推断的浅得多，在核幔边界上方约600公里处（~101GPa和2410K）。这些结果表明，塞铁矿是遍布下地幔深部大部分区域的热力学稳定的二氧化硅多晶型物。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121483",
+      "title": "Understanding the Influence of Soil Moisture on Machine Learning Predictions of Photosynthesis and Evapotranspiration",
+      "url": "https://doi.org/10.1029/2025gl121483",
+      "first_author": "Daniel Power",
+      "corr_author": "Rafael Rosolem",
+      "affiliation": "School of Civil, Aerospace and Design Engineering University of Bristol  Bristol UK",
+      "abs_zh": "蒸散量（ET）和光合作用是生态系统功能的关键过程，土壤水分（SM）对其具有重要影响。涡流协方差测量和机器学习 (ML) 越来越多地支持未测量区域的通量预测。由于有多种可用的 SM 估计方法，每种方法都代表不同的时空尺度，因此了解数据选择如何影响 ML 预测非常重要。我们的研究探讨了不同的 SM 数据如何影响 ET 和光合作用的 ML 预测。在半干旱到干旱地区，我们发现原位近地表 SM 增强了 ET 的 ML 预测。对于光合作用，SM 记忆表明了更深层次的 SM 控制，显示出最高的预测能力，在最干燥的地点将预测提高了 30%。这些对比的响应表明，ET 和总初级生产力 (GPP) 可能受不同的 SM 机制控制：ET 的空间尺度匹配和 GPP 的时间深度。我们的研究表明，流程引导的特征工程可以改善根区 SM 观察通常无法获得的 ML 预测。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1038/s41586-026-10433-7",
       "title": "Improving access to essential medicines via decision-aware machine learning",
       "url": "https://doi.org/10.1038/s41586-026-10433-7",
@@ -44,94 +132,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-01152-0",
-      "title": "Machine learning improves health-care access in Sierra Leone",
-      "url": "https://doi.org/10.1038/d41586-026-01152-0",
-      "first_author": "Ziad Obermeyer",
-      "corr_author": "Ziad Obermeyer",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl118317",
-      "title": "The Value of Forecasters‐in‐the‐Loop in Real‐Time Flood Forecasting in the Age of Machine Learning",
-      "url": "https://doi.org/10.1029/2025gl118317",
-      "first_author": "Vinh Ngoc Tran",
-      "corr_author": "Valeriy Y. Ivanov",
-      "affiliation": "Department of Civil and Environmental Engineering University of Michigan  Ann Arbor MI USA",
-      "abs_zh": "机器学习（ML）在水文预报中的应用越来越普遍，并显示出巨大的潜力。然而，许多先前的研究仅通过与简化基线相比的重新分析或回顾性模拟来评估性能。这项研究首次根据加州内华达河预报中心 (CNRFC) 运营的实际业务预报系统对机器学习性能进行了评估，该系统将社区水文预报系统 (CHPS) 与预报员在环相结合。结果表明，即使 ML 模型使用观测到的强迫，预报员在环系统在一般预报和洪水警报方面始终优于 ML 模型，交付时间长达 96 小时，而 CNRFC 操作流程依赖于有偏差的天气预报。我们的分析表明，尽管降水输入不准确，预报员的专业知识仍能保持预报的可靠性，而人工引导系统在较长的交付时间内表现出卓越的性能退化特征。这些发现凸显了人类专业知识在运营预测方面的不可替代的价值，并警告不要夸大现实应用中当前的机器学习能力。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adx2372",
-      "title": "ArchesWeatherGen: Skillful and compute-efficient probabilistic weather forecasting with machine learning",
-      "url": "https://doi.org/10.1126/sciadv.adx2372",
-      "first_author": "Guillaume Couairon",
-      "corr_author": "Claire Monteleoni",
-      "affiliation": "INRIA, Paris, France.",
-      "abs_zh": "天气预报在当今社会中发挥着至关重要的作用，从农业和物流到预测可再生能源的产量和为极端天气事件做好准备。与数值全球环流模型相比，在 ERA5 上使用下一个状态预测目标训练的深度学习天气预报模型已显示出巨大的成功。在这里，我们提出了一种在概率天气模型设计中利用确定性天气模型的方法，从而提高性能并降低计算成本。我们设计了一个基于流匹配的概率天气模型，这是扩散模型的现代变体，经过训练，可以将确定性天气预报投射到 ERA5 天气​​状态的分布。我们的模型 ArchesWeatherGen 在所有 WeatherBench 标题变量上都超过了 IFS ENS 和 NeuralGCM（NeuralGCM 的位势除外）。我们的工作还旨在使生成机器学习模型在天气预报研究中的使用民主化。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aea2020",
-      "title": "Wearable thumb sleeves enabled by self-supervised learning with few stretchable sensors and few-shot data for switchable finger tasks",
-      "url": "https://doi.org/10.1126/sciadv.aea2020",
-      "first_author": "Kunpeng Li",
-      "corr_author": "Jong-Chul Lee",
-      "affiliation": "Department of Electronic Convergence Engineering, Kwangwoon University, Seoul 01897, South Korea.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-2295-2026",
-      "title": "Identification and correction of snow depth bias in ERA5 datasets over Central Europe using machine learning",
-      "url": "https://doi.org/10.5194/tc-20-2295-2026",
-      "first_author": "Gabiel Stachura",
-      "corr_author": "Zbigniew Ustrnul",
-      "affiliation": "未知机构",
-      "abs_zh": "。从气象和水文的角度来看，准确估算积雪深度是一个至关重要的问题。全球和区域的重新分析仍然难以解决这个问题，主要是因为雪空间异质性的规模远远超出了数据集当前的分辨率。在这项研究中，将哥白尼重新分析 ERA5 和 ERA5-Land 的雪深估计与 2001/2002 年至 2020/2021 年冬季波兰、捷克共和国和斯洛伐克的点测量进行了比较和评估。此外，还开发了随机森林 (RF) 模型，以减少基于重新分析和数字高程模型得出的各种环境变量和参数而识别的错误。由于山脉是中欧的主要雪水库，因此该模型用于在山地地形的细尺度子域上在空间上缩小雪深。对于这两次重新分析，在平坦或平缓起伏的地形（低于 500米a.s.l.）中，偏差相对较小。由于存在数据同化，ERA5 (0.25°) 优于 ERA5-Land (0.1°)。由于仅同化天气观测数据，因此这些站的误差最低，但气候和降水站也会受到影响。在更复杂的地形中，两次重新分析都显示出低估的雪量，雪量随着海拔的升高而增加。在这一领域，ERA5-Land 的偏差稍微小一些，因为它具有更高的分辨率，而且来自山区的观测结果经常被 ERA5 中的数据同化所掩盖。相对于最佳重新分析，所提出的 RF 模型将估计精度提高了约 48%。空间缩小的结果无疑为复杂地形中的雪估计问题提供了附加价值。尽管它们不能被认为是完全有效和可靠的，因为并未考虑到在这种分辨率下决定雪的空间变化的所有因素，但它们可能对未来的研究有用，例如关于雪的气候变化的研究。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag149",
-      "title": "A Unified Mixed-Effects Framework for Earthquake Source-Parameter Scaling across Tectonics, Fault Mechanisms, Seismic Regions, and Finite-Fault Inversion Characteristics",
-      "url": "https://doi.org/10.1093/gji/ggag149",
-      "first_author": "Bhargavi Podili",
-      "corr_author": "S T G Raghukanth",
-      "affiliation": "Indian Institute of Technology Madras Department of Civil Engineering, , Chennai, TN , – 600 036",
-      "abs_zh": "总结\n                  Seismic sources are typically characterized as stochastic slip distributions on complex fault geometries, which pose significant challenges for computational modelling. Source scaling laws, however, offer a streamlined alternative by correlating simplified fault geometry and slip characteristics with earthquake magnitude. So far, distinct scaling laws have been developed for different tectonic settings and fault mechanisms. However, regional variations in source parameters have not been explicitly quantified. For example, it remains unclear whether earthquakes occurring in similar tectonic environments (e.g. subduction zones) and fault mechanisms (e.g. reverse faulting), but in different regions such as Japan, South America, or Indonesia, exhibit comparable source characteristics, or how such variability should be incorporated into scaling relations. To address this gap, the present study performs a comprehensive exploratory analysis of earthquake source attributes derived exclusively from finite-fault models, including stress drop, alongside standard fault geometry and slip parameters. The analysis spans multiple groupings defined by tectonic setting, fault mechanism, seismic region, focal depth, crustal type, as well as fault-plane inversion modality and spatial resolution, which are examined to account for modelling-related variability across datasets. Stress-drop proxy and slip-parameter estimates, particularly for large magnitude earthquakes, display systematic deviations from self-similar scaling assumptions. Fault-plane modality, defined by the type of seismic and/or geodetic data used in the inversion, and fault-plane resolution, quantified by subfault discretization, are found to be associated with systematic differences in inferred slip and asperity parameters, and help explain part of the intra-event variability observed when multiple models exist for the same earthquake. These factors are therefore incorporated explicitly to iso",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.ady9955",
-      "title": "Steering semi-flexible molecular diffusion model for structure-based drug design with reinforcement learning",
-      "url": "https://doi.org/10.1126/sciadv.ady9955",
-      "first_author": "Xudong Zhang",
-      "corr_author": "Changjun Jiang",
-      "affiliation": "Shanghai Key Laboratory of Maternal Fetal Medicine, Clinical and Translational Research Center of Shanghai First Maternity and Infant Hospital, School of Computer Science and Technology, Tongji University, Shanghai 200092, China.",
-      "abs_zh": "当前基于结构的分子生成面临着一个根本性的困境：虽然静态配体建模在计算方法中占主导地位，但现实世界的分子相互作用本质上是动态的。受配体在半柔性对接过程中经历的构象变化的启发，我们提出了一种强化学习（RL）引导的扩散框架，用于蛋白质口袋中的半柔性分子生成。通过将去噪过程定义为马尔可夫决策过程，强化学习通过迭代探索动态调整分子结构。同时，我们将多种分子特性作为条件，将去噪策略限制在类药物区域，并对无目标分子和特定目标分子进行自我监督的严格训练。此外，我们提出了快速采样策略，将采样速度加快了20倍，从而提高了训练和采样的效率。 Experiments demonstrate that our method outperforms state-of-the-art methods with a Vina score of −7.23 kcal/mol and an 11.53% success rate.针对现实世界中看不见的蛋白质，生成的分子保留了规范的相互作用模式，同时发现了以前未知的结合化学型。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250453",
-      "title": "Variability in Performance of a Machine Learning Seismicity Catalog: Central Italy, 2016–2017",
-      "url": "https://doi.org/10.1785/0220250453",
-      "first_author": "Jaehong Chung",
-      "corr_author": "Gregory C. Beroza",
-      "affiliation": "1Department of Geophysics, Stanford University, Stanford, California, U.S.A.",
-      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的大小显着下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {

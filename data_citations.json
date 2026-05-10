@@ -1,9 +1,58 @@
 {
-  "last_update": "2026-05-03 03:25",
+  "last_update": "2026-05-10 03:28",
   "topic_name": "文章引用",
-  "total_citations": 0,
-  "weekly_citations": 0,
-  "papers": [],
-  "weekly_papers": [],
-  "map_data": []
+  "total_citations": 1,
+  "weekly_citations": 1,
+  "papers": [
+    {
+      "id": "10.1093/gji/ggag158",
+      "title": "Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea",
+      "url": "https://doi.org/10.1093/gji/ggag158",
+      "first_author": "Eduardo Valero Cano",
+      "corr_author": "Paul Martin Mai",
+      "affiliation": "PSE Division, King Abdullah University of Science and Technology (KAUST) , Thuwal 23955-6900 ,",
+      "abs_zh": "This paper cited: An investigation of time–frequency domain phase-weighted stacking and its application to phase-velocity extraction from ambient noise's empirical Green's functions",
+      "source": "Geophysical Journal International",
+      "published": "2026-4-25",
+      "cited_paper": "An investigation of time–frequency domain phase-weighted stacking and its application to phase-velocity extraction from ambient noise's empirical Green's functions",
+      "is_new_this_week": true,
+      "coordinates": {
+        "lat": 22.2833454,
+        "lon": 39.1128145,
+        "display_name": "ثول, محافظة جدة, منطقة مكة المكرمة, 23955-6900, السعودية"
+      }
+    }
+  ],
+  "weekly_papers": [
+    {
+      "id": "10.1093/gji/ggag158",
+      "title": "Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea",
+      "url": "https://doi.org/10.1093/gji/ggag158",
+      "first_author": "Eduardo Valero Cano",
+      "corr_author": "Paul Martin Mai",
+      "affiliation": "PSE Division, King Abdullah University of Science and Technology (KAUST) , Thuwal 23955-6900 ,",
+      "abs_zh": "This paper cited: An investigation of time–frequency domain phase-weighted stacking and its application to phase-velocity extraction from ambient noise's empirical Green's functions",
+      "source": "Geophysical Journal International",
+      "published": "2026-4-25",
+      "cited_paper": "An investigation of time–frequency domain phase-weighted stacking and its application to phase-velocity extraction from ambient noise's empirical Green's functions",
+      "is_new_this_week": true,
+      "coordinates": {
+        "lat": 22.2833454,
+        "lon": 39.1128145,
+        "display_name": "ثول, محافظة جدة, منطقة مكة المكرمة, 23955-6900, السعودية"
+      }
+    }
+  ],
+  "map_data": [
+    {
+      "lat": 22.2833454,
+      "lon": 39.1128145,
+      "title": "Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea",
+      "author": "Eduardo Valero Cano",
+      "affiliation": "PSE Division, King Abdullah University of Science and Technology (KAUST) , Thuwal 23955-6900 ,",
+      "published": "2026-4-25",
+      "url": "https://doi.org/10.1093/gji/ggag158",
+      "is_new_this_week": true
+    }
+  ]
 }

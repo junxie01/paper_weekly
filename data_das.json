@@ -1,70 +1,92 @@
 {
-  "last_update": "2026-04-26 至 2026-05-03 03:24",
+  "last_update": "2026-05-03 至 2026-05-10 03:27",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2604.28085v1",
-      "title": "Failure of the semi log canonical Abundance for compact Kähler threefolds",
-      "url": "http://arxiv.org/abs/2604.28085v1",
-      "first_author": "Swapnajit Das",
+      "id": "2605.06618v1",
+      "title": "MTRBO: Multiple trust-region based Bayesian optimization",
+      "url": "http://arxiv.org/abs/2605.06618v1",
+      "first_author": "Sourav Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "在本文中，我们证明紧凑型 Kähler 变体的半对数正则丰度在 $3$ 维度上失败。更具体地说，我们构建了一个紧凑的Kähler（不可约）slc三重$(X, 0)$的反例，使得$K_X$是nef并且$κ(\\tilde X, K_{\\tilde X}+\\tilde D)=0$，其中$μ:(\\tilde X, \\tilde D)\\to X$是归一化态射，但是$K_X$不是半充足的。另一方面，我们证明，如果我们从一个紧致的 Kähler semi-dlt 对开始，那么丰度确实成立，即，如果 $(X, Δ)$ 是维度为 $3$ 的紧致 Kähler sdlt 对，使得 $K_X+Δ$ 为 nef，那么它是半充足的。我们还表明，如果 $(X, Δ)$ 是维度 $3$ 的紧致 Kähler slc 对，$K_X+Δ$ 为 nef，并且对于所有 $i$ $κ(X'_i, Δ'_i+D'_i)>0$，其中 $μ:\\sqcup(X'_i, Δ'_i+D'_i)\\to (X,Δ)$ 是归一化，则 $K_X+Δ$是半充足的。",
+      "abs_zh": "贝叶斯优化（BO）是一种用于优化黑盒函数的流行框架。尽管它很有效，但由于搜索空间的指数增长、目标函数的异质性和低采样预算，BO 对于高维问题通常效率低下。为了克服这些问题，本文提出了一种基于多信任域的贝叶斯优化技术（MTRBO）。信任区域是一个局部区域，在该区域内信任优化模型能够准确地逼近目标函数。假设高斯过程（GP）作为关于目标函数的先验信念并基于后验均值和方差函数，该方法自适应地利用信任区域内有希望的当前解附近。还探索另一个信任区域内搜索空间中最不确定的区域。建立了该方法的理论全局收敛性。然后，该工作与其他最先进的基于信任域的贝叶斯优化算法进行基准测试，展示了在各种非凸和高维测试函数上的卓越性能。所提出的方法在抽样预算（函数评估的数量）内的解决方案质量方面优于其他方法。所提出的方法应用于投资组合优化问题，以验证其在实际场景中的适用性。",
       "source": "arXiv",
-      "published": "2026-04-30"
+      "published": "2026-05-07"
     },
     {
-      "id": "2604.28065v1",
-      "title": "Assessing the Role of Intersection Proximity in Pedestrian Crashes: Insights from Data Mining Approach",
-      "url": "http://arxiv.org/abs/2604.28065v1",
-      "first_author": "Ahmed Hossain",
+      "id": "2605.06599v1",
+      "title": "Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization",
+      "url": "http://arxiv.org/abs/2605.06599v1",
+      "first_author": "Abhijit Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "尽管十字路口是道路网络中最复杂的部分，但非十字路口位置的行人碰撞事故却异常频繁，凸显了严重的交通安全问题。本研究使用从路易斯安那州收集的碰撞数据库（2017-2021 年）调查涉及行人的非交叉路口碰撞事故。由于行人碰撞事故的风险往往随着距交叉路口的距离而变化，研究团队利用独特的“到交叉路口的距离”框架来捕捉非交叉路口位置碰撞模式的差异。研究发现，大约 50% 的非十字路口行人碰撞事故发生在距十字路口 198 英尺的范围内。下一步，在研究期间收集的非交叉口位置的 3,135 起行人碰撞事故被细分为三个区域：D1 区域指定发生在交叉口 150 英尺内的碰撞事故（1,277 起事故），D2 区域指定发生在交叉口 151 英尺至 435 英尺内的碰撞事故（1,060 起事故），D3 区域指定发生在 435 英尺处的碰撞事故。或更高的距离（798 起事故）。为了探索多个因素的复杂相互作用，使用了一种直观的数据挖掘技术——关联规则挖掘。该算法（基于提升和支持措施）总共识别出前 60 条有趣的关联规则（每个区域 20 条）。此外，基于提升增加标准（LIC）衡量标准，总共探索了124条规则。这项研究的结果为非十字路口位置的行人碰撞事故以及碰撞模式根据“到十字路口的距离”的变化提供了重要的见解。根据调查结果，还建议采取一些针对具体问题的针对性对策，以解决非交叉路口位置的碰撞模式。",
+      "abs_zh": "权重衰减在大型语言模型中被广泛用作正则化器，但其在塑造 Transformer 损失景观中的精确作用在理论上仍然没有得到充分探索。本文通过证明标准 Transformer 目标（具有 $L^2$ 正则化的交叉熵损失）满足 Villani 的强制能量函数标准，提供了第一个严格的函数分析表征。具体来说，我们证明正则化损失 $\\mathcal{F}$ 是无限可微的，至少以二次方增长，具有高斯可积尾部，并且满足微分增长条件 $-Δ\\mathcal{F} + \\tfrac{1}{s}\\|\\nabla\\mathcal{F}\\|^{2} \\to \\infty$ 作为 $\\|θ\\|对于所有 $s>0$，\\ 到 \\infty$。从这个结构中，我们推导出显式的 log-Sobolev 和 Poincaré 常数 $C_{\\mathrm{LS}} \\leq λ^{-1} + d/λ^{2}$，将正则化强度 $λ$ 和模型维度 $d$ 与有限时间收敛保证联系起来，以保证噪声随机梯度下降和随着 $λ$ 的增加而收紧的 PAC-贝叶斯泛化边界。为了验证我们的理论，我们引入了可扩展的 Villani 诊断 $Ψ_s(θ) = -Δ\\mathcal{F} + s^{-1}\\|\\nabla \\mathcal{F}\\|^2$，并在具有超过 100M 参数的模型中使用 Hutchinson 跟踪探针对其进行有效估计。 Penn Treebank 和 WikiText-103 上的 GPT-Neo-125M 实验证实了预测的 $Ψ_s$ 二次增长、Hessian 矩阵的谱膨胀以及与我们的 log-Sobolev 分析一致的指数收敛行为。这些结果表明，权重衰减不仅在经验上提高了泛化能力，而且还建立了深度学习中快速朗之万混合和理论上基于曲率感知优化所需的数学条件。",
       "source": "arXiv",
-      "published": "2026-04-30"
+      "published": "2026-05-07"
     },
     {
-      "id": "2604.27764v1",
-      "title": "GourNet: A CNN-Based Model for Mango Leaf Disease Detection",
-      "url": "http://arxiv.org/abs/2604.27764v1",
-      "first_author": "Ekram Alam",
+      "id": "2605.06333v1",
+      "title": "TinyBayes: Closed-Form Bayesian Inference via Jacobi Prior for Real-Time Image Classification on Edge Devices",
+      "url": "http://arxiv.org/abs/2605.06333v1",
+      "first_author": "Shouvik Sardar",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "芒果种植在农业部门至关重要，对经济发展和粮食安全做出了重大贡献。然而，影响芒果叶子的疾病会显着降低产量和整体水果等级。早期精确检测叶部病害是有效预防病害和维持作物生产力的关键。在本文中，我们介绍了一种名为“GourNet”的“深度学习”模型，该模型利用“卷积神经网络”来识别芒果叶中的感染。我们利用“MangoLeafBD”（MBD）数据集来训练和评估所提出模型的有效性。 MBD 数据集包含七个疾病类别和一个健康类别，总共八个类别。为了增强模型性能，在训练之前通过调整大小、重新缩放和数据增强等步骤对图像进行预处理。为了正确评估模型，数据集被分为 80% 用于训练，其余 20% 在验证和测试之间平均分配。我们的模型仅使用 683,656 个总参数，分类精度达到 97%。这项研究的源代码可以在以下网址找到：https://github.com/ekramalam/GourNet-Repo。",
+      "abs_zh": "可可 (Theobroma cacao) 是西非数百万小农的重要经济作物，可可肿芽病毒病 (CSSVD) 和炭疽病导致毁灭性的产量损失。从叶子图像中自动检测疾病对于早期干预至关重要，但在资源有限的环境中部署此类系统需要体积小、速度快且不需要互联网连接的模型。现有的可边缘部署的植物病害系统依赖于端到端的深度学习，而没有不确定性量化，而边缘设备的贝叶斯方法侧重于硬件级推理架构，而不是农业应用。我们用 TinyBayes 弥补了这一差距，TinyBayes 是第一个将封闭式贝叶斯分类器与移动级计算机视觉管道相结合的框架，用于农作物病害检测。我们的流程使用 YOLOv8-Nano (5.9 MB) 进行病变定位，使用 MobileNetV3-Small (3.5 MB) 进行特征提取，并使用 Jacobi 先验；贝叶斯方法，通过投影提供封闭形式的非迭代估计器，用于分类。 Jacobi-DMR（分布式多项回归）分类器仅向管道添加 13.5 KB，使总模型大小控制在 9.5 MB 以内，同时在 Amini Cocoa Contamination Challenge 数据集上实现 78.7% 的准确率，并在每张图像 150 毫秒内实现端到端 CPU 推理。我们对包括随机森林、SVM、Ridge、Lasso、Elastic Net、XGBoost 和 Jacobi-GP 在内的七个分类器进行了基准测试，并证明 Jacobi-DMR 在边缘部署的准确性、模型大小和推理速度之间提供了最佳权衡。我们证明了Jacobi-DMR的渐近等价性和一致性、渐近正态性和偏差校正。所有数据和代码都可以在这里找到：https://github.com/shouvik-sardar/TinyBayes",
       "source": "arXiv",
-      "published": "2026-04-30"
+      "published": "2026-05-07"
     },
     {
-      "id": "2604.27750v1",
-      "title": "Field-driven helicity in solid-state high-harmonic generation",
-      "url": "http://arxiv.org/abs/2604.27750v1",
-      "first_author": "Carlos Batista",
+      "id": "2605.06155v1",
+      "title": "On Weakly Contractible Non-Contractible Finite Topological Spaces of Ten Points",
+      "url": "http://arxiv.org/abs/2605.06155v1",
+      "first_author": "Ponaki Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "光的偏振态在强场光-物质相互作用中起着核心作用，并广泛用于通过高次谐波产生（HHG）探测固体中的电子结构。特别是，螺旋度解析的 HHG 已被解释为晶体对称性和拓扑结构的指纹。在这里，我们展示了使用偏振制作的光束对固体中谐波螺旋性的确定性和连续控制，该光束由两个具有受控时间延迟的正交偏振脉冲形成。通过调节此延迟，各个谐波的偏振态可以从线性驱动为圆形，而与所研究的材料无关。我们表明，这种行为在具有不同对称性和拓扑结构的系统中是稳健的，并且源于偶极子耦合介导的光-物质相互作用的子循环调制。此外，正交配置可以打破光与物质相互作用的动态对称性，这在标准选择规则下产生了原本禁止的谐波中得到体现。这些结果将谐波螺旋性确立为场控可观察量，而不是直接的材料指纹。",
+      "abs_zh": "Cianci 和 Ottina 证明了同伦平凡不可收缩有限 $T_0$ 空间不能少于九个点，并用正好九个点对所有此类空间进行分类。本文仅用十个点就完成了空间的分类。当中间元素的数量为1个或2个时，不存在这样的空间；这是通过欧拉特征算术、节拍点论证和强制裸边分析建立的。对于正好三个中间元素，正好有六个空间达到同胚，形成三种显式类型及其序对偶；对于正好四个中间元素，正好有四个这样的空间。十个有效空间均显示为具有可收缩的序复合体：给出了七个显式基本折叠序列，每个类型~I到~VII都有一个，而其余三个空间，即类型~I、II和~III的序对偶，从单纯复合体的恒等式 $\\mathcal{K}(X^{\\mathrm{op}})=\\mathcal{K}(X)$ 继承可收缩性，因为 $X$ 中的链和$X^{\\mathrm{op}}$ 作为集合一致，并且 $\\mathcal{K}(X)$ 的任何折叠序列同时对于 $\\mathcal{K}(X^{\\mathrm{op}})$ 来说也是一。",
       "source": "arXiv",
-      "published": "2026-04-30"
+      "published": "2026-05-07"
     },
     {
-      "id": "2604.27680v1",
-      "title": "To stall-cell or not to stall-cell: Variational data assimilation of 3D mean flow past a stalled airfoil",
-      "url": "http://arxiv.org/abs/2604.27680v1",
-      "first_author": "Uttam Cadambi Padmanaban",
+      "id": "2605.05661v1",
+      "title": "Helium emission from Balmer-dominated shocks in Type Ia supernova remnants provides constraints to their progenitor systems",
+      "url": "http://arxiv.org/abs/2605.05661v1",
+      "first_author": "Priyam Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "根据稀疏实验测量对三维 (3D) 湍流进行全场重建仍然是一个重大挑战，特别是对于表现出复杂 3D 流动分离的流动。在这项工作中，我们针对失速单元的情况解决了这一挑战，失速单元是在失速后条件下在机翼吸力表面上形成的翼展相干结构。平面粒子图像测速 (PIV) 实验在 NACA 0012 机翼上进行，基于弦的雷诺数 $Re_c \\approx 450{,}000$ 和迎角 $α= 14^\\circ$，获取四个展向平面上的两分量平均速度数据。实验数据显示分离程度和流动动力学的明显翼展变化，与失速单元的存在一致。然后，采用场反演框架内的三维变分 (3DVar) 数据同化 (DA)，通过使用 Spalart-Allmaras (SA) 雷诺平均纳维-斯托克斯 (RANS) 湍流模型增强这些稀疏平面测量结果来重建完整的 3D 平均流场。重建的性能是在同化中未使用的平面上评估的。结果表明，稀疏实验数据的单个平面足以恢复失速单元的基本特征，包括吸力表面焦点周围的反向旋转涡流。当使用靠近但表现出明显不同分离程度的两个数据平面时，可以获得最低的重建误差，并且解释了参考数据放置和计算边界条件在塑造重建失速单元结构中的互补作用。这些结果证明了 3DVar DA 能够根据在选定展向平面上获取的二分量速度数据重建失速单元的完整 3D 物理场。",
+      "abs_zh": "Ia 型超新星遗迹中巴尔默主导的激波为无碰撞激波物理提供了有力的探索，并暗示了超新星前身环境。先前的研究主要集中在氢巴尔默线，其表现为宽发射线和窄发射线的叠加。使用 MUSE 积分场光谱，我们发现了大麦哲伦云中三个 Ia 型超新星遗迹的巴尔默主导灯丝的宽和窄氦发射线：SNR 0509-67.5、SNR 0519-69.0 和 N103B。我们在SNR 0519和N103B中检测到宽He~\\textsc{i} 5876~Å~,7065~Å发射，在SNR 0519中检测到He \\textsc{ii} 8236~Å。在SNR 0509中，我们检测到窄He~\\textsc{i} 5015~Å、6678~Å、7065~Å和7281~Å，只有 7065~Å~ 表现出广泛的成分。窄 He\\,\\textsc{ii} 的检测对现有的激波模型提出了挑战，在这种模型中，这种发射是预期之外的，并且可能表明激波背后的不完全离子-离子平衡或激波前体的起源。对于 SNR 0509 和 N103B，中性 He/H 线比表明氦丰度增强，而 SNR 0519 与原始 He/H 值一致。因此，我们提出巴尔默主导的激波中的氦发射作为激波物理和 Ia 型超新星星周环境的新诊断。尽管我们的模型主要是概念验证，但它证明了推断总 He-H 丰度比的可能性，其中主要的不确定性来自于假设的初始电离分数。尽管存在不确定性，我们证明，当与震前中性 H/He 丰度比的可靠约束一起进行分析时，窄氦谱线可以作为星周条件和祖星演化的有效探针。",
       "source": "arXiv",
-      "published": "2026-04-30"
+      "published": "2026-05-07"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120077",
+      "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120077",
+      "first_author": "Zhenghong Song",
+      "corr_author": "Tengfei Xu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag164",
+      "title": "Near-Surface Imaging of Urban Environments Using Distributed Acoustic Sensing (DAS) and Finite Element Method (FEM) Model",
+      "url": "https://doi.org/10.1093/gji/ggag164",
+      "first_author": "Xingye Sun",
+      "corr_author": "Shengjie Rui",
+      "affiliation": "Zhejiang Province Key Laboratory of Offshore Civil Engineering and Materials, College of Civil Engineering and Architecture, Zhejiang University , Hangzhou 310058 Zhejiang ,",
+      "abs_zh": "总结\n                  剪切波速度成像是地基土壤近地表岩土工程表征、地下异常检测以及城市环境过程监测的关键。在本研究中，我们提出了一种工作流程，使用来自电信光纤上收集的分布式声学传感 (DAS) 数据的环境和人为噪声记录来表征大都市地区。我们开发了一种有限元模型，可以根据分层速度剖面计算基本和高阶表面波模式的剪切波色散曲线。该模型参数允许层内速度随深度的线性和幂律变化，以提供真实的近地表土壤行为。正演模型与反演算法相结合，可最大限度地减少模型与源自 DAS 数据的频散曲线的失配。我们使用威斯康星大学麦迪逊分校校园网络收集的 DAS 数据演示了工作流程。将结果与表面波多通道分析 (MASW) 方法进行比较，该方法使用与 DAS 站点之一和附近的测井位于同一位置的一系列地震检波器。两种解都表明剪切波速度在大约 20 米处发生急剧变化，对应于现场砂岩地层的深度，并且基于物理的幂律函数更好地拟合了松散沉积物的速度剖面。这些结果表明，我们的方法提供了可靠的近地表成像，同时提出了可能的土壤类型。所提出的测量和建模技术可以扩展到对有电信光纤的近地表进行成像。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
     },
     {
       "id": "10.1093/gji/ggag140",
-      "title": "A three-dimensional Distributed Acoustic Sensing array to monitor local seismicity",
+      "title": "A three-dimensional distributed acoustic sensing array to monitor local seismicity",
       "url": "https://doi.org/10.1093/gji/ggag140",
-      "first_author": "Jerome Azzola",
+      "first_author": "Jérôme Azzola",
       "corr_author": "Emmanuel Gaucher",
-      "affiliation": "Kalrsruhe Institute of Technology (KIT) , Institute of Applied Geosciences (AGW) Department of Geothermal Energy and Reservoir Technology, Adenauerring 20b, 76131, Karlsruhe ( )",
-      "abs_zh": "总结\n                  分布式声学传感（DAS）已成为传统地震监测技术的宝贵补充。通过将光纤电缆转换为密集的虚拟传感器阵列，DAS 实现了标准大阵列处理方法的应用。然而，其方向灵敏度（仅限于沿光纤轴的应变测量）可能会限制其全波场分析的潜力。为了解决这一限制，我们研究了 DAS 在水平安装（靠近地表）和垂直安装在钻孔中的光纤电缆上的功能，从而创建了所谓的 3D-DAS 阵列。该调查在慕尼黑南部地区（德国）进行，旨在监测与附近深层地热作业相关的当地地震活动。在本研究中，我们介绍了数据采集设置并描述了一个处理工作流程，该工作流程是为了表征 DAS 记录中地震事件的源和波场参数而开发的。使用附近的 ${{M}_w}$ = 0.48 地震事件说明了工作流程。利用光纤电缆的配置，我们证明了 3D-DAS 阵列能够估计波场后向方位角、入射角和慢度，并将这些结果与本地地震仪网络提供的结果进行比较。此外，地震矩和应力降等震源参数是根据250米深直井采集的DAS数据估算的。这些参数是在将应变率转换为地面运动后得出的，这一过程使用并置的三分量宽带地震仪进行了定量验证。结果和波形评估表明，3D-DAS 阵列能够独立于现有的本地地震台网提供可靠且全面的测量。",
+      "affiliation": "Kalrsruhe Institute of Technology (KIT), Department of Geothermal Energy and Reservoir Technology, Institute of Applied Geosciences (AGW) , Adenauerring 20b, 76131 Karlsruhe ,",
+      "abs_zh": "分布式声学传感（DAS）已成为传统地震监测技术的宝贵补充。通过将光纤电缆转换为密集的虚拟传感器阵列，DAS 实现了标准大阵列处理方法的应用。然而，其方向灵敏度（仅限于沿光纤轴的应变测量）可能会限制其全波场分析的潜力。为了解决这一限制，我们研究了 DAS 在水平安装在地面附近和垂直安装在钻孔中的光纤电缆上的功能，从而创建了所谓的 3-D-DAS 阵列。该调查在慕尼黑南部地区（德国）进行，旨在监测与附近深层地热作业相关的当地地震活动。在本研究中，我们介绍了数据采集设置并描述了一个处理工作流程，该工作流程是为了表征 DAS 记录中地震事件的源和波场参数而开发的。使用附近的 ${M_\\mathrm{ w}}$ = 0.48 地震事件说明了工作流程。利用光纤电缆的配置，我们证明了 3-D-DAS 阵列能够估计波场后向方位角、入射角和慢度，并将这些结果与本地地震仪网络提供的结果进行比较。此外，地震矩和应力降等震源参数是根据250米深直井采集的DAS数据估算的。这些参数是在将应变率转换为地面运动后得出的，这一过程使用并置的三分量宽带地震计进行了定量验证。结果和波形评估表明，3-D-DAS 阵列能够独立于现有的本地地震台网提供可靠且全面的测量。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
@@ -108,7 +130,7 @@
       "first_author": "Ettore Biondi",
       "corr_author": "Allen L. Husker",
       "affiliation": "1California Institute of Technology, Seismological Laboratory, Pasadena, California, U.S.A.",
-      "abs_zh": "我们引入了一个模块化软件框架，旨在将分布式声学传感（DAS）数据集成到可操作的地震监测系统中。我们的解决方案以先进国家地震系统 (ANSS) 和南加州地震台网的基础设施为基础，采用 ANSS 地震监测软件 (AQMS)，支持实时 DAS 波形流和基于机器学习的走时选取，以利用 DAS 阵列的密集空间采样。为了实现与 AQMS 的无缝兼容，我们的方法使用标准化地震数据格式来合并预定的 DAS 通道。我们演示了部署在加利福尼亚州里奇克莱斯特的 100 公里长 DAS 阵列的数据集成，并提供了软件组件和部署策略的详细描述。这项工作代表了将 DAS 纳入常规地震监测中的一步，并为使用光纤网络进行实时灾害评估开辟了新的可能性。",
+      "abs_zh": "我们引入了一个模块化软件框架，旨在将分布式声学传感（DAS）数据集成到可操作的地震监测系统中。我们的解决方案以先进国家地震系统 (ANSS) 和南加州地震网络的基础设施为基础，采用 ANSS 地震监测软件 (AQMS)，支持实时 DAS 波形流和基于机器学习的走时拾取，以利用 DAS 阵列的密集空间采样。为了实现与 AQMS 的无缝兼容，我们的方法使用标准化地震数据格式来合并预定的 DAS 通道。我们演示了部署在加利福尼亚州里奇克莱斯特的 100 公里长 DAS 阵列的数据集成，并提供了软件组件和部署策略的详细描述。这项工作代表了将 DAS 纳入常规地震监测中的一步，并为使用光纤网络进行实时灾害评估开辟了新的可能性。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -141,29 +163,7 @@
       "first_author": "Shun Fukushima",
       "corr_author": "Ryota Takagi",
       "affiliation": "Institute of Seismology and Volcanology, Faculty of Science, Hokkaido University , 0600810 Sapporo ,",
-      "abs_zh": "总结\n                  近年来，分布式声学传感（DAS）通过使用光纤作为传感器，能够以米级间隔观测数十公里范围内的应变。本研究提出了一种环境噪声交叉谱与从任意形状和/或多根光纤电缆获取的 DAS 数据的分析解决方案，目的是使用空间自相关 (SPAC) 方法估计地下 S 波速度结构。我们的公式考虑了各向同性和各向异性波入射。分析交叉谱取决于连接两个测量点的水平方向与两点处的轴向应变方向之间的角度。这项研究表明，瑞利波和洛夫波都对交叉谱有贡献，并且它们的贡献以复杂的方式变化，具体取决于电缆几何形状、地震速度结构、观测点之间的站间距离和震源振幅。通过使用该分析解决方案，结合SPAC方法和环境噪声断层扫描方法的集成分析适用于从任意形状和/或多条电缆获取的DAS数据。此外，考虑各向异性波入射的解析表达式将有助于校正源异质性引起的走时异常。将我们的公式应用于来自绕组或多根电缆的 DAS 数据将有助于 3D 结构的高分辨率和精确成像。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120302",
-      "title": "Tide‐Modulated Ocean‐to‐Earth Energy Conversion Quantified With Coastal Fiber Sensing",
-      "url": "https://doi.org/10.1029/2025gl120302",
-      "first_author": "Justin Yen‐Ting Ko",
-      "corr_author": "Hui‐Yu Wu",
-      "affiliation": "Institute of Oceanography National Taiwan University  Taipei Taiwan",
-      "abs_zh": "量化入射海浪如何将能量转化为近岸地震表面波对于了解沿海灾害和地海耦合至关重要，但时间分辨的现场估计却很少。在这里，我们使用与海底节点共置的海滩部署的分布式声学传感阵列来直接测量从波浪冲击到 4-12 Hz 瑞利型地面运动的转换效率。频率波数分析、波束形成和局部反投影一致地沿着固定的破浪海岸段定位源，而粒子运动椭圆率证实了瑞利特性。将分布式声学传感应变校准到地速并结合近岸波浪能量学可产生 10 量级的能量转换效率\n                    −6\n                    。效率受到潮汐的强烈调节，即使源区保持静止，高潮条件也会增强耦合。我们的结果为陆海界面的动态海洋到地球能量传输建立了定量基准，并为使用现有光纤基础设施的沿海监测提供了通用框架。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag061",
-      "title": "DeepSubDAS: an earthquake phase picker from submarine distributed acoustic sensing data",
-      "url": "https://doi.org/10.1093/gji/ggag061",
-      "first_author": "Han Xiao",
-      "corr_author": "Marine A Denolle",
-      "affiliation": "Helmholtz Center Potsdam, German GeoResearch Center GFZ , Potsdam ,14473,",
-      "abs_zh": "总结\n                  由于海洋环境中地震仪的稀缺，传统地震学在海洋地区的有效性有限。海底分布式声学传感（DAS）系统为这些地区的地震监测提供了一种有前景的替代方案。然而，由于噪声特性、部署条件和环境因素的差异，现有的基于陆基DAS数据训练的机器学习模型在海底DAS上表现不佳。这项研究提出了一种专门针对海底 DAS 数据定制的机器学习方法，以实现自动地震事件检测以及 P 波和 S 波识别。利用 DeepLab v3（一种针对语义分割而优化的神经网络架构），我们开发了一种专门的模型来应对潜艇 DAS 数据的独特挑战。我们的模型在一个数据集上进行了训练和验证，该数据集包含来自多个全球分布的海底站点的近 5700 万条手动和半自动标记的地震记录，为准确的地震检测提供了坚实的基础。该模型适应多种部署场景，可以处理来自不同长度、配置和通道间距的电缆的DAS数据，使其适用于各种海洋环境。因此，我们为 DAS 数据的自动地震分析提供了一种适应性强且高效的工具，该工具有可能增强海底环境中的实时地震监测和海啸预警。",
+      "abs_zh": "近年来，分布式声学传感（DAS）通过使用光纤作为传感器，能够以米级间隔观测数十公里范围内的应变。本研究提出了一种环境噪声交叉谱与从任意形状和/或多根光纤电缆获取的 DAS 数据的分析解决方案，目的是使用空间自相关 (SPAC) 方法估计地下 S 波速度结构。我们的公式考虑了各向同性和各向异性波入射。分析交叉谱取决于连接两个测量点的水平方向与两点处的轴向应变方向之间的角度。这项研究表明，瑞利波和洛夫波都对交叉谱有贡献，并且它们的贡献以复杂的方式变化，具体取决于电缆几何形状、地震速度结构、观测点之间的站间距离和震源振幅。通过使用该分析解决方案，结合SPAC方法和环境噪声断层扫描方法的集成分析适用于从任意形状和/或多条电缆获取的DAS数据。此外，考虑各向异性波入射的解析表达式将有助于校正源异质性引起的走时异常。将我们的公式应用于来自绕组或多根电缆的 DAS 数据将有助于 3D 结构的高分辨率和精确成像。",
       "source": "Geophysical Journal International",
       "published": "2026"
     }

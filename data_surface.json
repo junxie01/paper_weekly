@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-04-26 至 2026-05-03 03:24",
+  "last_update": "2026-05-03 至 2026-05-10 03:27",
   "topic_name": "面波研究",
   "papers": [
+    {
+      "id": "2605.05079v1",
+      "title": "A unified Benchmark for Multi-Frame Image Restoration under Severe Refractive Warping",
+      "url": "http://arxiv.org/abs/2605.05079v1",
+      "first_author": "Maxim V. Shugaev",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "通过折射动态介质（例如湍流的空气或水面）捕获的视频序列通常会遭受严重的几何扭曲和时间不稳定。虽然最近的进展解决了温和的大气湍流，但现有的基准还没有系统地评估强且高度不均匀的折射条件下的恢复方法。我们提出了视频中几何畸变消除的综合基准，涵盖从类湍流的轻微扭曲到强烈的不连续折射变形的范围。该基准包括实验室捕获的真实数据和通过基于物理的光折射建模为静态场景生成的合成序列，涵盖四种失真级别和多种表面波类型。我们评估了一系列方法，从简单的基线和经典配准算法到基于学习的高级方法，包括 DATUM 和我们提出的用于高和极端扭曲状态的基于扩散的 V 缓存。评估使用像素级（PSNR、SSIM）和感知（LPIPS、DINO、CLIP）指标，首次提供几何失真消除的大规模分析。我们的基准测试为开发和评估能够从高度扭曲的光学环境中重建视频的算法奠定了新的基础。我们的代码和数据集可在 https://github.com/iafoss/refractive-mfir-benchmark 获取。",
+      "source": "arXiv",
+      "published": "2026-05-06"
+    },
+    {
+      "id": "2605.01751v1",
+      "title": "Traveling surface wave propagation on shallow water with variable bathymetry and current",
+      "url": "http://arxiv.org/abs/2605.01751v1",
+      "first_author": "Semyon Churilov",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "通过波浪进行长距离能量传输是许多自然过程的关键机制。当非均匀介质以使得某种类型的波能够在几乎没有反射或散射的情况下传播的方式布置时，就会出现这种可能性。应用拉普拉斯级联法对二阶双曲方程进行积分，提出了一种求解非齐次无反射流参数的通用算法。该算法应用于变截面通道中长线性表面波传播问题。通过一些有代表性的解决方案来说明问题的总体分析，并与以前的研究结果进行比较。获得的结果可能有助于减轻波浪对船舶、海洋工程建设和人类沿海活动可能产生的影响。",
+      "source": "arXiv",
+      "published": "2026-05-03"
+    },
     {
       "id": "2604.26610v1",
       "title": "Linking extended vector wave fields with momentum space topology",
@@ -36,28 +58,6 @@
       "published": "2026-04-26"
     },
     {
-      "id": "2604.23746v1",
-      "title": "Linear feedback control of liquid film on moving substrate via free-surface stresses",
-      "url": "http://arxiv.org/abs/2604.23746v1",
-      "first_author": "Fabio Pino",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "浸涂工艺中使用移动基材上的液膜形成均匀的保护层。由于薄膜固有的线性不稳定性，控制自由表面波至关重要。因此，我们开发了一种线性反馈控制器，通过调节自由表面剪切力和压力，将薄膜调节至所需的平坦状态，并通过线性化方程分析得出反馈增益。使用加权积分边界层 (WIBL) 模型在简化雷诺数 $δ= 8$ 下评估有限振幅波的控制性能。我们确定了压力反馈线性失稳而剪切稳定的参数状态，反之亦然，其控制机制由运动学和动态波速之间的平衡决定。反馈系数的稳定和不稳定组合都可以在有限时间内将有限振幅波驱动到平坦状态 $\\bar{h}=1.1$。在压力不稳定的情况下，控制会引起极限循环行为，其中长波由于厚度和斜率项之间的相互作用而缓慢衰减。行波解虽然衰减缓慢，但会逆重力移动，而其他组合会在不受控制的传播方向上减小波幅。这些结果为更高雷诺数的研究和工业上可行的执行器布局的设计提供了基础。",
-      "source": "arXiv",
-      "published": "2026-04-26"
-    },
-    {
-      "id": "2604.23254v1",
-      "title": "Pulsed Vertical Electric Dipole Over a Lossy Halfspace: On the Time-Domain Zenneck Wave",
-      "url": "http://arxiv.org/abs/2604.23254v1",
-      "first_author": "Giampiero Lovat",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们研究了有损半空间上方的脉冲垂直电偶极子辐射的瞬态电磁场，并识别了其与泽内克波相关的时域特征。从经典的索末菲表示开始，我们推导出基于双变形技术的因果时域公式，在横向波数和频率平面上具有连续的轮廓变形。这将场显式分解为源极点、损耗极点、模态极点和残余最速下降贡献。所得表达式完全满足因果关系，并针对通过标准双逆变换获得的参考解进行了验证。分析表明，由频率平面变形生成并与频域泽内克极相关的一种模态贡献表现出减少的时间不变性和与表面波分量一致的空间衰减。在适当的源和观测条件下，该术语可以在广泛且物理相关的有限后期间隔内主导该领域。同时，对于所考虑的阻尼正弦激励，固定距离处的严格渐近尾部仍然是 $t^{-5/2}$ 阶代数，其中有残余连续谱和模态极点族的贡献。这些结果提供了脉冲半空间问题中频域泽内克波的严格且物理可解释的时域表现。",
-      "source": "arXiv",
-      "published": "2026-04-25"
-    },
-    {
       "id": "10.1016/j.epsl.2026.119963",
       "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
       "url": "https://doi.org/10.1016/j.epsl.2026.119963",
@@ -80,6 +80,39 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2025gl121619",
+      "title": "Apollo 17 Lunar Surface Gravimeter as a Seismometer: Relocating Shallow‐Moonquake Sources and Implications for Source Mechanism",
+      "url": "https://doi.org/10.1029/2025gl121619",
+      "first_author": "Keisuke Onodera",
+      "corr_author": "Taichi Kawamura",
+      "affiliation": "Institute for Planetary Materials Okayama University  Misasa Japan",
+      "abs_zh": "在已报道的月球地震事件中，浅层月震以其独特的特征而闻名，例如高频能量激发、与板内地震的相似性以及所有已报道月震中最大的能量释放。尽管有这些有趣的特征，但样本数量少（<80个事件）和稀疏的地震台网观测阻碍了我们对浅层月震的深入了解。在这项研究中，通过使用阿波罗 17 号重力仪作为伪地震仪，我们扩展了阿波罗月球地震网络，并更准确地定位了一些浅层月震。此外，将所定位的浅月震震中与地表/地下地质特征进行比较表明，至少一个事件可以通过地壳内的深层断层更好地解释。结合之前对低频月震的演示，我们对高频事件的分析表明，阿波罗 17 号重力仪可以作为地震仪，其频率范围比之前认为的更广。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag168",
+      "title": "Quantitative P-wave velocity distribution in a carbonate core: constraints on experimental design",
+      "url": "https://doi.org/10.1093/gji/ggag168",
+      "first_author": "C Shen",
+      "corr_author": "C Bordes",
+      "affiliation": "Universite de Pau et des Pays de l’Adour , E2S UPPA, CNRS, LFCR, Pau ,",
+      "abs_zh": "总结\n                  在实验室规模上对岩石样本进行高分辨率地震层析成像是通过地震成像表征地下岩石的关键因素。我们使用控制良好的实验原型研究了初到走时断层扫描对选定碳酸盐岩心切片进行二维采集所获得的数据的性能，该原型涉及点状脉冲激光（PL）或压电换能器（PZT）作为震源，以及单点激光多普勒振动计（LDV）作为可以在单次实验期间移动的接收器。波传播模拟在真实的合成二维切片上运行。对合成记录的断层扫描试验建立了最佳反演策略，从处理初到走时拾取到通过初断时间断层扫描建立速度模型。与 X 射线 CT 扫描图像相比，从 PL-LDV 数据集获得的速度图像显示出相似的图案，尽管后者是衰减的断层扫描图像。相比之下，从 PZT-LDV 数据集重建的速度显示出显着差异。因此，我们推荐 PL-LDV 协议作为基于地震波传播的岩心样本实验表征的参考工具。将定量岩心速度重建添加到地壳地震成像和测井信息中将有可能改善复杂地下成分的定量表征。在考虑多物理场解释的后续阶段时，3D 配置的可能扩展应该会更加富有成果。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag164",
+      "title": "Near-Surface Imaging of Urban Environments Using Distributed Acoustic Sensing (DAS) and Finite Element Method (FEM) Model",
+      "url": "https://doi.org/10.1093/gji/ggag164",
+      "first_author": "Xingye Sun",
+      "corr_author": "Shengjie Rui",
+      "affiliation": "Zhejiang Province Key Laboratory of Offshore Civil Engineering and Materials, College of Civil Engineering and Architecture, Zhejiang University , Hangzhou 310058 Zhejiang ,",
+      "abs_zh": "总结\n                  剪切波速度成像是地基土壤近地表岩土工程表征、地下异常检测以及城市环境过程监测的关键。在本研究中，我们提出了一种工作流程，使用来自电信光纤上收集的分布式声学传感 (DAS) 数据的环境和人为噪声记录来表征大都市地区。我们开发了一种有限元模型，可以根据分层速度剖面计算基本和高阶表面波模式的剪切波色散曲线。该模型参数允许层内速度随深度的线性和幂律变化，以提供真实的近地表土壤行为。正演模型与反演算法相结合，可最大限度地减少模型与源自 DAS 数据的频散曲线的失配。我们使用威斯康星大学麦迪逊分校校园网络收集的 DAS 数据演示了工作流程。将结果与表面波多通道分析 (MASW) 方法进行比较，该方法使用与 DAS 站点之一和附近的测井位于同一位置的一系列地震检波器。两种解都表明剪切波速度在大约 20 米处发生急剧变化，对应于现场砂岩地层的深度，并且基于物理的幂律函数更好地拟合了松散沉积物的速度剖面。这些结果表明，我们的方法提供了可靠的近地表成像，同时提出了可能的土壤类型。所提出的测量和建模技术可以扩展到对有电信光纤的近地表进行成像。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.119868",
       "title": "Kilometer-wide crustal yielding associated with the 2021 Mw7.4 Maduo, Tibet, surface rupture",
       "url": "https://doi.org/10.1016/j.epsl.2026.119868",
@@ -91,80 +124,47 @@
       "published": "2026"
     },
     {
-      "id": "10.1785/0220250443",
-      "title": "Surface Rupture of the 2025 Mw 7.7 Mandalay, Myanmar, Earthquake: Insights from Field and Optical Remote Sensing Observations",
-      "url": "https://doi.org/10.1785/0220250443",
-      "first_author": "Soe Min",
-      "corr_author": "Yu Wang",
-      "affiliation": "1Department of Geology, Banmaw University, Myanmar",
-      "abs_zh": "我们利用震后实地调查和光学遥感数据记录了 2025 年缅甸曼德勒 7.7 级地震的同震右旋偏移。这两项结果都证实，2025 年曼德勒地震产生了长度超过 470 公里的地表破裂，从实皆断层的中部延伸到南部。我们的调查证实存在连续、狭窄的破裂，同震滑动峰值位于破裂处约 4.6 m 处，距实皆山北部光学卫星图像约 6.2 m。尽管现场测量的滑移分布显示出与光学卫星数据相似的模式，但现场测量与遥感观测的比较显示，沿破裂的大部分部分存在系统性约 1 m 的缺陷。这种差异表明，很大一部分位移是由断层很浅部分松散的第四纪冲积沉积物内的分布变形所容纳的。这种解释得到了沿着断层部分高度局部化的偏移的进一步支持，该断层穿过实皆山上覆沉积物最少的变质岩。由于实皆断层的最南段（最后一次破裂于 1930 年 5 月）是主要的未破裂部分，因此我们强调了人口稠密的缅甸南部的地震危险潜力，迫切需要开展古地震学工作和地震风险评估。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10559-8",
-      "title": "Author Correction: Quantum error correction below the surface code threshold",
-      "url": "https://doi.org/10.1038/s41586-026-10559-8",
-      "first_author": "",
-      "corr_author": "Nicholas Zobrist",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag158",
-      "title": "Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea",
-      "url": "https://doi.org/10.1093/gji/ggag158",
-      "first_author": "Eduardo Valero Cano",
-      "corr_author": "Paul Martin Mai",
-      "affiliation": "PSE Division, King Abdullah University of Science and Technology (KAUST) , Thuwal 23955-6900 ,",
-      "abs_zh": "总结\n                  红海是地球上最年轻的超慢扩张海脊之一，也是研究从大陆裂谷到海洋扩张过渡的理想场所。在此背景下，扎巴尔加德断裂带 (ZFZ) 成为一个特别有趣的地区。 ZFZ 拥有显着特征，包括红海扩张轴的偏移、马巴希斯蒙斯海底火山和科布里特深卤水池。此外，该地区地震活跃，对附近沿海社区构成危险。尽管之前进行了地球物理研究，但很少有地震速度模型能够对 ZFZ 的浅层地下结构进行成像。在这项工作中，我们使用五个宽带站和 14 个海底地震仪记录的大约一年的地震环境噪声来估计 ZFZ 的剪切波速度结构。为此，我们计算垂直-垂直、径向-径向和横向-横向噪声相关性，获得瑞利波和拉夫波在 3 至 12 秒周期带内的群速度和相速度色散曲线，并采用跨维断层扫描来估计 ZFZ 的 1 维和 3 维各向同性剪切波速度模型。我们的一维速度模型表明，平均而言，ZFZ 地壳结构包括 1.5 公里厚的层（包括半远洋沉积物和蒸发岩）、2.8 公里厚的海洋基底以及从海平面以下 6.5 公里延伸到 8 公里的壳幔过渡层。同时，我们的 3D 模型与之前的地质和地球物理观测结果一致，并揭示了新的地下结构。特别是，它显示了马巴希斯深渊东部和南部的低速区域，与已知的沉积盆地相关。此外，我们的 3D 模型包含 Kebrit Deep 附近的低速区域，该区域与低地震活动区域和最近推断的扩展轴段相关。根据之前热液喷口不活跃的证据，我们推断这个低速区域表明基底温度较高",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adp3054",
-      "title": "Resonant Rossby wave mechanism for extreme weather performs poorly in simple model test",
-      "url": "https://doi.org/10.1126/sciadv.adp3054",
-      "first_author": "Todd A. Mooring",
-      "corr_author": "Marianna Linz",
-      "affiliation": "Department of Earth and Planetary Sciences, Harvard University, Cambridge, MA 02138, USA.",
-      "abs_zh": "准静止罗斯贝波的准共振放大（QRA）是一种针对中纬度极端天气的机制，已被多次提出但仅经过有限的测试。在这里，我们通过尝试在理想化的大气环流模型中创建准共振罗斯贝波来测试 QRA 理论，在该模型中，我们确定了预期适合（和不适合）准共振罗斯贝波存在的平均流动状态，并量化了相关波幅。对于被认为适合 QRA 的平均流量条件，反而发现相关波数的波比表面上不适合 QRA 的条件下更弱。这种情况不能通过改变适合 QRA 的平均流量的定义来强有力地改变。这些发现对 QRA 理论作为一种解释工具的当前形式的价值提出了质疑，并且更普遍地需要谨慎使用纯二维理论和/或纬向平均流来解释对流层极端事件动力学。",
+      "id": "10.1126/sciadv.aeb4368",
+      "title": "Dynamic safe nitrogen boundary for maintaining surface water quality in China",
+      "url": "https://doi.org/10.1126/sciadv.aeb4368",
+      "first_author": "Yiyang Zou",
+      "corr_author": "Baojing Gu",
+      "affiliation": "State Key Laboratory of Soil Pollution Control and Safety, Zhejiang University, Hangzhou 310058, China.",
+      "abs_zh": "氮在地球的生物地球化学循环中发挥着至关重要的作用，既是生命必需的营养素，又是环境污染物。在安全范围内管理氮的使用对于实现可持续发展目标至关重要，特别是在全球人口不断增长的压力下。在此，我们根据 1980 年至 2020 年管理实践和径流变化的驱动，根据中国地表水质量，量化了人-自然系统氮输入安全边界的时间动态。人-自然系统氮管理不足导致安全氮边界从 27 Tg N 年减少。\n                    −1\n                    1980年至17 Tg N年\n                    −1\n                    2006年。随后，农业氮肥利用效率和城市废物管理的提高推动了这一界限的扩大，达到了34 Tg N年\n                    −1\n                    到 2020 年，需要进一步整合涵盖农业、城市废物和人类饮食模式的氮管理战略，以便到 2050 年将氮的使用维持在既定的安全范围内，为生态系统、人类健康、气候和粮食供应产生 3,350 亿美元的社会效益，相关实施成本为 1,060 亿美元。这些发现表明，改进的氮管理实践可以动态地扩大安全操作空间，提高氮利用率，以支持人类福祉，同时将氮污染保持在安全的环境限度内。",
       "source": "Science Advances",
       "published": "2026"
     },
     {
-      "id": "10.5194/tc-20-2317-2026",
-      "title": "Changes in 1958–2019 Greenland surface mass balance are attributable to both greenhouse gases and anthropogenic aerosols",
-      "url": "https://doi.org/10.5194/tc-20-2317-2026",
-      "first_author": "Yan-Ning Kuo",
-      "corr_author": "Flavio Lehner",
-      "affiliation": "未知机构",
-      "abs_zh": "。格陵兰冰盖 (GrIS) 质量损失是全球平均海平面 (GMSL) 上升的主要原因，由于表面质量平衡 (SMB) 变化而表现出年代际变化。长期以来，温室气体 (GHG) 一直被认为是变暖引起的径流导致 GrIS 质量损失的关键驱动因素。然而，尚未将历史上的 GrIS SMB 变化正式归因于温室气体以及人为气溶胶 (AAER) 等其他强迫的潜在作用。在这里，我们使用社区地球系统模型版本 2 大型系综和单强迫大型系综（CESM2-LE 和 CESM2-SFLE）来制定历史 GrIS SMB 变化的检测和归因分析。我们表明，SMB 的年代际变化是由历史辐射强迫造成的，而历史辐射强迫可归因于 GHG 和 AAER 通过径流的强制变化。这凸显出，除了经常提到的温室气体之外，AAER 还对历史时期的中小企业变化做出了贡献。 GHG 主要通过长期辐射强迫变暖来影响 GrIS 径流，而 AAER 通过大气环流的年代际变化来影响 GrIS 径流，这种变化投射到格陵兰岛阻塞模式上，导致 1980 年之前格陵兰岛气旋环流的相对冷却和此后反气旋环流的相对变暖。由于信号较弱且置信区间较宽，因此 SMB（特别是径流）归因于 AAER 的信噪比 (S / N) 低于归因于 GHG 的信噪比 (S / N)。将径流变化归因于 AAER 时 S / N 较低，部分是由于 AAER 中的温度响应比 GHG 中的更小，部分是由于径流敏感性的平均状态温度依赖性。在仅使用 AAER 的模拟中，气候比使用所有强迫或仅使用 GHG 的模拟中更冷，导致在温度变化对径流影响不大的情况下，冰点以下的时间更长。我们通过将所有力的模拟与以下模拟进行比较来解决这个问题",
-      "source": "The Cryosphere",
+      "id": "10.1029/2025jb033147",
+      "title": "Autocorrelation Seismic Imaging of Northern Taiwan Using Ambient Noise Data",
+      "url": "https://doi.org/10.1029/2025jb033147",
+      "first_author": "Mei Chien",
+      "corr_author": "Po‐Fei Chen",
+      "affiliation": "Department of Earth, Environmental, and Planetary Sciences Rice University  Houston TX USA",
+      "abs_zh": "在过去的几百万年里，台湾北部记录了从俯冲到弧大陆碰撞，然后是碰撞后塌陷的构造历史。这种演化激发了对地壳结构的限制，包括地壳分层和厚度。我们分析了来自密集福尔摩沙阵列的 7 个月的连续垂直分量记录，并使用环境噪声自相关检索零偏移 P 波反射率。叠加自相关函数对台湾北部下方三个横向持续的正极性到达进行成像。最深到达被解释为双向旅行时间 (TWT) 为 11-15 秒的莫霍面 (PmP)，对应深度约为 30-47 公里。莫霍面在山带下方加深，并向宜兰平原变浅。第二个反射体平均出现在莫霍面上方约 5 公里处，并在最下地壳中形成横向连续的莫霍面平行带。一个浅的地壳内反射体位于 5-8 s TWT（~12-22 km 深度）处，并缓慢向东南偏东倾斜；地壳地震活动主要位于该界面之上。综合建模和深度转换敏感性测试表明主要到达是稳健的并且深度不确定性是适度的。这些观测结果为来自密集阵列环境噪声反射率成像的台湾北部地壳分层和界面几何形状提供了新的限制。",
+      "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag151",
-      "title": "Surface wave analysis using DAS and dense nodal array recordings in near-surface active surveying",
-      "url": "https://doi.org/10.1093/gji/ggag151",
-      "first_author": "Junwei Ma",
-      "corr_author": "Lipeng He",
-      "affiliation": "Southern University of Science and Technology Department of Ocean Science and Engineering, , Shenzhen ,",
-      "abs_zh": "总结\n                  分布式声学传感 (DAS) 通过精确测量光纤中反向散射激光脉冲信号的相位变化来捕获地震波场，从而反映连续光纤段上的分布应变或应变率。 DAS 波场测量对近地表成像的局限性仍不清楚，值得用传统的密集节点阵列进行验证。本研究比较了在中国深圳进行的近地表活动调查中的同位 DAS 和密集节点阵列记录。我们的现场实验揭示了 DAS 波场记录中相干信号的空间固定、阶梯状失真。这些伪影归因于标距空间平均值作用于具有异质灵敏度的光纤段，这可能是由反向散射强度和电缆耦合条件的变化引起的。这些失真导致 DAS 和同位地震仪的波形与其理论关系存在部分偏差。对所有节点上的 DAS 和地震仪波形之间的相位差进行统计比较，揭示出正态分布，表明 DAS 记录中普遍存在这种失真。此外，随着频率的增加，失真变得更加严重，导致DAS和地震仪之间的相位差分布过于分散。这导致在高频下从它们提取的色散曲线存在差异，因为色散提取取决于主通道贡献的相对能量峰值。这项研究表明，在不受失真严重影响的频率范围内，DAS 可以有效地提取可比较的色散曲线和速度结构剖面，代替节点阵列用于近地表成像应用，并通过全剖面比较进行验证。但 DAS 波场畸变限制了完整波场的高级应用，以获得更好的地下特性",
-      "source": "Geophysical Journal International",
+      "id": "10.1029/2025jb032004",
+      "title": "The Dynamics and Surface Signal of Slab Break‐Off in Continental Settings: Insights From 3D Numerical Modeling",
+      "url": "https://doi.org/10.1029/2025jb032004",
+      "first_author": "Andrea Piccolo",
+      "corr_author": "Marcel Thielmann",
+      "affiliation": "Bayerisches Geoinstitut University of Bayreuth  Bayreuth Germany",
+      "abs_zh": "长时间俯冲的海洋板块的命运涉及板片断裂，这种断裂可以在整个板片上同时发生，也可以在局部发生，产生亚水平传播的撕裂。这些过程被认为可以解释各种地质观测结果，例如前陆盆地的演化，特别是沿造山带沉积相的历时迁移、从欠充填沉积到满充填沉积的转变，以及活动造山带隆起和沉降的时空模式。由于地质数据的非唯一性，这些解释仍然存在争议。为了阐明断裂和撕裂对造山带碰撞后演化的作用，我们进行了 42 项 3D 数值实验。我们专注于简化的碰撞后设置，以隔离断裂的影响及其沿走向的横向传播。我们分析了隆起和沉降数据，研究它们的时空模式与地幔和大洋板块的流变学之间的关系。我们的结果表明，上地幔粘度的高压依赖性影响板片断裂和撕裂的方式：从这些过程产生明显的历时隆起的情况到这些过程似乎不会引起任何显着的表面信号的情况。我们表明撕裂速度与造山带的平均隆升相关。最适合撕裂速度估计的模型不会产生显着的表面变形。这为断裂和撕裂过程之间的关系开辟了新的视角。",
+      "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     },
     {
-      "id": "10.1785/0220250257",
-      "title": "Surface Rupture and Slip Distribution of the 2025 Mw 7.7 Mandalay Earthquake and Updated Length Scaling of Supershear Earthquakes",
-      "url": "https://doi.org/10.1785/0220250257",
-      "first_author": "Nadine G. Reitman",
-      "corr_author": "Robert Schmitt",
-      "affiliation": "1U.S. Geological Survey, Geologic Hazards Science Center, Golden, Colorado, U.S.A.",
-      "abs_zh": "2025 年缅甸曼德勒 7.7 级地震使实皆中部断层 475 公里破裂，是有记录以来最长的大陆走滑破裂。观测到的破裂长度是现有走滑地震长度-震级比例关系预期值（100-300 km）的 1.6-4.7 倍。这次地震由浅层右旋断层引起，在震中以南以超剪切速度发生双边破裂，破裂位置靠近缅甸三个主要城市，使超过 600 万人遭受剧烈或极端震动。我们根据 Sentinel-2 (10 m) 和 Planet Dove (3 m) 光学图像的亚像素相关性以及 SkySat 和 WorldView (0.3–0.5 m) 光学图像的视觉分析来报告表面破裂特征、长度和滑移分布。这次地震具有中等的地表滑移（平均值 = 3.3 m，最大值 = 5.6 m，25%–75%，范围 = 3.0–4.0 m），变形区宽度窄（子像素相关性为 1–10 个像素，详细地表破裂绘图≤190 m），断层几何形状简单（走向没有步距或大的变化，详细绘制的破裂中 87% 是单股）。我们将曼德勒地震的极端长度归因于超剪切破裂速度、简单的断层几何形状、狭窄的下倾宽度和适度的表面滑移。根据对 25 起超剪切走滑地震（Mw 6.5–8.6；1979–2025）的汇编，我们发现超剪切地震的破裂长度不符合根据震级预测长度的走滑地震的经验标度关系。基于超剪切地震的长度-震级标度关系的最佳拟合值为 log10（表面破裂长度）= 0.89 Mw – 4.44，这表明对于任何给定震级，超剪切地震往往比亚剪切地震更长，因此可能使更多的人口遭受震动。",
-      "source": "Seismological Research Letters",
+      "id": "10.1029/2025gl120872",
+      "title": "Role of North Pacific Sea Surface Temperatures in Linking Summer Beaufort Sea Ice to Preceding‐Winter ENSO",
+      "url": "https://doi.org/10.1029/2025gl120872",
+      "first_author": "Shutao Cao",
+      "corr_author": "Ruizao Sun",
+      "affiliation": "Center for Marine Meteorology and Climate Change State Key Laboratory of Marine Environmental Science College of Ocean and Earth Sciences Xiamen University  Xiamen China",
+      "abs_zh": "波弗特海（BFS）冰的年际变化显着影响海洋环流、中上层和交游生态系统以及航行活动。然而，调节厄尔尼诺南方涛动（ENSO）和初夏（5月至7月）BFS冰浓度异常之间季节间联系的关键物理途径仍不清楚。在这里，我们确定由 Niño 3 指数识别的冬季（12 月至 1 月至 2 月）ENSO 事件解释了夏季 BFS 冰年际变化的大约 25%。我们证明，ENSO 引起的北太平洋海面温度（NPSST）异常持续到夏季，通过加强瞬态涡旋强迫来触发向极地传播的罗斯贝波。由此产生的反气旋和相关的 BFS 上空的东风异常推动冰向西漂移并随后减少冰。 ENSO 起搏器模拟证实了这种因果关系，估计 NPSST 对 ENSO 引起的初夏 BFS 冰异常贡献了 61%。我们的结果强调了 NPSST 对 ENSO-北极遥相关的关键作用，对季节性海冰的可预测性具有重要意义。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]

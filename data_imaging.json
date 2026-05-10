@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-04-26 至 2026-05-03 03:24",
+  "last_update": "2026-05-03 至 2026-05-10 03:27",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2605.01677v1",
+      "title": "A Review of Modeling and Waveform Inversion for Marine Seismic Data",
+      "url": "http://arxiv.org/abs/2605.01677v1",
+      "first_author": "Guoxin Chen",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "海洋地震勘探是支撑海洋资源勘探、海底探测、碳汇监测、海洋工程安全的核心技术。全波形反演（FWI）、弹性反演、数值建模和人工智能的集成正在推动从物理驱动到物理约束和数据驱动的混合模式的范式转变。本文基于JMSE特刊《海洋地震数据建模与波形反演》，系统综述了数据预处理、正演建模、FWI、弹性反演、储层表征和偏移成像六个领域的11篇论文。结果表明，智能插值、多源联合反演、低频恢复和跳周抑制、物理引导深度学习反演和宽带速度建模是OBN/OBC、拖缆和无源源场景中工业瓶颈的关键解决方案。这些成果形成了从理论到工程应用的完整体系，支撑了深水勘探、海底灾害检测、碳汇监测等。本文还介绍了JMSE新一期特刊《人工智能时代的海洋地球物理勘探》，总结了人工智能的最新进展，并对人工智能与海洋地震融合的未来趋势进行了展望。",
+      "source": "arXiv",
+      "published": "2026-05-03"
+    },
     {
       "id": "2604.27428v1",
       "title": "Wave-Equation Migration Velocity Analysis for Multistatic Synthetic Aperture Ultrasound",
@@ -14,10 +25,10 @@
       "published": "2026-04-30"
     },
     {
-      "id": "2604.26938v1",
+      "id": "2604.26938v2",
       "title": "Meta-learning-enhanced implicit full waveform inversion",
-      "url": "http://arxiv.org/abs/2604.26938v1",
-      "first_author": "Huan Song",
+      "url": "http://arxiv.org/abs/2604.26938v2",
+      "first_author": "Zefeng Wang",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "隐式全波形反演（IFWI）引入隐式神经表示，将地下速度模型参数化为空间坐标的连续函数，减轻了对初始模型的依赖，提高了反演灵活性。然而，IFWI仍然需要对每个新的勘探区域进行大量的迭代更新，导致收敛速度慢、计算成本高，并且缺乏跨不同地质环境共享先验知识的机制，从而限制了其效率和泛化能力。为了进一步加速收敛并增强跨区域泛化能力，我们提出了一种基于元学习的隐式全波形反演方法，称为元学习增强型隐式全波形反演（Meta-IFWI）。在此框架中，地下速度模型使用具有周期性激活函数（SIREN）的隐式神经网络来表示，同时采用元学习策略来预训练多个速度反演任务的单个网络。通过这个过程，网络学习不同地质情况下的共享反演先验和快速适应策略。对于新的反演任务，预训练的Meta-IFWI模型只需少量梯度更新即可有效地适应观测到的地震数据，从而显着减少反演所需的迭代次数。对分布内模型（包括分层合成模型和Overthrust模型）以及分布外复杂模型（例如Marmousi 2）进行的数值实验表明，与传统IFWI相比，所提出的Meta-IFWI提高了反演精度，同时大大加速了收敛并降低了计算成本。此外，Meta-IFWI 表现出增强的鲁棒性和更强的跨区域泛化能力。",
@@ -47,15 +58,15 @@
       "published": "2026-04-13"
     },
     {
-      "id": "2604.07421v1",
-      "title": "SPAMoE: Spectrum-Aware Hybrid Operator Framework for Full-Waveform Inversion",
-      "url": "http://arxiv.org/abs/2604.07421v1",
-      "first_author": "Zhenyu Wang",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "全波形反演（FWI）对于重建高分辨率地下速度模型至关重要，但仍然计算密集且不适定。虽然深度学习方法保证了效率，但现有的卷积神经网络 (CNN) 和单范式神经算子 (NO) 都在努力解决一个基本问题：多尺度地质特征的频率纠缠。为了应对这一挑战，我们提出了频谱保留自适应 MoE (SPAMoE)，这是一种新颖的频谱感知框架，用于解决复杂多尺度结构的逆问题。我们的方法引入了频谱保留 DINO 编码器，该编码器强制编码表示的高低频能量比的下限，减轻高频崩溃并稳定后续的频域建模。此外，我们设计了一种新颖的频谱分解和路由机制，可以动态地将频段分配给由 FNO、MNO 和 LNO 组成的专家混合 (MoE) 系综。在 OpenFWI 的 10 个子数据集上，实验表明，SPAMoE 相对于官方报告的最佳 OpenFWI 基线，平均 MAE 降低了 54.1%，从而为基于学习的全波形反演建立了新的架构框架。",
-      "source": "arXiv",
-      "published": "2026-04-08"
+      "id": "10.1016/j.epsl.2026.120077",
+      "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120077",
+      "first_author": "Zhenghong Song",
+      "corr_author": "Tengfei Xu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
       "id": "10.1016/j.epsl.2026.119963",
@@ -91,80 +102,69 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.119933",
-      "title": "Implications of long lasting post-seismic deformation following the 2005 Mw 7.6 Kashmir earthquake inferred from GNSS &amp; InSAR data",
-      "url": "https://doi.org/10.1016/j.epsl.2026.119933",
-      "first_author": "Pauline Meyer",
-      "corr_author": "Adnan Alam Awan",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag158",
-      "title": "Transdimensional ambient-noise tomography of the Zabargad Fracture Zone, Red Sea",
-      "url": "https://doi.org/10.1093/gji/ggag158",
-      "first_author": "Eduardo Valero Cano",
-      "corr_author": "Paul Martin Mai",
-      "affiliation": "PSE Division, King Abdullah University of Science and Technology (KAUST) , Thuwal 23955-6900 ,",
-      "abs_zh": "总结\n                  红海是地球上最年轻的超慢扩张海脊之一，也是研究从大陆裂谷到海洋扩张过渡的理想场所。在此背景下，扎巴尔加德断裂带 (ZFZ) 成为一个特别有趣的地区。 ZFZ 拥有显着特征，包括红海扩张轴的偏移、马巴希斯蒙斯海底火山和科布里特深卤水池。此外，该地区地震活跃，对附近沿海社区构成危险。尽管之前进行了地球物理研究，但很少有地震速度模型能够对 ZFZ 的浅层地下结构进行成像。在这项工作中，我们使用五个宽带站和 14 个海底地震仪记录的大约一年的地震环境噪声来估计 ZFZ 的剪切波速度结构。为此，我们计算垂直-垂直、径向-径向和横向-横向噪声相关性，获得瑞利波和拉夫波在 3 至 12 秒周期带内的群速度和相速度色散曲线，并采用跨维断层扫描来估计 ZFZ 的 1 维和 3 维各向同性剪切波速度模型。我们的一维速度模型表明，平均而言，ZFZ 地壳结构包括 1.5 公里厚的层（包括半远洋沉积物和蒸发岩）、2.8 公里厚的海洋基底以及从海平面以下 6.5 公里延伸到 8 公里的壳幔过渡层。同时，我们的 3D 模型与之前的地质和地球物理观测结果一致，并揭示了新的地下结构。特别是，它显示了马巴希斯深渊东部和南部的低速区域，与已知的沉积盆地相关。此外，我们的 3D 模型包含 Kebrit Deep 附近的低速区域，该区域与低地震活动区域和最近推断的扩展轴段相关。根据之前热液喷口不活跃的证据，我们推断这个低速区域表明基底温度较高",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag152",
-      "title": "Seismic travel-time tomography under the peak ring of the Chicxulub impact crater",
-      "url": "https://doi.org/10.1093/gji/ggag152",
-      "first_author": "Penny Barton",
-      "corr_author": "Michael Warner",
-      "affiliation": "University of Cambridge, Earth Sciences; University of Cambridge, Homerton College",
-      "abs_zh": "总结\n                  我们展示了墨西哥希克苏鲁伯陨石撞击坑峰环结构象限下方上地壳的三维地震层析成像研究结果。对 6 公里拖缆和 48 个海底地震仪站记录的地震剖面网格的反射和折射走时进行反演，得到最大深度为 6-8 公里的良好解析的三维速度模型。该模型包括薄水层、低震速撞击后沉积填充物层和火山口基底，火山口基底通过代表火山口顶部的界面与填充物分开，该界面由法向入射反射镐定义。火山口基底显示出一个圆柱形特征，在地形峰环下方垂直向下延伸至少 8 公里（本次调查的分辨率深度），其特点是地震速度比相同深度的周围岩石慢。这一结果支持并扩展了先前在峰环中的地震折射工作以及科学钻探的观察结果，即与典型的花岗岩基底岩性相比，峰环中的材料显着降低了地震速度。我们使用速度模型对关键地震反射剖面进行叠前深度偏移。在此提出的最佳拟合模型中，先前在地震反射剖面上识别的突出倾斜反射体投射到峰环的外边缘，向内倾斜并穿过低速圆柱体，而没有明显的一阶阻抗对比。该结果意味着该倾斜反射器的反射率是由于薄的高对比度层（例如翻转结构内残留的冲击熔体或热液蚀变）造成的。我们还识别了从火山口边缘/内环向内成像良好的坍落块、峰环高度和宽度的变化以及峰环的相关变化。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adp3054",
-      "title": "Resonant Rossby wave mechanism for extreme weather performs poorly in simple model test",
-      "url": "https://doi.org/10.1126/sciadv.adp3054",
-      "first_author": "Todd A. Mooring",
-      "corr_author": "Marianna Linz",
-      "affiliation": "Department of Earth and Planetary Sciences, Harvard University, Cambridge, MA 02138, USA.",
-      "abs_zh": "准静止罗斯贝波的准共振放大（QRA）是一种针对中纬度极端天气的机制，已被多次提出但仅经过有限的测试。在这里，我们通过尝试在理想化的大气环流模型中创建准共振罗斯贝波来测试 QRA 理论，在该模型中，我们确定了预期适合（和不适合）准共振罗斯贝波存在的平均流动状态，并量化了相关波幅。对于被认为适合 QRA 的平均流量条件，反而发现相关波数的波比表面上不适合 QRA 的条件下更弱。这种情况不能通过改变适合 QRA 的平均流量的定义来强有力地改变。这些发现对 QRA 理论作为一种解释工具的当前形式的价值提出了质疑，并且更普遍地需要谨慎使用纯二维理论和/或纬向平均流来解释对流层极端事件动力学。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120326",
-      "title": "Layered Seismic Anisotropy and Tectonics of the Anatolian Plate",
-      "url": "https://doi.org/10.1029/2025gl120326",
-      "first_author": "Chuanming Liu",
-      "corr_author": "Lili Feng",
-      "affiliation": "Department of Geological Sciences University of Missouri Columbia  Columbia MO USA",
-      "abs_zh": "安纳托利亚构造与西部的板块后退和东部的重力势能和大陆碰撞有关，导致安纳托利亚相对于欧亚大陆向西运动，部分容纳在北部和东部安纳托利亚转换断层上。我们使用新的瑞利波测量构建了三层方位角地震各向异性模型，并将结果与​​大地测量应变率和新的地壳接收函数分析以及地幔的新的和现有的剪切波分裂进行比较，以连接表面和深层动力学。在地壳中，各向异性主要受近期构造运动控制，特别是沿主要断裂带。在岩石圈地幔中，各向异性反映了安纳托利亚西部正在进行的构造变形，而安纳托利亚东部主要保留了先前的变形特征。在软流圈中，各向异性反映了地幔对流，包括希腊板块后退的影响。我们的模型为东地中海岩石圈变形和地球动力学提供了新的约束。",
+      "id": "10.1029/2025gl121238",
+      "title": "Decoupling Seasonal Seismic Velocity Changes on Slow‐Moving Slopes in Southwest China Using Tree Ensemble Machine Learning",
+      "url": "https://doi.org/10.1029/2025gl121238",
+      "first_author": "Dekang Li",
+      "corr_author": "Hengshu Zhu",
+      "affiliation": "Computer Network Information Center Chinese Academy of Sciences  Beijing China",
+      "abs_zh": "地震特性的变化可以帮助评估斜坡损坏，斜坡损坏受到温度、相对湿度、降雨、气压和当地地震活动等外部因素的影响。然而，这些因素的贡献，以及主导因素如何调节瞬态和季节性地震速度变化（），在不同的斜坡类型中仍不清楚。我们对中国西南地区两个具有代表性的边坡进行了为期两年的日常现场监测：瀑布沟 (PBG) 岩石边坡和锦屏子 (JPZ) 碎屑土边坡。我们应用 eXtreme Gradient Boosting (XGBoost) 回归器和 SHapley Additive exPlanation (SHAP) 来量化每个因素的边际贡献。 XGBoost 模型在预测方面优于其他常见模型。 SHAP 分析强调温度是最有影响力的因素，同时揭示了一种对比模式：PBG 斜率上的线性相关性与 JPZ 斜率上的非线性关系。这种差异主要归因于不同斜坡类型的固有材料特性。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1029/2025gl119695",
-      "title": "Characteristics of Seismic Energy Rate Functions of Shallow Tremors",
-      "url": "https://doi.org/10.1029/2025gl119695",
-      "first_author": "Shunsuke Takemura",
-      "corr_author": "Suguru Yabe",
-      "affiliation": "Earthquake Research Institute the University of Tokyo  Tokyo Japan",
-      "abs_zh": "我们研究了南海俯冲带纪伊半岛东南部浅层地震的能量率函数。单峰函数（三角形或钟形）解释了小（<10\n                    4\n                     J) 浅震颤。随着地震辐射能量的增加，能量率函数变得更加复杂，并且用具有比三角函数更尖锐的峰值或具有小的子事件的单峰函数更好地表征。这些震动特征与普通地震不同。我们比较了浅层地震和深层地震的矩持续时间关系，发现浅层地震具有更大的地震矩。这种差异可以通过沿板块边界断层的热条件来解释。",
-      "source": "Geophysical Research Letters",
+      "id": "10.1093/gji/ggag168",
+      "title": "Quantitative P-wave velocity distribution in a carbonate core: constraints on experimental design",
+      "url": "https://doi.org/10.1093/gji/ggag168",
+      "first_author": "C Shen",
+      "corr_author": "C Bordes",
+      "affiliation": "Universite de Pau et des Pays de l’Adour , E2S UPPA, CNRS, LFCR, Pau ,",
+      "abs_zh": "总结\n                  在实验室规模上对岩石样本进行高分辨率地震层析成像是通过地震成像表征地下岩石的关键因素。我们使用控制良好的实验原型研究了初到走时断层扫描对选定碳酸盐岩心切片进行二维采集所获得的数据的性能，该原型涉及点状脉冲激光（PL）或压电换能器（PZT）作为震源，以及单点激光多普勒振动计（LDV）作为可以在单次实验期间移动的接收器。波传播模拟在真实的合成二维切片上运行。对合成记录的断层扫描试验建立了最佳反演策略，从处理初到走时拾取到通过初断时间断层扫描建立速度模型。与 X 射线 CT 扫描图像相比，从 PL-LDV 数据集获得的速度图像显示出相似的图案，尽管后者是衰减的断层扫描图像。相比之下，从 PZT-LDV 数据集重建的速度显示出显着差异。因此，我们推荐 PL-LDV 协议作为基于地震波传播的岩心样本实验表征的参考工具。将定量岩心速度重建添加到地壳地震成像和测井信息中将有可能改善复杂地下成分的定量表征。在考虑多物理场解释的后续阶段时，3D 配置的可能扩展应该会更加富有成果。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag151",
-      "title": "Surface wave analysis using DAS and dense nodal array recordings in near-surface active surveying",
-      "url": "https://doi.org/10.1093/gji/ggag151",
-      "first_author": "Junwei Ma",
-      "corr_author": "Lipeng He",
-      "affiliation": "Southern University of Science and Technology Department of Ocean Science and Engineering, , Shenzhen ,",
-      "abs_zh": "总结\n                  分布式声学传感 (DAS) 通过精确测量光纤中反向散射激光脉冲信号的相位变化来捕获地震波场，从而反映连续光纤段上的分布应变或应变率。 DAS 波场测量对近地表成像的局限性仍不清楚，值得用传统的密集节点阵列进行验证。本研究比较了在中国深圳进行的近地表活动调查中的同位 DAS 和密集节点阵列记录。我们的现场实验揭示了 DAS 波场记录中相干信号的空间固定、阶梯状失真。这些伪影归因于标距空间平均值作用于具有异质灵敏度的光纤段，这可能是由反向散射强度和电缆耦合条件的变化引起的。这些失真导致 DAS 和同位地震仪的波形与其理论关系存在部分偏差。对所有节点上的 DAS 和地震仪波形之间的相位差进行统计比较，揭示出正态分布，表明 DAS 记录中普遍存在这种失真。此外，随着频率的增加，失真变得更加严重，导致DAS和地震仪之间的相位差分布过于分散。这导致在高频下从它们提取的色散曲线存在差异，因为色散提取取决于主通道贡献的相对能量峰值。这项研究表明，在不受失真严重影响的频率范围内，DAS 可以有效地提取可比较的色散曲线和速度结构剖面，代替节点阵列用于近地表成像应用，并通过全剖面比较进行验证。但 DAS 波场畸变限制了完整波场的高级应用，以获得更好的地下特性",
+      "id": "10.1093/gji/ggag164",
+      "title": "Near-Surface Imaging of Urban Environments Using Distributed Acoustic Sensing (DAS) and Finite Element Method (FEM) Model",
+      "url": "https://doi.org/10.1093/gji/ggag164",
+      "first_author": "Xingye Sun",
+      "corr_author": "Shengjie Rui",
+      "affiliation": "Zhejiang Province Key Laboratory of Offshore Civil Engineering and Materials, College of Civil Engineering and Architecture, Zhejiang University , Hangzhou 310058 Zhejiang ,",
+      "abs_zh": "总结\n                  剪切波速度成像是地基土壤近地表岩土工程表征、地下异常检测以及城市环境过程监测的关键。在本研究中，我们提出了一种工作流程，使用来自电信光纤上收集的分布式声学传感 (DAS) 数据的环境和人为噪声记录来表征大都市地区。我们开发了一种有限元模型，可以根据分层速度剖面计算基本和高阶表面波模式的剪切波色散曲线。该模型参数允许层内速度随深度的线性和幂律变化，以提供真实的近地表土壤行为。正演模型与反演算法相结合，可最大限度地减少模型与源自 DAS 数据的频散曲线的失配。我们使用威斯康星大学麦迪逊分校校园网络收集的 DAS 数据演示了工作流程。将结果与表面波多通道分析 (MASW) 方法进行比较，该方法使用与 DAS 站点之一和附近的测井位于同一位置的一系列地震检波器。两种解都表明剪切波速度在大约 20 米处发生急剧变化，对应于现场砂岩地层的深度，并且基于物理的幂律函数更好地拟合了松散沉积物的速度剖面。这些结果表明，我们的方法提供了可靠的近地表成像，同时提出了可能的土壤类型。所提出的测量和建模技术可以扩展到对有电信光纤的近地表进行成像。",
       "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120250251",
+      "title": "Present-Day Crustal Deformation and Seismic Hazard of the Sichuan-Tibet Transportation Corridor Constrained by InSAR and GPS",
+      "url": "https://doi.org/10.1785/0120250251",
+      "first_author": "Xiao-Xue Xu",
+      "corr_author": "Wen-Ting Zhang",
+      "affiliation": "1State Key Laboratory of Geodesy and Earth’s Dynamic, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences, Wuhan, China",
+      "abs_zh": "川藏交通走廊（STTC）是中国目前正在规划建设的重大战略基础设施项目，穿越多条地震活动频繁的活动断层。评估 STTC 沿线的断层活动和地震灾害势在必行。这项研究集成了干涉合成孔径雷达和全球定位系统，以获得走廊沿线的高分辨率 3D 变形场。结果表明，显着变形集中在鲜水河断裂带和东喜马拉雅构造结沿线，而在其他地区则分散分布。鲜水河断层和理塘断层表现出左旋剪切，滑动速率分别为 10.2 ± 0.9 和 0.6 ± 0.5 毫米/年。该地区其他断层以右旋剪切为主，其中金沙江断层显示出相对较高的滑动速率，为2.5±0.5毫米/年，而其余断层的滑动速率相似，约为1毫米/年。块体之间的差异运动导致沿主要断层的不同程度的活动，这些断层适应了 STTC 的大部分应变。综合地震矩平衡和地震分布，表明鲜水河断裂折多塘段地震风险相对较低。嘉里断裂和德登断裂的中段具有显着的地震潜力。澜沧江断裂和金沙江断裂的中段存在地震矩缺失，表明未来可能分别发生矩震级（Mw）6.4级和6.5级地震。这项研究对于了解青藏高原的变形模式以及包括 STTC 在内的重大基础设施项目的抗震设防具有重要意义。",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag165",
+      "title": "Experimental characterization of urban-like scattering and attenuation from a dense nodal array: implications for seismic ground motion",
+      "url": "https://doi.org/10.1093/gji/ggag165",
+      "first_author": "Malcon Celorio",
+      "corr_author": "Philippe Roux",
+      "affiliation": "ISTerre, Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, IRD, Univ. Gustave Eiffel , 38000 Grenoble ,",
+      "abs_zh": "总结\n                  衰减和散射在地震波通过复杂介质传播的过程中发挥着关键作用，但它们对场地与城市相互作用的具体贡献仍然知之甚少。数值研究最近引入了城市衰减和城市平均自由程的概念来描述这些过程。然而，仍然缺乏基于真实数据的观察证据。在这项研究中，我们使用森林作为城市环境的自然模拟来实验研究这些过程，其中树木组织为共振超材料（METAFORET 实验），充当类似于建筑物的分布式共振散射体。使用结合了环境噪声和有源测量的密集节点阵列，我们评估了几个关键指标，包括 Arias 持续时间、H/V 频谱比、相干性和空间变异性，以及描述波衰减和散射的参数。观测结果揭示了地震能量的重新分布，其特征是直达波振幅减小和尾波持续时间延长。这些结果提供了来自真实地震数据的类城市衰减和散射的第一个实验证据，并为采用基于噪声的被动方法来表征城市环境中的地震衰减效应铺平了道路。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025jb033147",
+      "title": "Autocorrelation Seismic Imaging of Northern Taiwan Using Ambient Noise Data",
+      "url": "https://doi.org/10.1029/2025jb033147",
+      "first_author": "Mei Chien",
+      "corr_author": "Po‐Fei Chen",
+      "affiliation": "Department of Earth, Environmental, and Planetary Sciences Rice University  Houston TX USA",
+      "abs_zh": "在过去的几百万年里，台湾北部记录了从俯冲到弧大陆碰撞，然后是碰撞后塌陷的构造历史。这种演化激发了对地壳结构的限制，包括地壳分层和厚度。我们分析了来自密集福尔摩沙阵列的 7 个月的连续垂直分量记录，并使用环境噪声自相关检索零偏移 P 波反射率。叠加自相关函数对台湾北部下方三个横向持续的正极性到达进行成像。最深到达被解释为双向旅行时间 (TWT) 为 11-15 秒的莫霍面 (PmP)，对应深度约为 30-47 公里。莫霍面在山带下方加深，并向宜兰平原变浅。第二个反射体平均出现在莫霍面上方约 5 公里处，并在最下地壳中形成横向连续的莫霍面平行带。一个浅的地壳内反射体位于 5-8 s TWT（~12-22 km 深度）处，并缓慢向东南偏东倾斜；地壳地震活动主要位于该界面之上。综合建模和深度转换敏感性测试表明主要到达是稳健的并且深度不确定性是适度的。这些观测结果为来自密集阵列环境噪声反射率成像的台湾北部地壳分层和界面几何形状提供了新的限制。",
+      "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     }
   ]
