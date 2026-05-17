@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-03 至 2026-05-10 03:27",
+  "last_update": "2026-05-10 至 2026-05-17 03:35",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -80,6 +80,83 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aec8813",
+      "title": "Axial-time mapping: A diagnostic method to reveal concealed long-term catalyst deactivation mechanism in CO\n                    <sub>2</sub>\n                    hydrogenation",
+      "url": "https://doi.org/10.1126/sciadv.aec8813",
+      "first_author": "Wonjoong Yoon",
+      "corr_author": "Jaehoon Kim",
+      "affiliation": "School of Chemical Engineering, Sungkyunkwan University, 2066, Seobu-Ro, Jangan-Gu, Suwon, Gyeonggi-Do 16419, Republic of Korea.",
+      "abs_zh": "具有双时间轴的轴时间映射（ATM）——催化剂-反应物接触时间（\n                    t\n                    c\n                    ）和运行时间（TOS）——旨在阐明 CO 中铁催化剂的长期失活机制\n                    2\n                    加氢。治疗\n                    t\n                    c\n                    和 TOS 作为空间分布变量，异位数据集重建轴向相位梯度和性能变化。短\n                    t\n                    c\n                    在反应器入口处促进渗碳成 χ-Fe\n                    5\n                    C\n                    2\n                    和铁\n                    7\n                    C\n                    3\n                    在富含CO的环境中，而更长的时间\n                    t\n                    c\n                    下游——其中H\n                    2\n                    O积累——有利于再氧化成Fe\n                    3\n                    氧\n                    4\n                    。随着时间的推移，残留的Fe\n                    3\n                    氧\n                    4\n                    进一步渗碳，富集碳化物相，抑制CO\n                    2\n                    活化，并启用未转化的CO\n                    2\n                    绕过上床，从而减少有效\n                    t\n                    c\n                    。这导致二氧化碳形成区向下游迁移以及活性区域和非活性区域的空间分离。的\n                    t\n                    c\n                    -TOS 解析方法提供了一种灵敏且实用的诊断工具，用于检测和减轻工业条件下的失活。 ATM 框架提供了一种通用策略，用于探测复杂异质催化系统中的相演化和失活途径。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250269",
+      "title": "Lithospheric Deformation Beneath the Incipient Okavango Rift Zone Revealed by Three-Dimensional Seismic Velocity Inversion",
+      "url": "https://doi.org/10.1785/0220250269",
+      "first_author": "Tuo Wang",
+      "corr_author": "Zhichao Yu",
+      "affiliation": "1State Key Laboratory of Lithospheric and Environmental Coevolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
+      "abs_zh": "东非裂谷系统南端的早期奥卡万戈裂谷带（ORZ）是地球上最年轻的裂谷带之一。了解 ORZ 岩石圈结构对于理解裂谷系统的早期裂谷过程，甚至导致古代大陆分裂的机制至关重要。在本研究中，我们通过使用非线性贝叶斯蒙特卡罗算法联合反演瑞利波相速度色散和接收器函数，构建了 ORZ 下方的 3D 岩石圈剪切波速度模型。该模型展示了从地表到 160 公里深度的速度结构，并揭示了与大陆拉伸相关的几个岩石圈特征。在地壳内，ORZ 下方发现低速，这可能是由于熔体的存在造成的。我们还在上地幔中观察到四个低速异常。其中两个异常现象位于 ORZ 的两端，可能与大陆拉伸引起的减压融化有关。第三个是在裂谷正下方观察到的，裂谷从大约 110 公里深度开始延伸到更深的地方。我们假设该异常现象可归因于该区域存在少量熔体和/或高温，这可能是由来自更深处的热流体引起的。这三个异常可能充当地壳的熔体储库。另一个低速异常现象位于林波波带和卡普瓦尔克拉通之间的边界下方。与其他特征不同，这一特征可能与前寒武纪岩浆事件相关的岩石圈地幔中 Mg# 的减少导致的成分变化有关。因此，在当前的构造环境中，它可能无法充当熔体储层。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag193",
+      "title": "Rupture process of the 2020\n                    <i>M</i>\n                    S 5.0 Qiaojia, China earthquake from multi-empirical Green’s function inversion",
+      "url": "https://doi.org/10.1093/gji/ggag193",
+      "first_author": "Xu Zhang",
+      "corr_author": "Zhen Fu",
+      "affiliation": "Institute of Geophysics, China Earthquake Administration , Beijing ,",
+      "abs_zh": "总结\n                  2020年乔家5.0级地震发生在中国西南部小江断裂附近构造复杂的地区。我们使用多经验格林函数 (EGF) 反演方法研究了这次中型地震的破裂过程，该方法整合了多个 EGF 事件的波形。综合测试表明，多 EGF 反演方法比任何单独的 EGF 反演方法都能更稳健地恢复输入模型。这次地震的解析时空破裂模型表明，持续约 2.9 s 的致密破裂，主要是震源附近的一个主要粗糙体，其特征是破裂主要向东传播。 Bootstrap重采样分析进一步证实了所解析的主要同震滑移分布和整体力矩释放模式的稳健性。我们还观察到同震滑动和余震分布之间的空间互补性，大多数余震聚集在主要粗糙体的外围。该研究不仅阐明了2020年乔家5.0级地震的震源复杂性，也验证了多EGF反演方法在解析中型地震破裂过程中的稳健性和有效性。我们的研究结果为中型地震的破裂运动学以及小江断裂带及其周边地区的断层强度和应力的异质性提供了新的见解。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122274",
+      "title": "Characterizing Multi‐Source DNAPL Source Zone Architecture in Channelized Aquifers Using a Geophysics‐Informed Hybrid Deep Learning Framework",
+      "url": "https://doi.org/10.1029/2026gl122274",
+      "first_author": "Yanhao Wu",
+      "corr_author": "Mengcheng Zhang",
+      "affiliation": "College of Civil Engineering and Architecture Zhejiang University  Hangzhou China",
+      "abs_zh": "浓密非水相液体 (DNAPL) 源区结构 (SZA) 的准确表征对于污染场地修复至关重要。然而，高度渠道化的含水层异质性和多源污染带来了重大挑战。本研究提出了一种基于地球物理学的混合深度学习框架，用于在这种条件下表征 SZA。首先，采用改进的生成对抗网络（GAN）来生成渠道化含水层结构。然后，开发了基于卷积神经网络 (CNN) 的代理模型，用于快速 DNAPL 多相流模拟。最后，GAN 和 CNN 与地球物理模型集成，构建基于数据同化的反演框架，称为 GAN-CNN-地球物理反演（GCGI）。该框架通过同化电阻率层析成像观察来实现 SZA 识别。案例研究表明，GCGI 可以准确识别通道化渗透率场、泄漏位置和速率，从而能够可靠地重建 DNAPL 饱和度分布。这项研究强调了整合深度学习和地球物理方法来表征地下多相流系统的潜力。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122235",
+      "title": "Deformation of δ‐AlOOH and Its Solid Solution With Phase H as a Potential Source of Intra‐Slab Seismic Anisotropy in the Mid‐Mantle",
+      "url": "https://doi.org/10.1029/2026gl122235",
+      "first_author": "Wentian Wu",
+      "corr_author": "Yuji Higo",
+      "affiliation": "Geodynamics Research Center, PIAS Ehime University  Matsuyama Japan",
+      "abs_zh": "地震各向异性在地幔过渡带和下地幔最上部的俯冲带附近广泛观察到，特别是沿着西太平洋边缘和轨道板片几何形状，这意味着存在额外的板片相关震源。水相如 δ-AlOOH 和 H 相（MgSiO\n                    4\n                    H\n                    2\n                    ），它形成固溶体（δ-H）并且在冷的水合板中稳定，是潜在的贡献者。我们在 20.5–24.5 GPa 和 800°C–1000°C 下对 δ-AlOOH 和 δ-H 进行了良好控制的变形实验。变形聚集体形成了强大的晶体择优取向 (CPO)，并且对 δ-AlOOH 的简单剪切实验将 (010)[001] 确定为可能的主要滑移系统，并从晶内错误取向推断出辅助系统。由此产生的 CPO 产生的垂直偏振剪切波速度超过水平偏振速度（\n                    V\n                    SV\n                     > \n                    V\n                    SH\n                    ）在次水平剪切下具有强方位各向异性。我们认为这些相在水平流下产生负径向各向异性，并且可以部分地促成平坦板顶部附近的各向异性。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120250171",
+      "title": "Using a High- to Low-Frequency Spectral Ratio to Distinguish Variations in Earthquake Source Properties",
+      "url": "https://doi.org/10.1785/0120250171",
+      "first_author": "Ian Vandevert",
+      "corr_author": "Wenyuan Fan",
+      "affiliation": "1Scripps Institution of Oceanography, University of California San Diego, San Diego, California, U.S.A.",
+      "abs_zh": "类似震级的地震会产生不同量的高频辐射，从而导致峰值地面加速度的变化和地面运动预测的不确定性。这些源差异以纵波和横波频谱的形式表达，并影响地震应​​力降的频谱估计。事件之间频谱的相对变化和相关应力降估计比其绝对值更好地得到解决，从而为区分地震及其高频辐射内容提供了有用的测量。在这里，我们使用频率指数（FI）来量化频谱中的这些差异，频率指数定义为高频段平均频谱幅度与低频段平均频谱幅度的对数比。然后，我们根据经验校正路径和站点效应，以计算新的量，即归一化频率指数 (nFI)。我们确定了 2019 年 Ridgecrest 地震余震的 nFI 值的空间变化，这些变化与已发布的应力降估计相关。我们的数据驱动方法可以稳健地识别不同地震和震源区域之间高频能量的变化，为常用的应力降估计方法提供基于观测的替代方法，用于表征高频震源行为。",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120250262",
+      "title": "Temporal and Spatial Changes in Seismic Attenuation Associated with Inferred Fluid Migration in the 2016 Central Apennines Earthquake Sequence",
+      "url": "https://doi.org/10.1785/0120250262",
+      "first_author": "Luca Malagnini",
+      "corr_author": "Roland Bürgmann",
+      "affiliation": "1Istituto Nazionale di Geofisica e Vulcanologia, Rome, Italy",
+      "abs_zh": "先前的工作表明，高频地震衰减可以作为裂缝介质中地壳渗透性和流体流动性的高度敏感指标。我们检验了这样的假设：造成 2016 年至 2017 年阿马特里切 - 维索 - 诺尔恰 - 卡皮蒂尼亚诺序列的断层系统充当了不可渗透的密封，分隔了加压流体，直到动态破裂触发广泛的流体扩散。通过跟踪 S 波滞弹性衰减参数的时空演化序列，我们识别出在阿马特里切主震之后并严格发生在随后的大破裂之前的上盘内出现的大型正低频衰减异常。相反，我们观察到下盘较弱的负异常，与上盘的负异常在时间上反相关，揭示了整个断层系统中流体重新分布和渗透率演化的巨大不对称性。此外，余震迁移率揭示了在距离减小的时间空间中明显的线性排列，使我们能够明确地跟踪和量化横向和向上流体迁移的事件。这些物理上一致的模式表明，应力驱动的流体扩散直接削弱了邻近的断层斑块，决定了地震活动的时空迁移。我们的结论是，地震衰减的近实时监测可能有助于检测活动断层系统中的流体重新分布，并可能为与时间相关的地震危险评估提供有用的信息。",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag171",
       "title": "Deep Learning-based Microseismic Source Location with Joint Constraints of Source Imaging and Traveltime Residuals",
       "url": "https://doi.org/10.1093/gji/ggag171",
@@ -88,83 +165,6 @@
       "affiliation": "State Key Laboratory for Critical Mineral Research and Exploration, School of Geosciences and Info-physics, Central South University , Changsha, Hunan ,",
       "abs_zh": "总结\n                  微震震源定位对于地震监测和地下资源开发至关重要。在复杂速度模型下处理低信噪比 (SNR) 数据时，走时反演和波形叠加方法的精度都有限。现有的深度学习方法主要采用纯粹的数据驱动策略，没有物理约束，抑制大的和意外的位置错误的能力有限。我们提出了一种用于微震震源定位的物理约束深度学习方法，该方法将互相关叠加（CCS）成像的物理原理集成到网络训练中。该方法结合了源成像质量损失和走时一致性损失的联合损失函数，以及帕累托动态加权策略来平衡不同的损失分量。 Marmousi 速度模型的综合实验表明，与纯数据驱动方法相比，联合约束方法将平均绝对误差 (MAE) 从 34.09 m 降低到 27.91 m。最大误差从280.18 m下降到130.38 m，降低了53.5%，有效抑制了较大的定位误差。经过训练的网络在 0.04 秒内实现单事件成像预测，比传统 CCS 所需的 3 秒加速了 75 倍。该方法在密集阵列的近实时微震监测中显示出巨大的潜力。",
       "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121619",
-      "title": "Apollo 17 Lunar Surface Gravimeter as a Seismometer: Relocating Shallow‐Moonquake Sources and Implications for Source Mechanism",
-      "url": "https://doi.org/10.1029/2025gl121619",
-      "first_author": "Keisuke Onodera",
-      "corr_author": "Taichi Kawamura",
-      "affiliation": "Institute for Planetary Materials Okayama University  Misasa Japan",
-      "abs_zh": "在已报道的月球地震事件中，浅层月震以其独特的特征而闻名，例如高频能量激发、与板内地震的相似性以及所有已报道月震中最大的能量释放。尽管有这些有趣的特征，但样本数量少（<80个事件）和稀疏的地震台网观测阻碍了我们对浅层月震的深入了解。在这项研究中，通过使用阿波罗 17 号重力仪作为伪地震仪，我们扩展了阿波罗月球地震网络，并更准确地定位了一些浅层月震。此外，将所定位的浅月震震中与地表/地下地质特征进行比较表明，至少一个事件可以通过地壳内的深层断层更好地解释。结合之前对低频月震的演示，我们对高频事件的分析表明，阿波罗 17 号重力仪可以作为地震仪，其频率范围比之前认为的更广。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adr4039",
-      "title": "Ousiometrics: The essence of meaning aligns with a power-danger-structure framework instead of valence-arousal-dominance",
-      "url": "https://doi.org/10.1126/sciadv.adr4039",
-      "first_author": "Peter Sheridan Dodds",
-      "corr_author": "Christopher M. Danforth",
-      "affiliation": "Computational Story Lab, Vermont Advanced Computing Center, University of Vermont, Burlington, VT 05405, USA.",
-      "abs_zh": "从 20 世纪中叶出现的著作开始，意义的本质已被广泛接受为由效价、唤醒度和支配力这三个正交维度来描述。这些基本维度已成为许多领域情感分析的基石。通过重新检查英语语言的第一种类型和标记，并通过使用自动注释的直方图（“ousiograms”），我们在这里发现，单词传达的意义的本质最好是通过善良-权力-攻击-危险-结构（GPADS）循环框架来描述；大规模英语语料库揭示了对安全、低危险单词的系统性偏见；权力-危险-结构框架是代表本质意义的最小框架。我们发现 GPADS 框架与其他空间（包括心理状态和虚构原型）之间存在显着的一致性，并且我们构建并演示了原型声计。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aec6396",
-      "title": "Induction of broadly neutralizing HIV antibodies by a two-step mechanism informs vaccine design",
-      "url": "https://doi.org/10.1126/science.aec6396",
-      "first_author": "Ashwin N. Skelly",
-      "corr_author": "George M. Shaw",
-      "affiliation": "Departments of Medicine and Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
-      "abs_zh": "HIV-1 疫苗和治疗研究面临的一个主要障碍是缺乏能够快速、一致诱导广泛中和抗体 (bNAb) 的远交动物模型。我们设计了一种针对表位的猿猴人类免疫缺陷病毒 (SHIV.5MUT)，该病毒在 22 只猕猴中的 14 只感染后一年内引发了广泛且有效的 V3 聚糖靶向抗体，而 14 只对照动物中只有 0 只只产生了这种抗体。 SHIV.5MUT 通过两步机制引发 bNAb，诱导第一波针对 V1 的抗体，这些抗体选择具有缩短的低糖基化 V1 环的 Env，进而引发 V3-聚糖 bNAb 前体。恒河猴 bNAb 在免疫遗传学和结构上具有多样性，与人类 V3-聚糖 bNAb 非常相似。 Env-bNAb 共同进化揭示了 bNAb 前体的多样性以及使它们成熟的 Env 变体，从而产生了疫苗设计的分子蓝图。",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-01446-3",
-      "title": "Trafficked pangolins can be traced to their source by DNA — even to a specific forest",
-      "url": "https://doi.org/10.1038/d41586-026-01446-3",
-      "first_author": "N/A",
-      "corr_author": "N/A",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120250263",
-      "title": "Machine Learning–Based Automatic Microseismic Event Detection During the 17 August 2015 Mw 4.6 Induced Earthquake Sequence in Northern Montney, British Columbia, Canada",
-      "url": "https://doi.org/10.1785/0120250263",
-      "first_author": "Mohammad Hossein Khosravi",
-      "corr_author": "Qinya Liu",
-      "affiliation": "1Department of Earth Sciences, University of Toronto, Toronto, Canada",
-      "abs_zh": "微震活动监测对于更好地了解水力压裂（HF）作业中的裂缝扩展和储层行为，以及诱发地震的断层激活过程和人为过程引起的相关地震灾害至关重要。检测地震事件并选取首波纵波和横波相位是微震监测和安全资源管理的基本任务。在这项研究中，我们对2015年8月10日至9月10日加拿大不列颠哥伦比亚省蒙尼区北部的高频操作记录的地震检波器数据集进行了微震事件检测的最先进深度学习（DL）模型的受控域转移基准测试。在此期间，发生了4.6级诱发地震。在评估多个预训练选择器后，我们选择 PhaseNet 并通过将输入数据采样率从 100 Hz 提高到 500 Hz 来优化其在显着域转移下的性能，从而显着增强其准确识别低信噪比 (SNR) 微震相位的能力。通过应用自动相位关联和事件定位算法的工作流程，我们构建了一个高置信度、面向精确的事件目录，该目录成功识别了通过基于迁移的堆叠生成的参考工业目录的约 55%。 DL 目录显示了高度一致的时空模式和矩量级 (Mw 4.6) 检测能力。我们证明，检测差距主要反映了单站分类器和网络级亮度方法之间的根本差异，错过的事件通常是真正的低信噪比到达或参考目录中的视觉噪声片段，而不是被时间信号重叠所掩盖。这些发现表明，与微震领域的专有商业软件相比，用于自动事件检测和定位的基于开源包的工作流程可能足够好",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag167",
-      "title": "Deformation Process and Mechanism of the 2025\n                    <i>M</i>\n                    w 7.0 Dingri Earthquake in Southern Tibet Revealed by GNSS and InSAR",
-      "url": "https://doi.org/10.1093/gji/ggag167",
-      "first_author": "Nannan Guo",
-      "corr_author": "Sagynbek Orunbaev",
-      "affiliation": "The First Monitoring and Application Center , China Earthquake Administration, Tianjin ,",
-      "abs_zh": "总结\n                  2025 年西藏南部定日 7.0 级地震为研究活动裂谷带内的正断层机制提供了独特的机会。结合大地测量（全球导航卫星系统和干涉合成孔径雷达）和现场观测，我们描述了该事件的震间和同震变形。这种综合分析使我们能够反演详细的断层滑移模型，并定量评估 2015 年 MW 7.8 廓尔喀地震的触发效应。我们的主要发现是：（1）震中伸展应变率为（1.5±0.2）×10−8/年，明显低于北部余震区，表明应变分配存在差异。 （2）同震滑动模型揭示了由两条近南北走向的正断层形成的地堑结构，最大滑动量为4.1 m，大地矩为4.2 × 1019 N·m。 (3) 现场测量证实了分段表面破裂，其中中心部分的垂直滑移 (2.1–2.2 m) 与 InSAR 导出的视线变形最大值 (2.04 m) 精确对齐，从而验证了大地测量模型。 (4) 变形分析表明，2015 年廓尔喀地震促进了定日地震的破裂，可能使其地震周期加速约 20 年。这一事件证明了裂谷沿神扎-丁结系统传播，并为藏南震后应力转移和深部地壳过程提供了重要见解。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250265",
-      "title": "Source Characterization and Seismotectonic Insights of the 2024 (M 5.0) Mulugu Earthquake in the Godavari Graben, Eastern Dharwar Craton, India",
-      "url": "https://doi.org/10.1785/0220250265",
-      "first_author": "Vengala Pavan Kumar",
-      "corr_author": "Prakash Kumar",
-      "affiliation": "1Seismological Observatory, CSIR-National Geophysical Research Institute, Hyderabad, India",
-      "abs_zh": "2024 年 12 月 4 日，Telangana 的 Mulugu 地区发生了 5.0 ML 地震，位于 Godavari 地堑内，Godavari 地堑是东达瓦尔克拉通 (EDC) 的一个重要裂谷结构，该地区以罕见但影响深远的板内地震活动而闻名。本研究利用 CSIR（国家地球物理研究所地震网络）在 EDC 及周边地区记录的宽带波形数据来研究该事件的震源特征和震源机制。戈达瓦里地堑拥有详细的地震历史记录，1969 年至 2023 年间记录了 297 次地震，震级从 0.8 到 5.7 ML（国家地球物理研究所 [NGRI]，2017 年）。时域矩张量反演揭示了主要为走滑震源机制，最佳拟合解表明震源深度为10 km，地震矩为1.40×1016  N·m（Mw 4.7）。其中一个节点面的方向与戈达瓦里谷断层沿线的破裂一致，戈达瓦里断层是一个主要的西北-东南走向的结构，在盛行的压应力状态下重新激活。使用 SourceSpec 模块进行的光谱分析提供了关键源参数，包括 Mw 4.90 ± 0.25 的加权矩震级、3.473 Hz 的转角频率，以及在坚固、破碎的结晶地壳中典型的致密、高能板内破裂的相对较高的应力降。穆卢古地震与该地区过去发生的地震具有相似的特征，特别是 1969 年发生的 M 5.7 Bhadrachalam 地震，该地震也在东北-西南挤压作用下表现出走滑断层。这种反复出现的断层类型凸显了继承性裂谷结构和正在进行的基底断层重新活动的持续影响。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]
