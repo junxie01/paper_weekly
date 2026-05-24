@@ -1,29 +1,7 @@
 {
-  "last_update": "2026-05-10 至 2026-05-17 03:35",
+  "last_update": "2026-05-17 至 2026-05-24 03:43",
   "topic_name": "人工智能",
   "papers": [
-    {
-      "id": "2603.03079v1",
-      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
-      "url": "http://arxiv.org/abs/2603.03079v1",
-      "first_author": "Jonas Köhler",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以考虑平衡数据集上的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时仍与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
-      "source": "arXiv",
-      "published": "2026-03-03"
-    },
-    {
-      "id": "2602.09792v1",
-      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
-      "url": "http://arxiv.org/abs/2602.09792v1",
-      "first_author": "Jaehong Chung",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
-      "source": "arXiv",
-      "published": "2026-02-10"
-    },
     {
       "id": "10.1016/j.epsl.2026.120091",
       "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
@@ -44,6 +22,61 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag198",
+      "title": "A Machine-learning-based Method for Integrating Seismic Data from Heterogeneous Sources",
+      "url": "https://doi.org/10.1093/gji/ggag198",
+      "first_author": "Ain Yi",
+      "corr_author": "Hyunggu Jun",
+      "affiliation": "Kyungpook National University Department of Geology, , Daegu ,",
+      "abs_zh": "总结\n                  在海洋地震勘探中，根据勘探目标，采用各种类型的震源来可视化海底下方的地质结构。气枪源通过在水下释放压缩空气来产生大量能量，通常用于深层区域成像；然而，由于峰值频率较低，它们的垂直分辨率有限。相比之下，火花源利用放电电能蒸发水而产生的气泡来生成具有高峰值频率的小波，从而产生高垂直分辨率。火花源可用于浅层地层的详细成像，但由于其源能量较低，穿透深度较浅。本文提出了一种整合气枪和火花塞数据的方法，以拓宽频率带宽，从而实现更准确的地质解释。该研究使用了在韩国浦项永日湾获得的小型气枪数据和火花塞数据。基于机器学习的整形滤波器模型与代表气枪和火花源小波特性的合成训练数据一起开发，并且训练后的模型用于规范这些源小波。随后，进行时变频谱白化（TVSW）和加权积分，以产生平坦的宽带频谱。与原始单源数据集相比，集成数据具有更高的穿透深度和垂直分辨率，从而克服了其有限的频率带宽和穿透深度所带来的解释限制，增强了相关地质解释的可靠性。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aeb0901",
+      "title": "Tropical basin interactions reduce spring predictability barrier of ENSO in a deep learning model",
+      "url": "https://doi.org/10.1126/sciadv.aeb0901",
+      "first_author": "Lu Zhou",
+      "corr_author": "Rong-Hua Zhang",
+      "affiliation": "State Key Laboratory of Climate System Prediction and Risk Management/Key Laboratory of Meteorological Disaster, Ministry of Education/Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters/School of Marine Sciences, Nanjing University of Information Science and Technology, Nanjing 210044, China.",
+      "abs_zh": "厄尔尼诺-南方涛动（ENSO）在北方春季表现出可预测性显着下降，称为春季可预测性障碍（SPB）。虽然印度洋、大西洋和太平洋之间的热带盆地相互作用可能会增强 ENSO 的可预测性，但它们在深度学习 (DL) 框架内缓解 SPB 方面的作用仍未得到充分利用。在这里，我们介绍 GL-Geoformer，一种用于全球热带海洋大气预测的深度学习模型。 GL-Geoformer 捕获热带盆地风的时空演变和三维温度异常。我们的模型表明，纳入热带盆地相互作用可大大减少 SPB，使 GL-Geoformer 在春季启动时能够提前 16 个月实现熟练的 ENSO 预测。起搏器实验分别通过地下热传输和沃克环流机制来量化印度洋偶极子和大西洋尼诺现象的个体和协同贡献非线性。这项研究提供了一个数据驱动的框架来表示热带盆地相互作用并减少 SPB，从而加深对 ENSO 可预测性的理解。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.aeb0813",
+      "title": "Reward magnitude determines reinforcement learning efficiency",
+      "url": "https://doi.org/10.1126/science.aeb0813",
+      "first_author": "Sheng Gong",
+      "corr_author": "Luke T. Coddington",
+      "affiliation": "Mechanistic Cognitive Neuroscience, Janelia Research Campus of the Howard Hughes Medical Institute, Ashburn, VA, USA.",
+      "abs_zh": "标准的动物学习研究将个体奖励的幅度最小化，以最大化强化行为的重复。我们研究了奖励大小如何影响幼稚小鼠的五种行为范式的初始学习。特别是大额奖励可以通过对课内和课间学习以及任务参与度的分离效应来显着提高学习效率。腹侧纹状体多巴胺释放的持续时间和幅度与奖励大小成比例，多巴胺奖励反应的长期光遗传学增强也再现了大量（但不是全部）由超大奖励产生的学习益处。这些发现表明，动物的强化学习效率历来被低估，奖励的多巴胺信号传导任务参与度与绝对奖励大小成比例。",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10535-2",
+      "title": "A deep-learning framework reveals whole-body perturbations at cell level",
+      "url": "https://doi.org/10.1038/s41586-026-10535-2",
+      "first_author": "Doris Kaltenecker",
+      "corr_author": "Ali Ertürk",
+      "affiliation": "未知机构",
+      "abs_zh": "许多疾病，包括肥胖症，都会产生系统性影响，扰乱全身多个器官系统\n                    1,2\n                    。然而，一直缺乏在全身范围内对疾病相关变化进行全面、高分辨率分析的工具。在这里，我们开发了 MouseMapper，这是一套基于基础模型的深度学习算法，可以对整个小鼠身体的疾病进行多系统分析。 MouseMapper 能够对神经和免疫细胞进行全身定量分析，解析精细的轴突分支和免疫细胞簇，同时自动分割 31 个器官和组织。我们使用 MouseMapper 研究饮食引起的肥胖，并确定了三叉神经节眶下分支的结构改变。眶下神经的这种结构损伤与胡须感知的功能性感觉缺陷有关。此外，我们还发现了影响小鼠和人类轴突重塑和补体途径的三叉神经节蛋白质组变化。 MouseMapper 还通过表征跨组织的免疫细胞簇组成来生成详细的三维炎症图。 MouseMapper 框架在不同的成像分辨率和数据集上展示了强大的通用性。我们的研究提供了一种强大的、可扩展的方法来识别和量化系统病理学，将分子见解从动物模型与人类状况联系起来。",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag190",
+      "title": "Seismogenic index improves deep learning performance for seismicity rate forecasting in Utah FORGE and EGS Collab projects",
+      "url": "https://doi.org/10.1093/gji/ggag190",
+      "first_author": "Supeng Zhang",
+      "corr_author": "Zetian Zhang",
+      "affiliation": "School of Earth Sciences and Engineering, Nanjing University , Nanjing 210023 ,",
+      "abs_zh": "总结\n                  注入诱发的地震活动对增强型地热系统（EGS）的安全提出了重大挑战。我们定制了一个深度学习模型来预测规定注入计划下的地震活动率。该模型采用两阶段策略，首先预测注入压力作为中间变量，然后用于支持地震活动率预测。通过这种方式，可以成功预测现场规模的犹他州地热能研究前沿观测站 (Utah FORGE) 和矿山规模的 EGS 合作项目的地震活动率。虽然没有地震指数（Σ）的模型可以获得较低的预测误差，但加入Σ可以显着提高其捕捉地震活动率瞬态变化的能力。犹他州 FORGE 和 EGS 协作实验室的预测可能会凸显将根据原始观测计算出的关键物理参数整合到数据驱动框架中以预测注入诱发地震活动的重要性，并可能展示定制深度学习模型在下一代 EGS 中进行跨阶段预测的潜力。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
@@ -78,94 +111,6 @@
       "abs_zh": "全流域雪深（SD）地图可以支持业务供水评估，但其可用性受到测量成本（机载）或采样限制（卫星和无人机）的限制。我们提出了 Swath 随机森林 (RF)，这是一种在狭窄的条带（小于盆地的 10%）内测量的 SD 上训练随机森林的方法，以推断整个盆地的深度。使用来自科罗拉多州和加利福尼亚州八个盆地的 68 项 LiDAR 调查，我们评估了两种预测案例：(a) 地貌加上先前的全盆地雪深图和 (b) 仅地貌。对于第一种情况，具有 2 公里宽条带的 Swath-RF 以较低的外推绝对偏差 (0.019 m) 和 RMSE (0.21 m) 再现了盆地范围的深度，并表示跨地形梯度和不同年份的雪量。单独使用生理学时，误差会大 2-3 倍。 Swath-RF 可以更频繁地或跨更多盆地进行全流域测绘，但代价是准确性；对其他地区的适用性将取决于降雪气候、地形和数据可用性。",
       "source": "Geophysical Research Letters",
       "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119941",
-      "title": "Breakthrough in Measuring Snowfall Intensity With Hybrid Deep Learning and Surveillance Cameras",
-      "url": "https://doi.org/10.1029/2025gl119941",
-      "first_author": "Xing Wang",
-      "corr_author": "Lei Han",
-      "affiliation": "School of Computer Engineering Nanjing Institute of Technology  Nanjing China",
-      "abs_zh": "准确的降雪测量对于减灾、气候研究和许多其他应用至关重要。广泛部署的监控摄像头为精细降雪观测提供了新的可能性。本文提出了 HySnowNet，这是一种混合框架，首先使用物理频域技术提取雪花，然后应用深度学习网络来估计降雪强度。大量实验表明，雪花提取模块显着增强了不同降雪强度下的性能，并在高达 5 m/s 的风速下保持稳定，使 HySnowNet 在自行构建的数据集和实际观测中分别实现了 2.42 和 1.23 mm/hr 的均方根偏差值。此外，累积降雪估算精度比S波段雷达提高了20.3%，证明了其在支持雷达网络方面的价值。然而，在极端条件下（>5 毫米/小时），其性能会下降。这些发现可以建立在现有的监测资源的基础上，为高时空分辨率地面降雪测量开辟一条新途径，支持遥感观测网络并实现有效的吹雪监测。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250285",
-      "title": "Single-Station Three-Component Seismic Event Localization Using Deep Neural Networks",
-      "url": "https://doi.org/10.1785/0220250285",
-      "first_author": "Mingyu Guo",
-      "corr_author": "Zhichen Li",
-      "affiliation": "1School of Geosciences and Info-Physics, Central South University, Changsha, China",
-      "abs_zh": "单站地震定位技术仅使用来自单站的三分量波形数据即可实现精确的地震定位。对于加强台站覆盖稀疏地区的地震监测、提高小震定位精度具有重要价值。传统的单站方法面临两个关键限制：（1）震中距估计依赖于区域速度模型，这些模型的不准确性直接转化为定位误差；（2）基于波形极化的后向方位角估计往往不确定性大、可靠性低，特别是在低信噪比（SNR）条件下。为了应对这些挑战，本研究提出了一种基于深度神经网络的单站三分量地震定位方法。该方法采用两个网络，以三分量波形作为输入来独立预测震中距和反向方位角。我们的方法完全由数据驱动，不需要事先信息或人工干预。我们使用包含 367k 高质量地震事件的数据集训练模型，然后从三个维度进行系统评估：（1）与主流定位模型的性能比较，（2）低信噪比（<20）条件下的鲁棒性测试，以及（3）使用京信网络（K-NET）数据进行泛化评估。实验结果表明，我们的方法在大多数场景下实现了高精度定位，验证了其有效性和实用性。此外，我们对后向方位角预测的回归模型和分类模型进行了深入比较，发现分类模型的误差略高于回归模型，但它可以提供预测后向方位角的不确定性估计。这项研究为提高地震监测能力提供了一种新颖的技术解决方案，特别是在网络稀疏地区和f",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10510-x",
-      "title": "A synaptic locus of song learning",
-      "url": "https://doi.org/10.1038/s41586-026-10510-x",
-      "first_author": "Drew C. Schreiner",
-      "corr_author": "Richard Mooney",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10461-3",
-      "title": "Efficient robot navigation inspired by honeybee learning flights",
-      "url": "https://doi.org/10.1038/s41586-026-10461-3",
-      "first_author": "Dequan Ou",
-      "corr_author": "Guido C. H. E. de Croon",
-      "affiliation": "未知机构",
-      "abs_zh": "导航对于动物和机器人来说都是至关重要的能力。尽管微小的飞虫可以稳健地长距离导航\n                    1\n                    ，最先进的机器人导航方法的计算成本很高，因此仅限于大型机器人\n                    2,3\n                    。在这里，我们提出了“Bee-Nav”，这是一种高效的导航策略，其灵感来自蜜蜂的视觉学习飞行\n                    4-6\n                    。在等效的机器人学习飞行中，一个微型神经网络经过训练，可以根据路径积分将全向图像映射到归属向量。学习后，机器人可以飞离家很远，使用路径积分直接回来，并使用视觉归航网络取消积分漂移。模拟表明，为了获得实际的路径积分精度，神经网络只需要在大约 0.25-10.00% 的总飞行区域上进行训练。在现实世界的室内和室外实验中，一架小型无人机分别使用 3.4 kB 和 42 kB 的神经网络，在大风条件下成功地在 30-110 米飞行中 100% 和 200-600 米飞行中 70% 成功返回到离家 0.5 米以内。所提出的导航策略对于资源有限的机器人来说至关重要，这些机器人在往返于家庭位置时执行任务。此外，它还为昆虫导航的神经行为学提供了新的视角，从视觉学习如何塑造归巢轨迹到认知图的本质。",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122274",
-      "title": "Characterizing Multi‐Source DNAPL Source Zone Architecture in Channelized Aquifers Using a Geophysics‐Informed Hybrid Deep Learning Framework",
-      "url": "https://doi.org/10.1029/2026gl122274",
-      "first_author": "Yanhao Wu",
-      "corr_author": "Mengcheng Zhang",
-      "affiliation": "College of Civil Engineering and Architecture Zhejiang University  Hangzhou China",
-      "abs_zh": "浓密非水相液体 (DNAPL) 源区结构 (SZA) 的准确表征对于污染场地修复至关重要。然而，高度渠道化的含水层异质性和多源污染带来了重大挑战。本研究提出了一种基于地球物理学的混合深度学习框架，用于在这种条件下表征 SZA。首先，采用改进的生成对抗网络（GAN）来生成渠道化含水层结构。然后，开发了基于卷积神经网络 (CNN) 的代理模型，用于快速 DNAPL 多相流模拟。最后，GAN 和 CNN 与地球物理模型集成，构建基于数据同化的反演框架，称为 GAN-CNN-地球物理反演（GCGI）。该框架通过同化电阻率层析成像观察来实现 SZA 识别。案例研究表明，GCGI 可以准确识别通道化渗透率场、泄漏位置和速率，从而能够可靠地重建 DNAPL 饱和度分布。这项研究强调了整合深度学习和地球物理方法来表征地下多相流系统的潜力。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "2509.00791v1",
-      "title": "A computer vision-based approach to enhance seismic catalogues",
-      "url": "http://arxiv.org/abs/2509.00791v1",
-      "first_author": "Michele De Solda",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "近年来，人工智能和深度学习地震探测器，加上全球部署的越来越多的密集地震网络，进一步促进了大规模地震目录的创建，大大降低了其完整性。然而，这些自动化目录通常是在没有系统质量控制的情况下发布的，并且可能包含虚假检测、错误定位或不一致的幅度。在具有挑战性的场景中，例如微震监测应用，弱且间隔紧密的事件经常在时间上重叠，基于拾取的检测和定位方法通常无法可靠地关联相位。这会导致漏检或定位精度下降，从而产生被错误或错位事件污染的地震目录。为了解决这一限制，我们提出了一种基于计算机视觉的工作流程，它将基于波形的地震定位方法与深度学习图像分类相结合，以直接从相干矩阵中区分真实的地震事件和噪声。这些通过波形叠加计算的矩阵表现出真实事件（单个、聚焦的最大值）与噪声（模糊、不相干的模式）的不同模式，因此清理地震目录的问题可以作为二值图像分类问题来解决。此外，基于波形的定位方法的鲁棒性允许在地震事件的定位中获得更高的分辨率。这种方法的另一个优点是神经网络的训练可以完全基于合成数据。这种基于合成的训练消除了对大型标记数据集的需求，从而能够在新仪器领域快速部署。我们使用冰岛亨吉尔地热区公开的 COSEISMIQ 数据集来验证我们的工作流程。",
-      "source": "arXiv",
-      "published": "2025-08-31"
-    },
-    {
-      "id": "2508.04925v2",
-      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
-      "url": "http://arxiv.org/abs/2508.04925v2",
-      "first_author": "Sigma Jahan",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根本原因和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
-      "source": "arXiv",
-      "published": "2025-08-06"
-    },
-    {
-      "id": "2412.16336v1",
-      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
-      "url": "http://arxiv.org/abs/2412.16336v1",
-      "first_author": "Gunel Jahangirova",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
-      "source": "arXiv",
-      "published": "2024-12-20"
     }
   ]
 }

@@ -1,61 +1,17 @@
 {
-  "last_update": "2026-05-10 至 2026-05-17 03:35",
+  "last_update": "2026-05-17 至 2026-05-24 03:43",
   "topic_name": "地震研究",
   "papers": [
     {
-      "id": "2604.02472v1",
-      "title": "VALOR: Value-Aware Revenue Uplift Modeling with Treatment-Gated Representation for B2B Sales",
-      "url": "http://arxiv.org/abs/2604.02472v1",
-      "first_author": "Vamshi Guduguntla",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "B2B 销售组织必须在零膨胀的收入分配中确定“可说服的”账户，以优化昂贵的人力资源分配。标准提升框架面临着高维空间中治疗信号崩溃以及回归校准和高价值“鲸鱼”排名之间不一致的问题。我们引入了 VALOR（优化（B2B）收入的价值感知学习），这是一个统一框架，具有治疗门控稀疏收入网络，使用双线性交互来防止因果信号崩溃。该框架通过新颖的成本敏感型 Focal-ZILN 目标进行了优化，该目标将分布稳健性的焦点机制与根据财务规模调整惩罚的价值加权排名损失相结合。为了提供高接触销售计划的可解释性，我们进一步推导了 Robust ZILN-GBDT，这是一种基于树的变体，利用自定义分割标准来提升异质性。广泛的评估证实了 VALOR 的主导地位，与公共基准上最先进的方法相比，其排名提高了 20%，并且在严格的 4 个月生产 A/B 测试中，每个帐户的增量收入经验证增加了 2.7 倍。",
-      "source": "arXiv",
-      "published": "2026-04-02"
-    },
-    {
-      "id": "2603.27860v1",
-      "title": "Relative Focal Mechanism Inversion Using Relative Polarities and S/P Double Ratios",
-      "url": "http://arxiv.org/abs/2603.27860v1",
-      "first_author": "Miao Zhang",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "小地震的震源机制对于表征断层和区域应力至关重要。 P 波极性和 S/P 振幅比（例如，在 HASH 中）被广泛用于确定小地震的震源机制，但对于突发事件来说，初动拾取可能很困难，而且由于不完善的速度模型和未知的场地响应，S/P 比通常高度不一致。在这里，我介绍 FocMecDR，一种使用相对极性和 S/P 振幅双倍比的相对焦点机制反演方法。与双差地震定位类似，FocMecDR 使用具有已知震源机制的参考事件，通过最小化观测到的 S/P 振幅双倍比与理论 S/P 振幅双比之间的失配，同时强制执行基于互相关的相对极性，来求解附近地震的震源机制。广泛的合成测试证明了该方法的有效性和准确性。使用反相似地震对和 2019 年 Ridgecrest 破裂带西北端余震的现场验证进一步证实了其可靠性。对 2019 年 Ridgecrest 主震之前的前震的应用揭示了成核过程中高度均匀的应力场，这提出了评估大地震前断层带应力和破裂准备情况的可能框架。",
-      "source": "arXiv",
-      "published": "2026-03-29"
-    },
-    {
-      "id": "2603.20902v1",
-      "title": "Virtual receiver functions via conditional diffusion transformers for robust crustal imaging",
-      "url": "http://arxiv.org/abs/2603.20902v1",
-      "first_author": "Tiente R. Koireng",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "接收函数（RF）广泛用于对地壳和上地幔结构进行成像，其随方位角和震中距离的变化包含有关分层和方位各向异性的关键信息。然而，实际上，射频受到未知地震源特征和地震噪声的干扰影响，从而阻碍了可靠的地壳成像。后方位角和震中距离的稀疏射频覆盖也会导致各向异性估计出现偏差。我们使用条件扩散模型来应对这些挑战，以后方位角、震中距和台站坐标为条件，生成高质量的虚拟径向和横向射频。来自具有相似方位角和震中距离的地震的射频具有一致的地壳响应，但滋扰效应不同，从而使模型能够抑制后者。我们的框架在后方位角和震中距离覆盖范围内生成虚拟射频，增强对地壳各向异性和分层的解释。在具有真实非高斯噪声的合成射频上，虚拟射频与真实射频的相关性比传统线性或相位加权叠加更强。应用于卡斯卡迪亚俯冲带时，虚拟径向射频对来自倾斜板片的散射 S 波进行了清晰的成像，与之前的工作相比，具有增强的相位清晰度和后向覆盖范围。在南加州，从虚拟 RF 推断出的各向异性参数在空间上是相干的，并且与区域断层几何形状一致。我们的方法利用所有可用的射频（无论质量如何）来增加空间覆盖范围并支持强大的自动化射频分析。",
-      "source": "arXiv",
-      "published": "2026-03-21"
-    },
-    {
-      "id": "2603.18925v1",
-      "title": "Improving moment tensor solutions under Earth structure uncertainty with simulation-based inference",
-      "url": "http://arxiv.org/abs/2603.18925v1",
-      "first_author": "A. A. Saoulis",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "贝叶斯推理代表了将地球结构不确定性纳入全波形矩张量反演中的原则性方法，但传统方法通常需要显着的近似，这可能会导致结果解出现偏差。我们引入了一种使用基于模拟的推理（SBI）来处理理论错误的稳健方法，这是一种机器学习方法，可以根据经验模拟理论错误对观察的影响。该框架保留了贝叶斯推理的严谨性，同时避免了对不确定性函数形式的限制性假设。我们首先证明理论误差的常见高斯参数化在较小的（$1-3 \\%$）一维地球模型不确定性下会崩溃。为了解决这个问题，我们开发了两种利用 SBI 来提高矩张量解决方案质量的形式：一种使用基于物理的理论错误洞察，另一种使用端到端深度学习算法。然后，我们将矩张量反演的结果与标准高斯方法和 SBI 进行比较，并证明高斯假设会产生偏差并显着低估矩张量的不确定性。我们还表明，当反演短期数据和浅层各向同性事件时，这些影响尤其成问题。另一方面，SBI 产生更可靠、更好校准的震源机制后验。最后，我们成功地将我们的方法应用于两次经过深入研究的中震级地震：一次来自 1997 年的长谷火山口火山地震序列，另一次来自 2020 年的萨格勒布地震。",
-      "source": "arXiv",
-      "published": "2026-03-19"
-    },
-    {
-      "id": "2603.15982v1",
-      "title": "Elastic waveform inversion for double-couple microseismic source estimation in vertically fractured transversely isotropic media",
-      "url": "http://arxiv.org/abs/2603.15982v1",
-      "first_author": "Ujjwal Shekhar",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "准确表征沉积地层流体注入过程中的微震事件对于减轻环境风险至关重要。与断层面上滑动相关的微震事件的震源机制由双力偶给出。波形反演已成为一种用于估计双耦合源的矩张量和位置矢量的有前途的技术。在双偶源矩张量的波形反演的大多数应用中，通常假设地层是各向同性的，或者较少见的是横观各向同性的。在反演微震波形数据时，未包括对矩张量表示的修改，以考虑横向各向同性地层中对齐的垂直裂缝所产生的各向异性。在这项关于合成微震数据的研究中，我们提出了一种包含这种修改的波形反演算法，考虑到震源区域中的地层是垂直断裂横观各向同性（VFTI）并具有正交对称性。由于 VFTI 介质缺乏旋转对称性，因此没有对发生滑移的断层面的方向做出任何假设。双力偶源的力矩张量是根据VFTI介质的弹性参数和滑移幅度、滑移角、断层倾角和断层法线方位角等几何参数来公式化的。源反演被视为局部优化问题，我们针对源位置和几何参数进行反演。这些几何参数比矩张量分量更直接地受到地震数据的约束，并提供了具有地质意义的见解。这种方法增强了裂缝地层的微震监测，并且可以扩展到更复杂的各向异性介质，例如单斜系统。",
-      "source": "arXiv",
-      "published": "2026-03-16"
+      "id": "10.1016/j.epsl.2026.120109",
+      "title": "Decoupling physical and chemical signals in tectonically active basins: A ∼ 3.3 Ma record of drainage integration and source-inherited climate forcing in North China",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120109",
+      "first_author": "Fubing He",
+      "corr_author": "Xiwei Xu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
       "id": "10.1016/j.epsl.2026.119985",
@@ -77,6 +33,50 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260046",
+      "title": "Active-Source Environmental Seismology",
+      "url": "https://doi.org/10.1785/0220260046",
+      "first_author": "W. Steven Holbrook",
+      "corr_author": "Ivan Rabak",
+      "affiliation": "1Department of Geosciences, Virginia Tech, Blacksburg, Virginia, U.S.A.",
+      "abs_zh": "环境地震学是一个快速发展的领域，主要通过被动检测事件（例如滑坡和沉积物运动）和反映饱和度变化（例如地下水位变化）的地下速度变化，为许多地表和近地表地球过程提供新的见解。仪器（例如分布式声学传感）和分析技术（例如机器学习和人工智能）的最新进展正在扩大被动环境地震学的用例和数据量。然而，尽管取得了这些成功，被动环境地震学仍有两个缺点，可能会限制数据的有用性。首先，依赖于表面波观测的被动源研究通常产生横波速度而不伴随纵波速度测量，因此不能完全表征地下弹性特性。其次，被动源研究通常无法提供区分承载和控制环境过程的近地表单元（例如土壤、腐泥土和裂隙基岩）所需分辨率的地下结构。我们建议通过结合关键区（CZ）的主动源地震成像来克服这些限制。主动源数据记录整个波场，从而提供详细的 P 和 S 速度结构，可以将被动源测量置于上下文中。主动源直带地震学是一个快速变化的领域，最近在仪器（例如小型自主节点）和分析技术（例如更广泛地采用全波形反演）方面取得了显着进展。因此，新型调查（例如三分量、3D 和延时）正在以新颖的方式和前所未有的分辨率对 CZ 进行成像。在这里，我们回顾了主动源直带地震学的最新技术，并提供了几个例子，证明主动源环境地震学可以实现直带结构和过程的米级分辨率。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec9946",
+      "title": "Visualizing the mechanism of quinol oxidation and inhibition of a\n                    <i>bd</i>\n                    -type oxidase using cryo-EM",
+      "url": "https://doi.org/10.1126/sciadv.aec9946",
+      "first_author": "Tijn T. van der Velden",
+      "corr_author": "Lars J. C. Jeuken",
+      "affiliation": "Leiden Institute of Chemistry, Leiden University, P.O. Box 9502, 2300 RA Leiden, Netherlands.",
+      "abs_zh": "细胞色素\n                    BD\n                    是一种原核末端氧化酶，被认为是针对多种病原体的抗生素靶标。尽管它在呼吸中发挥着关键作用，但未能捕获对苯二酚氧化和抑制的机制阻碍了结构引导的药物发现。在这里，我们展示了冷冻电子显微镜结构\n                    大肠杆菌\n                    细胞色素\n                    BD\n                    -I 呈单体和二聚形式，呈多种醌和抑制剂结合状态。我们发现了一个动态 Q 环盖，它在底物与二聚体结合时经历无序到有序的转变，从而完成活性位点并实现催化。结构引导诱变证实了 Tyr243\n                    细胞色素A\n                    和精氨酸298\n                    细胞色素A\n                    作为仅在长 Q 环氧化酶中发现的保守催化残基，突出了与其他亚家族的进化差异。 Aurachin D 的抑制会触发活性位点的重折叠，从而阻止通过 Asp239 进入底物\n                    细胞色素A\n                    -介导机制。这里提出的结构和机制见解建立了一个全面的框架，为药物发现开辟了道路\n                    BD\n                    氧化酶。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adz7117",
+      "title": "The immunoproteome and multimorbidity: A Mendelian randomization study",
+      "url": "https://doi.org/10.1126/sciadv.adz7117",
+      "first_author": "Nikita Hukerikar",
+      "corr_author": "A. Floriaan Schmidt",
+      "affiliation": "Institute of Health Informatics, Faculty of Population Health Sciences, University College London, 222 Euston Road, London NW1 2DA, UK.",
+      "abs_zh": "多重发病给研究和医疗保健带来了挑战。我们研究了免疫蛋白如何影响多种疾病，以确定共同的机制和治疗机会。使用八个大型血浆蛋白质组 GWAS，我们鉴定了 151 种免疫蛋白的顺式作用变体，并应用顺式孟德尔随机化来评估与 64 种疾病和生物标志物的关联。蛋白质疾病群落是使用整合了多重校正关联、成药性、适应症和组织性状关联的知识图得出的。在独立的 pQTL 中寻求复制，并将共定位应用于复制的信号。免疫蛋白经常与冠心病、静脉血栓栓塞、心房颤动、2 型糖尿病和帕金森病有关。七个蛋白质群落映射到包括纤维胶粘蛋白结合和抗菌肽在内的途径，富含影响多种疾病的蛋白质。在共定位支持下复制了多种关联，包括 APOE、CD163 和 IL-6R 与神经退行性、心脏代谢和炎症特征的关联。我们发现可药物免疫蛋白具有强大的遗传支持，对常见疾病具有多效性，这凸显了适应症扩展和治疗开发的机会。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/d41586-026-01324-y",
+      "title": "Quantum light source boosts attosecond science",
+      "url": "https://doi.org/10.1038/d41586-026-01324-y",
+      "first_author": "Jan Marcus Dahlström",
+      "corr_author": "Jan Marcus Dahlström",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
       "published": "2026"
     },
     {
@@ -109,61 +109,6 @@
       "corr_author": "Zhen Fu",
       "affiliation": "Institute of Geophysics, China Earthquake Administration , Beijing ,",
       "abs_zh": "总结\n                  2020年乔家5.0级地震发生在中国西南部小江断裂附近构造复杂的地区。我们使用多经验格林函数 (EGF) 反演方法研究了这次中型地震的破裂过程，该方法整合了多个 EGF 事件的波形。综合测试表明，多 EGF 反演方法比任何单独的 EGF 反演方法都能更稳健地恢复输入模型。这次地震的解析时空破裂模型表明，持续约 2.9 s 的致密破裂，主要是震源附近的一个主要粗糙体，其特征是破裂主要向东传播。 Bootstrap重采样分析进一步证实了所解析的主要同震滑移分布和整体力矩释放模式的稳健性。我们还观察到同震滑动和余震分布之间的空间互补性，大多数余震聚集在主要粗糙体的外围。该研究不仅阐明了2020年乔家5.0级地震的震源复杂性，也验证了多EGF反演方法在解析中型地震破裂过程中的稳健性和有效性。我们的研究结果为中型地震的破裂运动学以及小江断裂带及其周边地区的断层强度和应力的异质性提供了新的见解。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122274",
-      "title": "Characterizing Multi‐Source DNAPL Source Zone Architecture in Channelized Aquifers Using a Geophysics‐Informed Hybrid Deep Learning Framework",
-      "url": "https://doi.org/10.1029/2026gl122274",
-      "first_author": "Yanhao Wu",
-      "corr_author": "Mengcheng Zhang",
-      "affiliation": "College of Civil Engineering and Architecture Zhejiang University  Hangzhou China",
-      "abs_zh": "浓密非水相液体 (DNAPL) 源区结构 (SZA) 的准确表征对于污染场地修复至关重要。然而，高度渠道化的含水层异质性和多源污染带来了重大挑战。本研究提出了一种基于地球物理学的混合深度学习框架，用于在这种条件下表征 SZA。首先，采用改进的生成对抗网络（GAN）来生成渠道化含水层结构。然后，开发了基于卷积神经网络 (CNN) 的代理模型，用于快速 DNAPL 多相流模拟。最后，GAN 和 CNN 与地球物理模型集成，构建基于数据同化的反演框架，称为 GAN-CNN-地球物理反演（GCGI）。该框架通过同化电阻率层析成像观察来实现 SZA 识别。案例研究表明，GCGI 可以准确识别通道化渗透率场、泄漏位置和速率，从而能够可靠地重建 DNAPL 饱和度分布。这项研究强调了整合深度学习和地球物理方法来表征地下多相流系统的潜力。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122235",
-      "title": "Deformation of δ‐AlOOH and Its Solid Solution With Phase H as a Potential Source of Intra‐Slab Seismic Anisotropy in the Mid‐Mantle",
-      "url": "https://doi.org/10.1029/2026gl122235",
-      "first_author": "Wentian Wu",
-      "corr_author": "Yuji Higo",
-      "affiliation": "Geodynamics Research Center, PIAS Ehime University  Matsuyama Japan",
-      "abs_zh": "地震各向异性在地幔过渡带和下地幔最上部的俯冲带附近广泛观察到，特别是沿着西太平洋边缘和轨道板片几何形状，这意味着存在额外的板片相关震源。水相如 δ-AlOOH 和 H 相（MgSiO\n                    4\n                    H\n                    2\n                    ），它形成固溶体（δ-H）并且在冷的水合板中稳定，是潜在的贡献者。我们在 20.5–24.5 GPa 和 800°C–1000°C 下对 δ-AlOOH 和 δ-H 进行了良好控制的变形实验。变形聚集体形成了强大的晶体择优取向 (CPO)，并且对 δ-AlOOH 的简单剪切实验将 (010)[001] 确定为可能的主要滑移系统，并从晶内错误取向推断出辅助系统。由此产生的 CPO 产生的垂直偏振剪切波速度超过水平偏振速度（\n                    V\n                    SV\n                     > \n                    V\n                    SH\n                    ）在次水平剪切下具有强方位各向异性。我们认为这些相在水平流下产生负径向各向异性，并且可以部分地促成平坦板顶部附近的各向异性。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120250171",
-      "title": "Using a High- to Low-Frequency Spectral Ratio to Distinguish Variations in Earthquake Source Properties",
-      "url": "https://doi.org/10.1785/0120250171",
-      "first_author": "Ian Vandevert",
-      "corr_author": "Wenyuan Fan",
-      "affiliation": "1Scripps Institution of Oceanography, University of California San Diego, San Diego, California, U.S.A.",
-      "abs_zh": "类似震级的地震会产生不同量的高频辐射，从而导致峰值地面加速度的变化和地面运动预测的不确定性。这些源差异以纵波和横波频谱的形式表达，并影响地震应​​力降的频谱估计。事件之间频谱的相对变化和相关应力降估计比其绝对值更好地得到解决，从而为区分地震及其高频辐射内容提供了有用的测量。在这里，我们使用频率指数（FI）来量化频谱中的这些差异，频率指数定义为高频段平均频谱幅度与低频段平均频谱幅度的对数比。然后，我们根据经验校正路径和站点效应，以计算新的量，即归一化频率指数 (nFI)。我们确定了 2019 年 Ridgecrest 地震余震的 nFI 值的空间变化，这些变化与已发布的应力降估计相关。我们的数据驱动方法可以稳健地识别不同地震和震源区域之间高频能量的变化，为常用的应力降估计方法提供基于观测的替代方法，用于表征高频震源行为。",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120250262",
-      "title": "Temporal and Spatial Changes in Seismic Attenuation Associated with Inferred Fluid Migration in the 2016 Central Apennines Earthquake Sequence",
-      "url": "https://doi.org/10.1785/0120250262",
-      "first_author": "Luca Malagnini",
-      "corr_author": "Roland Bürgmann",
-      "affiliation": "1Istituto Nazionale di Geofisica e Vulcanologia, Rome, Italy",
-      "abs_zh": "先前的工作表明，高频地震衰减可以作为裂缝介质中地壳渗透性和流体流动性的高度敏感指标。我们检验了这样的假设：造成 2016 年至 2017 年阿马特里切 - 维索 - 诺尔恰 - 卡皮蒂尼亚诺序列的断层系统充当了不可渗透的密封，分隔了加压流体，直到动态破裂触发广泛的流体扩散。通过跟踪 S 波滞弹性衰减参数的时空演化序列，我们识别出在阿马特里切主震之后并严格发生在随后的大破裂之前的上盘内出现的大型正低频衰减异常。相反，我们观察到下盘较弱的负异常，与上盘的负异常在时间上反相关，揭示了整个断层系统中流体重新分布和渗透率演化的巨大不对称性。此外，余震迁移率揭示了在距离减小的时间空间中明显的线性排列，使我们能够明确地跟踪和量化横向和向上流体迁移的事件。这些物理上一致的模式表明，应力驱动的流体扩散直接削弱了邻近的断层斑块，决定了地震活动的时空迁移。我们的结论是，地震衰减的近实时监测可能有助于检测活动断层系统中的流体重新分布，并可能为与时间相关的地震危险评估提供有用的信息。",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag171",
-      "title": "Deep Learning-based Microseismic Source Location with Joint Constraints of Source Imaging and Traveltime Residuals",
-      "url": "https://doi.org/10.1093/gji/ggag171",
-      "first_author": "Lei Li",
-      "corr_author": "Jianxin Liu",
-      "affiliation": "State Key Laboratory for Critical Mineral Research and Exploration, School of Geosciences and Info-physics, Central South University , Changsha, Hunan ,",
-      "abs_zh": "总结\n                  微震震源定位对于地震监测和地下资源开发至关重要。在复杂速度模型下处理低信噪比 (SNR) 数据时，走时反演和波形叠加方法的精度都有限。现有的深度学习方法主要采用纯粹的数据驱动策略，没有物理约束，抑制大的和意外的位置错误的能力有限。我们提出了一种用于微震震源定位的物理约束深度学习方法，该方法将互相关叠加（CCS）成像的物理原理集成到网络训练中。该方法结合了源成像质量损失和走时一致性损失的联合损失函数，以及帕累托动态加权策略来平衡不同的损失分量。 Marmousi 速度模型的综合实验表明，与纯数据驱动方法相比，联合约束方法将平均绝对误差 (MAE) 从 34.09 m 降低到 27.91 m。最大误差从280.18 m下降到130.38 m，降低了53.5%，有效抑制了较大的定位误差。经过训练的网络在 0.04 秒内实现单事件成像预测，比传统 CCS 所需的 3 秒加速了 75 倍。该方法在密集阵列的近实时微震监测中显示出巨大的潜力。",
       "source": "Geophysical Journal International",
       "published": "2026"
     }

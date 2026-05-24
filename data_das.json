@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-05-10 至 2026-05-17 03:35",
+  "last_update": "2026-05-17 至 2026-05-24 03:43",
   "topic_name": "分布式光纤传感",
   "papers": [
-    {
-      "id": "2605.15079v1",
-      "title": "Croissant Baker: Metadata Generation for Discoverable, Governable, and Reusable ML Datasets",
-      "url": "http://arxiv.org/abs/2605.15079v1",
-      "first_author": "Rafi Al Attrach",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "Croissant 已成为机器学习数据集的元数据标准，提供一种基于 JSON-LD 的结构化格式，使数据集发现、自动摄取和可重现分析可在机器学习平台上进行机器检查。采用速度加快了，NeurIPS 现在在每次提交到其数据集轨道时都需要 Croissant 元数据。然而在实践中，牛角面包的生成通常从将数据上传到公共平台开始，这对于受管理的大型本地存储库来说是不可行的，因为这些存储库保存着机器学习日益依赖的大部分高价值数据。我们发布了 Croissant Baker，这是一个本地优先的开源命令行工具，可通过模块化处理程序注册表直接从数据集目录生成经过验证的 Croissant 元数据。我们在 140 多个数据集上评估 Croissant Baker，扩展到 8.86 亿行和 374 个 Parquet 文件的 MIMIC-IV。在与生产者编写的或标准衍生的基本事实进行比较时，Croissant Baker 在多个领域达到了 97-100% 的一致性。",
-      "source": "arXiv",
-      "published": "2026-05-14"
-    },
-    {
-      "id": "2605.14730v1",
-      "title": "Hardness of Burning Number Problem on Regular Graphs",
-      "url": "http://arxiv.org/abs/2605.14730v1",
-      "first_author": "Dhanyamol Antony",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "燃烧数字问题 (BNP) 通过图上的离散时间过程对网络中的信息传播或传染进行建模。在每一步中，都会选择一个新顶点作为燃烧源，同时火焰从先前燃烧的顶点蔓延到其邻居。图的燃烧数是燃烧所有顶点所需的最少步骤数。决策版本询问燃烧数量是否至多是给定的整数$k$。众所周知，即使在路径森林等受限图类上，BNP 也是 NP 完全的。我们在连通正则图上研究 BNP，这是一种自然且之前未探索过的图类。我们证明 BNP 在连通三次图上是 NP 完全的，而且在此限制下是 APX 困难的。我们进一步表明，对于每个固定的 $d \\geq 4$，BNP 在连接的 $d$-正则图上仍然是 APX-hard。",
-      "source": "arXiv",
-      "published": "2026-05-14"
-    },
-    {
-      "id": "2605.14691v1",
-      "title": "Decoherence of $q-$Deformed Photon Added Coherent State",
-      "url": "http://arxiv.org/abs/2605.14691v1",
-      "first_author": "Amit Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "在这项研究中，我们探索了在耗散退相干的变形谐振子中光子添加相干态的行为。我们使用 $q-$deformation 作为非线性函数来对系统进行建模。通过调整变形参数，我们发现与标准谐振子相比，$q-$变形光子相干态（DPACS）表现出更大的非经典性和退相干弹性。此外，我们还研究了 DPACS 在与耗散光子损失环境相互作用引起的退相干下的非经典特性和纠缠。",
-      "source": "arXiv",
-      "published": "2026-05-14"
-    },
-    {
-      "id": "2605.14679v1",
-      "title": "AI-assisted cultural heritage dissemination: Comparing NMT and glossary-augmented LLM translation in rock art documents",
-      "url": "http://arxiv.org/abs/2605.14679v1",
-      "first_author": "Vicent Briva-Iglesias",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "文化遗产机构越来越多地在全球范围内传播研究和解释材料，但多语言传播受到有限的预算和人员配置的限制。在岩石艺术等术语密集的领域，翻译质​​量取决于准确、一致的专业术语，小的词汇错误可能会误导非专业人士并减少重用。我们比较了西班牙学术岩石艺术文本的三种英语 MT 设置，重点关注简单、操作上可行的干预措施，而不是复杂的模型端修改：(1) DeepL 作为强大的 NMT 基线，(2) Gemini-Simple（带有基本提示的法学硕士），以及 (3) Gemini-RAG（相同的法学硕士，通过术语对检索增强词汇表提示）。使用 PEARMUT，我们通过 (i) 多路直接评估 (0--100) 和 (ii) 使用受限 MQM 分类法进行有针对性的术语审核来进行人工评估。与 Gemini-Simple (69.1\\%) 和 DeepL (64.4\\%) 相比，Gemini-RAG 具有最高的精确匹配术语准确度 (81.4\\%)，同时保持整体质量（平均 DA 85.3 Gemini-RAG 与 85.2 Gemini-Simple），优于 DeepL (80.3)。这些结果表明，如果机构保持最少的术语资源和轻量级的评估程序，词汇表增强提示是改善文化遗产翻译中术语控制的一种低开销方式。",
-      "source": "arXiv",
-      "published": "2026-05-14"
-    },
-    {
-      "id": "2605.14602v1",
-      "title": "The simulation on neutron background reduction for InDEx at JUSL",
-      "url": "http://arxiv.org/abs/2605.14602v1",
-      "first_author": "Susmita Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "暗物质实验是罕见的事件搜索实验，需要长时间曝光的零背景环境。为了实现这一条件，在执行实验之前需要对探测器几何结构和实验设置进行详细模拟。仿真在探测器设计中发挥着重要作用，并且还提供了一种经济有效且无风险的方法，用于在现实世界实验之前预测结果。目前的模拟工作重点是印度暗物质直接探测实验——印度暗物质搜索实验（InDEx）的中子背景降低。整个仿真过程中使用了FLUKA和FLAIR仿真工具。出于验证目的，正在使用 FLUKA 重现文献中提供的实验和模拟结果。对校准和InDEx实验进行了模拟，并将结果与​​实验结果进行了比较。为了减少未来实验中的中子背景，建议使用高密度聚乙烯 (HDPE)，并提出了使用 HDPE 的屏蔽设计。结果表明，与之前没有屏蔽的 InDEx 实验相比，屏蔽将探测器事件率降低了两个数量级。",
-      "source": "arXiv",
-      "published": "2026-05-14"
-    },
     {
       "id": "10.1016/j.epsl.2026.120077",
       "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
@@ -66,6 +11,28 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag203",
+      "title": "Distributed Acoustic Sensing Observations of the 23 April 2025 Mw 6.2 Marmara Earthquake in Northwestern Türkiye and Its Comparison with Borehole Seismometer Data",
+      "url": "https://doi.org/10.1093/gji/ggag203",
+      "first_author": "R F Kartal",
+      "corr_author": "C M Krawczyk",
+      "affiliation": "AFAD Disaster and Emergency Management Presidency, Earthquake Risk Reduction General Directorate , Earthquake Department, Ankara ,",
+      "abs_zh": "总结\n                  2025 年 4 月 23 日，土耳其西北部伊斯坦布尔附近发生的兆瓦 6.2 马尔马拉地震为评估分布式声学传感 (DAS) 在人口稠密和构造活跃地区的近断层地震学能力提供了难得的机会。 DAS 监测补充了北安纳托利亚断层 (GONAF) 的钻孔地球物理观测站，扩大了近断层观测站，以高分辨率监测伊斯坦布尔附近马尔马拉主断层 (MMF) 沿线的变形。在该实验中，国家光网络内现有的电信暗光纤被重新用作长偏移距海底地震阵列，而无需任何专用的水下安装。这条光缆沿着伊斯坦布尔南部海岸在水下延伸并沿着王子群岛北部边界延伸，成功记录了马尔马拉6.2级地震。在本研究中，我们分析了所得数据集，该数据集提供了约 34 km 的孔径、8 m 通道间距和 250 Hz 采样率，并包括平行和垂直于断层延伸的部分。 Mw 6.2 主震的 DAS 应变率记录显示出跨越数千个通道的清晰 P 波和 S 波到达，具有高信号相干性。振幅和相位校准后，使用基于标距的传递函数将记录转换为等效粒子速度，并与附近的 GONAF 钻孔地震波形数据进行比较。频谱分析表明，DAS 阵列保留了高达约 25 Hz 的地震能量，其频谱形状和振幅分布与钻孔记录一致。变换过程采用了 Curvelet、f-k 和基于时域慢度的转换方法。 OptoDAS 系统询问的海底 DAS 阵列能够对从记录的应变率数据导出的应变进行高分辨率空间采样。应用程序的系统变化",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250432",
+      "title": "Lightning-Induced Implosive Microseismic Events at Depth Detected by Downhole Distributed Acoustic Sensing in Taiwan",
+      "url": "https://doi.org/10.1785/0220250432",
+      "first_author": "Yen-Yu Lin",
+      "corr_author": "Shih-Jung Wang",
+      "affiliation": "1Department of Earth Sciences, National Central University, Taoyuan, Taiwan",
+      "abs_zh": "云对地（CG）闪电可以产生沿着地表传播的地震波，但一直缺乏其地下能量耗散的直接证据。在这里，我们报告了部署在台湾钻孔中的受扰声学传感（DAS）系统在重地雷击后立即检测到的地震脉冲波形，这可能是由重地雷闪电引起的。应变率波形仅表现出一个不同的地震相位，时差在 50-86 m 深度的 DAS 通道之间向地表传播，另一组在 86-140 m 深度的通道之间向下传播。最大峰值振幅对应于低至~3×10−6·s−1 的应变率。波幅在传播过程中表现出强烈的衰减。使用有限差分应变率模拟技术对观测到的地震脉冲的震源机制进行分析表明，这些波是由震级为 Mw−1.5 to −1.0（Mxx=Myy=Mzz<0，所有其他分量 = 0）的内爆事件产生的，位于距钻孔 84 m 深度约 10 至 20 m 处。我们对内爆源的模拟还解释了观察到的独特的应变率极性，在靠近源的通道处首先向下运动，在较远的通道处首先向上运动。这些结果提供了第一个直接证据，表明闪电的地下影响可以穿透到比以前认识的更深的深度，强调需要进一步研究潜在的物理机制。",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
@@ -92,12 +59,12 @@
     },
     {
       "id": "10.1093/gji/ggag164",
-      "title": "Near-Surface Imaging of Urban Environments Using Distributed Acoustic Sensing (DAS) and Finite Element Method (FEM) Model",
+      "title": "Near-surface imaging of urban environments using distributed acoustic sensing (DAS) and finite element method (FEM) modelling",
       "url": "https://doi.org/10.1093/gji/ggag164",
       "first_author": "Xingye Sun",
       "corr_author": "Shengjie Rui",
-      "affiliation": "Zhejiang Province Key Laboratory of Offshore Civil Engineering and Materials, College of Civil Engineering and Architecture, Zhejiang University , Hangzhou 310058 Zhejiang ,",
-      "abs_zh": "总结\n                  剪切波速度成像是地基土壤近地表岩土工程表征、地下异常检测以及城市环境过程监测的关键。在本研究中，我们提出了一种工作流程，使用来自电信光纤上收集的分布式声学传感 (DAS) 数据的环境和人为噪声记录来表征大都市地区。我们开发了一种有限元模型，可以根据分层速度剖面计算基本和高阶表面波模式的剪切波色散曲线。该模型参数允许层内速度随深度的线性和幂律变化，以提供真实的近地表土壤行为。正演模型与反演算法相结合，可最大限度地减少模型与源自 DAS 数据的频散曲线的失配。我们使用威斯康星大学麦迪逊分校校园网络收集的 DAS 数据演示了工作流程。将结果与表面波多通道分析 (MASW) 方法进行比较，该方法使用与 DAS 站点之一和附近的测井位于同一位置的一系列地震检波器。两种解都表明剪切波速度在大约 20 米处发生急剧变化，对应于现场砂岩地层的深度，并且基于物理的幂律函数更好地拟合了松散沉积物的速度剖面。这些结果表明，我们的方法提供了可靠的近地表成像，同时提出了可能的土壤类型。所提出的测量和建模技术可以扩展到对有电信光纤的近地表进行成像。",
+      "affiliation": "Zhejiang Province Key Laboratory of Offshore Civil Engineering and Materials, College of Civil Engineering and Architecture, Zhejiang University , Hangzhou 310058, Zhejiang ,",
+      "abs_zh": "剪切波速度成像是地基土壤近地表岩土工程表征、地下异常检测以及城市环境过程监测的关键。在本研究中，我们提出了一种工作流程，使用来自电信光纤上收集的分布式声学传感 (DAS) 数据的环境和人为噪声记录来表征大都市地区。我们开发了一种有限元模型，可以根据分层速度剖面计算基本和高阶表面波模式的剪切波色散曲线。模型参数允许层内速度随深度线性和幂律变化，以提供真实的近地表土壤行为。正演模型与反演算法相结合，可最大限度地减少模型与源自 DAS 数据的频散曲线的失配。我们使用威斯康星大学麦迪逊分校校园网络收集的 DAS 数据演示了工作流程。结果与使用与 DAS 站点之一和附近的钻孔测井位于同一位置的一系列检波器的表面波方法的多通道分析进行了比较。两种解都表明剪切波速度在大约 20 m 处发生急剧变化，对应于现场砂岩地层的深度，并且基于物理的幂律函数更好地拟合了松散沉积物的速度剖面。这些结果表明，我们的方法提供了可靠的近地表成像，同时提出了可能的土壤类型。所提出的测量和建模技术可以扩展到对有电信光纤的近地表进行成像。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
@@ -142,28 +109,6 @@
       "corr_author": "Ettore Biondi",
       "affiliation": "1Seismological Laboratory, Caltech, Pasadena, California, U.S.A.",
       "abs_zh": "在过去的几年里，分布式声学传感（DAS）在地震学研究甚至地震监测中得到了越来越多的应用。南加州地震台网最近开始将来自加利福尼亚州里奇克莱斯特的 DAS 数据纳入常规区域地震监测作业中。我们对将 DAS 数据添加到监测中的预期效果和观察到的效果进行了分析。在将 DAS 数据添加到实时 (RT) 操作之前，我们对 2023 年 5 月 28 日至 8 月 1 日的 228 个事件进行了测试，以评估 DAS 数据中相位选取的数量和质量以及这些附加选取对地震位置的潜在影响。我们还将机器学习选择器 PhaseNet-DAS 的自动选择与分析师的选择进行了比较，以评估其准确性，尽管它尚未在运营中使用。在 RT 系统中添加了 7 个 DAS 通道后，我们对 2025 年 5 月 6 日至 7 月 8 日期间的 331 个事件重复了这一分析，以评估性能是否符合预期。 PhaseNet-DAS 产生的选择数量大约是分析师的两倍。当比较到达时间时，PhaseNet-DAS 与分析师的误差大多在 ∼0.5 秒之内，其中 P 选择比 S 选择更相似。 RT 系统中的短期平均/长期平均选择器产生的 P 选择数量大约是分析师的一半，尽管它们通常是准确的。 PhaseNet-DAS 的检测阈值比分析师的检测阈值要好一些。对于事件位置和深度，我们发现与包含或不包含 DAS 镐的参考震源相比，准确性几乎没有差异。总体而言，我们发现将 DAS 添加到我们的监测系统中可以提供更多选择，尤其是在地震台覆盖较差的地区，对地震参数质量有潜在好处。 PhaseNet-DAS 或许能够提供准确的自动选择，以减少额外工作站的额外分析工作。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250208",
-      "title": "Real-Time Processing of Distributed Acoustic Sensing Data for Earthquake Monitoring Operations",
-      "url": "https://doi.org/10.1785/0220250208",
-      "first_author": "Ettore Biondi",
-      "corr_author": "Allen L. Husker",
-      "affiliation": "1California Institute of Technology, Seismological Laboratory, Pasadena, California, U.S.A.",
-      "abs_zh": "我们引入了一个模块化软件框架，旨在将分布式声学传感（DAS）数据集成到可操作的地震监测系统中。我们的解决方案以先进国家地震系统 (ANSS) 和南加州地震网络的基础设施为基础，采用 ANSS 地震监测软件 (AQMS)，支持实时 DAS 波形流和基于机器学习的走时拾取，以利用 DAS 阵列的密集空间采样。为了实现与 AQMS 的无缝兼容，我们的方法使用标准化地震数据格式来合并预定的 DAS 通道。我们演示了部署在加利福尼亚州里奇克莱斯特的 100 公里长 DAS 阵列的数据集成，并提供了软件组件和部署策略的详细描述。这项工作代表了将 DAS 纳入常规地震监测中的一步，并为使用光纤网络进行实时灾害评估开辟了新的可能性。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250331",
-      "title": "Typhoon Wind Speed Estimation via Microseismic Noise Recorded by Submarine Optical-Fiber Distributed Acoustic Sensing",
-      "url": "https://doi.org/10.1785/0220250331",
-      "first_author": "Chensong Xu",
-      "corr_author": "Wen Xu",
-      "affiliation": "1State Key Laboratory of Ocean Sensing and Ocean College, Zhejiang University, Zhoushan, China",
-      "abs_zh": "海面风速（SSWS）是台风监测和预报的重要参数。然而，台风条件下的实地观测却相当罕见。使用光纤 (OF) 电缆的分布式声学传感 (DAS) 最近已广泛用于监测海况。本研究提出了一种使用 DAS 仪表海底 OF 电缆来估计 SSWS 的方法。台风 Muifa (2022) 通过 OF 电缆期间海洋表面重力波 (OSGW) 产生的微震噪声作为输入数据集。开发了一个数学模型，用于根据微震噪声强度和推断的 OSGW 能量反演 SSWS。与附近海洋浮标的同步观测相比，反演结果产生的均方根误差约为 1.76 m/s。这些发现表明，DAS 仪表电缆有可能用于监测台风条件下的 SSWS，从而提供一种跨学科方法来补充传统的基于海洋和卫星的观测。",
       "source": "Seismological Research Letters",
       "published": "2026"
     }
