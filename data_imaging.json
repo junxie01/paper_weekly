@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-05-17 至 2026-05-24 03:43",
+  "last_update": "2026-05-24 至 2026-05-31 03:59",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "10.1016/j.epsl.2026.120113",
+      "title": "Swarm cessation and aftershock drivers following the pressure release of a four-year-long seismic sequence at the Noto Peninsula",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120113",
+      "first_author": "Saeed Mohanna",
+      "corr_author": "Hongyu Yu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120077",
       "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
@@ -47,69 +58,58 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag198",
-      "title": "A Machine-learning-based Method for Integrating Seismic Data from Heterogeneous Sources",
-      "url": "https://doi.org/10.1093/gji/ggag198",
-      "first_author": "Ain Yi",
-      "corr_author": "Hyunggu Jun",
-      "affiliation": "Kyungpook National University Department of Geology, , Daegu ,",
-      "abs_zh": "总结\n                  在海洋地震勘探中，根据勘探目标，采用各种类型的震源来可视化海底下方的地质结构。气枪源通过在水下释放压缩空气来产生大量能量，通常用于深层区域成像；然而，由于峰值频率较低，它们的垂直分辨率有限。相比之下，火花源利用放电电能蒸发水而产生的气泡来生成具有高峰值频率的小波，从而产生高垂直分辨率。火花源可用于浅层地层的详细成像，但由于其源能量较低，穿透深度较浅。本文提出了一种整合气枪和火花塞数据的方法，以拓宽频率带宽，从而实现更准确的地质解释。该研究使用了在韩国浦项永日湾获得的小型气枪数据和火花塞数据。基于机器学习的整形滤波器模型与代表气枪和火花源小波特性的合成训练数据一起开发，并且训练后的模型用于规范这些源小波。随后，进行时变频谱白化（TVSW）和加权积分，以产生平坦的宽带频谱。与原始单源数据集相比，集成数据具有更高的穿透深度和垂直分辨率，从而克服了其有限的频率带宽和穿透深度所带来的解释限制，增强了相关地质解释的可靠性。",
+      "id": "10.1029/2025jb032374",
+      "title": "Plate‐Plume Interactions in Southeast Asia: New Insight From Sn‐Wave Tomography",
+      "url": "https://doi.org/10.1029/2025jb032374",
+      "first_author": "Yuan Li",
+      "corr_author": "Dapeng Zhao",
+      "affiliation": "School of Geophysics and Information Technology China University of Geosciences  Beijing China",
+      "abs_zh": "东南亚最上地幔的新型剪切波速度 (Vs) 模型源自 ISC-EHB 公报中的大量高质量 Sn 波到达时间。我们的模型揭示了与地表构造密切相关的惊人的横向异质性。该地区的平均 Sn 波速度为 4.55 km/s。海沟和大陆碰撞带表现出高达 +0.40 km/s 的显着高速（高 Vs）异常，表明存在寒冷且致密的岩石圈物质。在火山弧区域下方观察到低速（低 Vs）异常（低至 -0.40 km/s），表明存在热、湿和部分熔融的地幔楔。此外，西藏东部及其邻近地区下方出现低Vs异常（-0.26 km/s），可能表明来自西藏的东向物质流被扬子地块阻挡并分成两支，南向的物质流可能遇到呵叻高原并再次分叉。结合之前的Pn各向异性和剪切波分裂测量结果，我们认为印度支那地块周围的流动也可能是由大地幔楔中向西的地幔对流和来自海南地幔柱的共同贡献的。这样的地球动力学模型可以解释晚新生代玄武岩的广泛分布和东南亚玄武岩省的形成。清晰地成像了一条长约 1,550 公里、东北-西南方向的低 Vs 带，它从海南北部延伸出来，反映了海南羽流的残余轨迹。结合俯冲历史、地幔柱活动和东南亚大地震，我们的发现为区域地球动力学和板块-地幔柱相互作用提供了新的线索。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025jb032124",
+      "title": "The Seismic Signature of the Atlantis Massif Oceanic Detachment Fault Determined From Crystallographic Preferred Orientation and Microstructure",
+      "url": "https://doi.org/10.1029/2025jb032124",
+      "first_author": "R. Kuehn",
+      "corr_author": "M. Stipp",
+      "affiliation": "Martin‐Luther‐Universität Halle‐Wittenberg Institute of Geosciences and Geography  Halle (Saale) Germany",
+      "abs_zh": "在缓慢扩张的洋中脊，大规模的脱离断层部分适应了扩张过程。山脊处的镁铁质和超镁铁质岩石被水渗透并改变其矿物学。在这些反应之后或同时，发生分离断层。岩石的蚀变和变形会产生不同的地震信号，从而为地震研究中识别滑脱断层提供了可能性。在这里，我们分析了蚀变和变形如何改变亚特兰蒂斯地块海洋核心复合体的这种滑脱断层周围海洋岩石圈的地震特征，该断层是在国际海洋发现计划第 357 次探险期间钻探的。使用 X 射线粉末衍射、光学显微镜以及同步加速器和中子织构分析，对来自钻芯的 10 个样本进行了矿物学、微观结构和晶体择优取向的分析。根据结果​​计算地震速度、各向异性和比率，与船上导出的实验样本集进行比较，并根据扩张脊进行解释。镁铁质岩石形成的变形滑石-角闪石-绿泥石片岩和超镁铁质岩石形成的叶状蛇纹岩产生了与快波速度断层（亚）平行方向的整体地震各向异性。我们的结果表明 P 波速度 (Vp) < 6.9 km/s 伴随着 0.1–0.5 km/s 范围内的剪切波分裂 (dVs) 可能代表此类断层的独特地震特征，以区别于新的、未变形的岩性。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3073-2026",
+      "title": "Langmuir turbulence in the Arctic Ocean: insights from a coupled sea ice–wave model",
+      "url": "https://doi.org/10.5194/tc-20-3073-2026",
+      "first_author": "Aikaterini Tavri",
+      "corr_author": "Ara Lee",
+      "affiliation": "未知机构",
+      "abs_zh": "。上层海洋混合调节海洋表面边界层中热量、动量和示踪剂的垂直传输。朗缪尔湍流 (LT) 由风应力和波浪引起的斯托克斯漂移相互作用产生，是公海中的主要混合机制。对冰湖、冰间湖和边缘冰区 (MIZ) 的 LT 观测证实了其在冰雪覆盖区域的存在，但其在北极范围内的发生以及海冰和波浪的调节在表征方面仍然有限。在这里，我们使用集成 neXtSIM 和 WAVEWATCH III 的耦合海冰-波浪模型首次对 LT 混合潜力进行泛北极评估。使用风浪强迫指标，我们表明海冰下与 LT 相关的强迫在空间上受到限制并且高度间歇性。有利于 LT 的条件主要发生在季节性 MIZ 内，并且偶尔出现。海冰浓度决定了波浪驱动湍流和剪切驱动湍流之间的平均平衡，但并不能唯一确定 LT 变化。波驱动混合的实现取决于波浪条件和冰结构，而风波错位起着次要作用。因此，北极 MIZ 的 LT 通常发生在波浪驱动和剪切驱动过程共存的混合强迫区域内。我们的研究结果强调了波冰相互作用和间歇性在部分冰盖下形成上层海洋混合的重要性。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag197",
+      "title": "Seismic ambient noise imaging along the fiber-optic cable of the offshore CASTOR gas storage field",
+      "url": "https://doi.org/10.1093/gji/ggag197",
+      "first_author": "Sergi Ventosa",
+      "corr_author": "Antonio Villaseñor",
+      "affiliation": "Institute of Marine Sciences Marine Geosciences Department, , CSIC, Pg. Marítim de la Barceloneta 37-49, 08003 Barcelelona ,",
+      "abs_zh": "总结\n                  连续、高密度应变和应变率分布式声学传感（DAS）记录对于以低成本解析地球浅层结构非常有价值，特别是在难以进入的环境中，例如大陆架和近海岸洋壳。在这项研究中，我们应用地震环境噪声方法从自然噪声源中提取高质量的经验格林函数 (EGF)，并对连接巴伦西亚湾（西班牙）海上 CASTOR 储气田与相关陆地设施的 30 公里长暗光缆沿线的速度结构进行建模。我们使用小波相位互相关和时间尺度相位加权叠加方法提取包含丰富多样的地震波的宽带EGF。在共源 EGF 集合中，干净的基波和一泛音 Scholte 波在海洋通道对中占主导地位，而基本瑞利模式出现在陆地通道对中。此外，从盆地边缘反射的弱波场跟随主表面波。然后，我们通过使用马尔可夫链蒙特卡罗方法求解逐点深度反演，根据基波和一泛音 Scholte 波的局部相速度观测构建了二维 Vs 模型。该模型将海洋沉积盆地从非常浅的水饱和沉积物解析到超过 1 公里的深度，识别出安波斯塔中央断层和该断层以西约 1 公里深度的基底基岩。这些结果有助于在观测到诱发地震活动的区域完善沿电缆的离岸速度模型，从而提高地震监测和地震灾害特征描述的准确性。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag188",
-      "title": "One-Step Prediction Random Forest for Induced Seismic Hazard Forecasting: Application to the Luxian area, Southern Sichuan Basin, China",
-      "url": "https://doi.org/10.1093/gji/ggag188",
-      "first_author": "Yunhuan Wu",
-      "corr_author": "Weichuan Zhang",
-      "affiliation": "State Key Laboratory of Geohazard Prevention and Geoenvironment Protection, Chengdu University of Technology , Chengdu ,",
-      "abs_zh": "总结\n                  非常规天然气开发中的水力压裂加剧了人们对诱发地震活动的担忧，产生重大地震灾害，对周围环境和社区产生潜在风险影响。对此类灾害的准确预测和透明解释仍然是地震学和工程实践中面临的挑战。本研究通过开发一步预测随机森林框架来模拟水力压裂井部署、地质因素、历史地震活动和未来地震发生的可能性之间的时空关系，从而解决这些挑战。基于一步预测的地震能量标签方案使该框架能够估计潜在的地震能量释放并通过特征归因识别主要控制因素。基于这些结果，传统的交通灯风险管理系统在概念上扩展到交通灯危险管理方案，该方案结合了风险分析的理论见解，以提高可解释性和操作相关性。使用混淆矩阵分析评估低、中和高灾害场景的预测性能，而基于 SHAP 的可解释性证实该框架通过将地质和操作驱动因素与地震能量释放联系起来，保持了物理一致性。这些发现将灾害预测与受风险理论启发的灾害管理框架相结合，推进了诱发地震活动研究的方法创新，为页岩气开发提供了理论见解和实用工具。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250434",
-      "title": "Upper Crustal Velocity Structure of Jiaodong Gold Province from Ambient Noise Double Beamforming Tomography",
-      "url": "https://doi.org/10.1785/0220250434",
-      "first_author": "Yuchen Yang",
-      "corr_author": "Laicheng Miao",
-      "affiliation": "1Key Laboratory of Deep Petroleum Intelligent Exploration and Development, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
-      "abs_zh": "胶东金矿床是中国最大的金矿基地，成矿规模全球罕见。它们的形成与现有的成矿模型不同，可能代表了一种尚未得到完全系统定义的独特金矿床类型。控矿构造是控制流体运移和沉淀的关键因素，其研究对于认识成矿规律、指导深部勘探具有重要意义。基于跨越胶东主要构造单元和矿团的线性短周期密集阵数据，利用双波束形成层析成像技术，获得了该地区地壳上8 km范围内的高分辨率横波速度结构，系统揭示了华北克拉通（NCC）与扬子克拉通（YC）边界的主要控矿构造和浅层结构。结果表明，焦溪北矿团主要受三山岛断裂、焦家断裂、昭平断裂、栖霞断裂等一系列低角度滑脱断裂控制，表现出明显的山状低速异常。相比之下，牟平矿团受穆鲁断层等陡倾断层控制，显示出近垂直的低速异常。五莲—烟台断裂带地壳结构存在显着差异。 YC东部显示出向华北克拉通西部俯冲的迹象，表明该断裂带可能是华北克拉通和YC之间碰撞造山带的北部边界。双波束形成层析成像有效增强了微弱但相干的信号，清晰地勾画出主要矿团内的关键构造，为了解胶东金矿成矿过程和机制提供了重要的地震学证据。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250420",
-      "title": "Seismic Noise Interferometry to Disentangle Environmental Effects from Irreversible Subsurface Changes at the Åknes Rockslide in Western Norway",
-      "url": "https://doi.org/10.1785/0220250420",
-      "first_author": "Laura Bogner",
-      "corr_author": "Nadège Langet",
-      "affiliation": "1Institute for Geophysics, University of Hamburg, Hamburg, Germany",
-      "abs_zh": "挪威西部的阿克内斯山体滑坡是该国最危险的不稳定斜坡之一，潜在的破坏可能会引发破坏性的峡湾海啸。因此，对其内部变形过程的可靠监测对于危险评估和预警至关重要。本研究通过分析垂直钻孔地震检波器阵列（15-50 m 深度）的连续记录得出的相对地震速度变化 (dv/v)，研究使用被动地震干涉测量 (PSI) 监测 Åknes 斜坡内内部机械变化的可行性。 35-70 Hz 频段的互相关分析揭示了不同的季节模式，在 2023 年和 2024 年春季融雪期间，dv/v 明显下降。这些速度下降与附近钻孔测量的地下水位快速上升相一致，表明融水渗透导致的孔隙压力升高暂时降低了岩体刚度。与气温和雪深的其他相关性表明对冻融和水文循环的敏感性，而浅层风引起的变化则凸显了仔细数据处理的必要性。除了与地表相关的强迫之外，2024 年观察到 dv/v 大幅下降，并且与较低滑坡剪切带附近的位移加速度相关，表明对弹性特性局部变化的敏感性。结果表明，PSI 对相关流体力学过程很敏感，并且可以区分环境影响和与坡度蠕变相关的不可逆结构变化。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122284",
-      "title": "Internal Wave Characteristics in the Andaman Sea: New Insights From SWOT Observations",
-      "url": "https://doi.org/10.1029/2026gl122284",
-      "first_author": "Anup Kumar Mandal",
-      "corr_author": "T. V. S Udaya Bhaskar",
-      "affiliation": "Earth &amp; Planetary Sciences and Applications Area Space Applications Centre (SAC), ISRO  Ahmedabad India",
-      "abs_zh": "地表水和海洋地形 (SWOT) 卫星的高分辨率、重复通过的海面高度异常 (SSHA) 观测数据用于研究安达曼海自 2023 年 7 月开始的一年内的内孤立波 (ISW)。SWOT 捕获了高振幅 ISW 的表面特征，其中 SSHA 超过 20 厘米。 ISW 振幅受到大潮的调节并受到弱分层的帮助。值得注意的是，本研究使用扩展迈尔斯理论来定量分析 SWOT 捕获的倾斜 ISW 相互作用。两个测试案例证明了 O 型与放大因子的相互作用，与理论估计非常一致。当大潮、弱层结和倾斜相互作用同时发生时，观测到极端 ISW 振幅为 92.9 m，对应于 43 cm 的 SSHA。计算的相速度（1.25–2.72 ms\n                    −1\n                    ）与之前的估计一致，并且随着ISW从更深的安达曼海向泰国海岸移动而呈现出减少的趋势。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122541",
-      "title": "Discovery of Repeating Shallow Moonquakes in the Apollo Lunar Seismic Data",
-      "url": "https://doi.org/10.1029/2026gl122541",
-      "first_author": "Keisuke Onodera",
-      "corr_author": "Keisuke Onodera",
-      "affiliation": "Institute for Planetary Materials Okayama University  Misasa Tottori Japan",
-      "abs_zh": "浅层月震因其震级大且与板内地震密切相关而被认为是独一无二的。然而，少量的检测（＜80个事件）阻碍了详细的表征。在这项研究中，我通过分析最近更新的月震数据集确定了一对重复的浅层月震。相对相位评估表明，尽管这些事件发生在相反的潮汐相位，但它们表现出一致的断层滑动方向。这与重复的深部月震的观察结果不同，后者与潮汐密切相关，这意味着潮汐应力并不主要控制重复的浅部月震的断层滑动启动。此外，已识别的重复浅层月震在地震矩和地震滑移区的空间尺度之间表现出类似的关系。这可能表明类似地震的断层物理在月球上运行，尽管其驱动机制与地球不同。",
-      "source": "Geophysical Research Letters",
+      "id": "10.1029/2025jb033131",
+      "title": "Complex Shear‐Wave Splitting Behavior in the Northern Andes and Possible Implications for Mantle Flow Around the Caldas Tear",
+      "url": "https://doi.org/10.1029/2025jb033131",
+      "first_author": "Christopher J. W. Carchedi",
+      "corr_author": "Steven Golden",
+      "affiliation": "Earth and Planets Laboratory Carnegie Institution for Science  Washington DC USA",
+      "abs_zh": "我们研究了远震地震中 SKS 和 SKKS 相位的剪切波分裂，以研究哥伦比亚安第斯山脉下方岩石圈和上地幔的各向异性结构。该区域是由南美板块下方俯冲的纳斯卡板块和加勒比板块之间复杂的相互作用形成的。最近在哥伦比亚安第斯山脉 (MUSICA) 进行的宽带部署提供了对地幔对这些相邻板块的动态响应的深入了解，特别是在被称为卡尔达斯撕裂的瓦达蒂-贝尼奥夫带的偏移处。我们将观察到的分裂测量解释为地幔内三个相互作用的流动成分的结果：（a）地幔楔中夹带的海沟垂直角流，（b）穿过卡尔达斯撕裂的地幔流，以及（c）两个俯冲板块以东的海沟平行流。虽然我们的结果很复杂，但我们在这项研究中观察到的各向异性模式与最近为了解地幔流如何穿过平板撕裂而进行的建模工作是一致的。这些发现为高空间分辨率下哥伦比亚安第斯山脉下方的非均质各向异性结构提供了新的见解，并进一步加深了我们对复杂俯冲几何形状与周围地球动力学之间联系的理解。",
+      "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     }
   ]

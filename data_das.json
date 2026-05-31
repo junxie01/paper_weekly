@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-17 至 2026-05-24 03:43",
+  "last_update": "2026-05-24 至 2026-05-31 03:59",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
@@ -11,6 +11,17 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag197",
+      "title": "Seismic ambient noise imaging along the fiber-optic cable of the offshore CASTOR gas storage field",
+      "url": "https://doi.org/10.1093/gji/ggag197",
+      "first_author": "Sergi Ventosa",
+      "corr_author": "Antonio Villaseñor",
+      "affiliation": "Institute of Marine Sciences Marine Geosciences Department, , CSIC, Pg. Marítim de la Barceloneta 37-49, 08003 Barcelelona ,",
+      "abs_zh": "总结\n                  连续、高密度应变和应变率分布式声学传感（DAS）记录对于以低成本解析地球浅层结构非常有价值，特别是在难以进入的环境中，例如大陆架和近海岸洋壳。在这项研究中，我们应用地震环境噪声方法从自然噪声源中提取高质量的经验格林函数 (EGF)，并对连接巴伦西亚湾（西班牙）海上 CASTOR 储气田与相关陆地设施的 30 公里长暗光缆沿线的速度结构进行建模。我们使用小波相位互相关和时间尺度相位加权叠加方法提取包含丰富多样的地震波的宽带EGF。在共源 EGF 集合中，干净的基波和一泛音 Scholte 波在海洋通道对中占主导地位，而基本瑞利模式出现在陆地通道对中。此外，从盆地边缘反射的弱波场跟随主表面波。然后，我们通过使用马尔可夫链蒙特卡罗方法求解逐点深度反演，根据基波和一泛音 Scholte 波的局部相速度观测构建了二维 Vs 模型。该模型将海洋沉积盆地从非常浅的水饱和沉积物解析到超过 1 公里的深度，识别出安波斯塔中央断层和该断层以西约 1 公里深度的基底基岩。这些结果有助于在观测到诱发地震活动的区域完善沿电缆的离岸速度模型，从而提高地震监测和地震灾害特征描述的准确性。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
@@ -99,17 +110,6 @@
       "affiliation": "Japan Agency for Marine‐Earth Science and Technology (JAMSTEC)  Yokosuka Japan",
       "abs_zh": "通过分布式声学传感 (DAS)，海啸可以通过海底电缆光纤的应变变化来检测。然而，海啸期间应变变化对于早期预警的有用性仍不清楚。在这里，我们比较了鸟岛事件（2023 年 10 月）和堪察加半岛事件（2025 年 7 月）引发的环境噪声和海啸中的次重力波的纤维应变和海平面变化，并证明了它们在频率 > 5 mHz 时的经验关系。为了进行比较，我们使用 DAS 检测了日本西南部室户市的一条海底电缆，并在电缆附近安装了绝对压力计。在<5 mHz，堪察加海啸的 DAS 信号在 1,000-2,000 m 水深处观测到，可能归因于海啸激发的内波引起的温度变化。我们的结果表明，高频海啸应变可能有助于估计海啸波高，而低频 DAS 信号可用于早期海啸检测。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250354",
-      "title": "Evaluation of Distributed Acoustic Sensing Phase Pick Quality and Performance for Operational Earthquake Monitoring",
-      "url": "https://doi.org/10.1785/0220250354",
-      "first_author": "Gabrielle Tepp",
-      "corr_author": "Ettore Biondi",
-      "affiliation": "1Seismological Laboratory, Caltech, Pasadena, California, U.S.A.",
-      "abs_zh": "在过去的几年里，分布式声学传感（DAS）在地震学研究甚至地震监测中得到了越来越多的应用。南加州地震台网最近开始将来自加利福尼亚州里奇克莱斯特的 DAS 数据纳入常规区域地震监测作业中。我们对将 DAS 数据添加到监测中的预期效果和观察到的效果进行了分析。在将 DAS 数据添加到实时 (RT) 操作之前，我们对 2023 年 5 月 28 日至 8 月 1 日的 228 个事件进行了测试，以评估 DAS 数据中相位选取的数量和质量以及这些附加选取对地震位置的潜在影响。我们还将机器学习选择器 PhaseNet-DAS 的自动选择与分析师的选择进行了比较，以评估其准确性，尽管它尚未在运营中使用。在 RT 系统中添加了 7 个 DAS 通道后，我们对 2025 年 5 月 6 日至 7 月 8 日期间的 331 个事件重复了这一分析，以评估性能是否符合预期。 PhaseNet-DAS 产生的选择数量大约是分析师的两倍。当比较到达时间时，PhaseNet-DAS 与分析师的误差大多在 ∼0.5 秒之内，其中 P 选择比 S 选择更相似。 RT 系统中的短期平均/长期平均选择器产生的 P 选择数量大约是分析师的一半，尽管它们通常是准确的。 PhaseNet-DAS 的检测阈值比分析师的检测阈值要好一些。对于事件位置和深度，我们发现与包含或不包含 DAS 镐的参考震源相比，准确性几乎没有差异。总体而言，我们发现将 DAS 添加到我们的监测系统中可以提供更多选择，尤其是在地震台覆盖较差的地区，对地震参数质量有潜在好处。 PhaseNet-DAS 或许能够提供准确的自动选择，以减少额外工作站的额外分析工作。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

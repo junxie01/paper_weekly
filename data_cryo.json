@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-17 至 2026-05-24 03:43",
+  "last_update": "2026-05-24 至 2026-05-31 03:59",
   "topic_name": "冰川地震学",
   "papers": [
     {
@@ -11,6 +11,17 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41561-026-01988-1",
+      "title": "Diminished Ross Ice Shelf and West Antarctic Ice Sheet during Last Interglacial warming",
+      "url": "https://doi.org/10.1038/s41561-026-01988-1",
+      "first_author": "Austin J. Carter",
+      "corr_author": "Lindsey Davidge",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature Geoscience",
       "published": "2026"
     },
     {
@@ -98,17 +109,6 @@
       "corr_author": "Matthieu Lafaysse",
       "affiliation": "未知机构",
       "abs_zh": "。在气候变暖的情况下，冰川将经历更多的液体降水和融化，因此更好地理解和模拟相关的表面过程至关重要。本研究提出了一种建模方法，旨在使用 SURFEX/ISBA-Crocus 模型研究地表液态水和裸冰之间的动态相互作用。描述了在冰面暂时保留来自雨水或融化的液态水的实施方式。根据气象条件，水会被排出或重新冻结，直接影响反照率、热剖面和冰川质量平衡。这项新开发成果在梅拉冰川（尼泊尔）进行了测试，结果显示，它对年度质量平衡的影响高达 6%，并且根据气象条件的不同，效果形成对比。在季风前季节，这种实施会导致地表液态水造成更大的质量损失（高达 20%），这会加剧变暖，而不是通过重新冻结来补偿。在季风季节和季风后季节，由于重新冻结的增加，它会减少负质量平衡。敏感性分析将排水量和反照率确定为关键模型参数。储存的液态水排放量变化 10% 会导致年度质量平衡变化 10%。裸冰和冰上液态水的反照率是造成质量平衡损失和最大不确定性的主要因素，使它们成为进一步研究和改进表征的优先目标。这种基于物理的模型开发对于全球未来的气候预测至关重要，特别是考虑到气候变化下融化、降雨和裸冰暴露的增加。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-2257-2026",
-      "title": "Glacial decline next to stable permafrost in the Dry Andes? Vertical glacier surface changes and rock glacier kinematics based on Pléiades imagery (Rodeo basin, 2019–2025)",
-      "url": "https://doi.org/10.5194/tc-20-2257-2026",
-      "first_author": "Melanie Stammler",
-      "corr_author": "Lothar Schrott",
-      "affiliation": "未知机构",
-      "abs_zh": "。高山冰冻圈特征的存在和体积受到全球范围内气温上升的极大影响。在干燥的安第斯山脉，降水极其稀少，水文意义转向固体水库、冰川和地面冰。虽然冰川的表面积和体积减少，但冰缘储存的水（例如岩石冰川中的水）对大气强迫的反应更加迟缓，可能缓冲未来的可用水量。尽管气温不断上升，但最近的研究表明，基于过去十年的钻孔调查和岩石冰川运动学，干燥安第斯山脉的永久冻土条件稳定。这种明显的稳定性可能部分反映了极端干旱条件，限制了雪的隔热和液态水的输入，从而抑制了地热条件的年际变化和岩石冰川蠕变的相关变化。我们调查了 2019 年至 2025 年期间罗迪欧盆地（阿根廷安第斯山脉）的 19 条冰川、3 条碎屑覆盖冰川和 59 条岩石冰川的垂直表面变化。此外，我们还计算了 59 个岩石冰川中 47 个的岩石冰川速度，我们拥有所有时间段的数据。遵循摄影测量原理，使用（三）立体、全色 Pléiades 图像在 Ames Stereo Pipeline 中生成投影光学图像和 DEM。在进行垂直表面变化计算的 DEM 差分之前，将生成的 DEM 进行共同配准。为了获得岩石冰川速度，对全色昴宿星团正射影像应用了特征跟踪方法。我们检测到冰川表面下降幅度高达-8.99米（总变化，2019-2025年），并且所有调查的冰川主要呈年度表面下降。碎片覆盖的冰川上的垂直表面下降远低于冰川的大小，但高于岩石冰川 - 后者不超过一分米。平均岩石冰川速度介于 0.28 和 0.82 m yr−1 之间（检测水平，LoD：±0.1",
       "source": "The Cryosphere",
       "published": "2026"
     }

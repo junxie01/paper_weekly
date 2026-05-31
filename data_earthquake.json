@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-17 至 2026-05-24 03:43",
+  "last_update": "2026-05-24 至 2026-05-31 03:59",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -8,6 +8,28 @@
       "url": "https://doi.org/10.1016/j.epsl.2026.120109",
       "first_author": "Fubing He",
       "corr_author": "Xiwei Xu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120133",
+      "title": "Garnet pyroxenite at mid-mantle depths as a source of young lunar magmatism",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120133",
+      "first_author": "Dian Ji",
+      "corr_author": "Rajdeep Dasgupta",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120136",
+      "title": "Rare earth element partitioning in Hadean zircons establishes granitic magma source",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120136",
+      "first_author": "Xinyu Zou",
+      "corr_author": "Xian-Hua Li",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -36,6 +58,50 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aec1241",
+      "title": "Structural insights into a conserved mechanism of choline translocation through CHT",
+      "url": "https://doi.org/10.1126/sciadv.aec1241",
+      "first_author": "Jesus Vilchez-Garcia",
+      "corr_author": "Igor Tascón",
+      "affiliation": "Instituto Biofisika (UPV/EHU-CSIC), Leioa, Spain.",
+      "abs_zh": "胆碱是一种必需营养素，对于生命各个领域的细胞稳态至关重要。在人类中，胆碱能神经元对胆碱的摄取并再循环为乙酰胆碱是由高亲和力 Na 介导的\n                    +\n                    依赖性转运蛋白 SLC5A7 (CHT1)。原核生物也依赖胆碱作为渗透保护剂和代谢物，这增加了细菌也具有类似于 CHT1 的胆碱转运蛋白的可能性。在这里，我们鉴定并表征了细菌Na\n                    +\n                    与 CHT1 具有高度序列同一性的依赖性胆碱转运蛋白 (sfCHT)。 Na 的冷冻电镜结构\n                    +\n                    - 胆碱结合的 sfCHT 揭示了 Na 的 LeuT 折叠结构\n                    +\n                    配位几何与CHT1类似。 sfCHT 中胆碱以面向内的构象捕获，位于靠近细胞质侧的位点。 sfCHT 和 CHT1 变体的计算分析和转运测定揭示了保守残基沿特定路径到达胞质位点的局部构象重排。这些发现提供了对细胞内胆碱转变的结构和机制的见解，表明细菌和人类胆碱转运蛋白之间存在进化保守的机制。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aed0037",
+      "title": "Structural properties, polymorphism, and multiscale disorder unravel energy transport limitations in perylene diimide semiconductors",
+      "url": "https://doi.org/10.1126/sciadv.aed0037",
+      "first_author": "Christopher J. H. Smalley",
+      "corr_author": "Sean M. Collins",
+      "affiliation": "School of Chemistry, Cardiff University, Park Place, Cardiff CF10 3AT, UK.",
+      "abs_zh": "从光伏到电子，有机半导体继续取得显着的性能提升。然而，了解固态结构的差异如何导致能量传输特性的巨大差异仍然悬而未决。我们报道了两种苝二酰亚胺（PDI）衍生物的微晶仅在端基[环己基（CH）和4-庚基（ST）]上有所不同，其激子扩散系数相差两个以上数量级。应用最先进的微晶结构测定技术，我们报告了 CH-PDI 和 ST-PDI 的两种多晶型物的晶体结构。扫描电子衍射揭示了 ST-PDI 微晶中一系列由多晶型共生引起的晶体学缺陷，而电子能量损失光谱将这些缺陷与纳米级电子结构变化联系起来。计算模型表明，旋转无序可以解释激子扩散系数的差异。我们的观察证实了缺陷引起的取向紊乱作为外在能量紊乱的来源的重要性，强调了有机半导体技术中缺陷管理的必要性。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10569-6",
+      "title": "Mechanism of age-related accumulation of mtDNA mutations in human blood",
+      "url": "https://doi.org/10.1038/s41586-026-10569-6",
+      "first_author": "Rahul Gupta",
+      "corr_author": "Vamsi K. Mootha",
+      "affiliation": "未知机构",
+      "abs_zh": "突变线粒体 DNA (mtDNA) 异质性的积累是衰老最强烈的特征之一\n                    1\n                    。在这里，我们使用来自约 750,000 个人的全基因组序列调用人类血液中的 mtDNA 序列、mtDNA 丰度和 mtDNA 异质变异来研究潜在的机制。我们观察到，mtDNA 单核苷酸变异 (mtSNV) 在 60 岁时急剧积累，异质性水平较低，几乎没有表现出正选择的证据，并且可能主要是中性的。 mtSNV 的突变谱并不像通常所说的那样反映氧化损伤，而是与 mtDNA 复制错误更一致。为了了解为什么 mtSNV 随着年龄的增长而变得可检测到，我们对异质性 mtSNV 负荷进行了全基因组关联研究，识别了附近的种系变异。\n                    叔丁基醚\n                    ,\n                    TCL1A\n                    和\n                    SMC4\n                    ，所有这些都与克隆造血（CH）有关\n                    2\n                    。稀有变异分析还表明，高 mtSNV 负担与许多 CH 驱动基因的突变有关。即使排除具有已知 CH 驱动突变的个体后，这些遗传关联仍然存在。我们的结果支持一个模型，其中“神秘”mtDNA 突变最初作为复制错误随机出现，但批量检测不到。然后，只有通过血液中细胞克隆与年龄相关的扩张，它们才会变得明显。我们认为，mtDNA 的高拷贝数和突变率使其成为 CH 所致体细胞嵌合体的敏感血液标记物。我们的工作从机制上统一了衰老的三个显着特征：常见的种系变异\n                    叔丁基醚\n                    、CH 和观察到的 mtDNA 突变的累积。",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/d41586-026-01686-3",
+      "title": "Move over, AlphaFold: open-source model predicts shape of 1 billion proteins",
+      "url": "https://doi.org/10.1038/d41586-026-01686-3",
+      "first_author": "Ewen Callaway",
+      "corr_author": "Miryam Naddaf",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
       "id": "10.1785/0220260046",
       "title": "Active-Source Environmental Seismology",
       "url": "https://doi.org/10.1785/0220260046",
@@ -44,72 +110,6 @@
       "affiliation": "1Department of Geosciences, Virginia Tech, Blacksburg, Virginia, U.S.A.",
       "abs_zh": "环境地震学是一个快速发展的领域，主要通过被动检测事件（例如滑坡和沉积物运动）和反映饱和度变化（例如地下水位变化）的地下速度变化，为许多地表和近地表地球过程提供新的见解。仪器（例如分布式声学传感）和分析技术（例如机器学习和人工智能）的最新进展正在扩大被动环境地震学的用例和数据量。然而，尽管取得了这些成功，被动环境地震学仍有两个缺点，可能会限制数据的有用性。首先，依赖于表面波观测的被动源研究通常产生横波速度而不伴随纵波速度测量，因此不能完全表征地下弹性特性。其次，被动源研究通常无法提供区分承载和控制环境过程的近地表单元（例如土壤、腐泥土和裂隙基岩）所需分辨率的地下结构。我们建议通过结合关键区（CZ）的主动源地震成像来克服这些限制。主动源数据记录整个波场，从而提供详细的 P 和 S 速度结构，可以将被动源测量置于上下文中。主动源直带地震学是一个快速变化的领域，最近在仪器（例如小型自主节点）和分析技术（例如更广泛地采用全波形反演）方面取得了显着进展。因此，新型调查（例如三分量、3D 和延时）正在以新颖的方式和前所未有的分辨率对 CZ 进行成像。在这里，我们回顾了主动源直带地震学的最新技术，并提供了几个例子，证明主动源环境地震学可以实现直带结构和过程的米级分辨率。",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec9946",
-      "title": "Visualizing the mechanism of quinol oxidation and inhibition of a\n                    <i>bd</i>\n                    -type oxidase using cryo-EM",
-      "url": "https://doi.org/10.1126/sciadv.aec9946",
-      "first_author": "Tijn T. van der Velden",
-      "corr_author": "Lars J. C. Jeuken",
-      "affiliation": "Leiden Institute of Chemistry, Leiden University, P.O. Box 9502, 2300 RA Leiden, Netherlands.",
-      "abs_zh": "细胞色素\n                    BD\n                    是一种原核末端氧化酶，被认为是针对多种病原体的抗生素靶标。尽管它在呼吸中发挥着关键作用，但未能捕获对苯二酚氧化和抑制的机制阻碍了结构引导的药物发现。在这里，我们展示了冷冻电子显微镜结构\n                    大肠杆菌\n                    细胞色素\n                    BD\n                    -I 呈单体和二聚形式，呈多种醌和抑制剂结合状态。我们发现了一个动态 Q 环盖，它在底物与二聚体结合时经历无序到有序的转变，从而完成活性位点并实现催化。结构引导诱变证实了 Tyr243\n                    细胞色素A\n                    和精氨酸298\n                    细胞色素A\n                    作为仅在长 Q 环氧化酶中发现的保守催化残基，突出了与其他亚家族的进化差异。 Aurachin D 的抑制会触发活性位点的重折叠，从而阻止通过 Asp239 进入底物\n                    细胞色素A\n                    -介导机制。这里提出的结构和机制见解建立了一个全面的框架，为药物发现开辟了道路\n                    BD\n                    氧化酶。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adz7117",
-      "title": "The immunoproteome and multimorbidity: A Mendelian randomization study",
-      "url": "https://doi.org/10.1126/sciadv.adz7117",
-      "first_author": "Nikita Hukerikar",
-      "corr_author": "A. Floriaan Schmidt",
-      "affiliation": "Institute of Health Informatics, Faculty of Population Health Sciences, University College London, 222 Euston Road, London NW1 2DA, UK.",
-      "abs_zh": "多重发病给研究和医疗保健带来了挑战。我们研究了免疫蛋白如何影响多种疾病，以确定共同的机制和治疗机会。使用八个大型血浆蛋白质组 GWAS，我们鉴定了 151 种免疫蛋白的顺式作用变体，并应用顺式孟德尔随机化来评估与 64 种疾病和生物标志物的关联。蛋白质疾病群落是使用整合了多重校正关联、成药性、适应症和组织性状关联的知识图得出的。在独立的 pQTL 中寻求复制，并将共定位应用于复制的信号。免疫蛋白经常与冠心病、静脉血栓栓塞、心房颤动、2 型糖尿病和帕金森病有关。七个蛋白质群落映射到包括纤维胶粘蛋白结合和抗菌肽在内的途径，富含影响多种疾病的蛋白质。在共定位支持下复制了多种关联，包括 APOE、CD163 和 IL-6R 与神经退行性、心脏代谢和炎症特征的关联。我们发现可药物免疫蛋白具有强大的遗传支持，对常见疾病具有多效性，这凸显了适应症扩展和治疗开发的机会。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-01324-y",
-      "title": "Quantum light source boosts attosecond science",
-      "url": "https://doi.org/10.1038/d41586-026-01324-y",
-      "first_author": "Jan Marcus Dahlström",
-      "corr_author": "Jan Marcus Dahlström",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec8813",
-      "title": "Axial-time mapping: A diagnostic method to reveal concealed long-term catalyst deactivation mechanism in CO\n                    <sub>2</sub>\n                    hydrogenation",
-      "url": "https://doi.org/10.1126/sciadv.aec8813",
-      "first_author": "Wonjoong Yoon",
-      "corr_author": "Jaehoon Kim",
-      "affiliation": "School of Chemical Engineering, Sungkyunkwan University, 2066, Seobu-Ro, Jangan-Gu, Suwon, Gyeonggi-Do 16419, Republic of Korea.",
-      "abs_zh": "具有双时间轴的轴时间映射（ATM）——催化剂-反应物接触时间（\n                    t\n                    c\n                    ）和运行时间（TOS）——旨在阐明 CO 中铁催化剂的长期失活机制\n                    2\n                    加氢。治疗\n                    t\n                    c\n                    和 TOS 作为空间分布变量，异位数据集重建轴向相位梯度和性能变化。短\n                    t\n                    c\n                    在反应器入口处促进渗碳成 χ-Fe\n                    5\n                    C\n                    2\n                    和铁\n                    7\n                    C\n                    3\n                    在富含CO的环境中，而更长的时间\n                    t\n                    c\n                    下游——其中H\n                    2\n                    O积累——有利于再氧化成Fe\n                    3\n                    氧\n                    4\n                    。随着时间的推移，残留的Fe\n                    3\n                    氧\n                    4\n                    进一步渗碳，富集碳化物相，抑制CO\n                    2\n                    活化，并启用未转化的CO\n                    2\n                    绕过上床，从而减少有效\n                    t\n                    c\n                    。这导致二氧化碳形成区向下游迁移以及活性区域和非活性区域的空间分离。的\n                    t\n                    c\n                    -TOS 解析方法提供了一种灵敏且实用的诊断工具，用于检测和减轻工业条件下的失活。 ATM 框架提供了一种通用策略，用于探测复杂异质催化系统中的相演化和失活途径。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250269",
-      "title": "Lithospheric Deformation Beneath the Incipient Okavango Rift Zone Revealed by Three-Dimensional Seismic Velocity Inversion",
-      "url": "https://doi.org/10.1785/0220250269",
-      "first_author": "Tuo Wang",
-      "corr_author": "Zhichao Yu",
-      "affiliation": "1State Key Laboratory of Lithospheric and Environmental Coevolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
-      "abs_zh": "东非裂谷系统南端的早期奥卡万戈裂谷带（ORZ）是地球上最年轻的裂谷带之一。了解 ORZ 岩石圈结构对于理解裂谷系统的早期裂谷过程，甚至导致古代大陆分裂的机制至关重要。在本研究中，我们通过使用非线性贝叶斯蒙特卡罗算法联合反演瑞利波相速度色散和接收器函数，构建了 ORZ 下方的 3D 岩石圈剪切波速度模型。该模型展示了从地表到 160 公里深度的速度结构，并揭示了与大陆拉伸相关的几个岩石圈特征。在地壳内，ORZ 下方发现低速，这可能是由于熔体的存在造成的。我们还在上地幔中观察到四个低速异常。其中两个异常现象位于 ORZ 的两端，可能与大陆拉伸引起的减压融化有关。第三个是在裂谷正下方观察到的，裂谷从大约 110 公里深度开始延伸到更深的地方。我们假设该异常现象可归因于该区域存在少量熔体和/或高温，这可能是由来自更深处的热流体引起的。这三个异常可能充当地壳的熔体储库。另一个低速异常现象位于林波波带和卡普瓦尔克拉通之间的边界下方。与其他特征不同，这一特征可能与前寒武纪岩浆事件相关的岩石圈地幔中 Mg# 的减少导致的成分变化有关。因此，在当前的构造环境中，它可能无法充当熔体储层。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag193",
-      "title": "Rupture process of the 2020\n                    <i>M</i>\n                    S 5.0 Qiaojia, China earthquake from multi-empirical Green’s function inversion",
-      "url": "https://doi.org/10.1093/gji/ggag193",
-      "first_author": "Xu Zhang",
-      "corr_author": "Zhen Fu",
-      "affiliation": "Institute of Geophysics, China Earthquake Administration , Beijing ,",
-      "abs_zh": "总结\n                  2020年乔家5.0级地震发生在中国西南部小江断裂附近构造复杂的地区。我们使用多经验格林函数 (EGF) 反演方法研究了这次中型地震的破裂过程，该方法整合了多个 EGF 事件的波形。综合测试表明，多 EGF 反演方法比任何单独的 EGF 反演方法都能更稳健地恢复输入模型。这次地震的解析时空破裂模型表明，持续约 2.9 s 的致密破裂，主要是震源附近的一个主要粗糙体，其特征是破裂主要向东传播。 Bootstrap重采样分析进一步证实了所解析的主要同震滑移分布和整体力矩释放模式的稳健性。我们还观察到同震滑动和余震分布之间的空间互补性，大多数余震聚集在主要粗糙体的外围。该研究不仅阐明了2020年乔家5.0级地震的震源复杂性，也验证了多EGF反演方法在解析中型地震破裂过程中的稳健性和有效性。我们的研究结果为中型地震的破裂运动学以及小江断裂带及其周边地区的断层强度和应力的异质性提供了新的见解。",
-      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

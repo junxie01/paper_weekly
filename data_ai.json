@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-17 至 2026-05-24 03:43",
+  "last_update": "2026-05-24 至 2026-05-31 03:59",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -25,6 +25,72 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2026gl122115",
+      "title": "Reconstructing Marine Boundary Layer Jets Over the South China Sea Using Machine Learning",
+      "url": "https://doi.org/10.1029/2026gl122115",
+      "first_author": "Yican Lin",
+      "corr_author": "Jiuke Wang",
+      "affiliation": "School of Atmospheric Sciences Sun Yat‐sen University, and Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai)  Zhuhai China",
+      "abs_zh": "南海（SCS）上空的海洋边界层急流（MBLJ）在沿海强降雨中发挥着关键作用，但由于海洋上空的风观测有限，其结构仍然不确定。在这里，我们开发了一个基于 U-Net 的重建框架，用于根据卫星衍生的海面风估计 950 hPa 风，提供卫星驱动的 MBLJ 描述。该模型使用四十年的 ERA5 数据进行训练，并根据独立的船载多普勒风激光雷达观测进行评估。相对于 ERA5，重建的风将 RMSE 从 3.34 降低到 2.69 m s\n                    −1\n                    风速为 2.87 至 2.45 米·秒\n                    −1\n                    对于经向风。在已识别的 MBLJ 事件期间，重建产生比 ERA5 更强、空间更广泛的喷流。这些结果表明，卫星信息机器学习可以有效地减轻再分析产品中 MBLJ 的系统性低估，并改善数据稀疏海洋区域边界层风的表示。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3187-2026",
+      "title": "Machine learning for snow depth estimation over the European Alps, using Sentinel-1 observations, meteorological  forcing data and process-based model simulations",
+      "url": "https://doi.org/10.5194/tc-20-3187-2026",
+      "first_author": "Lucas Boeykens",
+      "corr_author": "Hans Lievens",
+      "affiliation": "未知机构",
+      "abs_zh": "。季节性山雪是一种不可或缺的资源，但即使在拥有密集的现场监测站网络的欧洲阿尔卑斯山，对这种水储存量的准确估计仍然有限。在这项研究中，我们使用极端梯度增强 (XGBoost) 机器学习 (ML) 模型中的多个输入配置，以 100 米的空间分辨率和次周时间分辨率来估计 2015 年至 2024 年期间的高山积雪深度。我们探索了 Sentinel-1 C 波段双偏振合成孔径雷达偏振测量 (PolSAR) 观测的潜力，并包括区域缩小尺度的气象强迫数据或建模的雪深作为额外输入，以进一步解释年际和空间变化。使用三重嵌套交叉验证方案来解释雪深数据中存在的时空依赖性。 XGBoost 的内部助推器和 Shapley 附加解释 (SHAP) 值用于将输入特征与干雪和湿雪条件的预测联系起来。我们的结果表明，包含 PolSAR 观测结果对基于反向散射强度的配置带来了适度的改进，而基于 SHAP 的特征归因揭示了 XGBoost 对偏振散射角和共偏振 (VV) 反向散射强度的高度依赖。接下来，结合气象强迫数据或建模雪深可以大大提高预测性能，特别是当包括空间分布的训练数据时，事实证明，这对于捕获雪深变化的地形控制至关重要。当补充空间训练数据和气象强迫数据或建模雪深估计时，XGBoost 与迪施马山谷（瑞士）进行的九次降雪调查表现出良好的一致性，相关系数 (R) 分别为 0.76 和 0.78，平均偏差为 0.07 和 0.17 m。当应用于整个看不见的位置时",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3131-2026",
+      "title": "PIXAL: a physics-inspired explainable machine learning architecture for Greenland ice albedo modeling",
+      "url": "https://doi.org/10.5194/tc-20-3131-2026",
+      "first_author": "Raf Antwerpen",
+      "corr_author": "Xavier Fettweis",
+      "affiliation": "未知机构",
+      "abs_zh": "。格陵兰冰盖（GrIS）是全球海平面上升的主要原因。 GrIS 的贡献很大一部分可归因于冰表面融化的增加，这受到冰反照率的强烈控制，冰反照率是调节导致表面融化的吸收太阳辐射量的特性。然而，我们对冰反照率与其环境之间复杂且非线性的关系缺乏全面的了解，因此在气候模型中经常被简化或粗略地参数化。然而，准确表示未来冰反照率演变对于减少海平面上升预测的不确定性至关重要。这项研究提出了 PIXAL，这是一种受物理学启发的可解释机器学习架构，在模拟 GrIS 西南部的冰反照率方面，其性能显着优于最先进的区域气候模型 Modèle Atmosphérique Régional (MAR)。 PIXAL 基于极端梯度增强 (XGBoost) 模型，并接受来自 MAR 的一套建模地形、大气、辐射和冰川变量的训练，以捕获与中分辨率成像光谱辐射计 (MODIS) 获得的冰反照率观测的复杂非线性关系。性能指标显示，PIXAL 的 R2 为 0.563，结构相似性指数测量 (SSIM) 为 0.620，均方误差 (MSE) 为 0.005，平均绝对百分比误差 (MAPE) 为 14.699 %，而 MAR 的 R2 为 0.062，SSIM 为 0.112，MSE 为 0.032，MAPE 为46.202%。可解释的人工智能分析表明，地形特征，特别是冰盖表面高度和坡度，是冰反照率变化的重要驱动因素，因为它们与冰暴露时间以及平坦冰表面积聚融水和光吸收成分（LAC）的有效性有关。近地表气温和径流通过影响冰变质状态进一步显着影响冰反照率变化",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123935",
+      "title": "Mapping the Interannual Variability of Irrigated Area Using Categorical Sampling and Machine Learning",
+      "url": "https://doi.org/10.1029/2026gl123935",
+      "first_author": "Xin Tian",
+      "corr_author": "Lingna Wei",
+      "affiliation": "School of Earth System Science Institute of Surface‐Earth System Science, Tianjin University  Tianjin China",
+      "abs_zh": "准确的灌溉面积 (IA) 绘图对于水文和气候建模至关重要。然而，现有的 IA 绘图方法通常依赖于持续灌溉或非灌溉样本，这降低了对年度 IA 变异性的敏感性。在这里，我们开发了一个基于分类三重搭配（CTC）的采样框架，该框架可以识别连续和间歇灌溉像素，从而改善训练样本中 IA 时间动态的表示。与机器学习相结合，该框架可生成 2000 年至 2022 年中国每年 5 亿米的 IA 地图。与传统的采样策略相比，所提出的方法大大降低了 IA 映射误差，RMSE 从 16.6% 降低到 8.3%。它还捕捉了由大规模农业政策转变驱动的年度间IA变化，这是传统方法无法解决的。这些结果证明了基于 CTC 的 IA 绘图采样框架的稳健性，该框架可以直接支持集约化管理的农业地区的水管理和地球系统建模。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.aej1106",
+      "title": "AAAS unveils the AAAS Learning Hub to equip STEMM professionals with skills needed for today’s world",
+      "url": "https://doi.org/10.1126/science.aej1106",
+      "first_author": "Mary Catherine Longshore",
+      "corr_author": "Lili Niederkorn",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260035",
+      "title": "A Deep Learning-Based Forward Surrogate Model for Accelerating Surface-Wave Dispersion Inversion",
+      "url": "https://doi.org/10.1785/0220260035",
+      "first_author": "Qianyun Dong",
+      "corr_author": "Lei Qin",
+      "affiliation": "1Hubei Subsurface Multi-Scale Imaging Key Laboratory, School of Geophysics and Geomatics, China University of Geosciences, Wuhan, China",
+      "abs_zh": "我们提出了一种基于深度学习的代理前向算子，以加速瑞利波色散的一维剪切波速度（VS）反演。基于门控循环单元的代理前向模型 (FGRU) 经过训练，可根据 VS 曲线预测相速度色散曲线。训练数据是使用三次 B 样条壳幔参数化生成的，具有足够广泛的可变性，以确保准确学习映射。消费级工作站的基准测试表明，FGRU 可以高保真度地再现由使用 numba (DISBA) 加速的基于物理的表面波色散解算器计算出的参考色散曲线。相比之下，图形处理单元 (GPU) 加速的批量推理可以使前向评估速度加快几个数量级。当嵌入粒子群优化（FGRU-PSO）时，综合测试表明，代理前向算子通过降低大型前向模型集合的计算成本来加速反演，同时产生与传统求解器（DISBA-PSO）获得的结果相当的结果。应用到华南相速度数据可以以可管理的成本在每个网格点进行多达一百万次模型评估。与以往的层析模型相比，由于对模型空间的探索更加彻底，所得到的3D VS模型不仅恢复了主要构造特征，而且揭示了更清晰的浅层盆地相关的低速异常。这些结果表明，GPU并行的代理前向算子为加速区域面波反演提供了一条高效实用的途径。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag198",
       "title": "A Machine-learning-based Method for Integrating Seismic Data from Heterogeneous Sources",
       "url": "https://doi.org/10.1093/gji/ggag198",
@@ -44,72 +110,6 @@
       "affiliation": "State Key Laboratory of Climate System Prediction and Risk Management/Key Laboratory of Meteorological Disaster, Ministry of Education/Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters/School of Marine Sciences, Nanjing University of Information Science and Technology, Nanjing 210044, China.",
       "abs_zh": "厄尔尼诺-南方涛动（ENSO）在北方春季表现出可预测性显着下降，称为春季可预测性障碍（SPB）。虽然印度洋、大西洋和太平洋之间的热带盆地相互作用可能会增强 ENSO 的可预测性，但它们在深度学习 (DL) 框架内缓解 SPB 方面的作用仍未得到充分利用。在这里，我们介绍 GL-Geoformer，一种用于全球热带海洋大气预测的深度学习模型。 GL-Geoformer 捕获热带盆地风的时空演变和三维温度异常。我们的模型表明，纳入热带盆地相互作用可大大减少 SPB，使 GL-Geoformer 在春季启动时能够提前 16 个月实现熟练的 ENSO 预测。起搏器实验分别通过地下热传输和沃克环流机制来量化印度洋偶极子和大西洋尼诺现象的个体和协同贡献非线性。这项研究提供了一个数据驱动的框架来表示热带盆地相互作用并减少 SPB，从而加深对 ENSO 可预测性的理解。",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aeb0813",
-      "title": "Reward magnitude determines reinforcement learning efficiency",
-      "url": "https://doi.org/10.1126/science.aeb0813",
-      "first_author": "Sheng Gong",
-      "corr_author": "Luke T. Coddington",
-      "affiliation": "Mechanistic Cognitive Neuroscience, Janelia Research Campus of the Howard Hughes Medical Institute, Ashburn, VA, USA.",
-      "abs_zh": "标准的动物学习研究将个体奖励的幅度最小化，以最大化强化行为的重复。我们研究了奖励大小如何影响幼稚小鼠的五种行为范式的初始学习。特别是大额奖励可以通过对课内和课间学习以及任务参与度的分离效应来显着提高学习效率。腹侧纹状体多巴胺释放的持续时间和幅度与奖励大小成比例，多巴胺奖励反应的长期光遗传学增强也再现了大量（但不是全部）由超大奖励产生的学习益处。这些发现表明，动物的强化学习效率历来被低估，奖励的多巴胺信号传导任务参与度与绝对奖励大小成比例。",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10535-2",
-      "title": "A deep-learning framework reveals whole-body perturbations at cell level",
-      "url": "https://doi.org/10.1038/s41586-026-10535-2",
-      "first_author": "Doris Kaltenecker",
-      "corr_author": "Ali Ertürk",
-      "affiliation": "未知机构",
-      "abs_zh": "许多疾病，包括肥胖症，都会产生系统性影响，扰乱全身多个器官系统\n                    1,2\n                    。然而，一直缺乏在全身范围内对疾病相关变化进行全面、高分辨率分析的工具。在这里，我们开发了 MouseMapper，这是一套基于基础模型的深度学习算法，可以对整个小鼠身体的疾病进行多系统分析。 MouseMapper 能够对神经和免疫细胞进行全身定量分析，解析精细的轴突分支和免疫细胞簇，同时自动分割 31 个器官和组织。我们使用 MouseMapper 研究饮食引起的肥胖，并确定了三叉神经节眶下分支的结构改变。眶下神经的这种结构损伤与胡须感知的功能性感觉缺陷有关。此外，我们还发现了影响小鼠和人类轴突重塑和补体途径的三叉神经节蛋白质组变化。 MouseMapper 还通过表征跨组织的免疫细胞簇组成来生成详细的三维炎症图。 MouseMapper 框架在不同的成像分辨率和数据集上展示了强大的通用性。我们的研究提供了一种强大的、可扩展的方法来识别和量化系统病理学，将分子见解从动物模型与人类状况联系起来。",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag190",
-      "title": "Seismogenic index improves deep learning performance for seismicity rate forecasting in Utah FORGE and EGS Collab projects",
-      "url": "https://doi.org/10.1093/gji/ggag190",
-      "first_author": "Supeng Zhang",
-      "corr_author": "Zetian Zhang",
-      "affiliation": "School of Earth Sciences and Engineering, Nanjing University , Nanjing 210023 ,",
-      "abs_zh": "总结\n                  注入诱发的地震活动对增强型地热系统（EGS）的安全提出了重大挑战。我们定制了一个深度学习模型来预测规定注入计划下的地震活动率。该模型采用两阶段策略，首先预测注入压力作为中间变量，然后用于支持地震活动率预测。通过这种方式，可以成功预测现场规模的犹他州地热能研究前沿观测站 (Utah FORGE) 和矿山规模的 EGS 合作项目的地震活动率。虽然没有地震指数（Σ）的模型可以获得较低的预测误差，但加入Σ可以显着提高其捕捉地震活动率瞬态变化的能力。犹他州 FORGE 和 EGS 协作实验室的预测可能会凸显将根据原始观测计算出的关键物理参数整合到数据驱动框架中以预测注入诱发地震活动的重要性，并可能展示定制深度学习模型在下一代 EGS 中进行跨阶段预测的潜力。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119982",
-      "title": "Improving Inter‐Satellite Tropical Cyclone Precipitation Consistency by Deep Learning",
-      "url": "https://doi.org/10.1029/2025gl119982",
-      "first_author": "Yalei You",
-      "corr_author": "Yayu Ma",
-      "affiliation": "Department of Earth and Ocean Sciences University of North Carolina Wilmington  Wilmington NC USA",
-      "abs_zh": "全球降水测量任务卫星星座由多颗卫星组成，可产生广泛使用的全球热带气旋降水估计。由于任务目的、频道可用性和空间分辨率的差异，这些卫星的降水量估计质量差异很大。目前，直方图匹配方法被广泛采用来提高这些卫星之间的降水一致性，这可以有效降低总体偏差，但往往会牺牲其他精度指标。由于点状降水是当前方法中的单一预测因子​​，因此它不会考虑任何空间模式。这项研究提出了一种深度学习方法，利用 12 颗卫星的数据来增强降水估算的一致性。结果表明，深度学习方法通​​过考虑空间模式信息同时提高所有精度指标，显着优于传统的直方图匹配方法。当原始卫星降水估计显示出明显的非线性误差特征时，深度学习方法特别有效。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121175",
-      "title": "Seismic Precursors to the Blatten, Switzerland Landslide Revealed by Unsupervised Machine Learning",
-      "url": "https://doi.org/10.1029/2025gl121175",
-      "first_author": "Reza Esfahani",
-      "corr_author": "Guillaume Favre‐Bulle",
-      "affiliation": "Institut des sciences de la Terre Université Grenoble Alpes  Grenoble France",
-      "abs_zh": "人们对于滑坡和断层带等地质系统从稳定状态向不稳定状态的转变仍然知之甚少。与转变相关的地震前兆和前震如果存在的话，通常很难观察到，并且它们的解释仍然具有挑战性。在此，我们报告了与 2025 年 5 月 28 日瑞士布拉滕村冰川崩塌前的成核过程一致的观测结果。我们使用无监督机器学习方法识别了三组主要事件，该方法应用于主要事件之前记录的 20 天连续地震数据。我们将落石与冰川滑动过程相关的地震特征分开。观测结果与滑移减弱行为一致，地震活动在破坏前的最后 2 天加速。这些结果凸显了无监督学习在塌陷前识别此类地震前兆的潜力。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl121711",
-      "title": "Measure Less, Map More: Using Machine Learning, Physiography, and Prior Depth Maps to Extrapolate In‐Swath Snow Depth Measurements Across Mountain Basins",
-      "url": "https://doi.org/10.1029/2026gl121711",
-      "first_author": "Eric E. Small",
-      "corr_author": "Jordan N. Herbert",
-      "affiliation": "Department of Earth Sciences CU Boulder  Boulder CO USA",
-      "abs_zh": "全流域雪深（SD）地图可以支持业务供水评估，但其可用性受到测量成本（机载）或采样限制（卫星和无人机）的限制。我们提出了 Swath 随机森林 (RF)，这是一种在狭窄的条带（小于盆地的 10%）内测量的 SD 上训练随机森林的方法，以推断整个盆地的深度。使用来自科罗拉多州和加利福尼亚州八个盆地的 68 项 LiDAR 调查，我们评估了两种预测案例：(a) 地貌加上先前的全盆地雪深图和 (b) 仅地貌。对于第一种情况，具有 2 公里宽条带的 Swath-RF 以较低的外推绝对偏差 (0.019 m) 和 RMSE (0.21 m) 再现了盆地范围的深度，并表示跨地形梯度和不同年份的雪量。单独使用生理学时，误差会大 2-3 倍。 Swath-RF 可以更频繁地或跨更多盆地进行全流域测绘，但代价是准确性；对其他地区的适用性将取决于降雪气候、地形和数据可用性。",
-      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
