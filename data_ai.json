@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-24 至 2026-05-31 03:59",
+  "last_update": "2026-05-31 至 2026-06-07 04:04",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -11,6 +11,50 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.ady8751",
+      "title": "Incorporating brain-inspired mechanisms for multimodal learning in artificial intelligence",
+      "url": "https://doi.org/10.1126/sciadv.ady8751",
+      "first_author": "Xiang He",
+      "corr_author": "Yi Zeng",
+      "affiliation": "Brain-inspired Cognitive AI Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China.",
+      "abs_zh": "多模态学习通过整合跨感官模式的信息来增强智能系统的感知能力。然而，大多数人工智能方法仍然依赖于静态融合方案，并没有考虑到大脑中观察到的多感官整合的动态本质。在生物系统中，逆有效性原理表明，较弱的单峰线索对多感觉整合的贡献更大，而较强的线索会降低融合的相对效益。受这种机制的推动，我们研究了多模态输出和模态特定信息之间的关系，并引入了逆有效性驱动的多模态融合（IEMF）策略。将 IEMF 集成到神经网络中可以产生更具适应性的融合行为、更高的准确性并显着提高计算效率。我们验证了 IEMF 在视听感知、视觉语言理解和三模态情感分析方面的通用性，证明了其在分类、持续学习和问题回答方面相对于最先进基线的持续改进。该方法还可以跨架构迁移，包括人工神经网络和尖峰神经网络。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122728",
+      "title": "Listening to Bryde's Whales With an Island Seismometer: Low‐Frequency Call Detection and Seasonal Patterns Revealed by Deep Learning",
+      "url": "https://doi.org/10.1029/2026gl122728",
+      "first_author": "Zhuo Xiao",
+      "corr_author": "Min Xu",
+      "affiliation": "College of Artificial Intelligence Guangxi Minzu University  Nanning China",
+      "abs_zh": "布氏鲸在中国北部湾形成了一个主要的沿海聚集区。利用斜阳岛一年的连续岛内地震记录，我们建立了一个包含超过 170 万个样本的沿海布氏鲸叫声的大型标记数据集。在这些数据上训练的卷积神经网络在地震谱图的鲸鱼叫声或非叫声二元分类中达到了 99.7% 的准确率。对检测到的呼叫进行分析后发现，频率低至 5 Hz，并且具有可变脉冲间隔的有节奏的重复。从一月到七月，声音活动持续存在，初步建议在下午早些时候减少叫声。这些结果证明了陆上地震仪和深度学习对沿海须鲸进行持续、低成本监测的有效性。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3313-2026",
+      "title": "Learning to melt: Emulating Greenland surface melt from a polar RCM with machine learning",
+      "url": "https://doi.org/10.5194/tc-20-3313-2026",
+      "first_author": "Elke Schlager",
+      "corr_author": "Peter L. Langen",
+      "affiliation": "未知机构",
+      "abs_zh": "。预测格陵兰冰盖表面融化对于了解表面质量平衡（SMB）及其对气候变化的敏感性至关重要。极地区域气候模型 (RCM) 是模拟融化和预测未来 SMB 的主要工具，但不同的模型产生显着不同的结果。然而，它们的计算成本太高，无法创建量化这种不确定性所需的大型集成。我们开发了一个基于神经网络的模拟器，可以根据大气变量预测每日地表融化，并根据 ERA-Interim 强制的极地 RCM HIRHAM5 及其第一模型 DMIHH 的输出进行训练。该模拟器采用基于物理的设计，将短期天气与长期气候记忆相结合，捕获即时大气强迫和累积的雪特征。输入选择研究表明，湍流热通量、下降辐射和降水以及季节编码足以再现地表融化。仿真器的平均绝对误差低于 0.21mmw.e。 每天相对于 DMIHH 在所有六个格陵兰流域产生的地表融化量，误差主要归因于空间过度平滑。我们的工作表明，机器学习可以成功地模拟仅来自气候强迫的模型行为，计算成本比传统模拟低几个数量级。一旦针对特定的气候强迫进行了重新训练，模拟器就可以进行广泛的集合预测。此外，模块化架构可以轻松适应模拟径流等其他 SMB 数量。这代表着朝着计算有效地模拟极地区域气候模型和地球系统建模中 SMB 组件的替代建模迈出了关键的第一步。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260082",
+      "title": "Enforcing Reciprocity in Operator Learning for Seismic Wave Propagation",
+      "url": "https://doi.org/10.1785/0220260082",
+      "first_author": "Caifeng Zou",
+      "corr_author": "Kamyar Azizzadenesheli",
+      "affiliation": "1Seismological Laboratory, California Institute of Technology, Pasadena, California, U.S.A.",
+      "abs_zh": "准确高效的波场建模支撑着地震结构和震源研究。传统方法符合物理定律，但计算量较大。数据驱动的方法虽然开辟了新的进步途径，但尚未纳入严格的物理一致性。互易原理是波传播中最基本的物理定律之一。我们引入了互易强制神经算子，这是一种基于变压器的架构，用于对地震波传播进行建模，对互易原理进行硬编码。该模型利用交叉注意机制和交换操作来保证交换源和接收器位置下的不变性。除了改进的物理一致性之外，所提出的架构还支持多个源的同时实现。与现实多源配置上的传统神经算子相比，这在相似的内存占用下产生了数量级的推理加速。我们使用单力下粒子速度场的互易关系来演示该功能。该架构还适用于膨胀源下的压力场和由 Eikonal 方程控制的走时场，为编码更复杂的互易关系铺平了道路。",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
@@ -66,50 +110,6 @@
       "affiliation": "School of Earth System Science Institute of Surface‐Earth System Science, Tianjin University  Tianjin China",
       "abs_zh": "准确的灌溉面积 (IA) 绘图对于水文和气候建模至关重要。然而，现有的 IA 绘图方法通常依赖于持续灌溉或非灌溉样本，这降低了对年度 IA 变异性的敏感性。在这里，我们开发了一个基于分类三重搭配（CTC）的采样框架，该框架可以识别连续和间歇灌溉像素，从而改善训练样本中 IA 时间动态的表示。与机器学习相结合，该框架可生成 2000 年至 2022 年中国每年 5 亿米的 IA 地图。与传统的采样策略相比，所提出的方法大大降低了 IA 映射误差，RMSE 从 16.6% 降低到 8.3%。它还捕捉了由大规模农业政策转变驱动的年度间IA变化，这是传统方法无法解决的。这些结果证明了基于 CTC 的 IA 绘图采样框架的稳健性，该框架可以直接支持集约化管理的农业地区的水管理和地球系统建模。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aej1106",
-      "title": "AAAS unveils the AAAS Learning Hub to equip STEMM professionals with skills needed for today’s world",
-      "url": "https://doi.org/10.1126/science.aej1106",
-      "first_author": "Mary Catherine Longshore",
-      "corr_author": "Lili Niederkorn",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260035",
-      "title": "A Deep Learning-Based Forward Surrogate Model for Accelerating Surface-Wave Dispersion Inversion",
-      "url": "https://doi.org/10.1785/0220260035",
-      "first_author": "Qianyun Dong",
-      "corr_author": "Lei Qin",
-      "affiliation": "1Hubei Subsurface Multi-Scale Imaging Key Laboratory, School of Geophysics and Geomatics, China University of Geosciences, Wuhan, China",
-      "abs_zh": "我们提出了一种基于深度学习的代理前向算子，以加速瑞利波色散的一维剪切波速度（VS）反演。基于门控循环单元的代理前向模型 (FGRU) 经过训练，可根据 VS 曲线预测相速度色散曲线。训练数据是使用三次 B 样条壳幔参数化生成的，具有足够广泛的可变性，以确保准确学习映射。消费级工作站的基准测试表明，FGRU 可以高保真度地再现由使用 numba (DISBA) 加速的基于物理的表面波色散解算器计算出的参考色散曲线。相比之下，图形处理单元 (GPU) 加速的批量推理可以使前向评估速度加快几个数量级。当嵌入粒子群优化（FGRU-PSO）时，综合测试表明，代理前向算子通过降低大型前向模型集合的计算成本来加速反演，同时产生与传统求解器（DISBA-PSO）获得的结果相当的结果。应用到华南相速度数据可以以可管理的成本在每个网格点进行多达一百万次模型评估。与以往的层析模型相比，由于对模型空间的探索更加彻底，所得到的3D VS模型不仅恢复了主要构造特征，而且揭示了更清晰的浅层盆地相关的低速异常。这些结果表明，GPU并行的代理前向算子为加速区域面波反演提供了一条高效实用的途径。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag198",
-      "title": "A Machine-learning-based Method for Integrating Seismic Data from Heterogeneous Sources",
-      "url": "https://doi.org/10.1093/gji/ggag198",
-      "first_author": "Ain Yi",
-      "corr_author": "Hyunggu Jun",
-      "affiliation": "Kyungpook National University Department of Geology, , Daegu ,",
-      "abs_zh": "总结\n                  在海洋地震勘探中，根据勘探目标，采用各种类型的震源来可视化海底下方的地质结构。气枪源通过在水下释放压缩空气来产生大量能量，通常用于深层区域成像；然而，由于峰值频率较低，它们的垂直分辨率有限。相比之下，火花源利用放电电能蒸发水而产生的气泡来生成具有高峰值频率的小波，从而产生高垂直分辨率。火花源可用于浅层地层的详细成像，但由于其源能量较低，穿透深度较浅。本文提出了一种整合气枪和火花塞数据的方法，以拓宽频率带宽，从而实现更准确的地质解释。该研究使用了在韩国浦项永日湾获得的小型气枪数据和火花塞数据。基于机器学习的整形滤波器模型与代表气枪和火花源小波特性的合成训练数据一起开发，并且训练后的模型用于规范这些源小波。随后，进行时变频谱白化（TVSW）和加权积分，以产生平坦的宽带频谱。与原始单源数据集相比，集成数据具有更高的穿透深度和垂直分辨率，从而克服了其有限的频率带宽和穿透深度所带来的解释限制，增强了相关地质解释的可靠性。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeb0901",
-      "title": "Tropical basin interactions reduce spring predictability barrier of ENSO in a deep learning model",
-      "url": "https://doi.org/10.1126/sciadv.aeb0901",
-      "first_author": "Lu Zhou",
-      "corr_author": "Rong-Hua Zhang",
-      "affiliation": "State Key Laboratory of Climate System Prediction and Risk Management/Key Laboratory of Meteorological Disaster, Ministry of Education/Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters/School of Marine Sciences, Nanjing University of Information Science and Technology, Nanjing 210044, China.",
-      "abs_zh": "厄尔尼诺-南方涛动（ENSO）在北方春季表现出可预测性显着下降，称为春季可预测性障碍（SPB）。虽然印度洋、大西洋和太平洋之间的热带盆地相互作用可能会增强 ENSO 的可预测性，但它们在深度学习 (DL) 框架内缓解 SPB 方面的作用仍未得到充分利用。在这里，我们介绍 GL-Geoformer，一种用于全球热带海洋大气预测的深度学习模型。 GL-Geoformer 捕获热带盆地风的时空演变和三维温度异常。我们的模型表明，纳入热带盆地相互作用可大大减少 SPB，使 GL-Geoformer 在春季启动时能够提前 16 个月实现熟练的 ENSO 预测。起搏器实验分别通过地下热传输和沃克环流机制来量化印度洋偶极子和大西洋尼诺现象的个体和协同贡献非线性。这项研究提供了一个数据驱动的框架来表示热带盆地相互作用并减少 SPB，从而加深对 ENSO 可预测性的理解。",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]

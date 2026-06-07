@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-24 至 2026-05-31 03:59",
+  "last_update": "2026-05-31 至 2026-06-07 04:04",
   "topic_name": "冰川地震学",
   "papers": [
     {
@@ -11,6 +11,39 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl119541",
+      "title": "Global Glacial Rock Weathering Signature Depends on Competing Contributions From Ice Sheets and Alpine Glaciers",
+      "url": "https://doi.org/10.1029/2025gl119541",
+      "first_author": "S. Muñoz",
+      "corr_author": "D. E. Ibarra",
+      "affiliation": "Department of Earth Environmental and Planetary Sciences Brown University  Providence RI USA",
+      "abs_zh": "岩石风化影响地球的大气和气候。硅酸盐矿物的溶解减少了大气中的二氧化碳\n                    2\n                    而硫化物氧化与碳酸盐溶解相结合会释放 CO\n                    2\n                    。高山冰川岩石风化导致硫化物高度氧化和碳酸盐溶解。这种对风化的影响表明潜在的负面气候反馈，冰的生长会导致二氧化碳排放\n                    2\n                    释放、变暖和冰范围的限制。然而，大陆冰盖在这种反馈中发挥的作用仍不清楚。在这里，我们研究了冰川前融水的全球测量结果，发现冰盖有利于硅酸盐风化，而不是硫化物氧化和碳酸盐溶解。高山冰川和冰盖风化模式的这种对比意味着，两者排放的比例决定了它们对碳循环的净影响，而碳循环的净影响可能在更新世冰川间冰期的时间尺度上有所不同。此外，我们发现在冰损失增加期间，冰川风化反应的影响最大。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122121",
+      "title": "Glacial Ice‐Front Calving: Internal Wave Generation and Melting",
+      "url": "https://doi.org/10.1029/2026gl122121",
+      "first_author": "M. E. Inall",
+      "corr_author": "M. P. Meredith",
+      "affiliation": "SAMS‐UHI  Oban UK",
+      "abs_zh": "小而频繁的崩解事件主导了大多数北极海洋终止冰川的行为，但其对海洋学的影响在很大程度上仍未量化。我们首次对斯瓦尔巴群岛克罗讷布林适度的冰崩崩解产生的内波进行了直接观察。高分辨率电流计和微观结构测量表明，每个事件都会激发弱非线性多模态内波包，垂直位移约为 4 m，模式 1 传播速度为 0.35–0.42 ms\n                    −1\n                    。这些波增强了上部 15 m 的剪切力和湍流，并改变了局部分层。理想的数值模拟再现了观察到的波浪特征，并确认了它们对峡湾分层的敏感性。鉴于北极冰川上小规模崩解事件的频繁发生，崩解产生的内波可能代表了一种未被充分认识的导致海底融化和峡湾规模混合的机制。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121279",
+      "title": "Climate Warming and Ice Weakening Trigger Alpine Glacier Collapses: The Marmolada Case",
+      "url": "https://doi.org/10.1029/2025gl121279",
+      "first_author": "Carlo Baroni",
+      "corr_author": "Alberto Bellin",
+      "affiliation": "Department of Earth Sciences University of Pisa  Pisa Italy",
+      "abs_zh": "由于全球变暖，温带中纬度冰川迅速退缩，导致质量急剧减少，并增加了冰川的不稳定性。综合热力学和力学定律，我们构建了三维稳定性模型，并将其应用于2022年7月3日发生的意大利东北部马尔莫拉达冰川部分崩塌的分析。分析表明，冰川处于临界平衡状态，因为冰川温度升高与破裂面附近的扩散裂缝协同作用，降低了冰剪切强度。此外，融水导致的基础水压增加使得冰川即使在较高的剪切强度下也不稳定。由于大多数高山冰川在类似的气候条件下正在退缩，我们对中纬度山区日益恶化的灾害情况表示担忧，并强调预测工具（例如本研究中开发的工具）对于支持减灾工作的重要性。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -53,7 +86,7 @@
       "first_author": "Shuangxiao Luo",
       "corr_author": "Li Peng",
       "affiliation": "College of Geography and Resources Sichuan Normal University  Chengdu China",
-      "abs_zh": "地表水和海洋地形（SWOT）任务承诺对冰川湖进行准全球监测，但其Ka波段雷达穿透湖泊雪/冰覆盖所产生的高程差仍然无法量化。这对评估其水平变化提出了挑战。我们通过比较 260 个冰川湖（>1 公里）的 SWOT 和 ICESat-2 表面高程，首次量化了这种差异\n                    2\n                    ）全球。鉴于ICESat-2的激光测量雪/冰表面，我们利用近同步观测将高程差视为SWOT雪/冰穿透效应的经验测量。我们发现一年内全球一致的负差异（SWOT 减去 ICESat-2）为 -0.25 m。这种差异取决于季节，从 -0.15 m（暖）到 -0.34 m（冷）放大一倍多，每月差异峰值接近 -1 m。这项研究提供了一个协调 SWOT 和 ICESat-2 观测的框架，从而能够对冰川湖变化进行长期、高分辨率的记录。",
+      "abs_zh": "地表水和海洋地形（SWOT）任务承诺对冰川湖进行准全球监测，但其Ka波段雷达穿透湖泊雪/冰覆盖所产生的高程差仍然无法量化。这对评估其水平变化提出了挑战。我们通过比较 260 个冰川湖（>1 公里）的 SWOT 和 ICESat-2 表面高程，首次量化了这种差异\n                    2\n                    ）全球范围内。鉴于ICESat-2的激光测量雪/冰表面，我们利用近同步观测将高程差视为SWOT雪/冰穿透效应的经验测量。我们发现一年内全球一致的负差异（SWOT 减去 ICESat‐2）为 -0.25 m。这种差异取决于季节，从 -0.15 m（暖）到 -0.34 m（冷）放大一倍多，每月差异峰值接近 -1 m。这项研究提供了一个协调 SWOT 和 ICESat-2 观测的框架，从而能够对冰川湖变化进行长期、高分辨率的记录。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -76,39 +109,6 @@
       "corr_author": "Robin S. Smith",
       "affiliation": "未知机构",
       "abs_zh": "。末次盛冰期和倒数第二次盛冰期（LGM；PGM）期间北半球冰盖的构造影响了千年尺度的气候变化，以及随后冰消期期间发生的固体地球和海平面变化，因为它们对大气、海洋环流和固体地球产生了影响。因此，对这些冰盖的真实模拟对于冰消实验的初始化至关重要，这有助于提高我们对气候、冰盖和海平面之间相互作用的理解。在这里，我们对 PGM 和 LGM 进行了第一个大型复杂大气-冰盖耦合模型 (FAMOUS-BISICLES) 模拟，改变了控制冰盖反照率、冰动力学和气候的 12 个不确定参数。我们使用高斯过程模拟器量化输入参数的敏感性，以执行 Sobol 敏感性分析。反照率参数对冰盖和时间段的冰体积影响最大。由于地理和气候环境的差异，控制降水和滑动的参数对欧亚冰盖尺寸的影响比北美冰盖尺寸更大。在 120 个参数组合中，我们发现 4 个参数组合产生的 LGM 和 PGM 冰体积和范围与古证据相符。由此产生的冰盖配置提供了 PGM 北半球冰盖的新的和改进的重建，可用作气候、冰盖和海平面模型的输入。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120119",
-      "title": "Ice‐Dynamic Constraints on Glacier Climatic Mass Balance Using Inverse Techniques",
-      "url": "https://doi.org/10.1029/2025gl120119",
-      "first_author": "Anna Zöller",
-      "corr_author": "Johannes J. Fürst",
-      "affiliation": "Friedrich‐Alexander‐Universität Erlangen‐Nürnberg Institute of Geography  Erlangen Germany",
-      "abs_zh": "准确的冰川气候质量平衡（CMB）建模依赖于相关的大气数据进行强迫和原位桩测量进行校准，而这些数据在偏远的高山地区通常很少或无法获得。这项研究通过将质量守恒和冰动力学与海拔变化、冰速度和冰厚度的遥感观测相结合，提出了估计冰川范围 CMB 场的概念验证。使用指导冰川模型的数据同化工具，我们绘制冰川厚度并推断通量散度。灵敏度分析强调了厚度对反演过程的主要影响，并研究了其对通量发散场的影响。该方法在罗讷冰川上得到验证，并扩展到瑞士冰川监测网络内的所有冰川，与观测结果高度一致。由于该方法仅依赖于遥感数据，因此可以推广到其他地区，适合数据稀疏地区的固体降水估算。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.ady8474",
-      "title": "Ocean stratification and tides control basal melting at the Ross Ice Shelf Grounding Zone",
-      "url": "https://doi.org/10.1126/sciadv.ady8474",
-      "first_author": "Craig L. Stevens",
-      "corr_author": "Gavin B. Dunbar",
-      "affiliation": "Earth Sciences New Zealand, Wellington, New Zealand.",
-      "abs_zh": "南极接地区的冰、海洋和海底之间的相互作用对未来一个世纪及以后的全球海平面上升具有重大影响。融水浮力意味着接地区条件影响整个空腔的基底边界层。由于直接访问的困难，接地区海洋环境仅被采样了几次，并且通常仅作为简短的数据快照。在这里，我们展示了来自罗斯冰架卡姆冰流接地区的海洋数据，这些数据揭示了近 600 米的冰雪之下始终分层的 30 米厚的水柱。较温暖的流入海水与上覆较冷的流出海水和冰川融水混合物垂直分离。长达 10 个月的分层时间序列表明，这种分层是有弹性的，但又是可变的，内波活动导致两层之间频繁混合，这表明接地区作为空腔内的一个独特区域有机械基础。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-2393-2026",
-      "title": "Explicit representation of liquid water retention over bare ice using the SURFEX/ISBA-Crocus model: implications for mass balance at Mera glacier (Nepal)",
-      "url": "https://doi.org/10.5194/tc-20-2393-2026",
-      "first_author": "Audrey Goutard",
-      "corr_author": "Matthieu Lafaysse",
-      "affiliation": "未知机构",
-      "abs_zh": "。在气候变暖的情况下，冰川将经历更多的液体降水和融化，因此更好地理解和模拟相关的表面过程至关重要。本研究提出了一种建模方法，旨在使用 SURFEX/ISBA-Crocus 模型研究地表液态水和裸冰之间的动态相互作用。描述了在冰面暂时保留来自雨水或融化的液态水的实施方式。根据气象条件，水会被排出或重新冻结，直接影响反照率、热剖面和冰川质量平衡。这项新开发成果在梅拉冰川（尼泊尔）进行了测试，结果显示，它对年度质量平衡的影响高达 6%，并且根据气象条件的不同，效果形成对比。在季风前季节，这种实施会导致地表液态水造成更大的质量损失（高达 20%），这会加剧变暖，而不是通过重新冻结来补偿。在季风季节和季风后季节，由于重新冻结的增加，它会减少负质量平衡。敏感性分析将排水量和反照率确定为关键模型参数。储存的液态水排放量变化 10% 会导致年度质量平衡变化 10%。裸冰和冰上液态水的反照率是造成质量平衡损失和最大不确定性的主要因素，使它们成为进一步研究和改进表征的优先目标。这种基于物理的模型开发对于全球未来的气候预测至关重要，特别是考虑到气候变化下融化、降雨和裸冰暴露的增加。",
       "source": "The Cryosphere",
       "published": "2026"
     }

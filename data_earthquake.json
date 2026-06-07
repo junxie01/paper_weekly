@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-24 至 2026-05-31 03:59",
+  "last_update": "2026-05-31 至 2026-06-07 04:04",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -36,6 +36,50 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aeg2196",
+      "title": "Broadband and high-speed terahertz wireless sensing via vertical-transport Dirac-source detector",
+      "url": "https://doi.org/10.1126/sciadv.aeg2196",
+      "first_author": "Xiaokai Pan",
+      "corr_author": "Lin Wang",
+      "affiliation": "State Key Laboratory of Infrared Physics, Shanghai Institute of Technical Physics, Chinese Academy of Sciences, 500 Yu-tian Road, Shanghai 200083, China.",
+      "abs_zh": "在无线传感领域，预计传感和通信功能将共存并完全集成在一个统一的系统中。因此，未来的传感系统需要能够在更高频段（从毫米波到太赫兹（THz））运行的探测器，同时提供更宽的带宽、更快的响应速度和增强的功能集成。狄拉克源（DS）探测器采用狄拉克半金属作为热电子源，利用狄拉克点附近的低态密度（DOS），从而有效抑制金属诱导的带隙态的形成。此外，当这种架构结合了垂直范德华（vdW）异质结构固有的层间垂直电子传输时，它显示出实现具有卓越注入和传输效率的低功耗、后摩尔时代传感设备的巨大前景。在这里，我们报道了一种由完全垂直的金/五碲化锆/石墨烯/金结构（Au/ZrTe\n                    5\n                    /石墨烯/金）异质结，利用强局域场来实现高热电子发射。该探测器在响应率方面表现出出色的性能，在室温下0.02至0.5 THz范围内的峰值超过1600 V/W，具有小于20 ns的快速响应时间，特别是能够进行中频（IF）带宽大于±26.5 GHz的外差混频。我们的研究结果不仅为太赫兹区域的 DS 动力学提供了新的视角，而且还凸显了半金属电子学在无线能量收集、通信和成像应用中的变革潜力。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef3336",
+      "title": "Tailoring crystallization kinetics for scalable and efficient large-area perovskite light-emitting diodes",
+      "url": "https://doi.org/10.1126/sciadv.aef3336",
+      "first_author": "Sung-Doo Baek",
+      "corr_author": "Letian Dou",
+      "affiliation": "Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN 47907, USA.",
+      "abs_zh": "均匀钙钛矿薄膜的可扩展制造是大面积钙钛矿发光二极管（PeLED）的关键瓶颈，受到咖啡环形成和缩放时异质结晶的阻碍。在这里，我们报告了一种多模式溶剂工程策略，通过环境刮刀涂层结合真空辅助溶剂蒸发来实现高度均匀的薄膜。纳入\n                    氮\n                    -甲基-2-吡咯烷酮 (NMP) 和乙腈 (ACN) 进入基于二甲基甲酰胺 (DMF) 的系统中，可协同调节蒸发动力学：它通过马兰戈尼流诱导的再分布抑制宏观溶质偏析，同时调整前体协调以调节成核/相转换并促进辐射高效的薄膜形成。因此，三元配方产生的薄膜具有改善的均匀性、降低的陷阱密度和增强的辐射效率。近红外 (NIR) PeLED 的峰值外量子效率达到 25.2%（10 mm\n                    2\n                    ), 22.1% (60 毫米\n                    2\n                    ）和 19.0%（224 毫米\n                    2\n                    ）。还使用 224 毫米演示了功能性静脉成像原型\n                    2\n                    器件，突出了对大面积光电应用的影响。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec8244",
+      "title": "Architecting three-dimensional reconfigurable matter from pop-up kirigami with programmable multistability",
+      "url": "https://doi.org/10.1126/sciadv.aec8244",
+      "first_author": "Tong Zhou",
+      "corr_author": "Yang Li",
+      "affiliation": "School of Integrated Circuits, Wuhan University, Wuhan, China.",
+      "abs_zh": "机械弹出系统可从二维 (2D) 重新配置为复杂的三维 (3D) 形状，对于先进制造和可部署设备来说很有前景。多稳态弹出式剪纸系统特别有利，因为它们的特性将简单的 2D 制造状态与复杂的 3D 操作状态分离，从而极大地简化了制造。我们发现这些弹出系统是通过多环耦合策略设计的，然而，传统上它受到几何对称性的限制。在这项工作中，我们通过消除对称约束来扩展这一策略，以创建一个通用的弹出式剪纸平台，该平台通过受控的、不对称的弹出和扭转运动实现可编程多稳定性。使用这个平台，我们展示了以前无法访问的结构，包括具有两个可编程空间状态的三稳态单元和互连单元的大规模镶嵌。我们通过可重构超材料、可部署阵列、软机器人和柔性电子产品中的应用展示了该平台的多功能性。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120260024",
+      "title": "Including Earthquake Sequences on National Seismic Hazard Models Through ETAS-Based Synthetic Catalogs: The Case of Italy",
+      "url": "https://doi.org/10.1785/0120260024",
+      "first_author": "Annamaria Pane",
+      "corr_author": "Warner Marzocchi",
+      "affiliation": "1Modeling and Engineering Risk and Complexity, Scuola Superiore Meridionale, Naples, Italy",
+      "abs_zh": "概率地震危险分析 (PSHA) 假定主震采用时不变泊松过程，而不考虑余震。这些事件的删除是主观的，因为它取决于所选的分簇过程。此外，去聚类还可能导致对地震危险的严重低估，因为余震会极大地导致地面震动，如最近的地震序列所示。本研究调查了基于流行型余震序列 (ETAS) 合成目录、将地震序列纳入 PSHA 的方法的可靠性和技术可行性。具体来说，我们应用 SimplETAS 算法创建大量真实的合成目录，每个目录跨越 50 年。我们为合成目录中的每次地震分配了震中区域的合理孕震结构，从而无需假设泊松分布即可生成数值危险曲线。这种方法已应用于四个意大利城市：拉奎拉、雷焦卡拉布里亚、佛罗伦萨和米兰。我们将我们的灾害曲线与意大利国家地震灾害模型 (MPS19) 及其序列校正版本进行比较，后者通过泊松地震率 (MPS19_cluster) 的数值调整来解释地震序列。结果表明：（1）明确模拟地震序列大大增加了所有地点的地震危险性； (2) 基于 SimplETAS 的风险曲线和 MPS19_cluster 的风险曲线通常非常吻合，包括在短期回报期内，MPS19_cluster 中使用的数值修正在数学上可能存在问题； (3) 在地震危险性最低的米兰，两条曲线出现分歧，强调了 SimplETAS 和 MPS19 模型中震级分布的不同空间变异性的影响； (4) 值得注意的是，基于 ETAS 的方法允许灵活选择与风险分析相关的任何预测时间窗口，并自然地捕获 spa",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.119985",
       "title": "Volcanic source change triggers divergent climatic responses across the Guadalupian–Lopingian transition in eastern South China",
       "url": "https://doi.org/10.1016/j.epsl.2026.119985",
@@ -64,52 +108,8 @@
       "first_author": "Jesus Vilchez-Garcia",
       "corr_author": "Igor Tascón",
       "affiliation": "Instituto Biofisika (UPV/EHU-CSIC), Leioa, Spain.",
-      "abs_zh": "胆碱是一种必需营养素，对于生命各个领域的细胞稳态至关重要。在人类中，胆碱能神经元对胆碱的摄取并再循环为乙酰胆碱是由高亲和力 Na 介导的\n                    +\n                    依赖性转运蛋白 SLC5A7 (CHT1)。原核生物也依赖胆碱作为渗透保护剂和代谢物，这增加了细菌也具有类似于 CHT1 的胆碱转运蛋白的可能性。在这里，我们鉴定并表征了细菌Na\n                    +\n                    与 CHT1 具有高度序列同一性的依赖性胆碱转运蛋白 (sfCHT)。 Na 的冷冻电镜结构\n                    +\n                    - 胆碱结合的 sfCHT 揭示了 Na 的 LeuT 折叠结构\n                    +\n                    配位几何与CHT1类似。 sfCHT 中胆碱以面向内的构象捕获，位于靠近细胞质侧的位点。 sfCHT 和 CHT1 变体的计算分析和转运测定揭示了保守残基沿特定路径到达胞质位点的局部构象重排。这些发现提供了对细胞内胆碱转变的结构和机制的见解，表明细菌和人类胆碱转运蛋白之间存在进化保守的机制。",
+      "abs_zh": "胆碱是一种必需营养素，对于生命各个领域的细胞稳态至关重要。在人类中，胆碱能神经元对胆碱的摄取并再循环为乙酰胆碱是由高亲和力 Na 介导的\n                    +\n                    依赖性转运蛋白 SLC5A7 (CHT1)。原核生物也依赖胆碱作为渗透保护剂和代谢物，这增加了细菌也具有类似于 CHT1 的胆碱转运蛋白的可能性。在这里，我们鉴定并表征了细菌Na\n                    +\n                    与 CHT1 具有高度序列同一性的依赖性胆碱转运蛋白 (sfCHT)。 Na 的冷冻电镜结构\n                    +\n                    - 胆碱结合的 sfCHT 揭示了 Na 的 LeuT 折叠结构\n                    +\n                    配位几何与CHT1相似。 sfCHT 中胆碱以面向内的构象捕获，位于靠近细胞质侧的位点。 sfCHT 和 CHT1 变体的计算分析和转运测定揭示了保守残基沿特定路径到达胞质位点的局部构象重排。这些发现为细胞内胆碱转变提供了结构和机制的见解，表明细菌和人类胆碱转运蛋白之间存在进化保守的机制。",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aed0037",
-      "title": "Structural properties, polymorphism, and multiscale disorder unravel energy transport limitations in perylene diimide semiconductors",
-      "url": "https://doi.org/10.1126/sciadv.aed0037",
-      "first_author": "Christopher J. H. Smalley",
-      "corr_author": "Sean M. Collins",
-      "affiliation": "School of Chemistry, Cardiff University, Park Place, Cardiff CF10 3AT, UK.",
-      "abs_zh": "从光伏到电子，有机半导体继续取得显着的性能提升。然而，了解固态结构的差异如何导致能量传输特性的巨大差异仍然悬而未决。我们报道了两种苝二酰亚胺（PDI）衍生物的微晶仅在端基[环己基（CH）和4-庚基（ST）]上有所不同，其激子扩散系数相差两个以上数量级。应用最先进的微晶结构测定技术，我们报告了 CH-PDI 和 ST-PDI 的两种多晶型物的晶体结构。扫描电子衍射揭示了 ST-PDI 微晶中一系列由多晶型共生引起的晶体学缺陷，而电子能量损失光谱将这些缺陷与纳米级电子结构变化联系起来。计算模型表明，旋转无序可以解释激子扩散系数的差异。我们的观察证实了缺陷引起的取向紊乱作为外在能量紊乱的来源的重要性，强调了有机半导体技术中缺陷管理的必要性。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10569-6",
-      "title": "Mechanism of age-related accumulation of mtDNA mutations in human blood",
-      "url": "https://doi.org/10.1038/s41586-026-10569-6",
-      "first_author": "Rahul Gupta",
-      "corr_author": "Vamsi K. Mootha",
-      "affiliation": "未知机构",
-      "abs_zh": "突变线粒体 DNA (mtDNA) 异质性的积累是衰老最强烈的特征之一\n                    1\n                    。在这里，我们使用来自约 750,000 个人的全基因组序列调用人类血液中的 mtDNA 序列、mtDNA 丰度和 mtDNA 异质变异来研究潜在的机制。我们观察到，mtDNA 单核苷酸变异 (mtSNV) 在 60 岁时急剧积累，异质性水平较低，几乎没有表现出正选择的证据，并且可能主要是中性的。 mtSNV 的突变谱并不像通常所说的那样反映氧化损伤，而是与 mtDNA 复制错误更一致。为了了解为什么 mtSNV 随着年龄的增长而变得可检测到，我们对异质性 mtSNV 负荷进行了全基因组关联研究，识别了附近的种系变异。\n                    叔丁基醚\n                    ,\n                    TCL1A\n                    和\n                    SMC4\n                    ，所有这些都与克隆造血（CH）有关\n                    2\n                    。稀有变异分析还表明，高 mtSNV 负担与许多 CH 驱动基因的突变有关。即使排除具有已知 CH 驱动突变的个体后，这些遗传关联仍然存在。我们的结果支持一个模型，其中“神秘”mtDNA 突变最初作为复制错误随机出现，但批量检测不到。然后，只有通过血液中细胞克隆与年龄相关的扩张，它们才会变得明显。我们认为，mtDNA 的高拷贝数和突变率使其成为 CH 所致体细胞嵌合体的敏感血液标记物。我们的工作从机制上统一了衰老的三个显着特征：常见的种系变异\n                    叔丁基醚\n                    、CH 和观察到的 mtDNA 突变的累积。",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-01686-3",
-      "title": "Move over, AlphaFold: open-source model predicts shape of 1 billion proteins",
-      "url": "https://doi.org/10.1038/d41586-026-01686-3",
-      "first_author": "Ewen Callaway",
-      "corr_author": "Miryam Naddaf",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260046",
-      "title": "Active-Source Environmental Seismology",
-      "url": "https://doi.org/10.1785/0220260046",
-      "first_author": "W. Steven Holbrook",
-      "corr_author": "Ivan Rabak",
-      "affiliation": "1Department of Geosciences, Virginia Tech, Blacksburg, Virginia, U.S.A.",
-      "abs_zh": "环境地震学是一个快速发展的领域，主要通过被动检测事件（例如滑坡和沉积物运动）和反映饱和度变化（例如地下水位变化）的地下速度变化，为许多地表和近地表地球过程提供新的见解。仪器（例如分布式声学传感）和分析技术（例如机器学习和人工智能）的最新进展正在扩大被动环境地震学的用例和数据量。然而，尽管取得了这些成功，被动环境地震学仍有两个缺点，可能会限制数据的有用性。首先，依赖于表面波观测的被动源研究通常产生横波速度而不伴随纵波速度测量，因此不能完全表征地下弹性特性。其次，被动源研究通常无法提供区分承载和控制环境过程的近地表单元（例如土壤、腐泥土和裂隙基岩）所需分辨率的地下结构。我们建议通过结合关键区（CZ）的主动源地震成像来克服这些限制。主动源数据记录整个波场，从而提供详细的 P 和 S 速度结构，可以将被动源测量置于上下文中。主动源直带地震学是一个快速变化的领域，最近在仪器（例如小型自主节点）和分析技术（例如更广泛地采用全波形反演）方面取得了显着进展。因此，新型调查（例如三分量、3D 和延时）正在以新颖的方式和前所未有的分辨率对 CZ 进行成像。在这里，我们回顾了主动源直带地震学的最新技术，并提供了几个例子，证明主动源环境地震学可以实现直带结构和过程的米级分辨率。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

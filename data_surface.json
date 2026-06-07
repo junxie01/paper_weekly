@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-24 至 2026-05-31 03:59",
+  "last_update": "2026-05-31 至 2026-06-07 04:04",
   "topic_name": "面波研究",
   "papers": [
     {
@@ -14,6 +14,94 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2026gl123087",
+      "title": "Evolution of NWC Transmitter Wave Power Distribution From the Topside Ionosphere Into the Inner Magnetosphere",
+      "url": "https://doi.org/10.1029/2026gl123087",
+      "first_author": "Zhiyang Xia",
+      "corr_author": "Iku Shinohara",
+      "affiliation": "Department of Physics University of Texas at Dallas  Richardson TX USA",
+      "abs_zh": "地面甚低频发射机发射的信号主要在地球-电离层波导内传播，其中一些能量可以传播到磁层中。 DEMETER 卫星的电离层观测揭示了西北角发射机在横向（经度-L 壳）平面上波功率分布的明显同心环模式。使用来自地球空间卫星中的范艾伦探测器和Arase/通电和辐射的数据，我们发现同心环图案仍然可见，但变得不太明显。当波从南电离层传播到北半球时，图案向外移动，并变得更加椭圆。为了研究这种演变的原因，我们在三种条件下进行了射线追踪模拟：管道传播、具有垂直初始波法线角的非管道传播和具有扩展初始波法线角的非管道传播。结果表明，具有扩展波法线角的非导管传播最好地解释了传播过程中观察到的波浪功率分布模式的演变。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl121858",
+      "title": "Multi‐Step Gravity Wave Propagation From a Tropospheric Vortex to the Ionosphere Near the Tibetan Plateau",
+      "url": "https://doi.org/10.1029/2026gl121858",
+      "first_author": "Wei Yao",
+      "corr_author": "Yiding Chen",
+      "affiliation": "Key Laboratory of Planetary Science and Frontier Technology Institute of Geology and Geophysics Chinese Academy of Sciences  Beijing China",
+      "abs_zh": "大气和电离层形成一个垂直耦合系统，其中低层大气的扰动可以调节电离层的变化。利用再分析数据、地面 GNSS 观测和 COSMIC-2 剖面，我们研究了 2022 年 6 月青藏高原西南涡 (SWV) 事件期间重力波 (GW) 的产生和向上耦合。结果揭示了一个多步骤过程：初级重力波在对流层顶附近被涡旋引起的动力扰动激发并向上传播。这些初级波在大约 45-50 公里处消散，沉积出可能产生次级重力波的动量和能量。次级波可能进一步向上传播并有助于产生高阶重力波，这些重力波穿透电离层并产生持续的中尺度行进电离层扰动（MSTID）。这些发现表明，电离层对对流层涡旋系统的响应不能仅仅通过直接向上传播来解释，突出了多步垂直耦合在大气-电离层中的关键作用。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl121955",
+      "title": "Seasonal Prediction Skill Contrasts of Subtropical North Atlantic Sea Surface Temperature Anomalies Under Different AMV Phases",
+      "url": "https://doi.org/10.1029/2026gl121955",
+      "first_author": "Bingjiang Wei",
+      "corr_author": "Youmin Tang",
+      "affiliation": "Key Laboratory of Marine Hazards Forecasting Ministry of Natural Resources Hohai University  Nanjing China",
+      "abs_zh": "大西洋数十年变率（AMV）对当地和偏远地区产生深远的气候影响。最近的研究表明，AMV 可以显着调节厄尔尼诺南方涛动（ENSO）及其遥相关。然而，很少有研究探讨 AMV 对季节性预测技能的影响。本研究结合观测数据和集合后报，研究了 AMV 对北大西洋副热带海面温度异常 (SSTA) 季节预测技能的影响。结果表明，北大西洋副热带春季海温异常在AMV正位相下的季节预报能力显着高于AMV负位相下的季节预报能力。在海温异常持续性中也观察到类似的对比。进一步的分析表明，这些与 AMV 相关的差异与上层海洋热含量的变化密切相关，而上层海洋热含量的变化主要源于与大西洋经向翻转环流相关的热辐合差异。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3313-2026",
+      "title": "Learning to melt: Emulating Greenland surface melt from a polar RCM with machine learning",
+      "url": "https://doi.org/10.5194/tc-20-3313-2026",
+      "first_author": "Elke Schlager",
+      "corr_author": "Peter L. Langen",
+      "affiliation": "未知机构",
+      "abs_zh": "。预测格陵兰冰盖表面融化对于了解表面质量平衡（SMB）及其对气候变化的敏感性至关重要。极地区域气候模型 (RCM) 是模拟融化和预测未来 SMB 的主要工具，但不同的模型产生显着不同的结果。然而，它们的计算成本太高，无法创建量化这种不确定性所需的大型集成。我们开发了一个基于神经网络的模拟器，可以根据大气变量预测每日地表融化，并根据 ERA-Interim 强制的极地 RCM HIRHAM5 及其第一模型 DMIHH 的输出进行训练。该模拟器采用基于物理的设计，将短期天气与长期气候记忆相结合，捕获即时大气强迫和累积的雪特征。输入选择研究表明，湍流热通量、下降辐射和降水以及季节编码足以再现地表融化。仿真器的平均绝对误差低于 0.21mmw.e。 每天相对于 DMIHH 在所有六个格陵兰流域产生的地表融化量，误差主要归因于空间过度平滑。我们的工作表明，机器学习可以成功地模拟仅来自气候强迫的模型行为，计算成本比传统模拟低几个数量级。一旦针对特定的气候强迫进行了重新训练，模拟器就可以进行广泛的集合预测。此外，模块化架构可以轻松适应模拟径流等其他 SMB 数量。这代表着朝着计算有效地模拟极地区域气候模型和地球系统建模中 SMB 组件的替代建模迈出了关键的第一步。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122121",
+      "title": "Glacial Ice‐Front Calving: Internal Wave Generation and Melting",
+      "url": "https://doi.org/10.1029/2026gl122121",
+      "first_author": "M. E. Inall",
+      "corr_author": "M. P. Meredith",
+      "affiliation": "SAMS‐UHI  Oban UK",
+      "abs_zh": "小而频繁的崩解事件主导了大多数北极海洋终止冰川的行为，但其对海洋学的影响在很大程度上仍未量化。我们首次对斯瓦尔巴群岛克罗讷布林适度的冰崩崩解产生的内波进行了直接观察。高分辨率电流计和微观结构测量表明，每个事件都会激发弱非线性多模态内波包，垂直位移约为 4 m，模式 1 传播速度为 0.35–0.42 ms\n                    −1\n                    。这些波增强了上部 15 m 的剪切力和湍流，并改变了局部分层。理想的数值模拟再现了观察到的波浪特征，并确认了它们对峡湾分层的敏感性。鉴于北极冰川上小规模崩解事件的频繁发生，崩解产生的内波可能代表了一种未被充分认识的导致海底融化和峡湾规模混合的机制。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260082",
+      "title": "Enforcing Reciprocity in Operator Learning for Seismic Wave Propagation",
+      "url": "https://doi.org/10.1785/0220260082",
+      "first_author": "Caifeng Zou",
+      "corr_author": "Kamyar Azizzadenesheli",
+      "affiliation": "1Seismological Laboratory, California Institute of Technology, Pasadena, California, U.S.A.",
+      "abs_zh": "准确高效的波场建模支撑着地震结构和震源研究。传统方法符合物理定律，但计算量较大。数据驱动的方法虽然开辟了新的进步途径，但尚未纳入严格的物理一致性。互易原理是波传播中最基本的物理定律之一。我们引入了互易强制神经算子，这是一种基于变压器的架构，用于对地震波传播进行建模，对互易原理进行硬编码。该模型利用交叉注意机制和交换操作来保证交换源和接收器位置下的不变性。除了改进的物理一致性之外，所提出的架构还支持多个源的同时实现。与现实多源配置上的传统神经算子相比，这在相似的内存占用下产生了数量级的推理加速。我们使用单力下粒子速度场的互易关系来演示该功能。该架构还适用于膨胀源下的压力场和由 Eikonal 方程控制的走时场，为编码更复杂的互易关系铺平了道路。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122003",
+      "title": "Investigating the Impact of the Spatially Heterogeneous Surface Dust Cover on Martian Global Dust Event Occurrence",
+      "url": "https://doi.org/10.1029/2026gl122003",
+      "first_author": "Demetrius Ramette",
+      "corr_author": "Kerstin Schepanski",
+      "affiliation": "Department of Earth Sciences Institute of Meteorology Freie Universität Berlin  Berlin Germany",
+      "abs_zh": "观察到的火星上全球沙尘事件（GDE）发生的年际变化仍然难以理解和预测。到目前为止，已经研究了几种假设，但似乎缺少一个核心方面：表面灰尘覆盖和风化层颗粒尺寸分布的异质性如何与灰尘排放的区域差异相关。我们建立了一个基于跳跃理论和表面风应力场景的框架，以较低的计算成本进行垂直粉尘排放通量的模拟。通过建立灰尘覆盖指数与灰尘颗粒动员阈值和排放效率之间的关系，我们的工作表明，表面灰尘颗粒尺寸的地理异质性可能构成更好地理解 GDE 爆炸性增长及其年际变化的关键特征。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025jb033029",
+      "title": "Determining the Character of Subglacial Sediments in the Ice‐Bedrock Interface Zone of Antarctica Using Horizontal‐to‐Vertical Spectral Ratios (HVSRs) of Seismic Ambient Noise",
+      "url": "https://doi.org/10.1029/2025jb033029",
+      "first_author": "I. D. Kelly",
+      "corr_author": "A. P. Bassom",
+      "affiliation": "School of Natural Sciences (Mathematics and Physics) University of Tasmania  Hobart TAS Australia",
+      "abs_zh": "南极冰盖与底层固体地球之间的相互作用发生在冰基岩界面带（IBIZ）内，其中包含强烈影响冰盖动力学的沉积物和岩石结构。对南极 IBIZ 的现有了解主要来自对机载地球物理数据和主动地震测量的解释，这需要大量的后勤工作。被动地震方法为冰下测绘提供了一种成本较低、分辨率较低的替代方案，并具有连续远程监测的潜力。在这里，我们利用地震环境噪声的水平与垂直频谱比 (HVSR) 来推断由非石化沉积物或多孔、水饱和沉积岩产生的冰下低速区的存在，并使用来自南极洲 80 多个宽带站的现有数据。从一维正演模型中，我们发现合成 HVSR 峰值频率的下降取决于与地震波场条件无关的低速区的厚度和 S 波速度 ()。 HVSR 峰值频率的这种敏感性通过南极站合成的 HVSR 和观测到的 HVSR 之间的一致性得到了验证，这些 HVSR 对冰下结构具有独立的先验约束。我们观测到的 HVSR 分析还揭示了观测到的 0.2 至 1 Hz 之间的 HVSR 振幅存在广泛的季节性，这与海冰演化和南大洋次生微震能量的调制相关。根据观测到的 HVSR 峰值频率的下降，我们推断沿着主要被动地震横断面横跨南极洲的冰下低速区的可能性，映射到关键的冰下沉积盆地。我们为未来的 HVSR 应用提供实用建议，以可靠地推断冰下低速区。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.119963",
       "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
       "url": "https://doi.org/10.1016/j.epsl.2026.119963",
@@ -22,94 +110,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120004",
-      "title": "New insights into plateau-craton interactions from P and S wave tomography beneath the northeastern Tibetan plateau",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120004",
-      "first_author": "Haibo Wang",
-      "corr_author": "Xiumian Hu",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb032374",
-      "title": "Plate‐Plume Interactions in Southeast Asia: New Insight From Sn‐Wave Tomography",
-      "url": "https://doi.org/10.1029/2025jb032374",
-      "first_author": "Yuan Li",
-      "corr_author": "Dapeng Zhao",
-      "affiliation": "School of Geophysics and Information Technology China University of Geosciences  Beijing China",
-      "abs_zh": "东南亚最上地幔的新型剪切波速度 (Vs) 模型源自 ISC-EHB 公报中的大量高质量 Sn 波到达时间。我们的模型揭示了与地表构造密切相关的惊人的横向异质性。该地区的平均 Sn 波速度为 4.55 km/s。海沟和大陆碰撞带表现出高达 +0.40 km/s 的显着高速（高 Vs）异常，表明存在寒冷且致密的岩石圈物质。在火山弧区域下方观察到低速（低 Vs）异常（低至 -0.40 km/s），表明存在热、湿和部分熔融的地幔楔。此外，西藏东部及其邻近地区下方出现低Vs异常（-0.26 km/s），可能表明来自西藏的东向物质流被扬子地块阻挡并分成两支，南向的物质流可能遇到呵叻高原并再次分叉。结合之前的Pn各向异性和剪切波分裂测量结果，我们认为印度支那地块周围的流动也可能是由大地幔楔中向西的地幔对流和来自海南地幔柱的共同贡献的。这样的地球动力学模型可以解释晚新生代玄武岩的广泛分布和东南亚玄武岩省的形成。清晰地成像了一条长约 1,550 公里、东北-西南方向的低 Vs 带，它从海南北部延伸出来，反映了海南羽流的残余轨迹。结合俯冲历史、地幔柱活动和东南亚大地震，我们的发现为区域地球动力学和板块-地幔柱相互作用提供了新的线索。",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119928",
-      "title": "Identifying Energy Balance Drivers of Greenland Ice Sheet Surface Melt Using Causal Discovery",
-      "url": "https://doi.org/10.1029/2025gl119928",
-      "first_author": "Ziqi Yin",
-      "corr_author": "Jianwu Wang",
-      "affiliation": "Department of Atmospheric and Oceanic Sciences University of Colorado at Boulder  Boulder CO USA",
-      "abs_zh": "近几十年来，格陵兰冰盖（GrIS）质量损失加速，主要是由于表面融化加剧。对于传统的相关性来说，识别表面熔化的因果关系仍然具有挑战性。使用应用于CESM2大型集合模拟的因果发现算法，并根据两个高分辨率区域气候模型进行评估，我们确定了从熔体到净短波辐射（反映熔体反照率反馈）以及从感热和潜热通量到熔体的显着的同期正联系。这些结果强调短波辐射和湍流加热是每月时间尺度上消融区 GrIS 夏季融化异常的主要驱动因素。与相关性相比，隔离更少但更容易物理解释的依赖关系。到本世纪末（SSP3-7.0），这些联系仍然存在，但与湍流热相关的联系变得无向，表明统计可识别性降低，并且在气候变暖的情况下，瞬时地表-大气耦合可能更强。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119771",
-      "title": "The Potential for Leveraging SWOT‐Mapped Uneven Water Surface Elevations to Enhance ICESat‐2–Derived Lake Levels",
-      "url": "https://doi.org/10.1029/2025gl119771",
-      "first_author": "Chi Hsiang Huang",
-      "corr_author": "Huilin Gao",
-      "affiliation": "Texas A&amp;M University Zachry Department of Civil and Environmental Engineering  College Station TX USA",
-      "abs_zh": "卫星测高有利于测量全球水面高程 (WSE)。然而，时间序列的偏差可能是由不平坦的水面引起的，因为最低点测量通常是在湖上的不同位置收集的。这项研究展示了从 SWOT 任务中得出的二维 WSE 差异图如何增强 ICESat-2 WSE 时间序列。首先，SWOT 衍生的 WSE 差异图与伊利湖的现场数据显示出很强的一致性（\n                    右\n                    2\n                     = 0.79）。对于鲍威尔湖，该方法改进了\n                    右\n                    2\n                    ICESat-2 时间序列从 0.62 到 0.89。此外，根据 SWOT 数据估计，水面的空间变异性分别占全球湖泊和水库 WSE 中值波动不确定性的 44% 和 16%。通过分析全球 81,133 个湖泊，这项研究确定了偏差热点，并为整合多卫星测高数据提供了优势，有助于对全球不同景观进行更准确和长期的水文监测。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119820",
-      "title": "Decadal Predictions of the Link Between European Hot‐Dry Compound Summers and North Atlantic Sea Surface Temperature",
-      "url": "https://doi.org/10.1029/2025gl119820",
-      "first_author": "Leocardia Zheng",
-      "corr_author": "Leonard Borchert",
-      "affiliation": "Research Unit Sustainability &amp; Climate Risk University of Hamburg  Hamburg Germany",
-      "abs_zh": "我们评估了 MPI-ESM 1.2-LR 十年后报（前导年 1-5），以评估借助北大西洋海面温度 (SST) 对欧洲复合炎热干燥夏季的预测。使用 64 名成员的集合和去趋势数据，我们隔离了由内部变异性驱动的极端情况。我们发现初始化对于捕获观测数据中发现的 2m 温度-降水相关性至关重要。虽然炎热夏季的发生概率与北大西洋海温在时间上呈正相关，但北大西洋海温对降水的影响却存在差异。复合干热夏季的发生概率与北大西洋海温没有显着相关性。尽管北大西洋海温升高增加了炎热夏季的预测发生概率，但布里尔技能评分表明，对于罕见的极端事件，这些年代际预测并没有优于气候学。利用北大西洋海温显示出预测炎热夏季的希望，但其对复合夏季的影响仍不清楚。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec7422",
-      "title": "Hurricane air-sea drag saturation and sea-state dependence revealed by surface drones",
-      "url": "https://doi.org/10.1126/sciadv.aec7422",
-      "first_author": "Gregory R. Foltz",
-      "corr_author": "Edward D. Cokelet",
-      "affiliation": "NOAA Atlantic Oceanographic and Meteorological Laboratory, Miami, FL, USA.",
-      "abs_zh": "海洋为热带气旋 (TC) 提供能量，并通过表面摩擦减缓其风速，这对海洋施加了称为风应力的力。阻力系数（\n                    C\n                    d\n                    ）是将风速转换为风应力的关键参数，目前在预报模型中根据低至中度海洋风收集的不完整数据进行估计。在这里，我们使用 11 场大西洋飓风的测量数据来量化\n                    C\n                    d\n                    风速高达每秒 44 米，表面波浪高达 14 米。发现\n                    C\n                    d\n                    当风速超过每秒 30 米时，风速趋于平稳，但并没有像之前的间接方法所建议的那样明显下降。风场和波浪场相互作用的原因\n                    C\n                    d\n                    风暴的运动左侧（风和浪错位）比右侧高 20 ± 2%。这些结果直接量化了基本的热带气旋海气相互作用参数，并证明了不同的热带气旋象限特定风波相互作用的重要性。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-01671-w",
-      "title": "Gold keeps glittering courtesy of surface chemistry",
-      "url": "https://doi.org/10.1038/d41586-026-01671-w",
-      "first_author": "N/A",
-      "corr_author": "N/A",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120705",
-      "title": "The Impact of Nocturnal Boundary Layer Height on Daytime Surface Particulate Nitrate Increases by Vertical Transport From the Residual Layer",
-      "url": "https://doi.org/10.1029/2025gl120705",
-      "first_author": "Yujie Qin",
-      "corr_author": "Haichao Wang",
-      "affiliation": "School of Atmospheric Sciences Sun Yat‐sen University, and Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai)  Zhuhai China",
-      "abs_zh": "颗粒硝酸盐 (pNO\n                    3\n                    -\n                    ）已成为一个关键的空气质量问题，由于从上层向下传输，表面浓度在早晨明显增加。然而，夜间边界层演化如何调节这一过程仍不清楚。在这里，我们使用一维模型，受深圳塔垂直观测的限制，来量化早晨表面 pNO\n                    3\n                    -\n                    增强响应夜间边界层高度。模型显示，在早上有 pNO 的日子里，向下运输的贡献更大\n                    3\n                    -\n                    比不增加的日子（70%）增加（90%）。原因是较低的夜间边界层削弱了垂直混合并产生了更陡的垂直梯度。敏感性测试表明，夜间边界层高度降低 50% 会增加最大垂直传输速率（0.56–1.21 μg m\n                    −3\n                     小时\n                    −1\n                    ) 并相应地提高最大表面 pNO\n                    3\n                    -\n                    浓度（0.38–2.41 µg m\n                    −3\n                    ）。这些结果强调了边界层演化在调节表面 pNO 中的作用\n                    3\n                    -\n                    污染。",
-      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
