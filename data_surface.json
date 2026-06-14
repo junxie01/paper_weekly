@@ -1,7 +1,62 @@
 {
-  "last_update": "2026-05-31 至 2026-06-07 04:04",
+  "last_update": "2026-06-07 至 2026-06-14 04:13",
   "topic_name": "面波研究",
   "papers": [
+    {
+      "id": "2606.11849v1",
+      "title": "Breakdown of the classical rupture theory and earthquake propagation in the \"forbidden\" super-Rayleigh range",
+      "url": "http://arxiv.org/abs/2606.11849v1",
+      "first_author": "Anna Pomyalov",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "通常认为传播速度快于剪切波速度的地震会经历超剪切转变，在此过程中地震会不连续地从亚瑞利状态跃迁到超剪切状态。超瑞利范围，即瑞利波速度和剪切波速度之间的传播速度范围，被二维经典破裂理论视为“禁止”。在这里，我们重新审视经典理论的假设，并发展了一种破裂理论，该理论考虑了断层强度（摩擦阻力）对滑移率的依赖性。该理论在数量上与接近瑞利波速的数值模拟一致。然而，与后者非常接近的是，二维断裂解由于摩擦速率非线性而改变了其特征，并且断裂不断地通过“禁止的”超瑞利范围传播到超剪切状态，而没有急剧的超剪切转变。这些结果表明，通常在实验中观察到的摩擦速率依赖性可能对地震的快速传播产生深远的影响。",
+      "source": "arXiv",
+      "published": "2026-06-10"
+    },
+    {
+      "id": "2606.03231v1",
+      "title": "A reduced model for surface wave-current interactions without spatial scale separation",
+      "url": "http://arxiv.org/abs/2606.03231v1",
+      "first_author": "Yohei Onuki",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们提出了一种简化渐近模型，用于弱非线性表面重力波场与均匀旋转流体中缓慢演化的不可压缩流之间的相互作用。该公式建立在波平均动量方程的 Craik-Leibovich 理论的基础上，但斯托克斯漂移不是外部规定的。相反，它是由集中在与规定载波频率相关的波数圆附近的窄带波场的伴随振幅方程确定的。该推导将波陡度的多时间尺度展开与唯象闭包相结合，忽略四次波-波相互作用，同时保留三阶斯托克斯校正。重要的是，波流相互作用没有空间尺度的分离，使得波动方程能够表示电流引起的平流、折射和多向散射。由此产生的方程保留了波浪作用，并允许耦合波流系统的能量和动量预算闭合。因此，该模型提供了经典 Craik-Leibovich 框架的易于处理的双向扩展，适用于电流引起的波演化对平均流进行显着反馈的情况。",
+      "source": "arXiv",
+      "published": "2026-06-02"
+    },
+    {
+      "id": "2606.02222v1",
+      "title": "Plane-Wave Excitation of Multi-Beam Modulated Metasurface Antennas",
+      "url": "http://arxiv.org/abs/2606.02222v1",
+      "first_author": "Jorge Ruiz-García",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "本文探讨了由多向平面波发射器激励的多波束超表面（MTS）天线的设计。首先，我们解决了与正弦调制 MTS 的调制方向倾斜传播的平面表面波 (SW) 的基本但尚未解决的问题。提供闭合形式表达式以准确预测照明平面SW的任何传播方向和任何Floquet谐波的光束指向角。然后，使用所提出的公式设计具有线性极化的 K 波段高方向性多波束 MTS 天线。所设计的天线将 MTS 和药盒准光学波束形成器结合在一起，布置在非常紧凑的空间中。药丸盒是一种双层结构，在下层嵌入一个与多个主馈源耦合的反射器。主馈源发射的波束因此在上层转换为不同方向的平面波。在上层打印调制的 MTS 可形成适合 PCB 制造的薄型多波束天线。实验结果验证了所提出的公式。制造的 MTS 天线在 19.7-21.7 GHz 频段上表现出 30.5 dB 的最大方向性和 17.5% 分数 -3 dB 方向性带宽。通过切换馈源和修改工作频率，扫描范围仰角为[$3^o$,$35^o$]，方位角为[$-76^o$,$+76^o$]。此外，还包括不同的天线设计，证明了导出公式的有效性和通用性。所提出的多波束概念可用于卫星通信和 5G/6G 网络。",
+      "source": "arXiv",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2606.01585v1",
+      "title": "Universal Right-Hand Chirality of Evanescent Vector Fields",
+      "url": "http://arxiv.org/abs/2606.01585v1",
+      "first_author": "Yilin Qing",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "传播方向 $\\hat{\\bf q}$、自旋 $\\hat{\\bf S}$ 和表面或界面法线 $\\hat{\\bf n}$ 之间的锁定——一种广泛称为 \\textit{chirality} 的现象——遍布光学、磁学、等离激元学和声学中的渐逝波或表面波。然而，尚不清楚这种现象是普遍存在的还是受条件限制的。在这里，我们揭示了任何沿 $\\hat{\\bf q}$ 传播并沿 $\\hat{\\bf n}$ 消失的 \\textit{source-free} 向量场，自旋的存在会自动在 $\\hat{\\bf q}$、$\\hat{\\bf S}$ 和 $\\hat{\\bf n}$ 之间强制执行严格的右手锁定，其特征是手性索引$C_{\\bf q}\\equiv \\hat{\\bf n}\\cdot(\\hat{\\bf S}\\times \\hat{\\bf q})>0$。对于 $\\hat{\\bf q}\\cdot \\hat{\\bf S}\\equiv η\\in [-1,1]$ 定义的任意传播方向，即不一定是横向自旋，我们推导出一个基本上限 $C_{\\bf q}\\le \\sqrt{1-η^2}$。左手倏逝（无源）矢量场的普遍存在强调了镜像配置的基本物理不等价性——这一原理与宇称破坏、手性分子中对映异构体的自然过量以及 DNA 的固定手性相呼应。",
+      "source": "arXiv",
+      "published": "2026-06-01"
+    },
+    {
+      "id": "2605.23166v1",
+      "title": "Free surfaces in turbulence -- A unified framework from water surfaces to elastic solids",
+      "url": "http://arxiv.org/abs/2605.23166v1",
+      "first_author": "Giulio Foggi Rota",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "海面和飘扬的旗帜有什么共同点？两者都是可变形表面，当暴露于湍流时表现出混沌运动。这种运动主要是由流动湍流驱动还是由表面固有的非线性动力学驱动仍然存在争议。表面波可以非线性相互作用，并通过级联波湍流跨尺度传递能量，这是在静止流体之间的界面和受控实验室实验中观察到的行为。如果局部雷诺数足够大，它们也可以在邻近流体中引起湍流运动（波引起的湍流）。然而，现实环境更为复杂，通常涉及波湍流和波诱发湍流与湍流诱发波同时存在，其动态相关性仍不清楚。在这里，我们开发了一个理论框架，描述可变形表面对湍流产生的压力波动的响应，并通过准现实条件下空气-水界面的数值模拟以及可变形橡胶层的模拟来验证它。我们的线性理论排除了非线性波-波相互作用，根据是否出现内在表面动力学或界面是否受到流动湍流的奴役来预测不同的动力学状态。值得注意的是，尽管我们完全解析的非线性模拟并不能抑制波浪湍流的发生，但我们并没有观察到它。相反，我们发现这两种情况都与理论预测高度一致。我们发现我们的预测与海洋表面的航空调查之间存在显着的一致性，这突出表明需要进一步测量来区分波浪湍流和湍流引起的波浪。",
+      "source": "arXiv",
+      "published": "2026-05-22"
+    },
     {
       "id": "10.1016/j.epsl.2026.120095",
       "title": "Corrigendum to “Sub-centennially resolved reconstruction of surface temperature on High Arctic Svalbard for the past 13,000 years” [EPSL 671 (2025) 119646]",
@@ -11,6 +66,61 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl119220",
+      "title": "Formation and Arrest of a Surface Density Front via Strain‐Driven Frontogenesis",
+      "url": "https://doi.org/10.1029/2025gl119220",
+      "first_author": "Erin Atkinson",
+      "corr_author": "Nicolas Grisouard",
+      "affiliation": "Department of Physics University of Toronto  Toronto ON Canada",
+      "abs_zh": "海洋锋面在热量、能量和生物地球化学示踪剂的垂直传输中发挥着关键作用，但它们的行为和生命周期尚不清楚，特别是在较小的尺度上。我们提出了混合层锋生的大涡模拟，捕获了从更大规模、旋转主导的锋面开始的亚中尺度状态。锋生改变了由锋面地转二次环流驱动的垂直混合和再层化之间的平衡，最终状态是一个小的湍流停滞区域和锋面的再层化剩余部分的组合，该剩余部分位于未混合的稳定区域之上。向这种状态的过渡以下方对称单元的出现为标志，这些单元合并形成循环，从混合层基底夹带流体。我们在亚尺度不稳定性和位涡传输的背景下描述了结果，并讨论了海洋混合层中锋生和锋面停滞的影响。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aed3926",
+      "title": "Exploring the third dimension in quantum confinement of surface electrons",
+      "url": "https://doi.org/10.1126/sciadv.aed3926",
+      "first_author": "Lu Lyu",
+      "corr_author": "Benjamin Stadtmüller",
+      "affiliation": "Department of Physics and Research Center OPTIMAS, RPTU University Kaiserslautern-Landau, Erwin-Schrödinger-Straße 46, 67663 Kaiserslautern, Germany.",
+      "abs_zh": "二维金属有机网络中表面电子的量子限制为量子和自旋电子技术的电子态设计提供了一条强大的途径。在这里，我们证明了表面电势垂直变化对表面电子量子限制的关键作用。我们研究了 Cu(111) 上 Cu-T4PT 网络中肖克利表面态和像势态电子及其独特垂直电子密度分布的限制。我们发现图像态的带质量发生了实质性的重正化，而肖克利态几乎保持不变。这种显着的分歧源于 Cu-T4PT 网络独特的三维势能景观，在分子主链的垂直位置和 Cu 配位球下方的泄漏通道处具有很强的排斥势。我们的研究结果证明了垂直势工程在设计量子限制态中的重要作用，从而推进对纳米尺度电子特性和量子现象的控制。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250447",
+      "title": "Fifteen Years of Observations Suggest Structural and Ocean-Wave Control on Seismicity at the Mendocino Triple Junction",
+      "url": "https://doi.org/10.1785/0220250447",
+      "first_author": "Michal Chamarczuk",
+      "corr_author": "Christopher W. Johnson",
+      "affiliation": "1Earth and Environmental Sciences Division, Los Alamos National Laboratory, Los Alamos, New Mexico, USA",
+      "abs_zh": "门多西诺三重交界处 (MTJ) 是加利福尼亚州构造最活跃的地区之一。北太平洋风暴活动的季节性变化会在加利福尼亚海岸产生强烈的海浪强迫，引发人们对其在调节地应力和影响 MTJ 地震活动方面的作用提出疑问。为了研究季节性海洋强迫是否会调节地震活动，我们分析了 15 年的地震观测。结果表明，季节性海洋强迫调节地震活动率和地震噪声幅度。波束形成限制了海洋产生的地震能量的时间、方向和波型特征，揭示了与区域海浪气候相关的瑞利波的方位一致的季节性振荡，以及表明结构控制的更加偶发性和方位角依赖性的洛夫波行为。地震活动率滞后季节性应力峰值几个月，表明断层响应延迟。与典型的海洋载荷应力相比，仅 ± 3−4 kPa 的应力扰动将地震活动率调节了 10-40%，这表明该地区的断层受到严重应力并且对弱外强迫敏感。这些发现强调季节性海洋强迫是 MTJ 地震活动调制的重要贡献者，波束成形揭示了结构控制的次要影响，这些结构控制将海洋产生的能量耦合到边缘，并在不断变化的沿海波浪气候下具有潜在影响。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag224",
+      "title": "Wave patterns in a shear zone undergoing flash heating in earthquake-like discrete element models",
+      "url": "https://doi.org/10.1093/gji/ggag224",
+      "first_author": "A Taboada",
+      "corr_author": "F Massi",
+      "affiliation": "Géosciences Montpellier , Université de Montpellier, CNRS, Montpellier ,",
+      "abs_zh": "总结\n                  基于我们之前的流变分析（Taboada &amp; Renouf，2023），我们使用离散元建模研究了在亚熔化和闪热温度下粒状剪切区内动态破裂产生的波型：一个半周期数值系统，具有由预先存在的裂缝切割的粘性测微盘，并限制在波反射平行壁之间。这种配置实现了三种不同的波现象：（1）与断层边界系统的正常模式相当的断层块共振，（2）在粒状剪切带内传播引导弹性波，以及（3）断层块剪切引起的惯性振动，其周期由壁质量和系统刚度决定。我们通过对底部边界应用 1 m s−1 的地震滑移率来检查破裂成核和随后的剪切带生长。成核在粗糙区域自发启动，产生不对称的双边破裂，剪切方向具有超剪切速度，相反方向具有亚瑞利速度；重要的是，这些成核机制仍然独立于邻近的岩体。随后的剪切带生长受到顶壁质量的强烈影响，顶壁质量驱动垂直方向上的耦合简谐振动（SHM）和水平方向上剪切引起的惯性振动，表现为异相体积应变和法向应力波形，随着剪切带变厚和弹性模量降低而延长。我们对比了代表相邻岩石体积的两种模型：模拟多股断层带的低质量模型和代表孤立断层带的高质量模型。粒状剪切区的固有粗糙度激发导波进行全内反射，其自然周期比顶壁的简谐运动更短，从而触发与摩擦下降相关的振动剪切事件（VSE）。这些 VSE 显示出不同的行为，具体取决于",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121248",
+      "title": "Anthropogenic Aerosols Influence Tropical Pacific Sea Surface Temperature Gradient Trends",
+      "url": "https://doi.org/10.1029/2025gl121248",
+      "first_author": "Penelope Maher",
+      "corr_author": "Andrea Dittus",
+      "affiliation": "Department of Mathematics and Statistics University of Exeter  Exeter UK",
+      "abs_zh": "热带太平洋西部的变暖程度高于东部。观察到的热带太平洋东西向海面温度（SST）梯度的加强在气候模型中很难重现——这是一个具有深远全球影响的显着模型偏差。我们在 1950 年至 2014 年间的 CMIP6 模拟大型集合中探索了热带太平洋海温梯度对人为气溶胶的响应。我们发现人为气溶胶正在使热带太平洋变冷（这种变冷在东太平洋更为明显），而温室气体则具有相反的响应。热带太平洋梯度增强并非由于人为气溶胶有效辐射强迫幅度或大气顶部能量失衡所致。这表明连接区域辐射响应与热带太平洋的路径非常重要。未来，无论历史趋势如何，所有模型都预测梯度会减弱。人为气溶胶强迫在驱动热带太平洋海温变化方面发挥着重要作用。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -55,61 +165,6 @@
       "affiliation": "未知机构",
       "abs_zh": "。预测格陵兰冰盖表面融化对于了解表面质量平衡（SMB）及其对气候变化的敏感性至关重要。极地区域气候模型 (RCM) 是模拟融化和预测未来 SMB 的主要工具，但不同的模型产生显着不同的结果。然而，它们的计算成本太高，无法创建量化这种不确定性所需的大型集成。我们开发了一个基于神经网络的模拟器，可以根据大气变量预测每日地表融化，并根据 ERA-Interim 强制的极地 RCM HIRHAM5 及其第一模型 DMIHH 的输出进行训练。该模拟器采用基于物理的设计，将短期天气与长期气候记忆相结合，捕获即时大气强迫和累积的雪特征。输入选择研究表明，湍流热通量、下降辐射和降水以及季节编码足以再现地表融化。仿真器的平均绝对误差低于 0.21mmw.e。 每天相对于 DMIHH 在所有六个格陵兰流域产生的地表融化量，误差主要归因于空间过度平滑。我们的工作表明，机器学习可以成功地模拟仅来自气候强迫的模型行为，计算成本比传统模拟低几个数量级。一旦针对特定的气候强迫进行了重新训练，模拟器就可以进行广泛的集合预测。此外，模块化架构可以轻松适应模拟径流等其他 SMB 数量。这代表着朝着计算有效地模拟极地区域气候模型和地球系统建模中 SMB 组件的替代建模迈出了关键的第一步。",
       "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122121",
-      "title": "Glacial Ice‐Front Calving: Internal Wave Generation and Melting",
-      "url": "https://doi.org/10.1029/2026gl122121",
-      "first_author": "M. E. Inall",
-      "corr_author": "M. P. Meredith",
-      "affiliation": "SAMS‐UHI  Oban UK",
-      "abs_zh": "小而频繁的崩解事件主导了大多数北极海洋终止冰川的行为，但其对海洋学的影响在很大程度上仍未量化。我们首次对斯瓦尔巴群岛克罗讷布林适度的冰崩崩解产生的内波进行了直接观察。高分辨率电流计和微观结构测量表明，每个事件都会激发弱非线性多模态内波包，垂直位移约为 4 m，模式 1 传播速度为 0.35–0.42 ms\n                    −1\n                    。这些波增强了上部 15 m 的剪切力和湍流，并改变了局部分层。理想的数值模拟再现了观察到的波浪特征，并确认了它们对峡湾分层的敏感性。鉴于北极冰川上小规模崩解事件的频繁发生，崩解产生的内波可能代表了一种未被充分认识的导致海底融化和峡湾规模混合的机制。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260082",
-      "title": "Enforcing Reciprocity in Operator Learning for Seismic Wave Propagation",
-      "url": "https://doi.org/10.1785/0220260082",
-      "first_author": "Caifeng Zou",
-      "corr_author": "Kamyar Azizzadenesheli",
-      "affiliation": "1Seismological Laboratory, California Institute of Technology, Pasadena, California, U.S.A.",
-      "abs_zh": "准确高效的波场建模支撑着地震结构和震源研究。传统方法符合物理定律，但计算量较大。数据驱动的方法虽然开辟了新的进步途径，但尚未纳入严格的物理一致性。互易原理是波传播中最基本的物理定律之一。我们引入了互易强制神经算子，这是一种基于变压器的架构，用于对地震波传播进行建模，对互易原理进行硬编码。该模型利用交叉注意机制和交换操作来保证交换源和接收器位置下的不变性。除了改进的物理一致性之外，所提出的架构还支持多个源的同时实现。与现实多源配置上的传统神经算子相比，这在相似的内存占用下产生了数量级的推理加速。我们使用单力下粒子速度场的互易关系来演示该功能。该架构还适用于膨胀源下的压力场和由 Eikonal 方程控制的走时场，为编码更复杂的互易关系铺平了道路。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122003",
-      "title": "Investigating the Impact of the Spatially Heterogeneous Surface Dust Cover on Martian Global Dust Event Occurrence",
-      "url": "https://doi.org/10.1029/2026gl122003",
-      "first_author": "Demetrius Ramette",
-      "corr_author": "Kerstin Schepanski",
-      "affiliation": "Department of Earth Sciences Institute of Meteorology Freie Universität Berlin  Berlin Germany",
-      "abs_zh": "观察到的火星上全球沙尘事件（GDE）发生的年际变化仍然难以理解和预测。到目前为止，已经研究了几种假设，但似乎缺少一个核心方面：表面灰尘覆盖和风化层颗粒尺寸分布的异质性如何与灰尘排放的区域差异相关。我们建立了一个基于跳跃理论和表面风应力场景的框架，以较低的计算成本进行垂直粉尘排放通量的模拟。通过建立灰尘覆盖指数与灰尘颗粒动员阈值和排放效率之间的关系，我们的工作表明，表面灰尘颗粒尺寸的地理异质性可能构成更好地理解 GDE 爆炸性增长及其年际变化的关键特征。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb033029",
-      "title": "Determining the Character of Subglacial Sediments in the Ice‐Bedrock Interface Zone of Antarctica Using Horizontal‐to‐Vertical Spectral Ratios (HVSRs) of Seismic Ambient Noise",
-      "url": "https://doi.org/10.1029/2025jb033029",
-      "first_author": "I. D. Kelly",
-      "corr_author": "A. P. Bassom",
-      "affiliation": "School of Natural Sciences (Mathematics and Physics) University of Tasmania  Hobart TAS Australia",
-      "abs_zh": "南极冰盖与底层固体地球之间的相互作用发生在冰基岩界面带（IBIZ）内，其中包含强烈影响冰盖动力学的沉积物和岩石结构。对南极 IBIZ 的现有了解主要来自对机载地球物理数据和主动地震测量的解释，这需要大量的后勤工作。被动地震方法为冰下测绘提供了一种成本较低、分辨率较低的替代方案，并具有连续远程监测的潜力。在这里，我们利用地震环境噪声的水平与垂直频谱比 (HVSR) 来推断由非石化沉积物或多孔、水饱和沉积岩产生的冰下低速区的存在，并使用来自南极洲 80 多个宽带站的现有数据。从一维正演模型中，我们发现合成 HVSR 峰值频率的下降取决于与地震波场条件无关的低速区的厚度和 S 波速度 ()。 HVSR 峰值频率的这种敏感性通过南极站合成的 HVSR 和观测到的 HVSR 之间的一致性得到了验证，这些 HVSR 对冰下结构具有独立的先验约束。我们观测到的 HVSR 分析还揭示了观测到的 0.2 至 1 Hz 之间的 HVSR 振幅存在广泛的季节性，这与海冰演化和南大洋次生微震能量的调制相关。根据观测到的 HVSR 峰值频率的下降，我们推断沿着主要被动地震横断面横跨南极洲的冰下低速区的可能性，映射到关键的冰下沉积盆地。我们为未来的 HVSR 应用提供实用建议，以可靠地推断冰下低速区。",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.119963",
-      "title": "Detection of the mushy region at the surface of the Earth’s inner core by an antipodal seismic wave",
-      "url": "https://doi.org/10.1016/j.epsl.2026.119963",
-      "first_author": "Seiji Tsuboi",
-      "corr_author": "Rhett Butler",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
       "published": "2026"
     }
   ]

@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-05-31 至 2026-06-07 04:04",
+  "last_update": "2026-06-07 至 2026-06-14 04:13",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "2606.10992v1",
+      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
+      "url": "http://arxiv.org/abs/2606.10992v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "裂缝通过裂缝和融水路线控制冰川动力学，但其传播速率在观测上仍然稀缺，并且在脆性到粘性区域中受到的限制很少。冷冻地震学提供了一种捕获冰川冰内动态过程的强大手段，最近在适用于密集地震阵列的匹配场处理（MFP）等新型处理方法方面取得了进展。然而，在稀疏或不规则的地震阵列中，冷冻震源的精确定位仍然具有挑战性。我们提出了一种两步工作流程，用于冰川地震活动的米级分辨率绘图，该工作流程在有限的仪器约束下集成了 MFP 和离散到达时间重定位。我们应用这种方法来分析斯瓦尔巴群岛汉斯布林冰川冰面的地震活动。使用 MFP，我们可以在仪器有限的情况下检测表面冰震并表征融水噪声。重新定位过程提高了表面冰震定位的准确性，并揭示了正在进行的裂缝开放事件。冰震的精确位置可以估计裂缝传播速率并确定每秒 0.47 至 0.55 平方米的扩散系数。基于所获得的结果，我们讨论了脆性到粘性状态的转变，并将裂隙机制解释为持续的亚临界裂纹扩展，其中粘性应力松弛控制着低于弹性极限的数量级的速率。",
+      "source": "arXiv",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2604.14226v1",
+      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
+      "url": "http://arxiv.org/abs/2604.14226v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "分布式声学传感（DAS）已成为环境和低温地震学研究的一种很有前途的工具，但其在高北极极端条件下的表现仍然鲜有记录。在此，我们报告了在斯瓦尔巴群岛 Hornsund 的苔原和冰川环境中使用 9 公里的光缆进行的多季节 DAS 实验。该研究将对部署策略、仪器和操作限制的描述与对记录数据的探索性分析相结合，以评估 DAS 可以捕获的冰冻圈过程类型。我们记录后勤、环境和技术挑战，并为未来的实验提供指导，包括与耦合、噪声源、电缆完整性和季节性可达性相关的问题。此外，我们还演示了如何使用该数据集使用噪声干涉测量法来检测永久冻土冻结、定位冰震和崩解事件以及监测河流引起的地震噪声产生的径流。该实验为未来北极环境中 DAS 研究的设计和解释提供了基于现场的参考，并强调了与长期低温地震监测相关的考虑因素。",
+      "source": "arXiv",
+      "published": "2026-04-14"
+    },
     {
       "id": "10.1016/j.epsl.2026.120110",
       "title": "Constraining the strength of the brewer-dobson circulation during the last Glacial maximum using water 17O-excess records from Antarctic ice cores",
@@ -11,6 +33,17 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120038",
+      "title": "Baroclinic Submesoscale Eddies in the Ross Ice Shelf Cavity Alter Heat Pathways to the Ice Base",
+      "url": "https://doi.org/10.1029/2025gl120038",
+      "first_author": "Yingpu Xiahou",
+      "corr_author": "Christina Hulbe",
+      "affiliation": "Department of Physics University of Auckland  Auckland New Zealand",
+      "abs_zh": "斜压亚中尺度涡旋对罗斯冰架下基底融化的影响仍然知之甚少。我们分析了中央空腔 4.5 年的系泊记录，并从密度、速度和温盐结构的变化中识别出 7 个类涡流事件，其水平尺度（~11 km）亚中尺度运动特征能够增强垂直热传输。然而，大多数事件对基底融化影响不大：冷水入侵的中深度层（“交错”）充当了温盐屏障，捕获了接近 600 分巴的温暖、咸味异常，并阻止它们转移到冰基。因此熔化率保持在接近于零的水平。相比之下，一个特殊的涡流保持了连贯的垂直结构，克服了交错，允许温暖的咸水到达冰基，并与接近观察到的最大值的融化速率相一致。这些结果揭示了一种依赖于状态的涡旋交错机制，对气候变化下罗斯冰架的稳定性具有影响。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -31,7 +64,7 @@
       "first_author": "M. E. Inall",
       "corr_author": "M. P. Meredith",
       "affiliation": "SAMS‐UHI  Oban UK",
-      "abs_zh": "小而频繁的崩解事件主导了大多数北极海洋终止冰川的行为，但其对海洋学的影响在很大程度上仍未量化。我们首次对斯瓦尔巴群岛克罗讷布林适度的冰崩崩解产生的内波进行了直接观察。高分辨率电流计和微观结构测量表明，每个事件都会激发弱非线性多模态内波包，垂直位移约为 4 m，模式 1 传播速度为 0.35–0.42 ms\n                    −1\n                    。这些波增强了上部 15 m 的剪切力和湍流，并改变了局部分层。理想的数值模拟再现了观察到的波浪特征，并确认了它们对峡湾分层的敏感性。鉴于北极冰川上小规模崩解事件的频繁发生，崩解产生的内波可能代表了一种未被充分认识的导致海底融化和峡湾规模混合的机制。",
+      "abs_zh": "小而频繁的崩解事件主导了大多数北极海洋终止冰川的行为，但其对海洋学的影响在很大程度上仍未量化。我们首次对斯瓦尔巴群岛克罗讷布林适度的冰崩崩解产生的内波进行了直接观察。高分辨率电流计和微观结构测量表明，每个事件都会激发弱非线性多模态内波包，垂直位移约为 4 m，模式 1 传播速度为 0.35–0.42 ms\n                    −1\n                    。这些波增强了上部 15 m 的剪切力和湍流，并改变了局部分层。理想的数值模拟再现了观察到的波浪特征，并确认了它们对峡湾分层的敏感性。鉴于北极冰川中小型崩解事件的频繁发生，崩解产生的内波可能代表了一种尚未被充分认识的导致海底融化和峡湾规模混合的机制。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -86,7 +119,7 @@
       "first_author": "Shuangxiao Luo",
       "corr_author": "Li Peng",
       "affiliation": "College of Geography and Resources Sichuan Normal University  Chengdu China",
-      "abs_zh": "地表水和海洋地形（SWOT）任务承诺对冰川湖进行准全球监测，但其Ka波段雷达穿透湖泊雪/冰覆盖所产生的高程差仍然无法量化。这对评估其水平变化提出了挑战。我们通过比较 260 个冰川湖（>1 公里）的 SWOT 和 ICESat-2 表面高程，首次量化了这种差异\n                    2\n                    ）全球范围内。鉴于ICESat-2的激光测量雪/冰表面，我们利用近同步观测将高程差视为SWOT雪/冰穿透效应的经验测量。我们发现一年内全球一致的负差异（SWOT 减去 ICESat‐2）为 -0.25 m。这种差异取决于季节，从 -0.15 m（暖）到 -0.34 m（冷）放大一倍多，每月差异峰值接近 -1 m。这项研究提供了一个协调 SWOT 和 ICESat-2 观测的框架，从而能够对冰川湖变化进行长期、高分辨率的记录。",
+      "abs_zh": "地表水和海洋地形（SWOT）任务承诺对冰川湖进行准全球监测，但其Ka波段雷达穿透湖泊雪/冰覆盖所产生的高程差仍然无法量化。这对评估其水平变化提出了挑战。我们通过比较 260 个冰川湖（>1 公里）的 SWOT 和 ICESat-2 表面高程，首次量化了这种差异\n                    2\n                    ）全球。鉴于ICESat-2的激光测量雪/冰表面，我们利用近同步观测将高程差视为SWOT雪/冰穿透效应的经验测量。我们发现一年内全球一致的负差异（SWOT 减去 ICESat‐2）为 -0.25 m。这种差异取决于季节，从 -0.15 m（暖）到 -0.34 m（冷）放大一倍多，每月差异峰值接近 -1 m。这项研究提供了一个协调 SWOT 和 ICESat-2 观测的框架，从而能够对冰川湖变化进行长期、高分辨率的记录。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -102,15 +135,37 @@
       "published": "2026"
     },
     {
-      "id": "10.5194/tc-20-2589-2026",
-      "title": "The Eurasian and North American ice sheets at the Last and Penultimate glacial maxima: coupled atmosphere–ice sheet model sensitivity and calibration",
-      "url": "https://doi.org/10.5194/tc-20-2589-2026",
-      "first_author": "Violet L. Patterson",
-      "corr_author": "Robin S. Smith",
-      "affiliation": "未知机构",
-      "abs_zh": "。末次盛冰期和倒数第二次盛冰期（LGM；PGM）期间北半球冰盖的构造影响了千年尺度的气候变化，以及随后冰消期期间发生的固体地球和海平面变化，因为它们对大气、海洋环流和固体地球产生了影响。因此，对这些冰盖的真实模拟对于冰消实验的初始化至关重要，这有助于提高我们对气候、冰盖和海平面之间相互作用的理解。在这里，我们对 PGM 和 LGM 进行了第一个大型复杂大气-冰盖耦合模型 (FAMOUS-BISICLES) 模拟，改变了控制冰盖反照率、冰动力学和气候的 12 个不确定参数。我们使用高斯过程模拟器量化输入参数的敏感性，以执行 Sobol 敏感性分析。反照率参数对冰盖和时间段的冰体积影响最大。由于地理和气候环境的差异，控制降水和滑动的参数对欧亚冰盖尺寸的影响比北美冰盖尺寸更大。在 120 个参数组合中，我们发现 4 个参数组合产生的 LGM 和 PGM 冰体积和范围与古证据相符。由此产生的冰盖配置提供了 PGM 北半球冰盖的新的和改进的重建，可用作气候、冰盖和海平面模型的输入。",
-      "source": "The Cryosphere",
-      "published": "2026"
+      "id": "2503.12481v1",
+      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
+      "url": "http://arxiv.org/abs/2503.12481v1",
+      "first_author": "T. Clayton",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "冰川末端的冰山崩解会导致冰盖的质量损失，但使用简单的（基于经验或基本力学的）失效标准通常很难表示相关的断裂力学。在这里，我们提出了一种先进的莫尔-库仑失效准则，该准则基于冰中的粘弹性应力状态来驱动裂纹。该准则在相场断裂框架中实施，并进行有限元模拟以确定可以触发冰崖崩塌的临界条件。结果表明，底部摩擦力可忽略不计的快速移动冰川很容易发生拉伸破坏，导致裂缝传播到远离冰锋的地方；而具有显着底部摩擦力的缓慢移动的冰川可能会在冰锋附近表现出剪切破坏。结果还表明，海水压力在调节悬崖破裂方面发挥着重要作用。对于陆地终止冰川，如果冰川超过临界高度，就会观察到全厚度悬崖破坏，该高度取决于内聚强度 $τ_\\mathrm{c}$（$H \\approx 120\\;\\text{m}$ for $τ_\\mathrm{c}=0.5\\;\\text{MPa}$）。对于海洋终止冰川，如果超过临界冰川干舷（$H-h_\\mathrm{w}$），就会发生冰崖破坏，并且仅在海水高度上方观察到冰塌落；对于 $τ_\\mathrm{c} = 0.5\\;\\text{MPa}$，模型预测的临界干舷为 $H-h_\\mathrm{w} \\approx 215\\;\\text{m}$，这与现场观测结果非常吻合。虽然临界干舷高度比之前一些模型预测的要大，但我们不能得出海洋冰崖不稳定的可能性较小的结论，因为我们不包括其他破坏过程，例如基底裂缝的水力断裂和塑性颈缩。",
+      "source": "arXiv",
+      "published": "2025-03-16"
+    },
+    {
+      "id": "2306.08405v1",
+      "title": "A viscoelastic phase-field model for iceberg calving",
+      "url": "http://arxiv.org/abs/2306.08405v1",
+      "first_author": "Jakub Stocek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "冰山崩解约占南极洲每年损失的冰量的一半，但大规模冰盖模型中断裂和崩解的真实表现仍然是冰川学中尚未解决的主要问题。我们提出了一种新的断裂相场粘弹性模型，可以模拟冰的缓慢变形以及裂纹的分布和演化。裂纹随着不断变化的应力场而成核和扩展，并受到海平面以下水压的影响。该模型结合了非线性粘性流变学、线弹性流变学和相场变分公式，可以模拟复杂的断裂现象。我们证明这种方法能够模拟产犊的物理过程。由简化模型支持的数值实验表明，对于跨流没有变化的浮冰前沿，崩解率将与冰厚度的四次方成比例。这些方程没有对产犊方式做出任何假设，因此它们还将模拟南极洲的许多更真实的环境，其中材料参数和三维效应预计会影响产犊率。",
+      "source": "arXiv",
+      "published": "2023-06-14"
+    },
+    {
+      "id": "2304.08120v2",
+      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
+      "url": "http://arxiv.org/abs/2304.08120v2",
+      "first_author": "Sacha Lapins",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "本文提出了一种弱监督机器学习方法，我们称之为 DAS-N2N，用于抑制分布式声学传感 (DAS) 记录中的强随机噪声。 DAS-N2N 不需要手动生成标签（即干净事件信号或噪声部分的预定示例）进行训练，旨在将随机噪声过程映射到选定的汇总统计量，例如分布平均值、中值或模式，同时保留真实的基础信号。这是通过将一根光缆内的两根光纤拼接（连接在一起）来实现的，记录同一底层信号的两个噪声副本，这些副本被随机观测噪声的不同独立实现所破坏。然后，可以仅使用这两个噪声数据副本来训练深度学习模型，以生成近乎完全去噪的副本。模型训练完成后，只需要来自单根光纤的噪声数据。使用部署在南极洲拉特福德冰流表面的 DAS 阵列的数据集，我们证明 DAS-N2N 可以极大地抑制不相干噪声并提高自然微震冰震事件的信噪比 (SNR)。我们进一步表明，这种方法本质上比标准阻带/通带和白噪声（例如维纳）滤波例程以及基于屏蔽各个 DAS 通道的类似自监督学习方法更加高效和有效。我们针对此任务的首选模型是轻量级的，可在 1 秒内处理 985 个通道（约 1 公里光纤）上以 1000 Hz 采样频率记录的 30 秒数据。由于 DAS 记录中的噪声水平很高，有效的数据驱动降噪方法（例如 DAS-N2N）对于时间关键的 DAS 地震检测至关重要，特别是在微震监测的情况下。",
+      "source": "arXiv",
+      "published": "2023-04-17"
     }
   ]
 }

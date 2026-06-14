@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-05-31 至 2026-06-07 04:04",
+  "last_update": "2026-06-07 至 2026-06-14 04:13",
   "topic_name": "人工智能",
   "papers": [
+    {
+      "id": "2603.03079v1",
+      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
+      "url": "http://arxiv.org/abs/2603.03079v1",
+      "first_author": "Jonas Köhler",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以考虑平衡数据集上的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时仍与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
+      "source": "arXiv",
+      "published": "2026-03-03"
+    },
+    {
+      "id": "2602.09792v1",
+      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
+      "url": "http://arxiv.org/abs/2602.09792v1",
+      "first_author": "Jaehong Chung",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
+      "source": "arXiv",
+      "published": "2026-02-10"
+    },
     {
       "id": "10.1016/j.epsl.2026.120091",
       "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
@@ -11,6 +33,61 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec9518",
+      "title": "Deep learning reveals enhanced ENSO predictability under historical anthropogenic forcing",
+      "url": "https://doi.org/10.1126/sciadv.aec9518",
+      "first_author": "Zikuan Lin",
+      "corr_author": "Xiaopei Lin",
+      "affiliation": "State Key Laboratory of Physical Oceanography/Physical Oceanography Laboratory, Ocean University of China, Qingdao, China.",
+      "abs_zh": "了解 ENSO 的可预测性如何应对气候变化对于改善未来气候预测至关重要。在本研究中，我们将深度学习模型——具有留一模型策略的卷积神经网络应用于耦合模型比对项目第 6 阶段 (CMIP6) 历史和前工业控制模拟。我们发现，在历史人为强迫作用下，厄尔尼诺-南方涛动 (ENSO) 可预测性在统计上增强了 14.0 ± 1.8%。这种改进与关键海洋大气反馈的变化有关。在历史强迫作用下，赤道太平洋出现温跃层浅滩。结果，海洋表层对风力变得更加敏感，地下温度对温跃层变化变得更加敏感。这些过程增强了三维平流和温跃层反馈，共同增强了 ENSO 的可预测性。这些发现凸显了人为强迫在气候变暖中塑造 ENSO 可预测性方面的重要性。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef6263",
+      "title": "Deep learning–enabled versatile shape perception for soft robots via single-ended multimode fiber",
+      "url": "https://doi.org/10.1126/sciadv.aef6263",
+      "first_author": "Zhaofan He",
+      "corr_author": "Qirong Xiao",
+      "affiliation": "Department of Precision Instrument, Tsinghua University, Beijing 100084, China.",
+      "abs_zh": "软机器人向实体智能系统的演变从根本上依赖于精确的本体感觉。然而，仍然缺乏在不同相互作用期间捕获连续变形的通用解决方案，特别是在空间受限的介入场景中。在这里，我们介绍一种基于单端多模光纤（MMF）的深度学习多功能形状感知方法。通过利用光学器件固有的集成优势，我们的极简反射架构在物理上消除了对复杂解调单元和远端设备的依赖。此外，将混沌光学散斑场视为编码高维形状信息的数据流，可重构神经解码器将单个物理通道解析为适合异构任务的通用感知模式：软抓手的离散状态确认（> 99％的准确度），仿生灵巧手的连续形状跟踪（〜5倍空间分辨率增强），以及软手术机器人的直观3D形态重建（IoU> 0.93）。总的来说，我们的工作建立了一个通过计算打破硬件适应性限制的通用框架，为软机器人数字孪生的闭环控制奠定了坚实的基础。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122825",
+      "title": "Retrieving Hourly Aerosol Absorption From Space Using Physical Informed Deep Learning",
+      "url": "https://doi.org/10.1029/2026gl122825",
+      "first_author": "Tao Xia",
+      "corr_author": "Xiaochuan Zhang",
+      "affiliation": "Center for Oceanic and Atmospheric Science at SUSTech (COAST) Department of Ocean Sciences and Engineering Southern University of Science and Technology  Shenzhen China",
+      "abs_zh": "从单视卫星观测中检索气溶胶吸收特性，例如单散射反照率（SSA）和吸收气溶胶光学深度（AAOD）仍然是一个重大挑战。本研究引入了物理信息气溶胶神经网络 (PINA) 框架，用于从 Himawari-8/9 数据中检索每小时的气溶胶吸收特性。 PINA 将反演网络与高效替代辐射传输模型集成在一起，为物理一致性提供了可微分的路径。通过采用自适应加权策略，从清洁条件下的数据驱动学习过渡到污染条件下的物理主导学习，PINA 实现了气溶胶光学深度 (AOD) 的高精度（\n                    右\n                     = 0.96，均方根误差 [RMSE] = 0.10), AAOD (\n                    右\n                     = 0.86，RMSE = 0.02)，和 SSA (\n                    右\n                     = 0.63，RMSE = 0.04），优于传统运营卫星产品。 PINA 还展示了强大的时空泛化能力，成功捕获了极端野火烟雾、灰尘和复杂的城市雾霾事件期间吸收特征的每小时动态演变。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef8400",
+      "title": "Oxytocin attenuates fear learning via enhancing somatostatin interneuron–mediated local GABAergic inhibition in the prelimbic cortex",
+      "url": "https://doi.org/10.1126/sciadv.aef8400",
+      "first_author": "Hao Xu",
+      "corr_author": "Lei Xiao",
+      "affiliation": "Shanghai Pudong Hospital, Fudan University Pudong Medical Center, State Key Laboratory of Brain Function and Disorders, MOE Frontiers Center for Brain Science, and the Institutes of Brain Science, Fudan University, Shanghai 200032, China.",
+      "abs_zh": "急性压力暴露会引发创伤后应激障碍（PTSD）。预防性干预措施可以增强高风险职业中针对 PTSD 的心理恢复能力。在这里，我们证明鼻内催产素预处理可以通过前边缘皮层（PL）表达的催产素受体（OxtR）对恐惧学习产生长期但可逆的减弱。至关重要的是，局部 PL 催产素输注和选择性激活 PL OxtR+ 神经元都重现了这种恐惧减少。尽管 OxtR 在锥体神经元和生长抑素 (SST) 神经元上表达，但 SST 中间神经元表现出更高的\n                    奥克斯特尔\n                    表达。恐惧调节和催产素应用都会优先激发 PL OxtR+ SST 中间神经元。因此，预激活 OxtR+ SST 神经元，而不是 OxtR+ 锥体神经元，会引起恐惧学习的减少效果。烧蚀\n                    奥克斯特尔\n                    γ-氨基丁酸（GABA）神经元或沉默 SST 中间神经元可以消除催产素的恐惧减弱作用。从机制上讲，OxtR+ SST 中间神经元激活或催产素应用可增强 GABA 能突触传递至 PL 锥体神经元。总的来说，这些发现证实催产素通过增强 PL 的局部抑制回路来减弱恐惧学习，揭示了降低 PTSD 风险的潜在治疗方法。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10611-7",
+      "title": "Deep learning four decades of human migration",
+      "url": "https://doi.org/10.1038/s41586-026-10611-7",
+      "first_author": "Thomas Gaskin",
+      "corr_author": "Guy J. Abel",
+      "affiliation": "未知机构",
+      "abs_zh": "人口迁移是全球人口变化的根本驱动力，影响着各国的人口结构、劳动力市场和社会政策\n                    1–3\n                    。尽管长期移民模式往往与经济发展相关\n                    4\n                    ，它们可以迅速转变以应对冲突、环境危机和政治变革等冲击\n                    5\n                    。尽管迁移很重要，但它仍然难以一致地衡量：现有数据稀疏，集中在高收入环境中，并且在不兼容的定义、时间分辨率和数据类型上分散\n                    6-8\n                    。过去的努力依赖于部分数据集，包括流量记录、种群估计和覆盖范围有限的基于模型的重建\n                    9-14\n                    。因此，一个核心挑战是建立一个全球一致的、高分辨率的长期移民流动账户。在这里，我们提出了 1990 年至今 230 个国家和地区每年始发地-目的地迁移的新数据集，将不同的数据源整合到统一的建模框架中。通过结合官方统计数据、基于人口普查的种群、净移民估计和过去的流量重建，我们的方法产生了时间上详细和空间上全面的估计，从而大大扩展了现有资源。使用由地理、经济、文化和政治协变量提供信息的深层循环神经网络集合，我们可以捕获持续趋势和对不断变化的条件的短期响应，同时传播不确定性以产生置信区间。我们的结果优于现有数据的五年流量估计，并提供了更精细的时间分辨率，揭示了以前模糊的全球移民模式动态。该框架强调了不确定性仍然很高的地区",
+      "source": "Nature",
       "published": "2026"
     },
     {
@@ -31,7 +108,7 @@
       "first_author": "Zhuo Xiao",
       "corr_author": "Min Xu",
       "affiliation": "College of Artificial Intelligence Guangxi Minzu University  Nanning China",
-      "abs_zh": "布氏鲸在中国北部湾形成了一个主要的沿海聚集区。利用斜阳岛一年的连续岛内地震记录，我们建立了一个包含超过 170 万个样本的沿海布氏鲸叫声的大型标记数据集。在这些数据上训练的卷积神经网络在地震谱图的鲸鱼叫声或非叫声二元分类中达到了 99.7% 的准确率。对检测到的呼叫进行分析后发现，频率低至 5 Hz，并且具有可变脉冲间隔的有节奏的重复。从一月到七月，声音活动持续存在，初步建议在下午早些时候减少叫声。这些结果证明了陆上地震仪和深度学习对沿海须鲸进行持续、低成本监测的有效性。",
+      "abs_zh": "布氏鲸在中国北部湾形成了一个主要的沿海聚集区。利用斜阳岛一年的连续岛内地震记录，我们建立了一个包含超过 170 万个样本的沿海布氏鲸叫声的大型标记数据集。在这些数据上训练的卷积神经网络在地震谱图的鲸鱼叫声或非叫声二元分类中达到了 99.7% 的准确率。对检测到的呼叫进行分析后发现，频率低至 5 Hz，并且有节奏的重复，脉冲间隔可变。从一月到七月，声音活动持续存在，初步建议在下午早些时候减少叫声。这些结果证明了陆上地震仪和深度学习对沿海须鲸进行持续、低成本监测的有效性。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -58,59 +135,37 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.119983",
-      "title": "Quality/quantity quandary: machine learning framework for assessing tradeoffs in zircon geochemistry",
-      "url": "https://doi.org/10.1016/j.epsl.2026.119983",
-      "first_author": "Pengfei Lv",
-      "corr_author": "Wei Yang",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
+      "id": "2509.00791v1",
+      "title": "A computer vision-based approach to enhance seismic catalogues",
+      "url": "http://arxiv.org/abs/2509.00791v1",
+      "first_author": "Michele De Solda",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "近年来，人工智能和深度学习地震探测器，加上全球部署的越来越多的密集地震网络，进一步促进了大规模地震目录的创建，大大降低了其完整性。然而，这些自动化目录通常是在没有系统质量控制的情况下发布的，并且可能包含虚假检测、错误定位或不一致的幅度。在具有挑战性的场景中，例如微震监测应用，弱且间隔紧密的事件经常在时间上重叠，基于拾取的检测和定位方法通常无法可靠地关联相位。这会导致漏检或定位精度下降，从而产生被错误或错位事件污染的地震目录。为了解决这一限制，我们提出了一种基于计算机视觉的工作流程，它将基于波形的地震定位方法与深度学习图像分类相结合，以直接从相干矩阵中区分真实的地震事件和噪声。这些通过波形叠加计算的矩阵表现出真实事件（单个、聚焦的最大值）与噪声（模糊、不相干的模式）的不同模式，因此清理地震目录的问题可以作为二值图像分类问题来解决。此外，基于波形的定位方法的鲁棒性允许在地震事件的定位中获得更高的分辨率。这种方法的另一个优点是神经网络的训练可以完全基于合成数据。这种基于合成的训练消除了对大型标记数据集的需求，从而能够在新仪器领域快速部署。我们使用冰岛亨吉尔地热区公开的 COSEISMIQ 数据集来验证我们的工作流程。",
+      "source": "arXiv",
+      "published": "2025-08-31"
     },
     {
-      "id": "10.1029/2026gl122115",
-      "title": "Reconstructing Marine Boundary Layer Jets Over the South China Sea Using Machine Learning",
-      "url": "https://doi.org/10.1029/2026gl122115",
-      "first_author": "Yican Lin",
-      "corr_author": "Jiuke Wang",
-      "affiliation": "School of Atmospheric Sciences Sun Yat‐sen University, and Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai)  Zhuhai China",
-      "abs_zh": "南海（SCS）上空的海洋边界层急流（MBLJ）在沿海强降雨中发挥着关键作用，但由于海洋上空的风观测有限，其结构仍然不确定。在这里，我们开发了一个基于 U-Net 的重建框架，用于根据卫星衍生的海面风估计 950 hPa 风，提供卫星驱动的 MBLJ 描述。该模型使用四十年的 ERA5 数据进行训练，并根据独立的船载多普勒风激光雷达观测进行评估。相对于 ERA5，重建的风将 RMSE 从 3.34 降低到 2.69 m s\n                    −1\n                    风速为 2.87 至 2.45 米·秒\n                    −1\n                    对于经向风。在已识别的 MBLJ 事件期间，重建产生比 ERA5 更强、空间更广泛的喷流。这些结果表明，卫星信息机器学习可以有效地减轻再分析产品中 MBLJ 的系统性低估，并改善数据稀疏海洋区域边界层风的表示。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
+      "id": "2508.04925v2",
+      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
+      "url": "http://arxiv.org/abs/2508.04925v2",
+      "first_author": "Sigma Jahan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根本原因和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
+      "source": "arXiv",
+      "published": "2025-08-06"
     },
     {
-      "id": "10.5194/tc-20-3187-2026",
-      "title": "Machine learning for snow depth estimation over the European Alps, using Sentinel-1 observations, meteorological  forcing data and process-based model simulations",
-      "url": "https://doi.org/10.5194/tc-20-3187-2026",
-      "first_author": "Lucas Boeykens",
-      "corr_author": "Hans Lievens",
-      "affiliation": "未知机构",
-      "abs_zh": "。季节性山雪是一种不可或缺的资源，但即使在拥有密集的现场监测站网络的欧洲阿尔卑斯山，对这种水储存量的准确估计仍然有限。在这项研究中，我们使用极端梯度增强 (XGBoost) 机器学习 (ML) 模型中的多个输入配置，以 100 米的空间分辨率和次周时间分辨率来估计 2015 年至 2024 年期间的高山积雪深度。我们探索了 Sentinel-1 C 波段双偏振合成孔径雷达偏振测量 (PolSAR) 观测的潜力，并包括区域缩小尺度的气象强迫数据或建模的雪深作为额外输入，以进一步解释年际和空间变化。使用三重嵌套交叉验证方案来解释雪深数据中存在的时空依赖性。 XGBoost 的内部助推器和 Shapley 附加解释 (SHAP) 值用于将输入特征与干雪和湿雪条件的预测联系起来。我们的结果表明，包含 PolSAR 观测结果对基于反向散射强度的配置带来了适度的改进，而基于 SHAP 的特征归因揭示了 XGBoost 对偏振散射角和共偏振 (VV) 反向散射强度的高度依赖。接下来，结合气象强迫数据或建模雪深可以大大提高预测性能，特别是当包括空间分布的训练数据时，事实证明，这对于捕获雪深变化的地形控制至关重要。当补充空间训练数据和气象强迫数据或建模雪深估计时，XGBoost 与迪施马山谷（瑞士）进行的九次降雪调查表现出良好的一致性，相关系数 (R) 分别为 0.76 和 0.78，平均偏差为 0.07 和 0.17 m。当应用于整个看不见的位置时",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-3131-2026",
-      "title": "PIXAL: a physics-inspired explainable machine learning architecture for Greenland ice albedo modeling",
-      "url": "https://doi.org/10.5194/tc-20-3131-2026",
-      "first_author": "Raf Antwerpen",
-      "corr_author": "Xavier Fettweis",
-      "affiliation": "未知机构",
-      "abs_zh": "。格陵兰冰盖（GrIS）是全球海平面上升的主要原因。 GrIS 的贡献很大一部分可归因于冰表面融化的增加，这受到冰反照率的强烈控制，冰反照率是调节导致表面融化的吸收太阳辐射量的特性。然而，我们对冰反照率与其环境之间复杂且非线性的关系缺乏全面的了解，因此在气候模型中经常被简化或粗略地参数化。然而，准确表示未来冰反照率演变对于减少海平面上升预测的不确定性至关重要。这项研究提出了 PIXAL，这是一种受物理学启发的可解释机器学习架构，在模拟 GrIS 西南部的冰反照率方面，其性能显着优于最先进的区域气候模型 Modèle Atmosphérique Régional (MAR)。 PIXAL 基于极端梯度增强 (XGBoost) 模型，并接受来自 MAR 的一套建模地形、大气、辐射和冰川变量的训练，以捕获与中分辨率成像光谱辐射计 (MODIS) 获得的冰反照率观测的复杂非线性关系。性能指标显示，PIXAL 的 R2 为 0.563，结构相似性指数测量 (SSIM) 为 0.620，均方误差 (MSE) 为 0.005，平均绝对百分比误差 (MAPE) 为 14.699 %，而 MAR 的 R2 为 0.062，SSIM 为 0.112，MSE 为 0.032，MAPE 为46.202%。可解释的人工智能分析表明，地形特征，特别是冰盖表面高度和坡度，是冰反照率变化的重要驱动因素，因为它们与冰暴露时间以及平坦冰表面积聚融水和光吸收成分（LAC）的有效性有关。近地表气温和径流通过影响冰变质状态进一步显着影响冰反照率变化",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123935",
-      "title": "Mapping the Interannual Variability of Irrigated Area Using Categorical Sampling and Machine Learning",
-      "url": "https://doi.org/10.1029/2026gl123935",
-      "first_author": "Xin Tian",
-      "corr_author": "Lingna Wei",
-      "affiliation": "School of Earth System Science Institute of Surface‐Earth System Science, Tianjin University  Tianjin China",
-      "abs_zh": "准确的灌溉面积 (IA) 绘图对于水文和气候建模至关重要。然而，现有的 IA 绘图方法通常依赖于持续灌溉或非灌溉样本，这降低了对年度 IA 变异性的敏感性。在这里，我们开发了一个基于分类三重搭配（CTC）的采样框架，该框架可以识别连续和间歇灌溉像素，从而改善训练样本中 IA 时间动态的表示。与机器学习相结合，该框架可生成 2000 年至 2022 年中国每年 5 亿米的 IA 地图。与传统的采样策略相比，所提出的方法大大降低了 IA 映射误差，RMSE 从 16.6% 降低到 8.3%。它还捕捉了由大规模农业政策转变驱动的年度间IA变化，这是传统方法无法解决的。这些结果证明了基于 CTC 的 IA 绘图采样框架的稳健性，该框架可以直接支持集约化管理的农业地区的水管理和地球系统建模。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
+      "id": "2412.16336v1",
+      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
+      "url": "http://arxiv.org/abs/2412.16336v1",
+      "first_author": "Gunel Jahangirova",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
+      "source": "arXiv",
+      "published": "2024-12-20"
     }
   ]
 }

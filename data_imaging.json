@@ -1,7 +1,73 @@
 {
-  "last_update": "2026-05-31 至 2026-06-07 04:04",
+  "last_update": "2026-06-07 至 2026-06-14 04:13",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2606.01110v1",
+      "title": "Accelerating physics-informed neural networks for full waveform inversion using a hybrid quantum-classical finite-basis architecture",
+      "url": "http://arxiv.org/abs/2606.01110v1",
+      "first_author": "Hoang Anh Nguyen",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "全波形反演（FWI）根据接收器数据重建异质材料属性，但计算量仍然很大。物理信息神经网络 (PINN) 及其域分解变体 (FBPINN) 提供了无网格替代方案，但在表示复杂速度场时面临收敛挑战。我们提出了一种用于声学 FWI 的混合量子经典 FBPINN，将量子计算和经典机器学习结合在一起，其中分解波场网络和全局速度网络被实现为终止于参数化量子电路（PQC）的经典到量子管道。 PQC 被实现为可微分的 JAX 状态向量模拟器，通过经典 PINN、量子电路和物理信息损失实现端到端自动微分。在地球物理异常基准上，尽管使用的可训练参数减少了大约 33%，但量子混合体在大约 8 倍的训练迭代次数内达到了比主要经典 FBPINN 基线更低的 L1 速度误差，并且它的性能优于所有测试的 15 个经典超参数变体。第二个基准（棋盘）展示了反演管道的通用性，确认量子混合架构可以恢复超出局部异常基准的结构化空间变化。我们的框架广泛适用于地球物理学之外的基于波的反演问题，包括医学超声断层扫描和无损评估。",
+      "source": "arXiv",
+      "published": "2026-05-31"
+    },
+    {
+      "id": "2605.30541v1",
+      "title": "SubsurfaceGen: Procedural Generation of Field-Scale Earth Models and Seismic Data",
+      "url": "http://arxiv.org/abs/2605.30541v1",
+      "first_author": "Joseph Stitt",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "全波形反演 (FWI) 是地下成像的黄金标准，其应用范围从碳封存到能源和矿产勘探再到地震灾害评估。 FWI 的机器学习方法需要现场规模、地质多样性和物理真实性的训练数据，但 Marmousi、SEAM 和 OpenFWI 等现有资源在空间范围、时间范围、地质多样性和物理真实性方面存在不足。我们使用 SubsurfaceGen 解决了这些限制，这是一款用于 3D 速度模型和地震数据的 GPU 加速生成器。我们与 SubsurfaceGen 一起发布了由 4,276 个 2D 速度切片、5 s 波场和 8 s 炮集组成的配对数据集，这些数据集取自 42 个真实的现场规模 3D 速度模型，每个模型横向跨越 10 km x 10 km，深度为 6.19 km，分辨率为 10 m。该数据集涵盖六种地质环境，其中四种是使用 SubsurfaceGen 构建的，另两种是从先前来源获取的，与碳封存和碳氢化合物勘探相关。我们使用该数据集来评估波场预测的神经算子和端到端速度反演的编码器-解码器，为分布外测试提供一种地质设置。这些实验揭示了现场规模的故障模式，并演示了 SubsurfaceGen 和相关数据集如何影响基于 ML 的 FWI。",
+      "source": "arXiv",
+      "published": "2026-05-28"
+    },
+    {
+      "id": "2605.26871v1",
+      "title": "The upper mantle of Europe and Western Asia: Exposing potentials and limits of regional full-waveform inversion",
+      "url": "http://arxiv.org/abs/2605.26871v1",
+      "first_author": "C. J. Schiller",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们提出了 EUWA310，这是一种通过欧洲和西亚下方上地幔的全地震波形反演 (FWI) 模型获得的地震速度模型。通过 310 个准牛顿更新从超过 260$\\,$000 三分量地震图在 18 秒的最小周期中推断。与该地区之前的 FWI 研究相比，它使迭代次数和数据量增加了一个数量级。这些数据包括来自两个密集区域阵列的记录：伊比利亚半岛和北非的 IberArray 以及更广泛的阿尔卑斯地区的 AlpArray。通过使用动态小批量优化和采用从全球到区域尺度的波场自适应谱元网格，EUWA310 的构建在计算上变得易于处理。我们还证明，EUWA310 可用于通过减小最小周期来反转波形，直至达到 22 秒的最佳最小周期，从而减少矩张量估计的不确定性，低于该周期不会实现任何额外的改进。这一限制与 FWI 在 18 秒内终止有关，这并不是由于计算资源有限，而是由于无法解释更短周期内的数据。由于其他大陆级阵列（例如 USArray 或 ChinaArray）在密度和覆盖范围上具有可比性，因此这一观察结果表明，我们可能已经达到了数据覆盖范围而不是计算能力成为区域 FWI 的主要瓶颈的状态。",
+      "source": "arXiv",
+      "published": "2026-05-26"
+    },
+    {
+      "id": "2605.25139v1",
+      "title": "Hybrid Full Waveform Inversion Assisted by Rytov Approximation for Musculoskeletal Ultrasound Computed Tomography",
+      "url": "http://arxiv.org/abs/2605.25139v1",
+      "first_author": "Yifei Sun",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "超声计算机断层扫描正在成为一种有前途的安全且易于使用的软组织医学成像方式，全波形反演在释放其高分辨率定量重建的全部潜力方面发挥着关键作用。用于重建肌肉骨骼系统声学特性空间图的频域全波形反演（FDFWI）对低频信号的质量高度敏感，使得最终成像结果容易受到初始模型不合适和与骨骼相关的强散射等问题的影响。为了应对这些挑战，我们提出了一种混合全波形反演（HFWI）算法，该算法将基于广义 Rytov 近似的走时反演算法纳入 FDFWI 框架中。这种混合策略增强了早期反演质量，并大大降低了对初始模型的敏感性，同时保持了计算效率。重要的是，HFWI 获得的结果与使用结构良好的初始模型获得的结果相当，而不会产生额外的计算成本，从而能够在现实、带宽有限的条件下实现精确成像。此外，我们引入了一种近实时策略，可以根据前向散射相位变化更新首次到达走时，而无需额外的波场模拟。数值模拟以及\\textit{体外}和\\textit{体内}实验证实了所提出方法的稳健性和效率。 HFWI 还有望扩展到更复杂的肌肉骨骼参数重建场景。",
+      "source": "arXiv",
+      "published": "2026-05-24"
+    },
+    {
+      "id": "2605.25024v1",
+      "title": "DA-UCT: Self-Supervised Domain-Adaptive Ultrasound Computed Tomography for Rapid Musculoskeletal Sound Speed Reconstruction",
+      "url": "http://arxiv.org/abs/2605.25024v1",
+      "first_author": "Tianyu Liu",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "通过全波形反演 (FWI) 的超声计算机断层扫描 (UCT) 可实现用于组织表征和疾病诊断的高分辨率定量成像。然而，由于高度非线性优化，UCT 面临着巨大的计算负担和严重的收敛问题。深度学习可以加速 UCT 重建，但监督训练需要大规模的标记数据集，而在体内很难获得。为了解决这些局限性，我们提出了 SDA-UCT，这是一种两阶段自监督域自适应框架，用于快速准确地对肌肉骨骼组织进行 UCT 成像。 SDA-UCT 采用在模拟数据集上预先训练的注意力增强网络 (AttUCT)，并通过物理信息自监督学习传输到体内数据，有效地弥合了模拟与真实领域的差距。集成了低秩适应 (LoRA) 机制，可实现跨不同临床场景的高效适应。结果表明，AttUCT 对模拟人体前臂实现了高质量的 SOS 重建，PSNR 为 29.23 dB，SSIM 为 0.928，优于传统 FWI 和现有深度学习方法。经过体内数据验证，SDA-UCT 成功重建了 SOS 图像，揭示了人类前臂的复杂解剖结构（皮肤、脂肪、肌肉、肌腱、骨骼和骨髓），与 MRI 参考高度一致。 LoRA机制仅调整3%的参数就实现了与完全微调相当的性能。快速重建（每帧 5 毫秒）可实现实时 3D 可视化，比传统 FWI 实现五个数量级的改进。这项工作代表了第一个用于快速、高分辨率体内 UCT 成像的自监督领域自适应深度学习，显示出肌肉骨骼疾病诊断的潜力。",
+      "source": "arXiv",
+      "published": "2026-05-24"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120171",
+      "title": "Gravity and seismic constraints on plate flexure and mantle rheology along the whole Louisville Ridge",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120171",
+      "first_author": "Chong Xu",
+      "corr_author": "Anthony Brian Watts",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120113",
       "title": "Swarm cessation and aftershock drivers following the pressure release of a four-year-long seismic sequence at the Noto Peninsula",
@@ -36,6 +102,61 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag227",
+      "title": "Constraining mantle viscosity using dynamic topography, the geoid, and seismic heterogeneity from high-resolution mantle circulation models",
+      "url": "https://doi.org/10.1093/gji/ggag227",
+      "first_author": "Hamish Brown",
+      "corr_author": "Jens Oeser",
+      "affiliation": "Ludwig-Maximilians-Universität München, Dept. of Earth and Environmental Sciences , Theresienstr. 41, 80333 Munich ,",
+      "abs_zh": "地幔粘度仍然是全球地球动力学中最大的突出不确定性之一。同化构造历史 (MCM) 的随时间变化的地幔循环模型提供了一种通过根据观测结果评估当前预测来测试粘度的方法。这种方法可以考虑粘度对地幔密度结构的影响，这是使用瞬时建模方法不可能实现的。在这里，我们首次使用高分辨率 MCM 系统测试了下地幔粘度与动态地形、大地水准面和地震不均匀性的关系。模型密度结构很大程度上取决于假设的粘度剖面，这反过来又控制着地震非均质性的拟合。动态地形和大地水准面的拟合进一步受到应力到表面的瞬时传递的影响。这两种效应可以在不同深度相互增强或抵消，在尝试匹配动态地形和大地水准面振幅时必须考虑这一点。 MCM 通常会高估动态地形振幅。我们发现，可以通过降低上下地幔（约 660-2000 km）的粘度来降低这些振幅，尽管这是以降低对大地水准面和/或地震不均匀性的拟合为代价的。我们首选的粘度曲线非常适合观测到的大地水准面振幅和 S40RTS 的地震不均匀性。我们还在太平洋周围测试了基于断层扫描的改进的替代构造重建，这将与观测到的大地水准面的相关性提高了约 20%。我们的结果表明，MCM 现在可以达到足以与多个独立数据集进行比较的分辨率和真实性水平，为系统评估控制地幔对流的不确定参数打开了大门。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag225",
+      "title": "Self-Supervised Cascade Network for Denoising of Distributed Acoustic Sensing Vertical Seismic Profile Data",
+      "url": "https://doi.org/10.1093/gji/ggag225",
+      "first_author": "Hyunggu Jun",
+      "corr_author": "Byoungjoon Yoon",
+      "affiliation": "Kyungpook National University Department of Geology, , Daegu 41566 ,",
+      "abs_zh": "总结\n                  分布式声学传感（DAS）数据通常包含各种类型的噪声，包括随机噪声、相干噪声（例如耦合或线性噪声）和共模噪声，这些噪声会显着降低地震信号质量。传统的去噪方法难以有效抑制不同的噪声分量，同时保留重要的地震信号。为了解决这个问题，我们提出了一种去噪自监督级联网络（DAS-DSCnet），这是一种多级神经网络，旨在逐步对 DAS 数据进行去噪，而不需要外部标签或合成训练数据生成。该网络由三个阶段组成：第 1 阶段使用基于 Noise2Noise 的方法针对随机噪声；第 2 阶段使用基于去噪卷积神经网络 (DnCNN) 的网络（通过内部提取的噪声补丁进行训练）来抑制数据集特定的相干噪声；第 3 阶段通过迹线改组和基于 Noise2Noise 的模型来预测和消除共模噪声。每个阶段的训练数据都是通过利用数据的固有特征，直接从输入 DAS 数据生成的，从而实现反映特定领域噪声特征的高效学习。使用具有不同噪声模式的两个不同的现场 DAS 数据集对该模型进行了评估。结果表明，与传统方法相比，DAS-DSCnet 实现了卓越的噪声抑制，增强了信号连续性，同时最大限度地减少了泄漏。去噪性能在不同的堆叠配置和超参数下保持稳定，证实了模型的稳健性。因此，DAS-DSCnet 提供了一个可扩展且实用的框架，用于提高 DAS 应用中的地震数据质量，展示了大规模地震监测中全自动、数据驱动的去噪的潜力。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250447",
+      "title": "Fifteen Years of Observations Suggest Structural and Ocean-Wave Control on Seismicity at the Mendocino Triple Junction",
+      "url": "https://doi.org/10.1785/0220250447",
+      "first_author": "Michal Chamarczuk",
+      "corr_author": "Christopher W. Johnson",
+      "affiliation": "1Earth and Environmental Sciences Division, Los Alamos National Laboratory, Los Alamos, New Mexico, USA",
+      "abs_zh": "门多西诺三重交界处 (MTJ) 是加利福尼亚州构造最活跃的地区之一。北太平洋风暴活动的季节性变化会在加利福尼亚海岸产生强烈的海浪强迫，引发人们对其在调节地应力和影响 MTJ 地震活动方面的作用提出疑问。为了研究季节性海洋强迫是否会调节地震活动，我们分析了 15 年的地震观测。结果表明，季节性海洋强迫调节地震活动率和地震噪声幅度。波束形成限制了海洋产生的地震能量的时间、方向和波型特征，揭示了与区域海浪气候相关的瑞利波的方位一致的季节性振荡，以及表明结构控制的更加偶发性和方位角依赖性的洛夫波行为。地震活动率滞后季节性应力峰值几个月，表明断层响应延迟。与典型的海洋载荷应力相比，仅 ± 3−4 kPa 的应力扰动将地震活动率调节了 10-40%，这表明该地区的断层受到严重应力并且对弱外强迫敏感。这些发现强调季节性海洋强迫是 MTJ 地震活动调制的重要贡献者，波束成形揭示了结构控制的次要影响，这些结构控制将海洋产生的能量耦合到边缘，并在不断变化的沿海波浪气候下具有潜在影响。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260020",
+      "title": "Seismic Signature and Numerical Modeling of the 2017 Rainfall-Induced Landslide in Villa Santa Lucía (Patagonia), Chile",
+      "url": "https://doi.org/10.1785/0220260020",
+      "first_author": "Leoncio Cabrera",
+      "corr_author": "Sergio Ruiz",
+      "affiliation": "1Departamento de Ingeniería Estructural y Geotécnica, Facultad de Ingeniería, Pontificia Universidad Católica de Chile, Santiago, Chile",
+      "abs_zh": "2017 年 12 月 16 日，一场由降雨引起的灾难性山体滑坡袭击了智利巴塔哥尼亚的圣卢西亚别墅，造成 22 人死亡并造成大面积破坏。尽管进行了广泛的事后研究，但故障发生的精确时间及其动态演变仍然缺乏约束。在这里，我们结合区域地震观测、流动数值模拟和气象数据来重建该事件的爆发、动态和触发条件。地震记录将起始时间限制在世界标准时间~12:03，并揭示了一个以 1-10 Hz 能量为主的短暂（~2 分钟）信号，与质量体的初始塌陷和快速加速相关，在此期间大部分地震能量被辐射。数值模型再现了观测到的淹没区域，并表明整个滑坡过程持续了数十分钟，反映出下游流向较慢、地震效率较低的流动。由于缺乏可探测到的地震前兆，加上事件发生前的极端降雨，表明一旦达到关键的地下条件，就会突然发生故障。地震的快速爆发和较长的传播时间之间的强烈对比凸显了地震观测用于预警的潜力，因为地震波的传播速度比滑坡本身快得多。这些结果强调了地震数据、建模和气象观测在重建滑坡动力学、将滑坡破坏与水文气象强迫联系起来以及改进山区灾害评估方面的价值和补充作用。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag224",
+      "title": "Wave patterns in a shear zone undergoing flash heating in earthquake-like discrete element models",
+      "url": "https://doi.org/10.1093/gji/ggag224",
+      "first_author": "A Taboada",
+      "corr_author": "F Massi",
+      "affiliation": "Géosciences Montpellier , Université de Montpellier, CNRS, Montpellier ,",
+      "abs_zh": "总结\n                  基于我们之前的流变分析（Taboada &amp; Renouf，2023），我们使用离散元建模研究了在亚熔化和闪热温度下粒状剪切区内动态破裂产生的波型：一个半周期数值系统，具有由预先存在的裂缝切割的粘性测微盘，并限制在波反射平行壁之间。这种配置实现了三种不同的波现象：（1）与断层边界系统的正常模式相当的断层块共振，（2）在粒状剪切带内传播引导弹性波，以及（3）断层块剪切引起的惯性振动，其周期由壁质量和系统刚度决定。我们通过对底部边界应用 1 m s−1 的地震滑移率来检查破裂成核和随后的剪切带生长。成核在粗糙区域自发启动，产生不对称的双边破裂，剪切方向具有超剪切速度，相反方向具有亚瑞利速度；重要的是，这些成核机制仍然独立于邻近的岩体。随后的剪切带生长受到顶壁质量的强烈影响，顶壁质量驱动垂直方向上的耦合简谐振动（SHM）和水平方向上剪切引起的惯性振动，表现为异相体积应变和法向应力波形，随着剪切带变厚和弹性模量降低而延长。我们对比了代表相邻岩石体积的两种模型：模拟多股断层带的低质量模型和代表孤立断层带的高质量模型。粒状剪切区的固有粗糙度激发导波进行全内反射，其自然周期比顶壁的简谐运动更短，从而触发与摩擦下降相关的振动剪切事件（VSE）。这些 VSE 显示出不同的行为，具体取决于",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1029/2026gl122361",
       "title": "The 2025 Mw 7.6 Aomori‐Oki Megathrust Sequence and a Slip‐Parallel Seismic Belt to the Trench",
       "url": "https://doi.org/10.1029/2026gl122361",
@@ -44,72 +165,6 @@
       "affiliation": "Research Center for Prediction of Earthquakes and Volcanic Eruptions Graduate School of Science Tohoku University  Sendai Japan",
       "abs_zh": "2025 年的 7.6 级青森冲地震在 1968 年的 8.3 级十胜冲破裂区附近形成核。我们的波形反演揭示了从震源向北延伸约 40 公里的大滑移（>1 m），与推断的 1968 年北部粗糙体重叠。轻微的二次滑移（0.2-0.6 m）已解决~60 km上倾，高精度重定位显示，包括Mw 6.7和6.6事件在内的主要余震集中在附近。重新定位的余震形成与板块汇聚对齐的多条条纹。终止一次这样的条纹后，Mw 6.7 序列形成了一个与当地测深高点相关的密集圆形星团。在更广泛的范围内，2025 年青森冲序列和历史\n                    中号\n                     ≥ 5 个事件描绘了一条滑移平行带，该带向沟槽延伸，穿过一个突出的震颤间隙，并与重力异常线大致重合。总之，这些观察结果表明，俯冲板块粗糙度和继承的上板块结构所造成的结构异质性调节破裂起始、破裂增长和破裂停止。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123087",
-      "title": "Evolution of NWC Transmitter Wave Power Distribution From the Topside Ionosphere Into the Inner Magnetosphere",
-      "url": "https://doi.org/10.1029/2026gl123087",
-      "first_author": "Zhiyang Xia",
-      "corr_author": "Iku Shinohara",
-      "affiliation": "Department of Physics University of Texas at Dallas  Richardson TX USA",
-      "abs_zh": "地面甚低频发射机发射的信号主要在地球-电离层波导内传播，其中一些能量可以传播到磁层中。 DEMETER 卫星的电离层观测揭示了西北角发射机在横向（经度-L 壳）平面上波功率分布的明显同心环模式。使用来自地球空间卫星中的范艾伦探测器和Arase/通电和辐射的数据，我们发现同心环图案仍然可见，但变得不太明显。当波从南电离层传播到北半球时，图案向外移动，并变得更加椭圆。为了研究这种演变的原因，我们在三种条件下进行了射线追踪模拟：管道传播、具有垂直初始波法线角的非管道传播和具有扩展初始波法线角的非管道传播。结果表明，具有扩展波法线角的非导管传播最好地解释了传播过程中观察到的波浪功率分布模式的演变。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl121858",
-      "title": "Multi‐Step Gravity Wave Propagation From a Tropospheric Vortex to the Ionosphere Near the Tibetan Plateau",
-      "url": "https://doi.org/10.1029/2026gl121858",
-      "first_author": "Wei Yao",
-      "corr_author": "Yiding Chen",
-      "affiliation": "Key Laboratory of Planetary Science and Frontier Technology Institute of Geology and Geophysics Chinese Academy of Sciences  Beijing China",
-      "abs_zh": "大气和电离层形成一个垂直耦合系统，其中低层大气的扰动可以调节电离层的变化。利用再分析数据、地面 GNSS 观测和 COSMIC-2 剖面，我们研究了 2022 年 6 月青藏高原西南涡 (SWV) 事件期间重力波 (GW) 的产生和向上耦合。结果揭示了一个多步骤过程：初级重力波在对流层顶附近被涡旋引起的动力扰动激发并向上传播。这些初级波在大约 45-50 公里处消散，沉积出可能产生次级重力波的动量和能量。次级波可能进一步向上传播并有助于产生高阶重力波，这些重力波穿透电离层并产生持续的中尺度行进电离层扰动（MSTID）。这些发现表明，电离层对对流层涡旋系统的响应不能仅仅通过直接向上传播来解释，突出了多步垂直耦合在大气-电离层中的关键作用。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag208",
-      "title": "Full Waveform Inversion Reveals Trans-Tensional-Regime at the Romanche Oceanic Transform Fault in the Equatorial Atlantic Ocean",
-      "url": "https://doi.org/10.1093/gji/ggag208",
-      "first_author": "Peng Guo",
-      "corr_author": "Satish C Singh",
-      "affiliation": "Energy Research Unit, The Commonwealth Scientific and Industrial Research Organisation , Kensington, Western Australia ,",
-      "abs_zh": "总结\n                  海洋转换断层（TF）是板块构造的基本要素，传统上被视为保守的走滑边界。海底观测和数值模拟表明存在拉伸应力，但它在深度上如何表现仍然未知。此外，缓慢滑动的TF通常与薄地壳以及海底附近可能暴露的蛇纹橄榄岩有关。在这里，我们将全波形反演 (FWI) 应用于跨 Romanche TF（地球上最大的 TF）的 12 公里偏移地震数据集。我们使用源接收器互易性和向下延拓来模拟来自单侧表面拖缆数据的分裂传播海底电缆勘测几何形状，使折射波领先于反射，同时考虑到粗糙的海底地形。然后，我们对向下连续的数据进行走时断层扫描，然后进行 FWI，以得出高分辨率的地壳模型。水平分辨率约为 0.7 公里，垂直分辨率约为 0.4 公里，深度可达海底 3.5-4 公里。我们的结果显示，上部 3 公里处纵波速度较低，暗示玄武岩起源，但没有证据表明谷底蛇纹橄榄岩具有高速度特征。此外，我们还观察到向内倾斜的正断层延伸至约 4 公里深度，形成花状结构。区域地震数据揭示了 RTI 附近沿转换断层和正断层的走滑机制，走滑震源与解释的断层一致。这些特征表明，Romanche TF 类似于中间有根深蒂固的走滑断层的转张区域，可容纳局部应变变形。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260083",
-      "title": "Winter Seismic Soundscape of the Parks Highway Corridor, Central Alaska",
-      "url": "https://doi.org/10.1785/0220260083",
-      "first_author": "Isabella Seppi",
-      "corr_author": "Evans A. Onyango",
-      "affiliation": "1Geophysical Institute, University of Alaska Fairbanks, Fairbanks, Alaska, U.S.A.",
-      "abs_zh": "2019 年 2 月，阿拉斯加帕克斯高速公路沿线（从 Nenana 到 Trapper Creek）每隔 1 公里部署了 302 个节点地震仪，为期 35 天。与此同时，95 个地震仪被部署在高速公路以外的地方，分布在德纳里断层上，排列成 1.3 公里长的阵列。帕克斯高速公路地震仪记录了各种信号，包括来自当地、区域和远震地震、采矿爆炸、直升机、飞机、火车和汽车的信号。我们的首要目标是表征该地区的地震声景，由源类型（由持续时间和频率范围定义）以及环境噪声的时间和空间变化组成。我们对该地区提出了一些新颖的观察结果，包括采矿爆炸产生的空对地耦合波、满载与空载的火车、表面结冰的河流产生的噪音，以及沉积盆地结构对环境噪音的影响。事件和噪声的记录为量化地震声景、为不同震源类型建立基于距离的检测限制以及为阿拉斯加未来的详细研究和部署提供指导迈出了一步。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260109",
-      "title": "Instrumental Evidence of the Seismic Swarm of July–September 1912 Within the City of Guadalajara, Mexico",
-      "url": "https://doi.org/10.1785/0220260109",
-      "first_author": "Gerardo Suárez",
-      "corr_author": "Miguel Ángel Jaimes",
-      "affiliation": "1Instituto de Geofísica, Universidad Nacional Autónoma de México, Mexico City, Mexico",
-      "abs_zh": "墨西哥地震局国家历史地震图档案最近恢复了 5 月 8 日至 9 月下旬发生的强烈且不寻常的地震群期间，瓜达拉哈拉市安装的地震台站的地震图。这些地震图显示了 1912 年 8 月和 9 月初由两台 Wiechert 机械仪器记录的地震，这些仪器安装的目的是观察这一不寻常的序列，并且是新兴墨西哥地震台网的永久地震台之一。这些地震图中记录的地震范围从几乎看不见的信号到据报告感觉为中度或强烈的较大震级地震。在某些情况下，可以识别 Pand S 阶段的到来。到达时间的差异表明，其中一些记录事件的震中距 Wiechert 仪器安装地点约 8-12 公里。距地震台的震中距离与群中观测到的更强烈震动的空间分布一致。地震道的形状和持续时间也证实这些事件对应于地震台附近的浅层地震。使用针对墨西哥城盆地地壳地震校准的尾波持续时间关系来估计所选事件的震级。 1912 年 8 月 31 日记录的最大事件的最大估计震级（被解释为保守的下界值）为 Mw 4.1。在仪器报告的群地震震动强度分类中，这次地震被归类为强地震。因此，那些被归类为非常强并引起更强烈震动的事件很可能具有较大的震级，与从序列中最大地震的宏观地震数据推断出的震级范围的下限兼容。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260024",
-      "title": "Including Earthquake Sequences on National Seismic Hazard Models Through ETAS-Based Synthetic Catalogs: The Case of Italy",
-      "url": "https://doi.org/10.1785/0120260024",
-      "first_author": "Annamaria Pane",
-      "corr_author": "Warner Marzocchi",
-      "affiliation": "1Modeling and Engineering Risk and Complexity, Scuola Superiore Meridionale, Naples, Italy",
-      "abs_zh": "概率地震危险分析 (PSHA) 假定主震采用时不变泊松过程，而不考虑余震。这些事件的删除是主观的，因为它取决于所选的分簇过程。此外，去聚类还可能导致对地震危险的严重低估，因为余震会极大地导致地面震动，如最近的地震序列所示。本研究调查了基于流行型余震序列 (ETAS) 合成目录、将地震序列纳入 PSHA 的方法的可靠性和技术可行性。具体来说，我们应用 SimplETAS 算法创建大量真实的合成目录，每个目录跨越 50 年。我们为合成目录中的每次地震分配了震中区域的合理孕震结构，从而无需假设泊松分布即可生成数值危险曲线。这种方法已应用于四个意大利城市：拉奎拉、雷焦卡拉布里亚、佛罗伦萨和米兰。我们将我们的灾害曲线与意大利国家地震灾害模型 (MPS19) 及其序列校正版本进行比较，后者通过泊松地震率 (MPS19_cluster) 的数值调整来解释地震序列。结果表明：（1）明确模拟地震序列大大增加了所有地点的地震危险性； (2) 基于 SimplETAS 的风险曲线和 MPS19_cluster 的风险曲线通常非常吻合，包括在短期回报期内，MPS19_cluster 中使用的数值修正在数学上可能存在问题； (3) 在地震危险性最低的米兰，两条曲线出现分歧，强调了 SimplETAS 和 MPS19 模型中震级分布的不同空间变异性的影响； (4) 值得注意的是，基于 ETAS 的方法允许灵活选择与风险分析相关的任何预测时间窗口，并自然地捕获 spa",
-      "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     }
   ]

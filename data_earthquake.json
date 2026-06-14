@@ -1,13 +1,90 @@
 {
-  "last_update": "2026-05-31 至 2026-06-07 04:04",
+  "last_update": "2026-06-07 至 2026-06-14 04:13",
   "topic_name": "地震研究",
   "papers": [
+    {
+      "id": "2604.02472v1",
+      "title": "VALOR: Value-Aware Revenue Uplift Modeling with Treatment-Gated Representation for B2B Sales",
+      "url": "http://arxiv.org/abs/2604.02472v1",
+      "first_author": "Vamshi Guduguntla",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "B2B 销售组织必须在零膨胀的收入分配中确定“可说服的”账户，以优化昂贵的人力资源分配。标准提升框架面临着高维空间中治疗信号崩溃以及回归校准和高价值“鲸鱼”排名之间不一致的问题。我们引入了 VALOR（优化（B2B）收入的价值感知学习），这是一个统一框架，具有治疗门控稀疏收入网络，使用双线性交互来防止因果信号崩溃。该框架通过新颖的成本敏感型 Focal-ZILN 目标进行了优化，该目标将分布稳健性的焦点机制与根据财务规模调整惩罚的价值加权排名损失相结合。为了提供高接触销售计划的可解释性，我们进一步推导了 Robust ZILN-GBDT，这是一种基于树的变体，利用自定义分割标准来提升异质性。广泛的评估证实了 VALOR 的主导地位，与公共基准上最先进的方法相比，其排名提高了 20%，并且在严格的 4 个月生产 A/B 测试中，每个帐户的增量收入经验证增加了 2.7 倍。",
+      "source": "arXiv",
+      "published": "2026-04-02"
+    },
+    {
+      "id": "2603.27860v1",
+      "title": "Relative Focal Mechanism Inversion Using Relative Polarities and S/P Double Ratios",
+      "url": "http://arxiv.org/abs/2603.27860v1",
+      "first_author": "Miao Zhang",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "小地震的震源机制对于表征断层和区域应力至关重要。 P 波极性和 S/P 振幅比（例如，在 HASH 中）被广泛用于确定小地震的震源机制，但对于突发事件来说，初动拾取可能很困难，而且由于不完善的速度模型和未知的场地响应，S/P 比通常高度不一致。在这里，我介绍 FocMecDR，一种使用相对极性和 S/P 振幅双倍比的相对焦点机制反演方法。与双差地震定位类似，FocMecDR 使用具有已知震源机制的参考事件，通过最小化观测到的 S/P 振幅双倍比与理论 S/P 振幅双比之间的失配，同时强制执行基于互相关的相对极性，来求解附近地震的震源机制。广泛的合成测试证明了该方法的有效性和准确性。使用反相似地震对和 2019 年 Ridgecrest 破裂带西北端余震的现场验证进一步证实了其可靠性。对 2019 年 Ridgecrest 主震之前的前震的应用揭示了成核过程中高度均匀的应力场，这提出了评估大地震前断层带应力和破裂准备情况的可能框架。",
+      "source": "arXiv",
+      "published": "2026-03-29"
+    },
+    {
+      "id": "2603.20902v1",
+      "title": "Virtual receiver functions via conditional diffusion transformers for robust crustal imaging",
+      "url": "http://arxiv.org/abs/2603.20902v1",
+      "first_author": "Tiente R. Koireng",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "接收函数（RF）广泛用于对地壳和上地幔结构进行成像，其随方位角和震中距离的变化包含有关分层和方位各向异性的关键信息。然而，实际上，射频受到未知地震源特征和地震噪声的干扰影响，从而阻碍了可靠的地壳成像。跨方位角和震中距离的稀疏射频覆盖也会导致各向异性估计出现偏差。我们使用条件扩散模型来应对这些挑战，以后方位角、震中距和台站坐标为条件，生成高质量的虚拟径向和横向射频。来自具有相似方位角和震中距离的地震的射频具有一致的地壳响应，但滋扰效应不同，从而使模型能够抑制后者。我们的框架在后方位角和震中距离覆盖范围内生成虚拟射频，增强对地壳各向异性和分层的解释。在具有真实非高斯噪声的合成射频上，虚拟射频与真实射频的相关性比传统线性或相位加权叠加更强。应用于卡斯卡迪亚俯冲带时，虚拟径向射频对来自倾斜板片的散射 S 波进行了清晰的成像，与之前的工作相比，具有增强的相位清晰度和后向覆盖范围。在南加州，从虚拟 RF 推断出的各向异性参数在空间上是相干的，并且与区域断层几何形状一致。我们的方法利用所有可用的射频（无论质量如何）来增加空间覆盖范围并支持强大的自动化射频分析。",
+      "source": "arXiv",
+      "published": "2026-03-21"
+    },
+    {
+      "id": "2603.18925v1",
+      "title": "Improving moment tensor solutions under Earth structure uncertainty with simulation-based inference",
+      "url": "http://arxiv.org/abs/2603.18925v1",
+      "first_author": "A. A. Saoulis",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "贝叶斯推理代表了将地球结构不确定性纳入全波形矩张量反演中的原则性方法，但传统方法通常需要显着的近似，这可能会导致结果解出现偏差。我们引入了一种使用基于模拟的推理（SBI）来处理理论错误的稳健方法，这是一种机器学习方法，可以根据经验模拟理论错误对观察的影响。该框架保留了贝叶斯推理的严谨性，同时避免了对不确定性函数形式的限制性假设。我们首先证明理论误差的常见高斯参数化在较小的（$1-3 \\%$）一维地球模型不确定性下会崩溃。为了解决这个问题，我们开发了两种利用 SBI 来提高矩张量解决方案质量的形式：一种使用基于物理的理论错误洞察，另一种使用端到端深度学习算法。然后，我们将矩张量反演的结果与标准高斯方法和 SBI 进行比较，并证明高斯假设会产生偏差并显着低估矩张量的不确定性。我们还表明，当反演短期数据和浅层各向同性事件时，这些影响尤其成问题。另一方面，SBI 产生更可靠、更好校准的震源机制后验。最后，我们成功地将我们的方法应用于两次经过深入研究的中震级地震：一次来自 1997 年的长谷火山口火山地震序列，另一次来自 2020 年的萨格勒布地震。",
+      "source": "arXiv",
+      "published": "2026-03-19"
+    },
+    {
+      "id": "2603.15982v1",
+      "title": "Elastic waveform inversion for double-couple microseismic source estimation in vertically fractured transversely isotropic media",
+      "url": "http://arxiv.org/abs/2603.15982v1",
+      "first_author": "Ujjwal Shekhar",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "准确表征沉积地层流体注入过程中的微震事件对于减轻环境风险至关重要。与断层面上滑动相关的微震事件的震源机制由双力偶给出。波形反演已成为一种用于估计双耦合源的矩张量和位置矢量的有前途的技术。在双偶源矩张量的波形反演的大多数应用中，通常假设地层是各向同性的，或者较少见的是横观各向同性的。在反演微震波形数据时，未包括对矩张量表示的修改，以考虑横向各向同性地层中对齐的垂直裂缝所产生的各向异性。在这项关于合成微震数据的研究中，我们提出了一种包含这种修改的波形反演算法，考虑到震源区域中的地层是垂直断裂横观各向同性（VFTI）并具有正交对称性。由于 VFTI 介质缺乏旋转对称性，因此没有对发生滑移的断层面的方向做出任何假设。双力偶源的力矩张量是根据VFTI介质的弹性参数和滑移幅度、滑移角、断层倾角和断层法线方位角等几何参数来公式化的。源反演被视为局部优化问题，我们针对源位置和几何参数进行反演。这些几何参数比矩张量分量更直接地受到地震数据的约束，并提供了具有地质意义的见解。这种方法增强了裂缝地层的微震监测，并且可以扩展到更复杂的各向异性介质，例如单斜系统。",
+      "source": "arXiv",
+      "published": "2026-03-16"
+    },
     {
       "id": "10.1016/j.epsl.2026.120109",
       "title": "Decoupling physical and chemical signals in tectonically active basins: A ∼ 3.3 Ma record of drainage integration and source-inherited climate forcing in North China",
       "url": "https://doi.org/10.1016/j.epsl.2026.120109",
       "first_author": "Fubing He",
       "corr_author": "Xiwei Xu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120167",
+      "title": "Tidal rock grinding as a source of H2 on Enceladus",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120167",
+      "first_author": "Karin I. Öberg",
+      "corr_author": "Nicholas J. Tosca",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120174",
+      "title": "He–Ne–Ar isotopic constraints on the mantle source of the Fani Maoré paroxysm: implications for plume involvement beneath the Comoros",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120174",
+      "first_author": "Romain Sauvalle",
+      "corr_author": "Stephan J. Jorry",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -25,6 +102,17 @@
       "published": "2026"
     },
     {
+      "id": "10.1016/j.epsl.2026.120157",
+      "title": "Reconstructing long-term landscape evolution of an uplifting mountain using cosmogenic 10Be in a sediment source–sink system",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120157",
+      "first_author": "Yoshimasa Ota",
+      "corr_author": "Hiroyuki Matsuzaki",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.120136",
       "title": "Rare earth element partitioning in Hadean zircons establishes granitic magma source",
       "url": "https://doi.org/10.1016/j.epsl.2026.120136",
@@ -33,6 +121,28 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl121977",
+      "title": "Nitrate Photolysis in the Upper Boundary Layer as a Daytime Missing Source of HONO: Revealed by In Situ Airship Measurements and Modeling",
+      "url": "https://doi.org/10.1029/2026gl121977",
+      "first_author": "Xueyu Zhou",
+      "corr_author": "Aijun Ding",
+      "affiliation": "State Key Laboratory of Severe Weather Meteorological Science and Technology Nanjing University  Nanjing China",
+      "abs_zh": "亚硝酸（HONO）来源的缺失是理解对流层大气化学的一个关键不确定因素。颗粒硝酸盐光解作用已被提议作为白天 HONO 的潜在来源，但其贡献仍然很少受到限制，甚至很少有人关注高空硝酸盐的影响。在这里，我们基于南京系留飞艇的垂直测量以及气象化学耦合模型，研究了硝酸盐光解对 HONO 生产的影响。我们发现，高处的硝酸盐光解作用约为地表的 1.8 倍，并且通过垂直混合对表面 HONO 产生了显着贡献。区域模拟进一步表明，长三角地区的硝酸盐光解作用使模拟HONO浓度和最大日8小时平均臭氧浓度分别增加了79.3%和12.5%。我们的研究结果强调了硝酸盐光解作用作为白天 HONO 来源的重要性及其对中国东部大城市大气氧化能力的关键影响。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250455",
+      "title": "Intrinsic Uncertainty of Noise Cross-Correlation Functions and Its Implications for Source Properties",
+      "url": "https://doi.org/10.1785/0220250455",
+      "first_author": "Ying-Nien Chen",
+      "corr_author": "Ying-Nien Chen",
+      "affiliation": "1Department of Earth and Environmental Sciences, National Chung Cheng University, Chiayi, Taiwan",
+      "abs_zh": "本文提出了一种评估噪声互相关函数 (NCF) 内在不确定性 (IU) 的定量方法，并将其应用于从台湾宽带地震台阵获得的实际 NCF。 NCF 波形的标准差 (STD) 随着相关时间的增加而演变与理论预测密切相关，证实了该方法的有效性。导出的 IU 提供了评估 NCF 质量的客观指标，特别是尾波，它广泛用于监测时间结构变化。通过应用于综合实验的分析程序，结果表明噪声源的分布和激励强度强烈影响 IU。因此，将 IU 估计值与源自不同归一化方法的 NCF 幅度相结合，可以对环境噪声源特性进行全面评估。利用所提出的方法，本研究揭示了短周期次生微震、局地一次微震和一次微震的激发机制。",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
@@ -54,61 +164,6 @@
       "corr_author": "Letian Dou",
       "affiliation": "Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN 47907, USA.",
       "abs_zh": "均匀钙钛矿薄膜的可扩展制造是大面积钙钛矿发光二极管（PeLED）的关键瓶颈，受到咖啡环形成和缩放时异质结晶的阻碍。在这里，我们报告了一种多模式溶剂工程策略，通过环境刮刀涂层结合真空辅助溶剂蒸发来实现高度均匀的薄膜。纳入\n                    氮\n                    -甲基-2-吡咯烷酮 (NMP) 和乙腈 (ACN) 进入基于二甲基甲酰胺 (DMF) 的系统中，可协同调节蒸发动力学：它通过马兰戈尼流诱导的再分布抑制宏观溶质偏析，同时调整前体协调以调节成核/相转换并促进辐射高效的薄膜形成。因此，三元配方产生的薄膜具有改善的均匀性、降低的陷阱密度和增强的辐射效率。近红外 (NIR) PeLED 的峰值外量子效率达到 25.2%（10 mm\n                    2\n                    ), 22.1% (60 毫米\n                    2\n                    ）和 19.0%（224 毫米\n                    2\n                    ）。还使用 224 毫米演示了功能性静脉成像原型\n                    2\n                    器件，突出了对大面积光电应用的影响。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec8244",
-      "title": "Architecting three-dimensional reconfigurable matter from pop-up kirigami with programmable multistability",
-      "url": "https://doi.org/10.1126/sciadv.aec8244",
-      "first_author": "Tong Zhou",
-      "corr_author": "Yang Li",
-      "affiliation": "School of Integrated Circuits, Wuhan University, Wuhan, China.",
-      "abs_zh": "机械弹出系统可从二维 (2D) 重新配置为复杂的三维 (3D) 形状，对于先进制造和可部署设备来说很有前景。多稳态弹出式剪纸系统特别有利，因为它们的特性将简单的 2D 制造状态与复杂的 3D 操作状态分离，从而极大地简化了制造。我们发现这些弹出系统是通过多环耦合策略设计的，然而，传统上它受到几何对称性的限制。在这项工作中，我们通过消除对称约束来扩展这一策略，以创建一个通用的弹出式剪纸平台，该平台通过受控的、不对称的弹出和扭转运动实现可编程多稳定性。使用这个平台，我们展示了以前无法访问的结构，包括具有两个可编程空间状态的三稳态单元和互连单元的大规模镶嵌。我们通过可重构超材料、可部署阵列、软机器人和柔性电子产品中的应用展示了该平台的多功能性。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260024",
-      "title": "Including Earthquake Sequences on National Seismic Hazard Models Through ETAS-Based Synthetic Catalogs: The Case of Italy",
-      "url": "https://doi.org/10.1785/0120260024",
-      "first_author": "Annamaria Pane",
-      "corr_author": "Warner Marzocchi",
-      "affiliation": "1Modeling and Engineering Risk and Complexity, Scuola Superiore Meridionale, Naples, Italy",
-      "abs_zh": "概率地震危险分析 (PSHA) 假定主震采用时不变泊松过程，而不考虑余震。这些事件的删除是主观的，因为它取决于所选的分簇过程。此外，去聚类还可能导致对地震危险的严重低估，因为余震会极大地导致地面震动，如最近的地震序列所示。本研究调查了基于流行型余震序列 (ETAS) 合成目录、将地震序列纳入 PSHA 的方法的可靠性和技术可行性。具体来说，我们应用 SimplETAS 算法创建大量真实的合成目录，每个目录跨越 50 年。我们为合成目录中的每次地震分配了震中区域的合理孕震结构，从而无需假设泊松分布即可生成数值危险曲线。这种方法已应用于四个意大利城市：拉奎拉、雷焦卡拉布里亚、佛罗伦萨和米兰。我们将我们的灾害曲线与意大利国家地震灾害模型 (MPS19) 及其序列校正版本进行比较，后者通过泊松地震率 (MPS19_cluster) 的数值调整来解释地震序列。结果表明：（1）明确模拟地震序列大大增加了所有地点的地震危险性； (2) 基于 SimplETAS 的风险曲线和 MPS19_cluster 的风险曲线通常非常吻合，包括在短期回报期内，MPS19_cluster 中使用的数值修正在数学上可能存在问题； (3) 在地震危险性最低的米兰，两条曲线出现分歧，强调了 SimplETAS 和 MPS19 模型中震级分布的不同空间变异性的影响； (4) 值得注意的是，基于 ETAS 的方法允许灵活选择与风险分析相关的任何预测时间窗口，并自然地捕获 spa",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.119985",
-      "title": "Volcanic source change triggers divergent climatic responses across the Guadalupian–Lopingian transition in eastern South China",
-      "url": "https://doi.org/10.1016/j.epsl.2026.119985",
-      "first_author": "Cheng Cheng",
-      "corr_author": "Hua Zhang",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120032",
-      "title": "Crustal differential thickening and incomplete mechanical decoupling in the eastern Qilian Shan, NE Tibetan Plateau: Insights from a dense seismic profile",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120032",
-      "first_author": "Ruizhi Jin",
-      "corr_author": "Peizhen Zhang",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec1241",
-      "title": "Structural insights into a conserved mechanism of choline translocation through CHT",
-      "url": "https://doi.org/10.1126/sciadv.aec1241",
-      "first_author": "Jesus Vilchez-Garcia",
-      "corr_author": "Igor Tascón",
-      "affiliation": "Instituto Biofisika (UPV/EHU-CSIC), Leioa, Spain.",
-      "abs_zh": "胆碱是一种必需营养素，对于生命各个领域的细胞稳态至关重要。在人类中，胆碱能神经元对胆碱的摄取并再循环为乙酰胆碱是由高亲和力 Na 介导的\n                    +\n                    依赖性转运蛋白 SLC5A7 (CHT1)。原核生物也依赖胆碱作为渗透保护剂和代谢物，这增加了细菌也具有类似于 CHT1 的胆碱转运蛋白的可能性。在这里，我们鉴定并表征了细菌Na\n                    +\n                    与 CHT1 具有高度序列同一性的依赖性胆碱转运蛋白 (sfCHT)。 Na 的冷冻电镜结构\n                    +\n                    - 胆碱结合的 sfCHT 揭示了 Na 的 LeuT 折叠结构\n                    +\n                    配位几何与CHT1相似。 sfCHT 中胆碱以面向内的构象捕获，位于靠近细胞质侧的位点。 sfCHT 和 CHT1 变体的计算分析和转运测定揭示了保守残基沿特定路径到达胞质位点的局部构象重排。这些发现为细胞内胆碱转变提供了结构和机制的见解，表明细菌和人类胆碱转运蛋白之间存在进化保守的机制。",
       "source": "Science Advances",
       "published": "2026"
     }

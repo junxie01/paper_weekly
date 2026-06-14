@@ -1,7 +1,62 @@
 {
-  "last_update": "2026-05-31 至 2026-06-07 04:04",
+  "last_update": "2026-06-07 至 2026-06-14 04:13",
   "topic_name": "分布式光纤传感",
   "papers": [
+    {
+      "id": "2606.13668v1",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "url": "http://arxiv.org/abs/2606.13668v1",
+      "first_author": "Dimitri Kachler",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "随着 LLM（大型语言模型）能力的增长，越来越多的人通过过滤训练数据中的样本来管理高质量的数据集。一般来说，数据归因 (DA) 方法旨在估计训练数据集中的各个样本如何预处理模型以生成某些输出。举个例子，在训练法学硕士后，人们可能会对数据中的哪些样本可能是有毒行为的来源感兴趣。许多方法通过影响函数的范式来量化这种调节。虽然该系列的方法在功能上很有效，但它们缺乏在大型数据集上实际实现所需的处理速度和存储紧凑性。我们提出了一种方法 Influcoder，作为一种快速且经济高效的大规模基于影响力的数据归因方法。",
+      "source": "arXiv",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2606.13586v1",
+      "title": "Exploratory digital alchemy for colloidal crystal discovery",
+      "url": "http://arxiv.org/abs/2606.13586v1",
+      "first_author": "Shih-Kuang",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Van Anders 等人提出的数字炼金术 (DA) 是一种基于统计力学的广义热力学系综方法，采用计算机模拟来优化胶体颗粒设计。这种方法应用统计力学原理来预测和定制颗粒属性，从而产生所需的自组装结构或材料特性。然而，作为一种逆向设计方法，其主要限制是目标结构必须已知\\textit{先验}。因此，DA的优化设计并不能保证目标结构是最稳定的或唯一稳定的。这凸显了通过探索性方案来优化新型胶体设计的正向设计的重要性，这在这种情况下变得更合适。在本文中，我们介绍了探索性数字炼金术（EDA），这是一种增强的正向设计方案，首先从 DA 中释放目标晶体的约束，然后是探索导向的偏差，该偏差已广泛应用于元动力学（MetaD）等增强采样方法中。我们通过涉及粒子通过二维 Lennard-Jones 高斯势 (LJGP) 和三维振荡对势 (OPP) 相互作用的示例来展示 EDA 的实用性。我们应用 EDA 来研究不同温度下 LJGP 不同势参数的自由能景观。通过探索性方案，我们还成功确定了一系列稳定亚稳态 Frank-Kasper 相的 OPP 电位参数。我们的方法将标准 DA 框架与元动力学融合在一起，这可能有助于研究广义系综中的炼金反应。",
+      "source": "arXiv",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2606.13397v1",
+      "title": "Mod-Guide: An LLM-based Content Moderation Feedback System to Address Insensitive Speech toward Indigenous Ethnic and Religious Minority Communities",
+      "url": "http://arxiv.org/abs/2606.13397v1",
+      "first_author": "Dipto Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "语言是一种边缘化和抵抗的机制，特别是对于少数群体来说，他们在网上发表不敏感和有害的言论。随着内容审核越来越依赖于大型语言模型 (LLM)，人们开始担心这些系统是否能够识别对文化不敏感的语音语言，这些语言通常通过隐性删除、歪曲或规范框架，而不是公开的敌意，忽视或边缘化历史上代表性不足的社区的文化和宗教观点。本文重点关注孟加拉国的印度教和查克马社区（分别是该国最大的宗教少数群体和土著少数民族），研究了基于法学硕士的调节系统的认知局限性，并探索了纳入少数群体观点的方法。我们与社区成员共同创建了一个基于文化的不敏感言论语料库，并使用检索增强生成（RAG）将他们的叙述整合到审核管道中。我们的工具 Mod-Guide 通过利用生活经验中的情境线索来提高法学硕士对少数观点的敏感性。通过涉及少数和多数参与者的混合方法评估，我们证明 RAG 增强的调节反应在上下文中更加准确，并且不同种族之间的感知也不同。这项工作通过在内容审核系统的设计中突出恢复性正义和解释学包容性，推进了人机交互、人工智能伦理和社会计算的研究。",
+      "source": "arXiv",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2606.13071v1",
+      "title": "\"Is This Not Enough?\": Asymmetries in Institutional Accountability and Collective Sensemaking in the Case of Canada's Algorithmic Visa Triage System",
+      "url": "http://arxiv.org/abs/2606.13071v1",
+      "first_author": "Dipto Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "本文探讨了加拿大签证系统中的算法责任如何在制度上阐明以及跨境申请人的体验。我们使用适用于公共部门的算法决策 (ADMAPS) 框架分析了加拿大移民、难民和公民部 (IRCC) 对临时居民签证 (TRV) 分类系统的算法影响评估 (AIA)，并使用混合方法分析了申请人之间的 Reddit 讨论。我们表明，虽然制度制品强调透明度、程序保障和有限影响，但申请人参与集体意义建构来解释不透明的决策，通常依赖于不确定性中的同行知识。我们发现了机构问责制的构建方式和人们如何看待这一过程之间的三种不对称性：决策逻辑获取方面的认知不对称性、地缘政治定位所塑造的管辖权不对称性以及等待和不确定性体验方面的时间关系不对称性。我们强调为什么将注意力从制度设计转移到公共部门算法治理经验分布不均很重要。这些贡献共同证明了跨国移民背景下的算法治理系统如何产生机构披露框架未捕获的结构性不对称，以及扩展 ADMAPS 如何解释问责制的不平衡翻译。",
+      "source": "arXiv",
+      "published": "2026-06-11"
+    },
+    {
+      "id": "2606.11984v1",
+      "title": "Modular quantization and black holes",
+      "url": "http://arxiv.org/abs/2606.11984v1",
+      "first_author": "Suchetan Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "威滕最近提出了一种与背景无关的量子引力代数框架，其中赋予哈密顿量的观察者定义了由修改的哈密顿量约束表示的微分同胚不变世界线代数。在半经典极限中，这种构造允许对作用于由固定背景中的测地线定义的希尔伯特空间的冯诺依曼代数进行提升。受此启发，我们重新审视圆柱体上某类变形 CFT 哈密顿量的量化，以捕获黑洞的非微扰方面。我们通过在哈密顿流固定点附近的截止上施加共形边界条件来构建 I 型冯诺依曼代数，作用于由“新兴模 Virasoro 代数”的最高权重表示构建的 GNS Hilbert 空间。在用与固定参考 KMS（真空）状态相关的尖锐子区域的模哈密顿量识别哈密顿量后，代数变为 III$_{1}$ 因子。我们还讨论了在合并由固定点处的标量构成的涌现非平凡中心后使用“开闭弦”对偶性的涌现希尔伯特空间的结构。我们进一步采用单个全息 CFT 的模量化来证明平滑 BTZ 背景的精确 Hartle-Hawking 相关器的边界极限如何在替代对偶描述中出现在严格的半经典极限中，而在有限 $G_{N}$ 下，相应的描述本质上是非平滑的，具有拉伸的视界和边界截止。精确的相关器也可以从模块化量化的真空相关器中精确复制。我们进一步讨论了通过 AdS/CFT 在边界相关器上包含中心来合并重力的效果，其中平滑地平线的描述被包含嵌入其中的显式微观结构的（拉伸）地平线所取代。",
+      "source": "arXiv",
+      "published": "2026-06-10"
+    },
     {
       "id": "10.1016/j.epsl.2026.120077",
       "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
@@ -14,35 +69,46 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag225",
+      "title": "Self-Supervised Cascade Network for Denoising of Distributed Acoustic Sensing Vertical Seismic Profile Data",
+      "url": "https://doi.org/10.1093/gji/ggag225",
+      "first_author": "Hyunggu Jun",
+      "corr_author": "Byoungjoon Yoon",
+      "affiliation": "Kyungpook National University Department of Geology, , Daegu 41566 ,",
+      "abs_zh": "总结\n                  分布式声学传感（DAS）数据通常包含各种类型的噪声，包括随机噪声、相干噪声（例如耦合或线性噪声）和共模噪声，这些噪声会显着降低地震信号质量。传统的去噪方法难以有效抑制不同的噪声分量，同时保留重要的地震信号。为了解决这个问题，我们提出了一种去噪自监督级联网络（DAS-DSCnet），这是一种多级神经网络，旨在逐步对 DAS 数据进行去噪，而不需要外部标签或合成训练数据生成。该网络由三个阶段组成：第 1 阶段使用基于 Noise2Noise 的方法针对随机噪声；第 2 阶段使用基于去噪卷积神经网络 (DnCNN) 的网络（通过内部提取的噪声补丁进行训练）来抑制数据集特定的相干噪声；第 3 阶段通过迹线改组和基于 Noise2Noise 的模型来预测和消除共模噪声。每个阶段的训练数据都是通过利用数据的固有特征，直接从输入 DAS 数据生成的，从而实现反映特定领域噪声特征的高效学习。使用具有不同噪声模式的两个不同的现场 DAS 数据集对该模型进行了评估。结果表明，与传统方法相比，DAS-DSCnet 实现了卓越的噪声抑制，增强了信号连续性，同时最大限度地减少了泄漏。去噪性能在不同的堆叠配置和超参数下保持稳定，证实了模型的稳健性。因此，DAS-DSCnet 提供了一个可扩展且实用的框架，用于提高 DAS 应用中的地震数据质量，展示了大规模地震监测中全自动、数据驱动的去噪的潜力。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1785/0220260026",
       "title": "Potentials and Challenges of Cryoseismology with Fiber-Optic Sensing in the High Arctic: A Pilot Experiment in Hornsund, Svalbard",
       "url": "https://doi.org/10.1785/0220260026",
       "first_author": "Wojciech Gajek",
       "corr_author": "Alfred Hanssen",
       "affiliation": "1Institute of Geophysics, Polish Academy of Sciences, Warsaw, Poland",
-      "abs_zh": "分布式声学传感（DAS）已成为环境和低温地震学研究的一种有前途的工具，但其在北极高纬度极端条件下的性能仍鲜有记录。在这里，我们报告了在斯瓦尔巴群岛霍恩松德的苔原和冰川环境中使用 9 公里的光缆进行的多季节 DAS 实验。该研究将对部署策略、仪器和操作限制的描述与对记录数据的探索性分析相结合，以评估 DAS 可以捕获的冰冻圈过程类型。我们记录后勤、环境和技术挑战，并为未来的实验提供指导，包括与耦合、噪声源、电缆完整性和季节性可达性相关的问题。此外，我们还演示了如何使用该数据集使用噪声干涉测量法检测永久冻土冻结、定位冰震和崩解事件以及监测河流引起的地震噪声产生的径流。该实验为未来北极环境中 DAS 研究的设计和解释提供了基于现场的参考，并强调了与长期低温地震监测相关的考虑因素。",
+      "abs_zh": "分布式声学传感（DAS）已成为环境和低温地震学研究的一种有前途的工具，但其在北极高纬度极端条件下的性能仍鲜有记录。在这里，我们报告了在斯瓦尔巴群岛霍恩松德的苔原和冰川环境中使用 9 公里的光缆进行的多季节 DAS 实验。该研究将对部署策略、仪器和操作限制的描述与对记录数据的探索性分析相结合，以评估 DAS 可以捕获的冰冻圈过程类型。我们记录后勤、环境和技术挑战，并为未来的实验提供指导，包括与耦合、噪声源、电缆完整性和季节性可达性相关的问题。此外，我们还演示了如何使用该数据集使用噪声干涉测量法检测永久冻土冻结、定位冰震和冰崩事件以及监测河流引起的地震噪声产生的径流。该实验为未来北极环境中 DAS 研究的设计和解释提供了基于现场的参考，并强调了与长期低温地震监测相关的考虑因素。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
       "id": "10.1093/gji/ggag199",
-      "title": "Hydro-Seismic Interplays on Perpendicular Faults in Mexico City Revealed by Distributed Acoustic Sensing",
+      "title": "Hydroseismic interplays on perpendicular faults in Mexico City revealed by distributed acoustic sensing",
       "url": "https://doi.org/10.1093/gji/ggag199",
       "first_author": "Mathieu Perton",
-      "corr_author": "Valente Ramos Avila",
-      "affiliation": "Instituto de Ingeniería, Universidad Nacional Autónoma de México , CDMX ,",
-      "abs_zh": "总结\n                  使用城市电信光纤电缆的分布式声学传感（DAS）为沉积盆地地震监测提供了前所未有的机会，以墨西哥城为例。在这项研究中，我们分析了 15 个月的近乎连续的 DAS 测量，以识别以前无法检测到的波传播细节，从而能够精确定位当地地震。使用真实的地震速度模型，我们克服了传统恒定 ${{V}_P}/{{V}_S}$ 方法的不准确性，突出了沉积环境中 Wadati 图的显着局限性。我们的结果揭示了明显的水震耦合，即强烈的早季降雨与低含水层水平相一致，产生足够的应力扰动以引发中级地震（Mw∼3.5）。这些主要事件随后引起沿局部断层的缓慢滑动和垂直平面上的次生地震活动，主要是由应力不平衡驱动，而不是沿断层的流体参与。我们进一步确定盆地转换和圆锥形阶段是地面震动的主要来源，强调迫切需要将这些次要地震阶段纳入城市地震灾害评估和建筑规范。我们的研究结果强调了连续 DAS 测量在了解城市地震风险和管理含水层资源方面的关键作用，从而建立了一个在充满沉积物的大城市中具有全球适用性的强大监测框架。",
+      "corr_author": "Valente Ramos Avila",
+      "affiliation": "Instituto de Ingeniería, Universidad Nacional Autónoma de México , 04510, Ciudad de México ,",
+      "abs_zh": "使用城市电信光纤电缆的分布式声学传感 (DAS) 为沉积盆地地震监测提供了前所未有的机会，以墨西哥城为例。在这项研究中，我们分析了 15 个月的近乎连续的 DAS 测量，以识别以前无法检测到的波传播细节，从而能够精确定位当地地震。使用真实的地震速度模型，我们克服了传统常数 ${V_\\mathrm{ P}}/{V_\\mathrm{ S}}$ 方法的不准确性，突显了 Wadati 图在沉积环境中的显着局限性。我们的结果揭示了明显的水震耦合，即强烈的早季降雨与低含水层水平相一致，产生足够的应力扰动以引发中级地震（Mw∼3.5）。这些主要事件随后引起沿局部断层的缓慢滑动和垂直平面上的次生地震活动，主要是由应力不平衡驱动，而不是沿断层的流体参与。我们进一步确定盆地转换和圆锥形阶段是地面震动的主要来源，强调迫切需要将这些次要地震阶段纳入城市地震灾害评估和建筑规范。我们的研究结果强调了连续 DAS 测量在了解城市地震风险和管理含水层资源方面的关键作用，从而建立了一个在充满沉积物的大城市中具有全球适用性的强大监测框架。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
       "id": "10.1093/gji/ggag203",
-      "title": "Distributed Acoustic Sensing Observations of the 23 April 2025 Mw 6.2 Marmara Earthquake in Northwestern Türkiye and Its Comparison with Borehole Seismometer Data",
+      "title": "Distributed acoustic sensing observations of the 2025 April 23\n                    <i>M</i>\n                    w 6.2 Marmara earthquake in Northwestern Türkiye and Its comparison with borehole seismometer data",
       "url": "https://doi.org/10.1093/gji/ggag203",
       "first_author": "R F Kartal",
       "corr_author": "C M Krawczyk",
       "affiliation": "AFAD Disaster and Emergency Management Presidency, Earthquake Risk Reduction General Directorate , Earthquake Department, Ankara ,",
-      "abs_zh": "总结\n                  2025 年 4 月 23 日，土耳其西北部伊斯坦布尔附近发生的兆瓦 6.2 马尔马拉地震为评估分布式声学传感 (DAS) 在人口稠密和构造活跃地区的近断层地震学能力提供了难得的机会。 DAS 监测补充了北安纳托利亚断层 (GONAF) 的钻孔地球物理观测站，扩大了近断层观测站，以高分辨率监测伊斯坦布尔附近马尔马拉主断层 (MMF) 沿线的变形。在该实验中，国家光网络内现有的电信暗光纤被重新用作长偏移距海底地震阵列，而无需任何专用的水下安装。这条光缆沿着伊斯坦布尔南部海岸在水下延伸并沿着王子群岛北部边界延伸，成功记录了马尔马拉6.2级地震。在本研究中，我们分析了所得数据集，该数据集提供了约 34 km 的孔径、8 m 通道间距和 250 Hz 采样率，并包括平行和垂直于断层延伸的部分。 Mw 6.2 主震的 DAS 应变率记录显示出跨越数千个通道的清晰 P 波和 S 波到达，具有高信号相干性。振幅和相位校准后，使用基于标距的传递函数将记录转换为等效粒子速度，并与附近的 GONAF 钻孔地震波形数据进行比较。频谱分析表明，DAS 阵列保留了高达约 25 Hz 的地震能量，其频谱形状和振幅分布与钻孔记录一致。变换过程采用了 Curvelet、f-k 和基于时域慢度的转换方法。 OptoDAS 系统询问的海底 DAS 阵列能够对从记录的应变率数据导出的应变进行高分辨率空间采样。应用程序的系统变化",
+      "abs_zh": "2025 年 4 月 23 日，土耳其西北部伊斯坦布尔附近发生的 6.2 级马尔马拉地震，为评估分布式声学传感 (DAS) 在人口稠密和构造活跃地区的近断层地震学能力提供了难得的机会。 DAS 监测补充了北安纳托利亚断层 (GONAF) 的钻孔地球物理观测站，扩大了近断层观测站，以高分辨率监测伊斯坦布尔附近马尔马拉主断层 (MMF) 沿线的变形。在该实验中，国家光网络内现有的电信暗光纤被重新用作长偏移距海底地震阵列，而无需任何专用的水下安装。这条光缆沿着伊斯坦布尔南部海岸水下延伸，沿着王子群岛北部边界延伸，成功记录了马尔马拉 6.2 级地震。在本研究中，我们分析了所得数据集，该数据集提供约 34 km 的孔径、8 m 通道间距和 250 Hz 采样率，并包括平行和垂直于断层延伸的部分。 Mw 6.2 主震的 DAS 应变率记录显示出跨越数千个通道的清晰 P 波和 S 波到达，具有高信号相干性。振幅和相位校准后，使用基于标距的传递函数将记录转换为等效粒子速度，并与附近的 GONAF 钻孔地震波形数据进行比较。频谱分析表明，DAS 阵列保留了高达 ∼25 Hz 的地震能量，其频谱形状和振幅分布与钻孔记录一致。变换过程采用了 Curvelet、f-k 和基于时域慢度的转换方法。 OptoDAS 系统询问的海底 DAS 阵列能够对从记录的应变率数据中导出的应变进行高分辨率空间采样。 ap 的系统变化",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
@@ -75,7 +141,7 @@
       "first_author": "Shuhei Tsuji",
       "corr_author": "Takashi Yokobiki",
       "affiliation": "1Research and Development Center for Geodetic and Geophysical Monitoring, Research Institute for Marine Geodynamics, Japan Agency for Marine-Earth Science and Technology, Yokosuka, Japan",
-      "abs_zh": "南海海槽俯冲带C9038B深海底钻孔观测站安装了钻孔光纤应变仪和孔隙压力计，用于精确测量海底地壳变形。为了通过钻孔观测站的连续观测来监测与俯冲过程相关的活动，例如慢滑移事件，必须澄清这些观测的特征。在安装后的头两年观测中，记录了清晰的潮汐和海啸反应。为了了解这些观测特征的物理起源，我们进行了有限元法 (FEM) 模拟。通过考虑天文台周围的地壳结构和用于观测的仪器来模拟观测的响应特征。模拟依次求解了两个弹性模型，包括天文台周围的地壳结构和传感器结构。沉积层被建模为 V 形，传感器单元的主要组件包含在模拟中。分配给这些模型的弹性属性是基于钻井参数和地震勘测。因此，模拟再现了应变和孔隙压力观测结果的潮汐响应。基于有限元的潮汐分析得出的载荷响应系数也成功解释了与2025年7月29日堪察加地震产生的海啸相关的信号。这表明数值结果准确地代表了天文台对外部载荷事件的响应。此外，为了研究钻孔观测的一般趋势，使用考虑各种弹性参数和沉积层几何形状的模型进行了类似的模拟。关于弹性参数的变化，应变和孔隙压力观测值分别对杨氏模量和泊松比敏感。年代的变化",
+      "abs_zh": "南海海槽俯冲带C9038B深海底钻孔观测站安装了钻孔光纤应变仪和孔隙压力计，用于精确测量海底地壳变形。为了通过钻孔观测站的连续观测来监测与俯冲过程相关的活动，例如慢滑移事件，必须澄清这些观测的特征。在安装后的头两年观测中，记录了清晰的潮汐和海啸反应。为了了解这些观测特征的物理起源，我们进行了有限元法 (FEM) 模拟。通过考虑天文台周围的地壳结构和用于观测的仪器来模拟观测的响应特征。模拟依次求解了两个弹性模型，包括天文台周围的地壳结构和传感器结构。沉积层被建模为 V 形，传感器单元的主要组件包含在模拟中。分配给这些模型的弹性属性是基于钻井参数和地震勘测。因此，模拟再现了应变和孔隙压力观测值的潮汐响应。基于有限元的潮汐分析得出的载荷响应系数也成功解释了与2025年7月29日堪察加地震产生的海啸相关的信号。这表明数值结果准确地代表了天文台对外部载荷事件的响应。此外，为了研究钻孔观测的总体趋势，使用考虑各种弹性参数和沉积层几何形状的模型进行了类似的模拟。关于弹性参数的变化，应变和孔隙压力观测值分别对杨氏模量和泊松比敏感。年代的变化",
       "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     },
@@ -98,17 +164,6 @@
       "corr_author": "Shengjie Rui",
       "affiliation": "Zhejiang Province Key Laboratory of Offshore Civil Engineering and Materials, College of Civil Engineering and Architecture, Zhejiang University , Hangzhou 310058, Zhejiang ,",
       "abs_zh": "剪切波速度成像是地基土壤近地表岩土工程表征、地下异常检测以及城市环境过程监测的关键。在本研究中，我们提出了一种工作流程，使用来自电信光纤上收集的分布式声学传感 (DAS) 数据的环境和人为噪声记录来表征大都市地区。我们开发了一种有限元模型，可以根据分层速度剖面计算基本和高阶表面波模式的剪切波色散曲线。模型参数允许层内速度随深度线性和幂律变化，以提供真实的近地表土壤行为。正演模型与反演算法相结合，可最大限度地减少模型与源自 DAS 数据的频散曲线的失配。我们使用威斯康星大学麦迪逊分校校园网络收集的 DAS 数据演示了工作流程。结果与使用与 DAS 站点之一和附近的钻孔测井位于同一位置的一系列检波器的表面波方法的多通道分析进行了比较。两种解都表明剪切波速度在大约 20 m 处发生急剧变化，对应于现场砂岩地层的深度，并且基于物理的幂律函数更好地拟合了松散沉积物的速度剖面。这些结果表明，我们的方法提供了可靠的近地表成像，同时提出了可能的土壤类型。所提出的测量和建模技术可以扩展到对有电信光纤的近地表进行成像。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag140",
-      "title": "A three-dimensional distributed acoustic sensing array to monitor local seismicity",
-      "url": "https://doi.org/10.1093/gji/ggag140",
-      "first_author": "Jérôme Azzola",
-      "corr_author": "Emmanuel Gaucher",
-      "affiliation": "Kalrsruhe Institute of Technology (KIT), Department of Geothermal Energy and Reservoir Technology, Institute of Applied Geosciences (AGW) , Adenauerring 20b, 76131 Karlsruhe ,",
-      "abs_zh": "分布式声学传感（DAS）已成为传统地震监测技术的宝贵补充。通过将光纤电缆转换为密集的虚拟传感器阵列，DAS 实现了标准大阵列处理方法的应用。然而，其方向灵敏度（仅限于沿光纤轴的应变测量）可能会限制其全波场分析的潜力。为了解决这一限制，我们研究了 DAS 在水平安装在地面附近和垂直安装在钻孔中的光纤电缆上的功能，从而创建了所谓的 3-D-DAS 阵列。该调查在慕尼黑南部地区（德国）进行，旨在监测与附近深层地热作业相关的当地地震活动。在本研究中，我们介绍了数据采集设置并描述了一个处理工作流程，该工作流程是为了表征 DAS 记录中地震事件的源和波场参数而开发的。使用附近的 ${M_\\mathrm{ w}}$ = 0.48 地震事件说明了工作流程。利用光纤电缆的配置，我们证明了 3-D-DAS 阵列能够估计波场后向方位角、入射角和慢度，并将这些结果与本地地震仪网络提供的结果进行比较。此外，地震矩和应力降等震源参数是根据250米深直井采集的DAS数据估算的。这些参数是在将应变率转换为地面运动后得出的，这一过程使用并置的三分量宽带地震计进行了定量验证。结果和波形评估表明，3-D-DAS 阵列能够独立于现有的本地地震台网提供可靠且全面的测量。",
       "source": "Geophysical Journal International",
       "published": "2026"
     }
