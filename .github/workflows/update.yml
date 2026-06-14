@@ -5,6 +5,13 @@ on:
     - cron: '0 0 * * 0' # 每周日 08:00 (北京时间), 等价于 UTC 00:00
   workflow_dispatch: # 允许手动在 GitHub 界面点击运行
 
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-paper-update
+  cancel-in-progress: false
+
 jobs:
   update-papers:
     runs-on: ubuntu-latest
@@ -57,9 +64,23 @@ jobs:
 
       - name: Commit and Push changes
         run: |
+          set -e
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add *.json citations.html citations_map.js citations_map.css
-          git commit -m "Auto-update papers: $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git pull --rebase origin main || echo "No remote changes to pull"
-          git push
+
+          GENERATED_DIR="$(mktemp -d)"
+          cp -f *.json "$GENERATED_DIR"/
+
+          git fetch origin main
+          git checkout -f -B main origin/main
+
+          cp -f "$GENERATED_DIR"/*.json .
+          git add *.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Auto-update papers: $(date +'%Y-%m-%d')"
+          git push origin main
