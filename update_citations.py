@@ -53,6 +53,35 @@ SEISMO_JOURNALS = [
     'Earth and Space Science', 'Earthquake Research Advances',
 ]
 
+def citation_key(paper):
+    """Return a stable key for deduplicating citation records."""
+    raw = paper.get('id') or paper.get('url') or paper.get('title', '')[:120]
+    return raw.lower().strip() if raw else ''
+
+def load_existing_citations():
+    """Load historical citations so weekly updates do not erase old records."""
+    if not os.path.exists(OUTPUT_FILE):
+        return []
+    try:
+        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data.get('papers', [])
+    except Exception as e:
+        print(f'Could not load existing citations from {OUTPUT_FILE}: {e}')
+        return []
+
+def merge_citation_record(old, new):
+    """Merge a fresh citation into an existing record while keeping cached geocoding."""
+    merged = dict(old)
+    for key, value in new.items():
+        if key == 'coordinates' and value is None:
+            continue
+        if value not in (None, '', 'N/A'):
+            merged[key] = value
+        elif key not in merged:
+            merged[key] = value
+    return merged
+
 def fetch_user_publications():
     """Fetch user's publication list from local about.md by parsing paper titles and querying Crossref."""
     local_file = 'about.md'
@@ -596,27 +625,29 @@ def fetch_full_citations(paper_doi):
     return results
 
 def save_results(papers, now):
-    weekly_papers = []
-    all_papers = []
-    now_str = now.strftime('%Y-%m-%d')
     since_dt = now - timedelta(days=SCAN_DAYS)
-    for r in papers:
+
+    existing_papers = load_existing_citations()
+    if existing_papers:
+        print(f'Loaded {len(existing_papers)} existing citation record(s).')
+
+    unique_by_id = {}
+    for r in existing_papers + papers:
+        key = citation_key(r)
+        if not key:
+            continue
+        if key in unique_by_id:
+            unique_by_id[key] = merge_citation_record(unique_by_id[key], r)
+        else:
+            unique_by_id[key] = dict(r)
+
+    all_papers = list(unique_by_id.values())
+    weekly_papers = []
+    for r in all_papers:
         r['is_new_this_week'] = _in_window(r.get('published', ''), since_dt)
         if r['is_new_this_week']:
             weekly_papers.append(r)
-        all_papers.append(r)
-    unique_by_id = {}
-    for r in all_papers:
-        key = r.get('id') or r.get('title', '')[:60]
-        if key.lower() not in unique_by_id:
-            unique_by_id[key.lower()] = r
-    all_papers = list(unique_by_id.values())
-    unique_weekly = {}
-    for r in weekly_papers:
-        key = r.get('id') or r.get('title', '')[:60]
-        if key.lower() not in unique_weekly:
-            unique_weekly[key.lower()] = r
-    weekly_papers = list(unique_weekly.values())
+
     all_papers.sort(key=lambda x: x.get('published', ''), reverse=True)
     weekly_papers.sort(key=lambda x: x.get('published', ''), reverse=True)
     for paper in all_papers:
@@ -694,7 +725,7 @@ def fetch_citing_papers():
     seen = set()
     unique_results = []
     for r in all_results:
-        key = (r.get('id') or r.get('title', '')[:60]).lower()
+        key = citation_key(r)
         if key and key not in seen:
             seen.add(key)
             unique_results.append(r)

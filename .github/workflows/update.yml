@@ -2,12 +2,14 @@ name: Weekly Paper Update
 
 on:
   schedule:
-    - cron: '0 0 * * 0' # 每周日午夜运行 (UTC)
+    - cron: '0 0 * * 0' # 每周日 08:00 (北京时间), 等价于 UTC 00:00
   workflow_dispatch: # 允许手动在 GitHub 界面点击运行
 
 jobs:
   update-papers:
     runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
     steps:
       - name: Checkout code
         uses: actions/checkout@v3

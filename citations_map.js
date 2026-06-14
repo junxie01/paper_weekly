@@ -152,8 +152,8 @@ function renderPapersList() {
     if (papers.length === 0) {
         container.innerHTML = `
             <div class="empty-state">
-                <h2>😔 没有引用</h2>
-                <p>过去的一周没有人引用你的文章，多发几篇好的，或者出去开会推销一下啊 looser。</p>
+                <h2>暂无引用数据</h2>
+                <p>如果这是首次初始化，请先运行一次完整引用扫描；之后每周更新会保留历史引用并标记新增引用。</p>
             </div>
         `;
         return;

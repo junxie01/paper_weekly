@@ -67,7 +67,7 @@ async function loadPapers(topic) {
             document.getElementById('total-citations').textContent = data.total_citations || 0;
             document.getElementById('weekly-citations').textContent = data.weekly_citations || 0;
             renderCitationMap(data.papers || [], data.weekly_papers || []);
-            papers = data.weekly_papers || [];
+            papers = data.papers || [];
         } else {
             citationStats.classList.add('hidden');
             citationMap.classList.remove('hidden');
@@ -96,7 +96,7 @@ function renderPapersList() {
     
     if (!papers || papers.length === 0) {
         const emptyMsg = currentTopic === 'citations'
-            ? `<div class="empty-state"><h2>😔 没有引用</h2><p>过去的一周没有人引用你的文章，多发几篇好的，或者出去开会推销一下啊 looser。</p></div>`
+            ? `<div class="empty-state"><h2>暂无引用数据</h2><p>如果这是首次初始化，请先运行一次完整引用扫描；之后每周更新会保留历史引用并标记新增引用。</p></div>`
             : `<div class="empty-state"><h2>📚 暂无论文</h2><p>目前没有找到相关的论文。</p></div>`;
         container.innerHTML = emptyMsg;
         return;

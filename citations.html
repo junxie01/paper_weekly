@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>文章引用 - 地震学周报</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="citations_map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
     <div class="container">
@@ -47,6 +49,11 @@
             </div>
         </div>
 
+
+        <div id="map-container" class="map-container hidden">
+            <div id="citation-map"></div>
+        </div>
+
         <div id="papers-list" class="papers-list"></div>
 
         <div id="paper-modal" class="modal hidden">
@@ -60,11 +67,7 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            loadPapers('citations');
-        });
-    </script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="citations_map.js"></script>
 </body>
 </html>
