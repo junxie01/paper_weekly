@@ -1,33 +1,56 @@
 #!/bin/bash
 
-# 🧊 冰川地震学论文系统 - 一键推送脚本 (增强版)
+set -euo pipefail
 
-# 1. 检查是否有 commit 信息输入，如果没有则使用默认信息
-COMMIT_MSG=$1
+BRANCH="${DEPLOY_BRANCH:-main}"
+COMMIT_MSG="${1:-}"
+
 if [ -z "$COMMIT_MSG" ]; then
-    read -p "请输入本次提交的说明 (回车使用默认: 'update papers'): " input
-    COMMIT_MSG=${input:-"update papers"}
+    read -r -p "请输入本次提交说明 (回车使用默认: update papers): " input
+    COMMIT_MSG="${input:-update papers}"
 fi
 
-echo "🚀 开始同步更新到 GitHub..."
+cd "$(git rev-parse --show-toplevel)"
 
-# 2. 添加所有更改
-git add .
-
-# 3. 提交更改 (如果没有任何更改则跳过)
-git commit -m "$COMMIT_MSG" || echo "没有检测到需要提交的更改。"
-
-# 4. 先拉取远程更新，防止 [rejected] 错误
-echo "📥 正在拉取远程更新并合并本地更改 (rebase)..."
-git pull --rebase origin main
-
-# 5. 推送到远程仓库
-echo "📤 正在推送数据到 GitHub..."
-git push origin main
-
-if [ $? -eq 0 ]; then
-    echo "✅ 推送成功！"
-    echo "🌐 你的网页应该在几分钟后完成更新。"
-else
-    echo "❌ 推送失败，请检查网络或是否有未解决的冲突。"
+CURRENT_BRANCH="$(git branch --show-current)"
+if [ "$CURRENT_BRANCH" != "$BRANCH" ]; then
+    echo "当前分支是 $CURRENT_BRANCH，请先切换到 $BRANCH 后再运行。"
+    exit 1
 fi
+
+echo "开始同步远端 $BRANCH..."
+git fetch origin "$BRANCH"
+git pull --rebase --autostash origin "$BRANCH"
+
+echo "暂存项目文件..."
+git add -- \
+    .github/workflows/*.yml \
+    README.md \
+    requirements.txt \
+    deploy.sh \
+    update_papers.py \
+    update_citations.py \
+    generate_report.py \
+    app.js \
+    citations_map.js \
+    style.css \
+    citations_map.css \
+    index.html \
+    citations.html \
+    about.md \
+    data*.json \
+    my_papers.json \
+    geocode_cache.json
+
+if git diff --cached --quiet; then
+    echo "没有检测到需要提交的项目文件变更。"
+    exit 0
+fi
+
+echo "提交更改..."
+git commit -m "$COMMIT_MSG"
+
+echo "推送到 GitHub..."
+git push origin "$BRANCH"
+
+echo "推送完成。"
