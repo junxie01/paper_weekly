@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: '0 0 * * 0' # 每周日 08:00 (北京时间), 等价于 UTC 00:00
   workflow_dispatch: # 允许手动在 GitHub 界面点击运行
+    inputs:
+      full_citation_scan:
+        description: '是否重建全部历史引用数据'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -34,6 +40,8 @@ jobs:
         run: python update_papers.py
 
       - name: Run citations update
+        env:
+          FULL_SCAN: ${{ github.event.inputs.full_citation_scan == 'true' && 'true' || 'false' }}
         run: python update_citations.py
 
       - name: Generate report
