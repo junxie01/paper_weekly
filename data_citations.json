@@ -1,9 +1,41 @@
 {
-  "last_update": "2026-05-01 22:49",
+  "last_update": "2026-06-21 12:20",
   "topic_name": "文章引用",
-  "total_citations": 352,
-  "weekly_citations": 0,
+  "total_citations": 354,
+  "weekly_citations": 2,
   "papers": [
+    {
+      "id": "10.1007/s10950-026-10407-2",
+      "title": "Spectral amplification from impulse response functions retrieved from ambient seismic noise: Adana Basin, Turkey",
+      "url": "https://doi.org/10.1007/s10950-026-10407-2",
+      "first_author": "Taciser Bakırcı",
+      "corr_author": "Taciser Bakırcı",
+      "affiliation": "N/A",
+      "abs_zh": "This paper cited: Sedimentary structure of the Sichuan Basin derived from seismic ambient noise tomography",
+      "source": "Journal of Seismology",
+      "published": "2026-6-18",
+      "cited_paper": "Sedimentary structure of the Sichuan Basin derived from seismic ambient noise tomography",
+      "is_new_this_week": true,
+      "coordinates": null
+    },
+    {
+      "id": "10.1785/0220250426",
+      "title": "Persistent Narrowband Seismic Signal from the Eastern Mediterranean",
+      "url": "https://doi.org/10.1785/0220250426",
+      "first_author": "Piero Poli",
+      "corr_author": "Tomoya Takano",
+      "affiliation": "1Dipartimento di Geoscienze, Università di Padova, Padova, Italy",
+      "abs_zh": "This paper cited: Generation mechanism of the 26 s and 28 s tremors in the Gulf of Guinea from statistical analysis of magnitudes and event intervals",
+      "source": "Seismological Research Letters",
+      "published": "2026-6-12",
+      "cited_paper": "Generation mechanism of the 26 s and 28 s tremors in the Gulf of Guinea from statistical analysis of magnitudes and event intervals",
+      "is_new_this_week": true,
+      "coordinates": {
+        "lat": 45.391408,
+        "lon": 11.8058487,
+        "display_name": "Padova, Veneto, Italia"
+      }
+    },
     {
       "id": "10.1029/2025gl115773",
       "title": "Lithospheric Structures of Marginal Sea Basins in and Around the Philippine Sea Plate Shaped by Eastward Mantle Flow",
@@ -5621,8 +5653,51 @@
       "coordinates": null
     }
   ],
-  "weekly_papers": [],
+  "weekly_papers": [
+    {
+      "id": "10.1007/s10950-026-10407-2",
+      "title": "Spectral amplification from impulse response functions retrieved from ambient seismic noise: Adana Basin, Turkey",
+      "url": "https://doi.org/10.1007/s10950-026-10407-2",
+      "first_author": "Taciser Bakırcı",
+      "corr_author": "Taciser Bakırcı",
+      "affiliation": "N/A",
+      "abs_zh": "This paper cited: Sedimentary structure of the Sichuan Basin derived from seismic ambient noise tomography",
+      "source": "Journal of Seismology",
+      "published": "2026-6-18",
+      "cited_paper": "Sedimentary structure of the Sichuan Basin derived from seismic ambient noise tomography",
+      "is_new_this_week": true,
+      "coordinates": null
+    },
+    {
+      "id": "10.1785/0220250426",
+      "title": "Persistent Narrowband Seismic Signal from the Eastern Mediterranean",
+      "url": "https://doi.org/10.1785/0220250426",
+      "first_author": "Piero Poli",
+      "corr_author": "Tomoya Takano",
+      "affiliation": "1Dipartimento di Geoscienze, Università di Padova, Padova, Italy",
+      "abs_zh": "This paper cited: Generation mechanism of the 26 s and 28 s tremors in the Gulf of Guinea from statistical analysis of magnitudes and event intervals",
+      "source": "Seismological Research Letters",
+      "published": "2026-6-12",
+      "cited_paper": "Generation mechanism of the 26 s and 28 s tremors in the Gulf of Guinea from statistical analysis of magnitudes and event intervals",
+      "is_new_this_week": true,
+      "coordinates": {
+        "lat": 45.391408,
+        "lon": 11.8058487,
+        "display_name": "Padova, Veneto, Italia"
+      }
+    }
+  ],
   "map_data": [
+    {
+      "lat": 45.391408,
+      "lon": 11.8058487,
+      "title": "Persistent Narrowband Seismic Signal from the Eastern Mediterranean",
+      "author": "Piero Poli",
+      "affiliation": "1Dipartimento di Geoscienze, Università di Padova, Padova, Italy",
+      "published": "2026-6-12",
+      "url": "https://doi.org/10.1785/0220250426",
+      "is_new_this_week": true
+    },
     {
       "lat": 36.0663249,
       "lon": 120.3777659,

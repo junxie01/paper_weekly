@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-07 至 2026-06-14 04:13",
+  "last_update": "2026-06-14 至 2026-06-21 12:20",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -31,7 +31,7 @@
       "first_author": "Tiente R. Koireng",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "接收函数（RF）广泛用于对地壳和上地幔结构进行成像，其随方位角和震中距离的变化包含有关分层和方位各向异性的关键信息。然而，实际上，射频受到未知地震源特征和地震噪声的干扰影响，从而阻碍了可靠的地壳成像。跨方位角和震中距离的稀疏射频覆盖也会导致各向异性估计出现偏差。我们使用条件扩散模型来应对这些挑战，以后方位角、震中距和台站坐标为条件，生成高质量的虚拟径向和横向射频。来自具有相似方位角和震中距离的地震的射频具有一致的地壳响应，但滋扰效应不同，从而使模型能够抑制后者。我们的框架在后方位角和震中距离覆盖范围内生成虚拟射频，增强对地壳各向异性和分层的解释。在具有真实非高斯噪声的合成射频上，虚拟射频与真实射频的相关性比传统线性或相位加权叠加更强。应用于卡斯卡迪亚俯冲带时，虚拟径向射频对来自倾斜板片的散射 S 波进行了清晰的成像，与之前的工作相比，具有增强的相位清晰度和后向覆盖范围。在南加州，从虚拟 RF 推断出的各向异性参数在空间上是相干的，并且与区域断层几何形状一致。我们的方法利用所有可用的射频（无论质量如何）来增加空间覆盖范围并支持强大的自动化射频分析。",
+      "abs_zh": "接收函数（RF）广泛用于对地壳和上地幔结构进行成像，其随方位角和震中距离的变化包含有关分层和方位各向异性的关键信息。然而，实际上，射频受到未知地震源特征和地震噪声的干扰影响，从而阻碍了可靠的地壳成像。后方位角和震中距离的稀疏射频覆盖也会导致各向异性估计出现偏差。我们使用条件扩散模型来应对这些挑战，以后方位角、震中距和台站坐标为条件，生成高质量的虚拟径向和横向射频。来自具有相似方位角和震中距离的地震的射频具有一致的地壳响应，但滋扰效应不同，从而使模型能够抑制后者。我们的框架在后方位角和震中距离覆盖范围内生成虚拟射频，增强对地壳各向异性和分层的解释。在具有真实非高斯噪声的合成射频上，虚拟射频与真实射频的相关性比传统线性或相位加权叠加更强。应用于卡斯卡迪亚俯冲带时，虚拟径向射频对来自倾斜板片的散射 S 波进行了清晰的成像，与之前的工作相比，具有增强的相位清晰度和后向覆盖范围。在南加州，从虚拟 RF 推断出的各向异性参数在空间上是相干的，并且与区域断层几何形状一致。我们的方法利用所有可用的射频（无论质量如何）来增加空间覆盖范围并支持强大的自动化射频分析。",
       "source": "arXiv",
       "published": "2026-03-21"
     },
@@ -80,6 +80,17 @@
       "published": "2026"
     },
     {
+      "id": "10.1016/j.epsl.2026.120160",
+      "title": "Supercontinent cycles modulate mantle structure and plume activity: A mechanism to form long-term periodicity in detrital zircons and LIPs records",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120160",
+      "first_author": "Peirong Zhu",
+      "corr_author": "Wei Leng",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.120174",
       "title": "He–Ne–Ar isotopic constraints on the mantle source of the Fani Maoré paroxysm: implications for plume involvement beneath the Comoros",
       "url": "https://doi.org/10.1016/j.epsl.2026.120174",
@@ -113,6 +124,17 @@
       "published": "2026"
     },
     {
+      "id": "10.1016/j.epsl.2026.120187",
+      "title": "On the mechanism of sill emplacement in sedimented rift environments: Petrophysical properties constraints from the Guaymas Basin, Gulf of California",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120187",
+      "first_author": "Karina Fuentes-Bustillos",
+      "corr_author": "Manet E. Peña-Salinas",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.120136",
       "title": "Rare earth element partitioning in Hadean zircons establishes granitic magma source",
       "url": "https://doi.org/10.1016/j.epsl.2026.120136",
@@ -124,47 +146,25 @@
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl121977",
-      "title": "Nitrate Photolysis in the Upper Boundary Layer as a Daytime Missing Source of HONO: Revealed by In Situ Airship Measurements and Modeling",
-      "url": "https://doi.org/10.1029/2026gl121977",
-      "first_author": "Xueyu Zhou",
-      "corr_author": "Aijun Ding",
-      "affiliation": "State Key Laboratory of Severe Weather Meteorological Science and Technology Nanjing University  Nanjing China",
-      "abs_zh": "亚硝酸（HONO）来源的缺失是理解对流层大气化学的一个关键不确定因素。颗粒硝酸盐光解作用已被提议作为白天 HONO 的潜在来源，但其贡献仍然很少受到限制，甚至很少有人关注高空硝酸盐的影响。在这里，我们基于南京系留飞艇的垂直测量以及气象化学耦合模型，研究了硝酸盐光解对 HONO 生产的影响。我们发现，高处的硝酸盐光解作用约为地表的 1.8 倍，并且通过垂直混合对表面 HONO 产生了显着贡献。区域模拟进一步表明，长三角地区的硝酸盐光解作用使模拟HONO浓度和最大日8小时平均臭氧浓度分别增加了79.3%和12.5%。我们的研究结果强调了硝酸盐光解作用作为白天 HONO 来源的重要性及其对中国东部大城市大气氧化能力的关键影响。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250455",
-      "title": "Intrinsic Uncertainty of Noise Cross-Correlation Functions and Its Implications for Source Properties",
-      "url": "https://doi.org/10.1785/0220250455",
-      "first_author": "Ying-Nien Chen",
-      "corr_author": "Ying-Nien Chen",
-      "affiliation": "1Department of Earth and Environmental Sciences, National Chung Cheng University, Chiayi, Taiwan",
-      "abs_zh": "本文提出了一种评估噪声互相关函数 (NCF) 内在不确定性 (IU) 的定量方法，并将其应用于从台湾宽带地震台阵获得的实际 NCF。 NCF 波形的标准差 (STD) 随着相关时间的增加而演变与理论预测密切相关，证实了该方法的有效性。导出的 IU 提供了评估 NCF 质量的客观指标，特别是尾波，它广泛用于监测时间结构变化。通过应用于综合实验的分析程序，结果表明噪声源的分布和激励强度强烈影响 IU。因此，将 IU 估计值与源自不同归一化方法的 NCF 幅度相结合，可以对环境噪声源特性进行全面评估。利用所提出的方法，本研究揭示了短周期次生微震、局地一次微震和一次微震的激发机制。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeg2196",
-      "title": "Broadband and high-speed terahertz wireless sensing via vertical-transport Dirac-source detector",
-      "url": "https://doi.org/10.1126/sciadv.aeg2196",
-      "first_author": "Xiaokai Pan",
-      "corr_author": "Lin Wang",
-      "affiliation": "State Key Laboratory of Infrared Physics, Shanghai Institute of Technical Physics, Chinese Academy of Sciences, 500 Yu-tian Road, Shanghai 200083, China.",
-      "abs_zh": "在无线传感领域，预计传感和通信功能将共存并完全集成在一个统一的系统中。因此，未来的传感系统需要能够在更高频段（从毫米波到太赫兹（THz））运行的探测器，同时提供更宽的带宽、更快的响应速度和增强的功能集成。狄拉克源（DS）探测器采用狄拉克半金属作为热电子源，利用狄拉克点附近的低态密度（DOS），从而有效抑制金属诱导的带隙态的形成。此外，当这种架构结合了垂直范德华（vdW）异质结构固有的层间垂直电子传输时，它显示出实现具有卓越注入和传输效率的低功耗、后摩尔时代传感设备的巨大前景。在这里，我们报道了一种由完全垂直的金/五碲化锆/石墨烯/金结构（Au/ZrTe\n                    5\n                    /石墨烯/金）异质结，利用强局域场来实现高热电子发射。该探测器在响应率方面表现出出色的性能，在室温下0.02至0.5 THz范围内的峰值超过1600 V/W，具有小于20 ns的快速响应时间，特别是能够进行中频（IF）带宽大于±26.5 GHz的外差混频。我们的研究结果不仅为太赫兹区域的 DS 动力学提供了新的视角，而且还凸显了半金属电子学在无线能量收集、通信和成像应用中的变革潜力。",
+      "id": "10.1126/sciadv.aee6015",
+      "title": "A conserved in-frame stop codon acts as a multipotent defense mechanism in alphaviruses",
+      "url": "https://doi.org/10.1126/sciadv.aee6015",
+      "first_author": "Tamanash Bhattacharya",
+      "corr_author": "Harmit S. Malik",
+      "affiliation": "Basic Sciences Division, Fred Hutchinson Cancer Center, Seattle, WA, USA.",
+      "abs_zh": "大多数甲病毒都维持一个框内蛋白石终止密码子，该密码子会中断脊椎动物和昆虫宿主中 nsP3 和 nsP4 之间的非结构多蛋白 (nsP) ORF。我们证明 nsP3 蛋白石终止密码子赋予 Sindbis 病毒 (SINV) 在 RNAi 能力中的复制优势\n                    伊蚊\n                    细胞和蚊子中，但不在 RNAi 缺陷细胞或蚊子中。蛋白石终止密码子的突变会延迟病毒 nsP 多蛋白的加工，破坏病毒复制球的完整性，并使病毒 RNA 容易受到 Dicer 2 裂解的影响，从而导致针对 SINV 的抗病毒 siRNA 反应更高。同样，蛋白石密码子突变引起的这些缺陷会增加病毒 RNA 检测并增强脊椎动物细胞中的免疫信号传导。因此，甲病毒中的单个终止密码子介导多能病毒策略，以逃避不同宿主的先天免疫防御。",
       "source": "Science Advances",
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.aef3336",
-      "title": "Tailoring crystallization kinetics for scalable and efficient large-area perovskite light-emitting diodes",
-      "url": "https://doi.org/10.1126/sciadv.aef3336",
-      "first_author": "Sung-Doo Baek",
-      "corr_author": "Letian Dou",
-      "affiliation": "Davidson School of Chemical Engineering, Purdue University, West Lafayette, IN 47907, USA.",
-      "abs_zh": "均匀钙钛矿薄膜的可扩展制造是大面积钙钛矿发光二极管（PeLED）的关键瓶颈，受到咖啡环形成和缩放时异质结晶的阻碍。在这里，我们报告了一种多模式溶剂工程策略，通过环境刮刀涂层结合真空辅助溶剂蒸发来实现高度均匀的薄膜。纳入\n                    氮\n                    -甲基-2-吡咯烷酮 (NMP) 和乙腈 (ACN) 进入基于二甲基甲酰胺 (DMF) 的系统中，可协同调节蒸发动力学：它通过马兰戈尼流诱导的再分布抑制宏观溶质偏析，同时调整前体协调以调节成核/相转换并促进辐射高效的薄膜形成。因此，三元配方产生的薄膜具有改善的均匀性、降低的陷阱密度和增强的辐射效率。近红外 (NIR) PeLED 的峰值外量子效率达到 25.2%（10 mm\n                    2\n                    ), 22.1% (60 毫米\n                    2\n                    ）和 19.0%（224 毫米\n                    2\n                    ）。还使用 224 毫米演示了功能性静脉成像原型\n                    2\n                    器件，突出了对大面积光电应用的影响。",
-      "source": "Science Advances",
+      "id": "10.1126/science.aec6396",
+      "title": "Induction of broadly neutralizing HIV antibodies by a two-step mechanism informs vaccine design",
+      "url": "https://doi.org/10.1126/science.aec6396",
+      "first_author": "Ashwin N. Skelly",
+      "corr_author": "George M. Shaw",
+      "affiliation": "Departments of Medicine and Microbiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+      "abs_zh": "HIV-1 疫苗和治疗研究面临的一个主要障碍是缺乏能够快速、一致诱导广泛中和抗体 (bNAb) 的远交动物模型。我们设计了一种针对表位的猿猴人类免疫缺陷病毒 (SHIV.5MUT)，该病毒在 22 只猕猴中的 14 只感染后一年内引发了广泛且有效的 V3-聚糖靶向抗体，而 14 只对照动物中的 0 只只有 0 只。 SHIV.5MUT 通过两步机制引发 bNAb，诱导第一波 V1 定向抗体，这些抗体选择具有缩短的低糖基化 V1 环的包膜 (Env) 糖蛋白变体，进而引发 V3-聚糖 bNAb 前体。恒河猴 bNAb 在免疫遗传学和结构上具有多样性，与人类 V3-聚糖 bNAb 非常相似。 Env-bNAb 共同进化揭示了 bNAb 前体的多样性以及使它们成熟的 Env 变体，从而产生了疫苗设计的分子蓝图。",
+      "source": "Science",
       "published": "2026"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-07 至 2026-06-14 04:13",
+  "last_update": "2026-06-14 至 2026-06-21 12:20",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -36,6 +36,83 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aea9951",
+      "title": "Machine learning potentials for modeling alloys across compositions",
+      "url": "https://doi.org/10.1126/sciadv.aea9951",
+      "first_author": "Killian Sheriff",
+      "corr_author": "Rodrigo Freitas",
+      "affiliation": "Department of Materials Science and Engineering, Massachusetts Institute of Technology, Cambridge, MA, USA.",
+      "abs_zh": "材料特性在很大程度上取决于化学成分，即每种化学元素的相对含量。成分的变化会导致完全不同的化学排列，其复杂性从完全有序（即化学计量化合物）到完全无序（即固溶体）不等。准确捕获这一系列的化学排列仍然是一个重大挑战，限制了材料建模中机器学习潜力 (MLP) 的预测准确性。在这里，我们结合信息论和机器学习来优化化学基序的采样并设计 MLP，以有效捕获金属合金在整个成分和结构景观中的行为。通过预测 AuPt 和 CuAu 二元合金、三元 CrCoNi 和 TiTaVW 高熵合金的各种材料特性（包括堆垛层错能、短程有序、热容和相图）的成分依赖性，证明了该方法的有效性。与实验数据的广泛比较证明了该方法在实现具有高物理保真度的材料建模方面的稳健性。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec7965",
+      "title": "Scalable multiplexed machine learning gas sensor chips for food classification",
+      "url": "https://doi.org/10.1126/sciadv.aec7965",
+      "first_author": "Carla Bassil",
+      "corr_author": "Ali Javey",
+      "affiliation": "Department of Electrical Engineering and Computer Sciences, University of California, Berkeley, CA, USA.",
+      "abs_zh": "多路气体传感器阵列与机器学习相结合，解锁了以前无法实现的基于气味的传感应用。当前的平台受到具有相似成分的重叠传感材料的限制，导致高度相关的响应，或多步骤沉积过程阻碍了可扩展性。在这项工作中，我们开发了一款具有完全不同传感层的 16 元件单片芯片，从而实现了真正的异构阵列。该系统由高度灵敏的碳纳米管场效应晶体管组成，通过与自动移液系统兼容的单步微分配方法进行功能化。由此产生的芯片会根据特定物体的气味特征产生特征信号模式，并且与机器学习算法相结合，可以执行自动物体识别。我们展示了对 16 种不同对象的分类，包括食物腐败和坚果过敏原，总体预测准确度为 92.6%。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121289",
+      "title": "Machine Learning Eliminates Reanalysis Warm Bias and Reveals Weaker Winter Surface Cooling Over Arctic Sea Ice",
+      "url": "https://doi.org/10.1029/2025gl121289",
+      "first_author": "Akil Hossain",
+      "corr_author": "Felix Pithan",
+      "affiliation": "Alfred Wegener Institute Helmholtz Centre for Polar and Marine Research  Bremerhaven Germany",
+      "abs_zh": "地表能量预算控制着北极海冰的生长/融化，但观测结果很少，而且再分析数据集存在系统偏差。在这里，我们用观测数据训练一个神经网络，以对 1994 年至 2024 年北极冰覆盖地区（≥70°N；海冰浓度 > 80%）的每小时 ERA5 通量进行偏差校正。训练数据涵盖两个完整的季节周期和不同的海冰状况。神经网络将净短波辐射的 RMSE 降低了约 40%，向下长波辐射降低了约 16%，总表面能量预算降低了约 55%，消除了 ERA5 中约 4 K 的冬季温暖偏差。冬季表面冷却减少约 50%，热力学冰生长估计为约 80-120 厘米，与 SMOS-CryoSat 卫星厚度增加一致，与 ERA5 暗示的 150-200 厘米生长形成鲜明对比。我们的偏差校正数据捕获了观察到的冬季边界层的晴/多云状态，可用于研究北极气候学、评估气候模型和驱动海冰海洋模型。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3533-2026",
+      "title": "Inferring subglacial topography using physics informed machine learning constrained by two conservation laws",
+      "url": "https://doi.org/10.5194/tc-20-3533-2026",
+      "first_author": "Mansa Krishna",
+      "corr_author": "Mathieu Morlighem",
+      "affiliation": "未知机构",
+      "abs_zh": "。格陵兰冰盖下方的冰下地形是对其动态和对气候系统变化的响应的基本控制。然而，直接测量仍然具有挑战性，冰下地形的现有表示依赖于有限数量的观测。尽管质量守恒的使用和 BedMachine Greenland 的开发极大地改善了河床地形的表征，但这种方法仅限于快速流动的区域，并且在复杂的高山地形地区效果较差。作为传统数值方法的替代方法，最近的工作探索了使用仅受一个物理定律约束的物理信息神经网络 (PINN) 来解决冰盖建模中的正向和逆向问题。在这项工作的基础上，我们评估了受不同守恒定律约束的三个 PINN 框架，表明单一守恒定律的 PINN 不足以满足测量稀疏和地形复杂的区域。为此，我们引入了一种新颖的方法，该方法涉及在 PINN 框架内耦合两个守恒定律来推断冰下地形，并在格陵兰岛具有不同环境的三个区域测试这种方法。该 PINN 接受了质量守恒和动量守恒近似（谢尔菲流近似）的训练，这使我们能够在混合反演问题中使用对冰速度、表面高程、表面质量平衡和冰变薄率的观察来同时推断冰厚度和基底剪切应力。我们将预测的冰厚度与地面真实的透冰雷达测量的冰厚度进行比较，表明了解两个守恒定律的 PINN 能够推断稀疏测量区域的冰厚度。此外，预测的床地形与 BedMachine Greenland 的比较表明，这种方法能够在较慢的移动中发现新的床特征。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250431",
+      "title": "Insights into a Deep Learning Workflow for Automatic Detection of Seismic Signals at Mount Etna Volcano",
+      "url": "https://doi.org/10.1785/0220250431",
+      "first_author": "Andrea Carducci",
+      "corr_author": "Monica Sugan",
+      "affiliation": "1National Institute of Oceanography and Applied Geophysics, OGS, Trieste, Italy",
+      "abs_zh": "我们提出了自动检测火山地区地震事件的工作流程，利用深度学习 (DL) 工具来拾取和关联地震相位。具体来说，我们通过 SeisBench 开源平台使用 PhaseNet 和 EQTransformer 从连续地震波形中自动拾取 P 波和 S 波到达。为了评估性能，我们使用埃特纳火山（意大利）的地震数据系统地测试了 SeisBench 中可用的几个预训练模型，包括 2019 年 1 月至 2020 年 6 月记录的火山构造 (VT) 和长周期 (LP) 事件。每个模型配置都通过统计分析进行定量评估，将结果与现有地震目录进行比较，以确定埃特纳火山地区最有效的方法。我们的研究结果表明，在特定火山数据集上训练的模型明显优于基于构造数据的模型。为了进一步对 VT 和 LP 信号进行分类，我们应用了基于频率的算法，该算法使用修改后的频率指数，可根据频谱特征有效地区分 VT、LP、低频谱、混合和未分类类型事件。这种分类与审查的目录非常一致。总体而言，所提出的工作流程在埃特纳火山的复杂环境中表现良好，凸显了预训练的深度学习模型用于半自动火山监测的潜力。与此同时，我们的结果强调需要进行特定地点的模型验证和专家监督，以确保可靠的结果。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag235",
+      "title": "Comment on “Detection of Marsquakes on InSight data using deep learning” by Huang et al. (2025)",
+      "url": "https://doi.org/10.1093/gji/ggag235",
+      "first_author": "Nikolaj L Dahmen",
+      "corr_author": "Domenico Giardini",
+      "affiliation": "Institute of Geophysics, ETH Zurich , Zurich ,",
+      "abs_zh": "总结\n                  黄等人。 (2025) 报告了检测到 67 次由 P 波和 S 波到达识别的远震火星震。作者使用了对当地地震数据进行训练的深度学习相位选择器，并将其应用于 NASA InSight 地震仪记录的窄带通滤波地震数据，在调整采样率和 S-P 时间尺度关系时，利用了当地地震和远震火星地震记录之间的相似性。我们使用 InSight 记录的补充风和压力数据，以与火星地震服务目录和该数据集的其他研究类似的方式审查所有检测。由于这些辅助数据在任务的后半段没有记录，我们还根据包含风敏感着陆器模式的地震数据的带宽推断风污染。此外，我们还分析信号偏振，将其与 P 波和 S 波以及背景噪声的预期特征进行比较。我们的审查表明，作者报告的所有 67 项检测都对应于大气噪声。在大多数情况下，探测到的地震特征与小风爆发和随后的大风爆发的地震特征有关，作者将风爆发的发作解释为纵波和横波。此外，我们表明，如果这些事件被解释为真正的火星地震，它们推断的震中距离分布将与典型的火星地震距离不匹配，而它们的震级将使它们成为目录中最大的事件。对于未来处理 InSight 地震事件检测和解释的研究，我们建议仔细考虑本评论和文献中描述的已建立的事件和噪声信号标记，以避免将噪声误解为事件信号。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-3467-2026",
+      "title": "Airborne lidar and machine learning reveal decreased snow depth in burned forests",
+      "url": "https://doi.org/10.5194/tc-20-3467-2026",
+      "first_author": "Arielle Koshkin",
+      "corr_author": "Adrienne M. Marshall",
+      "affiliation": "未知机构",
+      "abs_zh": "。野火在海拔更高的地方越来越多地燃烧到季节性雪区，改变了积雪和融化的动态。然而，整个雪季的空间分布观测有限，限制了我们对这些变化如何随空间和时间变化的理解。在这里，我们使用机器学习 (ML) 算法极限梯度提升 (XGBoost) 评估火灾对加利福尼亚州内华达山脉 9 个盆地积雪深度的影响，该算法在部分燃烧盆地中使用 114 个机载激光雷达积雪深度采集（分辨率为 50 米）进行训练。我们开发并应用了一个可解释的机器学习框架，将机器学习算法拟合到每次飞行的雪深上，作为空间属性（包括燃烧状态）的函数。然后，我们预测每次飞行的反事实燃烧和未燃烧条件下的雪深，以评估机器学习产生的火灾对雪深的影响。火灾对积雪深度的影响在整个季节中不断变化，与未烧毁的森林相比，在积雪季节烧毁的森林中预计积雪略深（占采伐量的 56%），而在消融季节烧毁的森林中预计积雪较浅（占采伐量的 83%）。火灾后积雪深度差异小于消融季节。与较高海拔地区（>2000米）相比，较低海拔地区（<2000米）的火灾后雪深变化始终较小，几乎为零。朝南的斜坡经历了最大的火灾后雪深负变化。这些结果说明了一种使用激光雷达得出的雪深来评估火灾对雪的影响的新方法，并提供了对烧毁森林中积雪动态的深入了解，这些动态在空间范围和分辨率以及在整个雪季辨别火灾影响的能力方面都是新颖的。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
       "id": "10.1126/sciadv.aec9518",
       "title": "Deep learning reveals enhanced ENSO predictability under historical anthropogenic forcing",
       "url": "https://doi.org/10.1126/sciadv.aec9518",
@@ -53,85 +130,8 @@
       "first_author": "Zhaofan He",
       "corr_author": "Qirong Xiao",
       "affiliation": "Department of Precision Instrument, Tsinghua University, Beijing 100084, China.",
-      "abs_zh": "软机器人向实体智能系统的演变从根本上依赖于精确的本体感觉。然而，仍然缺乏在不同相互作用期间捕获连续变形的通用解决方案，特别是在空间受限的介入场景中。在这里，我们介绍一种基于单端多模光纤（MMF）的深度学习多功能形状感知方法。通过利用光学器件固有的集成优势，我们的极简反射架构在物理上消除了对复杂解调单元和远端设备的依赖。此外，将混沌光学散斑场视为编码高维形状信息的数据流，可重构神经解码器将单个物理通道解析为适合异构任务的通用感知模式：软抓手的离散状态确认（> 99％的准确度），仿生灵巧手的连续形状跟踪（〜5倍空间分辨率增强），以及软手术机器人的直观3D形态重建（IoU> 0.93）。总的来说，我们的工作建立了一个通过计算打破硬件适应性限制的通用框架，为软机器人数字孪生的闭环控制奠定了坚实的基础。",
+      "abs_zh": "软机器人向实体智能系统的演变从根本上依赖于精确的本体感觉。然而，仍然缺乏在不同交互过程中捕获连续变形的通用解决方案，特别是在空间受限的介入场景中。在这里，我们介绍一种基于单端多模光纤（MMF）的深度学习多功能形状感知方法。通过利用光学器件固有的集成优势，我们的极简反射架构在物理上消除了对复杂解调单元和远端设备的依赖。此外，将混沌光学散斑场视为编码高维形状信息的数据流，可重构神经解码器将单个物理通道解析为适合异构任务的通用感知模式：软抓手的离散状态确认（> 99％的准确度），仿生灵巧手的连续形状跟踪（〜5倍空间分辨率增强），以及软手术机器人的直观3D形态重建（IoU> 0.93）。总的来说，我们的工作建立了一个通过计算打破硬件适应性限制的通用框架，为软机器人数字孪生的闭环控制奠定了坚实的基础。",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122825",
-      "title": "Retrieving Hourly Aerosol Absorption From Space Using Physical Informed Deep Learning",
-      "url": "https://doi.org/10.1029/2026gl122825",
-      "first_author": "Tao Xia",
-      "corr_author": "Xiaochuan Zhang",
-      "affiliation": "Center for Oceanic and Atmospheric Science at SUSTech (COAST) Department of Ocean Sciences and Engineering Southern University of Science and Technology  Shenzhen China",
-      "abs_zh": "从单视卫星观测中检索气溶胶吸收特性，例如单散射反照率（SSA）和吸收气溶胶光学深度（AAOD）仍然是一个重大挑战。本研究引入了物理信息气溶胶神经网络 (PINA) 框架，用于从 Himawari-8/9 数据中检索每小时的气溶胶吸收特性。 PINA 将反演网络与高效替代辐射传输模型集成在一起，为物理一致性提供了可微分的路径。通过采用自适应加权策略，从清洁条件下的数据驱动学习过渡到污染条件下的物理主导学习，PINA 实现了气溶胶光学深度 (AOD) 的高精度（\n                    右\n                     = 0.96，均方根误差 [RMSE] = 0.10), AAOD (\n                    右\n                     = 0.86，RMSE = 0.02)，和 SSA (\n                    右\n                     = 0.63，RMSE = 0.04），优于传统运营卫星产品。 PINA 还展示了强大的时空泛化能力，成功捕获了极端野火烟雾、灰尘和复杂的城市雾霾事件期间吸收特征的每小时动态演变。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef8400",
-      "title": "Oxytocin attenuates fear learning via enhancing somatostatin interneuron–mediated local GABAergic inhibition in the prelimbic cortex",
-      "url": "https://doi.org/10.1126/sciadv.aef8400",
-      "first_author": "Hao Xu",
-      "corr_author": "Lei Xiao",
-      "affiliation": "Shanghai Pudong Hospital, Fudan University Pudong Medical Center, State Key Laboratory of Brain Function and Disorders, MOE Frontiers Center for Brain Science, and the Institutes of Brain Science, Fudan University, Shanghai 200032, China.",
-      "abs_zh": "急性压力暴露会引发创伤后应激障碍（PTSD）。预防性干预措施可以增强高风险职业中针对 PTSD 的心理恢复能力。在这里，我们证明鼻内催产素预处理可以通过前边缘皮层（PL）表达的催产素受体（OxtR）对恐惧学习产生长期但可逆的减弱。至关重要的是，局部 PL 催产素输注和选择性激活 PL OxtR+ 神经元都重现了这种恐惧减少。尽管 OxtR 在锥体神经元和生长抑素 (SST) 神经元上表达，但 SST 中间神经元表现出更高的\n                    奥克斯特尔\n                    表达。恐惧调节和催产素应用都会优先激发 PL OxtR+ SST 中间神经元。因此，预激活 OxtR+ SST 神经元，而不是 OxtR+ 锥体神经元，会引起恐惧学习的减少效果。烧蚀\n                    奥克斯特尔\n                    γ-氨基丁酸（GABA）神经元或沉默 SST 中间神经元可以消除催产素的恐惧减弱作用。从机制上讲，OxtR+ SST 中间神经元激活或催产素应用可增强 GABA 能突触传递至 PL 锥体神经元。总的来说，这些发现证实催产素通过增强 PL 的局部抑制回路来减弱恐惧学习，揭示了降低 PTSD 风险的潜在治疗方法。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10611-7",
-      "title": "Deep learning four decades of human migration",
-      "url": "https://doi.org/10.1038/s41586-026-10611-7",
-      "first_author": "Thomas Gaskin",
-      "corr_author": "Guy J. Abel",
-      "affiliation": "未知机构",
-      "abs_zh": "人口迁移是全球人口变化的根本驱动力，影响着各国的人口结构、劳动力市场和社会政策\n                    1–3\n                    。尽管长期移民模式往往与经济发展相关\n                    4\n                    ，它们可以迅速转变以应对冲突、环境危机和政治变革等冲击\n                    5\n                    。尽管迁移很重要，但它仍然难以一致地衡量：现有数据稀疏，集中在高收入环境中，并且在不兼容的定义、时间分辨率和数据类型上分散\n                    6-8\n                    。过去的努力依赖于部分数据集，包括流量记录、种群估计和覆盖范围有限的基于模型的重建\n                    9-14\n                    。因此，一个核心挑战是建立一个全球一致的、高分辨率的长期移民流动账户。在这里，我们提出了 1990 年至今 230 个国家和地区每年始发地-目的地迁移的新数据集，将不同的数据源整合到统一的建模框架中。通过结合官方统计数据、基于人口普查的种群、净移民估计和过去的流量重建，我们的方法产生了时间上详细和空间上全面的估计，从而大大扩展了现有资源。使用由地理、经济、文化和政治协变量提供信息的深层循环神经网络集合，我们可以捕获持续趋势和对不断变化的条件的短期响应，同时传播不确定性以产生置信区间。我们的结果优于现有数据的五年流量估计，并提供了更精细的时间分辨率，揭示了以前模糊的全球移民模式动态。该框架强调了不确定性仍然很高的地区",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.ady8751",
-      "title": "Incorporating brain-inspired mechanisms for multimodal learning in artificial intelligence",
-      "url": "https://doi.org/10.1126/sciadv.ady8751",
-      "first_author": "Xiang He",
-      "corr_author": "Yi Zeng",
-      "affiliation": "Brain-inspired Cognitive AI Lab, Institute of Automation, Chinese Academy of Sciences, Beijing, China.",
-      "abs_zh": "多模态学习通过整合跨感官模式的信息来增强智能系统的感知能力。然而，大多数人工智能方法仍然依赖于静态融合方案，并没有考虑到大脑中观察到的多感官整合的动态本质。在生物系统中，逆有效性原理表明，较弱的单峰线索对多感觉整合的贡献更大，而较强的线索会降低融合的相对效益。受这种机制的推动，我们研究了多模态输出和模态特定信息之间的关系，并引入了逆有效性驱动的多模态融合（IEMF）策略。将 IEMF 集成到神经网络中可以产生更具适应性的融合行为、更高的准确性并显着提高计算效率。我们验证了 IEMF 在视听感知、视觉语言理解和三模态情感分析方面的通用性，证明了其在分类、持续学习和问题回答方面相对于最先进基线的持续改进。该方法还可以跨架构迁移，包括人工神经网络和尖峰神经网络。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122728",
-      "title": "Listening to Bryde's Whales With an Island Seismometer: Low‐Frequency Call Detection and Seasonal Patterns Revealed by Deep Learning",
-      "url": "https://doi.org/10.1029/2026gl122728",
-      "first_author": "Zhuo Xiao",
-      "corr_author": "Min Xu",
-      "affiliation": "College of Artificial Intelligence Guangxi Minzu University  Nanning China",
-      "abs_zh": "布氏鲸在中国北部湾形成了一个主要的沿海聚集区。利用斜阳岛一年的连续岛内地震记录，我们建立了一个包含超过 170 万个样本的沿海布氏鲸叫声的大型标记数据集。在这些数据上训练的卷积神经网络在地震谱图的鲸鱼叫声或非叫声二元分类中达到了 99.7% 的准确率。对检测到的呼叫进行分析后发现，频率低至 5 Hz，并且有节奏的重复，脉冲间隔可变。从一月到七月，声音活动持续存在，初步建议在下午早些时候减少叫声。这些结果证明了陆上地震仪和深度学习对沿海须鲸进行持续、低成本监测的有效性。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-3313-2026",
-      "title": "Learning to melt: Emulating Greenland surface melt from a polar RCM with machine learning",
-      "url": "https://doi.org/10.5194/tc-20-3313-2026",
-      "first_author": "Elke Schlager",
-      "corr_author": "Peter L. Langen",
-      "affiliation": "未知机构",
-      "abs_zh": "。预测格陵兰冰盖表面融化对于了解表面质量平衡（SMB）及其对气候变化的敏感性至关重要。极地区域气候模型 (RCM) 是模拟融化和预测未来 SMB 的主要工具，但不同的模型产生显着不同的结果。然而，它们的计算成本太高，无法创建量化这种不确定性所需的大型集成。我们开发了一个基于神经网络的模拟器，可以根据大气变量预测每日地表融化，并根据 ERA-Interim 强制的极地 RCM HIRHAM5 及其第一模型 DMIHH 的输出进行训练。该模拟器采用基于物理的设计，将短期天气与长期气候记忆相结合，捕获即时大气强迫和累积的雪特征。输入选择研究表明，湍流热通量、下降辐射和降水以及季节编码足以再现地表融化。仿真器的平均绝对误差低于 0.21mmw.e。 每天相对于 DMIHH 在所有六个格陵兰流域产生的地表融化量，误差主要归因于空间过度平滑。我们的工作表明，机器学习可以成功地模拟仅来自气候强迫的模型行为，计算成本比传统模拟低几个数量级。一旦针对特定的气候强迫进行了重新训练，模拟器就可以进行广泛的集合预测。此外，模块化架构可以轻松适应模拟径流等其他 SMB 数量。这代表着朝着计算有效地模拟极地区域气候模型和地球系统建模中 SMB 组件的替代建模迈出了关键的第一步。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260082",
-      "title": "Enforcing Reciprocity in Operator Learning for Seismic Wave Propagation",
-      "url": "https://doi.org/10.1785/0220260082",
-      "first_author": "Caifeng Zou",
-      "corr_author": "Kamyar Azizzadenesheli",
-      "affiliation": "1Seismological Laboratory, California Institute of Technology, Pasadena, California, U.S.A.",
-      "abs_zh": "准确高效的波场建模支撑着地震结构和震源研究。传统方法符合物理定律，但计算量较大。数据驱动的方法虽然开辟了新的进步途径，但尚未纳入严格的物理一致性。互易原理是波传播中最基本的物理定律之一。我们引入了互易强制神经算子，这是一种基于变压器的架构，用于对地震波传播进行建模，对互易原理进行硬编码。该模型利用交叉注意机制和交换操作来保证交换源和接收器位置下的不变性。除了改进的物理一致性之外，所提出的架构还支持多个源的同时实现。与现实多源配置上的传统神经算子相比，这在相似的内存占用下产生了数量级的推理加速。我们使用单力下粒子速度场的互易关系来演示该功能。该架构还适用于膨胀源下的压力场和由 Eikonal 方程控制的走时场，为编码更复杂的互易关系铺平了道路。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
