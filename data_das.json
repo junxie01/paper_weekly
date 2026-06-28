@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-06-14 至 2026-06-21 12:20",
+  "last_update": "2026-06-21 至 2026-06-28 11:57",
   "topic_name": "分布式光纤传感",
   "papers": [
-    {
-      "id": "2606.20561v1",
-      "title": "TimeProVe: Propose, then Verify for Efficient Long Video Temporal Reasoning in Activities of Daily Living",
-      "url": "http://arxiv.org/abs/2606.20561v1",
-      "first_author": "Arkaprava Sinha",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "长视频问答 (LVQA) 需要在长达数小时的未修剪视频中识别稀疏的、与查询相关的证据。现有方法要么使用大型视觉语言模型（VLM）密集处理视频，从而产生高昂的计算成本，要么依赖基于稀疏字幕的推理，这通常会错过时间局部和以运动为中心的证据。我们推出了 TimeProVe，这是一种经济高效的混合框架，用于长视频中的基于时间的推理。 TimeProVe 首先采用轻量级模块来生成基于行动的答案——证据假设，然后调用昂贵的 VLM 仅进行有针对性的验证。我们框架的核心在于基于动作的候选证据（ACE）模块，该模块将时间局部动作转换为查询条件的候选答案，并通过轻量级 LLM 推理支持证据窗口。我们进一步介绍 OpenTSUBench (OTB)，这是一个开放式基准测试，旨在评估现实世界日常生活活动 (ADL) 场景中的基于时间的推理。实验表明，TimeProVe 的性能比 OTB 上最强的基线高 7.3%，同时将 VLM 调用减少 75%，推理成本减少 93%。此外，在没有明确的时间接地训练的情况下，TimeProVe 在 Charades-STA 上实现了具有竞争力的性能，并且在通过接地 VLM 进行增强时达到了最先进的结果。",
-      "source": "arXiv",
-      "published": "2026-06-18"
-    },
-    {
-      "id": "2606.20559v1",
-      "title": "UNIEGO: Proxies as Mediators for Unified Egocentric Video Representation Learning",
-      "url": "http://arxiv.org/abs/2606.20559v1",
-      "first_author": "Wenhao Chi",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "以自我为中心的视频理解本质上受到可穿戴相机狭隘视角的限制：单一视点、单一模式、单一模型无法捕捉人类行为的全部丰富性。我们认为，真正富有表现力的以自我为中心的表示必须包含跨观点、模式和基础模型表示的补充知识，但仍然可以仅从以自我为中心的视频中部署。为此，我们引入了一个分层的多教师蒸馏框架，该框架产生了 UNIEGO，这是一个统一的以自我为中心的编码器，由九名教师进行训练，涵盖自我-外在观点、RGB、深度和骨架模式，以及四个基础模型。我们的框架不是直接从异构教师中提取，这些教师的不兼容的架构和特征几何会导致冲突的梯度，而是插入一层特定于表示的代理模型，将不同的教师知识转化为同质的自我中心空间。第二个蒸馏阶段是选择性代理蒸馏 (SPD)，然后为每个训练样本自适应地选择正确且可信的代理子集，专门从可靠的监督中进行蒸馏并抑制错误信号。通过将 UNIEGO 初始化为代理参数的学习凸组合，在蒸馏开始之前将统一模型放置在损失景观的条件良好的区域中，可以进一步稳定 SPD。 UNIEGO 在三个以自我为中心的视频理解任务中实现了最先进的性能——动作识别、视频检索和动作分割，在三个具有挑战性的 ego-exo 基准上表现出色，优于朴素的多教师蒸馏基线，并证明结构化、代理介导的知识转移可以产生更丰富、更具辨别力的自我中心表示。",
-      "source": "arXiv",
-      "published": "2026-06-18"
-    },
-    {
-      "id": "2606.20378v1",
-      "title": "Mixed Floquet Lattice model for gapless topology",
-      "url": "http://arxiv.org/abs/2606.20378v1",
-      "first_author": "Goutham Vinjamuri",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "本着驱动合成晶格中拓扑频率转换的精神，我们研究了由两个不相称驱动器生成的 Floquet 合成维度中时间反转断裂的 Weyl 半金属的实现，PRX 7, 041008 (2017)。该系统由混合 $(1~\\mathrm{real}+2~\\mathrm{synthetic})$ 维设置中的一维晶格模型描述，其中驱动相充当合成动量并在混合 Floquet 能带结构中生成 Weyl 点。使用与这些能带简并相关的拓扑，我们分析了两个驱动器之间的能量传递。我们发现混合 Floquet 晶格仅在动量解析意义上捕获 Weyl 半金属拓扑：对于固定的实际动量 $k_x$，功率传输测量 $k_x$ 解析的 Chern 数并检测 Weyl 节点的分离。然而，完整的真实空间响应在本质上是不同的。总功率传输不会再现静态 Weyl 半金属相图，而是遵循有效的 Rice-Mele 型泵浦结构。因此，与完全有间隙的拓扑绝缘体相比，无间隙半金属相不能直接转化为 Floquet 合成尺寸。我们的结果揭示了驱动 Weyl 系统的独特动态相结构，并建立了混合 Floquet 晶格作为探索非平衡无间隙拓扑的平台。",
-      "source": "arXiv",
-      "published": "2026-06-18"
-    },
-    {
-      "id": "2606.20339v1",
-      "title": "Diagnosing the origin of quantum oscillation beating in graphene",
-      "url": "http://arxiv.org/abs/2606.20339v1",
-      "first_author": "Akash Adhikary",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "磁量子振荡在逆磁场中通常是周期性的，当两个附近的频率发生干扰时，它们的振幅会出现跳动。在基于石墨烯的六边形系统中，这种跳动可能是由应变引起的赝磁场、不等的谷分布、谷相关的能量转移、自旋轨道耦合引起的能带分裂或凯库勒畸变引起的。在这里，我们证明跳动节点的载流子密度和磁场依赖性可以区分这些机制。从 Onsager 的量化关系开始，我们推导出跳动节点的临界载流子密度 $N_c$ 与临界磁场 $B_c$ 的函数关系。赝磁场给出 $N_c\\propto B_c^2$，而与密度无关的谷不平衡给出 $N_c\\propto B_c$。通过类似塞曼自旋轨道耦合的恒定狄拉克带能量分裂也给出了二次场缩放，但具有不同的节点序列：$N_{c,j}\\propto(2j+1)B_{c,j}^2$用于赝磁场，$N_{c,j}\\propto(2j+1)^2B_{c,j}^2$用于能量分裂，其中$j$标记跳动节点索引。这些结果为基于石墨烯的系统中谷和自旋相关的能带分裂的不同微观起源提供了定量约束。",
-      "source": "arXiv",
-      "published": "2026-06-18"
-    },
-    {
-      "id": "2606.20166v1",
-      "title": "Applications of quantum annealing to magnetic dipole hyperfine structure constants: First results beyond energies for atoms",
-      "url": "http://arxiv.org/abs/2606.20166v1",
-      "first_author": "Boni Paul",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们在 D-Wave 量子硬件上使用量子退火本征解算器 (QAE) 算法的修改版本，报告了中性 $\\mathrm{Li}$、类 Li $\\mathrm{Be}$、中性 $\\mathrm{Na}$ 和类 Na $\\mathrm{Mg}$ 的磁偶极超精细结构 (HFS) 常数的第一个结果。结果以使用通用相对论原子结构包 (GRASP) 和模拟退火的多配置 Dirac Hartree-Fock (MCDHF) 计算的相对论配置相互作用为基准。在我们改进的 QAE 中，采用浮点编码方案的缩放和西格玛退火方法来估计由 11 个或更少的配置状态函数 (CSF) 构造的相对论狄拉克-库仑哈密顿矩阵 ($H_{\\mathrm{DC}}$) 的基态特征值和特征向量。对于扩展相关轨道集的计算，我们应用了 CSF 截断方案，仅保留对基态波函数做出重大贡献的 CSF（最多 12 个）。我们修改后的 QAE 精度限制为小数点后三位（最多 10 个量子位）。 D-Wave 量子处理单元 (QPU) 上的硬件演示在确定磁偶极子 HFS 常数时产生了与 GRASP 完全一致的结果（在选定的精度下），精度因系统和 $H_{\\mathrm{DC}}$ 矩阵尺寸而异。",
-      "source": "arXiv",
-      "published": "2026-06-18"
-    },
     {
       "id": "10.1016/j.epsl.2026.120077",
       "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",

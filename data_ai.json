@@ -1,29 +1,7 @@
 {
-  "last_update": "2026-06-14 至 2026-06-21 12:20",
+  "last_update": "2026-06-21 至 2026-06-28 11:57",
   "topic_name": "人工智能",
   "papers": [
-    {
-      "id": "2603.03079v1",
-      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
-      "url": "http://arxiv.org/abs/2603.03079v1",
-      "first_author": "Jonas Köhler",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以考虑平衡数据集上的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时仍与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
-      "source": "arXiv",
-      "published": "2026-03-03"
-    },
-    {
-      "id": "2602.09792v1",
-      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
-      "url": "http://arxiv.org/abs/2602.09792v1",
-      "first_author": "Jaehong Chung",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
-      "source": "arXiv",
-      "published": "2026-02-10"
-    },
     {
       "id": "10.1016/j.epsl.2026.120091",
       "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
@@ -33,6 +11,50 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aee1088",
+      "title": "Image feature embedding with a deep learning framework improves genome-wide association studies on dog endophenotypes",
+      "url": "https://doi.org/10.1126/sciadv.aee1088",
+      "first_author": "Guang-Xiao E",
+      "corr_author": "Guo-Dong Wang",
+      "affiliation": "School of Life Sciences, Yunnan University, Kunming 650500, China.",
+      "abs_zh": "家养狗表现出巨大的形态多样性，使得对其表型的定量表征具有挑战性。传统的表型分析方法通常依赖于手动测量，这在捕获复杂视觉特征的能力方面受到限制。深度学习提供了从图像中自动提取信息丰富且具有生物学意义的特征的机会。在这项研究中，我们构建了包含多个品种的 13,254 张狗图像的数据集，并使用 ResNet 和 ViT 模型自动提取 256 维图像嵌入。使用 UMAP（均匀流形近似和投影）进行降维后，我们对提取的特征和品种级基因型数据进行了 GWAS（全基因组关联研究）。我们鉴定了 15 个先前报道与狗的特征（如毛发长度和体型）相关的基因，以及先前未知的与身体发育和毛发生长相关的候选基因，包括\n                    EIF2S2\n                    ,\n                    TRHR\n                    , 和\n                    TCF25\n                    ，其中包含具有潜在功能相关性的变体。这种方法经过已知的遗传关联的验证，可以揭示以前未识别的基因型-表型联系。基于这些功能，该方法提供了一个可扩展的表型提取框架，可以对家养狗进行群体遗传学研究，并可以促进其他经济上重要物种的育种。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/d41586-026-01806-z",
+      "title": "A hidden predictor of sudden cardiac death uncovered by deep learning",
+      "url": "https://doi.org/10.1038/d41586-026-01806-z",
+      "first_author": "Changxin Lai",
+      "corr_author": "Changxin Lai",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10674-6",
+      "title": "An ECG biomarker for sudden cardiac death discovered with deep learning",
+      "url": "https://doi.org/10.1038/s41586-026-10674-6",
+      "first_author": "Ziad Obermeyer",
+      "corr_author": "Markus Lingman",
+      "affiliation": "未知机构",
+      "abs_zh": "理论上，心脏性猝死可以通过除颤器来预防。但每年都有许多患者在没有除颤器的情况下死亡，因为医生未能预测他们的风险\n                    1\n                    。心脏左心室射血分数 (LVEF) 是唯一广泛使用的预测生物标志物，它错过了大多数心脏性猝死\n                    2\n                    ，并标记许多低风险患者使用从未启动的除颤器，但效果不佳\n                    3,4\n                    。在这里，我们将深度学习应用于将瑞典地区所有心电图 (ECG) 与死亡证明联系起来的数据集。由此产生的模型分离出一个高风险组（样本的 2.2%），其心源性猝死的年发生率为 7.0%，高于 LVEF 降低的组（样本的 1.9%；年发生率 4.6%）。值得注意的是，该模型中 86.1% 的高危患者未被 LVEF 标记。植入除颤器的高危心电图患者的死亡可能性比预期低 54.4%，这表明死亡率有所改善。我们在美国卫生系统中外部验证了该模型，该模型预测导致猝死的室性心律失常；以及台湾医院登记处，其中专门预测未来的心律失常心脏骤停。为了可视化预测模型“发现”的波形形态，我们将其与心电图波形的生成模型配对。它们共同揭示了一种易于观察并能有力预测心源性猝死的生物标志物，但据我们所知，此前尚未对此进行过描述。将生物标志物的形状与电生理学第一原理联系起来，我们形成并初步测试了关于心源性猝死机制的新假设。",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123658",
+      "title": "Diagnosing Optimal Forcing of the Western North Pacific Anomalous Anticyclone in a Deep‐Learning Model",
+      "url": "https://doi.org/10.1029/2026gl123658",
+      "first_author": "Yibin Huang",
+      "corr_author": "Hao Li",
+      "affiliation": "Department of Atmospheric and Oceanic Sciences Institute of Atmospheric Sciences and CMA‐FDU Joint Laboratory of Marine Meteorology Fudan University  Shanghai China",
+      "abs_zh": "深度学习天气预报模型已经展示了模拟大规模气候模式的技能，但其物理解释性仍然是一个严峻的挑战。在这里，我们将 360 成员格林函数系综应用于盘古天气模型，以诊断热带西北太平洋异常反气旋的最佳强迫配置。该模型再现了观察到的最佳强迫结构，包括西北太平洋的冷却和热带印度洋的变暖，证明了其模拟物理上一致的大规模响应的能力。然而，该模型存在系统偏差，包括印度洋东部加热的虚假西风异常以及对热带大西洋加热的低估响应。这些发现强调了盘古天气在捕获关键气候模式方面的物理一致性以及其数据驱动性质带来的挑战。我们的结果强调需要将数据驱动的学习与物理约束相结合的混合建模方法，以提高气候的可预测性和可解释性。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -89,83 +111,6 @@
       "abs_zh": "我们提出了自动检测火山地区地震事件的工作流程，利用深度学习 (DL) 工具来拾取和关联地震相位。具体来说，我们通过 SeisBench 开源平台使用 PhaseNet 和 EQTransformer 从连续地震波形中自动拾取 P 波和 S 波到达。为了评估性能，我们使用埃特纳火山（意大利）的地震数据系统地测试了 SeisBench 中可用的几个预训练模型，包括 2019 年 1 月至 2020 年 6 月记录的火山构造 (VT) 和长周期 (LP) 事件。每个模型配置都通过统计分析进行定量评估，将结果与现有地震目录进行比较，以确定埃特纳火山地区最有效的方法。我们的研究结果表明，在特定火山数据集上训练的模型明显优于基于构造数据的模型。为了进一步对 VT 和 LP 信号进行分类，我们应用了基于频率的算法，该算法使用修改后的频率指数，可根据频谱特征有效地区分 VT、LP、低频谱、混合和未分类类型事件。这种分类与审查的目录非常一致。总体而言，所提出的工作流程在埃特纳火山的复杂环境中表现良好，凸显了预训练的深度学习模型用于半自动火山监测的潜力。与此同时，我们的结果强调需要进行特定地点的模型验证和专家监督，以确保可靠的结果。",
       "source": "Seismological Research Letters",
       "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag235",
-      "title": "Comment on “Detection of Marsquakes on InSight data using deep learning” by Huang et al. (2025)",
-      "url": "https://doi.org/10.1093/gji/ggag235",
-      "first_author": "Nikolaj L Dahmen",
-      "corr_author": "Domenico Giardini",
-      "affiliation": "Institute of Geophysics, ETH Zurich , Zurich ,",
-      "abs_zh": "总结\n                  黄等人。 (2025) 报告了检测到 67 次由 P 波和 S 波到达识别的远震火星震。作者使用了对当地地震数据进行训练的深度学习相位选择器，并将其应用于 NASA InSight 地震仪记录的窄带通滤波地震数据，在调整采样率和 S-P 时间尺度关系时，利用了当地地震和远震火星地震记录之间的相似性。我们使用 InSight 记录的补充风和压力数据，以与火星地震服务目录和该数据集的其他研究类似的方式审查所有检测。由于这些辅助数据在任务的后半段没有记录，我们还根据包含风敏感着陆器模式的地震数据的带宽推断风污染。此外，我们还分析信号偏振，将其与 P 波和 S 波以及背景噪声的预期特征进行比较。我们的审查表明，作者报告的所有 67 项检测都对应于大气噪声。在大多数情况下，探测到的地震特征与小风爆发和随后的大风爆发的地震特征有关，作者将风爆发的发作解释为纵波和横波。此外，我们表明，如果这些事件被解释为真正的火星地震，它们推断的震中距离分布将与典型的火星地震距离不匹配，而它们的震级将使它们成为目录中最大的事件。对于未来处理 InSight 地震事件检测和解释的研究，我们建议仔细考虑本评论和文献中描述的已建立的事件和噪声信号标记，以避免将噪声误解为事件信号。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-3467-2026",
-      "title": "Airborne lidar and machine learning reveal decreased snow depth in burned forests",
-      "url": "https://doi.org/10.5194/tc-20-3467-2026",
-      "first_author": "Arielle Koshkin",
-      "corr_author": "Adrienne M. Marshall",
-      "affiliation": "未知机构",
-      "abs_zh": "。野火在海拔更高的地方越来越多地燃烧到季节性雪区，改变了积雪和融化的动态。然而，整个雪季的空间分布观测有限，限制了我们对这些变化如何随空间和时间变化的理解。在这里，我们使用机器学习 (ML) 算法极限梯度提升 (XGBoost) 评估火灾对加利福尼亚州内华达山脉 9 个盆地积雪深度的影响，该算法在部分燃烧盆地中使用 114 个机载激光雷达积雪深度采集（分辨率为 50 米）进行训练。我们开发并应用了一个可解释的机器学习框架，将机器学习算法拟合到每次飞行的雪深上，作为空间属性（包括燃烧状态）的函数。然后，我们预测每次飞行的反事实燃烧和未燃烧条件下的雪深，以评估机器学习产生的火灾对雪深的影响。火灾对积雪深度的影响在整个季节中不断变化，与未烧毁的森林相比，在积雪季节烧毁的森林中预计积雪略深（占采伐量的 56%），而在消融季节烧毁的森林中预计积雪较浅（占采伐量的 83%）。火灾后积雪深度差异小于消融季节。与较高海拔地区（>2000米）相比，较低海拔地区（<2000米）的火灾后雪深变化始终较小，几乎为零。朝南的斜坡经历了最大的火灾后雪深负变化。这些结果说明了一种使用激光雷达得出的雪深来评估火灾对雪的影响的新方法，并提供了对烧毁森林中积雪动态的深入了解，这些动态在空间范围和分辨率以及在整个雪季辨别火灾影响的能力方面都是新颖的。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec9518",
-      "title": "Deep learning reveals enhanced ENSO predictability under historical anthropogenic forcing",
-      "url": "https://doi.org/10.1126/sciadv.aec9518",
-      "first_author": "Zikuan Lin",
-      "corr_author": "Xiaopei Lin",
-      "affiliation": "State Key Laboratory of Physical Oceanography/Physical Oceanography Laboratory, Ocean University of China, Qingdao, China.",
-      "abs_zh": "了解 ENSO 的可预测性如何应对气候变化对于改善未来气候预测至关重要。在本研究中，我们将深度学习模型——具有留一模型策略的卷积神经网络应用于耦合模型比对项目第 6 阶段 (CMIP6) 历史和前工业控制模拟。我们发现，在历史人为强迫作用下，厄尔尼诺-南方涛动 (ENSO) 可预测性在统计上增强了 14.0 ± 1.8%。这种改进与关键海洋大气反馈的变化有关。在历史强迫作用下，赤道太平洋出现温跃层浅滩。结果，海洋表层对风力变得更加敏感，地下温度对温跃层变化变得更加敏感。这些过程增强了三维平流和温跃层反馈，共同增强了 ENSO 的可预测性。这些发现凸显了人为强迫在气候变暖中塑造 ENSO 可预测性方面的重要性。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef6263",
-      "title": "Deep learning–enabled versatile shape perception for soft robots via single-ended multimode fiber",
-      "url": "https://doi.org/10.1126/sciadv.aef6263",
-      "first_author": "Zhaofan He",
-      "corr_author": "Qirong Xiao",
-      "affiliation": "Department of Precision Instrument, Tsinghua University, Beijing 100084, China.",
-      "abs_zh": "软机器人向实体智能系统的演变从根本上依赖于精确的本体感觉。然而，仍然缺乏在不同交互过程中捕获连续变形的通用解决方案，特别是在空间受限的介入场景中。在这里，我们介绍一种基于单端多模光纤（MMF）的深度学习多功能形状感知方法。通过利用光学器件固有的集成优势，我们的极简反射架构在物理上消除了对复杂解调单元和远端设备的依赖。此外，将混沌光学散斑场视为编码高维形状信息的数据流，可重构神经解码器将单个物理通道解析为适合异构任务的通用感知模式：软抓手的离散状态确认（> 99％的准确度），仿生灵巧手的连续形状跟踪（〜5倍空间分辨率增强），以及软手术机器人的直观3D形态重建（IoU> 0.93）。总的来说，我们的工作建立了一个通过计算打破硬件适应性限制的通用框架，为软机器人数字孪生的闭环控制奠定了坚实的基础。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "2509.00791v1",
-      "title": "A computer vision-based approach to enhance seismic catalogues",
-      "url": "http://arxiv.org/abs/2509.00791v1",
-      "first_author": "Michele De Solda",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "近年来，人工智能和深度学习地震探测器，加上全球部署的越来越多的密集地震网络，进一步促进了大规模地震目录的创建，大大降低了其完整性。然而，这些自动化目录通常是在没有系统质量控制的情况下发布的，并且可能包含虚假检测、错误定位或不一致的幅度。在具有挑战性的场景中，例如微震监测应用，弱且间隔紧密的事件经常在时间上重叠，基于拾取的检测和定位方法通常无法可靠地关联相位。这会导致漏检或定位精度下降，从而产生被错误或错位事件污染的地震目录。为了解决这一限制，我们提出了一种基于计算机视觉的工作流程，它将基于波形的地震定位方法与深度学习图像分类相结合，以直接从相干矩阵中区分真实的地震事件和噪声。这些通过波形叠加计算的矩阵表现出真实事件（单个、聚焦的最大值）与噪声（模糊、不相干的模式）的不同模式，因此清理地震目录的问题可以作为二值图像分类问题来解决。此外，基于波形的定位方法的鲁棒性允许在地震事件的定位中获得更高的分辨率。这种方法的另一个优点是神经网络的训练可以完全基于合成数据。这种基于合成的训练消除了对大型标记数据集的需求，从而能够在新仪器领域快速部署。我们使用冰岛亨吉尔地热区公开的 COSEISMIQ 数据集来验证我们的工作流程。",
-      "source": "arXiv",
-      "published": "2025-08-31"
-    },
-    {
-      "id": "2508.04925v2",
-      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
-      "url": "http://arxiv.org/abs/2508.04925v2",
-      "first_author": "Sigma Jahan",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根本原因和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
-      "source": "arXiv",
-      "published": "2025-08-06"
-    },
-    {
-      "id": "2412.16336v1",
-      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
-      "url": "http://arxiv.org/abs/2412.16336v1",
-      "first_author": "Gunel Jahangirova",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
-      "source": "arXiv",
-      "published": "2024-12-20"
     }
   ]
 }
