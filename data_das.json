@@ -1,7 +1,62 @@
 {
-  "last_update": "2026-06-21 至 2026-06-28 11:57",
+  "last_update": "2026-06-28 至 2026-07-05 11:31",
   "topic_name": "分布式光纤传感",
   "papers": [
+    {
+      "id": "2607.02462v1",
+      "title": "Quantum mutual information as a robust probe of integrability in open quantum systems",
+      "url": "http://arxiv.org/abs/2607.02462v1",
+      "first_author": "Nirupam Sen",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "量子系统的动力学编码了基础哈密顿量是可积的还是混沌的特征，从而产生了通过所得动态状态或算子的属性进行量子信息加扰的概念。我们引入了一种基于哈尔平均总相关性和（aSTC）的信息论框架，以及从最初完全可分离态动态生成的平均真实多部分纠缠，作为量子信息置乱的鲁棒探针。使用横向和纵向磁场中的长程量子 XYZ 自旋模型（其可积极限是最近邻横向 XY 模型），我们证明了 aSTC 的长期平均值，更重要的是，aSTC 的时间波动提供了可积和混沌动力学的忠实且与系统尺寸无关的特征，类似于加扰、乱序相关器 (OTOC) 的传统测量。当系统与热储层接触并且系统-浴耦合遵循马尔可夫性时，我们发现aSTC和OTOC的波动仅在中间时间继续区分可积动力学和混沌动力学。然而，我们观察到，在非马尔可夫域中，信息回流恢复了扰乱动态，使得 aSTC 即使在很长一段时间内也能保持其区分能力。有趣的是，我们证明，在马尔可夫振幅阻尼和非马尔可夫相移噪声下，aSTC 的时间波动可以区分弱马尔可夫体系中的可积性和不可积性，即使 OTOC 无法做到这一点。",
+      "source": "arXiv",
+      "published": "2026-07-02"
+    },
+    {
+      "id": "2607.02338v1",
+      "title": "HNSW with Accuracy Guarantees Using Graph Spanners -- A Technical Report",
+      "url": "http://arxiv.org/abs/2607.02338v1",
+      "first_author": "Minghao Li",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "分层可导航小世界 (HNSW) 图因其对数复杂性和强大的经验性能而成为行业标准。然而，HNSW 依赖于贪婪图遍历，这是一种启发式方法，无法提供正确性的理论保证。在本文中，我们提出了一种新颖的“先验证后纠正”框架，该框架弥补了启发式搜索的速度与精确检索的严格性之间的差距。我们的方法不是放弃 HNSW，而是首先采用无分布的统计验证器，以最小的开销动态评估标准 HNSW 搜索的质量。如果认证表明检索到的邻居质量较低，则框架会安全地升级为严格的精确恢复算法。为了使这种精确恢复在计算上可行，我们将 HNSW 图重新解释为几何扳手，并利用极值理论随机估计其最大经验拉伸因子。这使我们能够在数学上限制真正的最近邻居的最大距离。对基准数据集的广泛评估表明，我们的分层框架提供了 HNSW 的平均情况速度，同时确保精确搜索的最坏情况正确性，并优于其他适用方法。",
+      "source": "arXiv",
+      "published": "2026-07-02"
+    },
+    {
+      "id": "2607.02306v1",
+      "title": "Beyond the Giampietro--Darmon Conjecture",
+      "url": "http://arxiv.org/abs/2607.02306v1",
+      "first_author": "Michael A. Daas",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Giampietro 和 Darmon 推测了各种代数数范数的公式，该公式是通过 CM 点的 $p$-adic 交叉比的无限乘积获得的。这些量源自 Shimura 曲线的 $p$-adic 均匀化，并且与两个奇异模量之间差异范数的 Gross-Zagier 因式分解表现出强烈的相似性。该猜想公式的条件是志村曲线的亏格为零，并且在早期的工作中，该公式在大多数情况下都得到了证明。在这项工作中，我们将因式分解公式的有效性扩展到 Giampietro 和 Darmon 的猜想之外，扩展到更多情况，方法是将其与志村曲线的阿特金-莱纳商为零相关。为此，我们解决了 Howard 和 Yang 之前考虑过的计数问题的 $p$ 反转版本。",
+      "source": "arXiv",
+      "published": "2026-07-02"
+    },
+    {
+      "id": "2607.02288v1",
+      "title": "Generalization in offline RL: The structure is more important than the amount of pessimism",
+      "url": "http://arxiv.org/abs/2607.02288v1",
+      "first_author": "Max Weltevrede",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "虽然悲观主义可以抵消离线强化学习（RL）中的高估偏差，但过于保守会阻碍某些形式的泛化。然而，在本文中，我们证明过度悲观并不会本质上妨碍上下文 MDP（CMDP）中的最优泛化。相反，我们认为成功的泛化并不取决于悲观主义的数量，而是取决于悲观结构是否尊重最优解的潜在对称性。我们证明，轻度悲观的非对称价值函数的泛化能力比过度悲观的对称价值函数更差。在离线强化学习中，悲观主义的结构由数据集覆盖的结构决定。因此，实施对称值函数可能并不简单，并且可能需要数据增强 (DA) 等技术。受我们理论结果的启发，我们认为 DA 最好通过策略提取过程中的一致性损失来应用，而不是在增强数据集上进行（常规）离线训练的常见做法。这是在旋转对称接触器环境中使用 IQL 和 CQL 进行实证验证的。",
+      "source": "arXiv",
+      "published": "2026-07-02"
+    },
+    {
+      "id": "2607.02060v1",
+      "title": "Equivariant twisted $R$-algebras via Thom spectra",
+      "url": "http://arxiv.org/abs/2607.02060v1",
+      "first_author": "Samik Basu",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "对于 $C_2$-交换环谱 $R$，扭曲的 $R$-代数是一个具有乘法的 $R$-模块，其顺序由 $C_2$-动作切换。在本文中，当 $R$ 是偶实交换环谱时，我们将 $R$ 的各种商构造为扭曲的 $R$ 代数。这些被构建为 $S^1$ 和 $U(n)$ 上适当的 $C_2$ 动作图的 Thom 谱。 $K\\mathbb{R}$ 给出了一个这样的例子，它被赋予了扭曲的 $K\\mathbb{R}$ 代数结构。其他示例包括诸如 $M\\mathbb{R}/(2,x_1,\\dots, x_{n-1})$ 等实波谱 $M\\mathbb{R}$ 上的商，以及实 $2$-周期性莫拉瓦 $K$ 理论作为实莫拉瓦 $E$ 理论谱上的模块。在扭曲的$R$-代数的背景下，人们可以考虑真正的拓扑Hochschild同调性，并且对于Thom谱，我们再次有一个很好的公式作为Thom谱。我们用它来获得 $K\\mathbb{R}/2$ 作为扭曲 $K\\mathbb{R}$ 代数的真实拓扑 Hochschild 同调的计算。计算还涉及单位谱 $gl_1K\\mathbb{R}$ 的分裂，这类似于 $K$ 理论单位的经典分裂。",
+      "source": "arXiv",
+      "published": "2026-07-02"
+    },
     {
       "id": "10.1016/j.epsl.2026.120077",
       "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
@@ -15,12 +70,12 @@
     },
     {
       "id": "10.1093/gji/ggag225",
-      "title": "Self-Supervised Cascade Network for Denoising of Distributed Acoustic Sensing Vertical Seismic Profile Data",
+      "title": "Self-supervised cascade network for denoising of distributed acoustic sensing vertical seismic profile data",
       "url": "https://doi.org/10.1093/gji/ggag225",
       "first_author": "Hyunggu Jun",
       "corr_author": "Byoungjoon Yoon",
-      "affiliation": "Kyungpook National University Department of Geology, , Daegu 41566 ,",
-      "abs_zh": "总结\n                  分布式声学传感（DAS）数据通常包含各种类型的噪声，包括随机噪声、相干噪声（例如耦合或线性噪声）和共模噪声，这些噪声会显着降低地震信号质量。传统的去噪方法难以有效抑制不同的噪声分量，同时保留重要的地震信号。为了解决这个问题，我们提出了一种去噪自监督级联网络（DAS-DSCnet），这是一种多级神经网络，旨在逐步对 DAS 数据进行去噪，而不需要外部标签或合成训练数据生成。该网络由三个阶段组成：第 1 阶段使用基于 Noise2Noise 的方法针对随机噪声；第 2 阶段使用基于去噪卷积神经网络 (DnCNN) 的网络（通过内部提取的噪声补丁进行训练）来抑制数据集特定的相干噪声；第 3 阶段通过迹线改组和基于 Noise2Noise 的模型来预测和消除共模噪声。每个阶段的训练数据都是通过利用数据的固有特征，直接从输入 DAS 数据生成的，从而实现反映特定领域噪声特征的高效学习。使用具有不同噪声模式的两个不同的现场 DAS 数据集对该模型进行了评估。结果表明，与传统方法相比，DAS-DSCnet 实现了卓越的噪声抑制，增强了信号连续性，同时最大限度地减少了泄漏。去噪性能在不同的堆叠配置和超参数下保持稳定，证实了模型的稳健性。因此，DAS-DSCnet 提供了一个可扩展且实用的框架，用于提高 DAS 应用中的地震数据质量，展示了大规模地震监测中全自动、数据驱动的去噪的潜力。",
+      "affiliation": "Department of Geology, Kyungpook National University , Daegu 41566 ,",
+      "abs_zh": "分布式声学传感（DAS）数据通常包含各种类型的噪声，包括随机噪声、相干噪声（例如耦合或线性噪声）和共模噪声，这些噪声会显着降低地震信号质量。传统的去噪方法难以有效抑制不同的噪声分量，同时保留重要的地震信号。为了解决这个问题，我们提出了一种去噪自监督级联网络（DAS-DSCnet），这是一种多级神经网络，旨在逐步对 DAS 数据进行去噪，而不需要外部标签或合成训练数据生成。该网络由三个阶段组成：第 1 阶段使用基于 Noise2Noise 的方法针对随机噪声；第 2 阶段使用基于去噪卷积神经网络的网络抑制数据集特定的相干噪声，该网络经过内部提取的噪声补丁进行训练；第 3 阶段通过迹线改组和基于 Noise2Noise 的模型来预测和消除共模噪声。每个阶段的训练数据都是通过利用数据的固有特征，直接从输入 DAS 数据生成的，从而实现反映特定领域噪声特征的高效学习。该模型使用具有不同噪声模式的两个不同现场 DAS 数据集进行评估。结果表明，与传统方法相比，DAS-DSCnet 实现了卓越的噪声抑制，增强了信号连续性，同时最大限度地减少了泄漏。去噪性能在不同的堆叠配置和超参数下保持稳定，证实了模型的稳健性。因此，DAS-DSCnet 提供了一个可扩展且实用的框架，用于提高 DAS 应用中的地震数据质量，展示了大规模地震监测中全自动、数据驱动的去噪的潜力。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
