@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-28 至 2026-07-05 11:31",
+  "last_update": "2026-07-05 至 2026-07-12 10:51",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -36,6 +36,72 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aee2319",
+      "title": "A chemistry-informed deep learning network for mitigating the stratospheric OH data gap",
+      "url": "https://doi.org/10.1126/sciadv.aee2319",
+      "first_author": "Wenjie Yin",
+      "corr_author": "Martyn P. Chipperfield",
+      "affiliation": "School of Earth and Space Science Technology, Wuhan University, Wuhan, China.",
+      "abs_zh": "羟基 (OH) 自由基是平流层化学中的关键物质，导致臭氧损失和其他化学家族的耦合。然而，全球 OH 观测非常稀疏，自 2009 年以来卫星观测存在严重差距。尽管替代化学方法试图缩小这种差距，但它们有局限性。在这里，我们提出了 DRCAT，这是一个化学信息深度学习网络，可利用化学相关物种的同步卫星观测来预测平流层 OH 分布。 DRCAT 仅使用 2 年的数据进行训练，提供了从 2004 年底至今连续可靠的全球平流层 OH 数据集的重建。结果表明，DRCAT 的性能优于化学输运模型和观测约束的稳态近似模型。此外，DRCAT 成功预测了 2022 年洪加火山喷发后的异常 OH 增强，显示出对训练制度之外的极端条件的普适性。因此，DRCAT 提供了一条填补 OH 观测空白的强大途径。除了 OH 之外，这项工作还为其他关键短命物种的类似重建提供了一个可扩展的框架。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aea3611",
+      "title": "Discovery of flat-band 2D materials via physics-informed scoring and structure-based learning",
+      "url": "https://doi.org/10.1126/sciadv.aea3611",
+      "first_author": "Xiangwen Wang",
+      "corr_author": "Artem Mishchenko",
+      "affiliation": "Department of Physics and Astronomy, The University of Manchester, Manchester M13 9PL, UK.",
+      "abs_zh": "平坦的电子能带是从非常规超导到分数拓扑等奇异量子现象的沃土。然而，它们的稀有性以及对密度泛函理论（DFT）计算进行识别的依赖限制了对大型物质空间的系统探索。在这里，我们报告了通过结构知情、数据驱动的框架发现了多种以前未被识别的平带二维材料。我们引入了一种物理驱动的平坦度评分，它结合了能带色散和状态密度特征，无需手动检查即可对已知材料进行算法标记。然后，该分数用于训练多模态深度学习模型，该模型直接根据原子结构预测平带倾向。我们的框架应用于 10,000 多种未标记材料，识别出众多平带候选材料。在得分最高的结构（平坦度得分高于 0.9）中，对类似 kagome 晶格的材料进行的 DFT 计算证实了 98% 的平带预测精度，证明了发现拓扑非平凡系统的能力。通过绕过预先计算能带结构的需要，我们的方法能够实现大规模、可解释的筛选，并扩展低维系统中相关量子相的设计空间。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.ady9432",
+      "title": "A scalable deep-learning framework for cancer detection using cell-free DNA shallow whole-genome sequencing",
+      "url": "https://doi.org/10.1126/sciadv.ady9432",
+      "first_author": "Haichao Wang",
+      "corr_author": "Nitzan Rosenfeld",
+      "affiliation": "Centre for Cancer Cell and Molecular Biology, Barts Cancer Institute, Queen Mary University of London, John Vane Science Centre, Charterhouse Square, London EC1M 6BQ, UK.",
+      "abs_zh": "体液中的游离 DNA (cfDNA) 可实现无创癌症检测。当癌症信号稀疏时，多功能人工智能 (AI) 可以通过整合不同的生物标志物来提高灵敏度。依赖于突变的肿瘤信息检测对于早期癌症检测的实用性有限。新兴的片段组学和表观遗传特征支撑了筛选低肿瘤负荷个体的肿瘤初始方法。在这里，我们设计了 UNITE——一个通用的 cfDNA 特征集成框架，提供可扩展的癌症检测方法，该方法基于源自 0.1 倍深度的浅全基因组测序 (sWGS) 数据的“基因组箱片段长度”矩阵。使用来自 2063 个血浆样本（631 个对照和来自 26 种癌症类型的 1432 个病例）的 sWGS 数据，我们系统地评估了跨多个特征空间和癌症阶段的 XGBoost (UNITE-XGB) 和卷积神经网络 (UNITE-CNN)。在 I-II 期癌症中，UNITE-XGB 和 UNITE-CNN 分别实现了 31% 和 21% 的敏感性和 95% 的特异性。这些发现为开发血浆活检之外的多功能人工智能提供了路线图。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag275",
+      "title": "Machine Learning-Driven Lateral Density Variation for High-Precision Bathymetry: Central-Northern South China Sea",
+      "url": "https://doi.org/10.1093/gji/ggag275",
+      "first_author": "Chunhong Wu",
+      "corr_author": "Zhongya Qiao",
+      "affiliation": "Guangzhou Marine Geological Survey, China Geological Survey , Guangzhou 511458 ,",
+      "abs_zh": "总结\n                  重力测深中的均匀密度对比假设会产生很大的系统误差。这个问题在南海中北部等横向密度变化较大的地区尤为突出。传统的恒定或简单的垂直变化密度模型无法捕捉这些复杂性。为了克服这一限制，通过使用反向传播（BP）神经网络集成多源地球物理数据（地壳、重力和测深数据）来构建空间变化的密度对比场。该场被纳入基于 Parker 的自适应反演中，产生高分辨率的测深网格，其均方根 (RMS) 比恒定密度方法提高了 2.6 m，并且系统偏差最小。最显着的增益发生在浅礁为主的水域（0 至 -1500 m），相对 RMS 降低达到约 9%。通过将神经网络导出的密度建模与物理严格反演相结合，该方法克服了均匀密度假设的局限性，同时保留了可解释性，为地质复杂区域的高精度海底测绘提供了一种高效可靠的方法。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag269",
+      "title": "Efficient Bayesian inference through self-supervised active learning",
+      "url": "https://doi.org/10.1093/gji/ggag269",
+      "first_author": "Runhai Feng",
+      "corr_author": "Taqi Alyousuf",
+      "affiliation": "Aramco Research Center - Beijing , Aramco Asia, Beijing ,",
+      "abs_zh": "总结\n                  我们开发了一种用于地球物理反演的物理引导深度学习框架，该框架结合了马尔可夫链蒙特卡罗（MCMC）采样来评估与感兴趣的模型参数相关的不确定性。为了提高计算效率，采用统计采样方法来减少所需样本的数量，同时确保训练数据保持多样化和信息丰富。随着反演迭代进行，训练数据集使用随机采样器的输出及其相应的前向响应动态扩展。采用有监督的深度学习模型，采用Jensen-Shannon散度作为损失函数，并应用高斯假设进行分析计算。我们测试了地震速度模型反演的工作流程，并成功捕获了地质特征和速度分布，结果与参考模型非常匹配。与应用于整个数据立方体的 MCMC 采样器相比，所提出的工作流程计算效率更高，因为使用主动学习范例选择了一小部分数据。该工作流程具有很强的通用性和有效性，使其也适用于各种其他反演应用。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10759-2",
+      "title": "Reinforcement learning control of quantum error correction",
+      "url": "https://doi.org/10.1038/s41586-026-10759-2",
+      "first_author": "Volodymyr Sivak",
+      "corr_author": "Paul V. Klimov",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
       "id": "10.5194/tc-20-3759-2026",
       "title": "Mapping daily snow depth with machine learning and airborne lidar across two contrasting snowpacks",
       "url": "https://doi.org/10.5194/tc-20-3759-2026",
@@ -64,74 +130,8 @@
       "first_author": "Yifan Jian",
       "corr_author": "Yun Wang",
       "affiliation": "1School of Geophysics and Information Technology, China University of Geosciences, Beijing, China",
-      "abs_zh": "地面采集的地震数据长期以来一直受到近地表噪声污染的困扰，严重限制了现场记录的实用性。地下深处实验室超低本底观测的最新进展为高精度多物理信号分析提供了新的参考基准。本研究利用从淮南深部地下实验室收集的低背景地震数据，提出了一种基于深度学习的噪声净化方法，该方法将长短期记忆网络与自动编码器架构相结合。该方法采用自监督学习机制，从地下深处数据中提取干净地震信号的基本特征，然后利用并置的同步地表和地下观测的波场同源性来实现对强污染地表数据的自适应去噪。实验结果表明，对于没有有效地震事件的环境噪声，该模型有效抑制了1 Hz以上的高频噪声，最大高频抑制比达到0.986，同时很大程度上保留了低频背景场的完整性。对于包含有效地震事件的记录，该模型成功地从严重污染的数据中重建了屏蔽信号，最大信噪比 (SNR) 提高了 8.21 dB。此外，单分量 (1C) 和三分量联合 (3C) 矢量处理之间的比较表明，1C 模型在特征频率保留和低频信号保真度方面表现更好，而 3C 矢量处理方法可产生出色的高频噪声衰减和整体 SNR 增强。",
+      "abs_zh": "地面采集的地震数据长期以来一直受到近地表噪声污染的困扰，严重限制了现场记录的实用性。地下深处实验室超低本底观测的最新进展为高精度多物理信号分析提供了新的参考基准。本研究利用从淮南深部地下实验室收集的低背景地震数据，提出了一种基于深度学习的噪声净化方法，该方法将长短期记忆网络与自动编码器架构相结合。该方法采用自监督学习机制，从地下深处数据中提取干净地震信号的基本特征，然后利用并置的同步地表和地下观测的波场同源性来实现对重污染地表数据的自适应去噪。实验结果表明，对于没有有效地震事件的环境噪声，该模型有效抑制了1 Hz以上的高频噪声，最大高频抑制比达到0.986，同时很大程度上保留了低频背景场的完整性。对于包含有效地震事件的记录，该模型成功地从严重污染的数据中重建了屏蔽信号，最大信噪比 (SNR) 提高了 8.21 dB。此外，单分量 (1C) 和三分量联合 (3C) 矢量处理之间的比较表明，1C 模型在特征频率保留和低频信号保真度方面表现更好，而 3C 矢量处理方法可产生出色的高频噪声衰减和整体 SNR 增强。",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260024",
-      "title": "Active Crustal and Slab Seismicity in Hispaniola Revealed Through a Unified Machine-Learning-Derived Earthquake Catalog",
-      "url": "https://doi.org/10.1785/0220260024",
-      "first_author": "Luis F. Muñoz-Santos",
-      "corr_author": "Javier Rodríguez",
-      "affiliation": "1School of Geosciences, University of Oklahoma, Norman, Oklahoma, U.S.A.",
-      "abs_zh": "伊斯帕尼奥拉岛位于北美板块 (NOAM) 和加勒比板块之间的复杂边界处，俯冲、碰撞和走滑构造过程会频繁产生破坏性地震。然而，现有网络操作对台站的实时访问有限，因此目录不够全面，无法解析断层结构和俯冲板片几何形状，从而限制了地震灾害评估。在本研究中，我们将三种广泛使用的深度学习相位选择器（EQTransformer、广义相位检测和 PhaseNet）应用于 2014 年至 2023 年的连续地震数据。使用 PyOcto 进行相位关联并使用 Hypoinverse 进行事件定位后，深度分辨率显着提高，揭示了与伊斯帕尼奥拉岛俯冲过程一致的东南加深地震活动趋势。合并各个目录生成了一个聚合机器学习 (ML) 目录，其中包含伊斯帕尼奥拉岛地区 47,000 多次地震，大约是同期当地地震网络报告的地震数量的三倍。该ML目录在相位到达时间和事件位置方面与本地网络目录高度一致，同时还捕获了集中在主要断层带上的低震级地震活动，包括Enriquillo-Plantain Garden和Septentrional-Oriente断层带，以及之前在San José de Ocoa和Enriquillo湖边缘附近未充分表征的地震群。在使用hypoDD重新定位后，聚合目录还能够对俯冲NOAM板块进行成像，该板块可能向西延伸至海地-多米尼加共和国边界。接近 70° W 时，地震活动变得分散，并且不能清楚地定义相干的板块几何形状。在该经度以东，地震活动描绘了一个碰撞区，其中北倾的加勒比板片与南倾的 NOAM 板片相遇，支持了早期的双板片相互作用模型。这些结果表明基于 ML 的工作流程可以生成高质量的结果",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123629",
-      "title": "Magma Pathways Beneath the Klyuchevskoy Volcanic Group, Kamchatka, Revealed by a Machine‐Learning‐Based Earthquake Catalog",
-      "url": "https://doi.org/10.1029/2026gl123629",
-      "first_author": "Weifan Lu",
-      "corr_author": "Jannes Münchmeyer",
-      "affiliation": "ISTerre Université Grenoble Alpes CNRS Université Savoie Mont Blanc, IRD, Université Gustave Eiffel  Grenoble France",
-      "abs_zh": "克柳切夫火山群 (KVG) 是世界上最大的俯冲带火山群之一，拥有复杂的跨地壳岩浆系统。通过将基于机器学习的检测工作流程应用于 2015 年至 2016 年 KISS 地震实验的数据，我们获得了 KVG 火山岩浆活动的增强地震目录。检测到超过 11,000 个事件，大约是之前手动目录中数量的 14 倍，揭示了地震活动在时间和空间上强烈聚集并组织成局部爆发。频率指数分析和无监督聚类区分长周期地震和火山构造地震。与流体和压力变化相关的长周期事件主导着地震活动并跨越地壳深度，形成从深到浅的管道。它们的频率-震级模式与典型的构造地震不同，突出了火山源物理。深层长周期活动的时间变化先于浅层地震活动的增加，这与岩浆或流体压力迁移一致。总体而言，我们的研究揭示了 KVG 下方的精细结构，并深入了解其多火山地震过程。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026jb034630",
-      "title": "Seismic Traveltime Tomography With Deep Neural Network Reparameterization: The Method and Its Application to Central Chile",
-      "url": "https://doi.org/10.1029/2026jb034630",
-      "first_author": "Shaobo Yang",
-      "corr_author": "Hao Yang",
-      "affiliation": "School of Carbon Neutrality Science and Engineering Anhui University of Science and Technology  Hefei China",
-      "abs_zh": "地震走时层析成像是一种广泛使用的各种尺度地球内部成像方法。然而，构建可靠的速度模型通常需要选择合适的反演网格和正则化参数，这个过程通常是主观且繁琐的，并且可能会损害模型分辨率。为了克服这些限制，我们将深度神经网络与传统的走时断层扫描相结合，使用未经训练的网络来参数化速度模型，然后使用该速度模型来计算合成走时。通过更新网络参数，可以最大限度地减少合成传播时间和观测传播时间之间的失配，并从经过训练的网络中获得最终的层析成像模型。神经网络本质上引入空间相关性作为正则化，从而无需手动调整。综合测试表明，该方法比传统方法具有更高的精度，恢复了精细尺度结构，同时保持了稀疏数据覆盖区域的反演稳定性。对智利中部地震数据的应用进一步验证了我们方法的稳健性，揭示了更清晰的俯冲板片，且伪影更少。",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aee1088",
-      "title": "Image feature embedding with a deep learning framework improves genome-wide association studies on dog endophenotypes",
-      "url": "https://doi.org/10.1126/sciadv.aee1088",
-      "first_author": "Guang-Xiao E",
-      "corr_author": "Guo-Dong Wang",
-      "affiliation": "School of Life Sciences, Yunnan University, Kunming 650500, China.",
-      "abs_zh": "家养狗表现出巨大的形态多样性，使得对其表型的定量表征具有挑战性。传统的表型分析方法通常依赖于手动测量，这在捕获复杂视觉特征的能力方面受到限制。深度学习提供了从图像中自动提取信息丰富且具有生物学意义的特征的机会。在这项研究中，我们构建了包含多个品种的 13,254 张狗图像的数据集，并使用 ResNet 和 ViT 模型自动提取 256 维图像嵌入。使用 UMAP（均匀流形近似和投影）进行降维后，我们对提取的特征和品种级基因型数据进行了 GWAS（全基因组关联研究）。我们鉴定了 15 个先前报道与狗的特征（如毛发长度和体型）相关的基因，以及先前未知的与身体发育和毛发生长相关的候选基因，包括\n                    EIF2S2\n                    ,\n                    TRHR\n                    , 和\n                    TCF25\n                    ，其中包含具有潜在功能相关性的变体。这种方法经过已知的遗传关联的验证，可以揭示以前未识别的基因型-表型联系。基于这些功能，该方法提供了一个可扩展的表型提取框架，可以对家养狗进行群体遗传学研究，并可以促进其他经济上重要物种的育种。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-01806-z",
-      "title": "A hidden predictor of sudden cardiac death uncovered by deep learning",
-      "url": "https://doi.org/10.1038/d41586-026-01806-z",
-      "first_author": "Changxin Lai",
-      "corr_author": "Changxin Lai",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10674-6",
-      "title": "An ECG biomarker for sudden cardiac death discovered with deep learning",
-      "url": "https://doi.org/10.1038/s41586-026-10674-6",
-      "first_author": "Ziad Obermeyer",
-      "corr_author": "Markus Lingman",
-      "affiliation": "未知机构",
-      "abs_zh": "理论上，心脏性猝死可以通过除颤器来预防。但每年都有许多患者在没有除颤器的情况下死亡，因为医生未能预测他们的风险\n                    1\n                    。心脏左心室射血分数 (LVEF) 是唯一广泛使用的预测生物标志物，它错过了大多数心脏性猝死\n                    2\n                    ，并标记许多低风险患者使用从未启动的除颤器，但效果不佳\n                    3,4\n                    。在这里，我们将深度学习应用于将瑞典地区所有心电图 (ECG) 与死亡证明联系起来的数据集。由此产生的模型分离出一个高风险组（样本的 2.2%），其心源性猝死的年发生率为 7.0%，高于 LVEF 降低的组（样本的 1.9%；年发生率 4.6%）。值得注意的是，该模型中 86.1% 的高危患者未被 LVEF 标记。植入除颤器的高危心电图患者的死亡可能性比预期低 54.4%，这表明死亡率有所改善。我们在美国卫生系统中外部验证了该模型，该模型预测导致猝死的室性心律失常；以及台湾医院登记处，其中专门预测未来的心律失常心脏骤停。为了可视化预测模型“发现”的波形形态，我们将其与心电图波形的生成模型配对。它们共同揭示了一种易于观察并能有力预测心源性猝死的生物标志物，但据我们所知，此前尚未对此进行过描述。将生物标志物的形状与电生理学第一原理联系起来，我们形成并初步测试了关于心源性猝死机制的新假设。",
-      "source": "Nature",
       "published": "2026"
     },
     {

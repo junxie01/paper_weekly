@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-28 至 2026-07-05 11:31",
+  "last_update": "2026-07-05 至 2026-07-12 10:51",
   "topic_name": "地震成像",
   "papers": [
     {
@@ -124,47 +124,47 @@
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.adz4647",
-      "title": "Trans-basin linkages prolong Northwestern Pacific marine heatwaves through a circumglobal wave pattern",
-      "url": "https://doi.org/10.1126/sciadv.adz4647",
-      "first_author": "Yu Zhao",
-      "corr_author": "Jin-Yi Yu",
-      "affiliation": "Department of Earth System Science, University of California, Irvine, CA, USA.",
-      "abs_zh": "西北太平洋（NWP）的海洋热浪变得越来越频繁和持续，但其多季节持续的机制仍然知之甚少。通过观测分析和气候模型实验，我们证明数值天气预报海洋热浪主要是由准静止波数5环全球波（CGW）模式驱动的，该模式独立于厄尔尼诺-南方涛动运行。 CGW 在夏季调节地表热通量，触发一个自我强化的反馈循环，其中 NWP 变暖加剧了 CGW 模式，在整个温暖季节放大和延长热浪。此外，北大西洋北部由 CGW 驱动的夏季变暖通过海洋热惯性持续到冬季，激发了传播回 NWP 的大圆波模式，在寒冷季节维持热浪。大气波和跨盆地相互作用之间的相互作用使得多年海洋热浪事件成为可能。对观测数据和气候模型模拟的分析表明，近几十年来，CGW 的影响不断增强，表明在持续的全球变暖下，NWP 海洋热浪更加频繁和持续。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250366",
-      "title": "Deep Learning Denoising for Synchronous Surface Three-Component Seismic Data Based on Huainan Deep Underground Observation",
-      "url": "https://doi.org/10.1785/0220250366",
-      "first_author": "Yifan Jian",
-      "corr_author": "Yun Wang",
-      "affiliation": "1School of Geophysics and Information Technology, China University of Geosciences, Beijing, China",
-      "abs_zh": "地面采集的地震数据长期以来一直受到近地表噪声污染的困扰，严重限制了现场记录的实用性。地下深处实验室超低本底观测的最新进展为高精度多物理信号分析提供了新的参考基准。本研究利用从淮南深部地下实验室收集的低背景地震数据，提出了一种基于深度学习的噪声净化方法，该方法将长短期记忆网络与自动编码器架构相结合。该方法采用自监督学习机制，从地下深处数据中提取干净地震信号的基本特征，然后利用并置的同步地表和地下观测的波场同源性来实现对强污染地表数据的自适应去噪。实验结果表明，对于没有有效地震事件的环境噪声，该模型有效抑制了1 Hz以上的高频噪声，最大高频抑制比达到0.986，同时很大程度上保留了低频背景场的完整性。对于包含有效地震事件的记录，该模型成功地从严重污染的数据中重建了屏蔽信号，最大信噪比 (SNR) 提高了 8.21 dB。此外，单分量 (1C) 和三分量联合 (3C) 矢量处理之间的比较表明，1C 模型在特征频率保留和低频信号保真度方面表现更好，而 3C 矢量处理方法可产生出色的高频噪声衰减和整体 SNR 增强。",
+      "id": "10.1785/0220250127",
+      "title": "Detailed Seismological Observations from the ML 5.6 Reno Earthquake Sequence—the Largest Induced Seismic Event in Canada",
+      "url": "https://doi.org/10.1785/0220250127",
+      "first_author": "James P. Verdon",
+      "corr_author": "Neil Watson",
+      "affiliation": "1School of Earth Sciences, University of Bristol, Bristol, United Kingdom",
+      "abs_zh": "艾伯塔省北部里诺地震序列中的 ML 5.6 主震是加拿大最大的诱发事件，也是全球最大的此类事件之一。我们利用主震后 6 天部署的当地监测阵列的地震观测结果，详细了解引发地震活动的过程以及与附近废水处理 (WWD) 井的关系。地震活动描绘了一个完全位于结晶基底内的单一断层面。我们使用反射地震数据集来识别沉积剖面中的断层结构，这可能为压力向下传递到重新激活的断层面提供路径，并绘制了从贝洛伊组延伸到基底的断层图。如果通过基底推断，该结构连接到主震断层面上监测早期阶段地震活动最密集的位置。因此，该结构代表了最有可能从WWD向下传递压力的管道。正如沉积剖面中绘制的那样，它延伸穿过贝洛伊地层和勒杜克地层（WWD 的两个主要目标），因此压力可能是从这两个地层中的 WWD 转移的。然而，地震活动与附近贝洛伊组井的作业之间存在统计上显着的时间相关性，而与附近 Leduc 井的作业不存在时间相关性。时间相关性的存在以及所绘制的断层与贝洛伊井的空间接近性使我们得出结论，贝洛伊井与里诺诱发的地震活动有更强的联系。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1126/science.aej7556",
-      "title": "Erratum for the Research Article “Detecting supramolecular organic nanoparticles during heat wave”",
-      "url": "https://doi.org/10.1126/science.aej7556",
-      "first_author": "N/A",
-      "corr_author": "N/A",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Science",
+      "id": "10.1785/0220260074",
+      "title": "Detectability Limits of Seismic Rate Changes: Statistical Constraints from Synthetic and Global Earthquake Catalogs",
+      "url": "https://doi.org/10.1785/0220260074",
+      "first_author": "Antonino D’Alessandro",
+      "corr_author": "Antonino D’Alessandro",
+      "affiliation": "1Istituto Nazionale di Geofisica e Vulcanologia, Osservatorio Nazionale Terremoti, Rome, Italy",
+      "abs_zh": "地震发生率的时间变化被广泛研究作为应力演化、断层带过程或大地震前的准备阶段的指标。然而，这种速率变化的统计可观测性从根本上受到有限事件计数、地震活动聚类、目录异质性和分析设计选择的限制。在这里，我们将地震速率变异性问题重新表述为一个明确的可检测性问题：给定基线速率、观测窗口、显着性水平和目标功率，可以统计解决的最小速率变化是多少？我们在泊松和过度分散负二项式 (NB) 模型下得出基于计数的假设检验的精确可检测性阈值，明确考虑了窗口长度、过度分散和多重测试。综合实验表明，即使在平稳过程中，仅过度分散也会大大提高相对于泊松期望的可检测性阈值，而滑动窗口分析会通过多重效应进一步降低统计功效。将此框架应用于全球美国地质调查局地震目录（Mw≥5.5，1973-2025），我们表明，在亚年到多年的时间尺度上，经验推断的 NB 阈值仍然显着高于基于泊松的预测。观察到的滚动窗口利率波动经常超过泊松阈值，但几乎从未超过 NB 阈值，这表明最明显的全局利率异常在统计上与内在目录变异性无法区分。其他分析表明，这些结论对于统计功效的选择是稳健的，并且主要不是由异质构造环境的聚合驱动的。我们的结果表明，地震速率变化的零检测通常是基本统计约束的预期结果，而不是反对潜在物理过程的证据。公关",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag260",
-      "title": "Constraining Sedimentary and Crustal Structure from Teleseismic P-wave Receiver Functions and Coda Autocorrelations",
-      "url": "https://doi.org/10.1093/gji/ggag260",
-      "first_author": "Wentao Li",
-      "corr_author": "Ling Chen",
-      "affiliation": "State Key Laboratory of Lithospheric and Environmental Coevolution, Institute of Geology and Geophysics, Chinese Academy of Sciences , Beijing, 100029 ,",
-      "abs_zh": "总结\n                  地壳层的厚度和体积 Vp/Vs 比（或泊松比）是了解大陆结构、成分和构造演化的基本参数。传统的接收函数 (RF) 方法通过分析 P 到 S 转换相位来估计这些参数，但在具有低速沉积层的区域面临重大挑战，其中与沉积物相关的多次波污染了更深的地壳信号并导致参数估计偏差。我们提出了一种顺序 RF-AC H-κ 相位加权叠加方法，该方法联合分析 RF 和尾波自相关 (AC)，以同时约束沉积和底层结晶地壳特性。 AC 数据的积分提供了对 P 波和 S 波反射时间的独立约束，从而提高了估计的鲁棒性。综合测试表明，我们的方法可以有效抑制沉积物多重干扰，并比传统的仅 RF 方法产生更可靠的层厚度和 Vp/Vs 比估计值。我们将该方法应用于对比构造环境中的四个宽带站：中国的伸展的渤海湾盆地和稳定的塔里木盆地。结果显示，沉积层厚 2.0 – 10.0 km，Vp/Vs 比值随深度从 2.90 降低至 2.00，与渐进压实一致。地壳厚度估计显示出显着的构造变化：伸展的渤海湾盆地为 28.0 – 32.0 公里，而稳定的塔里木盆地约为 40 公里。三个站点的结晶地壳 Vp/Vs 比率为 1.66 – 1.73，表明主要是长英质成分，而塔里木西南部的较高比率（约 1.80）表明存在更多镁铁质材料。这些发现与独立的地球物理观测和地质约束一致，表明该方法为约束具有厚沉积盆地的层状大陆地壳提供了稳健的框架。",
-      "source": "Geophysical Journal International",
+      "id": "10.1785/0120260076",
+      "title": "Application of Spectral Amplitude Decomposition to Discrimination of Anthropogenic and Natural Small-Magnitude Seismic Events (≤\n                    <b>M</b>\n                     3.5) in Utah, USA",
+      "url": "https://doi.org/10.1785/0120260076",
+      "first_author": "Sean J. Hutchings",
+      "corr_author": "Keith D. Koper",
+      "affiliation": "1Sandia National Laboratories, Albuquerque, New Mexico, U.S.A.",
+      "abs_zh": "区分小震级（M < 3.5）自然地震和人为事件是常规地震台网操作的关键部分，以保证地震目录的准确性、地震危险性分析和禁试条约验证。然而，这在局部距离（<125 公里）仍然具有挑战性，可能是因为异质地球结构的采样增加。因此，校正传播效应和站点响应是区分过程中的关键步骤，并且它已应用于区域和局部距离。我们应用谱振幅分解技术，允许对场地响应进行灵活的数据驱动拟合，并结合几何扩展和滞弹性衰减项来区分美国犹他州的小震级地震（EQ）、爆炸（EX）和采矿诱发的地震活动（MIS）。我们测量五个频带中 Pg 和 Sg 相位的时域均方根振幅：2-5、5-10、10-15、15-20 和 20-30 Hz。我们使用低频到高频的 Sg 和 Pg 比率以及 Pg/Sg 交叉频谱比来评估每个频段中的位置校正和传播校正幅度的性能。由于 EX 和 MIS 的高频 Sg 能量相对耗尽，因此最好使用 2-5 和 5-10 Hz 频率范围内的交叉频谱比将 EQ 与人为事件（EX 和 MIS）区分开。 EX 和 MIS 最好使用 Pg/Sg 比率 <1 来分离。 10 Hz，在这些频率下，EX 比 MIS 更倾向于产生更多的 Sg 能量。我们进一步分析了可疑的单次发射 (SFX) 和延迟（波纹）发射 EX，并发现使用 Pg/Sg 比率 <<，SFX 与 MIS 的分离度更高。 5 赫兹。最后，我们发现源激励项和参考幅度（Mw、ML 和 Mc）之间的差异值提供了额外的辨别能力，值得进一步研究。",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123741",
+      "title": "Does Zonal Wave 3 Affect Total Antarctic Sea Ice Area?",
+      "url": "https://doi.org/10.1029/2026gl123741",
+      "first_author": "Michael D. Eabry",
+      "corr_author": "Alex Sen Gupta",
+      "affiliation": "Climate Change Research Centre University of New South Wales  Sydney NSW Australia",
+      "abs_zh": "虽然众所周知，第三波（ZW3）可以驱动南极海冰的区域扩张或收缩，但尚不清楚它是否对环极海冰总面积（SIA）有影响。在这里，我们提供证据来质疑之前的研究将南极洲 SIA 整体大幅下降归因于 ZW3。我们表明，ZW3 和 SIA 趋势之间的环极平均关系很弱，因为大部分抵消了经向风异常和相关的相反海冰响应。尽管沿冰缘存在中等强度、积极且显着的局部经向风-海冰关系，但情况仍然如此。此外，环极平均经向风与总 SIA 之间的关系变得较弱，甚至可能在几个月内逆转。理想化的随机模型在特定条件下重现了这种行为，其中局部经向风异常并未完全抵消，并且局部 SIA 对风力强迫的响应强度有所不同。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
