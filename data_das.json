@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-05 至 2026-07-12 10:51",
+  "last_update": "2026-07-12 至 2026-07-19 10:48",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
@@ -11,6 +11,17 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl119492",
+      "title": "Investigating Meter‐Scale Wavefield Complexity and Amplification at the Basin Edge With a Fiber‐Optic Array",
+      "url": "https://doi.org/10.1029/2025gl119492",
+      "first_author": "J. Atterholt",
+      "corr_author": "M. P. Moschetti",
+      "affiliation": "U.S. Geological Survey  Golden CO USA",
+      "abs_zh": "沉积盆地边缘产生复杂的地震波场效应和局部放大。表征这些效应并将其纳入灾害模型是很困难的，因为断层扫描模型通常是平滑的，并且波场观测通常是混叠的。分布式声学传感 (DAS) 将电信光纤转变为超密集应变仪阵列，从而能够推断精确的速度结构、记录大面积米级波场以及测量动态应变（这一量对埋地基础设施具有明显的影响）。利用加利福尼亚州阿卡塔的 DAS 阵列，我们解析了精细尺度的浅层速度模型，并将其与当地地震观测到的波场进行比较。我们找到了多个盆地边缘的证据，并观察了这些特征与放大动态应变的局部散射表面波之间的空间相关性。二维综合测试验证了盆地边缘处的急剧速度对比会引发这些波，并说明动态应变和地面速度在这些边界处的表现如何不同。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -64,7 +75,7 @@
       "first_author": "R F Kartal",
       "corr_author": "C M Krawczyk",
       "affiliation": "AFAD Disaster and Emergency Management Presidency, Earthquake Risk Reduction General Directorate , Earthquake Department, Ankara ,",
-      "abs_zh": "2025 年 4 月 23 日，土耳其西北部伊斯坦布尔附近发生的 6.2 级马尔马拉地震，为评估分布式声学传感 (DAS) 在人口稠密和构造活跃地区的近断层地震学能力提供了难得的机会。 DAS 监测补充了北安纳托利亚断层 (GONAF) 的钻孔地球物理观测站，扩大了近断层观测站，以高分辨率监测伊斯坦布尔附近马尔马拉主断层 (MMF) 沿线的变形。在该实验中，国家光网络内现有的电信暗光纤被重新用作长偏移距海底地震阵列，而无需任何专用的水下安装。这条光缆沿着伊斯坦布尔南部海岸水下延伸，沿着王子群岛北部边界延伸，成功记录了马尔马拉 6.2 级地震。在本研究中，我们分析了所得数据集，该数据集提供约 34 km 的孔径、8 m 通道间距和 250 Hz 采样率，并包括平行和垂直于断层延伸的部分。 Mw 6.2 主震的 DAS 应变率记录显示出跨越数千个通道的清晰 P 波和 S 波到达，具有高信号相干性。振幅和相位校准后，使用基于标距的传递函数将记录转换为等效粒子速度，并与附近的 GONAF 钻孔地震波形数据进行比较。频谱分析表明，DAS 阵列保留了高达 ∼25 Hz 的地震能量，其频谱形状和振幅分布与钻孔记录一致。 Curvelet, f–k, and time domain slowness based conversion methods were employed for the transformation process. OptoDAS 系统询问的海底 DAS 阵列能够对从记录的应变率数据导出的应变进行高分辨率空间采样。 ap 的系统变化",
+      "abs_zh": "2025 年 4 月 23 日，土耳其西北部伊斯坦布尔附近发生的 6.2 级马尔马拉地震，为评估分布式声学传感 (DAS) 在人口稠密和构造活跃地区的近断层地震学能力提供了难得的机会。 DAS 监测补充了北安纳托利亚断层 (GONAF) 的钻孔地球物理观测站，扩大了近断层观测站，以高分辨率监测伊斯坦布尔附近马尔马拉主断层 (MMF) 沿线的变形。在该实验中，国家光网络内现有的电信暗光纤被重新用作长偏移距海底地震阵列，而无需任何专用的水下安装。这条光缆沿着伊斯坦布尔南部海岸水下延伸，沿着王子群岛北部边界延伸，成功记录了马尔马拉 6.2 级地震。在本研究中，我们分析了所得数据集，该数据集提供约 34 km 的孔径、8 m 通道间距和 250 Hz 采样率，并包括平行和垂直于断层延伸的部分。 Mw 6.2 主震的 DAS 应变率记录显示出跨越数千个通道的清晰 P 波和 S 波到达，具有高信号相干性。振幅和相位校准后，使用基于标距的传递函数将记录转换为等效粒子速度，并与附近的 GONAF 钻孔地震波形数据进行比较。频谱分析表明，DAS 阵列保留了高达 ∼25 Hz 的地震能量，其频谱形状和振幅分布与钻孔记录一致。变换过程采用了 Curvelet、f-k 和基于时域慢度的转换方法。 OptoDAS 系统询问的海底 DAS 阵列能够对从记录的应变率数据导出的应变进行高分辨率空间采样。 ap 的系统变化",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
@@ -99,17 +110,6 @@
       "affiliation": "1Research and Development Center for Geodetic and Geophysical Monitoring, Research Institute for Marine Geodynamics, Japan Agency for Marine-Earth Science and Technology, Yokosuka, Japan",
       "abs_zh": "南海海槽俯冲带C9038B深海底钻孔观测站安装了钻孔光纤应变仪和孔隙压力计，用于精确测量海底地壳变形。为了通过钻孔观测站的连续观测来监测与俯冲过程相关的活动，例如慢滑移事件，必须澄清这些观测的特征。在安装后的头两年观测中，记录了清晰的潮汐和海啸反应。为了了解这些观测特征的物理起源，我们进行了有限元法 (FEM) 模拟。通过考虑天文台周围的地壳结构和用于观测的仪器来模拟观测的响应特征。模拟依次求解了两个弹性模型，包括天文台周围的地壳结构和传感器结构。沉积层被建模为 V 形，传感器单元的主要组件包含在模拟中。分配给这些模型的弹性属性是基于钻井参数和地震勘测。因此，模拟再现了应变和孔隙压力观测值的潮汐响应。基于有限元的潮汐分析得出的载荷响应系数也成功解释了与2025年7月29日堪察加地震产生的海啸相关的信号。这表明数值结果准确地代表了天文台对外部载荷事件的响应。此外，为了研究钻孔观测的总体趋势，使用考虑各种弹性参数和沉积层几何形状的模型进行了类似的模拟。关于弹性参数的变化，应变和孔隙压力观测值分别对杨氏模量和泊松比敏感。年代的变化",
       "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag197",
-      "title": "Seismic ambient noise imaging along the fibre-optic cable of the offshore CASTOR gas storage field",
-      "url": "https://doi.org/10.1093/gji/ggag197",
-      "first_author": "Sergi Ventosa",
-      "corr_author": "Antonio Villaseñor",
-      "affiliation": "Marine Geosciences Department, Institute of Marine Sciences, CSIC, Pg. Marítim de la Barceloneta 37-49 , E-08003 Barcelona ,",
-      "abs_zh": "连续、高密度应变和应变率分布式声学传感（DAS）记录对于以低成本解析地球浅层结构非常有价值，特别是在难以进入的环境中，例如大陆架和近海岸洋壳。在这项研究中，我们应用地震环境噪声方法从自然噪声源中提取高质量的经验格林函数 (EGF)，并对连接巴伦西亚湾（西班牙）海上 CASTOR 储气田与相关陆地设施的 30 公里长暗光缆沿线的速度结构进行建模。我们使用小波相位互相关和时间尺度相位加权叠加方法提取包含丰富多样的地震波的宽带EGF。在共源 EGF 集合中，干净的基波和一泛音 Scholte 波在海洋通道对中占主导地位，而基本瑞利模式出现在陆地通道对中。此外，从盆地边缘反射的弱波场跟随主表面波。然后，我们通过使用马尔可夫链蒙特卡罗方法求解逐点深度反演，根据基波和一泛音 Scholte 波的局部相速度观测构建了二维 Vs 模型。该模型将海洋沉积盆地从非常浅的水饱和沉积物解析到超过 1 公里的深度，识别出安波斯塔中央断层和该断层以西约 1 公里深度的基底基岩。这些结果有助于在观测到诱发地震活动的区域完善沿电缆的离岸速度模型，从而提高地震监测和地震灾害特征描述的准确性。",
-      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-05 至 2026-07-12 10:51",
+  "last_update": "2026-07-12 至 2026-07-19 10:48",
   "topic_name": "冰川地震学",
   "papers": [
     {
@@ -11,6 +11,17 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122539",
+      "title": "SWOT High‐Rate Raster Data Reveals Antarctic Ice Shelf Motion and Change in Response to Ocean and Ice Dynamics",
+      "url": "https://doi.org/10.1029/2026gl122539",
+      "first_author": "S. L. Howard",
+      "corr_author": "T. M. Snow",
+      "affiliation": "Earth and Space Research  Seattle WA USA",
+      "abs_zh": "NASA/CNES 地表水和海洋地形 (SWOT) 测绘雷达测高卫星任务于 2022 年 12 月发射，每 21 天提供一次对纬度约 ±78.2° 的重复跟踪覆盖，对南极洲许多最具动态的冰架进行采样，这些冰架在限制接地冰盖的质量损失方面发挥着关键作用。要了解冰架范围和厚度如何响应强迫，需要在主要质量变化过程（包括基底和表面质量平衡以及裂缝增长）的短时间和空间尺度上绘制冰结构的三维绘图。我们证明，重复的 SWOT 高速采集可以准确监测冰架表面高度的变化，揭示关键过程，包括对海洋潮汐和大气强迫的响应、沿接地区的冰弯曲和裂缝加深，这些过程会影响影响冰损失的应力。尽管采集和处理方面存在局限性（其中一些正在得到解决），SWOT 任务为研究冰架动力学提供了令人兴奋的新机会。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -99,17 +110,6 @@
       "affiliation": "Department of Earth Sciences University of Pisa  Pisa Italy",
       "abs_zh": "由于全球变暖，温带中纬度冰川迅速退缩，导致质量急剧减少，并增加了冰川的不稳定性。综合热力学和力学定律，我们构建了三维稳定性模型，并将其应用于2022年7月3日发生的意大利东北部马尔莫拉达冰川部分崩塌的分析。分析表明，冰川处于临界平衡状态，因为冰川温度升高与破裂面附近的扩散裂缝协同作用，降低了冰剪切强度。此外，融水导致的基础水压增加使得冰川即使在较高的剪切强度下也不稳定。由于大多数高山冰川在类似的气候条件下正在退缩，我们对中纬度山区日益恶化的灾害情况表示担忧，并强调预测工具（例如本研究中开发的工具）对于支持减灾工作的重要性。",
       "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41561-026-01988-1",
-      "title": "Diminished Ross Ice Shelf and West Antarctic Ice Sheet during Last Interglacial warming",
-      "url": "https://doi.org/10.1038/s41561-026-01988-1",
-      "first_author": "Austin J. Carter",
-      "corr_author": "Lindsey Davidge",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature Geoscience",
       "published": "2026"
     }
   ]

@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-07-05 至 2026-07-12 10:51",
+  "last_update": "2026-07-12 至 2026-07-19 10:48",
   "topic_name": "地震成像",
   "papers": [
-    {
-      "id": "2607.01649v1",
-      "title": "Joint elastic full waveform inversion of multi-component geophone and distributed acoustic sensing data",
-      "url": "http://arxiv.org/abs/2607.01649v1",
-      "first_author": "Hoang Anh Nguyen",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "分布式声学传感 (DAS) 和海底节点 (OBN) 数据的联合全波形反演 (FWI) 通常需要将测量的应变转换为粒子速度，从而引入数值噪声和频谱失真。为了消除这个问题，我们提出了一个弹性多参数 FWI 框架，该框架使用速度-应力-应变 (VSS) 公式，通过单次正向模拟直接模拟压力、粒子速度和标距平均 DAS 应变。数据残差被附加地注入到单个反向模拟中，使得计算成本独立于活动传感器子集。我们在串扰和弹性 Marmousi 模型上对单个和组合数据集进行基准测试。我们的结果表明，当传感器提供补充信息时，联合反演比单一部署更准确地恢复弹性参数。具体来说，将双分量地震检波器与偏斜钻孔 DAS 电缆配对，可实现最准确的参数恢复，并通过提供独特的物理可观测和互补的深度孔径来减轻参数间串扰。我们将我们的实现发布为 xFWI，这是一个基于 Devito 的开源 Python 包，用于可扩展的多部署反转。",
-      "source": "arXiv",
-      "published": "2026-07-02"
-    },
-    {
-      "id": "2606.31288v1",
-      "title": "Probabilistic Inversion with Flow Matching",
-      "url": "http://arxiv.org/abs/2606.31288v1",
-      "first_author": "Baldur Paulwitz",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们演示了流匹配（一种源自生成人工智能的技术）在地球物理环境中的概率反演（例如地震全波形反演）中的应用。我们将生成人工智能中成熟的流匹配数学理论应用到概率反演的背景中。我们通过两个案例研究来评估该方法：一个简单的二维速度模型来说明该方法的一般特征，以及 OpenFWI 数据集来展示其对更复杂的地震速度模型进行概率反演的能力。",
-      "source": "arXiv",
-      "published": "2026-06-30"
-    },
-    {
-      "id": "2606.30126v1",
-      "title": "Seismic full waveform inversion via a physics-guided Fourier representation neural network",
-      "url": "http://arxiv.org/abs/2606.30126v1",
-      "first_author": "Gui Chen",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "准确的地下速度模型对于地震成像至关重要，但传统的全波形反演 (FWI) 经常受到周期跳跃、噪声敏感性和对良好初始模型的依赖的影响。我们开发了一种用于无监督声学 FWI 和同步源 FWI (SSFWI) 的物理引导傅里叶表示神经网络 (PGFRNN)，它将傅里叶变换的地震数据嵌入到潜在空间中，并使用 softplus 近似对数余弦 (SALC) 损失和物理引导优化器迭代更新速度模型。 Overthrust 模型的数值测试表明，PGFRNN 优于传统的基于 L2 和 SALC 损失的 FWI 方法，实现了更高的反演精度和对噪声的鲁棒性，并对初始模型提出了挑战。",
-      "source": "arXiv",
-      "published": "2026-06-29"
-    },
-    {
-      "id": "2606.27086v1",
-      "title": "GPU-accelerated superiorization on constrained physical problems with SupPy",
-      "url": "http://arxiv.org/abs/2606.27086v1",
-      "first_author": "Tobias Becher",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "优越化方法（SM）介于可行性寻求和约束优化之间。它不是瞄准给定目标函数在约束集上的最小值，而是寻找目标函数值减小的可行点（尽管不一定是最小值），而不是硬目标，或者不严格要求数学上的最优解决方案。虽然该方法已在物理学中得到了多种应用的研究，但其更广泛的用途受到限制，部分原因是缺乏可供希望探索它的研究人员使用的公开软件。\n  在这项工作中，我们将优化应用于应用物理学的三个问题：地震图像重建、低剂量 CT 重建和调强放射治疗计划。这些实验是使用 SupPy 进行的，SupPy 是为此工作开发的开源模块化 Python 工具箱，它支持在 CPU 和 GPU 上执行可行性寻求算法及其高级版本。在所有三种情况下，与单独寻求可行性相比，高级算法都取得了良好的结果，成像示例中的噪声减少了，放射治疗计划中的身体剂量也降低了。对于放射治疗案例，我们进一步观察到优越化在不可行的约束集上产生了临床上可行的计划。",
-      "source": "arXiv",
-      "published": "2026-06-25"
-    },
-    {
-      "id": "2606.25479v1",
-      "title": "Automatic-differentiation-enabled dynamic parameter retrieval with sub-pulse-width resolution",
-      "url": "http://arxiv.org/abs/2606.25479v1",
-      "first_author": "Huaiyue Peng",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "时间分辨太赫兹时域光谱（THz-TDS）是凝聚态物理中的相敏工具，用于跟踪低能基本激发的光致非平衡动力学。然而，当材料特性在与探测脉冲持续时间相当或小于探测脉冲持续时间的时间尺度上发生急剧变化时，测量的响应函数光学电导率 $σ(ω,t_{pp})$ 在报告物质状态时变得不可靠，从而模糊了子脉冲宽度动力学。为了解决这个问题，我们提出了一种受频率分辨光门控（FROG）多维检索原理启发的全波形反演框架。通过利用自动微分（AD）技术和二维时域信号$E(t_{g},t_{pp})$，我们证明可以在亚脉冲宽度分辨率下独特地解决反演问题，检索仍然明确定义的物理可观测量，即与时间相关的散射率$γ(t)$、等离子体频率$ω_\\mathrm{p}(t)$和共振频率$ω_0(t)$，而响应函数则不然。通过 JAX 基于梯度的例程 (Adam + L-BFGS) 进行的进一步优化使得该方法对于实验噪声和探测脉冲失真具有异常鲁棒性。 AD 方法的有效性通过自洽数值方法和真实超快太赫兹光谱测量的实验数据进行基准测试。",
-      "source": "arXiv",
-      "published": "2026-06-24"
-    },
     {
       "id": "10.1016/j.epsl.2026.120197",
       "title": "Insight into long-term seismic behavior from an 8500-year paleoseismic record on the Altyn Tagh fault, Northwest China",
@@ -124,47 +69,47 @@
       "published": "2026"
     },
     {
-      "id": "10.1785/0220250127",
-      "title": "Detailed Seismological Observations from the ML 5.6 Reno Earthquake Sequence—the Largest Induced Seismic Event in Canada",
-      "url": "https://doi.org/10.1785/0220250127",
-      "first_author": "James P. Verdon",
-      "corr_author": "Neil Watson",
-      "affiliation": "1School of Earth Sciences, University of Bristol, Bristol, United Kingdom",
-      "abs_zh": "艾伯塔省北部里诺地震序列中的 ML 5.6 主震是加拿大最大的诱发事件，也是全球最大的此类事件之一。我们利用主震后 6 天部署的当地监测阵列的地震观测结果，详细了解引发地震活动的过程以及与附近废水处理 (WWD) 井的关系。地震活动描绘了一个完全位于结晶基底内的单一断层面。我们使用反射地震数据集来识别沉积剖面中的断层结构，这可能为压力向下传递到重新激活的断层面提供路径，并绘制了从贝洛伊组延伸到基底的断层图。如果通过基底推断，该结构连接到主震断层面上监测早期阶段地震活动最密集的位置。因此，该结构代表了最有可能从WWD向下传递压力的管道。正如沉积剖面中绘制的那样，它延伸穿过贝洛伊地层和勒杜克地层（WWD 的两个主要目标），因此压力可能是从这两个地层中的 WWD 转移的。然而，地震活动与附近贝洛伊组井的作业之间存在统计上显着的时间相关性，而与附近 Leduc 井的作业不存在时间相关性。时间相关性的存在以及所绘制的断层与贝洛伊井的空间接近性使我们得出结论，贝洛伊井与里诺诱发的地震活动有更强的联系。",
+      "id": "10.1093/gji/ggag274",
+      "title": "Efficient 3-D Seismic Wave Simulation in the Presence of Topography Using an Overset Virieux-Lebedev Grid FDTD Scheme",
+      "url": "https://doi.org/10.1093/gji/ggag274",
+      "first_author": "Zixiao Zhang",
+      "corr_author": "Jianping Huang",
+      "affiliation": "State Key Laboratory of Deep Oil and Gas, School of Geosciences, China University of Petroleum (East China) , Qingdao 266580 ,",
+      "abs_zh": "总结\n                  在地形存在的情况下足够精确的 3D 地震波建模仍然对计算要求很高，特别是当在整个域中应用曲线离散化时。我们开发了一个重叠的 Virieux-Lebedev 有限差分框架，该框架将曲线 Lebedev 网格（LG）离散化限制在近地表斑块上，并通过跨重叠区域的波场交换将其耦合到更深区域中的标准交错网格（SSG）方案。该方法旨在重现无牵引自由表面效应和地形散射，同时降低与全域曲线 LG 有限差分算子相关的成本。我们首先通过与参考解决方案进行比较，使用具有平坦和高斯地形自由表面的齐次半空间基准来验证底层的模拟有限差分实现。然后，我们使用一系列验证测试来评估重叠耦合，包括齐次笛卡尔基准、具有地形和阻抗对比接口的分层模型以及修改后的 GO_3D_OBS 地壳模型。在这些实验中，接收器地震图和波场快照没有表现出可归因于重叠耦合界面的明显伪影，并且时频包络和相位失配测量表明波形接近一致。运行时分析进一步表明，当 LG 重叠厚度保持固定时，效率将显着提高，并且代表性的 GO_3D_OBS 实验相对于全域 LG 模拟，显着减少了挂钟时间。这些结果表明，所提出的重叠策略能够为与基于波形的成像和反演相关的复杂地形设置提供高效且足够准确的 3D 波传播建模。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag264",
+      "title": "Joint physical-model- and multi-source-data-driven elastic full waveform inversion",
+      "url": "https://doi.org/10.1093/gji/ggag264",
+      "first_author": "Shuliang Wu",
+      "corr_author": "Jianhua Geng",
+      "affiliation": "State Key Laboratory of Marine Geology, Tongji University , Shanghai ,",
+      "abs_zh": "总结\n                  弹性全波形反演 (EFWI) 提供了对于地层岩性和流体表征至关重要的高分辨率地下纵波和横波速度模型。然而，当低频地震数据或准确的初始模型不可用时，其强非线性使其极易受到局部极小值捕获的影响。此外，多分量地震数据对不同弹性参数的耦合敏感性引入了多参数串扰效应，进一步降低了反演精度。尽管测井数据包含丰富的、本质上解耦的地下弹性参数先验信息，但 1D 测井数据和 2D/3D 反演域之间的基本尺寸不匹配阻碍了它们直接集成到传统的 EFWI 中。为了克服这些限制，提出了联合物理模型和多源数据驱动（JPM-MSDD）EFWI 框架。利用公共中点 (CMP) 道集和一维垂直速度剖面之间的相关性来解决尺寸不匹配问题，使测井数据能够直接用作训练标签。神经网络经过训练，可在半监督学习方案下将多分量地震数据的连续相邻 CMP 道集映射到一维 P 波和 S 波速度剖面，其中井侧 CMP 测井对形成标记数据集，而模型驱动的 EFWI 为未标记道集提供物理一致的伪标签。通过这种方式，所提出的方法能够减少对大型标记数据集的依赖，并增强反演结果的物理解释。为了进一步降低 EFWI 的非线性，通过地震道上的位置嵌入来合并地震数据的空间相关信息。通过将包括测井数据、多分量地震数据和地震道空间信息在内的多源数据集成到EFWI过程中，即使在没有地震数据低频分量的情况下，也能得到很好的低波信息。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250424",
+      "title": "Complex Stress State in the Copiapó Double Seismic Zone, North-Central Chile",
+      "url": "https://doi.org/10.1785/0220250424",
+      "first_author": "Francisco Pastén-Araya",
+      "corr_author": "Matías Peña",
+      "affiliation": "1Departamento de Obras Civiles, Facultad de Ciencias de la Ingeniería, Universidad Católica del Maule, Talca, Chile",
+      "abs_zh": "智利中北部的科皮亚波段位于 1922 年巨型逆冲地震震隙内，其特点是地震群、反复发生的慢滑移事件和科皮亚波脊的俯冲。尽管这些特征已经被详细研究，但海洋板块的内应力场及其与地震活动分布和测深结构的关系仍然缺乏约束。利用高分辨率地震目录描绘了深度从 20 公里到 120 公里的发育良好的双地震带，我们确定了 2.0 到 4.6 级地震的震源机制，并进行了应力反演来解析主应力方向。我们的结果揭示了复杂且独特的深度依赖性应力变化。在板间边界附近，压应力反映了板块聚合和地壳弯曲，断层可能受到继承的海洋板块结构的调节。在上岩石圈地幔中，应力场表现出较大的非均质性。在浅层深处，伸展区域占主导地位，受重新活动的正断层控制。在 80 至 100 公里之间，我们发现了一种与强烈地震活动相关的新型地下压应力状态，我们将其归因于科皮亚波海岭的俯冲。或者，这种压缩可能是由于标志着向智利平板段过渡的板坯几何形状变化造成的。在 100 公里以下，板片拉力重新建立了伸展状态，地震活动集中在岩石圈地幔中，而洋壳内的地震活动稀疏。这些发现完善了我们对板内地震活动、俯冲测深特征和板形态之间机械相互作用的理解。通过对下行板块的应力状态提供新的约束，这项研究改进了俯冲动力学的表征，并确定了成熟地震中未来大地震的潜在成核区",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1785/0220260074",
-      "title": "Detectability Limits of Seismic Rate Changes: Statistical Constraints from Synthetic and Global Earthquake Catalogs",
-      "url": "https://doi.org/10.1785/0220260074",
-      "first_author": "Antonino D’Alessandro",
-      "corr_author": "Antonino D’Alessandro",
-      "affiliation": "1Istituto Nazionale di Geofisica e Vulcanologia, Osservatorio Nazionale Terremoti, Rome, Italy",
-      "abs_zh": "地震发生率的时间变化被广泛研究作为应力演化、断层带过程或大地震前的准备阶段的指标。然而，这种速率变化的统计可观测性从根本上受到有限事件计数、地震活动聚类、目录异质性和分析设计选择的限制。在这里，我们将地震速率变异性问题重新表述为一个明确的可检测性问题：给定基线速率、观测窗口、显着性水平和目标功率，可以统计解决的最小速率变化是多少？我们在泊松和过度分散负二项式 (NB) 模型下得出基于计数的假设检验的精确可检测性阈值，明确考虑了窗口长度、过度分散和多重测试。综合实验表明，即使在平稳过程中，仅过度分散也会大大提高相对于泊松期望的可检测性阈值，而滑动窗口分析会通过多重效应进一步降低统计功效。将此框架应用于全球美国地质调查局地震目录（Mw≥5.5，1973-2025），我们表明，在亚年到多年的时间尺度上，经验推断的 NB 阈值仍然显着高于基于泊松的预测。观察到的滚动窗口利率波动经常超过泊松阈值，但几乎从未超过 NB 阈值，这表明最明显的全局利率异常在统计上与内在目录变异性无法区分。其他分析表明，这些结论对于统计功效的选择是稳健的，并且主要不是由异质构造环境的聚合驱动的。我们的结果表明，地震速率变化的零检测通常是基本统计约束的预期结果，而不是反对潜在物理过程的证据。公关",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260076",
-      "title": "Application of Spectral Amplitude Decomposition to Discrimination of Anthropogenic and Natural Small-Magnitude Seismic Events (≤\n                    <b>M</b>\n                     3.5) in Utah, USA",
-      "url": "https://doi.org/10.1785/0120260076",
-      "first_author": "Sean J. Hutchings",
-      "corr_author": "Keith D. Koper",
-      "affiliation": "1Sandia National Laboratories, Albuquerque, New Mexico, U.S.A.",
-      "abs_zh": "区分小震级（M < 3.5）自然地震和人为事件是常规地震台网操作的关键部分，以保证地震目录的准确性、地震危险性分析和禁试条约验证。然而，这在局部距离（<125 公里）仍然具有挑战性，可能是因为异质地球结构的采样增加。因此，校正传播效应和站点响应是区分过程中的关键步骤，并且它已应用于区域和局部距离。我们应用谱振幅分解技术，允许对场地响应进行灵活的数据驱动拟合，并结合几何扩展和滞弹性衰减项来区分美国犹他州的小震级地震（EQ）、爆炸（EX）和采矿诱发的地震活动（MIS）。我们测量五个频带中 Pg 和 Sg 相位的时域均方根振幅：2-5、5-10、10-15、15-20 和 20-30 Hz。我们使用低频到高频的 Sg 和 Pg 比率以及 Pg/Sg 交叉频谱比来评估每个频段中的位置校正和传播校正幅度的性能。由于 EX 和 MIS 的高频 Sg 能量相对耗尽，因此最好使用 2-5 和 5-10 Hz 频率范围内的交叉频谱比将 EQ 与人为事件（EX 和 MIS）区分开。 EX 和 MIS 最好使用 Pg/Sg 比率 <1 来分离。 10 Hz，在这些频率下，EX 比 MIS 更倾向于产生更多的 Sg 能量。我们进一步分析了可疑的单次发射 (SFX) 和延迟（波纹）发射 EX，并发现使用 Pg/Sg 比率 <<，SFX 与 MIS 的分离度更高。 5 赫兹。最后，我们发现源激励项和参考幅度（Mw、ML 和 Mc）之间的差异值提供了额外的辨别能力，值得进一步研究。",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123741",
-      "title": "Does Zonal Wave 3 Affect Total Antarctic Sea Ice Area?",
-      "url": "https://doi.org/10.1029/2026gl123741",
-      "first_author": "Michael D. Eabry",
-      "corr_author": "Alex Sen Gupta",
-      "affiliation": "Climate Change Research Centre University of New South Wales  Sydney NSW Australia",
-      "abs_zh": "虽然众所周知，第三波（ZW3）可以驱动南极海冰的区域扩张或收缩，但尚不清楚它是否对环极海冰总面积（SIA）有影响。在这里，我们提供证据来质疑之前的研究将南极洲 SIA 整体大幅下降归因于 ZW3。我们表明，ZW3 和 SIA 趋势之间的环极平均关系很弱，因为大部分抵消了经向风异常和相关的相反海冰响应。尽管沿冰缘存在中等强度、积极且显着的局部经向风-海冰关系，但情况仍然如此。此外，环极平均经向风与总 SIA 之间的关系变得较弱，甚至可能在几个月内逆转。理想化的随机模型在特定条件下重现了这种行为，其中局部经向风异常并未完全抵消，并且局部 SIA 对风力强迫的响应强度有所不同。",
-      "source": "Geophysical Research Letters",
+      "id": "10.1093/gji/ggag283",
+      "title": "Implementing 3D Earth models for wavefield simulations and seismic moment tensor estimation",
+      "url": "https://doi.org/10.1093/gji/ggag283",
+      "first_author": "Amanda M McPherson",
+      "corr_author": "Daniel Peter",
+      "affiliation": "University of Alaska Geophysical Institute and Department of Geosciences, , Fairbanks, AK 99775 ,",
+      "abs_zh": "总结\n                  地震矩张量提供了各种事件类型的简单表示，包括地震、火山事件、山体滑坡和爆炸。估计地震矩张量的六个参数会受到假设地球模型中不准确的影响，无论其特征是简单的层状结构 (1D) 还是异质性 (3D)。利用记录的数据和 3D 地球模型中的地震波场模拟，我们使用 MTUQ 软件估计双力偶和全力矩张量，然后量化由于不同地球模型而导致的力矩张量之间的差异。我们建立了新功能，用于将 EarthScope 地球模型协作 (EMC) 中的 3D 地球模型实施到波传播代码 SPECFEM3D Globe 中。三个工作流程组件——EMC、SPECFEM3D Globe 和 MTUQ——都是公开可用的，从而最大限度地提高了访问、再现性和未来增强的可能性。我们使用 5 个地震和 53D 地球模型演示了阿拉斯加地区的震源估计工作流程。使用矩张量估计中的失配测量，我们可以量化矩张量和底层地球模型的性能。对于这个由 5 个记录良好的事件组成的有限数据集，我们演示了如何检查源变异性、断层扫描模型评估以及矩张量非双偶分量的可靠​​性等基本问题。该程序能够对地球模型引起的矩张量不确定性进行量化和可视化，同时还提供层析成像模型与独立参考数据集的直接比较。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

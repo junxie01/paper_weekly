@@ -1,29 +1,7 @@
 {
-  "last_update": "2026-07-05 至 2026-07-12 10:51",
+  "last_update": "2026-07-12 至 2026-07-19 10:48",
   "topic_name": "人工智能",
   "papers": [
-    {
-      "id": "2603.03079v1",
-      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
-      "url": "http://arxiv.org/abs/2603.03079v1",
-      "first_author": "Jonas Köhler",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以考虑平衡数据集上的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时仍与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
-      "source": "arXiv",
-      "published": "2026-03-03"
-    },
-    {
-      "id": "2602.09792v1",
-      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
-      "url": "http://arxiv.org/abs/2602.09792v1",
-      "first_author": "Jaehong Chung",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将这种方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性的幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
-      "source": "arXiv",
-      "published": "2026-02-10"
-    },
     {
       "id": "10.1016/j.epsl.2026.120091",
       "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
@@ -36,136 +14,103 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aee3529",
+      "title": "Learning dynamically regulates stimulus discrimination of ventral striatal D1 receptor expressing neurons",
+      "url": "https://doi.org/10.1126/sciadv.aee3529",
+      "first_author": "Tierney B. Daw",
+      "corr_author": "Sotiris C. Masmanidis",
+      "affiliation": "Molecular, Cellular, and Integrative Physiology Graduate Program, University of California, Los Angeles, CA, USA.",
+      "abs_zh": "动物会遇到一系列感官刺激，但其中只有一部分与食欲结果相关。因此，学习区分奖励配对和不配对线索的机制对于奖励寻求行为至关重要。腹侧纹状体在强化学习和刺激辨别中发挥着关键作用，但学习对不同细胞类型选择性的影响仍不清楚。当小鼠学会区分奖励配对和不配对线索时，我们检查了腹侧纹状体 D1 和 D2 中棘神经元 (MSN) 的放电特性。随着单次学习的进展，D1 MSN 选择性随行为选择性线性增加，而 D2 MSN 则表现出适度的、行为不相关的活动变化。 D1 MSN 选择性的改变主要归因于对无奖励提示的兴奋性反应减弱，以及在无奖励提示期间 D1 MSN 活性的增加损害了行为选择性。总之，这些发现揭示了 D1 MSN 对刺激辨别学习的显着更动态的贡献。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef5759",
+      "title": "A deep learning model for predicting daily PM\n                    <sub>2.5</sub>\n                    concentration in response to emission reduction",
+      "url": "https://doi.org/10.1126/sciadv.aef5759",
+      "first_author": "Shigan Liu",
+      "corr_author": "Qiang Zhang",
+      "affiliation": "Ministry of Education Key Laboratory for Earth System Modeling, Department of Earth System Science, Tsinghua University, Beijing 100084, China.",
+      "abs_zh": "空气污染仍然是全球主要的健康威胁，细颗粒物 (PM\n                    2.5\n                    ）每年造成数百万人过早死亡。化学品传输模型 (CTM) 对于估计排放控制如何改善空气质量至关重要，但计算量较大。在这里，我们介绍 CleanAir，一个模拟日常 PM 的深度学习模型\n                    2.5\n                    36 公里水平分辨率下的浓度及其化学成分对减排量的响应。 CleanAir 基于残差对称三维 U-Net 架构，可以估计 365 天的 PM\n                    2.5\n                    在图形处理单元上 10 秒内或在中央处理单元上 160 秒内集中在中国 - 比 CTM 快三到四个数量级。 CleanAir 的结果与社区多尺度空气质量 (CMAQ) 模型的结果非常吻合\n                    2.5\n                    浓度和排放引起的变化。 CleanAir 根据 CMAQ 模型的 2416 种排放情景进行训练，可以很好地概括未见的气象和排放。凭借快速模拟功能，CleanAir 能够对短期排放控制措施和长期缓解途径进行广泛评估，从而做出更敏感的决策。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aeb8867",
+      "title": "On-demand growth of semiconductor heterostructures guided by physics-informed machine learning",
+      "url": "https://doi.org/10.1126/sciadv.aeb8867",
+      "first_author": "Chao Shen",
+      "corr_author": "Chao Zhao",
+      "affiliation": "State Key Laboratory of Optoelectronic Materials and Devices, Institute of Semiconductors, Chinese Academy of Sciences, Beijing 100083, China.",
+      "abs_zh": "按需开发定制异质结构对于满足半导体器件不断增长的需求至关重要。然而，传统方法仍然受到基于仿真的设计和迭代试错优化的限制。在这里，我们介绍 SemiEpi，这是一个专为分子束外延 (MBE) 设计的自动驱动平台，可通过原位反射高能电子衍射监控和动态反馈控制实现多步半导体异质结构生长。通过集成 MBE 反应器、基于物理的机器学习 (ML) 模型和参数初始化，SemiEpi 设计异质结构，确定最佳初始条件，并提出材料生长实验。作为演示，我们优化了高密度 InAs 量子点生长，目标发射波长为 1240 nm，实现了 5 × 10 的密度\n                    10\n                    厘米\n                    −2\n                    ，通过生长温度的反馈控制，光致发光强度增加了 1.6 倍，半峰全宽降低为 29.13 meV。我们进一步展示了 SemiEpi 在不同 MBE 反应器中的多功能性，强调了其解决多步异质结构生长挑战、实现独立于硬件的框架以及增强工艺可重复性和稳定性的潜力。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.ady7216",
+      "title": "Tailored forecasting from short time series via meta-learning",
+      "url": "https://doi.org/10.1126/sciadv.ady7216",
+      "first_author": "Declan A. Norton",
+      "corr_author": "Michelle Girvan",
+      "affiliation": "Department of Physics, University of Maryland, College Park, MD 20742, USA.",
+      "abs_zh": "机器学习模型可以根据时间序列数据有效地预测动态系统，但它们通常需要大量过去的数据，这使得对于历史记录有限的系统进行预测尤其具有挑战性。为了克服这个问题，我们引入了使用相关时间序列进行定制预测的元学习（METAFORS），它概括了跨系统的知识，以便在数据有限的场景中进行预测。通过从潜在相关系统的较长时间序列训练的模型库中学习，METAFORS 构建并初始化一个针对感兴趣系统的短时间序列数据定制的模型。通过使用储层计算实现和对模拟混沌系统的测试，我们证明了 METAFORS 可以可靠地预测短期动态和长期统计数据，而无需上下文标签。即使测试和相关系统表现出截然不同的行为，我们也能看到这一点，这突显了 METAFORS 在数据有限场景中的优势。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec3961",
+      "title": "Linking functional and structural dendritic spine remodeling during fear learning and extinction in vivo",
+      "url": "https://doi.org/10.1126/sciadv.aec3961",
+      "first_author": "Xiaoyang Li",
+      "corr_author": "Cora Sau Wan Lai",
+      "affiliation": "School of Biomedical Sciences, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong, China.",
+      "abs_zh": "在不同的学习范式中观察到树突棘的结构可塑性，但树突棘的功能动力学如何随着记忆处理而变化，以及这些模式与结构可塑性和树突整合的关系仍不清楚。在这里，我们对经过几天的恐惧调节和消退的小鼠额叶联合皮层进行纵向功能和结构体内成像。我们表明，恐惧学习诱发的反应性棘更有可能是同步和聚集的，这些棘在接下来的几天里得到巩固，但因灭绝而减弱。我们开发了一个因果推理模型，证明恐惧学习过程中活跃的棘钙信号可以防止棘被消除，同时在记忆巩固后促进邻近棘的消除。此外，树突响应信号揭示了一种依赖于学习的音调辨别模式，该模式与脊柱的结构重塑相关。我们的研究结果提供了与双向学习范式中树突棘的功能结构联系一致的体内证据。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260049",
+      "title": "MPMSE: A Multitask Deep Learning Framework for Earthquake Source Characterization Using High-Rate GNSS, Strong-Motion Data, and Magnitude-Derived Priors",
+      "url": "https://doi.org/10.1785/0220260049",
+      "first_author": "Naiqian Zhang",
+      "corr_author": "Zhiyuan Zhou",
+      "affiliation": "1Department of Earth and Space Sciences, Southern University of Science and Technology, Shenzhen, Guangdong, China",
+      "abs_zh": "准确快速地估计震源参数对于灾后应急响应和级联灾害评估至关重要。多源观测为破裂过程提供了补充约束，但其异构数据特征使得有效的数据融合成为快速源表征的关键挑战。在这里，我们提出了多源先验约束震级和滑移估计器（MPMSE），这是一种多任务深度学习框架，集成了高速全球导航卫星系统（GNSS）位移波形、强运动速度记录和震级导出的先验约束。该框架结合了并行波形编码器、台站几何条件和基于标度律的先验，共同估计地震震级、破裂面积、最大滑移和空间滑移分布。合成地震测试表明，MPMSE 使用 90 秒输入窗口实现稳定的震级估计，平均绝对误差约为 0.03。当应用于日本俯冲带地震和2024年花莲地震时，MPMSE迅速恢复了这些真实事件的主要震源特征，GNSS位移方差减少了超过66%。总体而言，MPMSE通过集成多源观测并引入震级推导的先验约束，提高了快速震源表征的可靠性和观测一致性，为事后快速响应和级联灾害（例如海啸）评估提供了新技术途径。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag281",
+      "title": "Machine Learning Reveals Attenuation-Related Envelope Features Across the Eastern Tibetan Plateau Margin from High-Frequency Coda Waves",
+      "url": "https://doi.org/10.1093/gji/ggag281",
+      "first_author": "Junpeng Li",
+      "corr_author": "Jiao Yang",
+      "affiliation": "State Key Laboratory of Precision Geodesy, Innovation Academy for Precision Measurement Science and Technology, Chinese Academy of Sciences , Wuhan 430077 ,",
+      "abs_zh": "总结\n                  高频（> 1Hz）尾波由多重散射地震能量组成，其跟随直接体波到达并且对小尺度岩石圈不均匀性和衰减表现出高敏感性。尾波包络的衰减和形状主要受本征衰减和散射衰减的影响，本征衰减与滞弹性过程导致的不可逆能量损失有关，以及由不均匀性引起的波重定向引起的散射衰减。然而，这两种效应在观察中强烈耦合，使得它们的分离具有挑战性。在这里，我们对青藏高原东缘记录的 28,393 个高频垂直分量尾波包络应用了条件变分自动编码器 (CVAE)。通过根据震中距离调节模型，经过训练的 CVAE 提取两个潜在变量，这些变量表征独立于一阶距离效应的主要包络形状变化。第一个潜在变量主要调节 P/S 幅度比和峰后衰减行为，显示出与内在衰减效应定性一致的趋势。其空间分布揭示了稳定的四川盆地内的较低值和整个构造活动的青藏高原一侧的较高值，这与之前的衰减研究一致。第二个潜在变量主要控制包络展宽和峰值延迟，与散射相关的能量重新分配一致。其空间格局表明，受盆地松散沉积物覆盖和高原断层相关断裂影响的区域，散射相关的展宽增强。合成数据测试进一步支持潜在变量的定性解释，同时也显示了它们之间的交叉敏感性。这些结果表明 CVAE 可以提取与衰减相关的包络形状特征，而不是直接解耦固有和散射衰减参数。我们的研究结果表明",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl121118",
+      "title": "High‐Resolution Imaging of a Distant M6 Intermediate‐Depth Earthquake Using Ocean‐Bottom DAS and Seismic Network",
+      "url": "https://doi.org/10.1029/2025gl121118",
+      "first_author": "Yuqing Xie",
+      "corr_author": "Diane Rivet",
+      "affiliation": "Institute of Geology and Geophysics Chinese Academy of Sciences  Beijing China",
+      "abs_zh": "分布式声学传感 (DAS) 提供密集的大孔径观测，可能是地震破裂过程成像的理想选择。通过结合来自智利近海约 450 公里长的海底 DAS 阵列和传统地震台网的数据，我们对约 400 公里外的阿根廷发生的 Mw 6.0 中深度地震进行了成像，实现了其破裂过程的公里级空间分辨率。反投影成像揭示了两个子事件，并在 3 秒内向北传播了 6-8 公里。结果有利于俯冲板片内南北走向（~350°）、西倾（~53°）正断层的破裂，这与先前存在的薄弱面（例如古代外隆断层或俯冲海山的断裂侧翼）的重新活动一致。这项研究证明了 DAS 能够以高分辨率和广泛的覆盖范围解析区域距离内的中等规模 (Mw 6) 地震破裂，从而极大地扩展了可以阐明地震物理的事件范围。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1126/sciadv.aee2319",
       "title": "A chemistry-informed deep learning network for mitigating the stratospheric OH data gap",
       "url": "https://doi.org/10.1126/sciadv.aee2319",
       "first_author": "Wenjie Yin",
       "corr_author": "Martyn P. Chipperfield",
       "affiliation": "School of Earth and Space Science Technology, Wuhan University, Wuhan, China.",
-      "abs_zh": "羟基 (OH) 自由基是平流层化学中的关键物质，导致臭氧损失和其他化学家族的耦合。然而，全球 OH 观测非常稀疏，自 2009 年以来卫星观测存在严重差距。尽管替代化学方法试图缩小这种差距，但它们有局限性。在这里，我们提出了 DRCAT，这是一个化学信息深度学习网络，可利用化学相关物种的同步卫星观测来预测平流层 OH 分布。 DRCAT 仅使用 2 年的数据进行训练，提供了从 2004 年底至今连续可靠的全球平流层 OH 数据集的重建。结果表明，DRCAT 的性能优于化学输运模型和观测约束的稳态近似模型。此外，DRCAT 成功预测了 2022 年洪加火山喷发后的异常 OH 增强，显示出对训练制度之外的极端条件的普适性。因此，DRCAT 提供了一条填补 OH 观测空白的强大途径。除了 OH 之外，这项工作还为其他关键短命物种的类似重建提供了一个可扩展的框架。",
+      "abs_zh": "羟基 (OH) 自由基是平流层化学中的关键物质，导致臭氧损失和其他化学家族的耦合。然而，全球 OH 观测非常稀疏，自 2009 年以来卫星观测存在严重差距。尽管替代化学方法试图缩小这种差距，但它们具有局限性。在这里，我们提出了 DRCAT，这是一个化学信息深度学习网络，可利用化学相关物种的同步卫星观测来预测平流层 OH 分布。 DRCAT 仅使用 2 年的数据进行训练，提供了从 2004 年底至今连续可靠的全球平流层 OH 数据集的重建。结果表明，DRCAT 的性能优于化学输运模型和观测约束的稳态近似模型。此外，DRCAT 成功预测了 2022 年洪加火山喷发后的异常 OH 增强，显示出对训练制度之外的极端条件的普适性。因此，DRCAT 提供了一条填补 OH 观测空白的强大途径。除了 OH 之外，这项工作还为其他关键短命物种的类似重建提供了一个可扩展的框架。",
       "source": "Science Advances",
       "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aea3611",
-      "title": "Discovery of flat-band 2D materials via physics-informed scoring and structure-based learning",
-      "url": "https://doi.org/10.1126/sciadv.aea3611",
-      "first_author": "Xiangwen Wang",
-      "corr_author": "Artem Mishchenko",
-      "affiliation": "Department of Physics and Astronomy, The University of Manchester, Manchester M13 9PL, UK.",
-      "abs_zh": "平坦的电子能带是从非常规超导到分数拓扑等奇异量子现象的沃土。然而，它们的稀有性以及对密度泛函理论（DFT）计算进行识别的依赖限制了对大型物质空间的系统探索。在这里，我们报告了通过结构知情、数据驱动的框架发现了多种以前未被识别的平带二维材料。我们引入了一种物理驱动的平坦度评分，它结合了能带色散和状态密度特征，无需手动检查即可对已知材料进行算法标记。然后，该分数用于训练多模态深度学习模型，该模型直接根据原子结构预测平带倾向。我们的框架应用于 10,000 多种未标记材料，识别出众多平带候选材料。在得分最高的结构（平坦度得分高于 0.9）中，对类似 kagome 晶格的材料进行的 DFT 计算证实了 98% 的平带预测精度，证明了发现拓扑非平凡系统的能力。通过绕过预先计算能带结构的需要，我们的方法能够实现大规模、可解释的筛选，并扩展低维系统中相关量子相的设计空间。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.ady9432",
-      "title": "A scalable deep-learning framework for cancer detection using cell-free DNA shallow whole-genome sequencing",
-      "url": "https://doi.org/10.1126/sciadv.ady9432",
-      "first_author": "Haichao Wang",
-      "corr_author": "Nitzan Rosenfeld",
-      "affiliation": "Centre for Cancer Cell and Molecular Biology, Barts Cancer Institute, Queen Mary University of London, John Vane Science Centre, Charterhouse Square, London EC1M 6BQ, UK.",
-      "abs_zh": "体液中的游离 DNA (cfDNA) 可实现无创癌症检测。当癌症信号稀疏时，多功能人工智能 (AI) 可以通过整合不同的生物标志物来提高灵敏度。依赖于突变的肿瘤信息检测对于早期癌症检测的实用性有限。新兴的片段组学和表观遗传特征支撑了筛选低肿瘤负荷个体的肿瘤初始方法。在这里，我们设计了 UNITE——一个通用的 cfDNA 特征集成框架，提供可扩展的癌症检测方法，该方法基于源自 0.1 倍深度的浅全基因组测序 (sWGS) 数据的“基因组箱片段长度”矩阵。使用来自 2063 个血浆样本（631 个对照和来自 26 种癌症类型的 1432 个病例）的 sWGS 数据，我们系统地评估了跨多个特征空间和癌症阶段的 XGBoost (UNITE-XGB) 和卷积神经网络 (UNITE-CNN)。在 I-II 期癌症中，UNITE-XGB 和 UNITE-CNN 分别实现了 31% 和 21% 的敏感性和 95% 的特异性。这些发现为开发血浆活检之外的多功能人工智能提供了路线图。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag275",
-      "title": "Machine Learning-Driven Lateral Density Variation for High-Precision Bathymetry: Central-Northern South China Sea",
-      "url": "https://doi.org/10.1093/gji/ggag275",
-      "first_author": "Chunhong Wu",
-      "corr_author": "Zhongya Qiao",
-      "affiliation": "Guangzhou Marine Geological Survey, China Geological Survey , Guangzhou 511458 ,",
-      "abs_zh": "总结\n                  重力测深中的均匀密度对比假设会产生很大的系统误差。这个问题在南海中北部等横向密度变化较大的地区尤为突出。传统的恒定或简单的垂直变化密度模型无法捕捉这些复杂性。为了克服这一限制，通过使用反向传播（BP）神经网络集成多源地球物理数据（地壳、重力和测深数据）来构建空间变化的密度对比场。该场被纳入基于 Parker 的自适应反演中，产生高分辨率的测深网格，其均方根 (RMS) 比恒定密度方法提高了 2.6 m，并且系统偏差最小。最显着的增益发生在浅礁为主的水域（0 至 -1500 m），相对 RMS 降低达到约 9%。通过将神经网络导出的密度建模与物理严格反演相结合，该方法克服了均匀密度假设的局限性，同时保留了可解释性，为地质复杂区域的高精度海底测绘提供了一种高效可靠的方法。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag269",
-      "title": "Efficient Bayesian inference through self-supervised active learning",
-      "url": "https://doi.org/10.1093/gji/ggag269",
-      "first_author": "Runhai Feng",
-      "corr_author": "Taqi Alyousuf",
-      "affiliation": "Aramco Research Center - Beijing , Aramco Asia, Beijing ,",
-      "abs_zh": "总结\n                  我们开发了一种用于地球物理反演的物理引导深度学习框架，该框架结合了马尔可夫链蒙特卡罗（MCMC）采样来评估与感兴趣的模型参数相关的不确定性。为了提高计算效率，采用统计采样方法来减少所需样本的数量，同时确保训练数据保持多样化和信息丰富。随着反演迭代进行，训练数据集使用随机采样器的输出及其相应的前向响应动态扩展。采用有监督的深度学习模型，采用Jensen-Shannon散度作为损失函数，并应用高斯假设进行分析计算。我们测试了地震速度模型反演的工作流程，并成功捕获了地质特征和速度分布，结果与参考模型非常匹配。与应用于整个数据立方体的 MCMC 采样器相比，所提出的工作流程计算效率更高，因为使用主动学习范例选择了一小部分数据。该工作流程具有很强的通用性和有效性，使其也适用于各种其他反演应用。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10759-2",
-      "title": "Reinforcement learning control of quantum error correction",
-      "url": "https://doi.org/10.1038/s41586-026-10759-2",
-      "first_author": "Volodymyr Sivak",
-      "corr_author": "Paul V. Klimov",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-3759-2026",
-      "title": "Mapping daily snow depth with machine learning and airborne lidar across two contrasting snowpacks",
-      "url": "https://doi.org/10.5194/tc-20-3759-2026",
-      "first_author": "Caleb G. Pan",
-      "corr_author": "Shad O'Neel",
-      "affiliation": "未知机构",
-      "abs_zh": "。预报和操作需要每日盆地规模的积雪深度图，但机载激光雷达通常仅提供情景快照。我们提出了一种便携式相对深度机器学习框架，可将少量激光雷达采集数据加上单个每日驾驶员时间序列（现场站或 ERA5-Land）转换为时间连贯的、每像素每日雪深图。随机森林模型根据激光雷达-驾驶员差异进行训练，其中激光雷达提供出发的空间模式，而驾驶员提供时间演化；学习仅限于在赛季开始和结束时使用有效像素掩模和合成零深度图观察到的条件。我们使用多年激光雷达记录在两个截然不同的地区（爱达荷州莫尔斯溪和新罕布什尔州哈伯德布鲁克）评估该方法。在这两个盆地中，性能都符合目的（R2 0.89–0.90；RMSE 8–28cm；MAE 5–19cm；接近零偏差）。莫尔斯溪 (Mores Creek) 是一个较大的非均质西部盆地，它比哈伯德布鲁克 (Hubbard Brook) 更能从添加激光雷达信息的残差地图中受益，哈伯德布鲁克是一个较小的过渡性东部盆地，其主要价值是纠正局部偏离平均值和精炼融化时间。空间诊断和沙普利值表明，残差是通过景观控制进行组织的，包括海拔、坡向/北度、微地形、坡度和重新分布代理。激光雷达节奏实验表明，几次收购后收益递减：在莫尔斯溪，大约有 5 次早季飞行、4 次仲冬飞行和 5 次晚季飞行恢复了大部分技能，而哈伯德布鲁克也显示出类似的模式，约 3 次飞行在早中冬和 5 次冬中末，但模型技能的变异性更大。激光雷达采集的时机也会影响模型的可移植性。根据季中数据训练的模型对于早季和晚季条件都具有良好的泛化能力，而根据晚季数据训练的模型在应用于早季日期时表现最差。 ERA5-驱动器",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250412",
-      "title": "A Detailed Picture of Haiti’s Seismicity Given by Deep Learning and Template Matching",
-      "url": "https://doi.org/10.1785/0220250412",
-      "first_author": "Miguel Neves",
-      "corr_author": "Éric Calais",
-      "affiliation": "1Observatoire de la Côte d’Azur, Université Côte d’Azur, IRD, CNRS, Geoazur, Sophia Antipolis, Valbonne, France",
-      "abs_zh": "海地经常发生破坏性地震，但该地区的地震监测历来有限。最近部署的公民托管 RaspberryShake 地震仪以及 2021 年 Mw 7.2 地震后的临时地震部署为研究该地区的地震构造提供了新数据。然而，许多站点（尤其是 RaspberryShake 站点）的高噪声水平限制了检测，从而限制了这些仪器的故障成像能力。本研究探索使用深度学习去噪算法 DeepDenoiser 来提高地震信号和地震检测能力。我们发现 DeepDenoiser 将地震信号的平均信噪比提高了 4.7 dB，并增加了地震检测，但在使用短期平均/长期平均和深度学习检测方法时，也增加了错误检测。然而，与传统带通滤波波形相比，模板匹配与 DeepDenoiser 结合使用时，可以产生更多的真实检测和更少的错误检测。这表明 DeepDenoiser 比实时应用更适合回顾性研究。使用 DeepDenoiser 和模板匹配，我们编制了海地 2 年高分辨率地震目录，其中包含的事件数量约为原始目录的三倍。改进后的目录进一步加深了我们对 2021 年 Mw 7.2 地震序列的理解，特别清楚地突出了余震分布的分段性质，东部有一个总体向东北倾斜的集群，与破裂的震源和第一个反相相一致，而更西边的一系列余震与破裂的主要走滑相相一致。改进后的目录还揭示了杰雷米盆地中潜在的流体诱发的近海地震群以及多米尼加共和国恩里基略湖下方的活跃地震活动。该目录增进了我们对该地区地震活动的了解，并提供了进一步的信息",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250366",
-      "title": "Deep Learning Denoising for Synchronous Surface Three-Component Seismic Data Based on Huainan Deep Underground Observation",
-      "url": "https://doi.org/10.1785/0220250366",
-      "first_author": "Yifan Jian",
-      "corr_author": "Yun Wang",
-      "affiliation": "1School of Geophysics and Information Technology, China University of Geosciences, Beijing, China",
-      "abs_zh": "地面采集的地震数据长期以来一直受到近地表噪声污染的困扰，严重限制了现场记录的实用性。地下深处实验室超低本底观测的最新进展为高精度多物理信号分析提供了新的参考基准。本研究利用从淮南深部地下实验室收集的低背景地震数据，提出了一种基于深度学习的噪声净化方法，该方法将长短期记忆网络与自动编码器架构相结合。该方法采用自监督学习机制，从地下深处数据中提取干净地震信号的基本特征，然后利用并置的同步地表和地下观测的波场同源性来实现对重污染地表数据的自适应去噪。实验结果表明，对于没有有效地震事件的环境噪声，该模型有效抑制了1 Hz以上的高频噪声，最大高频抑制比达到0.986，同时很大程度上保留了低频背景场的完整性。对于包含有效地震事件的记录，该模型成功地从严重污染的数据中重建了屏蔽信号，最大信噪比 (SNR) 提高了 8.21 dB。此外，单分量 (1C) 和三分量联合 (3C) 矢量处理之间的比较表明，1C 模型在特征频率保留和低频信号保真度方面表现更好，而 3C 矢量处理方法可产生出色的高频噪声衰减和整体 SNR 增强。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "2508.04925v2",
-      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
-      "url": "http://arxiv.org/abs/2508.04925v2",
-      "first_author": "Sigma Jahan",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根本原因和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
-      "source": "arXiv",
-      "published": "2025-08-06"
-    },
-    {
-      "id": "2412.16336v1",
-      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
-      "url": "http://arxiv.org/abs/2412.16336v1",
-      "first_author": "Gunel Jahangirova",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障符合我们的研究条件。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
-      "source": "arXiv",
-      "published": "2024-12-20"
-    },
-    {
-      "id": "2411.17707v1",
-      "title": "A Composite Fault Diagnosis Model for NPPs Based on Bayesian-EfficientNet Module",
-      "url": "http://arxiv.org/abs/2411.17707v1",
-      "first_author": "Siwei Li",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "本文重点介绍核电站反应堆冷却剂系统、主蒸汽系统、凝结水系统、主给水系统中泵、阀门、管道等重要机械部件的故障。利用数据驱动的深度学习故障诊断技术，提出了基于贝叶斯算法和EfficientNet大模型的复合多故障诊断模型。目的是通过核电站场景中的迁移学习来评估基于自动深度学习的大模型技术的有效性。",
-      "source": "arXiv",
-      "published": "2024-11-13"
     }
   ]
 }
