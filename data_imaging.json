@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-12 至 2026-07-19 10:48",
+  "last_update": "2026-07-19 至 2026-07-26 10:51",
   "topic_name": "地震成像",
   "papers": [
     {
@@ -69,47 +69,47 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag274",
-      "title": "Efficient 3-D Seismic Wave Simulation in the Presence of Topography Using an Overset Virieux-Lebedev Grid FDTD Scheme",
-      "url": "https://doi.org/10.1093/gji/ggag274",
-      "first_author": "Zixiao Zhang",
-      "corr_author": "Jianping Huang",
-      "affiliation": "State Key Laboratory of Deep Oil and Gas, School of Geosciences, China University of Petroleum (East China) , Qingdao 266580 ,",
-      "abs_zh": "总结\n                  在地形存在的情况下足够精确的 3D 地震波建模仍然对计算要求很高，特别是当在整个域中应用曲线离散化时。我们开发了一个重叠的 Virieux-Lebedev 有限差分框架，该框架将曲线 Lebedev 网格（LG）离散化限制在近地表斑块上，并通过跨重叠区域的波场交换将其耦合到更深区域中的标准交错网格（SSG）方案。该方法旨在重现无牵引自由表面效应和地形散射，同时降低与全域曲线 LG 有限差分算子相关的成本。我们首先通过与参考解决方案进行比较，使用具有平坦和高斯地形自由表面的齐次半空间基准来验证底层的模拟有限差分实现。然后，我们使用一系列验证测试来评估重叠耦合，包括齐次笛卡尔基准、具有地形和阻抗对比接口的分层模型以及修改后的 GO_3D_OBS 地壳模型。在这些实验中，接收器地震图和波场快照没有表现出可归因于重叠耦合界面的明显伪影，并且时频包络和相位失配测量表明波形接近一致。运行时分析进一步表明，当 LG 重叠厚度保持固定时，效率将显着提高，并且代表性的 GO_3D_OBS 实验相对于全域 LG 模拟，显着减少了挂钟时间。这些结果表明，所提出的重叠策略能够为与基于波形的成像和反演相关的复杂地形设置提供高效且足够准确的 3D 波传播建模。",
+      "id": "10.1093/gji/ggag298",
+      "title": "Study on Rayleigh Wave Dispersion and Attenuation in HTI Fractured Porous Media",
+      "url": "https://doi.org/10.1093/gji/ggag298",
+      "first_author": "Xiaodong Wang",
+      "corr_author": "Jingwen Xue",
+      "affiliation": "College of Geoscience and Surveying Engineering, China University of Mining and Technology (Beijing) , Beijing 100083 ,",
+      "abs_zh": "总结\n                  在含有对齐裂缝和流体的近地表多孔介质中，瑞利波的传播受到裂缝几何形状和波引起的流体流动的影响。这些过程在相速度和衰减中引入了频率相关的色散和方位各向异性。为了研究这些影响，本研究应用查普曼型裂缝-孔隙有效介质理论将流体饱和裂缝介质描述为具有频率依赖的复刚度的水平横观各向同性（HTI）介质。将该模型与HTI半空间的Stroh形式相结合，得到了瑞利波的复色散关系。数值结果表明，瑞利波相速度表现出明显的频率相关色散以及方位各向异性。快、慢传播方向与裂缝走向保持一致。瑞利波衰减在与波引起的流体流动相关的频带内表现出明显的弛豫峰值，并且表现出强烈的方位角变化。参数分析进一步表明，裂缝密度主要控制方位各向异性的强度，而孔隙度主要影响色散和衰减的总体水平。弛豫时间控制色散和衰减变得显着的频率范围。因此，相速度和衰减的组合频率-方位角变化为利用多频率和多方位角瑞利波观测估计裂缝性储层中的裂缝-孔隙结构提供了潜在的约束。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag264",
-      "title": "Joint physical-model- and multi-source-data-driven elastic full waveform inversion",
-      "url": "https://doi.org/10.1093/gji/ggag264",
-      "first_author": "Shuliang Wu",
-      "corr_author": "Jianhua Geng",
-      "affiliation": "State Key Laboratory of Marine Geology, Tongji University , Shanghai ,",
-      "abs_zh": "总结\n                  弹性全波形反演 (EFWI) 提供了对于地层岩性和流体表征至关重要的高分辨率地下纵波和横波速度模型。然而，当低频地震数据或准确的初始模型不可用时，其强非线性使其极易受到局部极小值捕获的影响。此外，多分量地震数据对不同弹性参数的耦合敏感性引入了多参数串扰效应，进一步降低了反演精度。尽管测井数据包含丰富的、本质上解耦的地下弹性参数先验信息，但 1D 测井数据和 2D/3D 反演域之间的基本尺寸不匹配阻碍了它们直接集成到传统的 EFWI 中。为了克服这些限制，提出了联合物理模型和多源数据驱动（JPM-MSDD）EFWI 框架。利用公共中点 (CMP) 道集和一维垂直速度剖面之间的相关性来解决尺寸不匹配问题，使测井数据能够直接用作训练标签。神经网络经过训练，可在半监督学习方案下将多分量地震数据的连续相邻 CMP 道集映射到一维 P 波和 S 波速度剖面，其中井侧 CMP 测井对形成标记数据集，而模型驱动的 EFWI 为未标记道集提供物理一致的伪标签。通过这种方式，所提出的方法能够减少对大型标记数据集的依赖，并增强反演结果的物理解释。为了进一步降低 EFWI 的非线性，通过地震道上的位置嵌入来合并地震数据的空间相关信息。通过将包括测井数据、多分量地震数据和地震道空间信息在内的多源数据集成到EFWI过程中，即使在没有地震数据低频分量的情况下，也能得到很好的低波信息。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250424",
-      "title": "Complex Stress State in the Copiapó Double Seismic Zone, North-Central Chile",
-      "url": "https://doi.org/10.1785/0220250424",
-      "first_author": "Francisco Pastén-Araya",
-      "corr_author": "Matías Peña",
-      "affiliation": "1Departamento de Obras Civiles, Facultad de Ciencias de la Ingeniería, Universidad Católica del Maule, Talca, Chile",
-      "abs_zh": "智利中北部的科皮亚波段位于 1922 年巨型逆冲地震震隙内，其特点是地震群、反复发生的慢滑移事件和科皮亚波脊的俯冲。尽管这些特征已经被详细研究，但海洋板块的内应力场及其与地震活动分布和测深结构的关系仍然缺乏约束。利用高分辨率地震目录描绘了深度从 20 公里到 120 公里的发育良好的双地震带，我们确定了 2.0 到 4.6 级地震的震源机制，并进行了应力反演来解析主应力方向。我们的结果揭示了复杂且独特的深度依赖性应力变化。在板间边界附近，压应力反映了板块聚合和地壳弯曲，断层可能受到继承的海洋板块结构的调节。在上岩石圈地幔中，应力场表现出较大的非均质性。在浅层深处，伸展区域占主导地位，受重新活动的正断层控制。在 80 至 100 公里之间，我们发现了一种与强烈地震活动相关的新型地下压应力状态，我们将其归因于科皮亚波海岭的俯冲。或者，这种压缩可能是由于标志着向智利平板段过渡的板坯几何形状变化造成的。在 100 公里以下，板片拉力重新建立了伸展状态，地震活动集中在岩石圈地幔中，而洋壳内的地震活动稀疏。这些发现完善了我们对板内地震活动、俯冲测深特征和板形态之间机械相互作用的理解。通过对下行板块的应力状态提供新的约束，这项研究改进了俯冲动力学的表征，并确定了成熟地震中未来大地震的潜在成核区",
+      "id": "10.1785/0220250229",
+      "title": "Comparison of Earthquake Wavefield Measurements from DAS and a Broadband Seismic Array in an Urban Setting",
+      "url": "https://doi.org/10.1785/0220250229",
+      "first_author": "Jyoti Sharma",
+      "corr_author": "Chris Hayward",
+      "affiliation": "1Roy M. Huffington Department of Earth Sciences, Southern Methodist University, Dallas, Texas, U.S.A.",
+      "abs_zh": "我们比较了德克萨斯州达拉斯市约 95 公里城市暗光纤分布式声学传感 (DAS) 阵列和并置的 16 公里孔径宽带地震阵列的地震波场测量结果。使用来自区域 M 5.2 地震的数据，我们评估了 DAS 恢复地面运动幅度和波场到达方向 (DOA) 的能力。宽带和 DAS 之间的表面波（瑞利）幅度比范围为 0.25 至 22.15，表明 DAS 耦合的异质性明显高于之前报道的情况。尽管宽带传感器在所有相位（P、S 和瑞利）上提供一致的振幅和高质量的 DOA 估计，但 DAS 数据显示与光纤方向无关的大幅振幅变化，表明耦合和位置差异是主导因素。 DAS 中的信号相干性也高度可变，某些片段在事件前噪声期间显示出比地震信号期间更强的相关性。尽管如此，通过将分层聚类应用于通道间互相关，我们识别了 36 通道 DAS 子组，并获得了从宽带阵列导出的 4.5° 范围内瑞利波的 DOA 估计。这些结果凸显了使用城市暗光纤 DAS 进行地震监测的前景和局限性，并强调需要仔细表征光纤耦合和几何形状，以实现可靠的波场重建。",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag283",
-      "title": "Implementing 3D Earth models for wavefield simulations and seismic moment tensor estimation",
-      "url": "https://doi.org/10.1093/gji/ggag283",
-      "first_author": "Amanda M McPherson",
-      "corr_author": "Daniel Peter",
-      "affiliation": "University of Alaska Geophysical Institute and Department of Geosciences, , Fairbanks, AK 99775 ,",
-      "abs_zh": "总结\n                  地震矩张量提供了各种事件类型的简单表示，包括地震、火山事件、山体滑坡和爆炸。估计地震矩张量的六个参数会受到假设地球模型中不准确的影响，无论其特征是简单的层状结构 (1D) 还是异质性 (3D)。利用记录的数据和 3D 地球模型中的地震波场模拟，我们使用 MTUQ 软件估计双力偶和全力矩张量，然后量化由于不同地球模型而导致的力矩张量之间的差异。我们建立了新功能，用于将 EarthScope 地球模型协作 (EMC) 中的 3D 地球模型实施到波传播代码 SPECFEM3D Globe 中。三个工作流程组件——EMC、SPECFEM3D Globe 和 MTUQ——都是公开可用的，从而最大限度地提高了访问、再现性和未来增强的可能性。我们使用 5 个地震和 53D 地球模型演示了阿拉斯加地区的震源估计工作流程。使用矩张量估计中的失配测量，我们可以量化矩张量和底层地球模型的性能。对于这个由 5 个记录良好的事件组成的有限数据集，我们演示了如何检查源变异性、断层扫描模型评估以及矩张量非双偶分量的可靠​​性等基本问题。该程序能够对地球模型引起的矩张量不确定性进行量化和可视化，同时还提供层析成像模型与独立参考数据集的直接比较。",
-      "source": "Geophysical Journal International",
+      "id": "10.1785/0220260194",
+      "title": "<i>Erratum to</i>\n                    On the Seismic Hazard Regulations for NPP Sites in Europe: A Controversial Case in Slovenia",
+      "url": "https://doi.org/10.1785/0220260194",
+      "first_author": "Livio Sirovich",
+      "corr_author": "Kurt Decker",
+      "affiliation": "1Independent Scholar",
+      "abs_zh": "无摘要详情",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120857",
+      "title": "Shear Fault Formation in Granite Under High and Transient Co‐Seismic Strain Rates Unveiled by Ultra‐Fast X‐Ray Imaging",
+      "url": "https://doi.org/10.1029/2025gl120857",
+      "first_author": "A. R. Vishnu",
+      "corr_author": "François Renard",
+      "affiliation": "Njord Centre Departments of Geosciences and Physics University of Oslo  Oslo Norway",
+      "abs_zh": "地震期间，动态破裂会传播，导致断裂和永久性损坏，从而改变断层及其周围环境的机械性能。相反，断层岩石的机械转变所耗散的能量对地震破裂的动力学有直接的反馈。我们通过对受限西风花岗岩样本进行动态加载实验，以亚微秒时间分辨率重现并成像这些同震损伤过程。使用同步加速器 X 射线成像和超高速摄像机，我们观察到，在发生显着滑移之前，动态压缩与约束会产生剪切断层和岩石的局部粒化（称为凿岩）。该破碎过程从体积损坏开始，然后在不到 5 微秒的时间内发生剪切变形。我们的结果表明，凿岩的形成是由动态破裂本身引发的，这会先于地震滑动期间可能发生的其他弱化机制降低断层的强度。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
