@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-07-19 至 2026-07-26 10:51",
+  "last_update": "2026-07-26 至 2026-08-02 10:51",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "10.1016/j.epsl.2026.120273",
+      "title": "Melt-mediated pore evolution governs seismic ruptures in semi-brittle oceanic shear zone",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120273",
+      "first_author": "Qiang Ma",
+      "corr_author": "Shengping Qian",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120197",
       "title": "Insight into long-term seismic behavior from an 8500-year paleoseismic record on the Altyn Tagh fault, Northwest China",
@@ -69,47 +80,36 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag298",
-      "title": "Study on Rayleigh Wave Dispersion and Attenuation in HTI Fractured Porous Media",
-      "url": "https://doi.org/10.1093/gji/ggag298",
-      "first_author": "Xiaodong Wang",
-      "corr_author": "Jingwen Xue",
-      "affiliation": "College of Geoscience and Surveying Engineering, China University of Mining and Technology (Beijing) , Beijing 100083 ,",
-      "abs_zh": "总结\n                  在含有对齐裂缝和流体的近地表多孔介质中，瑞利波的传播受到裂缝几何形状和波引起的流体流动的影响。这些过程在相速度和衰减中引入了频率相关的色散和方位各向异性。为了研究这些影响，本研究应用查普曼型裂缝-孔隙有效介质理论将流体饱和裂缝介质描述为具有频率依赖的复刚度的水平横观各向同性（HTI）介质。将该模型与HTI半空间的Stroh形式相结合，得到了瑞利波的复色散关系。数值结果表明，瑞利波相速度表现出明显的频率相关色散以及方位各向异性。快、慢传播方向与裂缝走向保持一致。瑞利波衰减在与波引起的流体流动相关的频带内表现出明显的弛豫峰值，并且表现出强烈的方位角变化。参数分析进一步表明，裂缝密度主要控制方位各向异性的强度，而孔隙度主要影响色散和衰减的总体水平。弛豫时间控制色散和衰减变得显着的频率范围。因此，相速度和衰减的组合频率-方位角变化为利用多频率和多方位角瑞利波观测估计裂缝性储层中的裂缝-孔隙结构提供了潜在的约束。",
+      "id": "10.1093/gji/ggag306",
+      "title": "The Multi-Channel Maximum-Likelihood (MCML) method: a multiple source extension for infrasound detection and wave parameter estimation",
+      "url": "https://doi.org/10.1093/gji/ggag306",
+      "first_author": "B Poste",
+      "corr_author": "S Kristoffersen",
+      "affiliation": "CEA, DAM , DIF, F-91297 Arpajon ,",
+      "abs_zh": "总结\n                  次声提供了监测数千公里之外的远程大气源的独特能力，在全球监测中发挥着关键作用。在低信噪比 (SNR) 条件下和存在干扰源的情况下，提取波前参数（例如到达方向 (DOA) 和轨迹速度）仍然具有挑战性。事实证明，在这些低 SNR 场景中，多通道最大似然 (MCML) 算法的检测和估计能力优于渐进多通道相关 (PMCC) 等基于相关的检测器。国际监测系统（IMS）的观察表明，来自多个源的信号可能会在时频域发生干扰。然而，MCML 只能检测每个时频仓的一个源。为了区分多个源，已经开发了 MCML 算法的几种扩展，包括多重最大 MLE 估计器、谱分解方法和迭代信号减法。通过具有地面实况信息的模拟与最先进的多源算法（如 MUSIC）比较检测和估计能力，表明迭代信号减法是最有效的方法，同时保持较低的计算成本。一个主要发现是，MCML 的多源扩展仍然可以使用单源检测器，从而避免多源检测器的昂贵计算。处理火箭发射和爆炸流星等真实事件凸显了每种算法的优点和局限性。特别是，当 SNR 对比度保持适中时，仍然可以检测到被脉冲事件掩盖的源。这一扩展导致了对环境噪声的精确分析，以更好地了解《全面禁止核试验条约》（CTBT）的运行监测所需的环境噪声。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1785/0220250229",
-      "title": "Comparison of Earthquake Wavefield Measurements from DAS and a Broadband Seismic Array in an Urban Setting",
-      "url": "https://doi.org/10.1785/0220250229",
-      "first_author": "Jyoti Sharma",
-      "corr_author": "Chris Hayward",
-      "affiliation": "1Roy M. Huffington Department of Earth Sciences, Southern Methodist University, Dallas, Texas, U.S.A.",
-      "abs_zh": "我们比较了德克萨斯州达拉斯市约 95 公里城市暗光纤分布式声学传感 (DAS) 阵列和并置的 16 公里孔径宽带地震阵列的地震波场测量结果。使用来自区域 M 5.2 地震的数据，我们评估了 DAS 恢复地面运动幅度和波场到达方向 (DOA) 的能力。宽带和 DAS 之间的表面波（瑞利）幅度比范围为 0.25 至 22.15，表明 DAS 耦合的异质性明显高于之前报道的情况。尽管宽带传感器在所有相位（P、S 和瑞利）上提供一致的振幅和高质量的 DOA 估计，但 DAS 数据显示与光纤方向无关的大幅振幅变化，表明耦合和位置差异是主导因素。 DAS 中的信号相干性也高度可变，某些片段在事件前噪声期间显示出比地震信号期间更强的相关性。尽管如此，通过将分层聚类应用于通道间互相关，我们识别了 36 通道 DAS 子组，并获得了从宽带阵列导出的 4.5° 范围内瑞利波的 DOA 估计。这些结果凸显了使用城市暗光纤 DAS 进行地震监测的前景和局限性，并强调需要仔细表征光纤耦合和几何形状，以实现可靠的波场重建。",
-      "source": "Seismological Research Letters",
+      "id": "10.1126/sciadv.adz7220",
+      "title": "The seismic signature of lunar ice",
+      "url": "https://doi.org/10.1126/sciadv.adz7220",
+      "first_author": "Harrison P. Lisabeth",
+      "corr_author": "Matthew Siegler",
+      "affiliation": "Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Berkeley, CA 94720, USA.",
+      "abs_zh": "识别月球上的水冰沉积物对于进行长期科学研究和支持未来的月球基础设施至关重要。尽管多种证据表明月球近地表内存在大量的极地水，但这些冰资源的精确位置、丰度和分布在很大程度上仍然不受限制。风化层中冰的存在改变了地球物理特性，可以使用类似于陆地地下资源勘探中使用的地球物理技术来定量表征这些地球物理特性。在这项研究中，我们将通过同步加速器 X 射线显微断层扫描获得的冰冷风化层模拟物的实验测量与先进的岩石物理模型和月球近地表热模型相结合。这种多管齐下的方法使我们能够为月球南极的理论冰沉积构建现实的地震模型。我们的方法使我们能够将地震特性的变化与冰的存在和分布联系起来，为使用地震方法推断地下冰沉积物的位置和丰度提供了一个框架。我们的结果强调，地震勘探技术是表征月球水资源的强大工具。从这些模型中获得的见解不仅增强了我们对月球风化层物理状态的理解，而且为优化即将到来的月球任务中的地球物理调查策略铺平了道路。",
+      "source": "Science Advances",
       "published": "2026"
     },
     {
-      "id": "10.1785/0220260194",
-      "title": "<i>Erratum to</i>\n                    On the Seismic Hazard Regulations for NPP Sites in Europe: A Controversial Case in Slovenia",
-      "url": "https://doi.org/10.1785/0220260194",
-      "first_author": "Livio Sirovich",
-      "corr_author": "Kurt Decker",
-      "affiliation": "1Independent Scholar",
-      "abs_zh": "无摘要详情",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120857",
-      "title": "Shear Fault Formation in Granite Under High and Transient Co‐Seismic Strain Rates Unveiled by Ultra‐Fast X‐Ray Imaging",
-      "url": "https://doi.org/10.1029/2025gl120857",
-      "first_author": "A. R. Vishnu",
-      "corr_author": "François Renard",
-      "affiliation": "Njord Centre Departments of Geosciences and Physics University of Oslo  Oslo Norway",
-      "abs_zh": "地震期间，动态破裂会传播，导致断裂和永久性损坏，从而改变断层及其周围环境的机械性能。相反，断层岩石的机械转变所耗散的能量对地震破裂的动力学有直接的反馈。我们通过对受限西风花岗岩样本进行动态加载实验，以亚微秒时间分辨率重现并成像这些同震损伤过程。使用同步加速器 X 射线成像和超高速摄像机，我们观察到，在发生显着滑移之前，动态压缩与约束会产生剪切断层和岩石的局部粒化（称为凿岩）。该破碎过程从体积损坏开始，然后在不到 5 微秒的时间内发生剪切变形。我们的结果表明，凿岩的形成是由动态破裂本身引发的，这会先于地震滑动期间可能发生的其他弱化机制降低断层的强度。",
-      "source": "Geophysical Research Letters",
+      "id": "10.1093/gji/ggag303",
+      "title": "3D Bayesian Variational Surface Wave Tomography and Application to the Southwest China",
+      "url": "https://doi.org/10.1093/gji/ggag303",
+      "first_author": "Wenda Yang",
+      "corr_author": "Xin Zhang",
+      "affiliation": "State Key Laboratory of Deep Earth Exploration and Imaging, School of Engineering and Technology, China University of Geosciences , Beijing 100083 ,",
+      "abs_zh": "总结\n                  地震表面波层析成像使用表面波信息来获取地下的速度结构。由于数据噪声和问题的非线性，表面波层析成像通常具有非唯一解。因此，需要量化结果的不确定性，以便更好地解释所得图像。贝叶斯推理是用于此目的最广泛使用的方法。然而，常用的蒙特卡罗方法需要巨大的计算成本，并且在高维问题中仍然难以解决。变分推理使用优化来解决贝叶斯逆问题，因此在大数据集和高维参数空间的情况下可以更有效。变分推理已广泛应用于二维相速度图反演。在本研究中，我们通过根据频率相关的走时测量直接反演 3D 空间地震速度结构，将该方法扩展到 3D 表面波层析成像。具体来说，我们利用中国西南地区的合成数据和真实数据，将平均场自动微分变分推理（平均场ADVI）、物理结构化变分推理（PSVI）和随机斯坦因变分梯度下降（sSVGD）三种变分方法应用于表面波层析成像问题。结果表明，所有方法都可以提供准确的速度平均估计，而 sSVGD 由于这些方法中使用的高斯假设，比平均场 ADVI 和 PSVI 产生更合理的不确定性估计。在实际数据情况下，变分方法提供了比使用传统线性化方法获得的速度结构更详细的速度结构，以及可靠的不确定性估计。因此，我们得出结论，变分表面波断层扫描可以有效地应用于许多现实问题。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

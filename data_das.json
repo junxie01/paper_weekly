@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-19 至 2026-07-26 10:51",
+  "last_update": "2026-07-26 至 2026-08-02 10:51",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
@@ -11,6 +11,50 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec5358",
+      "title": "Operando state monitoring of diversified lithium-ion batteries via laser-excited ultrasonic sensing with transformer networks",
+      "url": "https://doi.org/10.1126/sciadv.aec5358",
+      "first_author": "Gaolong Lv",
+      "corr_author": "Shifeng Guo",
+      "affiliation": "Shenzhen Key Laboratory of Smart Sensing and Intelligent Systems, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China.",
+      "abs_zh": "新兴的接触式和浸入式压电超声波技术在高速率操作下实现精确的电池状态监测面临着挑战，其中温度波动会扭曲超声波，耦合剂污染会影响实际适用性。在这里，我们提出了空气耦合（无耦合剂）、非接触式激光激发超声波传感（LEUS）和变压器网络，用于操作电池状态估计。独特的 LEUS 系统开创了双激光设计，使用环形脉冲激光和连续激光来生成和检测高质量超声波，其振幅增加 10 倍，信噪比达到 30 dB（比典型配置高 16 dB），从而能够精确跟踪与充电状态 (SoC) 和健康状态 (SoH) 相关的内部变化。通过将超声波信号转换为时频尺度图，变压器网络自动提取判别性特征，消除了手动特征工程，同时实现了准确预测，SoC 的平均误差低于 5.7%，SoH 的平均误差低于 2.1%。通过迁移学习，基本模型可以快速推广到看不见的化学物质、高速循环，从而用最少的超声波数据减少训练时间和成本。对来自 40 种商用电池（涵盖两种化学成分、三种容量和 13 种协议）的超过 100,000 个超声波信号进行了广泛验证，证明了该方法在操作电池状态监测方面的稳健性和可靠性，为下一代电池管理系统铺平了道路。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260087",
+      "title": "Determining Rainfall-Induced Runoff Threshold with Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0220260087",
+      "first_author": "John Mitchell McLaughlin",
+      "corr_author": "Daniel Cadol",
+      "affiliation": "1Department of Earth and Environmental Science, New Mexico Institute of Mining and Technology, Socorro, New Mexico, U.S.A.",
+      "abs_zh": "在美国西南部，当局部雷暴产生的降雨强度超过干燥土壤的渗透能力时，经常会发生山洪。在这些事件期间，会发生地表水流，在小溪中合并并最终形成更大的河道，其中短暂的水流可能会造成下游危害并导致显着的地貌变化。在这里，我们探索利用分布式声学传感 (DAS) 来监测沿一公里长光纤电缆长度的高频应变振荡，以便在降雨事件发生后立即识别宽度小于 1 m 的小溪中的水流。我们证明，对于足够高的降雨强度，可以使用 DAS 在多个位置同时识别公顷规模盆地中的细沟流。我们的观察表明，DAS 可以与降雨测量一起使用，以确定特定地点径流和由此产生的细沟开始的降雨强度阈值。通过分析 DAS 数据季节和降雨量测量结果，我们确定了在研究地点产生径流的初步降雨强度阈值为 0.5 毫米/分钟，持续时间为 5 分钟。尽管我们在整个季节只记录了四次径流事件，但该方法强调了 DAS 在确定山坡水文特性（例如用于建模和管理的相关空间尺度上径流生成阈值）方面的潜在未来价值。我们还探索了细沟生成的 DAS 信号的光谱特性，发现细沟流主要产生低频（<50 Hz），观察到的一些信号高达 200 Hz。这表明我们观察到的细沟驱动信号主要是湍流的结果，其次是影响光缆和相邻河床的小（<2毫米）河床颗粒的影响。这些发现表明，DAS 可以成为确定高分辨率水文和地质的有用工具。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag288",
+      "title": "Distributed Acoustic Sensing Data Compression for Seismological Applications via Compressive Sensing",
+      "url": "https://doi.org/10.1093/gji/ggag288",
+      "first_author": "Yang Ma",
+      "corr_author": "Yen-Yu Lin",
+      "affiliation": "Planetary and Space Sciences, University of California Los Angeles Department of Earth, , Los Angeles, CA ,",
+      "abs_zh": "总结\n                  分布式声学传感 (DAS) 是一项新兴技术，可将现有光纤电缆转变为高密度地震阵列，在各种情况下生成大量观测数据。因此，DAS数据的大规模存储、传输和处理给地震学带来了挑战和机遇。在本研究中，我们提出了一种基于压缩传感（CS）的数据压缩和地震探测工作流程，并将其应用于台湾米伦断层钻探和全包传感（MiDAS）项目的DAS数据。我们的算法实现了至少 15 的压缩比，并且特定地震的重建数据与标准地震学算法兼容。此外，我们将检测算法迁移到压缩域，实现准实时、高精度地震检测。该方法证明了直接处理压缩数据的可行性，减少了 DAS 处理中的计算负担。此外，我们讨论了基于 CS 确定给定信号最大压缩比的经验标准。我们的工作流程在八个不同的数据集上与其他成熟的压缩算法进行比较，以证明其优点、局限性和适用性。一般来说，CS 算法对于高 SNR 面向事件的 DAS 应用比连续噪声主导的监控更有效。总的来说，这些结果凸显了 CS 算法在推动高效、用户友好的 DAS 数据产品开发方面的潜力。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260055",
+      "title": "Underwater Distributed Acoustic Sensing of Ship-Associated Hydrodynamic Wavefields and Surface Gravity Waves",
+      "url": "https://doi.org/10.1785/0220260055",
+      "first_author": "Ao Xie",
+      "corr_author": "Dongfeng Zhao",
+      "affiliation": "1Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China",
+      "abs_zh": "我们在两个水下分布式声学传感（DAS）阵列、中国安徽佛子岭水库的一根约 11 公里长的电缆和中国山东烟台附近的另一根约 20 公里长的近海海底电缆上表征了与船舶相关的波场及其与背景表面重力波（SGW）的关系。在佛子岭水库，船舶产生的信号被分为机械和螺旋桨相关的音调，以及由船舶和水之间的相对运动驱动的 2-10 Hz 水动力噪声。在烟台近海海底 DAS，高频船舶音迅速衰减，但 2-10 Hz 水动力波仍然清晰。当船舶穿过电缆时，我们观察到佛子岭水库的~0.09至0.19 Hz和~0.9至1.25 Hz的能量增强，烟台的~1.3至1.6 Hz的能量增强。频率-波数分析表明，这些增强与船舶驱动的水动力强迫和背景 SGW 之间的相对传播方向相关，这可能是由于它们之间的二阶非线性相互作用所致。这些观测结果提供了对波道传输引起的动态波的深入了解，并有助于理解水下 DAS 记录的复杂波场。",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
@@ -42,7 +86,7 @@
       "first_author": "Matthew H. Alford",
       "corr_author": "Afonso Loureiro",
       "affiliation": "Scripps Institution of Oceanography University of California San Diego  La Jolla CA USA",
-      "abs_zh": "我们展示了分布式声学传感（DAS）和重复电导率-温度-深度（CTD）剖面的组合实用性，用于观察倾斜海底的内潮动态。虽然 DAS 已被广泛提议作为一种通过海底电缆推断海洋温度变化的方法，但定量的现场验证受到限制。在这里，我们首次发表了 DAS 推断的底部温度波动与通过到达海底以上 5 m 的高分辨率 yoyo-CTD 时间序列测量的近底部温度之间的详细比较，这些温度是通过马德拉斜坡上的 EllaLink/GeoLab 电缆进行的。线性回归产生 21–37 µstrain 的经验 DAS 温度灵敏度，比常用的理论估计值高 2.5–4 倍。校准后的 DAS 记录揭示了半日内潮汐向上传播到 1,300 米深度，传播停止并转变为复杂的干涉模式。这些观测结果凸显了将海底光纤传感与有针对性的原位剖面分析相结合来观察近海底内潮破过程的潜力。",
+      "abs_zh": "我们展示了分布式声学传感（DAS）和重复电导率-温度-深度（CTD）剖面的组合实用性，用于观察倾斜海底的内潮动态。虽然 DAS 已被广泛提议作为一种通过海底电缆推断海洋温度变化的方法，但定量的现场验证受到限制。在这里，我们首次发表了 DAS 推断的底部温度波动与通过到达海底以上 5 m 的高分辨率 yoyo-CTD 时间序列测量的近底部温度之间的详细比较，这些温度是通过马德拉斜坡上的 EllaLink/GeoLab 电缆进行的。线性回归产生 21–37 µstrain 的经验 DAS 温度灵敏度，比常用的理论估计值高 2.5–4 倍。校准后的 DAS 记录揭示了半日内潮汐向上传播到 1,300 米深度，传播停止并转变为复杂的干涉模式。这些观测结果凸显了将海底光纤传感与有针对性的原位剖面相结合来观察近海底内潮汐破灭过程的潜力。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -53,7 +97,7 @@
       "first_author": "Hyunggu Jun",
       "corr_author": "Byoungjoon Yoon",
       "affiliation": "Department of Geology, Kyungpook National University , Daegu 41566 ,",
-      "abs_zh": "分布式声学传感（DAS）数据通常包含各种类型的噪声，包括随机噪声、相干噪声（例如耦合或线性噪声）和共模噪声，这些噪声会显着降低地震信号质量。传统的去噪方法难以有效抑制不同的噪声分量，同时保留重要的地震信号。为了解决这个问题，我们提出了一种去噪自监督级联网络（DAS-DSCnet），这是一种多级神经网络，旨在逐步对 DAS 数据进行去噪，而不需要外部标签或合成训练数据生成。该网络由三个阶段组成：第 1 阶段使用基于 Noise2Noise 的方法针对随机噪声；第 2 阶段使用基于去噪卷积神经网络的网络（通过内部提取的噪声补丁进行训练）来抑制数据集特定的相干噪声；第 3 阶段通过迹线改组和基于 Noise2Noise 的模型来预测和消除共模噪声。每个阶段的训练数据都是通过利用数据的固有特征，直接从输入 DAS 数据生成的，从而实现反映特定领域噪声特征的高效学习。该模型使用具有不同噪声模式的两个不同的现场 DAS 数据集进行评估。结果表明，与传统方法相比，DAS-DSCnet 实现了卓越的噪声抑制，增强了信号连续性，同时最大限度地减少了泄漏。去噪性能在不同的堆叠配置和超参数下保持稳定，证实了模型的稳健性。因此，DAS-DSCnet 提供了一个可扩展且实用的框架，用于提高 DAS 应用中的地震数据质量，展示了大规模地震监测中全自动、数据驱动的去噪的潜力。",
+      "abs_zh": "分布式声学传感（DAS）数据通常包含各种类型的噪声，包括随机噪声、相干噪声（例如耦合或线性噪声）和共模噪声，这些噪声会显着降低地震信号质量。传统的去噪方法难以有效抑制不同的噪声分量，同时保留重要的地震信号。为了解决这个问题，我们提出了一种去噪自监督级联网络（DAS-DSCnet），这是一种多级神经网络，旨在逐步对 DAS 数据进行去噪，而不需要外部标签或合成训练数据生成。该网络由三个阶段组成：第 1 阶段使用基于 Noise2Noise 的方法针对随机噪声；第 2 阶段使用基于去噪卷积神经网络的网络（通过内部提取的噪声补丁进行训练）来抑制数据集特定的相干噪声；第 3 阶段通过迹线改组和基于 Noise2Noise 的模型来预测和消除共模噪声。每个阶段的训练数据都是通过利用数据的固有特征，直接从输入 DAS 数据生成的，从而实现反映特定领域噪声特征的高效学习。该模型使用具有不同噪声模式的两个不同现场 DAS 数据集进行评估。结果表明，与传统方法相比，DAS-DSCnet 实现了卓越的噪声抑制，增强了信号连续性，同时最大限度地减少了泄漏。去噪性能在不同的堆叠配置和超参数下保持稳定，证实了模型的稳健性。因此，DAS-DSCnet 提供了一个可扩展且实用的框架，用于提高 DAS 应用中的地震数据质量，展示了大规模地震监测中全自动、数据驱动的去噪的潜力。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
@@ -66,50 +110,6 @@
       "affiliation": "1Institute of Geophysics, Polish Academy of Sciences, Warsaw, Poland",
       "abs_zh": "分布式声学传感（DAS）已成为环境和低温地震学研究的一种有前途的工具，但其在北极高纬度极端条件下的性能仍鲜有记录。在这里，我们报告了在斯瓦尔巴群岛霍恩松德的苔原和冰川环境中使用 9 公里的光缆进行的多季节 DAS 实验。该研究将对部署策略、仪器和操作限制的描述与对记录数据的探索性分析相结合，以评估 DAS 可以捕获的冰冻圈过程类型。我们记录后勤、环境和技术挑战，并为未来的实验提供指导，包括与耦合、噪声源、电缆完整性和季节性可达性相关的问题。此外，我们还演示了如何使用该数据集使用噪声干涉测量法检测永久冻土冻结、定位冰震和冰崩事件以及监测河流引起的地震噪声产生的径流。该实验为未来北极环境中 DAS 研究的设计和解释提供了现场参考，并强调了与长期低温地震监测相关的考虑因素。",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag199",
-      "title": "Hydroseismic interplays on perpendicular faults in Mexico City revealed by distributed acoustic sensing",
-      "url": "https://doi.org/10.1093/gji/ggag199",
-      "first_author": "Mathieu Perton",
-      "corr_author": "Valente Ramos Avila",
-      "affiliation": "Instituto de Ingeniería, Universidad Nacional Autónoma de México , 04510, Ciudad de México ,",
-      "abs_zh": "使用城市电信光纤电缆的分布式声学传感 (DAS) 为沉积盆地地震监测提供了前所未有的机会，以墨西哥城为例。在这项研究中，我们分析了 15 个月的近乎连续的 DAS 测量，以识别以前无法检测到的波传播细节，从而实现局部地震的精确定位。使用真实的地震速度模型，我们克服了传统常数 ${V_\\mathrm{ P}}/{V_\\mathrm{ S}}$ 方法的不准确性，突显了 Wadati 图在沉积环境中的显着局限性。我们的结果揭示了明显的水震耦合，即强烈的早季降雨与低含水层水平相一致，产生足够的应力扰动以引发中级地震（Mw∼3.5）。这些主要事件随后引起沿局部断层的缓慢滑动和垂直平面上的次生地震活动，主要由应力不平衡驱动，而不是沿断层的流体参与。我们进一步确定盆地转换和圆锥形阶段是地面震动的主要来源，强调迫切需要将这些次要地震阶段纳入城市地震灾害评估和建筑规范。我们的研究结果强调了连续 DAS 测量在了解城市地震风险和管理含水层资源方面的关键作用，从而建立了一个在充满沉积物的大城市中具有全球适用性的强大监测框架。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag203",
-      "title": "Distributed acoustic sensing observations of the 2025 April 23\n                    <i>M</i>\n                    w 6.2 Marmara earthquake in Northwestern Türkiye and Its comparison with borehole seismometer data",
-      "url": "https://doi.org/10.1093/gji/ggag203",
-      "first_author": "R F Kartal",
-      "corr_author": "C M Krawczyk",
-      "affiliation": "AFAD Disaster and Emergency Management Presidency, Earthquake Risk Reduction General Directorate , Earthquake Department, Ankara ,",
-      "abs_zh": "2025 年 4 月 23 日土耳其西北部伊斯坦布尔附近发生的 Mw 6.2 马尔马拉地震为评估分布式声学传感 (DAS) 在人口稠密和构造活跃地区的近断层地震学能力提供了难得的机会。 DAS 监测补充了北安纳托利亚断层 (GONAF) 的钻孔地球物理观测站，扩大了近断层观测站，以高分辨率监测伊斯坦布尔附近马尔马拉主断层 (MMF) 沿线的变形。在该实验中，国家光网络内现有的电信暗光纤被重新用作长偏移距海底地震阵列，而无需任何专用的水下安装。这条光缆沿着伊斯坦布尔南部海岸水下延伸，沿着王子群岛北部边界延伸，成功记录了马尔马拉 6.2 级地震。在本研究中，我们分析了所得数据集，该数据集提供约 34 km 的孔径、8 m 通道间距和 250 Hz 采样率，并包括平行和垂直于断层延伸的部分。 Mw 6.2 主震的 DAS 应变率记录显示出跨越数千个通道的清晰 P 波和 S 波到达，具有高信号相干性。振幅和相位校准后，使用基于标距的传递函数将记录转换为等效粒子速度，并与附近的 GONAF 钻孔地震波形数据进行比较。频谱分析表明，DAS 阵列保留了高达 ∼25 Hz 的地震能量，其频谱形状和振幅分布与钻孔记录一致。变换过程采用了 Curvelet、f-k 和基于时域慢度的转换方法。 OptoDAS 系统询问的海底 DAS 阵列能够对从记录的应变率数据导出的应变进行高分辨率空间采样。 ap 的系统变化",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250432",
-      "title": "Lightning-Induced Implosive Microseismic Events at Depth Detected by Downhole Distributed Acoustic Sensing in Taiwan",
-      "url": "https://doi.org/10.1785/0220250432",
-      "first_author": "Yen-Yu Lin",
-      "corr_author": "Shih-Jung Wang",
-      "affiliation": "1Department of Earth Sciences, National Central University, Taoyuan, Taiwan",
-      "abs_zh": "云对地（CG）闪电可以产生沿着地表传播的地震波，但一直缺乏其地下能量耗散的直接证据。在这里，我们报告了部署在台湾钻孔中的分布式声学传感（DAS）系统在地雷雷击之后立即检测到的地震脉冲波形，这可能是由地雷闪电引起的。应变率波形仅表现出一个不同的地震相位，时差在 50-86 m 深度的 DAS 通道之间向地表传播，另一组在 86-140 m 深度的通道之间向下传播。最大峰值振幅对应于低至~3×10−6·s−1 的应变率。波幅在传播过程中表现出强烈的衰减。使用有限差分应变率模拟技术对观测到的地震脉冲的震源机制进行分析表明，这些波是由震级为 Mw−1.5 to −1.0（Mxx=Myy=Mzz<0，所有其他分量 = 0）的内爆事件产生的，位于距钻孔 84 m 深度约 10 至 20 m 处。我们对内爆源的模拟还解释了观察到的独特的应变率极性，在靠近源的通道处首先向下运动，在较远的通道处首先向上运动。这些结果提供了第一个直接证据，表明闪电的地下影响可以穿透到比以前认识的更深的深度，强调需要进一步研究潜在的物理机制。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aed3162",
-      "title": "Wireless, skin-interfaced multimodal sensing system for continuous psychophysiological monitoring—A wearable polygraph device",
-      "url": "https://doi.org/10.1126/sciadv.aed3162",
-      "first_author": "Sun Hong Kim",
-      "corr_author": "John A. Rogers",
-      "affiliation": "Querrey Simpson Institute for Bioelectronics, Northwestern University, Evanston, IL 60208, USA.",
-      "abs_zh": "准确、持续的心理生理状态监测对于了解不同医疗背景下的压力和自主神经功能障碍至关重要。当前的方法（例如多导睡眠描记法和多导睡眠图）依赖于笨重的有线传感器，这些传感器限制了现实世界的实用性并给患者（尤其是婴儿等弱势群体）带来负担。在这里，我们介绍了一种无线皮肤接口多模态传感系统，能够以时间同步的方式同时记录心脏、呼吸、皮肤电和热信号。该技术利用紧凑而柔软的设计，能够在受控、临床和自然环境中进行不引人注目的监测。与黄金标准系统并行进行的验证研究表明，在测谎仪访谈、认知负荷任务和冷加压测试期间量化压力反应具有高保真度。在儿科睡眠研究中，数据可靠地识别觉醒、呼吸不足和呼吸暂停，同时揭示唐氏综合症婴儿的疾病特异性自主神经特征。紧急模拟训练期间的实际部署表明，多模态压力特征与表现成反比，强调了医学教育的转化价值。所有研究的机器学习分析都证实，多模态特征在检测压力和临床事件方面优于单信号方法，具有高灵敏度和特异性。总的来说，这些研究结果将该技术确立为下一代可穿戴平台，连接工程创新和临床实践，为压力医学、睡眠医学等领域提供机制洞察和诊断潜力。",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]

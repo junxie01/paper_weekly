@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-19 至 2026-07-26 10:51",
+  "last_update": "2026-07-26 至 2026-08-02 10:51",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -11,6 +11,39 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260062",
+      "title": "Constructing a High-Resolution Aftershock Catalog for the 2017 Mw 8.2 Tehuantepec Earthquake Sequence Using a Machine Learning–Based Workflow",
+      "url": "https://doi.org/10.1785/0220260062",
+      "first_author": "Marc A. Garcia",
+      "corr_author": "Allen Husker",
+      "affiliation": "1Department of Earth, Environmental and Resource Sciences, University of Texas at El Paso, El Paso, Texas, U.S.A.",
+      "abs_zh": "2017 年 9 月 8 日发生的特万特佩克 8.2 级地震是墨西哥仪器记录的最大正断层地震。主震发生在特万特佩克地震间隙内的近海，在次年产生了超过 30,000 次余震。我们应用开源机器学习 (ML) 辅助工作流程，利用墨西哥南部临时和永久地震网络的数据构建高分辨率余震目录。该工作流程集成了 PhaseNet 用于相位检测； GaMMA 用于相位关联；以及用于速度建模和重定位的 VELEST、HypoInverse 和 HypoDD。我们处理了来自 29 个宽带站的 7 个月的连续波形数据，包括临时快速响应部署，以改善近海破裂区的站覆盖范围。为了评估性能，我们将我们的结果与 Servicio Sismológico Nacional 目录中分析师审查的选择和活动地点进行了比较。生成的目录包含 11,374 个重新定位的地震，代表了该序列最全面的已发布数据集，其中首次全面使用了临时网络。重新定位的震源显示出改进的深度控制，并与 Slab2.0 俯冲几何结构很好地对齐，揭示了海上板片事件和陆上地壳地震活动之间更清晰的分离。这项研究表明，将基于机器学习的检测与既定方法相结合，为在构造复杂的环境中构建高质量地震目录提供了一种可扩展且可重复的方法，并为将类似工作流程适应其他地震序列提供了实用指导。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef9530",
+      "title": "Integrating structurally defined DNA-carbon nanotube sensors with machine learning for cancer detection",
+      "url": "https://doi.org/10.1126/sciadv.aef9530",
+      "first_author": "Piaoyi Chen",
+      "corr_author": "Zhiwei Lin",
+      "affiliation": "South China Advanced Institute for Soft Matter Science and Technology, State Key Laboratory of Luminescent Materials and Devices, School of Emergent Soft Matter, South China University of Technology, Guangzhou 510640, China.",
+      "abs_zh": "液体活检是一种有前景的非侵入性癌症检测方法，但目前的方法通常会在准确性、可操作性和成本之间进行权衡。为了解决这些限制，我们引入了一种用于液体活检的人工感知系统 (APS)，它将结构定义的 DNA-碳纳米管传感器阵列与机器学习 (ML) 模型相结合。该阵列从血清中产生多通道荧光指纹，通过机器学习模型对其进行解码以对疾病状态进行分类。在涵盖肝癌、肺癌、卵巢癌和非癌症对照的总共 253 个血清样本中，APS 的平均灵敏度为 89%，特异性为 96%。值得注意的是，早期肺癌的检测灵敏度为 92%，特异性为 95%，每次检测的估计成本约为 4 美元。 SHAP 分析和 Mantel 测试的见解揭示了 APS 的检测机制，支持生物学合理性和临床转化。这些结果突出了一条通往准确、可扩展且负担得起的多癌症检测和早期癌症筛查的道路。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123315",
+      "title": "Uncertainty‐Aware Machine Learning for Onset of Deep Convection: Under what Conditions Are Trigger Predictions More Reliable?",
+      "url": "https://doi.org/10.1029/2026gl123315",
+      "first_author": "Ashish Bhattarai",
+      "corr_author": "Youtong Zheng",
+      "affiliation": "Department of Earth and Atmospheric Science University of Houston  Houston TX USA",
+      "abs_zh": "机器学习 (ML) 模型已成为预测深层对流触发的强大工具，但在检测深层对流方面系统性地挑战这些模型的大气条件仍然知之甚少。为了诊断这种模棱两可的状况，我们训练了一个受控弃权神经网络（CAN），该网络可以区分高置信度和低置信度的预测，从而能够对温暖季节期间南部大平原上的不确定环境进行物理表征。结果表明，低置信度、弃权的预测集中在中层垂直速度弱到中等、对流可用势能（CAPE）动态生成率低的环境中，主要对应于天气强迫较弱的局部强迫、非平衡状态下的短暂对流事件。相比之下，可信的预测对应于由上升的天气强迫和增强的低层南风气流驱动的长期平衡状态。我们的研究结果为识别在基于机器学习的对流触发操作中需要额外谨慎的预测情况提供了物理基础的指导。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -42,7 +75,7 @@
       "first_author": "Sydney N. Dybing",
       "corr_author": "Brendan W. Crowell",
       "affiliation": "1Department of Earth Sciences, University of Oregon, Eugene, Oregon, U.S.A.",
-      "abs_zh": "为了发布准确且有用的警报，地震早期预警 (EEW) 系统必须快速确定地震的规模和位置，以估计预期的震动。传统的基于地震的算法往往会低估大地震的真实震级，这种现象称为震级饱和。这一限制促使最近将全球导航卫星系统 (GNSS) 数据纳入美国地质调查局的 ShakeAlert EEW 系统，并采用大地测量尺寸和时间第一近似 (GFAST) 算法，因为 GNSS 数据不会因大地面运动而饱和。然而，与传统地震数据相比，GNSS 数据的噪声水平非常高，这会掩盖 P 波到达，并且如果位移幅度较低（例如震级较低的地震或震源站距离较大），可能会导致震级估计不太准确。在本研究中，我们开发了一种深度学习模型，用于检测 GNSS 数据中的地震，并使用加利福尼亚州里奇克莱斯特地震序列作为案例研究，以演示该模型如何充当过滤器，以减少进入 GFAST 等算法的低质量数据量。为了保留有限的真实地震数据用于模型推断，我们生成了由超过 700,000 个合成位移波形组成的训练数据集。我们将合成波形与实时 GNSS 噪声相结合，产生真实的噪声训练波形，然后在额外的合成数据上测试我们的模型，并使用保留的真实数据进行推理。我们讨论了训练模型在未见过的合成数据和真实推理数据上的性能。我们的模型可用于选择性地仅过滤观察到地震信号的高质量数据，以输入到 GFAST 等算法（优于基于简单信噪比的过滤器），以减少 GFAST 实时地震震级估计中的误差。",
+      "abs_zh": "为了发布准确且有用的警报，地震早期预警 (EEW) 系统必须快速确定地震的规模和位置，以估计预期的震动。传统的基于地震的算法往往会低估大地震的真实震级，这种现象称为震级饱和。这一限制促使最近将全球导航卫星系统 (GNSS) 数据纳入美国地质调查局的 ShakeAlert EEW 系统，并采用大地测量尺寸和时间第一近似 (GFAST) 算法，因为 GNSS 数据不会因大地面运动而饱和。然而，与传统地震数据相比，GNSS 数据的噪声水平非常高，这会掩盖 P 波到达，并且如果位移幅度较低（例如震级较低的地震或震源站距离较大），可能会导致震级估计不太准确。在本研究中，我们开发了一种深度学习模型，用于检测 GNSS 数据中的地震，并使用加利福尼亚州里奇克莱斯特地震序列作为案例研究，以演示该模型如何充当过滤器，以减少进入 GFAST 等算法的低质量数据量。为了保留有限的真实地震数据用于模型推断，我们生成了由超过 700,000 个合成位移波形组成的训练数据集。我们将合成波形与实时 GNSS 噪声相结合，生成真实的噪声训练波形，然后在额外的合成数据上测试我们的模型，并使用保留的真实数据进行推理。我们讨论了训练模型在未见过的合成数据和真实推理数据上的性能。我们的模型可用于选择性地仅过滤观察到地震信号的高质量数据，以输入到 GFAST 等算法（优于基于简单信噪比的过滤器），以减少 GFAST 实时地震震级估计中的误差。",
       "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     },
@@ -64,7 +97,7 @@
       "first_author": "Xuan Tong",
       "corr_author": "Wen Zhou",
       "affiliation": "Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters(CIC‐FEMD)/Jiangsu Key Laboratory of Intelligent Weather Forecasting and Applications Based on Big Data Nanjing University of Information Science and Technology  Nanjing China",
-      "abs_zh": "准确的最高气温预报对于长江流域的热浪管理和农业规划至关重要。数值天气预报方法经常面临大气混沌、有限的物理理解和外力的挑战，导致不确定性和偏差。深度学习提供了一种有前途的替代方案，具有更快的处理速度和更高的准确性。由于单个预测器（无论是基于卷积网络还是基于 Transformer 的网络）都可能存在不足，因此本研究引入了一种轻量级预测框架，该框架将基于 ResNet 的预测器与基于多层感知器的校正器相结合，实现了高达 7.8% 的准确率提升。与欧洲中期天气 (EC) 预报中心相比，该框架实现了类似的 RMSE，但具有更好的空间相关性和基于容差的准确性。此外，它比 EC 的预测提前 9 天预测热浪爆发，领先一天。这些结果表明，将校正器与预测器相结合可显着增强轻量级模型的预测能力，为极端天气预报提供可靠且经济高效的工具。",
+      "abs_zh": "准确的最高气温预报对于长江流域的热浪管理和农业规划至关重要。数值天气预报方法经常面临大气混沌、有限的物理理解和外力的挑战，导致不确定性和偏差。深度学习提供了一种有前途的替代方案，具有更快的处理速度和更高的准确性。由于单个预测器（无论是基于卷积网络还是基于 Transformer 的网络）都可能存在不足，因此本研究引入了一种轻量级预测框架，该框架将基于 ResNet 的预测器与基于多层感知器的校正器相结合，实现了高达 7.8% 的准确率提升。与欧洲中期天气 (EC) 预报中心相比，该框架实现了类似的 RMSE，但具有更好的空间相关性和基于容差的准确性。此外，它比 EC 的预测提前 9 天预测热浪爆发，领先一天。这些结果表明，将校正器与预测器相结合可以显着增强轻量级模型的预测能力，为极端天气预报提供可靠且经济高效的工具。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -75,41 +108,8 @@
       "first_author": "Hongbin Lu",
       "corr_author": "Haohong Liang",
       "affiliation": "1The Key Laboratory of Deep Petroleum Intelligent Exploration and Development, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
-      "abs_zh": "在全球变暖的背景下，沿海地区面临着极端气象事件不断升级的风险，但传统的海洋监测难以在恶劣的条件下提供足够的分辨率。本研究利用短周期地震仪通过空气-海洋-固体地球相互作用产生的微震噪声进行被动近岸风波监测。 2024年9月14日至10月15日，在中国海南岛部署的六站微阵列捕获了三个不同状态的信号：热带风暴苏利克、静止期和持续强风期。功率谱密度、时频和极化分析揭示了与震级相关的微震响应——苏利克期间的风波主导、平静时段的潮汐调制以及温和风期间的综合影响。光谱能量与波高和风速之间存在很强的相关性。融合光谱和潮汐特征的随机森林模型根据独立测试数据预测了显着波高（平均绝对误差，MAE = 0.117 m）和风速（MAE = 0.861 m/s），优于传统的经验光谱模型（波高 MAE = 0.133 m）。次生微震（0.2–0.8 Hz）被证明对风波动力学高度敏感，而长周期信号则受到沿海反射和潮汐的调制。这种具有成本效益的方法为传统方法提供了补充框架，增强了实时海洋灾害监测和地球系统耦合研究。",
+      "abs_zh": "在全球变暖的背景下，沿海地区面临着极端气象事件不断升级的风险，但传统的海洋监测难以在恶劣的条件下提供足够的分辨率。本研究利用短周期地震仪通过空气-海洋-固体地球相互作用产生的微震噪声进行被动近岸风波监测。 2024年9月14日至10月15日，在中国海南岛部署的六站微阵列捕获了三个不同状态的信号：热带风暴苏利克、静止期和持续强风期。功率谱密度、时频和极化分析揭示了与震级相关的微震响应——苏利克期间的风波主导、平静时段的潮汐调制以及温和风期间的综合影响。光谱能量与波高和风速之间存在很强的相关性。融合光谱和潮汐特征的随机森林模型根据独立测试数据预测了显着波高（平均绝对误差，MAE = 0.117 m）和风速（MAE = 0.861 m/s），优于传统的经验谱模型（波高 MAE = 0.133 m）。次生微震（0.2–0.8 Hz）被证明对风波动力学高度敏感，而长周期信号则受到沿海反射和潮汐的调制。这种具有成本效益的方法为传统方法提供了补充框架，增强了实时海洋灾害监测和地球系统耦合研究。",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef5759",
-      "title": "A deep learning model for predicting daily PM\n                    <sub>2.5</sub>\n                    concentration in response to emission reduction",
-      "url": "https://doi.org/10.1126/sciadv.aef5759",
-      "first_author": "Shigan Liu",
-      "corr_author": "Qiang Zhang",
-      "affiliation": "Ministry of Education Key Laboratory for Earth System Modeling, Department of Earth System Science, Tsinghua University, Beijing 100084, China.",
-      "abs_zh": "空气污染仍然是全球主要的健康威胁，细颗粒物 (PM\n                    2.5\n                    ）每年造成数百万人过早死亡。化学品传输模型 (CTM) 对于估计排放控制如何改善空气质量至关重要，但计算量较大。在这里，我们介绍 CleanAir，一个模拟日常 PM 的深度学习模型\n                    2.5\n                    36 公里水平分辨率下的浓度及其化学成分对减排量的响应。 CleanAir 基于残差对称三维 U-Net 架构，可以估计 365 天的 PM\n                    2.5\n                    图形处理单元 10 秒内或中央处理单元 160 秒内集中在中国 - 比 CTM 快三到四个数量级。 CleanAir 的结果与社区多尺度空气质量 (CMAQ) 模型的结果非常吻合\n                    2.5\n                    浓度和排放引起的变化。 CleanAir 根据 CMAQ 模型的 2416 种排放情景进行训练，可以很好地概括未见的气象和排放。凭借快速模拟功能，CleanAir 能够对短期排放控制措施和长期缓解途径进行广泛评估，从而做出更敏感的决策。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aee3529",
-      "title": "Learning dynamically regulates stimulus discrimination of ventral striatal D1 receptor expressing neurons",
-      "url": "https://doi.org/10.1126/sciadv.aee3529",
-      "first_author": "Tierney B. Daw",
-      "corr_author": "Sotiris C. Masmanidis",
-      "affiliation": "Molecular, Cellular, and Integrative Physiology Graduate Program, University of California, Los Angeles, CA, USA.",
-      "abs_zh": "动物会遇到一系列感官刺激，但其中只有一部分与食欲结果相关。因此，学习区分奖励配对和不配对线索的机制对于奖励寻求行为至关重要。腹侧纹状体在强化学习和刺激辨别中发挥着关键作用，但学习对不同细胞类型选择性的影响仍不清楚。当小鼠学会区分奖励配对和不配对线索时，我们检查了腹侧纹状体 D1 和 D2 中棘神经元 (MSN) 的放电特性。随着单次学习的进展，D1 MSN 选择性随行为选择性线性增加，而 D2 MSN 则表现出适度的、行为不相关的活动变化。 D1 MSN 选择性的改变主要归因于对无奖励提示的兴奋性反应减弱，以及在无奖励提示期间 D1 MSN 活性的增加损害了行为选择性。总之，这些发现揭示了 D1 MSN 对刺激辨别学习的显着更动态的贡献。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeb8867",
-      "title": "On-demand growth of semiconductor heterostructures guided by physics-informed machine learning",
-      "url": "https://doi.org/10.1126/sciadv.aeb8867",
-      "first_author": "Chao Shen",
-      "corr_author": "Chao Zhao",
-      "affiliation": "State Key Laboratory of Optoelectronic Materials and Devices, Institute of Semiconductors, Chinese Academy of Sciences, Beijing 100083, China.",
-      "abs_zh": "按需开发定制异质结构对于满足半导体器件不断增长的需求至关重要。然而，传统方法仍然受到基于仿真的设计和迭代试错优化的限制。在这里，我们介绍 SemiEpi，这是一个专为分子束外延 (MBE) 设计的自动驱动平台，可通过原位反射高能电子衍射监控和动态反馈控制实现多步半导体异质结构生长。通过集成 MBE 反应器、基于物理的机器学习 (ML) 模型和参数初始化，SemiEpi 设计异质结构，确定最佳初始条件，并提出材料生长实验。作为演示，我们优化了高密度 InAs 量子点生长，目标发射波长为 1240 nm，实现了 5 × 10 的密度\n                    10\n                    厘米\n                    −2\n                    ，通过生长温度的反馈控制，光致发光强度增加了 1.6 倍，半峰全宽降低为 29.13 meV。我们进一步展示了 SemiEpi 在不同 MBE 反应器中的多功能性，强调了其解决多步异质结构生长挑战、实现独立于硬件的框架以及增强工艺可重复性和稳定性的潜力。",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]

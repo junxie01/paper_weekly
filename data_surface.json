@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-19 至 2026-07-26 10:51",
+  "last_update": "2026-07-26 至 2026-08-02 10:51",
   "topic_name": "面波研究",
   "papers": [
     {
@@ -25,6 +25,28 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2026jb033827",
+      "title": "Extraction of Stable Empirical Green's Functions From Short‐Duration Ambient Noise Using a Physics‐Constrained Self‐Supervised Network",
+      "url": "https://doi.org/10.1029/2026jb033827",
+      "first_author": "Guiqi Fan",
+      "corr_author": "Anrui Wei",
+      "affiliation": "Frontiers Science Center for Critical Earth Material Cycling School of Earth Sciences and Engineering Nanjing University  Nanjing China",
+      "abs_zh": "环境噪声干涉测量是一种关键的地震学方法，可从地震噪声中提取稳定的经验格林函数 (EGF)，用于地下成像，而无需地震。然而，其性能经常受到非扩散和持续定向噪声源的挑战，这阻碍了 EGF 的检索并引入了虚假到达。长达一年的互相关函数（CCF）堆叠的传统方法对于短期部署来说是不切实际的，并且通常无法抑制由于噪声能量分布不均匀而产生的寄生到达。为了克服这些限制，我们开发了一种自监督神经网络加权叠加（NNWS）方法，通过联合优化信噪比（SNR）和波形对称性（扩散波场的两个关键代理）来学习 CCF 的最佳叠加权重。这种受物理约束、无标签的方法有效地抑制了强方向噪声的非因果信号。通过综合测试，我们证明即使干扰噪声到达真实表面波附近，NNWS 也能成功减轻污染。应用于 USArray 数据时，我们的方法仅使用 10 天的连续数据即可恢复稳定、高质量的 EGF。由此产生的信噪比超过了传统的一年线性叠加所实现的信噪比。由此产生的 EGF 还表现出增强的对称性并显着抑制非因果噪声，从而能够根据短时数据进行可靠的色散测量。因此，NNWS 提供了一种有效且稳健的策略，可以在现实的非均匀噪声条件下快速检索 EGF，从而大大扩展了环境噪声干涉测量的应用范围。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123954",
+      "title": "Lunar Dayside Surface Potentials in the Terrestrial Magnetotail Inferred From Comparing Observed and Modeled Photoelectrons",
+      "url": "https://doi.org/10.1029/2026gl123954",
+      "first_author": "Shaosui Xu",
+      "corr_author": "Phillip C. Chamberlin",
+      "affiliation": "Space Sciences Laboratory University of California  Berkeley CA USA",
+      "abs_zh": "作为一个无空气的物体，月球表面由于平衡流入和流出表面的电流而带电。月球表面充电对于科学和人类探索目的都很重要。以前的研究已经很好地描述了夜间表面充电的特征，但对于白天的情况则较少。结合月球与太阳相互作用的加速、重连、湍流和电动力学 (ARTEMIS) 任务的观测结果以及建模工作，我们可以推断出月球白天表面的电势。这项研究对月球位于地球磁尾叶时的月球日侧表面电势及其如何随表面太阳天顶角、局部等离子体密度、电子温度以及月球地壳场的变化进行了统计分析。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.120095",
       "title": "Corrigendum to “Sub-centennially resolved reconstruction of surface temperature on High Arctic Svalbard for the past 13,000 years” [EPSL 671 (2025) 119646]",
       "url": "https://doi.org/10.1016/j.epsl.2026.120095",
@@ -36,80 +58,58 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag298",
-      "title": "Study on Rayleigh Wave Dispersion and Attenuation in HTI Fractured Porous Media",
-      "url": "https://doi.org/10.1093/gji/ggag298",
-      "first_author": "Xiaodong Wang",
-      "corr_author": "Jingwen Xue",
-      "affiliation": "College of Geoscience and Surveying Engineering, China University of Mining and Technology (Beijing) , Beijing 100083 ,",
-      "abs_zh": "总结\n                  在含有对齐裂缝和流体的近地表多孔介质中，瑞利波的传播受到裂缝几何形状和波引起的流体流动的影响。这些过程在相速度和衰减中引入了频率相关的色散和方位各向异性。为了研究这些影响，本研究应用查普曼型裂缝-孔隙有效介质理论将流体饱和裂缝介质描述为具有频率依赖的复刚度的水平横观各向同性（HTI）介质。将该模型与HTI半空间的Stroh形式相结合，得到了瑞利波的复色散关系。数值结果表明，瑞利波相速度表现出明显的频率相关色散以及方位各向异性。快、慢传播方向与裂缝走向保持一致。瑞利波衰减在与波引起的流体流动相关的频带内表现出明显的弛豫峰值，并且表现出强烈的方位角变化。参数分析进一步表明，裂缝密度主要控制方位各向异性的强度，而孔隙度主要影响色散和衰减的总体水平。弛豫时间控制色散和衰减变得显着的频率范围。因此，相速度和衰减的组合频率-方位角变化为利用多频率和多方位角瑞利波观测估计裂缝性储层中的裂缝-孔隙结构提供了潜在的约束。",
+      "id": "10.1093/gji/ggag306",
+      "title": "The Multi-Channel Maximum-Likelihood (MCML) method: a multiple source extension for infrasound detection and wave parameter estimation",
+      "url": "https://doi.org/10.1093/gji/ggag306",
+      "first_author": "B Poste",
+      "corr_author": "S Kristoffersen",
+      "affiliation": "CEA, DAM , DIF, F-91297 Arpajon ,",
+      "abs_zh": "总结\n                  次声提供了监测数千公里之外的远程大气源的独特能力，在全球监测中发挥着关键作用。在低信噪比 (SNR) 条件下和存在干扰源的情况下，提取波前参数（例如到达方向 (DOA) 和轨迹速度）仍然具有挑战性。事实证明，在这些低 SNR 场景中，多通道最大似然 (MCML) 算法的检测和估计能力优于渐进多通道相关 (PMCC) 等基于相关的检测器。国际监测系统（IMS）的观察表明，来自多个源的信号可能会在时频域发生干扰。然而，MCML 只能检测每个时频仓的一个源。为了区分多个源，已经开发了 MCML 算法的几种扩展，包括多重最大 MLE 估计器、谱分解方法和迭代信号减法。通过具有地面实况信息的模拟与最先进的多源算法（如 MUSIC）比较检测和估计能力，表明迭代信号减法是最有效的方法，同时保持较低的计算成本。一个主要发现是，MCML 的多源扩展仍然可以使用单源检测器，从而避免多源检测器的昂贵计算。处理火箭发射和爆炸流星等真实事件凸显了每种算法的优点和局限性。特别是，当 SNR 对比度保持适中时，仍然可以检测到被脉冲事件掩盖的源。这一扩展导致了对环境噪声的精确分析，以更好地了解《全面禁止核试验条约》（CTBT）的运行监测所需的环境噪声。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.aed1105",
-      "title": "Westerly induced precipitation increase drives near-surface ground ice gain on the Tibetan Plateau despite warming",
-      "url": "https://doi.org/10.1126/sciadv.aed1105",
-      "first_author": "Yi Zhao",
-      "corr_author": "Yiyi Li",
-      "affiliation": "Key Laboratory for Water and Sediment Sciences, Ministry of Education, College of Environmental Sciences and Engineering, Peking University, Beijing 100871, China.",
-      "abs_zh": "近地表地面冰损失是全球变暖下永久冻土退化的一个关键迹象，决定了地面不稳定和碳反馈。然而，最近的现场证据表明，地面冰可能会局部积聚，但其驱动机制仍不清楚。利用钻孔地面冰观测、基于物理的永久冻土模型和基于卫星的地面变形数据，我们发现，尽管青藏高原内陆气候变暖，但活动层底部的冰异常增加，占高原永久冻土面积的35%。加强的西风带增加了降水，提供了额外的土壤水分，这些水分在活动层底部重新冻结并推动了这种意想不到的冰增加。与积冰相关的冻融过程会加剧地面变形，破坏永久冻土景观的稳定并威胁社会经济活动。永久冻土区的异常冰量增加，加上喀喇昆仑冰川质量的异常增加，代表了气候变暖下冰冻圈冰量增加与全球冰损失的不同，这凸显出降水的快速增加可能局部超过了推动青藏高原冰冻圈演化的温度。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-4099-2026",
-      "title": "Assessing the effect of land cover on ISBA snow water equivalent and land surface temperature simulations over Europe",
-      "url": "https://doi.org/10.5194/tc-20-4099-2026",
-      "first_author": "Oscar Rojas-Munoz",
-      "corr_author": "Jean-Christophe Calvet",
-      "affiliation": "未知机构",
-      "abs_zh": "。准确地表示陆地表面对于模拟陆地与大气之间的能量、水和碳的交换至关重要。本研究评估了 2010 年至 2022 年间欧洲土壤、生物圈和大气相互作用 (ISBA) 地表模型中土地覆盖 (LC) 表示对降雪模拟的影响。该研究采用了欧洲中期天气预报中心 (ECMWF) ERA5 大气强迫数据集。使用两个不同版本的模型进行离线模拟实验来处方 LC。最新版本使用欧洲航天局 (ESA) 气候变化倡议 (CCI) 的最新 LC 数据。通过将模拟与 ESA CCI 卫星雪水当量 (SWE) 和地表温度 (LST) 反演以及 ERA5 雪分析进行比较，评估了模型再现雪动态的能力。 ERA5 分析显示在域范围内与卫星衍生的 SWE 具有最高程度的一致性。平均而言，与 CCI SWE 相比，ERA5 和 ISBA 模拟都倾向于高估 SWE。然而，CCI SWE 产品也有可能低估了实际的 SWE。这种偏差在 2020 年暖冬期间尤其大，而按比例缩放的 SWE 异常与 ESA CCI 和 ERA5 观测到的异常相当。使用 ESA CCI LC 数据可将 ISBA SWE 偏差降低约 23%，并且在大部分领域都观察到这种降低。对 LC 转变的进一步分析表明，SWE 偏差的减少主要是由一些植被变化驱动的，特别是从草原到森林的转变。在主要 LC 保持不变的区域中也发现了 SWE 的变化。这表明子网格植被比例的修改可以影响雪植被相互作用和 SWE 偏差。更新后的 LC 对模型地表温度性能的影响非常有限，表明 LC 更新的影响为 m",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120296",
-      "title": "Internal Tide Displacements Enhance Surface‐Interior Heat Exchange in the Indonesian Seas",
-      "url": "https://doi.org/10.1029/2025gl120296",
-      "first_author": "Chengyuan Pang",
-      "corr_author": "Bernadette M. Sloyan",
-      "affiliation": "Institute for Marine and Antarctic Studies University of Tasmania  Hobart TAS Australia",
-      "abs_zh": "印度尼西亚海的海面温度（SST）驱动大气深层对流，影响区域和全球气候。然而，人们对这一地区控制海表温度的过程仍然知之甚少。使用明确解析内潮汐的高分辨率区域模型，我们发现潮汐位移将冷的温跃层水提升到表层海洋，使其暴露于剧烈的表面混合，从而增强了表面与内部的热交换。潮汐促进的热交换具有很强的季节性，在混合层深而温跃层浅的地区，季风期间加剧。这种潮汐暴露机制增强了由内部潮汐破坏驱动的混合，具有相当的影响。然而，它主导了上层海洋垂直热交换的潮汐影响。这种垂直热交换的新途径必须在粗分辨率气候模型中得到体现，以改善该地区海表温度和海气相互作用的模拟。",
+      "id": "10.1029/2026gl123000",
+      "title": "Evaluation of Low‐Level Clouds, Temperature, and Surface Radiation Using a Model, Two Reanalyses, and Southern Ocean Observations",
+      "url": "https://doi.org/10.1029/2026gl123000",
+      "first_author": "Kazutoshi Sato",
+      "corr_author": "Hitoshi Matsui",
+      "affiliation": "National Institute of Polar Research  Tachikawa Japan",
+      "abs_zh": "南大洋（SO）上空的低层云对地表辐射产生强烈影响，但它们在重新分析和气候模型中的表现仍然不确定。我们使用日本 R/V 在 SO 上获得的观测结果评估了 ERA5、MERRA-2 和 CAM-ATRAS 模型的云特性和表面辐射通量\n                    白濑\n                    2022 年 12 月和 2023 年 3 月期间。ERA5 和 MERRA-2 高估了底部低于 1 公里的低层云的频率。尽管 CAM-ATRAS 也高估了极低的云，但它显示出与云出现和相位观测结果的最佳总体一致性。尽管低层云出现的频率很高，但所有数据集都低估了向下长波（DLW）辐射。冷偏差和云相偏差可能会降低云底发射率并导致低估的 DLW 辐射。使用 CAM-ATRAS 进行的气溶胶敏感性实验表明，云凝结核浓度的增加会增加低层云的频率，但对表面辐射通量的影响有限。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl123073",
-      "title": "Asymmetry of Land Surface Temperature Response to Forest Gain and Loss: The Role of Land Cover Conversions",
-      "url": "https://doi.org/10.1029/2026gl123073",
-      "first_author": "Yuehan Yu",
-      "corr_author": "Zijun Zhao",
-      "affiliation": "State Key Laboratory of Earth Surface Processes and Hazards Risk Governance (ESPHR) Beijing Normal University  Beijing China",
-      "abs_zh": "最近的研究揭示了地表温度（LST）对森林增减的不对称反应，但潜在的土地覆盖转变（LCC）的作用仍不清楚。使用三个全球土地覆盖数据集（2001-2020），我们量化了 LST 对每单位森林损失和增益的敏感性。尽管森林覆盖率净损失导致整体变暖，但全球范围内仍然出现了一致的不对称性：地表温度对森林损失的敏感性（0.53°C）几乎是热带地区森林增加（0.33°C）的两倍，在区分森林引起的变暖和变冷区域后，温带和寒带地区也出现了类似的不对称性。这种不对称性源于森林增益和损失之间不同的 LCC 路径，其中森林损失通常会转移到非林地类型（例如稀树草原/农田），从而导致比同等森林增益（例如湿地/草地）所逆转的 LST 变化更大。这些表明 LCC 是不对称 LST 响应的重要驱动因素，对基于森林的气候缓解具有重要影响。",
+      "id": "10.1126/science.aeg1730",
+      "title": "Plasma surface engineering for efficient and stable perovskite solar cells and modules",
+      "url": "https://doi.org/10.1126/science.aeg1730",
+      "first_author": "Rundong Fan",
+      "corr_author": "Huanping Zhou",
+      "affiliation": "Beijing Key Laboratory of New Generation Photovoltaic Materials and Technology Application, Key Laboratory of Polymer Chemistry and Physics of Ministry of Education, State Key Laboratory of Advanced Waterproof Materials, School of Materials Science and Engineering, Peking University, Beijing, P. R. China.",
+      "abs_zh": "钙钛矿太阳能电池（PSC）的不稳定性很大程度上源于与柔软的多组分钙钛矿晶格相关的界面缺陷的形成和演变。我们报告了一种可扩展的、基于等离子体的钝化策略，通过大面积钙钛矿薄膜上的原位化学反应形成共形、均匀和强键合的异质结构。这种方法还可以减轻激光划线互连区域内的缺陷累积，其中局部损坏通常主导模块级性能损失。我们在小面积器件（有效面积 8.313 平方毫米）中实现了 27.2% 的功率转换效率 (PCE)，在 100 平方厘米 (cm) 器件中实现了 24.0%（认证效率为 23.5%）。\n                    2\n                    ）模块（孔径面积 65.05 cm\n                    2\n                    ）。在 85°C、1 太阳光照和 100 厘米光照条件下进行 2000 小时的最大功率点跟踪后，小面积器件保留了 98.1% 的初始 PCE。\n                    2\n                    在 65°C、1 太阳光照下运行 1600 小时后，模块仍保留了 99.3% 的初始 PCE。",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl120504",
+      "title": "Improved Representation of Surface Emissivity Effects on Longwave Radiation in a Coupled Earth System Model",
+      "url": "https://doi.org/10.1029/2025gl120504",
+      "first_author": "Lili Manzo",
+      "corr_author": "Andrew Roberts",
+      "affiliation": "Department of Earth System Science University of California  Irvine CA USA",
+      "abs_zh": "许多地球系统模型 (ESM) 将表面发射率近似为所有波长（宽带）上的常数。这种近似错误地表示了长波 (LW) 通量的光谱分布，并在 LW 大气加热速率中引入了误差。许多 ESM 采用“有效灰体”(EG) 方法，该方法会在大气成分使用的有效温度中产生偏差。我们实施了一种新颖的“全灰体”（FG）方法，修改了大气中长波通量的处理，以匹配百亿亿次能源地球系统模型中海洋表面成分的处理。我们发现，相对于灰体发射率，海洋上空的海洋黑体近似高估了瞬时平均上升长波表面通量 1.380.05 W/。常见的 EG 方法在有效温度中引入了 -0.24 K 的平均偏差。 FG 方法将此偏差降低至 0.0039 K，与默认黑体偏差 (0.0070 K) 相当，同时使 ESM 中的海洋排放在物理上更加真实。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl124981",
-      "title": "Statistical Evaluation of a Foreshock Transient Model Using Ground‐Based ULF Wave Observations",
-      "url": "https://doi.org/10.1029/2026gl124981",
-      "first_author": "Terry Zixu Liu",
-      "corr_author": "Siqi Zhao",
-      "affiliation": "Shandong Key Laboratory of Space Environment and Exploration Technology School of Space Science and Technology Institute of Space Sciences Shandong University  Jinan China",
-      "abs_zh": "热流异常和前震气泡是不连续性驱动的前震瞬变，会产生显着的地球空间扰动。最近开发的分析模型可以预测其上游扰动。在本研究中，我们通过将其预测与地面磁力计测量的地磁扰动进行比较来进一步评估该模型。我们发现模型预测的前震离子驱动电流密度（前震瞬态强度的度量）与 Pc3 频段的地面磁波功率相关性很好，相关系数达到~0.55-0.6。这种相关程度优于使用本地测量的上游波浪功率或前震离子参数的简单组合代替电流密度得出的相关程度，表明了模型的有效性。相关系数对磁本地时间和地面站纬度的依赖性可能表明瞬态驱动扰动的方位角和径向传播。此外，还讨论了模型的局限性。这些结果证明了该模型预测前震瞬变驱动的地球空间扰动的能力。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl124175",
-      "title": "ENSO‐Conditioned Evolution of Global Mean Surface Temperature",
-      "url": "https://doi.org/10.1029/2026gl124175",
-      "first_author": "Michael K. Tippett",
-      "corr_author": "Emily J. Becker",
-      "affiliation": "Department of Applied Physics and Applied Mathematics Columbia University  New York NY USA",
-      "abs_zh": "在这里，我们研究了如何根据最近的 GMST 演变和即将到来的北方冬季 Niño-3.4 值来预测全球平均表面温度 (GMST) 的 6 月至 5 月轨迹。主成分分析和降维形成了一个简单、可解释的模型，其中 6 月至 5 月的每月 GMST 轨迹以两个量为条件：前 12 个月的平均 GMST 和即将到来的 12 月 Niño‐3.4 值。相对于不包含 ENSO 的持续基线，包含 ENSO 可以提高性能，尤其是在一年中大气桥机制活跃的时期。该模型将 12 月 Niño‐3.4 异常 1°C 与 6 月至 8 月期间 GMST 升高约 0.03°C 联系起来，随后在次年 2 月出现约 0.11°C 的峰值升高。相比之下，初始气候预测显示出大致相似的 ENSO-GMST 关系，并在 ENSO 峰值之前提供了额外的技能。",
-      "source": "Geophysical Research Letters",
+      "id": "10.1093/gji/ggag303",
+      "title": "3D Bayesian Variational Surface Wave Tomography and Application to the Southwest China",
+      "url": "https://doi.org/10.1093/gji/ggag303",
+      "first_author": "Wenda Yang",
+      "corr_author": "Xin Zhang",
+      "affiliation": "State Key Laboratory of Deep Earth Exploration and Imaging, School of Engineering and Technology, China University of Geosciences , Beijing 100083 ,",
+      "abs_zh": "总结\n                  地震表面波层析成像使用表面波信息来获取地下的速度结构。由于数据噪声和问题的非线性，表面波层析成像通常具有非唯一解。因此，需要量化结果的不确定性，以便更好地解释所得图像。贝叶斯推理是用于此目的最广泛使用的方法。然而，常用的蒙特卡罗方法需要巨大的计算成本，并且在高维问题中仍然难以解决。变分推理使用优化来解决贝叶斯逆问题，因此在大数据集和高维参数空间的情况下可以更有效。变分推理已广泛应用于二维相速度图反演。在本研究中，我们通过根据频率相关的走时测量直接反演 3D 空间地震速度结构，将该方法扩展到 3D 表面波层析成像。具体来说，我们利用中国西南地区的合成数据和真实数据，将平均场自动微分变分推理（平均场ADVI）、物理结构化变分推理（PSVI）和随机斯坦因变分梯度下降（sSVGD）三种变分方法应用于表面波层析成像问题。结果表明，所有方法都可以提供准确的速度平均估计，而 sSVGD 由于这些方法中使用的高斯假设，比平均场 ADVI 和 PSVI 产生更合理的不确定性估计。在实际数据情况下，变分方法提供了比使用传统线性化方法获得的速度结构更详细的速度结构，以及可靠的不确定性估计。因此，我们得出结论，变分表面波断层扫描可以有效地应用于许多现实问题。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]
