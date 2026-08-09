@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-26 至 2026-08-02 10:51",
+  "last_update": "2026-08-02 至 2026-08-09 09:47",
   "topic_name": "地震成像",
   "papers": [
     {
@@ -69,47 +69,47 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120077",
-      "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120077",
-      "first_author": "Zhenghong Song",
-      "corr_author": "Tengfei Xu",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag306",
-      "title": "The Multi-Channel Maximum-Likelihood (MCML) method: a multiple source extension for infrasound detection and wave parameter estimation",
-      "url": "https://doi.org/10.1093/gji/ggag306",
-      "first_author": "B Poste",
-      "corr_author": "S Kristoffersen",
-      "affiliation": "CEA, DAM , DIF, F-91297 Arpajon ,",
-      "abs_zh": "总结\n                  次声提供了监测数千公里之外的远程大气源的独特能力，在全球监测中发挥着关键作用。在低信噪比 (SNR) 条件下和存在干扰源的情况下，提取波前参数（例如到达方向 (DOA) 和轨迹速度）仍然具有挑战性。事实证明，在这些低 SNR 场景中，多通道最大似然 (MCML) 算法的检测和估计能力优于渐进多通道相关 (PMCC) 等基于相关的检测器。国际监测系统（IMS）的观察表明，来自多个源的信号可能会在时频域发生干扰。然而，MCML 只能检测每个时频仓的一个源。为了区分多个源，已经开发了 MCML 算法的几种扩展，包括多重最大 MLE 估计器、谱分解方法和迭代信号减法。通过具有地面实况信息的模拟与最先进的多源算法（如 MUSIC）比较检测和估计能力，表明迭代信号减法是最有效的方法，同时保持较低的计算成本。一个主要发现是，MCML 的多源扩展仍然可以使用单源检测器，从而避免多源检测器的昂贵计算。处理火箭发射和爆炸流星等真实事件凸显了每种算法的优点和局限性。特别是，当 SNR 对比度保持适中时，仍然可以检测到被脉冲事件掩盖的源。这一扩展导致了对环境噪声的精确分析，以更好地了解《全面禁止核试验条约》（CTBT）的运行监测所需的环境噪声。",
+      "id": "10.1093/gji/ggag317",
+      "title": "Deep Learning-based Seismic Reflectivity Estimation by Pre-training on Labeled Synthetic Data and Physics-guided Fine-tuning in Field Data",
+      "url": "https://doi.org/10.1093/gji/ggag317",
+      "first_author": "Yuting Wang",
+      "corr_author": "Xinming Wu",
+      "affiliation": "Laboratory of Seismology and Physics of the Earth’s Interior, School of Earth and Space Sciences, University of Science and Technology of China , Hefei 230026 ,",
+      "abs_zh": "总结\n                  反射率估算旨在提高地震数据的分辨率，为储层参数的详细反演提供重要支撑。我们提出了一种将监督预训练与合成数据和现场数据中物理引导的微调相结合的方法，以根据地震数据估计合理的反射率。最初，通过对大量合成地震数据进行监督学习来预训练 U 形网络。随后，引入多个具有地球物理意义的约束，包括面向结构的平滑度、反射率稀疏性和数据重建等，制定自监督或无监督学习机制，对预训练模型进行微调，使其更好地适应现场数据，从而获得更合理的反射率。预训练模型提供了与基本结构特征相符的初始反射率。在初始估计的基础上，通过物理引导微调进一步优化模型，以获得更合理的反射率估计，更好地反映现场数据和地球物理先验的特征。此外，基于测井曲线的相关性评估指标被应用于自动、自适应地确定微调过程的早期停止点，从而获得良好的结果。合成地震数据和现场地震数据的实验证实，所提出的方法可以产生合理且高分辨率的反射率估计。",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.adz7220",
-      "title": "The seismic signature of lunar ice",
-      "url": "https://doi.org/10.1126/sciadv.adz7220",
-      "first_author": "Harrison P. Lisabeth",
-      "corr_author": "Matthew Siegler",
-      "affiliation": "Lawrence Berkeley National Laboratory, 1 Cyclotron Rd, Berkeley, CA 94720, USA.",
-      "abs_zh": "识别月球上的水冰沉积物对于进行长期科学研究和支持未来的月球基础设施至关重要。尽管多种证据表明月球近地表内存在大量的极地水，但这些冰资源的精确位置、丰度和分布在很大程度上仍然不受限制。风化层中冰的存在改变了地球物理特性，可以使用类似于陆地地下资源勘探中使用的地球物理技术来定量表征这些地球物理特性。在这项研究中，我们将通过同步加速器 X 射线显微断层扫描获得的冰冷风化层模拟物的实验测量与先进的岩石物理模型和月球近地表热模型相结合。这种多管齐下的方法使我们能够为月球南极的理论冰沉积构建现实的地震模型。我们的方法使我们能够将地震特性的变化与冰的存在和分布联系起来，为使用地震方法推断地下冰沉积物的位置和丰度提供了一个框架。我们的结果强调，地震勘探技术是表征月球水资源的强大工具。从这些模型中获得的见解不仅增强了我们对月球风化层物理状态的理解，而且为优化即将到来的月球任务中的地球物理调查策略铺平了道路。",
-      "source": "Science Advances",
+      "id": "10.1029/2025gl121422",
+      "title": "Seismic Constraints of the 23 November 2025 Hayli Gubbi Eruption Sequence in Afar, Ethiopia",
+      "url": "https://doi.org/10.1029/2025gl121422",
+      "first_author": "F. Limberger",
+      "corr_author": "A. Ayele",
+      "affiliation": "Institute of Geosciences Goethe University Frankfurt  Frankfurt am Main Germany",
+      "abs_zh": "2025 年 11 月 23 日，阿法尔（埃塞俄比亚）的海利古比火山发生大规模爆炸。我们使用 13 个区域地震台站的数据首次展示了地震特征。地震图显示的信号包括一分钟长的前兆、主要喷发阶段和数小时后的次要事件。主要阶段包括间隔几分钟的快速连续的两次重大地震事件，并在卫星检测到最初气体释放后 20 分钟进行记录。通过联合反演地表波到达的震中坐标和波速，将震源定位在 Hayli Gubbi 附近。使用各向同性源机制的数值建模可以准确地再现观察到的波形。主要事件之前的脉冲信号可能反映了正在进行的火山爆发或导致海利古比爆炸或尔塔阿雷潜在塌陷的地下过程，这在卫星图像中可以清楚地观察到。这项研究强调了使用区域地震网络监测阿法尔仪器不足的火山的价值。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag303",
-      "title": "3D Bayesian Variational Surface Wave Tomography and Application to the Southwest China",
-      "url": "https://doi.org/10.1093/gji/ggag303",
-      "first_author": "Wenda Yang",
-      "corr_author": "Xin Zhang",
-      "affiliation": "State Key Laboratory of Deep Earth Exploration and Imaging, School of Engineering and Technology, China University of Geosciences , Beijing 100083 ,",
-      "abs_zh": "总结\n                  地震表面波层析成像使用表面波信息来获取地下的速度结构。由于数据噪声和问题的非线性，表面波层析成像通常具有非唯一解。因此，需要量化结果的不确定性，以便更好地解释所得图像。贝叶斯推理是用于此目的最广泛使用的方法。然而，常用的蒙特卡罗方法需要巨大的计算成本，并且在高维问题中仍然难以解决。变分推理使用优化来解决贝叶斯逆问题，因此在大数据集和高维参数空间的情况下可以更有效。变分推理已广泛应用于二维相速度图反演。在本研究中，我们通过根据频率相关的走时测量直接反演 3D 空间地震速度结构，将该方法扩展到 3D 表面波层析成像。具体来说，我们利用中国西南地区的合成数据和真实数据，将平均场自动微分变分推理（平均场ADVI）、物理结构化变分推理（PSVI）和随机斯坦因变分梯度下降（sSVGD）三种变分方法应用于表面波层析成像问题。结果表明，所有方法都可以提供准确的速度平均估计，而 sSVGD 由于这些方法中使用的高斯假设，比平均场 ADVI 和 PSVI 产生更合理的不确定性估计。在实际数据情况下，变分方法提供了比使用传统线性化方法获得的速度结构更详细的速度结构，以及可靠的不确定性估计。因此，我们得出结论，变分表面波断层扫描可以有效地应用于许多现实问题。",
+      "id": "10.1093/gji/ggag295",
+      "title": "Massive-scale unlabeled field and labeled synthetic seismic datasets of global shelf-edge clinothems",
+      "url": "https://doi.org/10.1093/gji/ggag295",
+      "first_author": "Hui Gao",
+      "corr_author": "Jiarun Yang",
+      "affiliation": "School of Artificial Intelligence, Anhui University of Science and Technology , Hefei 231131 ,",
+      "abs_zh": "总结\n                  陆架边缘斜层的地震地层解释对于揭示盆地充填过程中的构造演化、古气候变化、沉积动力条件以及油气生成和聚集至关重要。然而，传统的解释方法仍然是劳动密集型、耗时且高度主观的。尽管基于人工智能的方法为自动化这项任务提供了潜在的解决方案，但由于缺乏全面且具有代表性的货架边缘曲线基准数据集，其发展受到限制。这种限制主要源于有限的现场数据可用性、可靠的地质标签的稀缺以及以 clinothem 为主的系统的结构复杂性和强烈的可变性。为了解决这一差距，我们通过现场数据管理以及地质和地球物理正演建模这两种互补策略开发了一个混合基准数据集，最终分别生成 3,000 个未标记的现场数据和 4,000 个标记的合成地震数据。我们进一步在这些数据集上评估了几个具有代表性的基线深度学习模型，准确的结果表明，该数据集为模型训练、定量评估和实际应用提供了有效且具有代表性的基础。最后，我们公开发布了这个混合基准数据集（https://doi.org/10.5281/zenodo.20769762），以促进自动地震地层解释的深度学习方法的开发、验证和评估。",
       "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120260036",
+      "title": "CyberShake Probabilistic Seismic Hazard Model for Northern California",
+      "url": "https://doi.org/10.1785/0120260036",
+      "first_author": "Scott Callaghan",
+      "corr_author": "Yehuda Ben-Zion",
+      "affiliation": "1Statewide California Earthquake Center, University of Southern California, Los Angeles, California, U.S.A.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     }
   ]

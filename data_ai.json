@@ -1,7 +1,106 @@
 {
-  "last_update": "2026-07-26 至 2026-08-02 10:51",
+  "last_update": "2026-08-02 至 2026-08-09 09:47",
   "topic_name": "人工智能",
   "papers": [
+    {
+      "id": "10.1016/j.epsl.2026.120250",
+      "title": "Hierarchically structured data can undermine machine learning results in geoscience",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120250",
+      "first_author": "Taryn Scharf",
+      "corr_author": "Christopher L. Kirkland",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag317",
+      "title": "Deep Learning-based Seismic Reflectivity Estimation by Pre-training on Labeled Synthetic Data and Physics-guided Fine-tuning in Field Data",
+      "url": "https://doi.org/10.1093/gji/ggag317",
+      "first_author": "Yuting Wang",
+      "corr_author": "Xinming Wu",
+      "affiliation": "Laboratory of Seismology and Physics of the Earth’s Interior, School of Earth and Space Sciences, University of Science and Technology of China , Hefei 230026 ,",
+      "abs_zh": "总结\n                  反射率估算旨在提高地震数据的分辨率，为储层参数的详细反演提供重要支撑。我们提出了一种将监督预训练与合成数据和现场数据中物理引导的微调相结合的方法，以根据地震数据估计合理的反射率。最初，通过对大量合成地震数据进行监督学习来预训练 U 形网络。随后，引入多个具有地球物理意义的约束，包括面向结构的平滑度、反射率稀疏性和数据重建等，制定自监督或无监督学习机制，对预训练模型进行微调，使其更好地适应现场数据，从而获得更合理的反射率。预训练模型提供了与基本结构特征相符的初始反射率。在初始估计的基础上，通过物理引导微调进一步优化模型，以获得更合理的反射率估计，更好地反映现场数据和地球物理先验的特征。此外，基于测井曲线的相关性评估指标被应用于自动、自适应地确定微调过程的早期停止点，从而获得良好的结果。合成地震数据和现场地震数据的实验证实，所提出的方法可以产生合理且高分辨率的反射率估计。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aeb3005",
+      "title": "Neural competition between prefrontal and auditory cortex constrains novel sound strategy learning",
+      "url": "https://doi.org/10.1126/sciadv.aeb3005",
+      "first_author": "Kai Lu",
+      "corr_author": "Robert C. Liu",
+      "affiliation": "Department of Biology, Emory University, Atlanta, GA 30322, USA.",
+      "abs_zh": "在自然界中，动物学会用新的策略取代预先形成的行为，但这些转变的神经限制尚不清楚。通过对小鼠进行行为学搜索任务，我们揭示了内侧前额叶皮层（mPFC）与预先获胜策略的神经相关性，当动物学会遵循更可靠的听觉线索时，这种策略就会减弱。即使在训练的第一天，听觉皮层 (ACx) 活动也能预测正确的逐次试验声音引导搜索。这种预后编码随着学习的进行而增强，并从抑制的尖峰中出现，在横向调节到提示频谱的神经元中最为明显。化学遗传学破坏揭示了 ACx 对提高性能的贡献。出乎意料的是，mPFC 的整体沉默加速了声音追踪的成功使用，这与其在灵活或刺激依赖行为中的典型作用相反。相反，分散的多专家竞争模型可以最好地预测行为和因果扰动。这些发现表明，mPFC 实施了基于先验知识的默认策略，这积极阻碍了更有效策略的表达。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adz1325",
+      "title": "Gaseous liquid nitrogen–assisted cryo-printing strategies for challenging volumetric anisotropic tissues fabrication",
+      "url": "https://doi.org/10.1126/sciadv.adz1325",
+      "first_author": "Zhiqiang Gao",
+      "corr_author": "Mian Wang",
+      "affiliation": "Department of Joint Surgery, Shanghai East Hospital, School of Medicine, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, China.",
+      "abs_zh": "由于在复杂几何形状中复制天然结构线索的局限性，设计生理相关的各向异性组织仍然是一个重大挑战。在这里，我们开发了一种低温挤出生物打印平台，通过精确引导冰晶生长来实现厘米级的各向异性结构，甚至使用超软、低粘度墨水（2%重量/体积的 GelMA）。这种方法能够制造解剖学上匹配的、具有可调各向异性的患者特异性结构，包括骨移植替代品和骨质疏松疾病模型。为了克服冷冻打印的高度限制，我们进一步开发了冷冻组装和乐高组装策略，允许集成各向异性单元，同时保持连续的内部对齐。伤口愈合、颅骨缺损和股骨缺损模型的体内研究证实，这些各向异性信号驱动空间引导的细胞迁移、细胞外基质 (ECM) 重塑和组织部位特异性再生，如 ECM 沉积所证明的那样。我们的平台为工程结构和功能相关组织提供了可扩展、临床适应性强的解决方案，重新定义了各向异性软组织制造的边界。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aee4959",
+      "title": "Decoding the chemical space of fast-ion conductors via a descriptor-guided transfer learning framework",
+      "url": "https://doi.org/10.1126/sciadv.aee4959",
+      "first_author": "Zhilong Wang",
+      "corr_author": "Fengqi You",
+      "affiliation": "Cornell University AI for Science Institute, Cornell University, Ithaca, NY 14853, USA.",
+      "abs_zh": "快离子导体（FIC）是下一代高性能电池的关键组件，但由于传输机制尚不清楚，预测离子迁移率仍然具有挑战性。缺乏精确晶体结构的实验数据集进一步加剧了这一困难。在这里，我们提出了一个描述符引导的迁移学习框架，名为 IonNet，用于预测化合物的离子淌度，无论结构可及性如何。 IonNet 采用多通道子网络架构，通过集成化合物的静态和统计描述符来捕获通用表示。我们展示了 IonNet 在预测离子淌度方面的卓越性能，始终优于 16 种消融研究组合和之前的深度学习模型。利用化学表征的普遍适应性，IonNet 不仅在约 4500 种稳定的完美化学计量化合物中发现了 87 个 FIC，而且还从约 500 万种取代化合物中有效地找出了约 63,000 个潜在的 FIC。这项研究不仅提出了识别FIC的全链人工智能工具，还提供了控制离子淌度的组成原理，从而加速了能量存储和转换的发展。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aed0772",
+      "title": "Deep learning reveals a neurocomputational mechanism predicting depression risk in adolescents",
+      "url": "https://doi.org/10.1126/sciadv.aed0772",
+      "first_author": "Han Lu",
+      "corr_author": "",
+      "affiliation": "School of Artificial Intelligence, Shenzhen University, Shenzhen, China.",
+      "abs_zh": "早期发现和预防精神疾病，特别是抑郁症，仍然是全球主要的健康挑战，但缺乏在症状出现前识别个体的可靠工具。在这里，我们将功能神经影像与计算模型相结合，以确定抑郁症风险的机械生物标志物。在基于人群的青少年队列中（IMAGEN，\n                    氮\n                     = 1332），我们发现情绪信号的神经表征减弱与抑郁症状有关。大脑对齐深度学习模型中的扰动实验表明，这种缺陷反映了过度规范化的情绪感知，产生了负面的感知偏差。在 IMAGEN 随访中，这种机制的神经计算特征可预测 4 年后抑郁症状的发作（\n                    氮\n                     = 725），与抑郁症的遗传风险变异和多基因风险相关，并改善了患者队列中的抑郁症分类（STRATIFY，\n                    氮\n                     = 411）。这些发现提出了一种将遗传脆弱性与情绪感知改变和未来抑郁联系起来的可能机制，并提出了一种具有早期检测和预防潜力的预测计算标记。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10887-9",
+      "title": "A cholinergic hub in the nucleus accumbens gates opioid-reward learning",
+      "url": "https://doi.org/10.1038/s41586-026-10887-9",
+      "first_author": "S. Aryana Yousefzadeh",
+      "corr_author": "Michael R. Tadross",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250416",
+      "title": "Attn-Loc: Deep Learning for Microseismic Event Location via Transformer Encoder",
+      "url": "https://doi.org/10.1785/0220250416",
+      "first_author": "Xingzhi Teng",
+      "corr_author": "Yanqing Wu",
+      "affiliation": "1State Key Laboratory of Fine Exploration and Intelligent Development of Coal Resources, China University of Mining and Technology (Beijing), Beijing, People’s Republic of China",
+      "abs_zh": "微震事件定位是水力压裂、地热开发、二氧化碳地质封存、采矿安全监测等工程应用中至关重要的地球物理监测任务。传统的定位方法依赖于走时差和速度模型，这使得它们对模型误差和观测噪声敏感，并且难以适应不同的观测几何形状。近年来，基于深度学习的方法已显示出在嘈杂环境中进行端到端定位的潜力，但通常仅限于固定站布局。本文提出Attn-Loc，一种基于Transformer编码器的微震定位方法。通过输入接收机坐标、纵波和横波到达时间、入射角或方位角，构建概率源坐标估计模型，有效整合观测数据固有的多源不确定性。该方法利用自注意力机制隐式学习站间相关特征，并将区域速度结构嵌入到网络参数中，从而能够灵活适应各种观测几何形状，包括地面、井下和延时监测。我们采用计算统一设备架构（CUDA）加速的光线追踪来生成大规模训练样本并训练基于轻量级 Transformer 编码器的网络，验证其在合成数据和现场数据上的高精度和强大的鲁棒性。通过定位误差评估，Attn-Loc在合成数据上实现了较小的多向相对误差，并与托尼溪双微震实验和地热能研究前沿观测站项目的现有现场数据目录表现出高度一致性，证实了其在复杂地质环境和可变观测几何条件下的实用性和多功能性。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025jb033724",
+      "title": "High‐Resolution Imaging of Lithosphere‐Asthenosphere Structure in Northeast China Using Eikonal Tomography With Physics‐Informed Deep Learning",
+      "url": "https://doi.org/10.1029/2025jb033724",
+      "first_author": "Xinyuan Cui",
+      "corr_author": "Cai Liu",
+      "affiliation": "State Key Laboratory of Deep Earth Exploration and Imaging College of GeoExploration Science and Technology Jilin University  Changchun China",
+      "abs_zh": "在这项研究中，我们开发了一个延伸至中国东北地下 120 公里深度的 3D S 波速度模型，该模型基于用于 Ekonal 层析成像的物理信息神经网络框架，具有地壳和上地幔的高分辨率。值得注意的是，该模型提供了火山区域下方过渡岩石圈-软流圈边界（LAB）的特征，同时也阐明了其与该区域第四纪板内火山形成的联系。主要观测结果包括松辽盆地（SLB）下方显着的大规模高速异常，这表明该地区存在较厚的岩石圈。此外，我们还识别了 LAB 中的波动以及火山下方的各种低速特征。根据岩石圈和上地幔对流的示意图，我们将这些模式解释为源于 SLB 内水碳循环和岩石圈增厚的区域变化。例如，来自深部大地幔楔的输入不仅促进了SLB下方岩石圈的增厚，而且还增强了软流圈的流动性，促进了东南部和西部地区的钠质火山活动。相比之下，五大连池（WDLC）和诺民河（NMH）火山缺乏强烈的深层对流，但却产生钾熔岩。总的来说，这些见解提高了我们对该地区板内火山机制的理解。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120091",
       "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
@@ -11,105 +110,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260062",
-      "title": "Constructing a High-Resolution Aftershock Catalog for the 2017 Mw 8.2 Tehuantepec Earthquake Sequence Using a Machine Learning–Based Workflow",
-      "url": "https://doi.org/10.1785/0220260062",
-      "first_author": "Marc A. Garcia",
-      "corr_author": "Allen Husker",
-      "affiliation": "1Department of Earth, Environmental and Resource Sciences, University of Texas at El Paso, El Paso, Texas, U.S.A.",
-      "abs_zh": "2017 年 9 月 8 日发生的特万特佩克 8.2 级地震是墨西哥仪器记录的最大正断层地震。主震发生在特万特佩克地震间隙内的近海，在次年产生了超过 30,000 次余震。我们应用开源机器学习 (ML) 辅助工作流程，利用墨西哥南部临时和永久地震网络的数据构建高分辨率余震目录。该工作流程集成了 PhaseNet 用于相位检测； GaMMA 用于相位关联；以及用于速度建模和重定位的 VELEST、HypoInverse 和 HypoDD。我们处理了来自 29 个宽带站的 7 个月的连续波形数据，包括临时快速响应部署，以改善近海破裂区的站覆盖范围。为了评估性能，我们将我们的结果与 Servicio Sismológico Nacional 目录中分析师审查的选择和活动地点进行了比较。生成的目录包含 11,374 个重新定位的地震，代表了该序列最全面的已发布数据集，其中首次全面使用了临时网络。重新定位的震源显示出改进的深度控制，并与 Slab2.0 俯冲几何结构很好地对齐，揭示了海上板片事件和陆上地壳地震活动之间更清晰的分离。这项研究表明，将基于机器学习的检测与既定方法相结合，为在构造复杂的环境中构建高质量地震目录提供了一种可扩展且可重复的方法，并为将类似工作流程适应其他地震序列提供了实用指导。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef9530",
-      "title": "Integrating structurally defined DNA-carbon nanotube sensors with machine learning for cancer detection",
-      "url": "https://doi.org/10.1126/sciadv.aef9530",
-      "first_author": "Piaoyi Chen",
-      "corr_author": "Zhiwei Lin",
-      "affiliation": "South China Advanced Institute for Soft Matter Science and Technology, State Key Laboratory of Luminescent Materials and Devices, School of Emergent Soft Matter, South China University of Technology, Guangzhou 510640, China.",
-      "abs_zh": "液体活检是一种有前景的非侵入性癌症检测方法，但目前的方法通常会在准确性、可操作性和成本之间进行权衡。为了解决这些限制，我们引入了一种用于液体活检的人工感知系统 (APS)，它将结构定义的 DNA-碳纳米管传感器阵列与机器学习 (ML) 模型相结合。该阵列从血清中产生多通道荧光指纹，通过机器学习模型对其进行解码以对疾病状态进行分类。在涵盖肝癌、肺癌、卵巢癌和非癌症对照的总共 253 个血清样本中，APS 的平均灵敏度为 89%，特异性为 96%。值得注意的是，早期肺癌的检测灵敏度为 92%，特异性为 95%，每次检测的估计成本约为 4 美元。 SHAP 分析和 Mantel 测试的见解揭示了 APS 的检测机制，支持生物学合理性和临床转化。这些结果突出了一条通往准确、可扩展且负担得起的多癌症检测和早期癌症筛查的道路。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123315",
-      "title": "Uncertainty‐Aware Machine Learning for Onset of Deep Convection: Under what Conditions Are Trigger Predictions More Reliable?",
-      "url": "https://doi.org/10.1029/2026gl123315",
-      "first_author": "Ashish Bhattarai",
-      "corr_author": "Youtong Zheng",
-      "affiliation": "Department of Earth and Atmospheric Science University of Houston  Houston TX USA",
-      "abs_zh": "机器学习 (ML) 模型已成为预测深层对流触发的强大工具，但在检测深层对流方面系统性地挑战这些模型的大气条件仍然知之甚少。为了诊断这种模棱两可的状况，我们训练了一个受控弃权神经网络（CAN），该网络可以区分高置信度和低置信度的预测，从而能够对温暖季节期间南部大平原上的不确定环境进行物理表征。结果表明，低置信度、弃权的预测集中在中层垂直速度弱到中等、对流可用势能（CAPE）动态生成率低的环境中，主要对应于天气强迫较弱的局部强迫、非平衡状态下的短暂对流事件。相比之下，可信的预测对应于由上升的天气强迫和增强的低层南风气流驱动的长期平衡状态。我们的研究结果为识别在基于机器学习的对流触发操作中需要额外谨慎的预测情况提供了物理基础的指导。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef7326",
-      "title": "Physics-constrained learning framework for trustworthy microrobot navigation autonomy",
-      "url": "https://doi.org/10.1126/sciadv.aef7326",
-      "first_author": "Jiachi Zhao",
-      "corr_author": "Lidong Yang",
-      "affiliation": "Research Institute for Advanced Manufacturing, Department of Industrial and Systems Engineering, The Hong Kong Polytechnic University, Kowloon, Hong Kong.",
-      "abs_zh": "机器学习已成为微型机器人的新兴范例，使微型/纳米机器人能够在复杂和高度干扰的环境中进行自主导航，而无需精确模型。然而，最先进的基于学习的方法采用“黑盒”神经网络（NN），这引起了人们对生成的导航策略的可信度的严重担忧，特别是对于生物医学场景。为了解决这个问题，我们提出了一种物理约束的学习框架，将确定性物理定律嵌入到网络架构中，以实现值得信赖的微型机器人导航。我们不是从头开始学习，而是将运动学和安全规则的单调关系明确编码到神经网络中。这些约束充当结构性归纳偏差，从理论上保证导航策略严格在可信的行动域内运行。实验表明，微型机器人可以在长时间和长距离的导航过程中自主到达随机目标而不会与障碍物发生碰撞，这证明了我们的框架由于其可解释的性质而具有可靠性。这项工作可以弥合数据驱动的性能和严格的安全要求之间的差距，为实现值得信赖的人工智能微型机器人迈出有意义的一步。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aee6579",
-      "title": "Dopamine D2 receptors bypass canonical signaling to directly tune NMDA receptor function and aversive learning",
-      "url": "https://doi.org/10.1126/sciadv.aee6579",
-      "first_author": "Sheng Gong",
-      "corr_author": "Christopher P. Ford",
-      "affiliation": "Department of Pharmacology, University of Colorado School of Medicine, Anschutz Medical Campus, Aurora, CO 80045, USA.",
-      "abs_zh": "多巴胺 D2 受体 (D2R) 调节奖励学习和厌恶行为，其功能障碍与成瘾和精神疾病有关。 D2R 通过调节纹状体谷氨酸传递来调节行为，但 D2R 如何控制突触后谷氨酸信号传导仍知之甚少。使用分子工具选择性破坏异聚相互作用，同时保留规范信号传导，我们表明 D2R 和含 GluN2B 之间的物理耦合\n                    氮\n                    -甲基-\n                    d\n                    伏隔核中型多棘神经元中的天冬氨酸 (NMDA) 受体使 D2R 能够独立于经典 G 蛋白和抑制蛋白信号传导来抑制 NMDA 受体功能。这种调节是输入特异性的，发生在丘脑但不是皮质突触，聚集在相同的神经元上，限制了长期增强，并且在内侧腹侧伏隔核内，促进了厌恶性学习。这些发现表明，D2R 可以绕过第二信使系统，通过受体-受体相互作用来调节谷氨酸能传递，从而提供一种机制，多巴胺可以选择性地门控特定谷氨酸能输入，从而控制纹状体可塑性和行为适应。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120250220",
-      "title": "Detecting Earthquakes in Noisy Real-Time GNSS Data With Deep Learning for Improved PGD Magnitude Estimation",
-      "url": "https://doi.org/10.1785/0120250220",
-      "first_author": "Sydney N. Dybing",
-      "corr_author": "Brendan W. Crowell",
-      "affiliation": "1Department of Earth Sciences, University of Oregon, Eugene, Oregon, U.S.A.",
-      "abs_zh": "为了发布准确且有用的警报，地震早期预警 (EEW) 系统必须快速确定地震的规模和位置，以估计预期的震动。传统的基于地震的算法往往会低估大地震的真实震级，这种现象称为震级饱和。这一限制促使最近将全球导航卫星系统 (GNSS) 数据纳入美国地质调查局的 ShakeAlert EEW 系统，并采用大地测量尺寸和时间第一近似 (GFAST) 算法，因为 GNSS 数据不会因大地面运动而饱和。然而，与传统地震数据相比，GNSS 数据的噪声水平非常高，这会掩盖 P 波到达，并且如果位移幅度较低（例如震级较低的地震或震源站距离较大），可能会导致震级估计不太准确。在本研究中，我们开发了一种深度学习模型，用于检测 GNSS 数据中的地震，并使用加利福尼亚州里奇克莱斯特地震序列作为案例研究，以演示该模型如何充当过滤器，以减少进入 GFAST 等算法的低质量数据量。为了保留有限的真实地震数据用于模型推断，我们生成了由超过 700,000 个合成位移波形组成的训练数据集。我们将合成波形与实时 GNSS 噪声相结合，生成真实的噪声训练波形，然后在额外的合成数据上测试我们的模型，并使用保留的真实数据进行推理。我们讨论了训练模型在未见过的合成数据和真实推理数据上的性能。我们的模型可用于选择性地仅过滤观察到地震信号的高质量数据，以输入到 GFAST 等算法（优于基于简单信噪比的过滤器），以减少 GFAST 实时地震震级估计中的误差。",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl124459",
-      "title": "Physics‐Embedded Deep Learning Reveals the Memory Effect of Ionospheric Electron Density in Response to Solar EUV Forcing",
-      "url": "https://doi.org/10.1029/2026gl124459",
-      "first_author": "Hongwei Gong",
-      "corr_author": "Han Wu",
-      "affiliation": "College of Meteorology and Oceanography National University of Defense Technology  Changsha China",
-      "abs_zh": "电子密度分布的精确表征对于优化高频通信至关重要。重建模型通常假设电离层对太阳强迫的瞬时响应或使用时间延迟，忽略等离子体动力学的时间积分累积“记忆效应”。在这里，我们开发了电子密度剖面重建神经网络（EDPRNN），这是一个物理嵌入式框架，可以参数化并从数据中动态学习这种记忆表示。通过对三个中低纬度地区的观察，我们发现学习的记忆表现出明显的海拔和纬度依赖性。在 F1 层下方，这种数据驱动的记忆与（\n                    r\n                     ≈ 0.97）以及所有站点的理论光化学时间常数。 EDPRNN 在独立的太阳极大值测试集上也表现良好，其确定系数（\n                    右\n                    2\n                    ）在漠河、左岭和富科的值分别为 0.939、0.905 和 0.841。这些结果表明 EDPRNN 提供了一种有效的电离层临近预报方法和一种新颖的数据驱动框架，用于识别物理一致的记忆效应。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl117592",
-      "title": "Maximum Temperature Forecasts in the Yangtze River Valley Using a Predictor‐Corrector Lightweight Deep Learning",
-      "url": "https://doi.org/10.1029/2025gl117592",
-      "first_author": "Xuan Tong",
-      "corr_author": "Wen Zhou",
-      "affiliation": "Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters(CIC‐FEMD)/Jiangsu Key Laboratory of Intelligent Weather Forecasting and Applications Based on Big Data Nanjing University of Information Science and Technology  Nanjing China",
-      "abs_zh": "准确的最高气温预报对于长江流域的热浪管理和农业规划至关重要。数值天气预报方法经常面临大气混沌、有限的物理理解和外力的挑战，导致不确定性和偏差。深度学习提供了一种有前途的替代方案，具有更快的处理速度和更高的准确性。由于单个预测器（无论是基于卷积网络还是基于 Transformer 的网络）都可能存在不足，因此本研究引入了一种轻量级预测框架，该框架将基于 ResNet 的预测器与基于多层感知器的校正器相结合，实现了高达 7.8% 的准确率提升。与欧洲中期天气 (EC) 预报中心相比，该框架实现了类似的 RMSE，但具有更好的空间相关性和基于容差的准确性。此外，它比 EC 的预测提前 9 天预测热浪爆发，领先一天。这些结果表明，将校正器与预测器相结合可以显着增强轻量级模型的预测能力，为极端天气预报提供可靠且经济高效的工具。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260005",
-      "title": "Machine-Learning-Based Microseismic Monitoring of Nearshore Wind–Wave Dynamics: Observations from Hainan Island, China",
-      "url": "https://doi.org/10.1785/0220260005",
-      "first_author": "Hongbin Lu",
-      "corr_author": "Haohong Liang",
-      "affiliation": "1The Key Laboratory of Deep Petroleum Intelligent Exploration and Development, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
-      "abs_zh": "在全球变暖的背景下，沿海地区面临着极端气象事件不断升级的风险，但传统的海洋监测难以在恶劣的条件下提供足够的分辨率。本研究利用短周期地震仪通过空气-海洋-固体地球相互作用产生的微震噪声进行被动近岸风波监测。 2024年9月14日至10月15日，在中国海南岛部署的六站微阵列捕获了三个不同状态的信号：热带风暴苏利克、静止期和持续强风期。功率谱密度、时频和极化分析揭示了与震级相关的微震响应——苏利克期间的风波主导、平静时段的潮汐调制以及温和风期间的综合影响。光谱能量与波高和风速之间存在很强的相关性。融合光谱和潮汐特征的随机森林模型根据独立测试数据预测了显着波高（平均绝对误差，MAE = 0.117 m）和风速（MAE = 0.861 m/s），优于传统的经验谱模型（波高 MAE = 0.133 m）。次生微震（0.2–0.8 Hz）被证明对风波动力学高度敏感，而长周期信号则受到沿海反射和潮汐的调制。这种具有成本效益的方法为传统方法提供了补充框架，增强了实时海洋灾害监测和地球系统耦合研究。",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

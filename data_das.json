@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-26 至 2026-08-02 10:51",
+  "last_update": "2026-08-02 至 2026-08-09 09:47",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
@@ -36,17 +36,6 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag288",
-      "title": "Distributed Acoustic Sensing Data Compression for Seismological Applications via Compressive Sensing",
-      "url": "https://doi.org/10.1093/gji/ggag288",
-      "first_author": "Yang Ma",
-      "corr_author": "Yen-Yu Lin",
-      "affiliation": "Planetary and Space Sciences, University of California Los Angeles Department of Earth, , Los Angeles, CA ,",
-      "abs_zh": "总结\n                  分布式声学传感 (DAS) 是一项新兴技术，可将现有光纤电缆转变为高密度地震阵列，在各种情况下生成大量观测数据。因此，DAS数据的大规模存储、传输和处理给地震学带来了挑战和机遇。在本研究中，我们提出了一种基于压缩传感（CS）的数据压缩和地震探测工作流程，并将其应用于台湾米伦断层钻探和全包传感（MiDAS）项目的DAS数据。我们的算法实现了至少 15 的压缩比，并且特定地震的重建数据与标准地震学算法兼容。此外，我们将检测算法迁移到压缩域，实现准实时、高精度地震检测。该方法证明了直接处理压缩数据的可行性，减少了 DAS 处理中的计算负担。此外，我们讨论了基于 CS 确定给定信号最大压缩比的经验标准。我们的工作流程在八个不同的数据集上与其他成熟的压缩算法进行比较，以证明其优点、局限性和适用性。一般来说，CS 算法对于高 SNR 面向事件的 DAS 应用比连续噪声主导的监控更有效。总的来说，这些结果凸显了 CS 算法在推动高效、用户友好的 DAS 数据产品开发方面的潜力。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
       "id": "10.1785/0220260055",
       "title": "Underwater Distributed Acoustic Sensing of Ship-Associated Hydrodynamic Wavefields and Surface Gravity Waves",
       "url": "https://doi.org/10.1785/0220260055",
@@ -77,6 +66,17 @@
       "affiliation": "U.S. Geological Survey  Golden CO USA",
       "abs_zh": "沉积盆地边缘产生复杂的地震波场效应和局部放大。表征这些效应并将其纳入灾害模型中是很困难的，因为断层扫描模型通常是平滑的，并且波场观测通常是混叠的。分布式声学传感 (DAS) 将电信光纤转变为超密集应变计阵列，从而能够推断精确的速度结构、记录大面积米级波场以及测量动态应变（这一量对埋地基础设施具有明显的影响）。利用加利福尼亚州阿卡塔的 DAS 阵列，我们解析了精细尺度的浅层速度模型，并将其与当地地震观测到的波场进行比较。我们找到了多个盆地边缘的证据，并观察了这些特征与放大动态应变的局部散射表面波之间的空间相关性。二维综合测试验证了盆地边缘处的急剧速度对比会引发这些波，并说明了动态应变和地面速度在这些边界处的表现如何不同。",
       "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag288",
+      "title": "Distributed acoustic sensing data compression for seismological applications via compressive sensing",
+      "url": "https://doi.org/10.1093/gji/ggag288",
+      "first_author": "Yang Ma",
+      "corr_author": "Yen-Yu Lin",
+      "affiliation": "Department of Earth, Planetary and Space Sciences, University of California Los Angeles , Los Angeles, CA 90095 ,",
+      "abs_zh": "分布式声学传感 (DAS) 是一项新兴技术，可将现有光纤电缆转变为高密度地震阵列，在各种情况下生成大量观测数据。因此，DAS数据的大规模存储、传输和处理给地震学带来了挑战和机遇。在本研究中，我们提出了一种基于压缩传感（CS）的数据压缩和地震探测工作流程，并将其应用于台湾米伦断层钻探和全包传感项目的DAS数据。我们的算法实现了至少 15 的压缩比，并且特定地震的重建数据与标准地震学算法兼容。此外，我们将检测算法迁移到压缩域，实现准实时、高精度地震检测。该方法证明了直接处理压缩数据的可行性，减少了 DAS 处理中的计算负担。此外，我们讨论了基于 CS 确定给定信号最大压缩比的经验标准。我们的工作流程在八个不同的数据集上与其他成熟的压缩算法进行比较，以证明其优点、局限性和适用性。一般来说，CS 算法对于高信噪比、面向事件的 DAS 应用比连续噪声主导的监测更有效。总的来说，这些结果凸显了 CS 算法在推动高效、用户友好的 DAS 数据产品开发方面的潜力。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {

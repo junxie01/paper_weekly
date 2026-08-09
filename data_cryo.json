@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-07-26 至 2026-08-02 10:51",
+  "last_update": "2026-08-02 至 2026-08-09 09:47",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "10.5194/tc-20-4255-2026",
+      "title": "Current morphodynamics and subsurface structure of thrust moraines and rock glaciers connected to three Little Ice Age glacier forefields in the Swiss Alps",
+      "url": "https://doi.org/10.5194/tc-20-4255-2026",
+      "first_author": "Julius Kunz",
+      "corr_author": "Christof Kneisel",
+      "affiliation": "未知机构",
+      "abs_zh": "。在小冰期冰川推进期间，冰川与永久冻土层的相互作用显着影响了欧洲阿尔卑斯山几个冰川前场的地貌过程。由此产生的地貌、逆冲冰碛复合体和冰川与前场相连的岩石冰川，如今不再表现出任何活跃的冰川-永久冻土相互作用，但它们的内部结构（例如，合并的沉积冰）和最近的形态动力学仍然受到以前相互作用的影响。由于这些地貌含冰量高，对外部气候条件的变化高度敏感，因此有必要了解地下结构与地表形态动力学之间的关系，以评估气候变化影响下的景观发展。本研究调查了两种地貌类型的内部结构（例如地面冰分布和特征）和表面形态动力学（运动学行为），旨在确定两者之间的关系。我们将用于评估地下电阻率的电阻率层析成像 (ERT) 与差分干涉合成孔径雷达 (DInSAR) 结合起来，以获得表面位移模式。该研究重点关注瓦莱州地区（瑞士阿尔卑斯山）两个山谷中的三个冰川前场，通过回归分析分析空间运动模式及其与地下特性的相关性。 ERT揭示了富含冰的逆冲冰碛复合体与所研究的岩石冰川的更异质的内部结构之间的明显差异。 DInSAR 得出的位移模式表明，所研究的冰碛复合体主要表现出垂直沉降，且季节性变化较大，而岩石冰川则表现出更一致的水平运动。回归分析证实了逆冲冰碛复合体中高电阻率区域和地表运动速率之间存在很强的相关性，其中地下电阻率最大",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120110",
       "title": "Constraining the strength of the brewer-dobson circulation during the last Glacial maximum using water 17O-excess records from Antarctic ice cores",
@@ -97,18 +108,7 @@
       "first_author": "S. Muñoz",
       "corr_author": "D. E. Ibarra",
       "affiliation": "Department of Earth Environmental and Planetary Sciences Brown University  Providence RI USA",
-      "abs_zh": "岩石风化影响地球的大气和气候。硅酸盐矿物的溶解减少了大气中的二氧化碳\n                    2\n                    而硫化物氧化与碳酸盐溶解相结合会释放 CO\n                    2\n                    。高山冰川岩石风化导致硫化物高度氧化和碳酸盐溶解。这种对风化的影响表明潜在的负面气候反馈，冰的生长会导致二氧化碳排放\n                    2\n                    释放、变暖和冰范围的限制。然而，大陆冰盖在这种反馈中发挥的作用仍不清楚。在这里，我们研究了冰川前融水的全球测量结果，发现冰盖有利于硅酸盐风化，而不是硫化物氧化和碳酸盐溶解。高山冰川和冰盖风化模式的这种对比意味着，两者排放的比例决定了它们对碳循环的净影响，而碳循环的净影响可能在更新世冰川间冰期的时间尺度上有所不同。此外，我们发现冰川风化反应的影响在冰损失增加期间最大。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122121",
-      "title": "Glacial Ice‐Front Calving: Internal Wave Generation and Melting",
-      "url": "https://doi.org/10.1029/2026gl122121",
-      "first_author": "M. E. Inall",
-      "corr_author": "M. P. Meredith",
-      "affiliation": "SAMS‐UHI  Oban UK",
-      "abs_zh": "小而频繁的崩解事件主导了大多数北极海洋终止冰川的行为，但其对海洋学的影响在很大程度上仍未量化。我们首次对斯瓦尔巴群岛克罗讷布林适度的冰崩崩解产生的内波进行了直接观察。高分辨率电流计和微观结构测量表明，每个事件都会激发弱非线性多模态内波包，垂直位移约为 4 m，模式 1 传播速度为 0.35–0.42 ms\n                    −1\n                    。这些波增强了上部 15 m 的剪切力和湍流，并改变了局部分层。理想的数值模拟再现了观察到的波浪特征，并确认了它们对峡湾分层的敏感性。鉴于北极冰川中小型崩解事件的频繁发生，崩解产生的内波可能代表了一种未被充分认识的导致海底融化和峡湾规模混合的机制。",
+      "abs_zh": "岩石风化影响地球的大气和气候。硅酸盐矿物的溶解减少了大气中的二氧化碳\n                    2\n                    而硫化物氧化与碳酸盐溶解相结合会释放 CO\n                    2\n                    。高山冰川岩石风化导致硫化物高度氧化和碳酸盐溶解。这种对风化的影响表明潜在的负面气候反馈，冰的生长会导致二氧化碳排放\n                    2\n                    释放、变暖和冰范围的限制。然而，大陆冰盖在这种反馈中发挥的作用仍不清楚。在这里，我们研究了冰川前融水的全球测量结果，发现冰盖有利于硅酸盐风化，而不是硫化物氧化和碳酸盐溶解。高山冰川和冰盖风化模式的这种对比意味着，两者排放的比例决定了它们对碳循环的净影响，而碳循环的净影响可能在更新世冰川间冰期的时间尺度上有所不同。此外，我们发现在冰损失增加期间，冰川风化反应的影响最大。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     }
