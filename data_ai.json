@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-02 至 2026-08-09 09:47",
+  "last_update": "2026-08-09 至 2026-08-16 09:20",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -14,6 +14,94 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2026gl123378",
+      "title": "A Deep‐Learning‐Based Wind Gust Estimation Scheme in Complex Terrain",
+      "url": "https://doi.org/10.1029/2026gl123378",
+      "first_author": "Aiwei Li",
+      "corr_author": "Wenyu Huang",
+      "affiliation": "Ministry of Education Key Laboratory for Earth System Modeling, and Department of Earth System Science (DESS) Tsinghua University  Beijing China",
+      "abs_zh": "准确预测阵风对于缓解风险至关重要，但传统的数值天气预报模型无法解决产生阵风的湍流过程。在这里，我们介绍了一种基于深度学习的阵风估计方案（DL-GUST），该方案使用长短期记忆（LSTM）网络中的天气研究和预报（WRF）模型的存档诊断作为离线、单向阵风估计框架。在中国西北内陆地区进行评估时，DL-GUST 在独立的时间分离测试集上实现了 1.98 m 的均方根误差 (RMSE) 和 0.93 的皮尔逊相关系数 (PCC)。相对于经验、统计和基于物理的基线方法，RMSE 降低了 45%–60%，四个测试月份中最强阵风事件的 RMSE 降低了 50%–65%。对欧洲阿尔卑斯山和中国东南沿海地区的额外验证表明，在不同的地表环境和天气条件下，转移技能是有用但不均匀的。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef9926",
+      "title": "aDISCO: A clearing method to enable 3D microscopy of large archival paraffin-embedded human tissue blocks",
+      "url": "https://doi.org/10.1126/sciadv.aef9926",
+      "first_author": "Anna Maria Reuss",
+      "corr_author": "Adriano Aguzzi",
+      "affiliation": "Institute of Neuropathology, University Hospital Zurich, Schmelzbergstrasse 12, 8091 Zurich, Switzerland.",
+      "abs_zh": "人体手术和尸检标本通常以福尔马林固定石蜡包埋 (FFPE) 组织块的形式保存数十年，形成大量健康和患病组织档案。虽然组织透明化和整体显微镜可以实现 3D 分析，但 FFPE 人体组织块由于尺寸大且交联广泛，通常不适合透明化和免疫标记。在这里，我们介绍“档案”DISCO（aDISCO），这是一种旨在克服这些挑战的清算方法。 aDISCO实现了对储存15年或更长时间的大样本的有效清除和免疫标记。我们使用多种抗体将 aDISCO 应用于人脑、脊髓、周围神经、皮肤、肌肉、心脏、肾脏、肝脏、脾脏、结肠和肺。将 aDISCO 与基于深度学习的分析相结合来研究局灶性皮质发育不良 (FCD)，我们发现局灶性和整体神经元密度变化的皮质分层被破坏，这些特征可能被传统组织学忽视。总之，aDISCO 提供适合基于深度学习的处理的数据集，能够检测大型档案人体组织标本中微妙且稀疏的病理。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec5080",
+      "title": "Label-free biochemical imaging and time point analysis of neural organoids via deep learning–enhanced Raman microspectroscopy",
+      "url": "https://doi.org/10.1126/sciadv.aec5080",
+      "first_author": "Dimitar Georgiev",
+      "corr_author": "Molly M. Stevens",
+      "affiliation": "Department of Computing, and UKRI Centre for Doctoral Training in AI for Healthcare, Imperial College London, London, UK SW7 2AZ.",
+      "abs_zh": "三维 (3D) 类器官已成为研究人类发育、疾病和体外药物反应的强大模型。然而，他们的分析仍然受到标准成像和表征技术的限制，这些技术是侵入性的，需要外源标记，并且提供有限的多重分析。在这里，我们提出了一种非侵入性、无标记成像平台，它将拉曼显微光谱学与基于深度学习的高光谱分解相结合，用于对神经类器官进行无监督、空间分辨的生化分析。我们的方法能够对冷冻切片和完整类器官中的细胞和亚细胞结构进行 2D 和 3D 绘图，与传统的高光谱分析方法相比，提高了成像精度和稳健性。使用我们的平台，我们展示了神经类器官内神经玫瑰花结的体积成像，并询问完整神经类器官早期发育阶段生化成分的变化，揭示了脂质、蛋白质和核酸的时空变化。这项工作为高内涵、无标记（生物）化学表型分析建立了一个通用框架，在类器官研究及其他领域具有广泛的应用。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-4437-2026",
+      "title": "Data-driven equation discovery of a sea ice albedo parametrisation",
+      "url": "https://doi.org/10.5194/tc-20-4437-2026",
+      "first_author": "Diajeng W. Atmojo",
+      "corr_author": "Veronika Eyring",
+      "affiliation": "未知机构",
+      "abs_zh": "。在许多海冰模型中，采用单类别、零层热力学方案，其中根据积雪、表面温度或海冰厚度的表面类型规定海冰反照率。帕金森和华盛顿参数化 (PW79) 是一种常用的参数化，它指定与不同表面类型相对应的四个恒定反照率值。这种参数化太简单，无法捕获观测到的海冰反照率的时空变化。在这里，我们的目标是通过使用符号回归（一种可解释的机器学习技术）与物理约束相结合，发现一个可解释的、物理一致的海冰反照率方程，从而改进参数化。利用每日泛北极卫星并重新分析 2013 年至 2020 年的数据（以代表北极中部的情况为主），我们应用顺序特征选择，将雪深、表面温度、海冰厚度和 2 米气温识别为海冰反照率最具信息性的特征。作为这些特征的函数，我们的数据驱动方程确定了确定海冰反照率的两个关键机制：海冰反照率对薄雪微小变化的高敏感性以及海冰表面和 2 米气温的加权差，作为指示融化和冰冻条件之间过渡的季节性代理。为了了解额外的模型复杂性如何减少误差，我们针对不同复杂性的基线模型（例如多层感知器神经网络（NN）和误差复杂性平面上的多项式）评估了我们发现的方程，结果表明该方程在平衡误差和复杂性方面表现出色，与 PW79 相比，均方误差降低了约 51 %。与神经网络不同，我们发现的方程由于其固有的可解释性，允许进行进一步的区域和季节分析。当在区域或季节子集上离线微调其系数时，我们发现",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl124636",
+      "title": "Global Plasmaspheric Refilling Rates Inferred From Deep‐Learning Electron Density Reconstructions",
+      "url": "https://doi.org/10.1029/2026gl124636",
+      "first_author": "Zhenyu Guo",
+      "corr_author": "Dan Deng",
+      "affiliation": "Electronic Information School Wuhan University  Wuhan China",
+      "abs_zh": "作为磁层-电离层耦合的关键过程，等离子体层再填充是空间物理学长期关注的焦点。在本研究中，我们开发了基于 CNN-Transformer 架构的全局电子密度 (GEO-NE) 模型，并使用该模型研究等离子体层电子密度再填充率。使用模型重建的全局电子密度图，我们对不同时间分辨率下的再填充率进行统计分析。 8小时平均结果与许多先前的研究一致，中位数可以通过拟合。我们进一步将我们的模型应用于 30 分钟分辨率的近似通量管跟踪分析，其中观察到典型的两阶段再填充特征和沿模拟轨迹的昼夜差异。我们的方法克服了早期研究的时间分辨率限制，为研究多尺度等离子体层再充填提供了新途径，有助于建立磁层-电离层耦合的高分辨率模型。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123802",
+      "title": "Physically Consistent Reconstruction of Sparse Scatterometer Ocean Surface Wind Fields Based on Physics‐Guided Generative Learning",
+      "url": "https://doi.org/10.1029/2026gl123802",
+      "first_author": "Ran Bo",
+      "corr_author": "Yangfan Hu",
+      "affiliation": "College of Meteorology and Oceanography High Impact Weather Key Laboratory of CMA National University of Defense Technology  Changsha China",
+      "abs_zh": "根据可用的散射仪观测结果准确、及时地重建海面风场对于快速响应预报和业务海洋学至关重要。在这项研究中，我们探索了一种新颖的物理引导生成学习网络，可以直接从稀疏的散射仪式输入中重建海面风矢量场。所提出的方法将数据驱动学习与基于物理的指导相结合。鉴别器旨在通过物理一致性分数评估重建风场的物理合理性，而生成器则由包含定制物理项的复合损失函数引导，以确保物理忠实和动态相干的输出。实验结果表明，即使在数据严重稀疏的情况下，所提出的方法也能实现快速、结构保持和物理一致的重建。值得注意的是，在台风Merbok（2022年9月）期间，生成学习网络有效地恢复了风速RMSE不超过2 m/s的涡旋结构，展现了强大的应对极端事件的能力。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025gl119853",
+      "title": "Deep Seismic Tremors in the 2025 Santorini Seismo‐Volcanic Crisis Highlight Magmatic Feeding From a Mid‐Crustal Reservoir",
+      "url": "https://doi.org/10.1029/2025gl119853",
+      "first_author": "Jean Soubestre",
+      "corr_author": "Anthony Lomax",
+      "affiliation": "Université Grenoble Alpes Université Savoie Mont Blanc CNRS IRD Université Gustave Eiffel ISTerre  Grenoble France",
+      "abs_zh": "2025 年 1 月 27 日，圣托里尼-阿莫尔戈斯地区爆发了强烈的群震，持续了大约 45 天。 2025 年 2 月 14 日广泛观察到的地震表明 2025 年圣托里尼危机的火山根源。在这里，我们对危机期间发生的地震和震动进行了深入的综合地震学分析。我们观察到两种不同的震颤家族，它们与不同的产生机制相关。第一类对应于由密集、重叠的地震组成的震动信号，并表现出类似于群的迁移模式。相比之下，第二个家族归因于更深、频率较低的震颤信号，可能涉及位于科伦坡火山东南几公里处的中地壳熔体储层附近的岩浆流体动力学。我们的结果表明，在一个火山系统内，岩浆迁移如何导致不同的地震特征，并强调了对震动和地震活动进行持续监测的必要性。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10989-4",
+      "title": "Learning millisecond protein dynamics from what is missing in NMR spectra",
+      "url": "https://doi.org/10.1038/s41586-026-10989-4",
+      "first_author": "Hannah K. Wayment-Steele",
+      "corr_author": "Dorothee Kern",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag317",
       "title": "Deep Learning-based Seismic Reflectivity Estimation by Pre-training on Labeled Synthetic Data and Physics-guided Fine-tuning in Field Data",
       "url": "https://doi.org/10.1093/gji/ggag317",
@@ -22,94 +110,6 @@
       "affiliation": "Laboratory of Seismology and Physics of the Earth’s Interior, School of Earth and Space Sciences, University of Science and Technology of China , Hefei 230026 ,",
       "abs_zh": "总结\n                  反射率估算旨在提高地震数据的分辨率，为储层参数的详细反演提供重要支撑。我们提出了一种将监督预训练与合成数据和现场数据中物理引导的微调相结合的方法，以根据地震数据估计合理的反射率。最初，通过对大量合成地震数据进行监督学习来预训练 U 形网络。随后，引入多个具有地球物理意义的约束，包括面向结构的平滑度、反射率稀疏性和数据重建等，制定自监督或无监督学习机制，对预训练模型进行微调，使其更好地适应现场数据，从而获得更合理的反射率。预训练模型提供了与基本结构特征相符的初始反射率。在初始估计的基础上，通过物理引导微调进一步优化模型，以获得更合理的反射率估计，更好地反映现场数据和地球物理先验的特征。此外，基于测井曲线的相关性评估指标被应用于自动、自适应地确定微调过程的早期停止点，从而获得良好的结果。合成地震数据和现场地震数据的实验证实，所提出的方法可以产生合理且高分辨率的反射率估计。",
       "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeb3005",
-      "title": "Neural competition between prefrontal and auditory cortex constrains novel sound strategy learning",
-      "url": "https://doi.org/10.1126/sciadv.aeb3005",
-      "first_author": "Kai Lu",
-      "corr_author": "Robert C. Liu",
-      "affiliation": "Department of Biology, Emory University, Atlanta, GA 30322, USA.",
-      "abs_zh": "在自然界中，动物学会用新的策略取代预先形成的行为，但这些转变的神经限制尚不清楚。通过对小鼠进行行为学搜索任务，我们揭示了内侧前额叶皮层（mPFC）与预先获胜策略的神经相关性，当动物学会遵循更可靠的听觉线索时，这种策略就会减弱。即使在训练的第一天，听觉皮层 (ACx) 活动也能预测正确的逐次试验声音引导搜索。这种预后编码随着学习的进行而增强，并从抑制的尖峰中出现，在横向调节到提示频谱的神经元中最为明显。化学遗传学破坏揭示了 ACx 对提高性能的贡献。出乎意料的是，mPFC 的整体沉默加速了声音追踪的成功使用，这与其在灵活或刺激依赖行为中的典型作用相反。相反，分散的多专家竞争模型可以最好地预测行为和因果扰动。这些发现表明，mPFC 实施了基于先验知识的默认策略，这积极阻碍了更有效策略的表达。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.adz1325",
-      "title": "Gaseous liquid nitrogen–assisted cryo-printing strategies for challenging volumetric anisotropic tissues fabrication",
-      "url": "https://doi.org/10.1126/sciadv.adz1325",
-      "first_author": "Zhiqiang Gao",
-      "corr_author": "Mian Wang",
-      "affiliation": "Department of Joint Surgery, Shanghai East Hospital, School of Medicine, Frontier Science Center for Stem Cell Research, School of Life Sciences and Technology, Tongji University, Shanghai, China.",
-      "abs_zh": "由于在复杂几何形状中复制天然结构线索的局限性，设计生理相关的各向异性组织仍然是一个重大挑战。在这里，我们开发了一种低温挤出生物打印平台，通过精确引导冰晶生长来实现厘米级的各向异性结构，甚至使用超软、低粘度墨水（2%重量/体积的 GelMA）。这种方法能够制造解剖学上匹配的、具有可调各向异性的患者特异性结构，包括骨移植替代品和骨质疏松疾病模型。为了克服冷冻打印的高度限制，我们进一步开发了冷冻组装和乐高组装策略，允许集成各向异性单元，同时保持连续的内部对齐。伤口愈合、颅骨缺损和股骨缺损模型的体内研究证实，这些各向异性信号驱动空间引导的细胞迁移、细胞外基质 (ECM) 重塑和组织部位特异性再生，如 ECM 沉积所证明的那样。我们的平台为工程结构和功能相关组织提供了可扩展、临床适应性强的解决方案，重新定义了各向异性软组织制造的边界。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aee4959",
-      "title": "Decoding the chemical space of fast-ion conductors via a descriptor-guided transfer learning framework",
-      "url": "https://doi.org/10.1126/sciadv.aee4959",
-      "first_author": "Zhilong Wang",
-      "corr_author": "Fengqi You",
-      "affiliation": "Cornell University AI for Science Institute, Cornell University, Ithaca, NY 14853, USA.",
-      "abs_zh": "快离子导体（FIC）是下一代高性能电池的关键组件，但由于传输机制尚不清楚，预测离子迁移率仍然具有挑战性。缺乏精确晶体结构的实验数据集进一步加剧了这一困难。在这里，我们提出了一个描述符引导的迁移学习框架，名为 IonNet，用于预测化合物的离子淌度，无论结构可及性如何。 IonNet 采用多通道子网络架构，通过集成化合物的静态和统计描述符来捕获通用表示。我们展示了 IonNet 在预测离子淌度方面的卓越性能，始终优于 16 种消融研究组合和之前的深度学习模型。利用化学表征的普遍适应性，IonNet 不仅在约 4500 种稳定的完美化学计量化合物中发现了 87 个 FIC，而且还从约 500 万种取代化合物中有效地找出了约 63,000 个潜在的 FIC。这项研究不仅提出了识别FIC的全链人工智能工具，还提供了控制离子淌度的组成原理，从而加速了能量存储和转换的发展。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aed0772",
-      "title": "Deep learning reveals a neurocomputational mechanism predicting depression risk in adolescents",
-      "url": "https://doi.org/10.1126/sciadv.aed0772",
-      "first_author": "Han Lu",
-      "corr_author": "",
-      "affiliation": "School of Artificial Intelligence, Shenzhen University, Shenzhen, China.",
-      "abs_zh": "早期发现和预防精神疾病，特别是抑郁症，仍然是全球主要的健康挑战，但缺乏在症状出现前识别个体的可靠工具。在这里，我们将功能神经影像与计算模型相结合，以确定抑郁症风险的机械生物标志物。在基于人群的青少年队列中（IMAGEN，\n                    氮\n                     = 1332），我们发现情绪信号的神经表征减弱与抑郁症状有关。大脑对齐深度学习模型中的扰动实验表明，这种缺陷反映了过度规范化的情绪感知，产生了负面的感知偏差。在 IMAGEN 随访中，这种机制的神经计算特征可预测 4 年后抑郁症状的发作（\n                    氮\n                     = 725），与抑郁症的遗传风险变异和多基因风险相关，并改善了患者队列中的抑郁症分类（STRATIFY，\n                    氮\n                     = 411）。这些发现提出了一种将遗传脆弱性与情绪感知改变和未来抑郁联系起来的可能机制，并提出了一种具有早期检测和预防潜力的预测计算标记。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10887-9",
-      "title": "A cholinergic hub in the nucleus accumbens gates opioid-reward learning",
-      "url": "https://doi.org/10.1038/s41586-026-10887-9",
-      "first_author": "S. Aryana Yousefzadeh",
-      "corr_author": "Michael R. Tadross",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250416",
-      "title": "Attn-Loc: Deep Learning for Microseismic Event Location via Transformer Encoder",
-      "url": "https://doi.org/10.1785/0220250416",
-      "first_author": "Xingzhi Teng",
-      "corr_author": "Yanqing Wu",
-      "affiliation": "1State Key Laboratory of Fine Exploration and Intelligent Development of Coal Resources, China University of Mining and Technology (Beijing), Beijing, People’s Republic of China",
-      "abs_zh": "微震事件定位是水力压裂、地热开发、二氧化碳地质封存、采矿安全监测等工程应用中至关重要的地球物理监测任务。传统的定位方法依赖于走时差和速度模型，这使得它们对模型误差和观测噪声敏感，并且难以适应不同的观测几何形状。近年来，基于深度学习的方法已显示出在嘈杂环境中进行端到端定位的潜力，但通常仅限于固定站布局。本文提出Attn-Loc，一种基于Transformer编码器的微震定位方法。通过输入接收机坐标、纵波和横波到达时间、入射角或方位角，构建概率源坐标估计模型，有效整合观测数据固有的多源不确定性。该方法利用自注意力机制隐式学习站间相关特征，并将区域速度结构嵌入到网络参数中，从而能够灵活适应各种观测几何形状，包括地面、井下和延时监测。我们采用计算统一设备架构（CUDA）加速的光线追踪来生成大规模训练样本并训练基于轻量级 Transformer 编码器的网络，验证其在合成数据和现场数据上的高精度和强大的鲁棒性。通过定位误差评估，Attn-Loc在合成数据上实现了较小的多向相对误差，并与托尼溪双微震实验和地热能研究前沿观测站项目的现有现场数据目录表现出高度一致性，证实了其在复杂地质环境和可变观测几何条件下的实用性和多功能性。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb033724",
-      "title": "High‐Resolution Imaging of Lithosphere‐Asthenosphere Structure in Northeast China Using Eikonal Tomography With Physics‐Informed Deep Learning",
-      "url": "https://doi.org/10.1029/2025jb033724",
-      "first_author": "Xinyuan Cui",
-      "corr_author": "Cai Liu",
-      "affiliation": "State Key Laboratory of Deep Earth Exploration and Imaging College of GeoExploration Science and Technology Jilin University  Changchun China",
-      "abs_zh": "在这项研究中，我们开发了一个延伸至中国东北地下 120 公里深度的 3D S 波速度模型，该模型基于用于 Ekonal 层析成像的物理信息神经网络框架，具有地壳和上地幔的高分辨率。值得注意的是，该模型提供了火山区域下方过渡岩石圈-软流圈边界（LAB）的特征，同时也阐明了其与该区域第四纪板内火山形成的联系。主要观测结果包括松辽盆地（SLB）下方显着的大规模高速异常，这表明该地区存在较厚的岩石圈。此外，我们还识别了 LAB 中的波动以及火山下方的各种低速特征。根据岩石圈和上地幔对流的示意图，我们将这些模式解释为源于 SLB 内水碳循环和岩石圈增厚的区域变化。例如，来自深部大地幔楔的输入不仅促进了SLB下方岩石圈的增厚，而且还增强了软流圈的流动性，促进了东南部和西部地区的钠质火山活动。相比之下，五大连池（WDLC）和诺民河（NMH）火山缺乏强烈的深层对流，但却产生钾熔岩。总的来说，这些见解提高了我们对该地区板内火山机制的理解。",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120091",
-      "title": "Machine learning reveals early preseismic signals of laboratory earthquakes",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120091",
-      "first_author": "Ying Huang",
-      "corr_author": "Shengli Ma",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
       "published": "2026"
     }
   ]

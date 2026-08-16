@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-08-02 至 2026-08-09 09:47",
+  "last_update": "2026-08-09 至 2026-08-16 09:20",
   "topic_name": "地震研究",
   "papers": [
+    {
+      "id": "10.1016/j.epsl.2026.120281",
+      "title": "Outer-rise serpentinization water flux: a fault-localized mechanism with nonlinear controls",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120281",
+      "first_author": "Rui Zhang",
+      "corr_author": "Liang Zhao",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120199",
       "title": "Metamorphic records reveal lithospheric foundering as a geodynamic mechanism for breakup of supercontinent Rodinia",
@@ -96,17 +107,6 @@
       "url": "https://doi.org/10.1016/j.epsl.2026.120136",
       "first_author": "Xinyu Zou",
       "corr_author": "Xian-Hua Li",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120061",
-      "title": "Constraining on- and off-fault nonlinear dynamic rupture parameters via hierarchical Bayesian inversion for the 2019 Mw 7.1 ridgecrest earthquake",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120061",
-      "first_author": "Zihua Niu",
-      "corr_author": "Alice-Agnes Gabriel",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",

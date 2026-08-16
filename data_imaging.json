@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-08-02 至 2026-08-09 09:47",
+  "last_update": "2026-08-09 至 2026-08-16 09:20",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "10.1016/j.epsl.2026.120251",
+      "title": "Shallow seismic damage and structural inheritance at the onset of faulting",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120251",
+      "first_author": "G. Pozzi",
+      "corr_author": "M. Cocco",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120273",
       "title": "Melt-mediated pore evolution governs seismic ruptures in semi-brittle oceanic shear zone",
@@ -69,47 +80,36 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag317",
-      "title": "Deep Learning-based Seismic Reflectivity Estimation by Pre-training on Labeled Synthetic Data and Physics-guided Fine-tuning in Field Data",
-      "url": "https://doi.org/10.1093/gji/ggag317",
-      "first_author": "Yuting Wang",
-      "corr_author": "Xinming Wu",
-      "affiliation": "Laboratory of Seismology and Physics of the Earth’s Interior, School of Earth and Space Sciences, University of Science and Technology of China , Hefei 230026 ,",
-      "abs_zh": "总结\n                  反射率估算旨在提高地震数据的分辨率，为储层参数的详细反演提供重要支撑。我们提出了一种将监督预训练与合成数据和现场数据中物理引导的微调相结合的方法，以根据地震数据估计合理的反射率。最初，通过对大量合成地震数据进行监督学习来预训练 U 形网络。随后，引入多个具有地球物理意义的约束，包括面向结构的平滑度、反射率稀疏性和数据重建等，制定自监督或无监督学习机制，对预训练模型进行微调，使其更好地适应现场数据，从而获得更合理的反射率。预训练模型提供了与基本结构特征相符的初始反射率。在初始估计的基础上，通过物理引导微调进一步优化模型，以获得更合理的反射率估计，更好地反映现场数据和地球物理先验的特征。此外，基于测井曲线的相关性评估指标被应用于自动、自适应地确定微调过程的早期停止点，从而获得良好的结果。合成地震数据和现场地震数据的实验证实，所提出的方法可以产生合理且高分辨率的反射率估计。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121422",
-      "title": "Seismic Constraints of the 23 November 2025 Hayli Gubbi Eruption Sequence in Afar, Ethiopia",
-      "url": "https://doi.org/10.1029/2025gl121422",
-      "first_author": "F. Limberger",
-      "corr_author": "A. Ayele",
-      "affiliation": "Institute of Geosciences Goethe University Frankfurt  Frankfurt am Main Germany",
-      "abs_zh": "2025 年 11 月 23 日，阿法尔（埃塞俄比亚）的海利古比火山发生大规模爆炸。我们使用 13 个区域地震台站的数据首次展示了地震特征。地震图显示的信号包括一分钟长的前兆、主要喷发阶段和数小时后的次要事件。主要阶段包括间隔几分钟的快速连续的两次重大地震事件，并在卫星检测到最初气体释放后 20 分钟进行记录。通过联合反演地表波到达的震中坐标和波速，将震源定位在 Hayli Gubbi 附近。使用各向同性源机制的数值建模可以准确地再现观察到的波形。主要事件之前的脉冲信号可能反映了正在进行的火山爆发或导致海利古比爆炸或尔塔阿雷潜在塌陷的地下过程，这在卫星图像中可以清楚地观察到。这项研究强调了使用区域地震网络监测阿法尔仪器不足的火山的价值。",
+      "id": "10.1029/2026gl124048",
+      "title": "Gravity Wave Energy Baselines (∼30–110 km) Established From Lidar Observations at McMurdo (77.84°S, 166.67°E), Antarctica: Energy Dissipation and Constituent Diffusion",
+      "url": "https://doi.org/10.1029/2026gl124048",
+      "first_author": "Jackson Jandreau",
+      "corr_author": "Chester S. Gardner",
+      "affiliation": "Cooperative Institute for Research in Environmental Sciences University of Colorado Boulder  Boulder CO USA",
+      "abs_zh": "2011 年至 2024 年南极洲麦克默多上空的激光雷达观测用于表征中层和低热层 (MLT) 中的重力波 (GW) 势能 ()。除了中层大气（30-70 公里）的特征外，引力波基线还显示 30 至 110 公里所有高度的耗散。对于较短的引力波和较低的区域，会出现更强的耗散，这可能是由对流和剪切不稳定性、临界水平过滤和粘性阻尼驱动的。然后使用能量基线来估计非断裂引力波引起的成分和热量的类扩散传输。相应的波诱导成分和热扩散率与其他地点的估计值进行了比较，而这项研究代表了在中层大气中的首次此类观测。估计值高达中层大气中典型涡流和分子扩散值的 1,000 倍，以及 MLT 中典型值的 10 倍。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag295",
-      "title": "Massive-scale unlabeled field and labeled synthetic seismic datasets of global shelf-edge clinothems",
-      "url": "https://doi.org/10.1093/gji/ggag295",
-      "first_author": "Hui Gao",
-      "corr_author": "Jiarun Yang",
-      "affiliation": "School of Artificial Intelligence, Anhui University of Science and Technology , Hefei 231131 ,",
-      "abs_zh": "总结\n                  陆架边缘斜层的地震地层解释对于揭示盆地充填过程中的构造演化、古气候变化、沉积动力条件以及油气生成和聚集至关重要。然而，传统的解释方法仍然是劳动密集型、耗时且高度主观的。尽管基于人工智能的方法为自动化这项任务提供了潜在的解决方案，但由于缺乏全面且具有代表性的货架边缘曲线基准数据集，其发展受到限制。这种限制主要源于有限的现场数据可用性、可靠的地质标签的稀缺以及以 clinothem 为主的系统的结构复杂性和强烈的可变性。为了解决这一差距，我们通过现场数据管理以及地质和地球物理正演建模这两种互补策略开发了一个混合基准数据集，最终分别生成 3,000 个未标记的现场数据和 4,000 个标记的合成地震数据。我们进一步在这些数据集上评估了几个具有代表性的基线深度学习模型，准确的结果表明，该数据集为模型训练、定量评估和实际应用提供了有效且具有代表性的基础。最后，我们公开发布了这个混合基准数据集（https://doi.org/10.5281/zenodo.20769762），以促进自动地震地层解释的深度学习方法的开发、验证和评估。",
-      "source": "Geophysical Journal International",
+      "id": "10.1785/0220260173",
+      "title": "Toward Improved Seismic Hazard Analysis Using Spectral Modeling to Estimate the Moment Magnitudes of Small Earthquakes",
+      "url": "https://doi.org/10.1785/0220260173",
+      "first_author": "Keith D. Koper",
+      "corr_author": "Relu Burlacu",
+      "affiliation": "1Department of Geology and Geophysics, University of Utah, Salt Lake City, Utah, U.S.A.",
+      "abs_zh": "计算震级是表征地震的关键部分。它们对于开发用于预测未来大地震震动的震级频率分布尤其重要。尽管已经提出了数十种震级尺度，但矩震级（Mw）是首选，因为它对于大事件不会饱和，并且与断层区域等物理源属性有关。然而，解决小地震（Mw<3.5）的 Mw 具有挑战性，小地震在区域地震目录中占主导地位，而地震网络通常报告区域震级（例如 mbLg、ML、Mc 和 Md）。因此，在计算震级-频率分布之前，通常会建立简单的关系，将区域震级转换为Mw。转换关系可以为地震灾害分析添加偏差和方差，理想情况下，可以直接计算所有地震的 Mw。为了解决这个问题，我们应用频谱建模框架来估计 2001 年 1 月 1 日至 2025 年 6 月 30 日期间在犹他州或其附近发生的 25,712 次自然构造地震中 10-300 公里处记录的 Sg 波的 Mw。该过程简单、快速且稳健，并且可以近乎实时地自动运行，从而可能有助于地震响应产品。可以在分析师审查期间对时间窗口或波形选择进行细化，类似于 ML 或 Mc 的现有工作流程。我们确定了 63% 目标地震的高质量矩震级，使犹他州 Mw 事件的数量增加了约 170 倍。生成的 Mw 目录包含 16,173 个值，范围从 0.54 到 5.54，中位数为 2.06。分簇版本的完整性大小为 2.2，b 值为 1.14 ± 0.02。它的大尺寸将能够提高 b 值的空间和时间变化的分辨率，从而可以推断犹他州的地壳应力变化。",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1785/0120260036",
-      "title": "CyberShake Probabilistic Seismic Hazard Model for Northern California",
-      "url": "https://doi.org/10.1785/0120260036",
-      "first_author": "Scott Callaghan",
-      "corr_author": "Yehuda Ben-Zion",
-      "affiliation": "1Statewide California Earthquake Center, University of Southern California, Los Angeles, California, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Bulletin of the Seismological Society of America",
+      "id": "10.1093/gji/ggag318",
+      "title": "Bayesian full waveform inversion using the shifted ordinary differential equation method with underdamped Langevin Markov chain Monte Carlo",
+      "url": "https://doi.org/10.1093/gji/ggag318",
+      "first_author": "Shuang Wang",
+      "corr_author": "Guangshuai Peng",
+      "affiliation": "Jilin University, College of Exploration Science and Technology , Changchun 130026 ,",
+      "abs_zh": "总结\n                  全波形反演（FWI）是构建高分辨率地下模型的强大工具，但由于数据稀疏和噪声、建模误差以及正演建模的严重非线性，从根本上来说仍然是不适定的。因为这种固有的非线性会产生传统的确定性优化无法轻松解决的复杂的不确定性结构。为了充分量化这种反演不确定性并探索所有可能的解决方案，贝叶斯 FWI 寻求使用马尔可夫链蒙特卡罗 (MCMC) 算法直接从后验概率密度函数中进行采样。然而，传统的 MCMC 方法在高维模型空间中存在探索效率低（混合不良）的问题。在本研究中，我们采用基于欠阻尼朗之万扩散（ULD）的高效采样器。控制 ULD 的随机微分方程 (SDE) 使用平移常微分方程 (ODE) 方法进行近似，该方法将随机动力学转换为更容易数值求解的确定性 ODE。在此基础上，我们引入了 SORT（龙格-库塔三移位常微分方程）采样方法。 SORT方法采用三阶龙格-库塔格式对ODE进行离散化，有效减少离散化误差，实现高效采样。我们通过低维和高维模型空间中的合成 2D 声学 FWI 实验验证了 SORT 的性能。数值结果表明，SORT 有效地探索高维后验分布，并对复杂的地下结构产生稳定可靠的均值和不确定性估计。",
+      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

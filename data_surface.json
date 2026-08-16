@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-02 至 2026-08-09 09:47",
+  "last_update": "2026-08-09 至 2026-08-16 09:20",
   "topic_name": "面波研究",
   "papers": [
     {
@@ -25,91 +25,91 @@
       "published": "2026"
     },
     {
-      "id": "10.1785/0220260023",
-      "title": "High-Resolution 3D Shallow Crustal Shear-Wave Velocity and Azimuthal Anisotropy Structures in the Middle Segment of Longriba Fault Zone, Eastern Tibetan Plateau",
-      "url": "https://doi.org/10.1785/0220260023",
-      "first_author": "Zhengjie Zhang",
-      "corr_author": "Honglin He",
-      "affiliation": "1State Key Laboratory of Precision Geodesy, School of Earth and Space Sciences, University of Science and Technology of China, Hefei, China",
-      "abs_zh": "隆日巴断裂带（LRBFZ）是青藏高原东部向东挤压受刚性扬子地块阻碍的关键构造过渡带，对于了解区域地壳变形和地震灾害至关重要。然而，由于缺乏密集的地震台阵，之前的研究无法解析其浅层、高分辨率的速度结构。在这项研究中，我们从 2024 年 4 月到 5 月在断层带中段部署了 309 个短周期节点地震仪。利用环境噪声断层扫描，我们构建了浅层地壳 (0-12 km) 的高分辨率 3D 各向异性模型，包括各向同性剪切波速度 (VS) 和方位各向异性。我们的各向同性VS模型揭示了（1）东南方向整个断裂带的明显低速与高速对比，这与区域地质露头一致；（2）LRBFZ和阿坝南断层（ASF）的断层连接带附近低速异常增强，可能表明强烈的岩石破裂和流体富集。方位各向异性进一步表明，快速度方向通常是西北-西-东南-东（NWW-SEE）方向，与向东挤压驱动的区域应力场一致，但在断层连接带中表现出由沿ASF的应力重新分布引起的局部旋转。我们的研究为控制 LRBFZ 地震行为和断层带动力学的结构异质性和变形过程提供了新的约束。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-4327-2026",
-      "title": "A State-Space Model for Monitoring Greenland Ice Sheet Surface Elevation Change from CryoSat-2",
-      "url": "https://doi.org/10.5194/tc-20-4327-2026",
-      "first_author": "Natalia H. Andersen",
-      "corr_author": "Louise Sandberg Sørensen",
-      "affiliation": "未知机构",
-      "abs_zh": "。以月度分辨率监测格陵兰冰盖表面海拔变化对于解决季节性变化和长期趋势非常重要，但卫星测高中的不规则采样和数据差距使得重建一致的时空记录具有挑战性。我们提出了一个数据驱动的状态空间模型 (SSM) 框架，即三维高程变化模型 (3D-ECM)，用于从 CryoSat-2 雷达测高数据导出格陵兰冰盖的每月表面高程变化。与使用预定义季节性模型的方法不同，这里的季节性直接来自数据，从而能够检测季节性周期和长期趋势。该方法将用于空间依赖性的高斯马尔可夫随机场与用于时间相关性的自回归过程相结合，即使在稀疏或不规则采样的区域中也能实现稳健的信号提取。借助这个框架，我们得出了 2011 年至 2025 年期间格陵兰冰盖每月 5 公里分辨率的表面高程变化。针对独立数据集的验证显示出强烈的一致性。在代表格陵兰冰盖不同气候状况的三个选定的自动气象站 (AWS) 站点，我们的表面高程变化 (dSEC) 产品与 AWS 导出的表面高程记录之间的 Pearson 相关系数范围为 0.58 到 0.7，而与激光测高观测和雪恩致密化模型融合得出的时间序列进行比较时，相关系数高达 0.76。与 ICESat-2 和 NASA 冰桥行动机载数据的额外比较证实，dSEC 场的时空后处理将标准偏差降低了大约 40%–45%，同时保持了最小偏差。此外，与来自卫星测高的两个已发布的格陵兰范围 SEC 产品的相互比较表明，dSEC 相对于 ICESat-2 ATL15 实现了较低的失配，表明改进",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aed2198",
-      "title": "Mid-infrared long-range surface polaritons in two-dimensional van der Waals materials",
-      "url": "https://doi.org/10.1126/sciadv.aed2198",
-      "first_author": "Mingsong Wang",
-      "corr_author": "Andrea Alù",
-      "affiliation": "Photonics Initiative, Advanced Science Research Center, City University of New York, New York, NY 10031, USA.",
-      "abs_zh": "二维 (2D) 范德华 (vdW) 材料中石墨烯等离激元 (GP) 和双曲声子极化激元 (HPhP) 的发现实现了极端的光限制并增强了光与物质的相互作用，为小型化中红外 (mid-IR) 光子器件带来了希望。然而，GP 和 HPhP 的传播长度有限，阻碍了它们在各种应用中的影响。在这里，我们展示了二维 vdW 材料中的长程表面极化子 (LRSP)，具有更长的传播长度和更快的群速度，这可能为中红外区域的高速片上光子应用提供补充机会。所展示的 LRSP 由深亚波长异质结构支撑，该异质结构由六方氮化硼 (h-BN) 薄片、高折射率锗 (Ge) 层和金 (Au) 薄膜组成。在这种几何结构中，我们通过实验证明了跨越整个 h-BN 薄片的传播距离超过 80 微米，而没有明显的衰减。理论预测的传播长度约为 925 微米。这些极化子可能非常适合实现极化互连，桥接紧凑型平面光子系统的不同组件，从而实现中红外信息传输以及与其他基于 vdW 材料的中红外光子器件的无缝集成。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeb0500",
-      "title": "Dual-parameter chiral detection at the single-particle level enabled by surface cosine waves",
-      "url": "https://doi.org/10.1126/sciadv.aeb0500",
-      "first_author": "Shuangshuang Wang",
-      "corr_author": "Xiaocong Yuan",
-      "affiliation": "Nanophotonics Research Center, Institute of Microscale Optoelectronics &amp; State Key Laboratory of Radio Frequency Heterogeneous Integration, Shenzhen University, Shenzhen 518060, China.",
-      "abs_zh": "在单粒子水平上准确探测光学手性对于手性分子传感、量子光学和对映选择性纳米光子技术至关重要。然而，传统的手性光学技术依赖于整体平均测量，模糊了粒子间的异质性。尽管单粒子圆二色光谱已经实现了纳米级分辨率，但它仍然仅限于仅强度检测，忽略了必要的相位信息。在这里，我们提出了一种基于表面余弦波（SCW）的双参数手性传感平台，可同时捕获单粒子水平的振幅和相位不对称性。 SCW 创建一个偏振平衡的干涉场，包括具有内置 π 相位偏移的等幅左右圆形分量。当与手性散射体相互作用时，这种对称性被打破，将结构旋向性编码为两个不同的度量：圆形散射二色性（CSD）和圆形散射延迟（CSR）。这些指标共同提供了单粒子手性的全面电磁表征。该方法为高灵敏度、单粒子手性传感提供了一个强大的、可推广的框架，为下一代手性光学计量和设备开发铺平了道路。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10822-y",
-      "title": "An entangling gate for dual-rail erasure qubits",
-      "url": "https://doi.org/10.1038/s41586-026-10822-y",
-      "first_author": "",
-      "corr_author": "Robert J. Schoelkopf",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250396",
-      "title": "SIN-Polarity: A Novel Algorithm for Automatic Identification of\n                    <i>P</i>\n                    -Wave First-Motion Polarity Based on a Sine-Wave Template",
-      "url": "https://doi.org/10.1785/0220250396",
-      "first_author": "Huilian Ma",
-      "corr_author": "Xinran Fan",
-      "affiliation": "1College of Geophysics, Chengdu University of Technology, Chengdu, China",
-      "abs_zh": "震源机制对于了解发震构造特征和评估地震灾害至关重要。初动极性是解决震源机制问题的关键约束参数之一，但如何准确、高效地选取初动极性仍然是地震学中的一个具有挑战性的问题。为了解决这个问题，我们开发了一种名为 SIN-Polarity 的新颖算法，用于自动拾取 P 波第一运动极性。该算法的显着特点是采用自适应周期长度正弦波模板，使SIN-Polarity能够灵活适应不同震源机制、破裂方向和局部速度结构引起的纵波形态变化。我们将 SIN 极性应用于 2014 年俄克拉荷马州 4.5 级地震和 2025 年缅甸 7.7 级地震。结果表明，SIN-Polarity能够正确识别本地地震和远震地震的纵波初动极性。我们还使用 INSTANCE 数据集中的意大利地震序列和南加州的地震序列对 SIN-Polarity 的鲁棒性进行了测试。结果表明SIN-Polarity具有良好的实用性和鲁棒性。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl122721",
-      "title": "Uncovering Ocean Mixed Layer Dynamics From the Sea Surface State",
-      "url": "https://doi.org/10.1029/2026gl122721",
-      "first_author": "Yidongfang Si",
-      "corr_author": "Abigail Bodner",
-      "affiliation": "Department of Earth, Atmospheric and Planetary Sciences Massachusetts Institute of Technology  Cambridge MA USA",
-      "abs_zh": "亚尺度动力学强烈影响上层海洋，调节混合、海气交换和垂直热传输。最近的地表水和海洋地形任务提供了前所未有的高分辨率海面高度（SSH）观测，但将这些表面测量与地下海洋动力学联系起来仍然具有挑战性。我们开发了一个理论框架，用于从表面可观察状态诊断关键混合层（ML）特性。我们表明，混合层涡流引起的水平密度异常会产生表面印记，可以通过空间过滤 SSH 有效捕获。过滤后的 SSH 被集成到 ML Eddy 参数化中，以推断亚尺度再分层的影响。从表面浮力通量、风应力和 SSH 梯度诊断出 ML 中混合-再分层竞争的潜在能量预算，从而能够重建混合层深度。垂直涡流热通量可以根据 SSH 梯度进一步重建。该框架提供了一种利用表面观测诊断内部亚介尺度过程的有前景的方法。",
+      "id": "10.1029/2026gl124048",
+      "title": "Gravity Wave Energy Baselines (∼30–110 km) Established From Lidar Observations at McMurdo (77.84°S, 166.67°E), Antarctica: Energy Dissipation and Constituent Diffusion",
+      "url": "https://doi.org/10.1029/2026gl124048",
+      "first_author": "Jackson Jandreau",
+      "corr_author": "Chester S. Gardner",
+      "affiliation": "Cooperative Institute for Research in Environmental Sciences University of Colorado Boulder  Boulder CO USA",
+      "abs_zh": "2011 年至 2024 年南极洲麦克默多上空的激光雷达观测用于表征中层和低热层 (MLT) 中的重力波 (GW) 势能 ()。除了中层大气（30-70 公里）的特征外，引力波基线还显示 30 至 110 公里所有高度的耗散。对于较短的引力波和较低的区域，会出现更强的耗散，这可能是由对流和剪切不稳定性、临界水平过滤和粘性阻尼驱动的。然后使用能量基线来估计非断裂引力波引起的成分和热量的类扩散传输。相应的波诱导成分和热扩散率与其他地点的估计值进行了比较，而这项研究代表了在中层大气中的首次此类观测。估计值高达中层大气中典型涡流和分子扩散值的 1,000 倍，以及 MLT 中典型值的 10 倍。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag310",
-      "title": "Joint body- and surface-wave transdimensional Monte Carlo imaging of upper mantle anisotropy",
-      "url": "https://doi.org/10.1093/gji/ggag310",
-      "first_author": "G Del Piccolo",
-      "corr_author": "A Morelli",
-      "affiliation": "Universit’e  degli Studi di Padova, Dipartimento di Geoscienze , Padova,",
-      "abs_zh": "总结\n                  地震体和表面波为地球上地幔的各向同性和各向异性弹性特性提供了互补的敏感性。然而，由于体波相位和面波相位传统上采用不同的反演算法，联合反演仍然具有挑战性。在本研究中，我们实现了一种基于可逆跳跃马尔可夫链蒙特卡罗算法的跨维概率方法，以同时反演 P 波、S 波和瑞利波数据。通过对具有适应异构数据约束的复杂性的不规则网格各向异性速度模型进行采样，我们填充了描述不确定性内的观测结果的变量解的集合。该方法使用在各向异性上地幔柱模型中模拟的独立合成地震图进行了验证。我们展示了数据的不同敏感性如何转化为对上地幔结构的不同约束，以及可用于探索解的非唯一性和量化不确定性的定量指标。",
-      "source": "Geophysical Journal International",
+      "id": "10.1126/sciadv.aee5871",
+      "title": "Fibroblasts resist\n                    <i>Staphylococcus aureus</i>\n                    on the skin surface by responding to interleukin-1 and recruiting neutrophils",
+      "url": "https://doi.org/10.1126/sciadv.aee5871",
+      "first_author": "Jared S. Simmons",
+      "corr_author": "Richard L. Gallo",
+      "affiliation": "Department of Dermatology, University of California, San Diego, La Jolla, CA 92093, USA.",
+      "abs_zh": "金黄色葡萄球菌\n                    可能会导致严重感染，但它也可以驻留在皮肤上而不引起疾病。这种明显的悖论意味着强大的宿主防御系统，它可以防止\n                    金黄色葡萄球菌\n                    以免侵入真皮层。在这项研究中，我们研究了皮肤如何检测和响应表面的\n                    金黄色葡萄球菌\n                    曝光。通过无偏倚的转录组学、生化和磷酸化蛋白质组学分析，然后在人类和小鼠模型中进行针对性验证，我们发现成纤维细胞对 IL-1 的识别对于免疫反应至关重要。体外成纤维细胞中白细胞介素 1 受体 1 型 (IL-1R1) 的缺失或阻断消除了角质形成细胞驱动的基因表达变化，并减少了趋化因子的产生。此外，局部使用后，缺乏成纤维细胞 IL-1R1 的小鼠皮肤中性粒细胞较少，细菌载量较高。\n                    金黄色葡萄球菌\n                    应用程序。这些发现表明，成纤维细胞积极参与先天免疫，并强调了 IL-1R1 依赖性角质形成细胞-成纤维细胞-中性粒细胞的通讯轴。了解这一途径可以深入了解中性粒细胞向皮肤募集的机制，并可能有助于开发新的治疗方法。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122338",
+      "title": "Rapid Surface Intensification of the Gulf Stream Since 2014",
+      "url": "https://doi.org/10.1029/2026gl122338",
+      "first_author": "Shenfu Dong",
+      "corr_author": "Hosmay Lopez",
+      "affiliation": "NOAA/Atlantic Oceanographic and Meteorological Laboratory  Miami FL USA",
+      "abs_zh": "温暖、湍急的墨西哥湾流 (GS) 在塑造北大西洋天气和气候模式方面发挥着关键作用。利用 31 年（1993 年至 2023 年）的连续卫星高度计观测结果，我们发现自由流动的 GS 在 2014 年左右开始与海岸分离后，在长期（2005 年至 2014 年）运输较弱之后持续存在，其强度明显增强。这种增强与 GS 路径的向北位移和蜿蜒减少同时发生，这似乎与北大西洋副热带环流的旋转有关。这种环流加速主要是由负风应力旋度的增加驱动的，部分受到该地区大气变化的两种主要模式的调节：北大西洋涛动和东大西洋模式。我们的分析还表明，GS 增强可能具有局部海气反馈，导致异常风应力旋度。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef5836",
+      "title": "In situ deep-sea surface-enhanced Raman scattering sensor reveals cyanide as a key factor in cold seep nitrogen cycling",
+      "url": "https://doi.org/10.1126/sciadv.aef5836",
+      "first_author": "Siyu Wang",
+      "corr_author": "Xin Zhang",
+      "affiliation": "LaoShan Laboratory, Qingdao 266237, China.",
+      "abs_zh": "深海热液喷口和冷泉是典型的碳丰富但氮有限的生态系统，支持微生物的蓬勃发展。氮的来源长期以来一直是科学研究的重点。尽管培养实验已经证实存在多种固氮微生物，但缺乏直接的原位证据。因此，开发了深海原位表面增强拉曼散射传感器。适应极端环境（≥350℃、≥2000米深度、LOD5.7 μM）的原位检测，为微生物群落中高效节能的固氮途径提供了直接证据。同时，梯度检测结果表明CN被作为微生物的“流通货币”而消耗。这一发现为理解冷泉碳、氮、硫循环的耦合机制提供了关键的原位证据，标志着深海传感技术的重大突破。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123802",
+      "title": "Physically Consistent Reconstruction of Sparse Scatterometer Ocean Surface Wind Fields Based on Physics‐Guided Generative Learning",
+      "url": "https://doi.org/10.1029/2026gl123802",
+      "first_author": "Ran Bo",
+      "corr_author": "Yangfan Hu",
+      "affiliation": "College of Meteorology and Oceanography High Impact Weather Key Laboratory of CMA National University of Defense Technology  Changsha China",
+      "abs_zh": "根据可用的散射仪观测结果准确、及时地重建海面风场对于快速响应预报和业务海洋学至关重要。在这项研究中，我们探索了一种新颖的物理引导生成学习网络，可以直接从稀疏的散射仪式输入中重建海面风矢量场。所提出的方法将数据驱动学习与基于物理的指导相结合。鉴别器旨在通过物理一致性分数评估重建风场的物理合理性，而生成器则由包含定制物理项的复合损失函数引导，以确保物理忠实和动态相干的输出。实验结果表明，即使在数据严重稀疏的情况下，所提出的方法也能实现快速、结构保持和物理一致的重建。值得注意的是，在台风Merbok（2022年9月）期间，生成学习网络有效地恢复了风速RMSE不超过2 m/s的涡旋结构，展现了强大的应对极端事件的能力。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.ael4189",
+      "title": "With lucky dive, scientists get a front-row view of the creation of Earth’s surface",
+      "url": "https://doi.org/10.1126/science.ael4189",
+      "first_author": "Paul Voosen",
+      "corr_author": "Paul Voosen",
+      "affiliation": "Montreal",
+      "abs_zh": "机会和准备揭示了洋中脊的实景",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122646",
+      "title": "Positive Association Between Coastal Sea Surface Temperatures and Humid Heat Stress on Nearby Land",
+      "url": "https://doi.org/10.1029/2026gl122646",
+      "first_author": "Noel V. A. Siegert",
+      "corr_author": "Radley M. Horton",
+      "affiliation": "Department of Earth and Environmental Sciences Columbia University  New York NY USA",
+      "abs_zh": "地球海岸线上的大量人口面临着包括极端湿热在内的气候危害。考虑到观察到的沿海海洋变暖和沿海海洋热浪（MHW）活动的增加，我们试图揭示沿海海洋温度是否、如何以及在何处与附近陆地的热量和湿度相关。我们分析了 1990 年至 2023 年全球 1,474 个沿海地点的近海岸海表面温度 (SST) 和相应的陆地热特征，发现沿海 MHW 的发生与跨季节的陆地热/湿正异常相关，而较温暖的沿海海表温度与陆地上更频繁的热/湿极端事件相关。我们强调许多地点同时出现的海洋和陆地 (THW) 热浪日数有所增加，这似乎主要是由 MHW 趋势驱动的。沿海 MHW、THW 和并发事件具有相似的累积特征，但并发事件和 MHW 事件比 THW 更潮湿，并且显示出在地表而不是高空达到峰值的温度异常。",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl122540",
+      "title": "Projections of Earth's Hottest Surface Temperatures in CMIP6",
+      "url": "https://doi.org/10.1029/2026gl122540",
+      "first_author": "Anthony K. Wilson",
+      "corr_author": "Arthur J. Miller",
+      "affiliation": "Climate Sciences Program Scripps Institution of Oceanography University of California San Diego  La Jolla CA USA",
+      "abs_zh": "地球最热的近地表气温为陆地极端高温的上尾提供了基准。使用 CMIP6 模拟，我们评估了伯克利地球的历史极端情况，并预测了 SSP2-4.5 和突变-4 × 下的未来变化。历史保真度是通过使用中心 RMSE、平均偏差和空间 99% 的陆地每日最高温度的空间模式来评估的。我们分析了三个年度热带土地指数：热带土地平均温度、每年最热日的日平均温度和最高日最高温度。在各个模型中，变暖速度比瞬态趋势和平衡响应快 30%–40%，与放大的上尾变暖一致。全球陆地年度最大值的热点频率图显示了亚热带干旱和半干旱地区的持续性。我们为最热的土地温度定义了一个类似记录的固定阈值基准，并将超出的可能性与热带土地变暖联系起来；合并拟合显示，每 C 超出的几率增加 ∼35%。",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
