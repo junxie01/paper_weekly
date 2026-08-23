@@ -1,7 +1,40 @@
 {
-  "last_update": "2026-08-09 至 2026-08-16 09:20",
+  "last_update": "2026-08-16 至 2026-08-23 09:22",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "10.1126/sciadv.aec8232",
+      "title": "Fate of heat approaching the Filchner-Ronne Ice Shelf mediated by continental shelf eddies",
+      "url": "https://doi.org/10.1126/sciadv.aec8232",
+      "first_author": "Andrew L. Stewart",
+      "corr_author": "Channing J. Prend",
+      "affiliation": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Los Angeles, CA, USA.",
+      "abs_zh": "海洋热量向南极洲冰架的转移是冰川质量平衡变化的关键驱动因素。先前的研究表明，温暖的中深度海水穿过大陆坡的转移在靠近南极洲最大的冰架处升高，在那里大陆架上形成了稠密的海水。然而，这些地区的冰架保持相对较低的面积平均融化率，这表明海洋过程必须保护它们免受流入的热量影响。在这项研究中，使用高分辨率模拟来分离向威德尔海南部菲尔希纳-龙纳冰架的传热机制。这项研究表明，海洋涡流通过沿着倾斜的密度表面搅拌热异常，将几乎所有到达大陆架的热量转移到海洋表面并远离冰架。这些发现凸显了在基底融化变化的背景下了解大陆架涡流的重要性，例如，在推动未来向南极洲最大冰架输送热量方面。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aeg5747",
+      "title": "Ice-sheet dynamics drive glacial-interglacial shifts in North Atlantic seawater neodymium isotopes",
+      "url": "https://doi.org/10.1126/sciadv.aeg5747",
+      "first_author": "Antao Xu",
+      "corr_author": "Norbert Frank",
+      "affiliation": "Institute of Environmental Physics, Universität Heidelberg, Heidelberg, Germany.",
+      "abs_zh": "放射性钕 (Nd) 同位素组成 (ε\n                    钕\n                    ）海水被广泛用于重建过去的海洋环流，假设整个第四纪的端元特征准恒定。然而，ε\n                    钕\n                    北大西洋冰川中层水的特征明显偏离其现代价值，挑战了这一假设，其驱动机制仍存在争议。在这里，我们表明，在过去 23 万年中，上冰期北大西洋中层水的放射源值 (−7.2) 始终高于间冰期值 (−13.4)，并且明显的冰期 - 间冰期 ε\n                    钕\n                    变化密切关注全球冰量波动（\n                    r\n                     = 0.80）。这种变化主要与冰岛火山的 Nd 输入相一致，并受冰岛冰盖的进退调节。正演模型再现了观察到的 ε\n                    钕\n                    演化并揭示了 Nd 输出对冰盖动力学的非线性响应，产生平均冰川 Nd 输入通量为 2.4 × 10\n                    8\n                    克每年。我们的研究结果强调了高纬度冰盖系统在冰川期调节北大西洋海水化学方面的关键作用。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-4563-2026",
+      "title": "The multilayer ocean circulation melting the 79N Glacier ice tongue",
+      "url": "https://doi.org/10.5194/tc-20-4563-2026",
+      "first_author": "Markus Reinert",
+      "corr_author": "Hans Burchard",
+      "affiliation": "未知机构",
+      "abs_zh": "。格陵兰冰盖是全球海平面上升的主要原因。虽然表面融化是由大气驱动的，但海洋过程从下方融化了格陵兰岛北部漂浮的冰川舌。由于对这些舌头下方的直接观察是有限的，因此数值模型对于详细了解冰-海洋相互作用至关重要。为了研究格陵兰岛最大浮冰舌的海洋融化以及融水引起的环流，我们开发了北纬79°冰川峡湾的高分辨率三维模型（500米水平分辨率，100个自适应垂直层）。我们的模拟表明，冰-海洋界面的融化是由在温度-盐度空间中具有不同特征的三个不同的冰下羽流驱动的。这些浮力重力流的路径是由冰地形（特别是冰架中的基底通道）和科里奥利效应决定的。一股羽流围绕冰基中的圆锥状特征流动，其尺寸与罗斯比半径相当，这表明这些锥体可能是通过羽流引起的融化而形成的。在大约 100 至 200 米的深度，羽流从冰上分离，并将融水从峡湾流向公海。融化所需的热量是由浓密的底部羽流提供的，该羽流穿过峡湾入口处的岩台流入冰川空腔。在基台下游，液压控制可以增强羽流和环境水之间的混合，冷却流入物并减少到达冰川底部的热量。我们的模型解决了冰腔中羽流的这些细节，提高了对冰川舌下方海洋驱动融化的理解。",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
     {
       "id": "10.5194/tc-20-4255-2026",
       "title": "Current morphodynamics and subsurface structure of thrust moraines and rock glaciers connected to three Little Ice Age glacier forefields in the Swiss Alps",
@@ -31,7 +64,7 @@
       "first_author": "Loris Danjou",
       "corr_author": "Erik Schytt Mannerfelt",
       "affiliation": "未知机构",
-      "abs_zh": "。我们从存档的卫星图像中获得了 171 个斯瓦尔巴群岛潮水冰川的崩解前沿位置。我们使用了 1976 年至 1978 年的早期陆地卫星图像以及 1962 年至 1963 年的解密情报卫星照片。为了支持对这些崩解锋的分析，我们还使用了 1936 年至 1938 年的历史航空图像。在 1936 年至 1978 年的研究期间，我们估计平均冰川退缩率为 27.3±3.0myr-1。这相当于斯瓦尔巴群岛潮水冰川在此期间平均退缩约 1 公里。将退缩量乘以冰川宽度，我们估计累计面积损失率为17.0±2.5km2yr-1，略低于现有文献对1985-2023年和2000-2020年期间的估计，与再分析数据的气候趋势一致。通过观察各个冰川，我们识别并讨论了 15 个重要的先期事件。对于其中四个，我们的研究为当前知识提供了额外的信息。我们发现了一次未记录的激增——我们提供了埃玛布林在 1936 年至 1963 年间激增的证据。我们还缩小了之前已知的两次激增的时间窗口：Allfarvegen 激增至 1976-1978 年之间（之前报道发生在 1970-1980 年间），Stonebreen 激增至 1936-1963 年间（之前报道发生在 1936-1971 年间）。我们还表明，1938 年至 1976 年间，Schweigaardbreen 和 Fonndalsbreen 分别前进了 400 米和 541 米。我们讨论了我们的数据集未来的潜在用途，包括我们研究中使用的地理参考卫星图像以及数字化的崩解前沿，这些数据可免费用于未来的研究。",
+      "abs_zh": "。我们从存档的卫星图像中获得了 171 个斯瓦尔巴群岛潮水冰川的崩解前沿位置。我们使用了 1976 年至 1978 年的早期陆地卫星图像以及 1962 年至 1963 年的解密情报卫星照片。为了支持对这些崩解锋的分析，我们还使用了 1936 年至 1938 年的历史航空图像。在 1936 年至 1978 年的研究期间，我们估计平均冰川退缩率为 27.3±3.0myr-1。这相当于斯瓦尔巴群岛潮水冰川在此期间平均退缩约 1 公里。将退缩量乘以冰川宽度，我们估计累计面积损失率为17.0±2.5km2yr-1，略低于现有文献对1985-2023年和2000-2020年期间的估计，与再分析数据的气候趋势一致。通过观察各个冰川，我们确定并讨论了 15 个重要的先期事件。对于其中四个，我们的研究为当前知识提供了额外的信息。我们发现了一次未记录的激增——我们提供了埃玛布林在 1936 年至 1963 年间激增的证据。我们还缩小了之前已知的两次激增的时间窗口：Allfarvegen 激增至 1976-1978 年之间（之前报道发生在 1970-1980 年间），Stonebreen 激增至 1936-1963 年间（之前报道发生在 1936-1971 年间）。我们还表明，1938 年至 1976 年间，Schweigaardbreen 和 Fonndalsbreen 分别前进了 400 米和 541 米。我们讨论了我们的数据集未来的潜在用途，包括我们研究中使用的地理参考卫星图像以及数字化的崩解前沿，这些数据可免费用于未来的研究。",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -77,39 +110,6 @@
       "affiliation": "未知机构",
       "abs_zh": "。格陵兰冰川因崩解而退缩，对冰盖的质量平衡和未来海平面上升的贡献具有重大影响。尽管崩解很重要，但在冰盖模型中的实施仍然存在争议，有几条崩解法则建议参数化这一过程。虽然其中一些崩解法则的性能已经在南极冰架和格陵兰岛的接地出口冰川上进行了测试，但尚不清楚哪种崩解法则最能捕捉格陵兰岛冰架的观察到的行为。 Petermann、Ryder 和 Nioghalvfjerdsbræ (北纬 79°) 冰川是格陵兰岛三个最大的冰架，占剩余浮冰的 90%，并支撑着冰盖质量的 ∼15%。在这里，我们利用冰盖和海平面系统模型（ISSM）比较格陵兰岛三个最大冰架的五种冰崩解规律，建立在其他系统冰解研究的基础上。我们首先根据 2008 年至 2024 年观察到的终点站波动来限制每项法律的执行，并继续在各种气候强迫下预测到 2300 年。当根据观察到的终点变化进行评估时，我们建议使用冯·米塞斯或裂缝深度崩解定律，因为它们在三个冰架上具有一致的性能和相似的调整参数。然而，在我们的扩展预测运行中，我们发现崩解参数对接地线放电率几乎没有影响，而是由气候强迫的选择驱动。大型冰架崩解或崩塌事件很少见，只有在这些罕见的情况下，我们才会发现冰排放量明显增加。我们的研究结果表明，要么格陵兰岛冰架在未来几个世纪内具有持续支撑的潜力，要么在根据当代冰架行为进行校准时，当前的冰崩解法则存在根本缺陷。",
       "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl121909",
-      "title": "Reduced West Antarctic Ice Sheet Size During Prominent Quaternary Interglacials Constrained by Iceberg‐Rafted Debris Provenance in the Amundsen Sea",
-      "url": "https://doi.org/10.1029/2026gl121909",
-      "first_author": "Patric Simões Pereira",
-      "corr_author": "Tina van de Flierdt",
-      "affiliation": "Department of Earth Science and Engineering &amp; Grantham Institute for Climate Change and the Environment Imperial College London  London UK",
-      "abs_zh": "南极西部冰盖（WAIS）的稳定性仍然是海平面预测的主要不确定性，地质记录对其过去的行为提供了重要的限制。我们呈现\n                    40\n                    氩气/\n                    39\n                    两个阿蒙森海沉积物岩心（PC493 和 PS58/254）中冰山漂流碎片（IRD）中黑云母和角闪石颗粒的年龄，分别位于南极绕极流（sbACC）南部边界的南部和北部。在过去的 85 万年里，PC493 记录了一个稳定的 IRD 来源，主要是阿蒙森海东部的来源，这与向西流动的南极沿岸流的运输一致。相比之下，PS58/254 显示了随时间变化的来源，冰期期间阿蒙森海东南部的输入和间冰期期间 Marie Byrd Land 的贡献增加，表明纬度 sbACC 变化。东南极 IRD 的缺失与威德尔海和阿蒙森海之间没有开放海洋联系相一致，而海洋同位素第 5、11 和 15 阶段期间丰富的 <10 Ma 颗粒意味着 WAIS 海拔降低。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl120038",
-      "title": "Baroclinic Submesoscale Eddies in the Ross Ice Shelf Cavity Alter Heat Pathways to the Ice Base",
-      "url": "https://doi.org/10.1029/2025gl120038",
-      "first_author": "Yingpu Xiahou",
-      "corr_author": "Christina Hulbe",
-      "affiliation": "Department of Physics University of Auckland  Auckland New Zealand",
-      "abs_zh": "斜压亚中尺度涡旋对罗斯冰架下基底融化的影响仍然知之甚少。我们分析了中央空腔 4.5 年的系泊记录，并从密度、速度和温盐结构的变化中识别出 7 个类涡流事件，其水平尺度（~11 km）亚中尺度运动特征能够增强垂直热传输。然而，大多数事件对基底融化影响不大：冷水入侵的中深度层（“交错”）充当了温盐屏障，捕获了接近 600 分巴的温暖、咸味异常，并阻止它们转移到冰基。因此熔化率保持在接近于零的水平。相比之下，一个特殊的涡流保持了连贯的垂直结构，克服了交错，允许温暖的咸水到达冰基，并与接近观察到的最大值的融化速率相一致。这些结果揭示了一种与状态相关的涡旋交错机制，对气候变化下罗斯冰架的稳定性具有影响。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119541",
-      "title": "Global Glacial Rock Weathering Signature Depends on Competing Contributions From Ice Sheets and Alpine Glaciers",
-      "url": "https://doi.org/10.1029/2025gl119541",
-      "first_author": "S. Muñoz",
-      "corr_author": "D. E. Ibarra",
-      "affiliation": "Department of Earth Environmental and Planetary Sciences Brown University  Providence RI USA",
-      "abs_zh": "岩石风化影响地球的大气和气候。硅酸盐矿物的溶解减少了大气中的二氧化碳\n                    2\n                    而硫化物氧化与碳酸盐溶解相结合会释放 CO\n                    2\n                    。高山冰川岩石风化导致硫化物高度氧化和碳酸盐溶解。这种对风化的影响表明潜在的负面气候反馈，冰的生长会导致二氧化碳排放\n                    2\n                    释放、变暖和冰范围的限制。然而，大陆冰盖在这种反馈中发挥的作用仍不清楚。在这里，我们研究了冰川前融水的全球测量结果，发现冰盖有利于硅酸盐风化，而不是硫化物氧化和碳酸盐溶解。高山冰川和冰盖风化模式的这种对比意味着，两者排放的比例决定了它们对碳循环的净影响，而碳循环的净影响可能在更新世冰川间冰期的时间尺度上有所不同。此外，我们发现冰川风化反应的影响在冰损失增加期间最大。",
-      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]

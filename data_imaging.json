@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-09 至 2026-08-16 09:20",
+  "last_update": "2026-08-16 至 2026-08-23 09:22",
   "topic_name": "地震成像",
   "papers": [
     {
@@ -80,36 +80,36 @@
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl124048",
-      "title": "Gravity Wave Energy Baselines (∼30–110 km) Established From Lidar Observations at McMurdo (77.84°S, 166.67°E), Antarctica: Energy Dissipation and Constituent Diffusion",
-      "url": "https://doi.org/10.1029/2026gl124048",
-      "first_author": "Jackson Jandreau",
-      "corr_author": "Chester S. Gardner",
-      "affiliation": "Cooperative Institute for Research in Environmental Sciences University of Colorado Boulder  Boulder CO USA",
-      "abs_zh": "2011 年至 2024 年南极洲麦克默多上空的激光雷达观测用于表征中层和低热层 (MLT) 中的重力波 (GW) 势能 ()。除了中层大气（30-70 公里）的特征外，引力波基线还显示 30 至 110 公里所有高度的耗散。对于较短的引力波和较低的区域，会出现更强的耗散，这可能是由对流和剪切不稳定性、临界水平过滤和粘性阻尼驱动的。然后使用能量基线来估计非断裂引力波引起的成分和热量的类扩散传输。相应的波诱导成分和热扩散率与其他地点的估计值进行了比较，而这项研究代表了在中层大气中的首次此类观测。估计值高达中层大气中典型涡流和分子扩散值的 1,000 倍，以及 MLT 中典型值的 10 倍。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260173",
-      "title": "Toward Improved Seismic Hazard Analysis Using Spectral Modeling to Estimate the Moment Magnitudes of Small Earthquakes",
-      "url": "https://doi.org/10.1785/0220260173",
-      "first_author": "Keith D. Koper",
-      "corr_author": "Relu Burlacu",
-      "affiliation": "1Department of Geology and Geophysics, University of Utah, Salt Lake City, Utah, U.S.A.",
-      "abs_zh": "计算震级是表征地震的关键部分。它们对于开发用于预测未来大地震震动的震级频率分布尤其重要。尽管已经提出了数十种震级尺度，但矩震级（Mw）是首选，因为它对于大事件不会饱和，并且与断层区域等物理源属性有关。然而，解决小地震（Mw<3.5）的 Mw 具有挑战性，小地震在区域地震目录中占主导地位，而地震网络通常报告区域震级（例如 mbLg、ML、Mc 和 Md）。因此，在计算震级-频率分布之前，通常会建立简单的关系，将区域震级转换为Mw。转换关系可以为地震灾害分析添加偏差和方差，理想情况下，可以直接计算所有地震的 Mw。为了解决这个问题，我们应用频谱建模框架来估计 2001 年 1 月 1 日至 2025 年 6 月 30 日期间在犹他州或其附近发生的 25,712 次自然构造地震中 10-300 公里处记录的 Sg 波的 Mw。该过程简单、快速且稳健，并且可以近乎实时地自动运行，从而可能有助于地震响应产品。可以在分析师审查期间对时间窗口或波形选择进行细化，类似于 ML 或 Mc 的现有工作流程。我们确定了 63% 目标地震的高质量矩震级，使犹他州 Mw 事件的数量增加了约 170 倍。生成的 Mw 目录包含 16,173 个值，范围从 0.54 到 5.54，中位数为 2.06。分簇版本的完整性大小为 2.2，b 值为 1.14 ± 0.02。它的大尺寸将能够提高 b 值的空间和时间变化的分辨率，从而可以推断犹他州的地壳应力变化。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag318",
-      "title": "Bayesian full waveform inversion using the shifted ordinary differential equation method with underdamped Langevin Markov chain Monte Carlo",
-      "url": "https://doi.org/10.1093/gji/ggag318",
-      "first_author": "Shuang Wang",
-      "corr_author": "Guangshuai Peng",
-      "affiliation": "Jilin University, College of Exploration Science and Technology , Changchun 130026 ,",
-      "abs_zh": "总结\n                  全波形反演（FWI）是构建高分辨率地下模型的强大工具，但由于数据稀疏和噪声、建模误差以及正演建模的严重非线性，从根本上来说仍然是不适定的。因为这种固有的非线性会产生传统的确定性优化无法轻松解决的复杂的不确定性结构。为了充分量化这种反演不确定性并探索所有可能的解决方案，贝叶斯 FWI 寻求使用马尔可夫链蒙特卡罗 (MCMC) 算法直接从后验概率密度函数中进行采样。然而，传统的 MCMC 方法在高维模型空间中存在探索效率低（混合不良）的问题。在本研究中，我们采用基于欠阻尼朗之万扩散（ULD）的高效采样器。控制 ULD 的随机微分方程 (SDE) 使用平移常微分方程 (ODE) 方法进行近似，该方法将随机动力学转换为更容易数值求解的确定性 ODE。在此基础上，我们引入了 SORT（龙格-库塔三移位常微分方程）采样方法。 SORT方法采用三阶龙格-库塔格式对ODE进行离散化，有效减少离散化误差，实现高效采样。我们通过低维和高维模型空间中的合成 2D 声学 FWI 实验验证了 SORT 的性能。数值结果表明，SORT 有效地探索高维后验分布，并对复杂的地下结构产生稳定可靠的均值和不确定性估计。",
+      "id": "10.1093/gji/ggag331",
+      "title": "Effects of non-Newtonian pore-fluid rheology on frequency-dependent wave dispersion and attenuation in porous rocks",
+      "url": "https://doi.org/10.1093/gji/ggag331",
+      "first_author": "Baohai Wu",
+      "corr_author": "Jinghuai Gao",
+      "affiliation": "School of Information and Communications Engineering, Xi’an Jiaotong University , Xi’an ,",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag340",
+      "title": "Lithospheric boundaries of the São Francisco paleocontinental block revealed by multiple frequency seismic tomography",
+      "url": "https://doi.org/10.1093/gji/ggag340",
+      "first_author": "Guilherme Manno Penna Crepaldi Affonso",
+      "corr_author": "Giuliano Sant’Anna Marotta",
+      "affiliation": "University of Brasilia, Institute of Geosciences, Graduate Program in Geology , Brasília ,",
+      "abs_zh": "总结\n                  圣弗朗西斯科古大陆地块（SFPB）和刚果古大陆地块（CPB）在白垩纪大西洋开口之前组成了圣弗朗西斯科-刚果古大陆（SFCP）。 SFCP 是参与新元古代巴西-泛非造山运动和西冈瓦纳组装的陆地之一。 SFPB 和 CPB 在西冈瓦纳合并期间经历了改造，形成了围绕 SFPB 和 CPB 保留部分的造山带，即今天的圣弗朗西斯科克拉通和刚果克拉通。尽管由于这次改造，这些古大陆最外层区域的地壳部分在表面上不再可见，但这些古大陆的界限在地壳下深度仍然相对完整。本研究的目的是界定 SFPB 并对阿拉苏伊带下方地幔岩石圈深处的结构进行成像。我们介绍了通过多频地震层析成像方法对 SFPB 和深度 68 至 587 公里之间的邻近结构进行的研究结果。数据是通过处理 2023 年 8 月 11 日至 2024 年 7 月 31 日期间记录的 P 和 PKIKP 阶段的宽带地震图获得的。处理后的数据库包含 9±254 个残差，这些残差被添加到先前区域研究的数据库中，导致 97±150 个旅行时间延误。使用水平尺寸为 390×390 km 的图案进行的棋盘分辨率测试表明，尽管棋盘层之间的急剧垂直过渡在 316 到 384 km 的深度之间没有完全恢复，但在 68 到 226 km 的深度之间恢复得非常好。水平尺寸为 312×312 公里的棋盘图案表明，在圣弗朗西斯科克拉通 (SFCr) 的南部和东部以及博尔博雷马省 (BP) 68 至 226 公里深度之间观察到最好的恢复。我们的结果显示出一种高速异常，大致呈 NE-SW 趋势，",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123990",
+      "title": "Influence of Heat Wave and Precipitation on Chikungunya Transmission",
+      "url": "https://doi.org/10.1029/2026gl123990",
+      "first_author": "Wei Yan",
+      "corr_author": "Xinbo Lian",
+      "affiliation": "College of Atmospheric Sciences Lanzhou University  Lanzhou China",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
