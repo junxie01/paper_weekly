@@ -1,7 +1,95 @@
 {
-  "last_update": "2026-08-16 至 2026-08-23 09:22",
+  "last_update": "2026-08-23 至 2026-08-30 12:06",
   "topic_name": "分布式光纤传感",
   "papers": [
+    {
+      "id": "2608.27197v1",
+      "title": "Testing Narrow-jet Gamma-Ray Bursts as Sources of Ultrahigh-Energy Cosmic Rays",
+      "url": "http://arxiv.org/abs/2608.27197v1",
+      "first_author": "Saikat Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-27"
+    },
+    {
+      "id": "2608.26797v1",
+      "title": "On the Indistinguishability of Human v/s AI Generated Text",
+      "url": "http://arxiv.org/abs/2608.26797v1",
+      "first_author": "Jaee Ponde",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-27"
+    },
+    {
+      "id": "2608.26778v1",
+      "title": "Observing relativistic trajectories of single photons",
+      "url": "http://arxiv.org/abs/2608.26778v1",
+      "first_author": "Sayantan Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-27"
+    },
+    {
+      "id": "2608.26682v1",
+      "title": "From Thermal History to Multi-Messenger Signatures in $\\mathbb{Z}_3$ Symmetric Dark Sector",
+      "url": "http://arxiv.org/abs/2608.26682v1",
+      "first_author": "Debajyoti Choudhury",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-27"
+    },
+    {
+      "id": "2608.26593v1",
+      "title": "On identifying codes on oriented graphs",
+      "url": "http://arxiv.org/abs/2608.26593v1",
+      "first_author": "Soura Sena Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-27"
+    },
+    {
+      "id": "10.1785/0120260132",
+      "title": "Near-Surface Shear-Wave Velocity from Train Vibrations with Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0120260132",
+      "first_author": "Chih-Chieh Chien",
+      "corr_author": "Mark A. Zumberge",
+      "affiliation": "1Institute of Geophysics and Planetary Physics, Scripps Institute of Oceanography, University of California, San Diego, La Jolla, California, U.S.A.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250368",
+      "title": "SCMLPick: A SeisComP Module Implementing Machine Learning Phase Picking for Real-Time Seismic Monitoring",
+      "url": "https://doi.org/10.1785/0220250368",
+      "first_author": "Camilo Muñoz",
+      "corr_author": "Alexandros Savvaidis",
+      "affiliation": "1Bureau of Economic Geology, The University of Texas at Austin, Austin, Texas, U.S.A.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250438",
+      "title": "DASView: A PyQt-Based Visualization and Processing Tool for Distributed Acoustic Sensing Data",
+      "url": "https://doi.org/10.1785/0220250438",
+      "first_author": "Heting Hong",
+      "corr_author": "Nianwen Xiang",
+      "affiliation": "1School of Electrical Engineering and Automation, Hefei University of Technology, Hefei, China",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1126/sciadv.aee9809",
       "title": "A pressure-tolerant, miniature ocean-sensing tag with acoustic telemetry for real-time CTD monitoring",
@@ -9,7 +97,7 @@
       "first_author": "Shao-Hao Lu",
       "corr_author": "Xueju Sophie Wang",
       "affiliation": "Department of Materials Science and Engineering, University of Connecticut, Storrs, CT 06269, USA.",
-      "abs_zh": "实时海洋监测可实现即时海洋学分析并支持海上作业。然而，传统传感器需要金属外壳来承受高静水压力，从而增加了传感器的重量和功率需求。软电子技术提供了一种有前途的替代方案，但它们的功能和常用的电磁通信在水下无效。在这里，我们提出了一种耐压、微型海洋传感标签，它将软电导率、温度和深度 (CTD) 传感器与声学传感器无缝集成，用于原位监测和水下数据传输。该标签尺寸为 17 mm x 20 mm x 7.5 mm，重 4.90 g，在高达 15 MPa 的静水压力（相当于约 1,500 m 的深度）下仍能保持可靠的性能，水下传输范围可达 492.7 m。在萨利什海的现场测试表明，无线实时 CTD 监测的测量精度可与商用传感器和可靠的声学遥测技术相媲美（在评估的传输距离内检测效率为 87.34%，准确度为 100%）。该海洋传感平台可在不同平台上实现节能部署，并显着推进下一代海洋观测和深海探索。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -20,19 +108,8 @@
       "first_author": "Konstantinos Michailos",
       "corr_author": "Graham Clarke",
       "affiliation": "1Research School of Earth Sciences, Australian National University, Canberra, Australia",
-      "abs_zh": "我们将新西兰奥特亚罗阿峡湾米尔福德路沿线的一条未点亮（“黑暗”）电信光缆重新改造为分布式声学传感 (DAS) 阵列，以监测 2024 年南半球冬季和春季的雪崩。使用 DAS 数据，我们限制了 16 次雪崩的发生时间，并详细分析了两次触发事件和两次自然事件。我们首次提出了米尔福德路沿线雪崩暴跌动力学的地震证据。我们还记录了与雪崩停止阶段相关的脉冲信号和湿板雪崩中的前兆信号，我们将其归因于主雪崩之前液态水渗透引起的积雪内水饱和结构的崩塌。此外，我们还研究了雪崩发生与当地气象条件之间的相互作用，表明自然发生的雪崩在高降水率期间在时间上强烈聚集。然而，并非所有高降水期都会引发雪崩，这表明其他参数（例如积雪稳定性）也发挥着重要作用。我们的结果证明了暗光纤 DAS 网络作为低成本、连续地震监测系统的潜力，可用于偏远高山环境中的雪崩表征。然而，本研究中的雪崩检测依赖于独立约束的事件计时，并且交通噪声仍然是错误检测的重要来源。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb031867",
-      "title": "Shaking‐Induced Small Seismic Velocity Changes as Revealed From Seismic Interferometry Analysis of Distributed Acoustic Sensing Data",
-      "url": "https://doi.org/10.1029/2025jb031867",
-      "first_author": "Takashi Hirose",
-      "corr_author": "Satoru Hamanaka",
-      "affiliation": "Department of Geophysics Graduate School of Science Tohoku University  Sendai Japan",
       "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Journal of Geophysical Research: Solid Earth",
+      "source": "Seismological Research Letters",
       "published": "2026"
     },
     {
@@ -44,6 +121,17 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2025jb031867",
+      "title": "Shaking‐Induced Small Seismic Velocity Changes as Revealed From Seismic Interferometry Analysis of Distributed Acoustic Sensing Data",
+      "url": "https://doi.org/10.1029/2025jb031867",
+      "first_author": "Takashi Hirose",
+      "corr_author": "Satoru Hamanaka",
+      "affiliation": "Department of Geophysics Graduate School of Science Tohoku University  Sendai Japan",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     },
     {
@@ -64,7 +152,7 @@
       "first_author": "John Mitchell McLaughlin",
       "corr_author": "Daniel Cadol",
       "affiliation": "1Department of Earth and Environmental Science, New Mexico Institute of Mining and Technology, Socorro, New Mexico, U.S.A.",
-      "abs_zh": "在美国西南部，当局部雷暴产生的降雨强度超过干燥土壤的渗透能力时，经常会发生山洪。在这些事件期间，会发生地表水流，在小溪中合并并最终形成更大的河道，其中短暂的水流可能会造成下游危害并导致显着的地貌变化。在这里，我们探索利用分布式声学传感 (DAS) 来监测沿一公里长光纤电缆长度的高频应变振荡，以便在降雨事件发生后立即识别宽度小于 1 m 的小溪中的水流。我们证明，对于足够高的降雨强度，可以使用 DAS 在多个位置同时识别公顷规模盆地中的细沟流。我们的观察表明，DAS 可以与降雨测量一起使用，以确定特定地点径流和由此产生的细沟开始的降雨强度阈值。通过分析 DAS 数据季节和降雨量测量结果，我们确定了在研究地点产生径流的初步降雨强度阈值为 0.5 毫米/分钟，持续时间为 5 分钟。尽管我们在整个季节只记录了四次径流事件，但该方法强调了 DAS 在确定山坡水文特性（例如用于建模和管理的相关空间尺度上径流生成阈值）方面的潜在未来价值。我们还探索了细沟生成的 DAS 信号的光谱特性，发现细沟流主要产生低频（<50 Hz），观察到的一些信号高达 200 Hz。这表明我们观察到的细沟驱动信号主要是湍流的结果，其次是影响光缆和相邻河床的小（<2毫米）河床颗粒的影响。这些发现表明，DAS 可以成为确定高分辨率水文和地质的有用工具。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -75,41 +163,8 @@
       "first_author": "Ao Xie",
       "corr_author": "Dongfeng Zhao",
       "affiliation": "1Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China",
-      "abs_zh": "我们在两个水下分布式声学传感（DAS）阵列、中国安徽佛子岭水库的一根约 11 公里长的电缆和中国山东烟台附近的另一根约 20 公里长的近海海底电缆上表征了与船舶相关的波场及其与背景表面重力波（SGW）的关系。在佛子岭水库，船舶产生的信号被分为机械和螺旋桨相关的音调，以及由船舶和水之间的相对运动驱动的 2-10 Hz 水动力噪声。在烟台近海海底 DAS，高频船舶音迅速衰减，但 2-10 Hz 水动力波仍然清晰。当船舶穿过电缆时，我们观察到佛子岭水库的~0.09至0.19 Hz和~0.9至1.25 Hz的能量增强，烟台的~1.3至1.6 Hz的能量增强。频率-波数分析表明，这些增强与船舶驱动的水动力强迫和背景 SGW 之间的相对传播方向相关，这可能是由于它们之间的二阶非线性相互作用所致。这些观测结果提供了对波道传输引起的动态波的深入了解，并有助于理解水下 DAS 记录的复杂波场。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef1107",
-      "title": "Quantifying subsurface fracture damage in glaciers using fiber-optic seismology",
-      "url": "https://doi.org/10.1126/sciadv.aef1107",
-      "first_author": "Thomas S. Hudson",
-      "corr_author": "Andreas Fichtner",
-      "affiliation": "Department of Earth and Planetary Sciences, ETH-Zürich, Zürich, Switzerland.",
-      "abs_zh": "裂缝对冰川的稳定性起着至关重要的作用。裂缝可以深入冰川或冰架，促进崩解、冰崩，甚至突然发生灾难性的冰架崩塌。然而，量化地下断裂损伤在很大程度上仍然是未量化的。在这里，我们展示了分布式声学传感技术如何以前所未有的细节量化高山冰川的地下裂缝损伤。我们首先证明地震各向异性可以量化断裂程度。我们还研究裂缝冰震破坏机制，其主要通过拉伸张开而破坏。冰震产生的裂缝张开与各向异性产生的估计一致（约占总冰体积的 8%），表明损害主要是破裂而不是融化。这些结果建立了一种可扩展的监测地下冰损害的方法，补充了现有的卫星表面观测。应用范围包括监测对高山群落构成风险的高山冰川的稳定性，以及为评估全球相关冰盖和冰架的地下断裂程度提供基础。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl119492",
-      "title": "Investigating Meter‐Scale Wavefield Complexity and Amplification at the Basin Edge With a Fiber‐Optic Array",
-      "url": "https://doi.org/10.1029/2025gl119492",
-      "first_author": "J. Atterholt",
-      "corr_author": "M. P. Moschetti",
-      "affiliation": "U.S. Geological Survey  Golden CO USA",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag288",
-      "title": "Distributed acoustic sensing data compression for seismological applications via compressive sensing",
-      "url": "https://doi.org/10.1093/gji/ggag288",
-      "first_author": "Yang Ma",
-      "corr_author": "Yen-Yu Lin",
-      "affiliation": "Department of Earth, Planetary and Space Sciences, University of California Los Angeles , Los Angeles, CA 90095 ,",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

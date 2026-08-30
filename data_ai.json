@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-08-16 至 2026-08-23 09:22",
+  "last_update": "2026-08-23 至 2026-08-30 12:06",
   "topic_name": "人工智能",
   "papers": [
+    {
+      "id": "2603.03079v1",
+      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
+      "url": "http://arxiv.org/abs/2603.03079v1",
+      "first_author": "Jonas Köhler",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以适应平衡数据集的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
+      "source": "arXiv",
+      "published": "2026-03-03"
+    },
+    {
+      "id": "2602.09792v1",
+      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
+      "url": "http://arxiv.org/abs/2602.09792v1",
+      "first_author": "Jaehong Chung",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "机器学习（ML）目录比常规目录包含更多的地震，但其在相位选取和地震检测方面的性能尚未得到充分评估。我们使用逻辑回归开发台站级检测概率，并将它们在地震网络中组合起来以计算空间完整性幅度场。我们将此方法应用于 2016-2017 年意大利中部序列的两个目录，这些目录是根据相同的地震网络构建的，一个是常规的，一个是基于 ML 的。在台站级别，机器学习选择器通过识别较小震级的事件和检测更远距离的地震来提高检测灵敏度。在空间上，完整性幅度大幅下降，P 波的中值从 1.6 变化到 0.5，S 波的中值从 1.7 变化到 0.5。然而，ML 目录在站级性能方面也显示出比常规目录更大的可变性。这些结果表明，基于机器学习的可检测性改进很普遍，但空间上不均匀，突出了它们的好处、局限性以及进一步改进的潜力。",
+      "source": "arXiv",
+      "published": "2026-02-10"
+    },
     {
       "id": "10.1016/j.epsl.2026.120250",
       "title": "Hierarchically structured data can undermine machine learning results in geoscience",
@@ -14,13 +36,57 @@
       "published": "2026"
     },
     {
+      "id": "10.1029/2026gl124075",
+      "title": "Event‐Level Attribution of Wildfire Ignition Cause: A Machine‐Learning Approach",
+      "url": "https://doi.org/10.1029/2026gl124075",
+      "first_author": "Kairui Qiu",
+      "corr_author": "Wei Guo",
+      "affiliation": "Department of Atmospheric and Oceanic Sciences School of Physics Peking University  Beijing China",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aea7202",
+      "title": "Mental bootstrapping enables human-level concept learning in self-supervised deep models",
+      "url": "https://doi.org/10.1126/sciadv.aea7202",
+      "first_author": "Lingxiao Yang",
+      "corr_author": "Ru-Yuan Zhang",
+      "affiliation": "School of Systems Science and Engineering, Sun Yat-sen University, Guangzhou 510006, Guangdong, People’s Republic of China.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.aeg6829",
+      "title": "De novo design of RNA pseudoknots with deep learning",
+      "url": "https://doi.org/10.1126/science.aeg6829",
+      "first_author": "Jill Townley",
+      "corr_author": "Rhiju Das",
+      "affiliation": "Eterna Massive Open Laboratory, USA.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250368",
+      "title": "SCMLPick: A SeisComP Module Implementing Machine Learning Phase Picking for Real-Time Seismic Monitoring",
+      "url": "https://doi.org/10.1785/0220250368",
+      "first_author": "Camilo Muñoz",
+      "corr_author": "Alexandros Savvaidis",
+      "affiliation": "1Bureau of Economic Geology, The University of Texas at Austin, Austin, Texas, U.S.A.",
+      "abs_zh": "快速、准确地检测地震震相对于有效的地震监测至关重要。尽管存在多种检测方法，但机器学习 (ML) 算法的最新进展在自动识别地震相位方面表现出了卓越的性能。然而，由于大量的计算需求以及与操作工作流程集成的可行性有限，此类模型的实时部署仍然具有挑战性。自 2023 年以来，德克萨斯州地震网络 (TexNet) 使用了基于 ML 的选取器，与传统的短期平均到长期平均方法相比，将低震级地震（主要是 M < 1.0）的检测率提高了 50 倍。然而，现有的实现在后处理模式下运行，相对于阶段开始引入了超过 10 分钟的延迟。为了克服这一限制，我们开发了 SCMLPick，这是一种新颖的 SeisComP 模块，可以在运行的地震网络中实时应用基于 ML 的相位选择器。 SCMLPick 弥补了最先进的 ML 算法与实时地震处理的严格要求之间的差距。其开发重点是将基于 ML 的选取器集成到 SeisComP 框架中、优化运行时性能以及调整特定于区域的参数。 SCMLPick 持续处理实时波形数据，实现平均相位选取延迟低于 60 秒，比之前后处理实施中观察到的 600-3000 秒显着减少。与 TexNet 现有后处理实现的比较评估表明，在拾取和事件检测方面具有很强的一致性，M ≥ 1.0 的事件匹配率超过 98%，并且到达时间估计具有高度一致性。针对特定区域的调整进一步提高了 SCMLPick 的检测精度和运行可靠性。",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1785/0220250382",
       "title": "An Attention-Based Deep Learning Method for Continuous-Interval Seismic Phase Picking",
       "url": "https://doi.org/10.1785/0220250382",
       "first_author": "Yuan Gao",
       "corr_author": "Fan Pan",
       "affiliation": "1College of Electronics and Information Engineering, Sichuan University, Chengdu, China",
-      "abs_zh": "在低信噪比 (SNR) 条件下以及波形分量不可用时，地震相位拾取可能会降低。我们通过向编码器添加长短期记忆单元、对跳跃连接的并行关注以及向解码器添加卷积块关注模块来修改 PhaseNet。我们还使用区间标签：从 P 到达到 S 到达的样本分配给 P 段，从 S 到达到 P + 3(S − P) 的样本分配给 S 段。该模型在斯坦福地震数据集 (STEAD) 上进行训练，并在 STEAD、意大利机器学习地震数据集 (INSTANCE) 和德克萨斯地震数据集上进行评估。在 STEAD 的 0.5 秒容差下，该模型获得了 0.980 的 S 波 F1 分数，而重新训练的 PhaseNet 基线为 0.869，SEA 为 0.969，EQTransformer 为 0.974。在 INSTANCE 上，该模型获得的 P/S F1 分数为 0.909/0.8​​03，而 PhaseNet 的 P/S F1 分数为 0.863/0.741。缺少组件的测试表明，当移除一个组件时，模型保留了有用的性能，但当移除两个组件时，尤其是在缺少垂直组件时，性能会下降。这些结果表明相对于 PhaseNet 改进了相位选择，同时还显示出对跨数据集偏移和严重通道丢失的敏感性。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -31,7 +97,7 @@
       "first_author": "Jonathan Wai",
       "corr_author": "Jonathan Wai",
       "affiliation": "The reviewer is at the Department of Education Reform and Department of Psychology, University of Arkansas, Fayetteville, AR, USA.",
-      "abs_zh": "一位记者认为，大型科技公司让孩子们编码的努力比乍看起来更加自私",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Science",
       "published": "2026"
     },
@@ -53,7 +119,7 @@
       "first_author": "Ping Song",
       "corr_author": "Jinghua Zhao",
       "affiliation": "1Faculty of Information, Liaoning University, Shenyang, China",
-      "abs_zh": "微震监测对于确保矿山安全至关重要，但采矿环境中的低信噪比和复杂波形往往会阻碍纵波取相的准确性。为了解决标记挖掘数据的稀缺问题，本研究开发了一种基于迁移学习的双向循环神经网络相位选择器（TL-BiRNN-Pick），用于端到端自动监控。该模型采用与双向循环神经网络集成的编码器-解码器架构。它利用源自大规模 DiTing 2.0 自然地震数据集的预训练模型，并针对特定采矿地震信号进行了微调。通过集成 DBSCAN 关联算法、增强型 Geiger 定位和双差重定位，该框架可实现无缝的波形到目录自动化工作流程。对 996 个采矿地震波形进行性能评估，精度为 0.947，F1 分数为 0.933，均方根误差为 8.23 ms，标准差为 15.24 ms。在东滩煤矿为期 16 天的实际应用中，该框架识别了 1271 个微震事件，比传统方法增加了三到四倍，并将完整性震级提高到 -1.64，相当于增强了 0.24 个震级单位。这项研究证明了 TL-BiRNN-Pick 框架在增强地下矿山自动化监测和安全评估方面的强大能力。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -64,53 +130,42 @@
       "first_author": "Tianshun Yang",
       "corr_author": "Min Shao",
       "affiliation": "College of Environment and Climate Guangdong‐Hongkong‐Macau Joint Laboratory of Collaborative Innovation for Environmental Quality Jinan University  Guangzhou China",
-      "abs_zh": "复合热浪和低风（HW-LW）事件日益威胁中国的能源安全。对 2000 年至 2023 年数据的分析表明，这些复合极端事件占总热浪的 18.5%，近年来其每年出现的频率几乎翻了一番。将可解释的机器学习与动态模拟相结合，我们将动量解耦确定为这种风力抑制的主要物理驱动因素。在 HW-LW 事件期间，高压系统控制的绝热沉降使高层大气升温超过 3.0°C。这形成了稳定的逆温层，阻止了向下的动能传输。因此，这会抑制边界层的发展并导致表面风速下降高达 4.0 m/s。这些结果表明，HW-LW 复合事件本质上使表面风能供应不足。随着此类复合极端情况在全球范围内加剧，这凸显了电网系统的严重漏洞。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag326",
-      "title": "Testing a multi-station deep learning seismic phase picker trained on surface array data in a high frequency downhole setting",
-      "url": "https://doi.org/10.1093/gji/ggag326",
-      "first_author": "H J Burnett",
-      "corr_author": "J P Verdon",
-      "affiliation": "School of Earth Sciences, University of Bristol , Bristol BS8 1RJ ,",
-      "abs_zh": "总结\n                  诱发地震可能会损坏基础设施、造成伤害并产生公众对地能运营的负面看法。为了监测、预测和理解诱发地震物理现象，相位选取模型必须准确地检测和分类微地震信号。深度学习 (DL) 算法可以实时检测和分类地震信号，达到人类分析师的准确度。最近的进展引入了多站深度学习算法，该算法利用二维 (2-D) 空间信息来改进对低信噪比到达的检测。然而，大多数此类模型都是在地面网络上进行训练的，并将它们应用于采样率、站几何形状和波形特征不同的钻孔阵列仍然是一个悬而未决的挑战。在这里，我们开发了输入适应策略，使经过地面训练的多站深度学习拾取器能够有效地应用于钻孔数据，而无需重新训练。我们的中心发现是，旋转输入迹线，使观察到的 P 波和 S 波能量与模型在训练期间学到的输入通道对齐，从而大大提高检测能力。我们通过应用多站深度学习模型 CubeNet 来证明这一点，利用钻孔阵列和现有目录来检测英国 Preston New Road 2 (PNR2) 水力压裂现场的诱发地震活动。使用测站几何信息并旋转钻孔轨迹来模拟地表轨迹，对于 -1.5 ≤ Mw ≤ 1.2，成功的 P 和 S 拾取分别提高了 9.5% 和 13%。我们还开发了一个工作流程来探索选取数量的增加如何影响相位关联和定位地震的质量和数量。通过旋转钻孔轨迹，我们发现一小时内发生的地震数量增加了 65%（203 至 335 次事件）。此外，CubeNet 的运行速度比实时数据记录快 1.86 倍，并且我们的计算效率相对较高的工作流程可以重现",
-      "source": "Geophysical Journal International",
-      "published": "2026"
+      "id": "2508.04925v2",
+      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
+      "url": "http://arxiv.org/abs/2508.04925v2",
+      "first_author": "Sigma Jahan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根本原因和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
+      "source": "arXiv",
+      "published": "2025-08-06"
     },
     {
-      "id": "10.1029/2026gl123378",
-      "title": "A Deep‐Learning‐Based Wind Gust Estimation Scheme in Complex Terrain",
-      "url": "https://doi.org/10.1029/2026gl123378",
-      "first_author": "Aiwei Li",
-      "corr_author": "Wenyu Huang",
-      "affiliation": "Ministry of Education Key Laboratory for Earth System Modeling, and Department of Earth System Science (DESS) Tsinghua University  Beijing China",
-      "abs_zh": "准确预测阵风对于缓解风险至关重要，但传统的数值天气预报模型无法解决产生阵风的湍流过程。在这里，我们介绍了一种基于深度学习的阵风估计方案（DL-GUST），该方案使用长短期记忆（LSTM）网络中的天气研究和预报（WRF）模型的存档诊断作为离线、单向阵风估计框架。在中国西北内陆地区进行评估时，DL-GUST 在独立的时间分离测试集上实现了 1.98 m 的均方根误差 (RMSE) 和 0.93 的皮尔逊相关系数 (PCC)。相对于经验、统计和基于物理的基线方法，RMSE 降低了 45%–60%，四个测试月份中最强阵风事件的 RMSE 降低了 50%–65%。对欧洲阿尔卑斯山和中国东南沿海地区的额外验证表明，在不同的地表环境和天气条件下，转移技能是有用但不均匀的。",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
+      "id": "2412.16336v1",
+      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
+      "url": "http://arxiv.org/abs/2412.16336v1",
+      "first_author": "Gunel Jahangirova",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "随着深度学习 (DL) 系统的采用不断增加，人们提出了越来越多的方法来测试这些系统、定位其中的故障并修复这些故障。对此类技术有效性的最佳证明是展示其检测、定位和修复实际故障的能力的评估。为了促进这些评估，研究社区收集了深度学习系统中真实故障的多个基准。在这项工作中，我们对来自 5 个不同基准的 490 个故障进行了手动分析，并确定其中 314 个故障适合我们的研究。我们的调查特别关注错误与其提取来源的对应程度、所代表的错误类型以及错误是否可重现。我们的研究结果表明，只有 18.5% 的故障满足我们的现实条件。我们重现这些故障的尝试仅在 52% 的情况下成功。",
+      "source": "arXiv",
+      "published": "2024-12-20"
     },
     {
-      "id": "10.1126/sciadv.aef9926",
-      "title": "aDISCO: A clearing method to enable 3D microscopy of large archival paraffin-embedded human tissue blocks",
-      "url": "https://doi.org/10.1126/sciadv.aef9926",
-      "first_author": "Anna Maria Reuss",
-      "corr_author": "Adriano Aguzzi",
-      "affiliation": "Institute of Neuropathology, University Hospital Zurich, Schmelzbergstrasse 12, 8091 Zurich, Switzerland.",
-      "abs_zh": "人体手术和尸检标本通常以福尔马林固定石蜡包埋 (FFPE) 组织块的形式保存数十年，形成大量健康和患病组织档案。虽然组织透明化和整体显微镜可以实现 3D 分析，但 FFPE 人体组织块由于尺寸大且交联广泛，通常不适合透明化和免疫标记。在这里，我们介绍“档案”DISCO（aDISCO），这是一种旨在克服这些挑战的清算方法。 aDISCO实现了对储存15年或更长时间的大样本的有效清除和免疫标记。我们使用多种抗体将 aDISCO 应用于人脑、脊髓、周围神经、皮肤、肌肉、心脏、肾脏、肝脏、脾脏、结肠和肺。将 aDISCO 与基于深度学习的分析相结合来研究局灶性皮质发育不良 (FCD)，我们发现局灶性和整体神经元密度变化的皮质分层被破坏，这些特征可能被传统组织学忽视。总之，aDISCO 提供适合基于深度学习的处理的数据集，能够检测大型档案人体组织标本中微妙且稀疏的病理。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec5080",
-      "title": "Label-free biochemical imaging and time point analysis of neural organoids via deep learning–enhanced Raman microspectroscopy",
-      "url": "https://doi.org/10.1126/sciadv.aec5080",
-      "first_author": "Dimitar Georgiev",
-      "corr_author": "Molly M. Stevens",
-      "affiliation": "Department of Computing, and UKRI Centre for Doctoral Training in AI for Healthcare, Imperial College London, London, UK SW7 2AZ.",
-      "abs_zh": "三维 (3D) 类器官已成为研究人类发育、疾病和体外药物反应的强大模型。然而，他们的分析仍然受到标准成像和表征技术的限制，这些技术是侵入性的，需要外源标记，并且提供有限的多重分析。在这里，我们提出了一种非侵入性、无标记成像平台，它将拉曼显微光谱学与基于深度学习的高光谱分解相结合，用于对神经类器官进行无监督、空间分辨的生化分析。我们的方法能够对冷冻切片和完整类器官中的细胞和亚细胞结构进行 2D 和 3D 绘图，与传统的高光谱分析方法相比，提高了成像精度和稳健性。使用我们的平台，我们展示了神经类器官内神经玫瑰花结的体积成像，并询问完整神经类器官早期发育阶段生化成分的变化，揭示了脂质、蛋白质和核酸的时空变化。这项工作为高内涵、无标记（生物）化学表型分析建立了一个通用框架，在类器官研究及其他领域具有广泛的应用。",
-      "source": "Science Advances",
-      "published": "2026"
+      "id": "2411.17707v1",
+      "title": "A Composite Fault Diagnosis Model for NPPs Based on Bayesian-EfficientNet Module",
+      "url": "http://arxiv.org/abs/2411.17707v1",
+      "first_author": "Siwei Li",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "本文重点介绍核电站反应堆冷却剂系统、主蒸汽系统、凝结水系统、主给水系统中泵、阀门、管道等重要机械部件的故障。利用数据驱动的深度学习故障诊断技术，提出了基于贝叶斯算法和EfficientNet大模型的复合多故障诊断模型。目的是通过核电站场景中的迁移学习来评估基于自动深度学习的大模型技术的有效性。",
+      "source": "arXiv",
+      "published": "2024-11-13"
     }
   ]
 }

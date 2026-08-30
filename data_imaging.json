@@ -1,7 +1,73 @@
 {
-  "last_update": "2026-08-16 至 2026-08-23 09:22",
+  "last_update": "2026-08-23 至 2026-08-30 12:06",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2608.25160v1",
+      "title": "ROMNet: a hybrid reduced order modeling and machine learning approach to waveform inversion",
+      "url": "http://arxiv.org/abs/2608.25160v1",
+      "first_author": "Liliana Borcea",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-25"
+    },
+    {
+      "id": "2608.19828v1",
+      "title": "Simulation-to-Real First-Break Segmentation for Efficient Inversion in Musculoskeletal Ultrasound Tomography",
+      "url": "http://arxiv.org/abs/2608.19828v1",
+      "first_author": "Yifei Sun",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-20"
+    },
+    {
+      "id": "2608.15231v1",
+      "title": "Deep Earth imaging through neutrino and seismic tomography",
+      "url": "http://arxiv.org/abs/2608.15231v1",
+      "first_author": "Sanjib Kumar Agarwalla",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "本文是关于深地中微子 + 地震成像和断层扫描 (DENSITY 2026) 小型研讨会的报告，该研讨会于 2026 年 2 月 23 日至 24 日在浦那印度科学教育与研究学院 (IISER) 地球与气候科学系举行。该研讨会由 IISER Pune 和布巴内斯瓦尔物理研究所 (IOP) 联合举办。来自地球科学和中微子物理学的研究人员参加了研讨会，探讨研究地球深层内部的多管齐下的方法。由于参与者来自不同的科学学科（地震学、地球化学、矿物物理学和中微子物理学），该计划以一系列概述讲座为特色，向所有参与者介绍每个领域的基本概念，并强调如何将这些概念应用于地球深处的研究。",
+      "source": "arXiv",
+      "published": "2026-08-15"
+    },
+    {
+      "id": "2608.05763v1",
+      "title": "Foundation Model-Assisted Full Waveform Inversion",
+      "url": "http://arxiv.org/abs/2608.05763v1",
+      "first_author": "Mustafa Alfarhan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-06"
+    },
+    {
+      "id": "2608.04901v2",
+      "title": "Theoretical Framework for Phase-space Local-Angle-Domain Waveform Inversion in Anisotropic Elastic Media",
+      "url": "http://arxiv.org/abs/2608.04901v2",
+      "first_author": "Zvi Koren",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-08-05"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120299",
+      "title": "Acoustic-gravity wave driven traveling ionospheric disturbances: Analytical modeling and application to 2025 Kamchatka earthquake GNSS data",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120299",
+      "first_author": "Junzhe Zhang",
+      "corr_author": "Xuemin Zhang",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120251",
       "title": "Shallow seismic damage and structural inheritance at the onset of faulting",
@@ -19,6 +85,17 @@
       "url": "https://doi.org/10.1016/j.epsl.2026.120273",
       "first_author": "Qiang Ma",
       "corr_author": "Shengping Qian",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120113",
+      "title": "Swarm cessation and aftershock drivers following the pressure release of a four-year-long seismic sequence at the Noto Peninsula",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120113",
+      "first_author": "Saeed Mohanna",
+      "corr_author": "Hongyu Yu",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -47,28 +124,6 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120178",
-      "title": "Information-variation constrained seismic tomography for enhanced geological modeling of the southeastern margin of the Tibetan Plateau",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120178",
-      "first_author": "Junjie Hao",
-      "corr_author": "Haijiang Zhang",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120113",
-      "title": "Swarm cessation and aftershock drivers following the pressure release of a four-year-long seismic sequence at the Noto Peninsula",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120113",
-      "first_author": "Saeed Mohanna",
-      "corr_author": "Hongyu Yu",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
       "id": "10.1016/j.epsl.2026.120166",
       "title": "Uppermost mantle nonuniform grid Pn velocity and anisotropy tomography beneath the Eastern Mediterranean and Anatolian region",
       "url": "https://doi.org/10.1016/j.epsl.2026.120166",
@@ -80,36 +135,36 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag331",
-      "title": "Effects of non-Newtonian pore-fluid rheology on frequency-dependent wave dispersion and attenuation in porous rocks",
-      "url": "https://doi.org/10.1093/gji/ggag331",
-      "first_author": "Baohai Wu",
-      "corr_author": "Jinghuai Gao",
-      "affiliation": "School of Information and Communications Engineering, Xi’an Jiaotong University , Xi’an ,",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Geophysical Journal International",
+      "id": "10.1016/j.epsl.2026.120178",
+      "title": "Information-variation constrained seismic tomography for enhanced geological modeling of the southeastern margin of the Tibetan Plateau",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120178",
+      "first_author": "Junjie Hao",
+      "corr_author": "Haijiang Zhang",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag340",
-      "title": "Lithospheric boundaries of the São Francisco paleocontinental block revealed by multiple frequency seismic tomography",
-      "url": "https://doi.org/10.1093/gji/ggag340",
-      "first_author": "Guilherme Manno Penna Crepaldi Affonso",
-      "corr_author": "Giuliano Sant’Anna Marotta",
-      "affiliation": "University of Brasilia, Institute of Geosciences, Graduate Program in Geology , Brasília ,",
-      "abs_zh": "总结\n                  圣弗朗西斯科古大陆地块（SFPB）和刚果古大陆地块（CPB）在白垩纪大西洋开口之前组成了圣弗朗西斯科-刚果古大陆（SFCP）。 SFCP 是参与新元古代巴西-泛非造山运动和西冈瓦纳组装的陆地之一。 SFPB 和 CPB 在西冈瓦纳合并期间经历了改造，形成了围绕 SFPB 和 CPB 保留部分的造山带，即今天的圣弗朗西斯科克拉通和刚果克拉通。尽管由于这次改造，这些古大陆最外层区域的地壳部分在表面上不再可见，但这些古大陆的界限在地壳下深度仍然相对完整。本研究的目的是界定 SFPB 并对阿拉苏伊带下方地幔岩石圈深处的结构进行成像。我们介绍了通过多频地震层析成像方法对 SFPB 和深度 68 至 587 公里之间的邻近结构进行的研究结果。数据是通过处理 2023 年 8 月 11 日至 2024 年 7 月 31 日期间记录的 P 和 PKIKP 阶段的宽带地震图获得的。处理后的数据库包含 9±254 个残差，这些残差被添加到先前区域研究的数据库中，导致 97±150 个旅行时间延误。使用水平尺寸为 390×390 km 的图案进行的棋盘分辨率测试表明，尽管棋盘层之间的急剧垂直过渡在 316 到 384 km 的深度之间没有完全恢复，但在 68 到 226 km 的深度之间恢复得非常好。水平尺寸为 312×312 公里的棋盘图案表明，在圣弗朗西斯科克拉通 (SFCr) 的南部和东部以及博尔博雷马省 (BP) 68 至 226 公里深度之间观察到最好的恢复。我们的结果显示出一种高速异常，大致呈 NE-SW 趋势，",
-      "source": "Geophysical Journal International",
+      "id": "10.1785/0120260132",
+      "title": "Near-Surface Shear-Wave Velocity from Train Vibrations with Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0120260132",
+      "first_author": "Chih-Chieh Chien",
+      "corr_author": "Mark A. Zumberge",
+      "affiliation": "1Institute of Geophysics and Planetary Physics, Scripps Institute of Oceanography, University of California, San Diego, La Jolla, California, U.S.A.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl123990",
-      "title": "Influence of Heat Wave and Precipitation on Chikungunya Transmission",
-      "url": "https://doi.org/10.1029/2026gl123990",
-      "first_author": "Wei Yan",
-      "corr_author": "Xinbo Lian",
-      "affiliation": "College of Atmospheric Sciences Lanzhou University  Lanzhou China",
+      "id": "10.1126/sciadv.aeg5334",
+      "title": "Parameter estimation from amplitude collapse in correlated matter-wave interference",
+      "url": "https://doi.org/10.1126/sciadv.aeg5334",
+      "first_author": "Daniel Derr",
+      "corr_author": "Enno Giese",
+      "affiliation": "Technische Universität Darmstadt, Fachbereich Physik, Institut für Angewandte Physik, Schloßgartenstraße 7, 64289 Darmstadt, Germany.",
       "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Geophysical Research Letters",
+      "source": "Science Advances",
       "published": "2026"
     }
   ]

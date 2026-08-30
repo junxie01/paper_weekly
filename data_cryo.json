@@ -1,7 +1,51 @@
 {
-  "last_update": "2026-08-16 至 2026-08-23 09:22",
+  "last_update": "2026-08-23 至 2026-08-30 12:06",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "2606.10992v1",
+      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
+      "url": "http://arxiv.org/abs/2606.10992v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2604.14226v1",
+      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
+      "url": "http://arxiv.org/abs/2604.14226v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2026-04-14"
+    },
+    {
+      "id": "10.1038/d41586-026-02716-w",
+      "title": "Glacier collapse caused Nepal’s deadly flash flood — a sign of things to come?",
+      "url": "https://doi.org/10.1038/d41586-026-02716-w",
+      "first_author": "Mohana Basu",
+      "corr_author": "Mohana Basu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-4747-2026",
+      "title": "On the non-linear response of Antarctic ice shelf surface melt to warming",
+      "url": "https://doi.org/10.5194/tc-20-4747-2026",
+      "first_author": "Marte Gé Hofsteenge",
+      "corr_author": "Michiel van den Broeke",
+      "affiliation": "未知机构",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
     {
       "id": "10.1126/sciadv.aec8232",
       "title": "Fate of heat approaching the Filchner-Ronne Ice Shelf mediated by continental shelf eddies",
@@ -20,7 +64,7 @@
       "first_author": "Antao Xu",
       "corr_author": "Norbert Frank",
       "affiliation": "Institute of Environmental Physics, Universität Heidelberg, Heidelberg, Germany.",
-      "abs_zh": "放射性钕 (Nd) 同位素组成 (ε\n                    钕\n                    ）海水被广泛用于重建过去的海洋环流，假设整个第四纪的端元特征准恒定。然而，ε\n                    钕\n                    北大西洋冰川中层水的特征明显偏离其现代价值，挑战了这一假设，其驱动机制仍存在争议。在这里，我们表明，在过去 23 万年中，上冰期北大西洋中层水的放射源值 (−7.2) 始终高于间冰期值 (−13.4)，并且明显的冰期 - 间冰期 ε\n                    钕\n                    变化密切关注全球冰量波动（\n                    r\n                     = 0.80）。这种变化主要与冰岛火山的 Nd 输入相一致，并受冰岛冰盖的进退调节。正演模型再现了观察到的 ε\n                    钕\n                    演化并揭示了 Nd 输出对冰盖动力学的非线性响应，产生平均冰川 Nd 输入通量为 2.4 × 10\n                    8\n                    克每年。我们的研究结果强调了高纬度冰盖系统在冰川期调节北大西洋海水化学方面的关键作用。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -31,7 +75,7 @@
       "first_author": "Markus Reinert",
       "corr_author": "Hans Burchard",
       "affiliation": "未知机构",
-      "abs_zh": "。格陵兰冰盖是全球海平面上升的主要原因。虽然表面融化是由大气驱动的，但海洋过程从下方融化了格陵兰岛北部漂浮的冰川舌。由于对这些舌头下方的直接观察是有限的，因此数值模型对于详细了解冰-海洋相互作用至关重要。为了研究格陵兰岛最大浮冰舌的海洋融化以及融水引起的环流，我们开发了北纬79°冰川峡湾的高分辨率三维模型（500米水平分辨率，100个自适应垂直层）。我们的模拟表明，冰-海洋界面的融化是由在温度-盐度空间中具有不同特征的三个不同的冰下羽流驱动的。这些浮力重力流的路径是由冰地形（特别是冰架中的基底通道）和科里奥利效应决定的。一股羽流围绕冰基中的圆锥状特征流动，其尺寸与罗斯比半径相当，这表明这些锥体可能是通过羽流引起的融化而形成的。在大约 100 至 200 米的深度，羽流从冰上分离，并将融水从峡湾流向公海。融化所需的热量是由浓密的底部羽流提供的，该羽流穿过峡湾入口处的岩台流入冰川空腔。在基台下游，液压控制可以增强羽流和环境水之间的混合，冷却流入物并减少到达冰川底部的热量。我们的模型解决了冰腔中羽流的这些细节，提高了对冰川舌下方海洋驱动融化的理解。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -42,7 +86,7 @@
       "first_author": "Julius Kunz",
       "corr_author": "Christof Kneisel",
       "affiliation": "未知机构",
-      "abs_zh": "。在小冰期冰川推进期间，冰川与永久冻土层的相互作用显着影响了欧洲阿尔卑斯山几个冰川前场的地貌过程。由此产生的地貌、逆冲冰碛复合体和冰川与前场相连的岩石冰川，如今不再表现出任何活跃的冰川-永久冻土相互作用，但它们的内部结构（例如，合并的沉积冰）和最近的形态动力学仍然受到以前相互作用的影响。由于这些地貌含冰量高，对外部气候条件的变化高度敏感，因此有必要了解地下结构与地表形态动力学之间的关系，以评估气候变化影响下的景观发展。本研究调查了两种地貌类型的内部结构（例如地面冰分布和特征）和表面形态动力学（运动学行为），旨在确定两者之间的关系。我们将用于评估地下电阻率的电阻率层析成像 (ERT) 与差分干涉合成孔径雷达 (DInSAR) 结合起来，以获得表面位移模式。该研究重点关注瓦莱州地区（瑞士阿尔卑斯山）两个山谷中的三个冰川前场，通过回归分析分析空间运动模式及其与地下特性的相关性。 ERT揭示了富含冰的逆冲冰碛复合体与所研究的岩石冰川的更异质的内部结构之间的明显差异。 DInSAR 得出的位移模式表明，所研究的冰碛复合体主要表现出垂直沉降，且季节性变化较大，而岩石冰川则表现出更一致的水平运动。回归分析证实了逆冲冰碛复合体中高电阻率区域和地表运动速率之间存在很强的相关性，其中地下电阻率最大",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -64,7 +108,7 @@
       "first_author": "Loris Danjou",
       "corr_author": "Erik Schytt Mannerfelt",
       "affiliation": "未知机构",
-      "abs_zh": "。我们从存档的卫星图像中获得了 171 个斯瓦尔巴群岛潮水冰川的崩解前沿位置。我们使用了 1976 年至 1978 年的早期陆地卫星图像以及 1962 年至 1963 年的解密情报卫星照片。为了支持对这些崩解锋的分析，我们还使用了 1936 年至 1938 年的历史航空图像。在 1936 年至 1978 年的研究期间，我们估计平均冰川退缩率为 27.3±3.0myr-1。这相当于斯瓦尔巴群岛潮水冰川在此期间平均退缩约 1 公里。将退缩量乘以冰川宽度，我们估计累计面积损失率为17.0±2.5km2yr-1，略低于现有文献对1985-2023年和2000-2020年期间的估计，与再分析数据的气候趋势一致。通过观察各个冰川，我们确定并讨论了 15 个重要的先期事件。对于其中四个，我们的研究为当前知识提供了额外的信息。我们发现了一次未记录的激增——我们提供了埃玛布林在 1936 年至 1963 年间激增的证据。我们还缩小了之前已知的两次激增的时间窗口：Allfarvegen 激增至 1976-1978 年之间（之前报道发生在 1970-1980 年间），Stonebreen 激增至 1936-1963 年间（之前报道发生在 1936-1971 年间）。我们还表明，1938 年至 1976 年间，Schweigaardbreen 和 Fonndalsbreen 分别前进了 400 米和 541 米。我们讨论了我们的数据集未来的潜在用途，包括我们研究中使用的地理参考卫星图像以及数字化的崩解前沿，这些数据可免费用于未来的研究。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -75,7 +119,7 @@
       "first_author": "S. L. Howard",
       "corr_author": "T. M. Snow",
       "affiliation": "Earth and Space Research  Seattle WA USA",
-      "abs_zh": "NASA/CNES 地表水和海洋地形 (SWOT) 测绘雷达测高卫星任务于 2022 年 12 月发射，每 21 天提供一次对纬度约 ±78.2° 的重复跟踪覆盖，对南极洲许多最具动态的冰架进行采样，这些冰架在限制接地冰盖的质量损失方面发挥着关键作用。要了解冰架范围和厚度如何响应强迫，需要在主要质量变化过程（包括基底和表面质量平衡以及裂缝增长）的短时间和空间尺度上绘制冰结构的三维绘图。我们证明，重复的 SWOT 高速采集可以准确监测冰架表面高度的变化，揭示关键过程，包括对海洋潮汐和大气强迫的响应、沿接地区的冰弯曲和裂缝加深，这些过程会影响影响冰损失的应力。尽管采集和处理方面存在局限性（其中一些正在得到解决），SWOT 任务为研究冰架动力学提供了令人兴奋的新机会。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -86,31 +130,42 @@
       "first_author": "Chuning Wang",
       "corr_author": "Meng Zhou",
       "affiliation": "Key Laboratory of Polar Ecosystem and Climate Change Ministry of Education; State Key Laboratory of Submarine Geoscience; School of Oceanography Shanghai Jiao Tong University  Shanghai China",
-      "abs_zh": "罗斯冰架冰间湖 (RISP) 是高盐度陆架水 (HSSW) 的主要产地之一，高盐度陆架水 (HSSW) 是驱动全球经向翻转环流下肢的南极底水 (AABW) 的前身。本研究利用在罗斯海西部大陆架收集的多平台历史数据集，采用盒模型来估计西部 RISP 和罗斯冰架空腔 (RISC) 系统中的热量和盐收支。我们的分析确定了西部 RISC 中热量和盐收支的三个主要控制因素：空穴-冰间湖交换 (EX)、冰川基底融化 (GM) 和冰下放电 (SD)。 SD 率估计为 87.0 Gt·yr\n                    −1\n                    ，与之前的研究相比更高。这项研究强调了冰下排放在调节南极边缘海水团演化中的作用，这是一个需要纳入未来气候模型的组成部分。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.5194/tc-20-3739-2026",
-      "title": "Last Glacial Maximum extent and subsequent retreat of the East Antarctic Ice Sheet from the Mac. Robertson Shelf",
-      "url": "https://doi.org/10.5194/tc-20-3739-2026",
-      "first_author": "Janina Güntzel",
-      "corr_author": "Johann P. Klages",
-      "affiliation": "未知机构",
-      "abs_zh": "。南极冰盖的未来行为被认为是全球气候预测中最大的不确定性之一，其稳定性从根本上取决于接地区过程、冰床几何形状和对海洋强迫的敏感性。然而，在考虑冰盖扩张和消退的完整周期的长度时，观测记录仅反映了短暂的时刻。因此，古数据为观察期提供了有价值的延伸。与南极西部边缘相比，东南极洲的冰消历史在很大程度上仍未被充分研究。这强调了迫切需要有关冰盖变化的可靠的长期时空数据，特别是对于在向世界海洋提供稠密底层水方面发挥关键作用的部门而言。在这项研究中，我们在 Mac 上对从两个著名的冰川跨陆架槽恢复的地球物理和地质数据进行了多代理分析。罗伯逊大陆架。我们根据多波束测深和海底剖面仪数据的组合，对沿着两个海槽的大陆架上的海底冰川地貌进行了分类，以推断过去的接地线范围和随后的接地线后退的模式。此外，综合沉积学、沉积物物理和地球化学分析，包括有孔虫放射性碳测年，揭示了整个大陆架撤退的类型和时间。我们的研究得出结论，接地的冰到达了 Mac。罗伯逊大陆架破裂直到 ∼12.7cal 之前。 ka BP，从而阻止了目前形式的密集陆架水（DSW）的形成。因此，我们推断，在持续的接地线退缩使中部大陆架暴露约10.8卡之前，深海水是南极底水的重要前体，在这种全冰川条件下有不同的形成机制。 ka BP 并为更现代的条件奠定了基础。",
-      "source": "The Cryosphere",
-      "published": "2026"
+      "id": "2503.12481v1",
+      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
+      "url": "http://arxiv.org/abs/2503.12481v1",
+      "first_author": "T. Clayton",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "冰川末端的冰山崩解会导致冰盖的质量损失，但使用简单化的（基于经验或基本力学的）失效标准通常很难表示相关的断裂力学。在这里，我们提出了一种先进的莫尔-库仑失效准则，该准则基于冰中的粘弹性应力状态来驱动裂纹。该准则在相场断裂框架中实施，并进行有限元模拟以确定可以触发冰崖崩塌的临界条件。结果表明，底部摩擦力可忽略不计的快速移动冰川很容易发生拉伸破坏，导致裂缝传播到远离冰锋的地方；而具有显着底部摩擦力的缓慢移动冰川可能会在冰锋附近表现出剪切破坏。结果还表明，海水压力在调节悬崖破裂方面发挥着重要作用。对于陆地终止冰川，如果冰川超过临界高度，就会观察到全厚度悬崖破坏，该高度取决于内聚强度 $τ_\\mathrm{c}$（$H \\approx 120\\;\\text{m}$ for $τ_\\mathrm{c}=0.5\\;\\text{MPa}$）。对于海洋终止冰川，如果超过临界冰川干舷（$H-h_\\mathrm{w}$），就会发生冰崖破坏，并且仅在海水高度上方观察到冰塌落；对于 $τ_\\mathrm{c} = 0.5\\;\\text{MPa}$，模型预测的临界干舷为 $H-h_\\mathrm{w} \\approx 215\\;\\text{m}$，这与现场观测结果非常吻合。虽然临界干舷高度比之前一些模型预测的要大，但我们不能得出海洋冰崖不稳定的可能性较小的结论，因为我们不包括其他破坏过程，例如基底裂缝的水力断裂和塑性颈缩。",
+      "source": "arXiv",
+      "published": "2025-03-16"
     },
     {
-      "id": "10.5194/tc-20-3599-2026",
-      "title": "Comparing calving laws at Greenland's three largest ice shelves",
-      "url": "https://doi.org/10.5194/tc-20-3599-2026",
-      "first_author": "Jamie Barnett",
-      "corr_author": "Martin Jakobsson",
-      "affiliation": "未知机构",
-      "abs_zh": "。格陵兰冰川因崩解而退缩，对冰盖的质量平衡和未来海平面上升的贡献具有重大影响。尽管崩解很重要，但在冰盖模型中的实施仍然存在争议，有几条崩解法则建议参数化这一过程。虽然其中一些崩解法则的性能已经在南极冰架和格陵兰岛的接地出口冰川上进行了测试，但尚不清楚哪种崩解法则最能捕捉格陵兰岛冰架的观察到的行为。 Petermann、Ryder 和 Nioghalvfjerdsbræ (北纬 79°) 冰川是格陵兰岛三个最大的冰架，占剩余浮冰的 90%，并支撑着冰盖质量的 ∼15%。在这里，我们利用冰盖和海平面系统模型（ISSM）比较格陵兰岛三个最大冰架的五种冰崩解规律，建立在其他系统冰解研究的基础上。我们首先根据 2008 年至 2024 年观察到的终点站波动来限制每项法律的执行，并继续在各种气候强迫下预测到 2300 年。当根据观察到的终点变化进行评估时，我们建议使用冯·米塞斯或裂缝深度崩解定律，因为它们在三个冰架上具有一致的性能和相似的调整参数。然而，在我们的扩展预测运行中，我们发现崩解参数对接地线放电率几乎没有影响，而是由气候强迫的选择驱动。大型冰架崩解或崩塌事件很少见，只有在这些罕见的情况下，我们才会发现冰排放量明显增加。我们的研究结果表明，要么格陵兰岛冰架在未来几个世纪内具有持续支撑的潜力，要么在根据当代冰架行为进行校准时，当前的冰崩解法则存在根本缺陷。",
-      "source": "The Cryosphere",
-      "published": "2026"
+      "id": "2306.08405v1",
+      "title": "A viscoelastic phase-field model for iceberg calving",
+      "url": "http://arxiv.org/abs/2306.08405v1",
+      "first_author": "Jakub Stocek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2023-06-14"
+    },
+    {
+      "id": "2304.08120v2",
+      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
+      "url": "http://arxiv.org/abs/2304.08120v2",
+      "first_author": "Sacha Lapins",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "arXiv",
+      "published": "2023-04-17"
     }
   ]
 }
