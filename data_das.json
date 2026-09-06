@@ -1,61 +1,17 @@
 {
-  "last_update": "2026-08-23 至 2026-08-30 12:06",
+  "last_update": "2026-08-30 至 2026-09-06 11:22",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2608.27197v1",
-      "title": "Testing Narrow-jet Gamma-Ray Bursts as Sources of Ultrahigh-Energy Cosmic Rays",
-      "url": "http://arxiv.org/abs/2608.27197v1",
-      "first_author": "Saikat Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "arXiv",
-      "published": "2026-08-27"
-    },
-    {
-      "id": "2608.26797v1",
-      "title": "On the Indistinguishability of Human v/s AI Generated Text",
-      "url": "http://arxiv.org/abs/2608.26797v1",
-      "first_author": "Jaee Ponde",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "arXiv",
-      "published": "2026-08-27"
-    },
-    {
-      "id": "2608.26778v1",
-      "title": "Observing relativistic trajectories of single photons",
-      "url": "http://arxiv.org/abs/2608.26778v1",
-      "first_author": "Sayantan Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "arXiv",
-      "published": "2026-08-27"
-    },
-    {
-      "id": "2608.26682v1",
-      "title": "From Thermal History to Multi-Messenger Signatures in $\\mathbb{Z}_3$ Symmetric Dark Sector",
-      "url": "http://arxiv.org/abs/2608.26682v1",
-      "first_author": "Debajyoti Choudhury",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "arXiv",
-      "published": "2026-08-27"
-    },
-    {
-      "id": "2608.26593v1",
-      "title": "On identifying codes on oriented graphs",
-      "url": "http://arxiv.org/abs/2608.26593v1",
-      "first_author": "Soura Sena Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "arXiv",
-      "published": "2026-08-27"
+      "id": "10.1029/2025jb033370",
+      "title": "Imaging Submarine Fault Zones Using Reflected S‐waves Extracted by Ambient Noise Interferometry From Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1029/2025jb033370",
+      "first_author": "Zhufeng Lu",
+      "corr_author": "Jizhong Yang",
+      "affiliation": "Laboratory of Ocean and Marginal Sea Geology State Key Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China",
+      "abs_zh": "南海北缘自晚中生代以来经历了强烈的构造变形，形成了复杂的断裂网络。沿着这个边缘，之前的研究主要对汕头地区水深大于 30 m 的近海断层进行成像。然而，由于缺乏地球物理观测，<30 m 水深（近岸）的精确断层位置和几何形状很难解析，从而无法更好地评估海洋地质灾害。在这里，我们从分布式声学传感 (DAS) 沿着部署在近岸的 29 公里海底电缆记录的环境噪声的干涉自相关中检索高分辨率零偏移 S 波反射。米级反射描绘了地层边界、断层结构和潜在的岩浆侵入，其中断层位置通过独立约束进行验证，包括二维剪切波速度模型、互相关函数中的杂散能量和地震波场分析。我们精确定位了长乐-南澳断裂带的近岸延伸部分，并解析了以南鹏岛外断裂带和新绘制的断层为界的约8公里宽的地堑，在地堑下方发现了火成岩侵入体，表明强烈的构造和岩浆相互作用。该结构薄弱区的局部延伸可能会导致海底不稳定。通过使用 DAS 环境噪声自相关，我们成功地检索了地质上可解释的反射，展示了使用现有光纤电缆在复杂构造环境中提供经济高效、高分辨率结构约束的潜力。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
     },
     {
       "id": "10.1785/0120260132",
@@ -64,7 +20,7 @@
       "first_author": "Chih-Chieh Chien",
       "corr_author": "Mark A. Zumberge",
       "affiliation": "1Institute of Geophysics and Planetary Physics, Scripps Institute of Oceanography, University of California, San Diego, La Jolla, California, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "地震速度模型对于地下结构成像非常有效，但由于高频信号的可用性有限以及需要紧密间隔的通道，解析深度小于 100 m 的浅层特征仍然具有挑战性。我们使用分布式声学传感 (DAS) 来解决这个问题，以高分辨率对近地表地震结构进行成像，并使用沿加利福尼亚州德尔马 14.7 公里埋地光缆记录的火车交通记录。研究区域包括不稳定的沿海悬崖，由于地质成分的差异和持续的侵蚀，地下条件各不相同。使用干涉测量法对列车通过的记录进行计算，计算互相关函数，通过波束形成估计瑞利波相速度，并反演每个通道的一维剪切波速度 (VS)，然后将其组装成沿光纤的 2D 断层扫描 VS 剖面。由此产生的 2D VS 剖面揭示了关键的地质特征，包括 San Dieguito 山谷和 Los Peñasquitos Lagoon 的低速区，对应于较厚的冲积层和泻湖沉积物。上部 30 m 深度 (VS30) 的平均 VS 显示与海拔高度相关，而沿海悬崖处的较低 VS30 与沙子含量和沉积物厚度相关。此外，DAS 记录的昼夜应变模式表明对温度变化的敏感性，并可能有助于识别纤维线轴位置。 VS 模型展示了 DAS 在复杂沿海环境中提供高分辨率、经济高效的地下成像和环境监测的潜力。",
       "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     },
@@ -152,17 +108,6 @@
       "first_author": "John Mitchell McLaughlin",
       "corr_author": "Daniel Cadol",
       "affiliation": "1Department of Earth and Environmental Science, New Mexico Institute of Mining and Technology, Socorro, New Mexico, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260055",
-      "title": "Underwater Distributed Acoustic Sensing of Ship-Associated Hydrodynamic Wavefields and Surface Gravity Waves",
-      "url": "https://doi.org/10.1785/0220260055",
-      "first_author": "Ao Xie",
-      "corr_author": "Dongfeng Zhao",
-      "affiliation": "1Hefei National Research Center for Physical Sciences at the Microscale, University of Science and Technology of China, Hefei, China",
       "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Seismological Research Letters",
       "published": "2026"

@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-08-23 至 2026-08-30 12:06",
+  "last_update": "2026-08-30 至 2026-09-06 11:22",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -9,7 +9,7 @@
       "first_author": "Jonas Köhler",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出经过重新调整，以适应平衡数据集的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动本身。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
+      "abs_zh": "我们评估了深度学习模型的预测性能，该模型最初是作为模式提取框架引入的，该模型在短期预测背景下对地震 b 值的时空演化进行操作。模型输出被重新调整，以考虑平衡数据集的训练，并使用 Brier 技能评分 (BSS) 相对于空间基本速率模型进行评估。绝对技能值很小，但平均 BSS 值始终为正，包括在测试期间发生 Mw geq 5 地震的位置，表明信息内容超出了历史地震活动范围。使用 Molchan 图的基于警报的评估显示，在低警报分数下，事件捕获率有所提高（在警报下的 1% 区域捕获了 5.88% 的事件），这表明在受限警报条件下，辨别能力超过了随机和纯空间参考模型。与 ETAS 得出的触发概率的比较进一步揭示了弱正相关性，表明模型输出对以增强的聚类和近期活动为特征的地震状况具有部分敏感性，同时仍与基于余震的经典描述不同。总之，这些结果表明，b 值的时空变化包含与概率地震预测相关的持续但有限的信号，在互补评估框架中比基线模型产生边际但一致的改进。",
       "source": "arXiv",
       "published": "2026-03-03"
     },
@@ -25,6 +25,17 @@
       "published": "2026-02-10"
     },
     {
+      "id": "10.1016/j.epsl.2026.120308",
+      "title": "A machine learning diagnostic test for nonstationary ETAS aftershock models",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120308",
+      "first_author": "Giuseppe Petrillo",
+      "corr_author": "Luca Dal Zilio",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.120250",
       "title": "Hierarchically structured data can undermine machine learning results in geoscience",
       "url": "https://doi.org/10.1016/j.epsl.2026.120250",
@@ -36,13 +47,68 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aef0343",
+      "title": "Learning induces activation-mechanism–dependent neural plasticity in an intracortical microstimulation task",
+      "url": "https://doi.org/10.1126/sciadv.aef0343",
+      "first_author": "Robin Kim",
+      "corr_author": "Lan Luan",
+      "affiliation": "Department of Electrical and Computer Engineering, Rice University, Houston, TX 77005 USA.",
+      "abs_zh": "电微刺激为神经回路提供高分辨率控制，用于因果研究和受损功能的恢复，但对人工激活的反应如何随着学习而演变仍不清楚。在这里，我们部署了一项检测任务，并将用于稳定皮质内微刺激（ICMS）的超柔性电极与纵向成像和记录配对，以跟踪数周学习期间的单细胞和群体反应。检测阈值随着学习而降低，表明可塑性。慢性成像显示，刺激诱发的募集在固定电流下扩展，而一致数量的神经元继续构成行为反应的基础。学习敏感细胞的一个子集增强了调制并减少了延迟。电生理记录进一步区分了两种形式的适应：直接激活的脉冲锁定神经元增强了它们的兴奋性，而多突触招募的神经元数量增加并可预测行为结果。这些结果表明，ICMS 任务中的学习通过激活机制依赖性可塑性重塑皮质回路，强调了对适应细胞内在和网络动态的刺激范例的需要。",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.aem0118",
+      "title": "Teaching while learning",
+      "url": "https://doi.org/10.1126/science.aem0118",
+      "first_author": "Nani Teig",
+      "corr_author": "Nani Teig",
+      "affiliation": "Nani Teig is a professor at the University of Oslo. Do you have an interesting career story to share? See our author guidelines at .",
+      "abs_zh": "无摘要详情",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag354",
+      "title": "Real-time multi-station microseismic event detection via transfer learning of computer vision deep learning model",
+      "url": "https://doi.org/10.1093/gji/ggag354",
+      "first_author": "Chunlan Xie",
+      "corr_author": "Jian Tang",
+      "affiliation": "Key Laboratory of Earth Exploration and Information Technology of Ministry of Education, Chengdu University of Technology , Sichuan ,",
+      "abs_zh": "总结\n                  随着页岩气勘探开发深入地层（深度>3500m），弱信号检测在地表微震监测中变得更加具有挑战性和重要性。大多数现有的深度学习方法都是基于合成数据或单站数据进行训练的，这限制了它们在检测现场地震记录中的弱事件方面的性能。在这里，我们通过迁移学习提出了一种基于计算机视觉目标检测模型 YOLOv5 的深度学习方法，并在现场观测数据集上对其进行训练，以更好地检测多道地震数据中的微震事件。首先，我们将连续地震数据转换为记录长度为20 s的灰度波形图像，并使用矩形框手动注释包含初至信号的微震事件。为了训练模型，使用迁移学习策略，利用计算机视觉中 YOLO 的参数来启动模型。经过训练和验证后，我们进行了全面的测试来检查模型的性能。与单站短期平均/长期平均（STA/LTA）检测器相比，我们的方法显着减少了误报，但它也比可用的多站检测方案提供了更高的召回率。当应用于不同区域的连续数据集时，该模型取得了良好的性能，精度为 0.9832，召回率为 0.9702，表明它学习了微震信号的代表性特征。所有这些测试表明，所提出的方法实现了高检测精度、低误报率和鲁棒性。同时，该方法具有实时监控的优势，并且可以通过向训练数据集中添加一些新样本来轻松更新。",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-10950-5",
+      "title": "Explainable deep learning improves human mental models of self-driving cars",
+      "url": "https://doi.org/10.1038/s41586-026-10950-5",
+      "first_author": "Eoin M. Kenny",
+      "corr_author": "Julie A. Shah",
+      "affiliation": "未知机构",
+      "abs_zh": "自动驾驶汽车越来越依赖深度神经网络来实现类人驾驶\n                    1–3\n                    。这些黑匣子计划者的不透明性使得准确预测它们何时会失败变得具有挑战性\n                    4-6\n                    ，可能带来灾难性的后果\n                    7-9\n                    。尽管解释这些系统的研究激增，但由于现实世界部署的困难，大多数研究仅限于模拟或玩具设置\n                    10,11\n                    ，使这些技术的实际用途未知。在这里，我们介绍概念包装网络（CW-Net），这是一种忠实地解释基于机器学习的规划器行为的方法，该方法将其推理建立在人类可解释的概念上，而不牺牲性能。我们在真正的自动驾驶汽车上部署 CW-Net，并表明由此产生的解释改善了人类驾驶员对车辆的心理模型，使他们能够更好地预测其行为，特别是在令人惊讶的情况下。这表明，集成到自动驾驶汽车中的可解释深度学习在现实部署环境中既可以理解又有用。我们预计我们的方法可以应用于其他安全关键系统，例如自主无人机和机器人外科医生，以及其他架构，例如端到端学习系统和视觉-语言-动作模型。总的来说，我们的研究为自主代理的可解释性建立了一条经过部署验证的途径，这有助于使它们更加透明和安全。",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026jb034108",
+      "title": "Pn‐Wave Tomography Using Deep‐Learning‐Based Phase Picking Reveals Fine‐Scale Structure of the Uppermost Mantle Beneath the Southwestern United States",
+      "url": "https://doi.org/10.1029/2026jb034108",
+      "first_author": "Hua Kong",
+      "corr_author": "Lijun Liu",
+      "affiliation": "Key Laboratory of Planetary Science and Frontier Technology Institute of Geology and Geophysics Chinese Academy of Sciences  Beijing China",
+      "abs_zh": "美国西南部构造活动强烈，地震网络密集，是研究壳幔物质交换和能量转移的天然实验室。近年来，地震观测数据的快速增长和基于深度学习的自动选相技术的发展为高分辨率地震成像研究提供了新的机遇。本研究利用 Seis‐PickNet 选相模型扩展了美国西南部的 Pn 波走时数据库。根据新选取的走时时间，研究构建了该区域最上地幔速度结构和各向异性结构的高分辨率模型。反演结果表明，该区活动构造单元的空间分布与上地幔显着的低速异常和强各向异性特征吻合。此外，该研究揭示了科罗拉多高原边缘火山田下方最上地幔中的独立热上升管道，包括黑岩沙漠火山田、乌因卡雷特火山田和旧金山火山田。此外，研究结果支持了大盆地中部下方存在古代法拉隆板块俯冲遗迹。这项研究不仅加深了对该地区地幔动力学和复杂地下结构的理解，而且凸显了深度学习驱动的选相技术在提高地震层析成像质量方面的关键作用。",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
       "id": "10.1029/2026gl124075",
       "title": "Event‐Level Attribution of Wildfire Ignition Cause: A Machine‐Learning Approach",
       "url": "https://doi.org/10.1029/2026gl124075",
       "first_author": "Kairui Qiu",
       "corr_author": "Wei Guo",
       "affiliation": "Department of Atmospheric and Oceanic Sciences School of Physics Peking University  Beijing China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "野火的起火原因，即人为或闪电，在很大程度上决定了火灾的行为和影响，但全世界范围内的报道很少。事件级火灾原因已通过高精度闪电观测在区域范围内推断出来，但全球概括性仍然有限。在这里，我们开发了一个机器学习分类框架，使用涵盖气象、陆地和社会经济状态的 16 个预测因子来对单个野火点火进行归因。由 7 个基础学习器构建的软投票集合使用 17 个区域数据集编制的 103 万条火灾记录进行训练和测试。 MLCF 的样本内准确率达到 94.2%，同时在空间和时间样本外评估中保持合理的泛化能力。特征重要性分析将最近的雷击、气温和人类足迹确定为火灾原因的主要和相互作用的预测因素。总体而言，该框架为全球事件级野火点火归因提供了基础，可以为对野火点火驱动因素的过程级理解提供信息。",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -53,7 +119,7 @@
       "first_author": "Lingxiao Yang",
       "corr_author": "Ru-Yuan Zhang",
       "affiliation": "School of Systems Science and Engineering, Sun Yat-sen University, Guangzhou 510006, Guangdong, People’s Republic of China.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "智能体如何从稀疏、多样的例子中获取抽象概念（通常没有明确的监督）仍然是认知科学和人工智能的中心问题。人类研究表明，这种能力取决于心理引导，即从更简单的部分结构逐渐构建复杂的概念。基于这个想法，我们开发了一个自我监督框架，可以在包含不完整但结构化概念线索的抽象推理任务的系统简化版本上训练模型。该算法使模型能够在有限的资源下形成内部抽象，然后将其应用于更复杂的问题。我们在 12 个抽象视觉推理数据集上评估该框架，测试分布内概念归纳、分布外泛化和小样本学习。为了将表现置于情境中，我们还测量了人类在相同任务上的准确性。针对简化问题训练的模型具有稳健的泛化能力，达到甚至超过了人类水平。这些发现表明，抽象推理可以从结构化简化和最小数据中产生，为人类和机器的概念学习提供计算解释。",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -64,74 +130,8 @@
       "first_author": "Jill Townley",
       "corr_author": "Rhiju Das",
       "affiliation": "Eterna Massive Open Laboratory, USA.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "RNA 设计一直受到三维 (3D) 结构预测精度有限的阻碍。在这项研究中，我们表明，通过准确的从头设计假结二级结构，可以使用当前的深度学习工具生成复杂的 RNA 结构。在涉及 57 个假结的 Eterna 竞赛中，生成人工智能 (AI) 方法在解决大多数盲目挑战方面与经验丰富的人类设计师相匹配，并通过单核苷酸分辨率化学图谱、补偿诱变和冷冻电子显微镜进行评估。人工智能生成的分子具有精确的二级结构，形成有序的 3D 折叠，通过设计期间未建模的非规范三级相互作用稳定。成功是由基于先前化学图谱数据训练的 RNet 基础模型引导的，这表明一些困难的 RNA 设计任务可能在不首先解决 RNA 3D 结构预测的情况下很容易处理。",
       "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250368",
-      "title": "SCMLPick: A SeisComP Module Implementing Machine Learning Phase Picking for Real-Time Seismic Monitoring",
-      "url": "https://doi.org/10.1785/0220250368",
-      "first_author": "Camilo Muñoz",
-      "corr_author": "Alexandros Savvaidis",
-      "affiliation": "1Bureau of Economic Geology, The University of Texas at Austin, Austin, Texas, U.S.A.",
-      "abs_zh": "快速、准确地检测地震震相对于有效的地震监测至关重要。尽管存在多种检测方法，但机器学习 (ML) 算法的最新进展在自动识别地震相位方面表现出了卓越的性能。然而，由于大量的计算需求以及与操作工作流程集成的可行性有限，此类模型的实时部署仍然具有挑战性。自 2023 年以来，德克萨斯州地震网络 (TexNet) 使用了基于 ML 的选取器，与传统的短期平均到长期平均方法相比，将低震级地震（主要是 M < 1.0）的检测率提高了 50 倍。然而，现有的实现在后处理模式下运行，相对于阶段开始引入了超过 10 分钟的延迟。为了克服这一限制，我们开发了 SCMLPick，这是一种新颖的 SeisComP 模块，可以在运行的地震网络中实时应用基于 ML 的相位选择器。 SCMLPick 弥补了最先进的 ML 算法与实时地震处理的严格要求之间的差距。其开发重点是将基于 ML 的选取器集成到 SeisComP 框架中、优化运行时性能以及调整特定于区域的参数。 SCMLPick 持续处理实时波形数据，实现平均相位选取延迟低于 60 秒，比之前后处理实施中观察到的 600-3000 秒显着减少。与 TexNet 现有后处理实现的比较评估表明，在拾取和事件检测方面具有很强的一致性，M ≥ 1.0 的事件匹配率超过 98%，并且到达时间估计具有高度一致性。针对特定区域的调整进一步提高了 SCMLPick 的检测精度和运行可靠性。",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250382",
-      "title": "An Attention-Based Deep Learning Method for Continuous-Interval Seismic Phase Picking",
-      "url": "https://doi.org/10.1785/0220250382",
-      "first_author": "Yuan Gao",
-      "corr_author": "Fan Pan",
-      "affiliation": "1College of Electronics and Information Engineering, Sichuan University, Chengdu, China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aek5943",
-      "title": "Learning to love the machine\n                    <b>Coding Kids: Big Tech’s Battle to Remake Public Schools</b>\n                    <i>Natasha Singer</i>\n                    Norton, 2026. 352 pp.",
-      "url": "https://doi.org/10.1126/science.aek5943",
-      "first_author": "Jonathan Wai",
-      "corr_author": "Jonathan Wai",
-      "affiliation": "The reviewer is at the Department of Education Reform and Department of Psychology, University of Arkansas, Fayetteville, AR, USA.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-10917-6",
-      "title": "The HydroGym reinforcement learning platform for fluid dynamics",
-      "url": "https://doi.org/10.1038/s41586-026-10917-6",
-      "first_author": "Christian Lagemann",
-      "corr_author": "Steven L. Brunton",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260072",
-      "title": "TL-BiRNN-Pick: An End-to-End Automated Microseismic Monitoring Framework for Underground Mines via Transfer Learning",
-      "url": "https://doi.org/10.1785/0220260072",
-      "first_author": "Ping Song",
-      "corr_author": "Jinghua Zhao",
-      "affiliation": "1Faculty of Information, Liaoning University, Shenyang, China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123286",
-      "title": "Momentum Decoupling Drives Low‐Wind Events During Heatwaves in China: A Hybrid Explainable Machine Learning and Dynamical Modeling Approach",
-      "url": "https://doi.org/10.1029/2026gl123286",
-      "first_author": "Tianshun Yang",
-      "corr_author": "Min Shao",
-      "affiliation": "College of Environment and Climate Guangdong‐Hongkong‐Macau Joint Laboratory of Collaborative Innovation for Environmental Quality Jinan University  Guangzhou China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
@@ -141,7 +141,7 @@
       "first_author": "Sigma Jahan",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
-      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根本原因和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
+      "abs_zh": "注意力机制是现代神经架构的核心，为从 ChatGPT 到自动驾驶汽车的各种系统提供动力，并产生重大的经济影响。然而，一些引人注目的失败，例如 ChatGPT 的无意义输出或 Google 由于注意力权重错误而暂停 Gemini 的图像生成，凸显了一个关键差距：现有的深度学习错误分类法可能无法充分捕获注意力机制引入的独特失败。这一差距使从业者缺乏可行的诊断指导。为了解决这一差距，我们首次对基于注意力的神经网络（ABNN）中的故障进行了全面的实证研究。我们的工作基于对 555 个现实世界错误的系统分析，这些错误是从 GitHub、Hugging Face 和 Stack Overflow 等 10 个框架的 96 个项目中收集的。通过我们的分析，我们开发了一种新颖的分类法，其中包含七个特定于注意力的故障类别，这些类别未被现有工作捕获。我们的结果表明，超过一半的 ABNN 错误是由注意力架构特有的机制引起的。我们通过各种症状进一步分析这些故障的根源和表现形式。最后，通过分析症状与根本原因的关联，我们确定了四种基于证据的诊断启发法，可以解释 33.0% 的注意力特定故障，为基于注意力的模型提供了第一个系统的诊断指导。",
       "source": "arXiv",
       "published": "2025-08-06"
     },
