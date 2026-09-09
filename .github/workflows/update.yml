@@ -47,29 +47,6 @@ jobs:
       - name: Generate report
         run: python generate_report.py
 
-      - name: Get date range for filename
-        id: date_range
-        run: |
-          START_DATE=$(date -d '7 days ago' +'%Y%m%d')
-          END_DATE=$(date +'%Y%m%d')
-          echo "start_date=$START_DATE" >> $GITHUB_OUTPUT
-          echo "end_date=$END_DATE" >> $GITHUB_OUTPUT
-          echo "display_date=$(date -d '7 days ago' +'%Y年%m月%d日')-$(date +'%Y年%m月%d日')" >> $GITHUB_OUTPUT
-
-      - name: Send Email Notification
-        uses: dawidd6/action-send-mail@v3
-        with:
-          server_address: smtp.gmail.com
-          server_port: 465
-          secure: true
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
-          subject: "${{ steps.date_range.outputs.display_date }}，论文周报更新，请查收。"
-          to: ${{ secrets.MAIL_TO }}
-          from: "Seismology Bot"
-          body: "${{ steps.date_range.outputs.display_date }}，论文周报更新，请查收。"
-          attachments: paper_report_${{ steps.date_range.outputs.start_date }}_${{ steps.date_range.outputs.end_date }}.pdf
-
       - name: Commit and Push changes
         run: |
           set -e

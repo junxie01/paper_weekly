@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credential*
+*secret*
