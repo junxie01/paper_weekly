@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-08-30 至 2026-09-06 11:22",
+  "last_update": "2026-09-06 至 2026-09-13 11:38",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "10.1016/j.epsl.2026.120306",
+      "title": "Seismic evidence for a slab window beneath central Sumatra",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
+      "first_author": "Youqiang Yu",
+      "corr_author": "Nevena Andrić-Tomašević",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120299",
       "title": "Acoustic-gravity wave driven traveling ionospheric disturbances: Analytical modeling and application to 2025 Kamchatka earthquake GNSS data",
@@ -47,69 +58,58 @@
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.aed8456",
-      "title": "A full-range sweat rate sensor with superhydrophobic heterophase shunt for psychology, skin health and body dehydration evaluating",
-      "url": "https://doi.org/10.1126/sciadv.aed8456",
-      "first_author": "Hao Shen",
-      "corr_author": "Ting Zhang",
-      "affiliation": "i-Lab, Suzhou Institute of Nano-Tech &amp; Nano-Bionics (SINANO), Chinese Academy of Sciences (CAS), Suzhou, Jiangsu, 215123, P. R. China.",
-      "abs_zh": "汗液分泌可以洞察生理和心理状态。然而，目前的单一检测方法不兼容气态和液态汗液的同时监测，这限制了其在探索动态生理过程中的应用。本文报道了一种带有异相分流器的完全集成汗液传感器，用于全范围出汗率监测。通过表皮微流控电导率传感和湿度检测的无干扰集成，连续测量0.182∼10μL/(min·cm)\n                    2\n                    ）已实现。 LiCl掺杂的UiO-66-NH\n                    2\n                    实现高度灵敏且快速响应的湿度传感器。由聚二甲基硅氧烷和聚甲基丙烯酸甲酯共电纺膜组成的仿生异相分流器具有超疏水性(151.9°)、透气性[58.07 g/(H·m)\n                    2\n                    )]和水压耐受性(1.1 kPa)。异相分流器有效地集成了汗液检测模式，同时为湿度传感器提供保护，防止汗液腐蚀和皮肤接触引起的损坏。该传感器与专门的弱信号处理模块集成，可应用于心理学、皮肤健康和身体脱水评估。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag359",
-      "title": "Analytical solution for P-wave propagation in multilayered inclined seabed formations",
-      "url": "https://doi.org/10.1093/gji/ggag359",
-      "first_author": "Xiaobo Liu",
-      "corr_author": "Xiaobo Liu",
-      "affiliation": "School of Ocean Sciences, China University of Geosciences , Beijing, 100083 ,",
-      "abs_zh": "总结\n                  地震数据的声学近似是海洋地震数据处理中广泛使用的方法。大陆架边缘通常呈现倾斜界面。然而，现有的倾斜海底纵波场计算方法通常依赖于水平假设，这会给地震数据带来误差。在这项研究中，通过使用三维坐标变换在任意倾斜界面建立边界条件方程，导出了倾斜海底地层中纵波传播的解析递归解。通过应用三维坐标变换，建立任意倾斜界面的边界条件方程。基于声地震波微分方程，开发了一组递归方程，可以对倾斜界面环境中的纵波传播进行解析计算。该分析框架为解析倾斜多层地层中的波场提供了一种有效的方法。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aee4251",
-      "title": "A decagon wave around Saturn’s south pole",
-      "url": "https://doi.org/10.1126/sciadv.aee4251",
-      "first_author": "Agustín Sánchez-Lavega",
-      "corr_author": "Itziar Garate-Lopez",
-      "affiliation": "Escuela de Ingeniería de Bilbao, Universidad del País Vasco EHU, Bilbao 48013, Spain.",
-      "abs_zh": "土星在其北极附近有一个独特的、长寿的、几乎静止的六边形波，与强烈的向东喷流耦合在一起。尽管经过数十年的观察，迄今为止，南半球或土星其他地方还没有报告类似的波。 2025 年获得的地面和哈勃太空望远镜 (HST) 图像显示，在行星纬度~58°S 至 63°S 处存在十边形波。 2023 年和 2024 年的 HST 图像显示反照率对比度较弱的顶点和十边形的线性边，这意味着一种不断演变的现象。十边形以每秒2.5米的速度向东移动，比南纬60.5°纬向急流的每秒116米慢得多，其顶点经度振荡周期为32天，振幅为4.6°至8.4°。从其性质来看，十边形可能是一个大规模的曲折波，它被主要射流曲率垂直捕获并在子午方向上限制。浅水模型模拟表明，十边形可能起源于急流峰值的空间周期性扰动，或者可能是由紧邻北方的暗反气旋涡旋驱动的。",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag360",
-      "title": "3-D Crustal structure of Mount Isa, metallogenic province in Northern Australia from ambient noise tomography",
-      "url": "https://doi.org/10.1093/gji/ggag360",
-      "first_author": "Ao Chang",
-      "corr_author": "Chengxin Jiang",
-      "affiliation": "School of Earth and Atmospheric Sciences, Queensland University of Technology , Brisbane QLD 4000 ,",
-      "abs_zh": "总结\n                  澳大利亚北部的伊萨山省是澳大利亚大陆最大的暴露元古代地壳区域之一，并因其世界级的矿藏而享誉全球。使用地质测绘、重力、磁力、大地电磁和地震数据提供的一系列地球物理剖面研究了底层地壳结构。在这项研究中，我们重新分析了全省记录的传统被动地震数据，利用环境噪声断层扫描生成高分辨率地壳剪切波速度模型。这些结果与沿相同勘测线获取的反射地震剖面一起进行解释，以提供对地壳成分的补充约束，并与表面地质相关。我们的模型揭示了一些主要地壳边界的明显速度对比，包括吉迪亚缝合带和几个主要断层带。在我们的模型中，基于地震反射绘制的上地壳侵入体似乎聚集在 5 公里深度的高速异常周围，并且它们似乎与 Isa Inlier 内 15-20 公里深度的更广泛的高速异常有关。这些快速的中下地壳特征可能代表与跨岩石圈岩浆系统相关的镁铁质侵入，该系统还涉及更广泛区域的长英质火山活动和相关的成矿活动。该领域的研究成果展示了如何将被动地震学与其他地球物理数据集相结合，以提高我们对全球大型矿床系统基本结构的理解。",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025gl121576",
-      "title": "Geomagnetic Field Influence on Trans‐Ionospheric HF Wave Propagation via Topside Z–to–O Mode Conversion",
-      "url": "https://doi.org/10.1029/2025gl121576",
-      "first_author": "Danish Naeem",
-      "corr_author": "Kihong Kim",
-      "affiliation": "School of Space Research Kyung Hee University  Yongin Korea",
-      "abs_zh": "电离层修改实验期间的卫星观测报告了跨电离层高频（HF）波传播，即使泵浦频率低于峰值等离子体频率。这种行为通常归因于大规模密度不规则性，局部允许普通模式（O 模式）传播，但这并不能完全解释 O 模式被禁止的磁化、过密条件下的传播。在这些条件下，Z 模式波可以介导向上的能量传输。使用二维有限差分时域模型，我们研究了场对准负密度管道中顶侧等离子体共振的线性 Z 到 O 模式转换。模拟表明，当波矢量与地磁场对齐时，传输最强，而对于倾斜注入则传输迅速减弱。磁场强度对转换效率的控制比密度梯度倾斜更强，而负波导将转换后的波能引导到外部电离层。",
+      "id": "10.1029/2026gl123346",
+      "title": "Chorus Wave‐Induced Ionospheric Variability",
+      "url": "https://doi.org/10.1029/2026gl123346",
+      "first_author": "Lunjin Chen",
+      "corr_author": "Zhiyang Xia",
+      "affiliation": "Department of Physics The University of Texas at Dallas  Richardson TX USA",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag348",
-      "title": "3D numerical simulation of ambient seismic noise for arbitrary surface source distributions: application to the study of horizontal-to-vertical spectral ratios and their variability",
-      "url": "https://doi.org/10.1093/gji/ggag348",
-      "first_author": "David Gregor",
-      "corr_author": "Florent de Martin",
-      "affiliation": "Univ. Grenoble Alpes, Univ. Savoie Mont Blanc , CNRS, IRD, Univ. Gustave Eiffel, ISTerre, 38000 Grenoble ,",
-      "abs_zh": "总结\n                  我们对环境地震噪声的水平与垂直谱比（H/V）测量对噪声源的空间分布和强横向结构对比的敏感性进行了全面的数值研究。我们的方法依赖于一组密集的潜在表面源和一些表面接收器之间的真实 3D 粘弹性格林函数的计算，从而允许合成与任意时空源分布相对应的环境噪声波场。该研究的重点是 Mygdonian 盆地（希腊北部）的简化 3D 表示，其中在盲断层附近的地点观察到 H/V 振幅、极化和峰值频率的显着时间变化。合成 H/V 与弹性漫射场理论 (DFT) 的预测之间的比较在各向同性源条件下显示出良好的一致性，证实了 DFT 作为漫射或准漫射区域中的参考框架的有用性。然而，衰减、横向异质性和不均匀的源分布会导致与 DFT 预测的重大偏差。我们发现，源相关效应可以主导振幅和极化模式，有时掩盖断层的结构特征。然而，模拟揭示了相对于断层几何形状的 H/V 极化的稳健空间趋势，这表明极化映射与密集、长时间测量相结合可能有助于识别横向异质性。我们的框架提供了一种物理上一致的方法来测试扩散场假设的极限，并探索基于环境噪声的可观测值在复杂地质环境中的适用性。",
+      "id": "10.1029/2026gl125324",
+      "title": "Chorus Element Repetition: Roles of Energetic Electron Injection and Nonlinear Wave Growth",
+      "url": "https://doi.org/10.1029/2026gl125324",
+      "first_author": "Huayue Chen",
+      "corr_author": "Rui Chen",
+      "affiliation": "Department of Physics William B. Hanson Center for Space Sciences The University of Texas at Dallas  Richardson TX USA",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag369",
+      "title": "Quantifying present-day strain rate of the southeastern Tibetan Plateau from high-resolution GNSS data: Implications for tectonic interactions and seismic hazards",
+      "url": "https://doi.org/10.1093/gji/ggag369",
+      "first_author": "Rui Xu",
+      "corr_author": "Yuanku Meng",
+      "affiliation": "Institute for Disaster Management and Reconstruction, Sichuan University , Chengdu 610065 ,",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag366",
+      "title": "Nonlinear seismic inversion in triaxial stress-induced anisotropic media modelled by microcrack closure mechanism",
+      "url": "https://doi.org/10.1093/gji/ggag366",
+      "first_author": "Liang-Yi Deng",
+      "corr_author": "Ya-Ming Yang",
+      "affiliation": "State Key Laboratory of Deep Oil and Gas, China University of Petroleum (East China) , Qingdao 266580 ,",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260065",
+      "title": "Seismic Observations from Two Long-Track EF4 Tornadoes in the Central United States",
+      "url": "https://doi.org/10.1785/0220260065",
+      "first_author": "Seth C. Thompson",
+      "corr_author": "Edward W. Woolery",
+      "affiliation": "1Department of Earth and Environmental Sciences, University of Kentucky, Lexington, Kentucky, U.S.A.",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

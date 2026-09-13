@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-08-30 至 2026-09-06 11:22",
+  "last_update": "2026-09-06 至 2026-09-13 11:38",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "10.5194/tc-20-5071-2026",
+      "title": "Mélange, landfast sea ice, ice velocities: What controls seasonal calving rates  in North West Greenland?",
+      "url": "https://doi.org/10.5194/tc-20-5071-2026",
+      "first_author": "Sofie Hedetoft",
+      "corr_author": "Peter Thejll",
+      "affiliation": "未知机构",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-5025-2026",
+      "title": "GPR-derived ice thickness of the temperate Hintereisferner glacier (Austrian Alps): evaluation of thickness models",
+      "url": "https://doi.org/10.5194/tc-20-5025-2026",
+      "first_author": "Lelde Švinka",
+      "corr_author": "Jurijs Ješkins",
+      "affiliation": "University of Latvia (Riga, Latvia)",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
     {
       "id": "10.1029/2026gl124533",
       "title": "First Empirical Assessment of Ice Content From a Himalayan Rock Glacier",
@@ -9,7 +31,7 @@
       "first_author": "Matthew W. Peacey",
       "corr_author": "Lin Liu",
       "affiliation": "Centre for Glaciology Department of Geography &amp; Earth Sciences Aberystwyth University  Aberystwyth UK",
-      "abs_zh": "亚洲高山地区的气候变暖以及冰川和永久冻土层的退化正在威胁该地区天然“水塔”以及相关生态系统和基础设施的可持续性。喜马拉雅山约有 25,000 个岩石冰川，它们比冰川更能适应气候变化，是重要的淡水水库。然而，这些岩石冰川的冰含量仍然很难量化。在这里，我们使用干涉合成孔径雷达跟踪地表运动，并使用探地雷达 (GPR) 来量化埋藏的冰，首次对位于尼泊尔中部海拔 4700 米以上的活跃 Gokyo Rock 冰川（北纬 27.9416°，东经 86.6920°）内的冰进行直接测量。我们独特的数据显示地表运动高达 1 m a\n                    −1\n                    ，与其他地方的活动岩石冰川一致，而地球物理解释揭示了两个埋藏的巨大冰体，厚度达 28.0 (±2.1) 米，估计淡水总量为 × 10\n                    5\n                     米\n                    3\n                    。这些发现强调，随着区域变暖加速，岩石冰川代表着重要的、缓慢释放的淡水储备。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -20,7 +42,7 @@
       "first_author": "Qiang Wei",
       "corr_author": "Tandong Yao",
       "affiliation": "State Key Laboratory of Tibetan Plateau Earth System Science, Environment and Resources Institute of Tibetan Plateau Research Chinese Academy of Sciences  Beijing China",
-      "abs_zh": "地质记录表明，末次盛冰期（LGM）期间，第三极（TP）上空的尘埃沉积仅略有增加，与高纬度地区的数量级增加形成鲜明对比。现有的气候模拟通常规定当前或没有TP冰川，但很难重现这种微弱的反应。在这里，我们将气候模型与冰川模型双向耦合，以模拟青藏高原上末次盛冰期尘埃循环。冰川扩张通过限制主要源区和重组水文气候和循环来抑制当地排放。这些反馈也重塑了传输和沉积，从而在古利亚产生了与冰芯记录一致的末次盛世尘埃与现代尘埃的比率，而非耦合实验大大高估了这一增加。我们的研究结果确定冰川是高山尘埃循环的主动调节者，并为解释古尘埃记录和预测未来尘埃和冰冻圈变化提供了物理基础。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -52,8 +74,8 @@
       "url": "https://doi.org/10.5194/tc-20-4747-2026",
       "first_author": "Marte Gé Hofsteenge",
       "corr_author": "Michiel van den Broeke",
-      "affiliation": "未知机构",
-      "abs_zh": "。地表融水可以使冰雪饱和，形成融水池，并引发南极冰架的水力压裂，最终加速地面冰流并导致海平面上升。尽管已知地表融化对大气变暖（以近地表气温表示）的响应是非线性的，但驱动这种非线性的机制仍然知之甚少。在这项研究中，我们从能量平衡的角度解释了非线性温度-融化关系，并评估了其在南极冰架上的空间变化。我们使用区域气候模型RACMO2.4p1，在ERA5重新分析和SSP3-7.0高排放情景下的两个全球地球系统模型的推动下，模拟当代和未来的南极气候和地表质量平衡，直到2100年。我们发现，净短波辐射的温度依赖性是相对干燥气候下冰架非线性的主要驱动因素。变暖增加了云量和降雪量，从而增加了反照率，减少了净短波辐射。当夏季气温接近-12°C时，融雪反照率反馈主导响应：变暖导致融雪降低反照率，增强短波辐射吸收。温度-融化关系在空间上也存在差异：在相同的夏季平均温度下，干燥地区的冰架比湿润地区的冰架经历了更多的融化，凸显了降雪在抑制反照率反馈方面的作用。在潮湿地区，湿度升高和云量增加通过净长波辐射的变化而不是反照率的变化来增强融化对变暖的敏感性。当夏季平均气温达到或超过熔点（0°C）时，冰架对变暖变得更加敏感。地表温度不能升至 0°C 以上，而大气则可以，从而使显热和净长波辐射增加。与此同时，降雪转变为降雨，放大了反照率反馈。欧",
+      "affiliation": "Utrecht University (Utrecht, Netherlands)",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -64,7 +86,7 @@
       "first_author": "Andrew L. Stewart",
       "corr_author": "Channing J. Prend",
       "affiliation": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Los Angeles, CA, USA.",
-      "abs_zh": "海洋热量向南极洲冰架的转移是冰川质量平衡变化的关键驱动因素。先前的研究表明，温暖的中深度海水穿过大陆坡的转移在靠近南极洲最大的冰架处升高，在那里大陆架上形成了稠密的海水。然而，这些地区的冰架保持相对较低的面积平均融化率，这表明海洋过程必须保护它们免受流入的热量影响。在这项研究中，使用高分辨率模拟来分离向威德尔海南部菲尔希纳-龙讷冰架的传热机制。这项研究表明，海洋涡流通过沿着倾斜的密度表面搅拌热异常，将几乎所有到达大陆架的热量转移到海洋表面并远离冰架。这些发现凸显了在基底融化变化的背景下了解大陆架涡流的重要性，例如，在推动未来向南极洲最大冰架输送热量方面。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -75,7 +97,7 @@
       "first_author": "Antao Xu",
       "corr_author": "Norbert Frank",
       "affiliation": "Institute of Environmental Physics, Universität Heidelberg, Heidelberg, Germany.",
-      "abs_zh": "放射性钕 (Nd) 同位素组成 (ε\n                    钕\n                    ）海水被广泛用于重建过去的海洋环流，假设整个第四纪的端元特征准恒定。然而，ε\n                    钕\n                    北大西洋冰川中层水的特征明显偏离其现代价值，挑战了这一假设，其驱动机制仍存在争议。在这里，我们表明，在过去 23 万年中，上冰期北大西洋中层水的放射源值 (−7.2) 始终高于间冰期值 (−13.4)，并且明显的冰期 - 间冰期 ε\n                    钕\n                    变化密切关注全球冰量波动（\n                    r\n                     = 0.80）。这种变化主要与冰岛火山的 Nd 输入相一致，并受冰岛冰盖的进退调节。正演模型再现了观察到的 ε\n                    钕\n                    演化并揭示了 Nd 输出对冰盖动力学的非线性响应，产生平均冰川 Nd 输入通量为 2.4 × 10\n                    8\n                    克每年。我们的研究结果强调了高纬度冰盖系统在冰川期调节北大西洋海水化学方面的关键作用。",
+      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -85,31 +107,9 @@
       "url": "https://doi.org/10.5194/tc-20-4563-2026",
       "first_author": "Markus Reinert",
       "corr_author": "Hans Burchard",
-      "affiliation": "未知机构",
-      "abs_zh": "。格陵兰冰盖是全球海平面上升的主要原因。虽然表面融化是由大气驱动的，但海洋过程从下方融化了格陵兰岛北部漂浮的冰川舌。由于对这些舌头下方的直接观察是有限的，因此数值模型对于详细了解冰-海洋相互作用至关重要。为了研究格陵兰岛最大浮冰舌的海洋融化以及融水引起的环流，我们开发了北纬79°冰川峡湾的高分辨率三维模型（500米水平分辨率，100个自适应垂直层）。我们的模拟表明，冰-海洋界面的融化是由三个不同的冰下羽流驱动的，它们在温度-盐度空间中具有不同的特征。这些浮力重力流的路径是由冰地形（特别是冰架中的基底通道）和科里奥利效应决定的。一股羽流围绕冰基中的圆锥状特征流动，其尺寸与罗斯比半径相当，这表明这些锥体可能是通过羽流引起的融化而形成的。在大约 100 至 200 米的深度，羽流从冰上分离，并将融水从峡湾流向公海。融化所需的热量是由浓密的底部羽流提供的，该羽流穿过峡湾入口处的窗台流入冰川空腔。在基台下游，液压控制可以增强羽流和环境水之间的混合，冷却流入物并减少到达冰川底部的热量。我们的模型解决了冰腔中羽流的这些细节，提高了对冰川舌下方海洋驱动融化的理解。",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-4255-2026",
-      "title": "Current morphodynamics and subsurface structure of thrust moraines and rock glaciers connected to three Little Ice Age glacier forefields in the Swiss Alps",
-      "url": "https://doi.org/10.5194/tc-20-4255-2026",
-      "first_author": "Julius Kunz",
-      "corr_author": "Christof Kneisel",
-      "affiliation": "未知机构",
+      "affiliation": "Leibniz Institute for Baltic Sea Research Warnemünde (Warnemünde, Germany)",
       "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
       "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120110",
-      "title": "Constraining the strength of the brewer-dobson circulation during the last Glacial maximum using water 17O-excess records from Antarctic ice cores",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120110",
-      "first_author": "Hongxi Pang",
-      "corr_author": "Shugui Hou",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
       "published": "2026"
     }
   ]
