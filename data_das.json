@@ -1,7 +1,84 @@
 {
-  "last_update": "2026-09-06 至 2026-09-13 11:38",
+  "last_update": "2026-09-13 至 2026-09-20 11:50",
   "topic_name": "分布式光纤传感",
   "papers": [
+    {
+      "id": "2609.20796v1",
+      "title": "Metric Weighted Edit Distance: $(3+\\varepsilon)$-Approximation in $\\widetilde O_\\varepsilon(N^{1.6})$ Time",
+      "url": "http://arxiv.org/abs/2609.20796v1",
+      "first_author": "Debarati Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-17"
+    },
+    {
+      "id": "2609.20599v1",
+      "title": "Space-time fractional stochastic Burgers-type equation",
+      "url": "http://arxiv.org/abs/2609.20599v1",
+      "first_author": "Ming-Wei Kuo",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-17"
+    },
+    {
+      "id": "2609.20387v1",
+      "title": "Ultralow-Tensile Strain Enables Exciton Funneling and Energy Transfer to Boost MoSe2 Photoluminescence Quantum Yield",
+      "url": "http://arxiv.org/abs/2609.20387v1",
+      "first_author": "Gayatri",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-17"
+    },
+    {
+      "id": "2609.20381v1",
+      "title": "Small-Angle Differential Cross Sections for Symmetrical Resonant Charge Exchange in Molecular Hydrogen",
+      "url": "http://arxiv.org/abs/2609.20381v1",
+      "first_author": "Jibak Mukherjee",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-17"
+    },
+    {
+      "id": "2609.19271v1",
+      "title": "Probing Scalar-Induced First-Order Phase Transitions with the Diffuse Supernova Neutrino Background",
+      "url": "http://arxiv.org/abs/2609.19271v1",
+      "first_author": "Sudipta Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-16"
+    },
+    {
+      "id": "10.1126/sciadv.aem0112",
+      "title": "Erratum for the Research Article, “Wireless, skin-interfaced multimodal sensing system for continuous psychophysiological monitoring—A wearable polygraph device” by S.H. Kim\n                    <i>et al</i>\n                    .",
+      "url": "https://doi.org/10.1126/sciadv.aem0112",
+      "first_author": "N/A",
+      "corr_author": "N/A",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260220",
+      "title": "Calibrating Microwave-Frequency Fiber Interferometry Against Collocated DAS: Earthquakes, Ocean Waves, and Traffic",
+      "url": "https://doi.org/10.1785/0220260220",
+      "first_author": "Yuhan Wang",
+      "corr_author": "Andreas Fichtner",
+      "affiliation": "1Department of Earth and Planetary Sciences, Institute of Geophysics, ETH Zurich, Zurich, Switzerland",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1126/sciadv.aef6473",
       "title": "A highly sensitive and drift-free iontronic sensor enabled by a polarity-balanced polyelectrolyte for surgical force sensing",
@@ -9,7 +86,7 @@
       "first_author": "Xingyu Hou",
       "corr_author": "Li Zhang",
       "affiliation": "Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong, Hong Kong SAR 999077, P. R. China.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -20,7 +97,7 @@
       "first_author": "Zhufeng Lu",
       "corr_author": "Jizhong Yang",
       "affiliation": "Laboratory of Ocean and Marginal Sea Geology State Key Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     },
@@ -31,7 +108,7 @@
       "first_author": "Chih-Chieh Chien",
       "corr_author": "Mark A. Zumberge",
       "affiliation": "1Institute of Geophysics and Planetary Physics, Scripps Institute of Oceanography, University of California, San Diego, La Jolla, California, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     },
@@ -42,7 +119,7 @@
       "first_author": "Camilo Muñoz",
       "corr_author": "Alexandros Savvaidis",
       "affiliation": "1Bureau of Economic Geology, The University of Texas at Austin, Austin, Texas, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -53,7 +130,7 @@
       "first_author": "Heting Hong",
       "corr_author": "Nianwen Xiang",
       "affiliation": "1School of Electrical Engineering and Automation, Hefei University of Technology, Hefei, China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -64,7 +141,7 @@
       "first_author": "Shao-Hao Lu",
       "corr_author": "Xueju Sophie Wang",
       "affiliation": "Department of Materials Science and Engineering, University of Connecticut, Storrs, CT 06269, USA.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -75,7 +152,7 @@
       "first_author": "Konstantinos Michailos",
       "corr_author": "Graham Clarke",
       "affiliation": "1Research School of Earth Sciences, Australian National University, Canberra, Australia",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
       "published": "2026"
     },
@@ -88,28 +165,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb031867",
-      "title": "Shaking‐Induced Small Seismic Velocity Changes as Revealed From Seismic Interferometry Analysis of Distributed Acoustic Sensing Data",
-      "url": "https://doi.org/10.1029/2025jb031867",
-      "first_author": "Takashi Hirose",
-      "corr_author": "Satoru Hamanaka",
-      "affiliation": "Department of Geophysics Graduate School of Science Tohoku University  Sendai Japan",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec5358",
-      "title": "Operando state monitoring of diversified lithium-ion batteries via laser-excited ultrasonic sensing with transformer networks",
-      "url": "https://doi.org/10.1126/sciadv.aec5358",
-      "first_author": "Gaolong Lv",
-      "corr_author": "Shifeng Guo",
-      "affiliation": "Shenzhen Key Laboratory of Smart Sensing and Intelligent Systems, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen 518055, China.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]

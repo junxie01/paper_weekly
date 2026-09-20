@@ -1,7 +1,40 @@
 {
-  "last_update": "2026-09-06 至 2026-09-13 11:38",
+  "last_update": "2026-09-13 至 2026-09-20 11:50",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "2606.10992v1",
+      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
+      "url": "http://arxiv.org/abs/2606.10992v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2604.14226v1",
+      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
+      "url": "http://arxiv.org/abs/2604.14226v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-04-14"
+    },
+    {
+      "id": "10.5194/tc-20-5157-2026",
+      "title": "On thin glacial ice: New Austrian Glacier Inventory shows accelerating glacier shrinkage and 31 % area loss within two decades",
+      "url": "https://doi.org/10.5194/tc-20-5157-2026",
+      "first_author": "Lea Hartl",
+      "corr_author": "Harald Zandler",
+      "affiliation": "Institute for Interdisciplinary Mountain Research (Innsbruck, Austria)",
+      "abs_zh": "翻译失败",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
     {
       "id": "10.5194/tc-20-5071-2026",
       "title": "Mélange, landfast sea ice, ice velocities: What controls seasonal calving rates  in North West Greenland?",
@@ -9,7 +42,7 @@
       "first_author": "Sofie Hedetoft",
       "corr_author": "Peter Thejll",
       "affiliation": "未知机构",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -20,7 +53,7 @@
       "first_author": "Lelde Švinka",
       "corr_author": "Jurijs Ješkins",
       "affiliation": "University of Latvia (Riga, Latvia)",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -31,7 +64,7 @@
       "first_author": "Matthew W. Peacey",
       "corr_author": "Lin Liu",
       "affiliation": "Centre for Glaciology Department of Geography &amp; Earth Sciences Aberystwyth University  Aberystwyth UK",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -42,7 +75,7 @@
       "first_author": "Qiang Wei",
       "corr_author": "Tandong Yao",
       "affiliation": "State Key Laboratory of Tibetan Plateau Earth System Science, Environment and Resources Institute of Tibetan Plateau Research Chinese Academy of Sciences  Beijing China",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
@@ -75,7 +108,7 @@
       "first_author": "Marte Gé Hofsteenge",
       "corr_author": "Michiel van den Broeke",
       "affiliation": "Utrecht University (Utrecht, Netherlands)",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "The Cryosphere",
       "published": "2026"
     },
@@ -86,7 +119,7 @@
       "first_author": "Andrew L. Stewart",
       "corr_author": "Channing J. Prend",
       "affiliation": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Los Angeles, CA, USA.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -97,20 +130,42 @@
       "first_author": "Antao Xu",
       "corr_author": "Norbert Frank",
       "affiliation": "Institute of Environmental Physics, Universität Heidelberg, Heidelberg, Germany.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Science Advances",
       "published": "2026"
     },
     {
-      "id": "10.5194/tc-20-4563-2026",
-      "title": "The multilayer ocean circulation melting the 79N Glacier ice tongue",
-      "url": "https://doi.org/10.5194/tc-20-4563-2026",
-      "first_author": "Markus Reinert",
-      "corr_author": "Hans Burchard",
-      "affiliation": "Leibniz Institute for Baltic Sea Research Warnemünde (Warnemünde, Germany)",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "The Cryosphere",
-      "published": "2026"
+      "id": "2503.12481v1",
+      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
+      "url": "http://arxiv.org/abs/2503.12481v1",
+      "first_author": "T. Clayton",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2025-03-16"
+    },
+    {
+      "id": "2306.08405v1",
+      "title": "A viscoelastic phase-field model for iceberg calving",
+      "url": "http://arxiv.org/abs/2306.08405v1",
+      "first_author": "Jakub Stocek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2023-06-14"
+    },
+    {
+      "id": "2304.08120v2",
+      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
+      "url": "http://arxiv.org/abs/2304.08120v2",
+      "first_author": "Sacha Lapins",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2023-04-17"
     }
   ]
 }

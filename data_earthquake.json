@@ -1,7 +1,73 @@
 {
-  "last_update": "2026-09-06 至 2026-09-13 11:38",
+  "last_update": "2026-09-13 至 2026-09-20 11:50",
   "topic_name": "地震研究",
   "papers": [
+    {
+      "id": "2609.10249v1",
+      "title": "Holistic law of aftershocks",
+      "url": "http://arxiv.org/abs/2609.10249v1",
+      "first_author": "A. V. Guglielmi",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-09"
+    },
+    {
+      "id": "2609.07983v1",
+      "title": "Solving the Elastic Wave Equation with Physics-Informed Neural Networks: A Robust and Critical Assessment",
+      "url": "http://arxiv.org/abs/2609.07983v1",
+      "first_author": "Davide Staub",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-07"
+    },
+    {
+      "id": "2607.29381v1",
+      "title": "On four representations of the law of aftershock evolution",
+      "url": "http://arxiv.org/abs/2607.29381v1",
+      "first_author": "A. V. Guglielmi",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-07-31"
+    },
+    {
+      "id": "2604.02472v1",
+      "title": "VALOR: Value-Aware Revenue Uplift Modeling with Treatment-Gated Representation for B2B Sales",
+      "url": "http://arxiv.org/abs/2604.02472v1",
+      "first_author": "Vamshi Guduguntla",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-04-02"
+    },
+    {
+      "id": "2603.27860v1",
+      "title": "Relative Focal Mechanism Inversion Using Relative Polarities and S/P Double Ratios",
+      "url": "http://arxiv.org/abs/2603.27860v1",
+      "first_author": "Miao Zhang",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-03-29"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120301",
+      "title": "Mapping the Australian upper mantle flow with azimuthal anisotropy from seismic full-waveform inversion",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120301",
+      "first_author": "Ömer Bodur",
+      "corr_author": "Hejun Zhu",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
     {
       "id": "10.1016/j.epsl.2026.120283",
       "title": "Nonlocal elastic unloading as a mechanism for breakdown work scaling in laboratory earthquakes",
@@ -36,80 +102,69 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag381",
+      "title": "Petrophysical Joint Inversion of Electrical and Seismic Tomographic Data Including Shear Waves",
+      "url": "https://doi.org/10.1093/gji/ggag381",
+      "first_author": "Guido Penta de Peppo",
+      "corr_author": "Giorgio De Donno",
+      "affiliation": "“Sapienza” University of Rome - DICEA , via Eudossiana 18, 00184, Rome ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/d41586-026-02608-z",
+      "title": "UK universities are on the brink — what is their greatest source of stress?",
+      "url": "https://doi.org/10.1038/d41586-026-02608-z",
+      "first_author": "Elliot Yates",
+      "corr_author": "Jack Leeming",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250360",
+      "title": "The Terza Torre Seismic Array in Bologna, Italy: A Monitoring Infrastructure for Soil-Structure Systems Analysis",
+      "url": "https://doi.org/10.1785/0220250360",
+      "first_author": "Laura Cataldi",
+      "corr_author": "Valerio Poggi",
+      "affiliation": "1National Institute of Oceanography and Applied Geophysics - OGS, Sgonico, Italy",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120260135",
+      "title": "Consistency and Uncertainty of Multimethod Source-Parameter Estimates for the 2016–2017 Amatrice–Visso–Norcia Seismic Sequence, Central Italy",
+      "url": "https://doi.org/10.1785/0120260135",
+      "first_author": "Giovanna Calderoni",
+      "corr_author": "Dino Bindi",
+      "affiliation": "1Istituto Nazionale di Geofisica e Vulcanologia (INGV), Rome, Italy",
+      "abs_zh": "翻译失败",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220250376",
+      "title": "CWAS: A Dense Passive-Source Seismic Survey to Image Northwestern Australia",
+      "url": "https://doi.org/10.1785/0220250376",
+      "first_author": "Tingzi Li",
+      "corr_author": "Huaiyu Yuan",
+      "affiliation": "1State Key Laboratory of Lithospheric and Environmental Coevolution, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, China",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag366",
       "title": "Nonlinear seismic inversion in triaxial stress-induced anisotropic media modelled by microcrack closure mechanism",
       "url": "https://doi.org/10.1093/gji/ggag366",
       "first_author": "Liang-Yi Deng",
       "corr_author": "Ya-Ming Yang",
       "affiliation": "State Key Laboratory of Deep Oil and Gas, China University of Petroleum (East China) , Qingdao 266580 ,",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260154",
-      "title": "Fracture Orientation Inferred from Correlation-Based Microseismicity Focal Mechanism Using Integrated Arrays at Utah FORGE",
-      "url": "https://doi.org/10.1785/0120260154",
-      "first_author": "Sin-Mei Wu",
-      "corr_author": "Nori Nakata",
-      "affiliation": "1Lawrence Berkeley National Laboratory, Berkeley, California, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aeg4851",
-      "title": "Mechanism of membrane perforation in rotavirus cell entry",
-      "url": "https://doi.org/10.1126/science.aeg4851",
-      "first_author": "Marilina de Sautu",
-      "corr_author": "Stephen C. Harrison",
-      "affiliation": "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl124481",
-      "title": "Source‐Unbiased Subsurface Monitoring With Seismic Noise",
-      "url": "https://doi.org/10.1029/2026gl124481",
-      "first_author": "Pilar Sánchez‐Pastor",
-      "corr_author": "Montserrat Torné",
-      "affiliation": "Geosciences Barcelona (GEO3BCN, CSIC)  Barcelona Spain",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260140",
-      "title": "Comparing On-Fault Seismicity and Probabilistic Seismic Hazard from Inversion Models and the Rate and State Earthquake Simulator (RSQSim); Insights from Aotearoa New Zealand",
-      "url": "https://doi.org/10.1785/0120260140",
-      "first_author": "Govinda P. Niroula",
-      "corr_author": "Matthew Gerstenberger",
-      "affiliation": "1Department of Geology, University of Otago, Dunedin, New Zealand",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260123",
-      "title": "Deep Learning Polarity Measurements and\n                    <i>SH</i>\n                    Constraints for Focal Mechanism Estimation: A Utah FORGE Case Study",
-      "url": "https://doi.org/10.1785/0220260123",
-      "first_author": "Ahmad Mohammadi",
-      "corr_author": "Pranshu Ratre",
-      "affiliation": "1Texas A&M University, College Station, Texas, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/d41586-026-02739-3",
-      "title": "Body parts used for ancient Egyptian artworks traced to surprising source",
-      "url": "https://doi.org/10.1038/d41586-026-02739-3",
-      "first_author": "N/A",
-      "corr_author": "N/A",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
       "published": "2026"
     }
   ]

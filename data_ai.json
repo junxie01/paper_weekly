@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-09-06 至 2026-09-13 11:38",
+  "last_update": "2026-09-13 至 2026-09-20 11:50",
   "topic_name": "人工智能",
   "papers": [
+    {
+      "id": "2603.03079v1",
+      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
+      "url": "http://arxiv.org/abs/2603.03079v1",
+      "first_author": "Jonas Köhler",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-03-03"
+    },
+    {
+      "id": "2602.09792v1",
+      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
+      "url": "http://arxiv.org/abs/2602.09792v1",
+      "first_author": "Jaehong Chung",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-02-10"
+    },
     {
       "id": "10.1016/j.epsl.2026.120308",
       "title": "A machine learning diagnostic test for nonstationary ETAS aftershock models",
@@ -25,13 +47,24 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aeh4467",
+      "title": "In situ learning-based spin engineering of pulsed dynamic nuclear polarization",
+      "url": "https://doi.org/10.1126/sciadv.aeh4467",
+      "first_author": "Filip V. Jensen",
+      "corr_author": "Niels Chr. Nielsen",
+      "affiliation": "Interdisciplinary Nanoscience Center (iNANO) and Department of Chemistry, Aarhus University, Gustav Wieds Vej 14, DK-8000 Aarhus C, Denmark.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
       "id": "10.1126/sciadv.aeb4205",
       "title": "Learning stochastic dynamics and cell-fate landscapes from single-cell snapshots via optimal transport",
       "url": "https://doi.org/10.1126/sciadv.aeb4205",
       "first_author": "Juntan Liu",
       "corr_author": "Chunhe Li",
       "affiliation": "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai 200433, China.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Science Advances",
       "published": "2026"
     },
@@ -58,22 +91,22 @@
       "published": "2026"
     },
     {
-      "id": "10.1038/d41586-026-02825-6",
-      "title": "Pick up the phone! Phone calls with tutors keep kids learning when schools shut down",
-      "url": "https://doi.org/10.1038/d41586-026-02825-6",
-      "first_author": "Mohana Basu",
-      "corr_author": "Mohana Basu",
+      "id": "10.1038/d41586-026-02700-4",
+      "title": "Phone-call tutorials improve learning cost-effectively during education emergencies",
+      "url": "https://doi.org/10.1038/d41586-026-02700-4",
+      "first_author": "Noam Angrist",
+      "corr_author": "Tim Sullivan",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Nature",
       "published": "2026"
     },
     {
-      "id": "10.1038/d41586-026-02700-4",
-      "title": "Phone-call tutorials improve learning cost-effectively during education emergencies",
-      "url": "https://doi.org/10.1038/d41586-026-02700-4",
-      "first_author": "Noam Angrist",
-      "corr_author": "Tim Sullivan",
+      "id": "10.1038/d41586-026-02825-6",
+      "title": "Pick up the phone! Phone calls with tutors keep kids learning when schools shut down",
+      "url": "https://doi.org/10.1038/d41586-026-02825-6",
+      "first_author": "Mohana Basu",
+      "corr_author": "Mohana Basu",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Nature",
@@ -97,20 +130,42 @@
       "first_author": "Govinda P. Niroula",
       "corr_author": "Matthew Gerstenberger",
       "affiliation": "1Department of Geology, University of Otago, Dunedin, New Zealand",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "abs_zh": "翻译失败",
       "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     },
     {
-      "id": "10.1785/0220260123",
-      "title": "Deep Learning Polarity Measurements and\n                    <i>SH</i>\n                    Constraints for Focal Mechanism Estimation: A Utah FORGE Case Study",
-      "url": "https://doi.org/10.1785/0220260123",
-      "first_author": "Ahmad Mohammadi",
-      "corr_author": "Pranshu Ratre",
-      "affiliation": "1Texas A&M University, College Station, Texas, U.S.A.",
-      "abs_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
-      "source": "Seismological Research Letters",
-      "published": "2026"
+      "id": "2508.04925v2",
+      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
+      "url": "http://arxiv.org/abs/2508.04925v2",
+      "first_author": "Sigma Jahan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2025-08-06"
+    },
+    {
+      "id": "2412.16336v1",
+      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
+      "url": "http://arxiv.org/abs/2412.16336v1",
+      "first_author": "Gunel Jahangirova",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2024-12-20"
+    },
+    {
+      "id": "2411.17707v1",
+      "title": "A Composite Fault Diagnosis Model for NPPs Based on Bayesian-EfficientNet Module",
+      "url": "http://arxiv.org/abs/2411.17707v1",
+      "first_author": "Siwei Li",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2024-11-13"
     }
   ]
 }
