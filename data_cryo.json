@@ -1,28 +1,28 @@
 {
-  "last_update": "2026-09-13 至 2026-09-20 11:50",
+  "last_update": "2026-09-20 至 2026-09-27 12:07",
   "topic_name": "冰川地震学",
   "papers": [
     {
-      "id": "2606.10992v1",
-      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
-      "url": "http://arxiv.org/abs/2606.10992v1",
-      "first_author": "Wojciech Gajek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1029/2026gl125399",
+      "title": "Listening to Tsunami Waves Induced by Glacier Calving",
+      "url": "https://doi.org/10.1029/2026gl125399",
+      "first_author": "O. Glowacki",
+      "corr_author": "G. B. Deane",
+      "affiliation": "Institute of Geophysics Polish Academy of Sciences  Warsaw Poland",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-06-09"
+      "source": "Geophysical Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2604.14226v1",
-      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
-      "url": "http://arxiv.org/abs/2604.14226v1",
-      "first_author": "Wojciech Gajek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.5194/tc-20-5247-2026",
+      "title": "Temporal evolution of the Petermann Ice Shelf estuary constrained by satellite remote sensing observations",
+      "url": "https://doi.org/10.5194/tc-20-5247-2026",
+      "first_author": "Michela Savignano",
+      "corr_author": "Leigh A. Stearns",
+      "affiliation": "University of Colorado Boulder (Boulder, United States of America)",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-04-14"
+      "source": "The Cryosphere",
+      "published": "2026"
     },
     {
       "id": "10.5194/tc-20-5157-2026",
@@ -111,61 +111,6 @@
       "abs_zh": "翻译失败",
       "source": "The Cryosphere",
       "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec8232",
-      "title": "Fate of heat approaching the Filchner-Ronne Ice Shelf mediated by continental shelf eddies",
-      "url": "https://doi.org/10.1126/sciadv.aec8232",
-      "first_author": "Andrew L. Stewart",
-      "corr_author": "Channing J. Prend",
-      "affiliation": "Department of Atmospheric and Oceanic Sciences, University of California, Los Angeles, Los Angeles, CA, USA.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeg5747",
-      "title": "Ice-sheet dynamics drive glacial-interglacial shifts in North Atlantic seawater neodymium isotopes",
-      "url": "https://doi.org/10.1126/sciadv.aeg5747",
-      "first_author": "Antao Xu",
-      "corr_author": "Norbert Frank",
-      "affiliation": "Institute of Environmental Physics, Universität Heidelberg, Heidelberg, Germany.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "2503.12481v1",
-      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
-      "url": "http://arxiv.org/abs/2503.12481v1",
-      "first_author": "T. Clayton",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2025-03-16"
-    },
-    {
-      "id": "2306.08405v1",
-      "title": "A viscoelastic phase-field model for iceberg calving",
-      "url": "http://arxiv.org/abs/2306.08405v1",
-      "first_author": "Jakub Stocek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2023-06-14"
-    },
-    {
-      "id": "2304.08120v2",
-      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
-      "url": "http://arxiv.org/abs/2304.08120v2",
-      "first_author": "Sacha Lapins",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2023-04-17"
     }
   ]
 }

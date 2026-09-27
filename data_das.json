@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-09-13 至 2026-09-20 11:50",
+  "last_update": "2026-09-20 至 2026-09-27 12:07",
   "topic_name": "分布式光纤传感",
   "papers": [
-    {
-      "id": "2609.20796v1",
-      "title": "Metric Weighted Edit Distance: $(3+\\varepsilon)$-Approximation in $\\widetilde O_\\varepsilon(N^{1.6})$ Time",
-      "url": "http://arxiv.org/abs/2609.20796v1",
-      "first_author": "Debarati Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-17"
-    },
-    {
-      "id": "2609.20599v1",
-      "title": "Space-time fractional stochastic Burgers-type equation",
-      "url": "http://arxiv.org/abs/2609.20599v1",
-      "first_author": "Ming-Wei Kuo",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-17"
-    },
-    {
-      "id": "2609.20387v1",
-      "title": "Ultralow-Tensile Strain Enables Exciton Funneling and Energy Transfer to Boost MoSe2 Photoluminescence Quantum Yield",
-      "url": "http://arxiv.org/abs/2609.20387v1",
-      "first_author": "Gayatri",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-17"
-    },
-    {
-      "id": "2609.20381v1",
-      "title": "Small-Angle Differential Cross Sections for Symmetrical Resonant Charge Exchange in Molecular Hydrogen",
-      "url": "http://arxiv.org/abs/2609.20381v1",
-      "first_author": "Jibak Mukherjee",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-17"
-    },
-    {
-      "id": "2609.19271v1",
-      "title": "Probing Scalar-Induced First-Order Phase Transitions with the Diffuse Supernova Neutrino Background",
-      "url": "http://arxiv.org/abs/2609.19271v1",
-      "first_author": "Sudipta Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-16"
-    },
     {
       "id": "10.1126/sciadv.aem0112",
       "title": "Erratum for the Research Article, “Wireless, skin-interfaced multimodal sensing system for continuous psychophysiological monitoring—A wearable polygraph device” by S.H. Kim\n                    <i>et al</i>\n                    .",
@@ -97,6 +42,17 @@
       "first_author": "Zhufeng Lu",
       "corr_author": "Jizhong Yang",
       "affiliation": "Laboratory of Ocean and Marginal Sea Geology State Key Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China",
+      "abs_zh": "翻译失败",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026jb034841",
+      "title": "Resolving Sub‐Kilometer Cascading Ruptures of Moderate Earthquakes With Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1029/2026jb034841",
+      "first_author": "Hao Zhang",
+      "corr_author": "Zhongwen Zhan",
+      "affiliation": "Seismological Laboratory Division of Geological and Planetary Sciences California Institute of Technology  Pasadena CA USA",
       "abs_zh": "翻译失败",
       "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
@@ -154,17 +110,6 @@
       "affiliation": "1Research School of Earth Sciences, Australian National University, Canberra, Australia",
       "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120077",
-      "title": "Periodic seismic velocity variations in shallow marine sediments using decommissioned fiber-optic cable",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120077",
-      "first_author": "Zhenghong Song",
-      "corr_author": "Tengfei Xu",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
       "published": "2026"
     }
   ]

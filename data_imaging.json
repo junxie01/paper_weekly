@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-09-13 至 2026-09-20 11:50",
+  "last_update": "2026-09-20 至 2026-09-27 12:07",
   "topic_name": "地震成像",
   "papers": [
-    {
-      "id": "2609.12899v1",
-      "title": "Physical-State-Guided Diffusion Sampling for Full-Waveform Inversion",
-      "url": "http://arxiv.org/abs/2609.12899v1",
-      "first_author": "Chen Min",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-11"
-    },
-    {
-      "id": "2609.03380v1",
-      "title": "PSDWII: Physical-Structure-Driven Waveform Inversion Imaging",
-      "url": "http://arxiv.org/abs/2609.03380v1",
-      "first_author": "Shengchang Chen",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-09-03"
-    },
-    {
-      "id": "2608.25160v1",
-      "title": "ROMNet: a hybrid reduced order modeling and machine learning approach to waveform inversion",
-      "url": "http://arxiv.org/abs/2608.25160v1",
-      "first_author": "Liliana Borcea",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-08-25"
-    },
-    {
-      "id": "2608.19828v1",
-      "title": "Simulation-to-Real First-Break Segmentation for Efficient Inversion in Musculoskeletal Ultrasound Tomography",
-      "url": "http://arxiv.org/abs/2608.19828v1",
-      "first_author": "Yifei Sun",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-08-20"
-    },
-    {
-      "id": "2608.15231v1",
-      "title": "Deep Earth imaging through neutrino and seismic tomography",
-      "url": "http://arxiv.org/abs/2608.15231v1",
-      "first_author": "Sanjib Kumar Agarwalla",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-08-15"
-    },
     {
       "id": "10.1016/j.epsl.2026.120306",
       "title": "Seismic evidence for a slab window beneath central Sumatra",
@@ -146,25 +91,25 @@
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.aee4171",
-      "title": "Stratospheric wave predictability enhances surface forecasts over North America",
-      "url": "https://doi.org/10.1126/sciadv.aee4171",
-      "first_author": "Xiuyuan Ding",
-      "corr_author": "Liping Wang",
-      "affiliation": "Program in Atmospheric and Oceanic Sciences, Princeton University, Princeton, NJ, USA.",
+      "id": "10.1093/gji/ggag384",
+      "title": "Effects of groundwater level variations on seismic ground motion",
+      "url": "https://doi.org/10.1093/gji/ggag384",
+      "first_author": "Josué G González",
+      "corr_author": "Tobias M Müller",
+      "affiliation": "Instituto de Ingeniería, Universidad Nacional Autónoma de México , Mexico City , , 04510",
       "abs_zh": "翻译失败",
-      "source": "Science Advances",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1126/science.aem4012",
-      "title": "A seismic shift",
-      "url": "https://doi.org/10.1126/science.aem4012",
-      "first_author": "Daniela C. Molina Palacios",
-      "corr_author": "Daniela C. Molina Palacios",
-      "affiliation": "Daniela C. Molina Palacios is an M.D.-Ph.D. student at Dartmouth College. Do you have an interesting career story to share? See our author guidelines at .",
-      "abs_zh": "无摘要详情",
-      "source": "Science",
+      "id": "10.1093/gji/ggag388",
+      "title": "Shallow lithosphere structure in the north-central region of the gulf of California, Mexico, from seismic noise and earthquake tomography",
+      "url": "https://doi.org/10.1093/gji/ggag388",
+      "first_author": "Favio Cruz Hernández",
+      "corr_author": "Raúl Ramón Castro Escamilla",
+      "affiliation": "Departamento de Sismología , División Ciencias de la Tierra, Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE), Ensenada, Baja California, Carretera Ensenada - Tijuana No. 3918, Zona Playitas, CP. 22860, Ensenada, B.C. México. 22860 ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]
