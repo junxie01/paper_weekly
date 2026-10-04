@@ -1,7 +1,73 @@
 {
-  "last_update": "2026-09-20 至 2026-09-27 12:07",
+  "last_update": "2026-09-27 至 2026-10-04 12:43",
   "topic_name": "分布式光纤传感",
   "papers": [
+    {
+      "id": "2610.02194v1",
+      "title": "SW1D: A Python package for seismic surface wave solutions in 1-D elastic media",
+      "url": "http://arxiv.org/abs/2610.02194v1",
+      "first_author": "Piyush Kolhe",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2610.01582v1",
+      "title": "Viability problems for SDEs in a general Gelfand triple setup using a variational approach",
+      "url": "http://arxiv.org/abs/2610.01582v1",
+      "first_author": "Ioana Ciotir",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2610.01496v1",
+      "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
+      "url": "http://arxiv.org/abs/2610.01496v1",
+      "first_author": "Aryan Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2610.01474v1",
+      "title": "Cramér-Rao Bound Optimization for Joint Beamforming and Mode Selection in RDARS-Assisted ISAC Systems",
+      "url": "http://arxiv.org/abs/2610.01474v1",
+      "first_author": "Ahmad Reza Hassanshahi",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2610.01412v1",
+      "title": "Probing an up-phobic Higgs at colliders: the role of $b$-associated production in the democratic 3HDM",
+      "url": "http://arxiv.org/abs/2610.01412v1",
+      "first_author": "Dipankar Das",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "10.1093/gji/ggag391",
+      "title": "Tsunami-induced crustal strain: analytical solutions for tsunami observation using fiber optic sensing",
+      "url": "https://doi.org/10.1093/gji/ggag391",
+      "first_author": "Ayumu Mizutani",
+      "corr_author": "Tatsuhiko Saito",
+      "affiliation": "National Research Institute for Earth Science and Disaster Resilience , Tsukuba 305-0006 ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
     {
       "id": "10.1126/sciadv.aem0112",
       "title": "Erratum for the Research Article, “Wireless, skin-interfaced multimodal sensing system for continuous psychophysiological monitoring—A wearable polygraph device” by S.H. Kim\n                    <i>et al</i>\n                    .",
@@ -99,17 +165,6 @@
       "affiliation": "Department of Materials Science and Engineering, University of Connecticut, Storrs, CT 06269, USA.",
       "abs_zh": "翻译失败",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260139",
-      "title": "Snow Avalanche Characteristics Along Milford Road, Aotearoa New Zealand, Using Distributed Acoustic Sensing",
-      "url": "https://doi.org/10.1785/0220260139",
-      "first_author": "Konstantinos Michailos",
-      "corr_author": "Graham Clarke",
-      "affiliation": "1Research School of Earth Sciences, Australian National University, Canberra, Australia",
-      "abs_zh": "翻译失败",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

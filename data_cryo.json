@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-09-20 至 2026-09-27 12:07",
+  "last_update": "2026-09-27 至 2026-10-04 12:43",
   "topic_name": "冰川地震学",
   "papers": [
+    {
+      "id": "2606.10992v1",
+      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
+      "url": "http://arxiv.org/abs/2606.10992v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-06-09"
+    },
+    {
+      "id": "2604.14226v1",
+      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
+      "url": "http://arxiv.org/abs/2604.14226v1",
+      "first_author": "Wojciech Gajek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-04-14"
+    },
     {
       "id": "10.1029/2026gl125399",
       "title": "Listening to Tsunami Waves Induced by Glacier Calving",
@@ -111,6 +133,39 @@
       "abs_zh": "翻译失败",
       "source": "The Cryosphere",
       "published": "2026"
+    },
+    {
+      "id": "2503.12481v1",
+      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
+      "url": "http://arxiv.org/abs/2503.12481v1",
+      "first_author": "T. Clayton",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2025-03-16"
+    },
+    {
+      "id": "2306.08405v1",
+      "title": "A viscoelastic phase-field model for iceberg calving",
+      "url": "http://arxiv.org/abs/2306.08405v1",
+      "first_author": "Jakub Stocek",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2023-06-14"
+    },
+    {
+      "id": "2304.08120v2",
+      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
+      "url": "http://arxiv.org/abs/2304.08120v2",
+      "first_author": "Sacha Lapins",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2023-04-17"
     }
   ]
 }

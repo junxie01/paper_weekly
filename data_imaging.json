@@ -1,13 +1,79 @@
 {
-  "last_update": "2026-09-20 至 2026-09-27 12:07",
+  "last_update": "2026-09-27 至 2026-10-04 12:43",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2610.01930v1",
+      "title": "Towards 3D fully randomized frequency-domain reconstruction of the speed of sound in breast ultrasound computed tomography",
+      "url": "http://arxiv.org/abs/2610.01930v1",
+      "first_author": "Luca A. Forte",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2610.01081v1",
+      "title": "Coarse-to-fine multi-resolution hash encoding for implicit full waveform inversion",
+      "url": "http://arxiv.org/abs/2610.01081v1",
+      "first_author": "Linrong Wang",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2610.01033v1",
+      "title": "GeoFWI3D: Large-scale 3D Velocity Model Dataset for Deep Learning-assisted Seismic Imaging",
+      "url": "http://arxiv.org/abs/2610.01033v1",
+      "first_author": "Sujith Swaminadhan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-01"
+    },
+    {
+      "id": "2609.32142v1",
+      "title": "Efficient One-Step Surface-Wave Tomography through Implicit Differentiation and Jacobian Factorization",
+      "url": "http://arxiv.org/abs/2609.32142v1",
+      "first_author": "Yiran Jiang",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-26"
+    },
+    {
+      "id": "2609.31251v1",
+      "title": "Structure-dependent failure modes of neural priors in acoustic full-waveform inversion",
+      "url": "http://arxiv.org/abs/2609.31251v1",
+      "first_author": "Ziye Yu",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-09-25"
+    },
     {
       "id": "10.1016/j.epsl.2026.120306",
       "title": "Seismic evidence for a slab window beneath central Sumatra",
       "url": "https://doi.org/10.1016/j.epsl.2026.120306",
       "first_author": "Youqiang Yu",
       "corr_author": "Nevena Andrić-Tomašević",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120369",
+      "title": "Origin and geologic significance of Dual Seismic Discontinuities in the upper mantle",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120369",
+      "first_author": "Anqi Zhang",
+      "corr_author": "Hui He",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -80,36 +146,25 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120273",
-      "title": "Melt-mediated pore evolution governs seismic ruptures in semi-brittle oceanic shear zone",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120273",
-      "first_author": "Qiang Ma",
-      "corr_author": "Shengping Qian",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag384",
-      "title": "Effects of groundwater level variations on seismic ground motion",
-      "url": "https://doi.org/10.1093/gji/ggag384",
-      "first_author": "Josué G González",
-      "corr_author": "Tobias M Müller",
-      "affiliation": "Instituto de Ingeniería, Universidad Nacional Autónoma de México , Mexico City , , 04510",
+      "id": "10.1093/gji/ggag404",
+      "title": "Effects of multiscale wave-induced fluid flow on seismic wave dispersion and attenuation in partially saturated porous rocks",
+      "url": "https://doi.org/10.1093/gji/ggag404",
+      "first_author": "Bingbing Yang",
+      "corr_author": "José M Carcione",
+      "affiliation": "School of Earth Sciences and Engineering, Hohai University , Nanjing 211100 ,",
       "abs_zh": "翻译失败",
       "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag388",
-      "title": "Shallow lithosphere structure in the north-central region of the gulf of California, Mexico, from seismic noise and earthquake tomography",
-      "url": "https://doi.org/10.1093/gji/ggag388",
-      "first_author": "Favio Cruz Hernández",
-      "corr_author": "Raúl Ramón Castro Escamilla",
-      "affiliation": "Departamento de Sismología , División Ciencias de la Tierra, Centro de Investigación Científica y de Educación Superior de Ensenada (CICESE), Ensenada, Baja California, Carretera Ensenada - Tijuana No. 3918, Zona Playitas, CP. 22860, Ensenada, B.C. México. 22860 ,",
+      "id": "10.1785/0120260171",
+      "title": "A Seismic Crustal Stratigraphy on Mars Constrained by Seismic Waveforms and Receiver Functions",
+      "url": "https://doi.org/10.1785/0120260171",
+      "first_author": "Xiaoxin Wang",
+      "corr_author": "Lianxing Wen",
+      "affiliation": "1Laboratory of Seismology and Physics of Earth’s Interior, School of Earth and Space Sciences, University of Science and Technology of China, ; Hefei, China",
       "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
+      "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     }
   ]
