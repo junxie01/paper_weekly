@@ -1,61 +1,72 @@
 {
-  "last_update": "2026-09-27 至 2026-10-04 12:43",
+  "last_update": "2026-10-04 至 2026-10-11 12:30",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2610.02194v1",
-      "title": "SW1D: A Python package for seismic surface wave solutions in 1-D elastic media",
-      "url": "http://arxiv.org/abs/2610.02194v1",
-      "first_author": "Piyush Kolhe",
+      "id": "2610.12262v1",
+      "title": "Horizon symmetries of exact hydrodynamic actions",
+      "url": "http://arxiv.org/abs/2610.12262v1",
+      "first_author": "Mike Blake",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-01"
+      "published": "2026-10-08"
     },
     {
-      "id": "2610.01582v1",
-      "title": "Viability problems for SDEs in a general Gelfand triple setup using a variational approach",
-      "url": "http://arxiv.org/abs/2610.01582v1",
-      "first_author": "Ioana Ciotir",
+      "id": "2610.12223v1",
+      "title": "Measurement-induced enhancement of the $X$-parity lifetime in a Majorana tetron",
+      "url": "http://arxiv.org/abs/2610.12223v1",
+      "first_author": "Katharina Laubscher",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-01"
+      "published": "2026-10-08"
     },
     {
-      "id": "2610.01496v1",
-      "title": "SALD: Self-Referenced Advantage Learning for Diffusion Models",
-      "url": "http://arxiv.org/abs/2610.01496v1",
-      "first_author": "Aryan Das",
+      "id": "2610.11804v1",
+      "title": "A generalization of the sum of element orders function",
+      "url": "http://arxiv.org/abs/2610.11804v1",
+      "first_author": "Sayanta Chatterjee",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-01"
+      "published": "2026-10-08"
     },
     {
-      "id": "2610.01474v1",
-      "title": "Cramér-Rao Bound Optimization for Joint Beamforming and Mode Selection in RDARS-Assisted ISAC Systems",
-      "url": "http://arxiv.org/abs/2610.01474v1",
-      "first_author": "Ahmad Reza Hassanshahi",
+      "id": "2610.11696v1",
+      "title": "A 3D Characterization Framework for Intelligent Sequential Decision Making",
+      "url": "http://arxiv.org/abs/2610.11696v1",
+      "first_author": "Sadig Gojayev",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-01"
+      "published": "2026-10-08"
     },
     {
-      "id": "2610.01412v1",
-      "title": "Probing an up-phobic Higgs at colliders: the role of $b$-associated production in the democratic 3HDM",
-      "url": "http://arxiv.org/abs/2610.01412v1",
-      "first_author": "Dipankar Das",
+      "id": "2610.11577v1",
+      "title": "CoCam4D: Geometry-Aware Cooperative 4D Perception for Camera-Only Autonomous Driving",
+      "url": "http://arxiv.org/abs/2610.11577v1",
+      "first_author": "Soham Pahari",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-01"
+      "published": "2026-10-08"
+    },
+    {
+      "id": "10.1093/gji/ggag423",
+      "title": "Measuring rock strain with distributed acoustic sensing (DAS) and cemented patch cables",
+      "url": "https://doi.org/10.1093/gji/ggag423",
+      "first_author": "Thomas Forbriger",
+      "corr_author": "Philippe Jousset",
+      "affiliation": "Geophysical Institute, Karlsruhe Institute of Technology (KIT) , Hertzstraße 16, 76187 Karlsruhe ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
     },
     {
       "id": "10.1093/gji/ggag391",
@@ -154,17 +165,6 @@
       "affiliation": "1School of Electrical Engineering and Automation, Hefei University of Technology, Hefei, China",
       "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aee9809",
-      "title": "A pressure-tolerant, miniature ocean-sensing tag with acoustic telemetry for real-time CTD monitoring",
-      "url": "https://doi.org/10.1126/sciadv.aee9809",
-      "first_author": "Shao-Hao Lu",
-      "corr_author": "Xueju Sophie Wang",
-      "affiliation": "Department of Materials Science and Engineering, University of Connecticut, Storrs, CT 06269, USA.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]
