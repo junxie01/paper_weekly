@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-10-04 至 2026-10-11 12:30",
+  "last_update": "2026-10-11 至 2026-10-18 11:26",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2610.19187v1",
+      "title": "Structure-aware Bayesian full waveform inversion via diffusion-regularized Stein variational gradient descent",
+      "url": "http://arxiv.org/abs/2610.19187v1",
+      "first_author": "Chao Li",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-13"
+    },
+    {
+      "id": "2610.15331v1",
+      "title": "Full Waveform Inversion with a Learned Preconditioner",
+      "url": "http://arxiv.org/abs/2610.15331v1",
+      "first_author": "Jeongjin Park",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-11"
+    },
     {
       "id": "2610.10788v1",
       "title": "Fault-conditioned Seismic Image Generation using Denoising Diffusion Probabilistic Modeling and Neural Style Transfer",
@@ -36,33 +58,22 @@
       "published": "2026-10-02"
     },
     {
-      "id": "2610.02337v1",
-      "title": "Multi-Modal Surface Wave Inversion using Physics Guided Variational Autoencoders",
-      "url": "http://arxiv.org/abs/2610.02337v1",
-      "first_author": "Sujith Swaminadhan",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-01"
-    },
-    {
-      "id": "2610.01930v1",
-      "title": "Towards 3D fully randomized frequency-domain reconstruction of the speed of sound in breast ultrasound computed tomography",
-      "url": "http://arxiv.org/abs/2610.01930v1",
-      "first_author": "Luca A. Forte",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-01"
-    },
-    {
       "id": "10.1016/j.epsl.2026.120306",
       "title": "Seismic evidence for a slab window beneath central Sumatra",
       "url": "https://doi.org/10.1016/j.epsl.2026.120306",
       "first_author": "Youqiang Yu",
       "corr_author": "Nevena Andrić-Tomašević",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120389",
+      "title": "Spatiotemporal evolution of shallow seismic velocities associated with the 2024 East Rift Zone eruption at Kīlauea Volcano",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120389",
+      "first_author": "A. Rohnacher",
+      "corr_author": "F. Lanza",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -146,25 +157,14 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag433",
-      "title": "Bayesian three-dimensional seismic travel-time tomography for active- and passive-source seismic data using physics-informed neural networks",
-      "url": "https://doi.org/10.1093/gji/ggag433",
-      "first_author": "Ryoichiro Agata",
-      "corr_author": "Dan Bassett",
-      "affiliation": "Japan Agency for Marine-Earth Science and Technology",
+      "id": "10.1126/sciadv.aeh8870",
+      "title": "Noninvasive ultrashort wave neuromodulation enhances glymphatic clearance to alleviate traumatic brain edema and Alzheimer’s pathology",
+      "url": "https://doi.org/10.1126/sciadv.aeh8870",
+      "first_author": "Jinwei Liu",
+      "corr_author": "Nan Peng",
+      "affiliation": "Department of Rehabilitation Medicine, The Second Medical Center &amp; National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Beijing, China.",
       "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag429",
-      "title": "Interplay between fluids, seismic and aseismic deformation concurrently to a Mw 4.6 earthquake in the western part of the Sea of Marmara",
-      "url": "https://doi.org/10.1093/gji/ggag429",
-      "first_author": "Jean Baptiste Tary",
-      "corr_author": "Nurcan Meral Özel",
-      "affiliation": "Geophysics section, School of Cosmic Physics, Dublin Institute for Advanced Studies , Dublin ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
+      "source": "Science Advances",
       "published": "2026"
     }
   ]

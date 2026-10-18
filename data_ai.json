@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-04 至 2026-10-11 12:30",
+  "last_update": "2026-10-11 至 2026-10-18 11:26",
   "topic_name": "人工智能",
   "papers": [
     {
@@ -58,6 +58,72 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aeg9183",
+      "title": "From scrap to prime: Designing high-performance alloys from dirty feedstocks with machine learning",
+      "url": "https://doi.org/10.1126/sciadv.aeg9183",
+      "first_author": "Chao Yang",
+      "corr_author": "Ye Wei",
+      "affiliation": "Shanghai Key Laboratory of Advanced High-temperature Materials and Precision Forming and State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef0605",
+      "title": "Deep learning reveals ecological decoupling and rate heterogeneity in Hymenoptera wing evolution",
+      "url": "https://doi.org/10.1126/sciadv.aef0605",
+      "first_author": "Ancheng Peng",
+      "corr_author": "Frédéric Legendre",
+      "affiliation": "Institut de Systématique, Évolution, Biodiversité (UMR 7205), Muséum national d’Histoire naturelle, CNRS, SU, EPHE-PSL, UA, Paris F-75005, France.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aec2068",
+      "title": "Learning to infer transitively on a mental line in premotor cortex",
+      "url": "https://doi.org/10.1126/sciadv.aec2068",
+      "first_author": "Sofia Raglio",
+      "corr_author": "Maurizio Mattia",
+      "affiliation": "Department of Neuroscience, Istituto Superiore di Sanità, Rome 00161, Italy.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl124051",
+      "title": "Interpretable Machine Learning Reveals Global Nonlinear Responses of Soil Respiration to Climate",
+      "url": "https://doi.org/10.1029/2026gl124051",
+      "first_author": "Benjamin Laffitte",
+      "corr_author": "Xiaolu Tang",
+      "affiliation": "State Key Laboratory of Geohazard Prevention and Geoenvironment Protection Chengdu University of Technology  Chengdu China",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120260152",
+      "title": "Local Distance Seismic Source Discrimination in the United Kingdom Using\n                    <i>P/S</i>\n                    Amplitude Ratios and Machine Learning",
+      "url": "https://doi.org/10.1785/0120260152",
+      "first_author": "Max Merrett",
+      "corr_author": "Richard Luckett",
+      "affiliation": "1AWE Blacknest, Reading, United Kingdom",
+      "abs_zh": "翻译失败",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-11126-x",
+      "title": "Advancing subseasonal forecasting with machine learning",
+      "url": "https://doi.org/10.1038/s41586-026-11126-x",
+      "first_author": "Hannah Guan",
+      "corr_author": "Lester Mackey",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
       "id": "10.1126/sciadv.aeh3246",
       "title": "Machine learning–assisted directed evolution of plant Rubisco",
       "url": "https://doi.org/10.1126/sciadv.aeh3246",
@@ -66,72 +132,6 @@
       "affiliation": "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
       "abs_zh": "翻译失败",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aed0935",
-      "title": "Dopamine release-associated striatal blood oxygenation and whole-brain dynamics during associative learning",
-      "url": "https://doi.org/10.1126/sciadv.aed0935",
-      "first_author": "Amir Lawen",
-      "corr_author": "Itamar Kahn",
-      "affiliation": "Mortimer B. Zuckerman Mind Brain Behavior Institute, Columbia University, New York City, New York 10027 USA.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260012",
-      "title": "Pick Aggregator: A Multimodel Ensemble of Machine Learning Pickers to Generate an Onshore–Offshore Seismic Catalog for Puerto Rico and the Virgin Islands",
-      "url": "https://doi.org/10.1785/0220260012",
-      "first_author": "Asiye Aziz Zanjani",
-      "corr_author": "Heather R. DeShon",
-      "affiliation": "1New Mexico Bureau of Geology and Mineral Resources, New Mexico Institute of Mining and Technology, Socorro, New Mexico, U.S.A.",
-      "abs_zh": "翻译失败",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aef7249",
-      "title": "Phones impede learning: Evidence from a massive phone-free classroom experiment",
-      "url": "https://doi.org/10.1126/science.aef7249",
-      "first_author": "Alp Sungu",
-      "corr_author": "Andreas Bjerre-Nielsen",
-      "affiliation": "Operations, Information and Decisions Department, Wharton School, University of Pennsylvania, Philadelphia, PA, USA.",
-      "abs_zh": "翻译失败",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag428",
-      "title": "Bayesian full waveform inversion using deep learning surrogate models",
-      "url": "https://doi.org/10.1093/gji/ggag428",
-      "first_author": "Abolfazl Khan Mohammadi",
-      "corr_author": "Colin Farquharson",
-      "affiliation": "Memorial University of Newfoundland Department of Earth Sciences, , St. John’s, A1B 3X5 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag418",
-      "title": "An unsupervised physics-constrained velocity inversion method based on spectral normalization adversarial learning",
-      "url": "https://doi.org/10.1093/gji/ggag418",
-      "first_author": "Cong Wang",
-      "corr_author": "Yue Li",
-      "affiliation": "College of Instrumentation and Electrical Engineering, Jilin University , Changchun 130061 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag420",
-      "title": "Automatic InSAR Derived Earthquake Fault Planes as a Ground-Truth Seismic Dataset",
-      "url": "https://doi.org/10.1093/gji/ggag420",
-      "first_author": "J Condon",
-      "corr_author": "S K Ebmeier",
-      "affiliation": "COMET, School of Earth and Environment , University of Leeds, Leeds ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {

@@ -1,61 +1,83 @@
 {
-  "last_update": "2026-10-04 至 2026-10-11 12:30",
+  "last_update": "2026-10-11 至 2026-10-18 11:26",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2610.12262v1",
-      "title": "Horizon symmetries of exact hydrodynamic actions",
-      "url": "http://arxiv.org/abs/2610.12262v1",
-      "first_author": "Mike Blake",
+      "id": "2610.22250v1",
+      "title": "Tree Edit Distance: Near-Linear-Time Approximate, Sublinear, and Dynamic",
+      "url": "http://arxiv.org/abs/2610.22250v1",
+      "first_author": "Bingbing Hu",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-08"
+      "published": "2026-10-15"
     },
     {
-      "id": "2610.12223v1",
-      "title": "Measurement-induced enhancement of the $X$-parity lifetime in a Majorana tetron",
-      "url": "http://arxiv.org/abs/2610.12223v1",
-      "first_author": "Katharina Laubscher",
+      "id": "2610.22222v1",
+      "title": "A quantitative form of the planar Falconer distance theorem",
+      "url": "http://arxiv.org/abs/2610.22222v1",
+      "first_author": "Guozheng Cheng",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-08"
+      "published": "2026-10-15"
     },
     {
-      "id": "2610.11804v1",
-      "title": "A generalization of the sum of element orders function",
-      "url": "http://arxiv.org/abs/2610.11804v1",
-      "first_author": "Sayanta Chatterjee",
+      "id": "2610.22037v1",
+      "title": "Exciton superfluidity in two-dimensional bilayers at zero and high magnetic fields",
+      "url": "http://arxiv.org/abs/2610.22037v1",
+      "first_author": "Sankar Das Sarma",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-08"
+      "published": "2026-10-15"
     },
     {
-      "id": "2610.11696v1",
-      "title": "A 3D Characterization Framework for Intelligent Sequential Decision Making",
-      "url": "http://arxiv.org/abs/2610.11696v1",
-      "first_author": "Sadig Gojayev",
+      "id": "2610.21974v1",
+      "title": "Time to Fake It: Continual Machine Learning Intensifies Unfairness in Deepfake Detection",
+      "url": "http://arxiv.org/abs/2610.21974v1",
+      "first_author": "Kajaree Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-08"
+      "published": "2026-10-15"
     },
     {
-      "id": "2610.11577v1",
-      "title": "CoCam4D: Geometry-Aware Cooperative 4D Perception for Camera-Only Autonomous Driving",
-      "url": "http://arxiv.org/abs/2610.11577v1",
-      "first_author": "Soham Pahari",
+      "id": "2610.21650v1",
+      "title": "Distribution Functions and Moments of Harmonically Trapped Inertial Run-and-Tumble Particles in a Shear-Thickening Medium",
+      "url": "http://arxiv.org/abs/2610.21650v1",
+      "first_author": "Subhanker Howlader",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-08"
+      "published": "2026-10-15"
+    },
+    {
+      "id": "10.1093/gji/ggag448",
+      "title": "A 4-D spatio-temporal misfit function for waveform inversion of Distributed Acoustic Sensing data",
+      "url": "https://doi.org/10.1093/gji/ggag448",
+      "first_author": "Eyal Shimony",
+      "corr_author": "Ariel Lellouch",
+      "affiliation": "Faculty of Exact Sciences, Tel-Aviv University , Tel Aviv ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0120260003",
+      "title": "Components of Variability in Ground-Motion Model Derived from Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0120260003",
+      "first_author": "Chen-Ray Lin",
+      "corr_author": "Fabrice Cotton",
+      "affiliation": "1GFZ Helmholtz Centre for Geosciences, Potsdam, Germany",
+      "abs_zh": "翻译失败",
+      "source": "Bulletin of the Seismological Society of America",
+      "published": "2026"
     },
     {
       "id": "10.1093/gji/ggag423",
@@ -70,7 +92,7 @@
     },
     {
       "id": "10.1093/gji/ggag391",
-      "title": "Tsunami-induced crustal strain: analytical solutions for tsunami observation using fiber optic sensing",
+      "title": "Tsunami-induced crustal strain: analytical solutions for tsunami observation using fibre optic sensing",
       "url": "https://doi.org/10.1093/gji/ggag391",
       "first_author": "Ayumu Mizutani",
       "corr_author": "Tatsuhiko Saito",
@@ -143,28 +165,6 @@
       "affiliation": "1Institute of Geophysics and Planetary Physics, Scripps Institute of Oceanography, University of California, San Diego, La Jolla, California, U.S.A.",
       "abs_zh": "翻译失败",
       "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250368",
-      "title": "SCMLPick: A SeisComP Module Implementing Machine Learning Phase Picking for Real-Time Seismic Monitoring",
-      "url": "https://doi.org/10.1785/0220250368",
-      "first_author": "Camilo Muñoz",
-      "corr_author": "Alexandros Savvaidis",
-      "affiliation": "1Bureau of Economic Geology, The University of Texas at Austin, Austin, Texas, U.S.A.",
-      "abs_zh": "翻译失败",
-      "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220250438",
-      "title": "DASView: A PyQt-Based Visualization and Processing Tool for Distributed Acoustic Sensing Data",
-      "url": "https://doi.org/10.1785/0220250438",
-      "first_author": "Heting Hong",
-      "corr_author": "Nianwen Xiang",
-      "affiliation": "1School of Electrical Engineering and Automation, Hefei University of Technology, Hefei, China",
-      "abs_zh": "翻译失败",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]
