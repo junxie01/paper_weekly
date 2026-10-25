@@ -1,61 +1,83 @@
 {
-  "last_update": "2026-10-11 至 2026-10-18 11:26",
+  "last_update": "2026-10-18 至 2026-10-25 11:35",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2610.22250v1",
-      "title": "Tree Edit Distance: Near-Linear-Time Approximate, Sublinear, and Dynamic",
-      "url": "http://arxiv.org/abs/2610.22250v1",
-      "first_author": "Bingbing Hu",
+      "id": "2610.31468v1",
+      "title": "A sphere obstruction for the Hilbert shift quotient",
+      "url": "http://arxiv.org/abs/2610.31468v1",
+      "first_author": "Avik Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-15"
+      "published": "2026-10-22"
     },
     {
-      "id": "2610.22222v1",
-      "title": "A quantitative form of the planar Falconer distance theorem",
-      "url": "http://arxiv.org/abs/2610.22222v1",
-      "first_author": "Guozheng Cheng",
+      "id": "2610.31409v1",
+      "title": "Modelling wide-swath altimeter observation-error correlations with a regularised diffusion operator",
+      "url": "http://arxiv.org/abs/2610.31409v1",
+      "first_author": "Olivier Goux",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-15"
+      "published": "2026-10-22"
     },
     {
-      "id": "2610.22037v1",
-      "title": "Exciton superfluidity in two-dimensional bilayers at zero and high magnetic fields",
-      "url": "http://arxiv.org/abs/2610.22037v1",
-      "first_author": "Sankar Das Sarma",
+      "id": "2610.31377v1",
+      "title": "Measurements of the branching fractions of $Λ_c^+\\toΛK^+ π^0$ and $Λ_c^+\\toΛK^+ η$ decays at Belle and Belle II",
+      "url": "http://arxiv.org/abs/2610.31377v1",
+      "first_author": "Belle",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-15"
+      "published": "2026-10-22"
     },
     {
-      "id": "2610.21974v1",
-      "title": "Time to Fake It: Continual Machine Learning Intensifies Unfairness in Deepfake Detection",
-      "url": "http://arxiv.org/abs/2610.21974v1",
-      "first_author": "Kajaree Das",
+      "id": "2610.31313v1",
+      "title": "A New Twist on Astigmatic Transformation: Beyond Laguerre-Gaussian Beams",
+      "url": "http://arxiv.org/abs/2610.31313v1",
+      "first_author": "Gabriela Flores-Cova",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-15"
+      "published": "2026-10-22"
     },
     {
-      "id": "2610.21650v1",
-      "title": "Distribution Functions and Moments of Harmonically Trapped Inertial Run-and-Tumble Particles in a Shear-Thickening Medium",
-      "url": "http://arxiv.org/abs/2610.21650v1",
-      "first_author": "Subhanker Howlader",
+      "id": "2610.31171v1",
+      "title": "Optimal Hardy weights for the fractional discrete Dirichlet Laplacian on the half-line",
+      "url": "http://arxiv.org/abs/2610.31171v1",
+      "first_author": "František Štampach",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-15"
+      "published": "2026-10-22"
+    },
+    {
+      "id": "10.1126/sciadv.aei9767",
+      "title": "Multiplexed and implantable fiber sensor for real-time blood monitoring",
+      "url": "https://doi.org/10.1126/sciadv.aei9767",
+      "first_author": "Zhizhi Wu",
+      "corr_author": "Zijian Zheng",
+      "affiliation": "Department of Chemistry, Faculty of Science, The Hong Kong Polytechnic University, Hong Kong SAR, China.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260029",
+      "title": "Estimating the Ice Thickness and Water Depth of a Frozen Lake Using Flexural Waves Recorded by Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0220260029",
+      "first_author": "Eduardo Valero Cano",
+      "corr_author": "Gregor Hillers",
+      "affiliation": "1Institute of Seismology, University of Helsinki, Helsinki, Finland",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
       "id": "10.1093/gji/ggag448",
@@ -85,7 +107,7 @@
       "url": "https://doi.org/10.1093/gji/ggag423",
       "first_author": "Thomas Forbriger",
       "corr_author": "Philippe Jousset",
-      "affiliation": "Geophysical Institute, Karlsruhe Institute of Technology (KIT) , Hertzstraße 16, 76187 Karlsruhe ,",
+      "affiliation": "Geophysical Institute, Karlsruhe Institute of Technology (KIT) , 76187 Karlsruhe ,",
       "abs_zh": "翻译失败",
       "source": "Geophysical Journal International",
       "published": "2026"
@@ -143,28 +165,6 @@
       "affiliation": "Laboratory of Ocean and Marginal Sea Geology State Key Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China",
       "abs_zh": "翻译失败",
       "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026jb034841",
-      "title": "Resolving Sub‐Kilometer Cascading Ruptures of Moderate Earthquakes With Distributed Acoustic Sensing",
-      "url": "https://doi.org/10.1029/2026jb034841",
-      "first_author": "Hao Zhang",
-      "corr_author": "Zhongwen Zhan",
-      "affiliation": "Seismological Laboratory Division of Geological and Planetary Sciences California Institute of Technology  Pasadena CA USA",
-      "abs_zh": "翻译失败",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260132",
-      "title": "Near-Surface Shear-Wave Velocity from Train Vibrations with Distributed Acoustic Sensing",
-      "url": "https://doi.org/10.1785/0120260132",
-      "first_author": "Chih-Chieh Chien",
-      "corr_author": "Mark A. Zumberge",
-      "affiliation": "1Institute of Geophysics and Planetary Physics, Scripps Institute of Oceanography, University of California, San Diego, La Jolla, California, U.S.A.",
-      "abs_zh": "翻译失败",
-      "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     }
   ]

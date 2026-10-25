@@ -1,28 +1,39 @@
 {
-  "last_update": "2026-10-11 至 2026-10-18 11:26",
+  "last_update": "2026-10-18 至 2026-10-25 11:35",
   "topic_name": "冰川地震学",
   "papers": [
     {
-      "id": "2606.10992v1",
-      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
-      "url": "http://arxiv.org/abs/2606.10992v1",
-      "first_author": "Wojciech Gajek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1126/sciadv.ady6777",
+      "title": "Ocean carbon sequestration during glacial climates due to combined Antarctic sea ice expansion and ocean circulation change",
+      "url": "https://doi.org/10.1126/sciadv.ady6777",
+      "first_author": "Sandy Grégorio",
+      "corr_author": "Raffaele Ferrari",
+      "affiliation": "Institut des Sciences de la Mer, Université du Québec à Rimouski, Rimouski, QC, Canada.",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-06-09"
+      "source": "Science Advances",
+      "published": "2026"
     },
     {
-      "id": "2604.14226v1",
-      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
-      "url": "http://arxiv.org/abs/2604.14226v1",
-      "first_author": "Wojciech Gajek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.5194/tc-20-6071-2026",
+      "title": "Progressive changes in geometry and dynamics of the Northern Pine Island Ice Shelf, West Antarctica",
+      "url": "https://doi.org/10.5194/tc-20-6071-2026",
+      "first_author": "Yite Chien",
+      "corr_author": "Baojun Zhang",
+      "affiliation": "未知机构",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-04-14"
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41561-026-02126-7",
+      "title": "The Baffin Bay Ice Shelf stabilized three adjacent ice sheets during the last glacial period",
+      "url": "https://doi.org/10.1038/s41561-026-02126-7",
+      "first_author": "Shannon A. Klotsko",
+      "corr_author": "Lauren Lewright",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Nature Geoscience",
+      "published": "2026"
     },
     {
       "id": "10.1126/science.aee0658",
@@ -100,72 +111,6 @@
       "abs_zh": "翻译失败",
       "source": "The Cryosphere",
       "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-5025-2026",
-      "title": "GPR-derived ice thickness of the temperate Hintereisferner glacier (Austrian Alps): evaluation of thickness models",
-      "url": "https://doi.org/10.5194/tc-20-5025-2026",
-      "first_author": "Lelde Švinka",
-      "corr_author": "Jurijs Ješkins",
-      "affiliation": "University of Latvia (Riga, Latvia)",
-      "abs_zh": "翻译失败",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl124533",
-      "title": "First Empirical Assessment of Ice Content From a Himalayan Rock Glacier",
-      "url": "https://doi.org/10.1029/2026gl124533",
-      "first_author": "Matthew W. Peacey",
-      "corr_author": "Lin Liu",
-      "affiliation": "Centre for Glaciology Department of Geography &amp; Earth Sciences Aberystwyth University  Aberystwyth UK",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl123328",
-      "title": "Glacier‐Climate Feedbacks Modulate Last Glacial Maximum Dust Cycle Over the Third Pole",
-      "url": "https://doi.org/10.1029/2026gl123328",
-      "first_author": "Qiang Wei",
-      "corr_author": "Tandong Yao",
-      "affiliation": "State Key Laboratory of Tibetan Plateau Earth System Science, Environment and Resources Institute of Tibetan Plateau Research Chinese Academy of Sciences  Beijing China",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "2503.12481v1",
-      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
-      "url": "http://arxiv.org/abs/2503.12481v1",
-      "first_author": "T. Clayton",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2025-03-16"
-    },
-    {
-      "id": "2306.08405v1",
-      "title": "A viscoelastic phase-field model for iceberg calving",
-      "url": "http://arxiv.org/abs/2306.08405v1",
-      "first_author": "Jakub Stocek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2023-06-14"
-    },
-    {
-      "id": "2304.08120v2",
-      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
-      "url": "http://arxiv.org/abs/2304.08120v2",
-      "first_author": "Sacha Lapins",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2023-04-17"
     }
   ]
 }

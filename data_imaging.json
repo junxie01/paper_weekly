@@ -1,68 +1,24 @@
 {
-  "last_update": "2026-10-11 至 2026-10-18 11:26",
+  "last_update": "2026-10-18 至 2026-10-25 11:35",
   "topic_name": "地震成像",
   "papers": [
     {
-      "id": "2610.19187v1",
-      "title": "Structure-aware Bayesian full waveform inversion via diffusion-regularized Stein variational gradient descent",
-      "url": "http://arxiv.org/abs/2610.19187v1",
-      "first_author": "Chao Li",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-13"
+      "id": "10.1016/j.epsl.2026.120421",
+      "title": "Interaction between seismic and aseismic slips along the Mendocino oceanic transform fault offshore northern California",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120421",
+      "first_author": "Min Liu",
+      "corr_author": "Yen Joe Tan",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
-      "id": "2610.15331v1",
-      "title": "Full Waveform Inversion with a Learned Preconditioner",
-      "url": "http://arxiv.org/abs/2610.15331v1",
-      "first_author": "Jeongjin Park",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-11"
-    },
-    {
-      "id": "2610.10788v1",
-      "title": "Fault-conditioned Seismic Image Generation using Denoising Diffusion Probabilistic Modeling and Neural Style Transfer",
-      "url": "http://arxiv.org/abs/2610.10788v1",
-      "first_author": "Tolulope Agbaje",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-07"
-    },
-    {
-      "id": "2610.05371v1",
-      "title": "Robust Ensemble Guidance for Scientific Inverse Problems",
-      "url": "http://arxiv.org/abs/2610.05371v1",
-      "first_author": "Zixiang Li",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-04"
-    },
-    {
-      "id": "2610.02698v1",
-      "title": "Structure-Driven Methodology: An Emerging Cross-Domain Paradigm",
-      "url": "http://arxiv.org/abs/2610.02698v1",
-      "first_author": "Shengchang Chen",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-02"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120306",
-      "title": "Seismic evidence for a slab window beneath central Sumatra",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
-      "first_author": "Youqiang Yu",
-      "corr_author": "Nevena Andrić-Tomašević",
+      "id": "10.1016/j.epsl.2026.120417",
+      "title": "Widespread non-double-couple earthquakes revealed by a dense seismic network in Tottori, Japan",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120417",
+      "first_author": "Ji Zhang",
+      "corr_author": "Yoshihisa Iio",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -74,6 +30,17 @@
       "url": "https://doi.org/10.1016/j.epsl.2026.120389",
       "first_author": "A. Rohnacher",
       "corr_author": "F. Lanza",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120306",
+      "title": "Seismic evidence for a slab window beneath central Sumatra",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
+      "first_author": "Youqiang Yu",
+      "corr_author": "Nevena Andrić-Tomašević",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -143,28 +110,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1016/j.epsl.2026.120303",
-      "title": "Full-waveform tomography of southeastern Tibet: Evidence for dual crustal low-velocity zones and hybrid tectonic processes",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120303",
-      "first_author": "Xinyu Jiang",
-      "corr_author": "Hejun Zhu",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeh8870",
-      "title": "Noninvasive ultrashort wave neuromodulation enhances glymphatic clearance to alleviate traumatic brain edema and Alzheimer’s pathology",
-      "url": "https://doi.org/10.1126/sciadv.aeh8870",
-      "first_author": "Jinwei Liu",
-      "corr_author": "Nan Peng",
-      "affiliation": "Department of Rehabilitation Medicine, The Second Medical Center &amp; National Clinical Research Center for Geriatric Diseases, Chinese PLA General Hospital, Beijing, China.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]

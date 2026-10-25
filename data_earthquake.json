@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-11 至 2026-10-18 11:26",
+  "last_update": "2026-10-18 至 2026-10-25 11:35",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -80,23 +80,56 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aeb9836",
+      "title": "<i>CASTOR1</i>\n                    functional inactivation drives\n                    <i>KRAS</i>\n                    -mutant NSCLC and therapy resistance by a noncanonical mechanism of tumor suppression",
+      "url": "https://doi.org/10.1126/sciadv.aeb9836",
+      "first_author": "Xian Wang",
+      "corr_author": "Shou-Jiang Gao",
+      "affiliation": "Cancer Virology Center, UPMC Hillman Cancer Center, Pittsburgh, PA 15213, USA.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag454",
+      "title": "Spherical-wave seismic inversion for petrophysical properties in fluid-saturated porous media",
+      "url": "https://doi.org/10.1093/gji/ggag454",
+      "first_author": "Guangsen Cheng",
+      "corr_author": "Dachao Qi",
+      "affiliation": "Qingdao Institute of Marine Geology, China Geological Survey, Ministry of Natural Resources , Qingdao ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag450",
+      "title": "OWL: Open Wave Library for seismic wave modeling and full-waveform inversion in acoustic and elastic media",
+      "url": "https://doi.org/10.1093/gji/ggag450",
+      "first_author": "Kai Gao",
+      "corr_author": "Ryan T Modrak",
+      "affiliation": "Earth and Environmental Sciences Division, Los Alamos National Laboratory , Los Alamos, NM 87545 ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag447",
+      "title": "Tracing Starship re-entries with infrasound: moving-source signatures in IMS observations",
+      "url": "https://doi.org/10.1093/gji/ggag447",
+      "first_author": "S B Nikolova",
+      "corr_author": "S Spiliopoulos",
+      "affiliation": "Geoscience Australia , Canberra ACT 2601 ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1093/gji/ggag445",
       "title": "Amplitude source location for volcanic earthquakes using source location-dependent amplification corrections: Application to Izu Oshima volcano, Japan",
       "url": "https://doi.org/10.1093/gji/ggag445",
       "first_author": "Novia Antika Anggraeni",
       "corr_author": "Hisashi Nakahara",
       "affiliation": "Graduate School of Science, Tohoku University Department of Geophysics, , Sendai 980-8578 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag440",
-      "title": "3D crustal seismic structure of southern mainland Portugal from combined local earthquake and active source tomography",
-      "url": "https://doi.org/10.1093/gji/ggag440",
-      "first_author": "O de Cavacundo",
-      "corr_author": "N Rawlinson",
-      "affiliation": "Instituto Dom Luiz (IDL), Faculdade de Ciências, Universidade de Lisboa ,",
       "abs_zh": "翻译失败",
       "source": "Geophysical Journal International",
       "published": "2026"
@@ -113,6 +146,17 @@
       "published": "2026"
     },
     {
+      "id": "10.1093/gji/ggag440",
+      "title": "3D crustal seismic structure of southern mainland Portugal from combined local earthquake and active source tomography",
+      "url": "https://doi.org/10.1093/gji/ggag440",
+      "first_author": "O de Cavacundo",
+      "corr_author": "N Rawlinson",
+      "affiliation": "Instituto Dom Luiz (IDL), Faculdade de Ciências, Universidade de Lisboa ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
       "id": "10.1785/0220260040",
       "title": "Rupture Process and Seismogenic Mechanism of the 2023 Mw 6.0 Jishishan Earthquake: Insights from Joint Inversion of InSAR, GNSS, and Tele-Waveforms",
       "url": "https://doi.org/10.1785/0220260040",
@@ -121,50 +165,6 @@
       "affiliation": "1School of Land Resource Engineering, Kunming University of Science and Technology, Kunming, China",
       "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260107",
-      "title": "NetArray, a New Seismic Array Methodology with Example Implementation for Earthquake Early Warning",
-      "url": "https://doi.org/10.1785/0120260107",
-      "first_author": "Alon Ziv",
-      "corr_author": "Alon Ziv",
-      "affiliation": "1Department of Earth and Planetary Sciences, Tel-Aviv University, Tel Aviv, Israel",
-      "abs_zh": "翻译失败",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag442",
-      "title": "Detection Is Not Identifiability: An Observability Theory for Earthquake Source Inference from InSAR",
-      "url": "https://doi.org/10.1093/gji/ggag442",
-      "first_author": "Antonino D’Alessandro",
-      "corr_author": "Antonino D’Alessandro",
-      "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia, Osservatorio Nazionale Terremoti , Rome ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl124490",
-      "title": "Convective Amplification of Ionospheric Feedback by a Finite‐Duration Inertial Alfvén‐Wave Source",
-      "url": "https://doi.org/10.1029/2026gl124490",
-      "first_author": "R. Rankin",
-      "corr_author": "Q.‐G. Zong",
-      "affiliation": "Department of Physics University of Alberta  Edmonton AB Canada",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120250298",
-      "title": "Monitoring Seismic Moment Release and Focal Mechanisms at Cape and FORGE EGS Sites, Utah",
-      "url": "https://doi.org/10.1785/0120250298",
-      "first_author": "Avinash Nayak",
-      "corr_author": "Chet Hopp",
-      "affiliation": "1Earth and Environmental Science Area, Lawrence Berkeley National Laboratory, Berkeley, California, U.S.A.",
-      "abs_zh": "翻译失败",
-      "source": "Bulletin of the Seismological Society of America",
       "published": "2026"
     }
   ]

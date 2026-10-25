@@ -1,29 +1,7 @@
 {
-  "last_update": "2026-10-11 至 2026-10-18 11:26",
+  "last_update": "2026-10-18 至 2026-10-25 11:35",
   "topic_name": "人工智能",
   "papers": [
-    {
-      "id": "2603.03079v1",
-      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
-      "url": "http://arxiv.org/abs/2603.03079v1",
-      "first_author": "Jonas Köhler",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-03-03"
-    },
-    {
-      "id": "2602.09792v1",
-      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
-      "url": "http://arxiv.org/abs/2602.09792v1",
-      "first_author": "Jaehong Chung",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-02-10"
-    },
     {
       "id": "10.1016/j.epsl.2026.120401",
       "title": "Diagnosing machine learning for continental heat flow prediction: Insights from synthetic experiments",
@@ -58,114 +36,81 @@
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.aeg9183",
-      "title": "From scrap to prime: Designing high-performance alloys from dirty feedstocks with machine learning",
-      "url": "https://doi.org/10.1126/sciadv.aeg9183",
-      "first_author": "Chao Yang",
-      "corr_author": "Ye Wei",
-      "affiliation": "Shanghai Key Laboratory of Advanced High-temperature Materials and Precision Forming and State Key Laboratory of Metal Matrix Composites, School of Materials Science and Engineering, Shanghai Jiao Tong University, Shanghai 200240, China.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef0605",
-      "title": "Deep learning reveals ecological decoupling and rate heterogeneity in Hymenoptera wing evolution",
-      "url": "https://doi.org/10.1126/sciadv.aef0605",
-      "first_author": "Ancheng Peng",
-      "corr_author": "Frédéric Legendre",
-      "affiliation": "Institut de Systématique, Évolution, Biodiversité (UMR 7205), Muséum national d’Histoire naturelle, CNRS, SU, EPHE-PSL, UA, Paris F-75005, France.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aec2068",
-      "title": "Learning to infer transitively on a mental line in premotor cortex",
-      "url": "https://doi.org/10.1126/sciadv.aec2068",
-      "first_author": "Sofia Raglio",
-      "corr_author": "Maurizio Mattia",
-      "affiliation": "Department of Neuroscience, Istituto Superiore di Sanità, Rome 00161, Italy.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl124051",
-      "title": "Interpretable Machine Learning Reveals Global Nonlinear Responses of Soil Respiration to Climate",
-      "url": "https://doi.org/10.1029/2026gl124051",
-      "first_author": "Benjamin Laffitte",
-      "corr_author": "Xiaolu Tang",
-      "affiliation": "State Key Laboratory of Geohazard Prevention and Geoenvironment Protection Chengdu University of Technology  Chengdu China",
+      "id": "10.1029/2026gl122012",
+      "title": "Dune Crestline Mapping With Deep Learning Reveals Large‐Scale Dune Patterns in NW China",
+      "url": "https://doi.org/10.1029/2026gl122012",
+      "first_author": "Peng Liang",
+      "corr_author": "Xiaoping Yang",
+      "affiliation": "School of Earth Sciences Zhejiang University  Hangzhou China",
       "abs_zh": "翻译失败",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1785/0120260152",
-      "title": "Local Distance Seismic Source Discrimination in the United Kingdom Using\n                    <i>P/S</i>\n                    Amplitude Ratios and Machine Learning",
-      "url": "https://doi.org/10.1785/0120260152",
-      "first_author": "Max Merrett",
-      "corr_author": "Richard Luckett",
-      "affiliation": "1AWE Blacknest, Reading, United Kingdom",
-      "abs_zh": "翻译失败",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41586-026-11126-x",
-      "title": "Advancing subseasonal forecasting with machine learning",
-      "url": "https://doi.org/10.1038/s41586-026-11126-x",
-      "first_author": "Hannah Guan",
-      "corr_author": "Lester Mackey",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeh3246",
-      "title": "Machine learning–assisted directed evolution of plant Rubisco",
-      "url": "https://doi.org/10.1126/sciadv.aeh3246",
-      "first_author": "Julie L. McDonald",
-      "corr_author": "Robert H. Wilson",
-      "affiliation": "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA 02139, USA.",
+      "id": "10.1126/sciadv.aed4003",
+      "title": "Learning by moving: Physical motion accelerates category learning",
+      "url": "https://doi.org/10.1126/sciadv.aed4003",
+      "first_author": "Luke Rosedahl",
+      "corr_author": "Takeo Watanabe",
+      "affiliation": "Department of Biomedical Engineering, Florida Atlantic University, Boca Raton, FL, USA.",
       "abs_zh": "翻译失败",
       "source": "Science Advances",
       "published": "2026"
     },
     {
-      "id": "2508.04925v2",
-      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
-      "url": "http://arxiv.org/abs/2508.04925v2",
-      "first_author": "Sigma Jahan",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1126/sciadv.aeh9320",
+      "title": "In-memory phononic learning toward cognitive mechanical intelligence",
+      "url": "https://doi.org/10.1126/sciadv.aeh9320",
+      "first_author": "Yuning Zhang",
+      "corr_author": "K. W. Wang",
+      "affiliation": "Department of Mechanical Engineering, University of Michigan, Ann Arbor, MI 48109, USA.",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2025-08-06"
+      "source": "Science Advances",
+      "published": "2026"
     },
     {
-      "id": "2412.16336v1",
-      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
-      "url": "http://arxiv.org/abs/2412.16336v1",
-      "first_author": "Gunel Jahangirova",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1126/sciadv.aee0560",
+      "title": "Lineage-specific and gestational age–dependent DNA methylation programming orchestrates human placental development",
+      "url": "https://doi.org/10.1126/sciadv.aee0560",
+      "first_author": "Shanru Yi",
+      "corr_author": "Jiayu Chen",
+      "affiliation": "Clinical and Translational Research Center of Shanghai First Maternity and Infant Hospital, Shanghai Key Laboratory of Signal Transduction and Disease Research, School of Life Sciences and Technology, Tongji University, Shanghai 200092, China.",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2024-12-20"
+      "source": "Science Advances",
+      "published": "2026"
     },
     {
-      "id": "2411.17707v1",
-      "title": "A Composite Fault Diagnosis Model for NPPs Based on Bayesian-EfficientNet Module",
-      "url": "http://arxiv.org/abs/2411.17707v1",
-      "first_author": "Siwei Li",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1093/gji/ggag441",
+      "title": "Dip-aligned structural constraints for suppression of partially coherent seismic noise using self-supervised learning",
+      "url": "https://doi.org/10.1093/gji/ggag441",
+      "first_author": "Ji Li",
+      "corr_author": "Dawei Liu",
+      "affiliation": "Memorial University of Newfoundland , Department of Earth Sciences, St. John’s NL ,",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2024-11-13"
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.adx5564",
+      "title": "Biophysically constrained learning from healthy neural priors improves motor decoding in pathological cortical networks",
+      "url": "https://doi.org/10.1126/sciadv.adx5564",
+      "first_author": "Yihan Wu",
+      "corr_author": "Jiayuan He",
+      "affiliation": "National Clinical Research Center for Geriatric, West China Hospital of Sichuan University, Chengdu 610017, Sichuan, China.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-6045-2026",
+      "title": "GlaUnTI: a hybrid physics–machine learning model enables transferable glacier surface mass balance estimation",
+      "url": "https://doi.org/10.5194/tc-20-6045-2026",
+      "first_author": "Konstantin A. Maslov",
+      "corr_author": "Alfred Stein",
+      "affiliation": "University of Twente (Enschede, Netherlands)",
+      "abs_zh": "翻译失败",
+      "source": "The Cryosphere",
+      "published": "2026"
     }
   ]
 }
