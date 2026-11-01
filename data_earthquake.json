@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-10-18 至 2026-10-25 11:35",
+  "last_update": "2026-10-25 至 2026-11-01 12:49",
   "topic_name": "地震研究",
   "papers": [
+    {
+      "id": "2610.36775v1",
+      "title": "On dependence of the source deactivation factor on the magnitude of main earthquake shock",
+      "url": "http://arxiv.org/abs/2610.36775v1",
+      "first_author": "A. V. Guglielmi",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-27"
+    },
     {
       "id": "2610.09568v1",
       "title": "Spectral Element Extension for Direct Simulation of Rotational Ground Motions",
@@ -47,17 +58,6 @@
       "published": "2026-07-31"
     },
     {
-      "id": "2604.02472v1",
-      "title": "VALOR: Value-Aware Revenue Uplift Modeling with Treatment-Gated Representation for B2B Sales",
-      "url": "http://arxiv.org/abs/2604.02472v1",
-      "first_author": "Vamshi Guduguntla",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-04-02"
-    },
-    {
       "id": "10.1016/j.epsl.2026.120301",
       "title": "Mapping the Australian upper mantle flow with azimuthal anisotropy from seismic full-waveform inversion",
       "url": "https://doi.org/10.1016/j.epsl.2026.120301",
@@ -77,6 +77,28 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026jb034301",
+      "title": "3‐D Plate Interaction Beneath the Active Taiwan Orogen Revealed by Source‐Side Seismic Tomography: Implications for Slab Breakoff and Orogenic Evolution",
+      "url": "https://doi.org/10.1029/2026jb034301",
+      "first_author": "Po‐Li Su",
+      "corr_author": "Justin Yen‐Ting Ko",
+      "affiliation": "Institute of Earth Sciences Academia Sinica  Taipei Taiwan",
+      "abs_zh": "翻译失败",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag469",
+      "title": "Explicit Coordinate Encoding Matters: A Coordinate-Driven Framework for First-Arrival Picking in Microseismic Monitoring",
+      "url": "https://doi.org/10.1093/gji/ggag469",
+      "first_author": "Jinglei Song",
+      "corr_author": "Yu Wang",
+      "affiliation": "China University of Geosciences (Wuhan) , Wuhan, Hubei ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
       "published": "2026"
     },
     {
@@ -124,17 +146,6 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag445",
-      "title": "Amplitude source location for volcanic earthquakes using source location-dependent amplification corrections: Application to Izu Oshima volcano, Japan",
-      "url": "https://doi.org/10.1093/gji/ggag445",
-      "first_author": "Novia Antika Anggraeni",
-      "corr_author": "Hisashi Nakahara",
-      "affiliation": "Graduate School of Science, Tohoku University Department of Geophysics, , Sendai 980-8578 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
       "id": "10.1785/0120260152",
       "title": "Local Distance Seismic Source Discrimination in the United Kingdom Using\n                    <i>P/S</i>\n                    Amplitude Ratios and Machine Learning",
       "url": "https://doi.org/10.1785/0120260152",
@@ -154,17 +165,6 @@
       "affiliation": "Instituto Dom Luiz (IDL), Faculdade de Ciências, Universidade de Lisboa ,",
       "abs_zh": "翻译失败",
       "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260040",
-      "title": "Rupture Process and Seismogenic Mechanism of the 2023 Mw 6.0 Jishishan Earthquake: Insights from Joint Inversion of InSAR, GNSS, and Tele-Waveforms",
-      "url": "https://doi.org/10.1785/0220260040",
-      "first_author": "Zhuohui Xiao",
-      "corr_author": "Zhicai Li",
-      "affiliation": "1School of Land Resource Engineering, Kunming University of Science and Technology, Kunming, China",
-      "abs_zh": "翻译失败",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]

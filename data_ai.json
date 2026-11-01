@@ -1,7 +1,29 @@
 {
-  "last_update": "2026-10-18 至 2026-10-25 11:35",
+  "last_update": "2026-10-25 至 2026-11-01 12:49",
   "topic_name": "人工智能",
   "papers": [
+    {
+      "id": "2603.03079v1",
+      "title": "Probabilistic and Alarm-Based Evaluation of a b-Value-Driven Deep Learning Earthquake Forecast",
+      "url": "http://arxiv.org/abs/2603.03079v1",
+      "first_author": "Jonas Köhler",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-03-03"
+    },
+    {
+      "id": "2602.09792v1",
+      "title": "Variability in Performance of a Machine-Learning Seismicity Catalog: Central Italy, 2016-2017",
+      "url": "http://arxiv.org/abs/2602.09792v1",
+      "first_author": "Jaehong Chung",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-02-10"
+    },
     {
       "id": "10.1016/j.epsl.2026.120401",
       "title": "Diagnosing machine learning for continental heat flow prediction: Insights from synthetic experiments",
@@ -33,6 +55,28 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef6378",
+      "title": "Sustainable biobased packaging via integrated robotics/machine learning workflow for improved postharvest preservation",
+      "url": "https://doi.org/10.1126/sciadv.aef6378",
+      "first_author": "Yang Li",
+      "corr_author": "Po-Yen Chen",
+      "affiliation": "Department of Chemical and Biomolecular Engineering, University of Maryland, College Park, MD 20740, USA.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.adr9983",
+      "title": "Pervasive patterns in bird songs resemble those in human speech and song and are independent of vocal learning",
+      "url": "https://doi.org/10.1126/science.adr9983",
+      "first_author": "Logan S. James",
+      "corr_author": "Jon T. Sakata",
+      "affiliation": "Department of Biology, McGill University, Montréal, Quebec, Canada.",
+      "abs_zh": "翻译失败",
+      "source": "Science",
       "published": "2026"
     },
     {
@@ -91,26 +135,37 @@
       "published": "2026"
     },
     {
-      "id": "10.1126/sciadv.adx5564",
-      "title": "Biophysically constrained learning from healthy neural priors improves motor decoding in pathological cortical networks",
-      "url": "https://doi.org/10.1126/sciadv.adx5564",
-      "first_author": "Yihan Wu",
-      "corr_author": "Jiayuan He",
-      "affiliation": "National Clinical Research Center for Geriatric, West China Hospital of Sichuan University, Chengdu 610017, Sichuan, China.",
+      "id": "2508.04925v2",
+      "title": "Why Attention Fails: A Taxonomy of Faults in Attention-Based Neural Networks",
+      "url": "http://arxiv.org/abs/2508.04925v2",
+      "first_author": "Sigma Jahan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
+      "source": "arXiv",
+      "published": "2025-08-06"
     },
     {
-      "id": "10.5194/tc-20-6045-2026",
-      "title": "GlaUnTI: a hybrid physics–machine learning model enables transferable glacier surface mass balance estimation",
-      "url": "https://doi.org/10.5194/tc-20-6045-2026",
-      "first_author": "Konstantin A. Maslov",
-      "corr_author": "Alfred Stein",
-      "affiliation": "University of Twente (Enschede, Netherlands)",
+      "id": "2412.16336v2",
+      "title": "Real Faults in Deep Learning Fault Benchmarks: How Real Are They?",
+      "url": "http://arxiv.org/abs/2412.16336v2",
+      "first_author": "Gunel Jahangirova",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
-      "source": "The Cryosphere",
-      "published": "2026"
+      "source": "arXiv",
+      "published": "2024-12-20"
+    },
+    {
+      "id": "2411.17707v1",
+      "title": "A Composite Fault Diagnosis Model for NPPs Based on Bayesian-EfficientNet Module",
+      "url": "http://arxiv.org/abs/2411.17707v1",
+      "first_author": "Siwei Li",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2024-11-13"
     }
   ]
 }

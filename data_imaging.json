@@ -1,7 +1,62 @@
 {
-  "last_update": "2026-10-18 至 2026-10-25 11:35",
+  "last_update": "2026-10-25 至 2026-11-01 12:49",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2610.39254v1",
+      "title": "Common Offset Gathers for Efficient Multistatic Beamforming in Frequency Domain",
+      "url": "http://arxiv.org/abs/2610.39254v1",
+      "first_author": "Marko Jakovljevic",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-29"
+    },
+    {
+      "id": "2610.32185v1",
+      "title": "An exploration of plug-and-play flow matching for full-waveform inversion on breast imaging",
+      "url": "http://arxiv.org/abs/2610.32185v1",
+      "first_author": "Cristina Garcia-Cardona",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-23"
+    },
+    {
+      "id": "2610.31071v1",
+      "title": "Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation",
+      "url": "http://arxiv.org/abs/2610.31071v1",
+      "first_author": "Lipeng Lai",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-22"
+    },
+    {
+      "id": "2610.30401v1",
+      "title": "Semblance Distance Analysis for Channel Quality Assessment in Distributed Acoustic Sensing",
+      "url": "http://arxiv.org/abs/2610.30401v1",
+      "first_author": "Reinhardt Rading",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-21"
+    },
+    {
+      "id": "2610.26151v1",
+      "title": "Bayesian Geometric Inversion for Wave Equation: Well-Posedness and Multiscale Multimodal Posterior Approximation",
+      "url": "http://arxiv.org/abs/2610.26151v1",
+      "first_author": "Xiong-Bin Yan",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-10-19"
+    },
     {
       "id": "10.1016/j.epsl.2026.120421",
       "title": "Interaction between seismic and aseismic slips along the Mendocino oceanic transform fault offshore northern California",
@@ -25,22 +80,22 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120389",
-      "title": "Spatiotemporal evolution of shallow seismic velocities associated with the 2024 East Rift Zone eruption at Kīlauea Volcano",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120389",
-      "first_author": "A. Rohnacher",
-      "corr_author": "F. Lanza",
+      "id": "10.1016/j.epsl.2026.120306",
+      "title": "Seismic evidence for a slab window beneath central Sumatra",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
+      "first_author": "Youqiang Yu",
+      "corr_author": "Nevena Andrić-Tomašević",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120306",
-      "title": "Seismic evidence for a slab window beneath central Sumatra",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
-      "first_author": "Youqiang Yu",
-      "corr_author": "Nevena Andrić-Tomašević",
+      "id": "10.1016/j.epsl.2026.120389",
+      "title": "Spatiotemporal evolution of shallow seismic velocities associated with the 2024 East Rift Zone eruption at Kīlauea Volcano",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120389",
+      "first_author": "A. Rohnacher",
+      "corr_author": "F. Lanza",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",

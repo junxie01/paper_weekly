@@ -1,61 +1,83 @@
 {
-  "last_update": "2026-10-18 至 2026-10-25 11:35",
+  "last_update": "2026-10-25 至 2026-11-01 12:49",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2610.31468v1",
-      "title": "A sphere obstruction for the Hilbert shift quotient",
-      "url": "http://arxiv.org/abs/2610.31468v1",
-      "first_author": "Avik Das",
+      "id": "2610.40609v1",
+      "title": "From Dispersion to Metallicity: Probing the Milky Way Circumgalactic Medium with Fast Radio Bursts",
+      "url": "http://arxiv.org/abs/2610.40609v1",
+      "first_author": "Manami Roy",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-22"
+      "published": "2026-10-29"
     },
     {
-      "id": "2610.31409v1",
-      "title": "Modelling wide-swath altimeter observation-error correlations with a regularised diffusion operator",
-      "url": "http://arxiv.org/abs/2610.31409v1",
-      "first_author": "Olivier Goux",
+      "id": "2610.40414v1",
+      "title": "Bridging Neural Representations and Symbolic Semantics in Audio Classification",
+      "url": "http://arxiv.org/abs/2610.40414v1",
+      "first_author": "Avishek Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-22"
+      "published": "2026-10-29"
     },
     {
-      "id": "2610.31377v1",
-      "title": "Measurements of the branching fractions of $Λ_c^+\\toΛK^+ π^0$ and $Λ_c^+\\toΛK^+ η$ decays at Belle and Belle II",
-      "url": "http://arxiv.org/abs/2610.31377v1",
-      "first_author": "Belle",
+      "id": "2610.40216v1",
+      "title": "Detuning-assisted cavity enhancement in spectroscopy",
+      "url": "http://arxiv.org/abs/2610.40216v1",
+      "first_author": "Subhasish Guha",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-22"
+      "published": "2026-10-29"
     },
     {
-      "id": "2610.31313v1",
-      "title": "A New Twist on Astigmatic Transformation: Beyond Laguerre-Gaussian Beams",
-      "url": "http://arxiv.org/abs/2610.31313v1",
-      "first_author": "Gabriela Flores-Cova",
+      "id": "2610.40015v1",
+      "title": "Nine new eclipsing accreting ultracompact white dwarf binaries from the Zwicky Transient Facility",
+      "url": "http://arxiv.org/abs/2610.40015v1",
+      "first_author": "J. van Roestel",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-22"
+      "published": "2026-10-29"
     },
     {
-      "id": "2610.31171v1",
-      "title": "Optimal Hardy weights for the fractional discrete Dirichlet Laplacian on the half-line",
-      "url": "http://arxiv.org/abs/2610.31171v1",
-      "first_author": "František Štampach",
+      "id": "2610.39892v1",
+      "title": "Edge intelligence for distributed acoustic sensing with ultracompact neural networks",
+      "url": "http://arxiv.org/abs/2610.39892v1",
+      "first_author": "Yuan Gao",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-22"
+      "published": "2026-10-29"
+    },
+    {
+      "id": "10.1785/0220260056",
+      "title": "Estimation of First Year Sea Ice Thickness from Flexural-Gravity Wave Dispersion Observed by Seafloor Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0220260056",
+      "first_author": "Michael G. Baker",
+      "corr_author": "Jennifer M. Frederick",
+      "affiliation": "1Sandia National Laboratories, Albuquerque, New Mexico, U.S.A.",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260078",
+      "title": "Near-Surface Characterization Using Localized Seismic Signals Acquired by Fiber-Optic Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0220260078",
+      "first_author": "Junwei Ma",
+      "corr_author": "Lipeng He",
+      "affiliation": "1Department of Ocean Science and Engineering, Southern University of Science and Technology, Shenzhen, China",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
       "id": "10.1126/sciadv.aei9767",
@@ -80,17 +102,6 @@
       "published": "2026"
     },
     {
-      "id": "10.1093/gji/ggag448",
-      "title": "A 4-D spatio-temporal misfit function for waveform inversion of Distributed Acoustic Sensing data",
-      "url": "https://doi.org/10.1093/gji/ggag448",
-      "first_author": "Eyal Shimony",
-      "corr_author": "Ariel Lellouch",
-      "affiliation": "Faculty of Exact Sciences, Tel-Aviv University , Tel Aviv ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
       "id": "10.1785/0120260003",
       "title": "Components of Variability in Ground-Motion Model Derived from Distributed Acoustic Sensing",
       "url": "https://doi.org/10.1785/0120260003",
@@ -108,6 +119,17 @@
       "first_author": "Thomas Forbriger",
       "corr_author": "Philippe Jousset",
       "affiliation": "Geophysical Institute, Karlsruhe Institute of Technology (KIT) , 76187 Karlsruhe ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag448",
+      "title": "A four-dimensional spatiotemporal misfit function for waveform inversion of distributed acoustic sensing data",
+      "url": "https://doi.org/10.1093/gji/ggag448",
+      "first_author": "Eyal Shimony",
+      "corr_author": "Ariel Lellouch",
+      "affiliation": "Faculty of Exact Sciences, Tel-Aviv University , Tel Aviv, 6997801 ,",
       "abs_zh": "翻译失败",
       "source": "Geophysical Journal International",
       "published": "2026"
@@ -143,28 +165,6 @@
       "affiliation": "1Department of Earth and Planetary Sciences, Institute of Geophysics, ETH Zurich, Zurich, Switzerland",
       "abs_zh": "翻译失败",
       "source": "Seismological Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aef6473",
-      "title": "A highly sensitive and drift-free iontronic sensor enabled by a polarity-balanced polyelectrolyte for surgical force sensing",
-      "url": "https://doi.org/10.1126/sciadv.aef6473",
-      "first_author": "Xingyu Hou",
-      "corr_author": "Li Zhang",
-      "affiliation": "Department of Mechanical and Automation Engineering, The Chinese University of Hong Kong, Hong Kong SAR 999077, P. R. China.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2025jb033370",
-      "title": "Imaging Submarine Fault Zones Using Reflected S‐waves Extracted by Ambient Noise Interferometry From Distributed Acoustic Sensing",
-      "url": "https://doi.org/10.1029/2025jb033370",
-      "first_author": "Zhufeng Lu",
-      "corr_author": "Jizhong Yang",
-      "affiliation": "Laboratory of Ocean and Marginal Sea Geology State Key Laboratory of Tropical Oceanography South China Sea Institute of Oceanology Chinese Academy of Sciences  Guangzhou China",
-      "abs_zh": "翻译失败",
-      "source": "Journal of Geophysical Research: Solid Earth",
       "published": "2026"
     }
   ]
