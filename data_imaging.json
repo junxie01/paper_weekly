@@ -1,7 +1,18 @@
 {
-  "last_update": "2026-10-25 至 2026-11-01 12:49",
+  "last_update": "2026-11-01 至 2026-11-08 12:53",
   "topic_name": "地震成像",
   "papers": [
+    {
+      "id": "2611.03264v1",
+      "title": "DeepWaveRL: Self-Supervised Full Waveform Inversion via Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2611.03264v1",
+      "first_author": "Peng Jin",
+      "corr_author": "N/A",
+      "affiliation": "arXiv Preprint",
+      "abs_zh": "翻译失败",
+      "source": "arXiv",
+      "published": "2026-11-02"
+    },
     {
       "id": "2610.39254v1",
       "title": "Common Offset Gathers for Efficient Multistatic Beamforming in Frequency Domain",
@@ -47,17 +58,6 @@
       "published": "2026-10-21"
     },
     {
-      "id": "2610.26151v1",
-      "title": "Bayesian Geometric Inversion for Wave Equation: Well-Posedness and Multiscale Multimodal Posterior Approximation",
-      "url": "http://arxiv.org/abs/2610.26151v1",
-      "first_author": "Xiong-Bin Yan",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-19"
-    },
-    {
       "id": "10.1016/j.epsl.2026.120421",
       "title": "Interaction between seismic and aseismic slips along the Mendocino oceanic transform fault offshore northern California",
       "url": "https://doi.org/10.1016/j.epsl.2026.120421",
@@ -80,22 +80,22 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120306",
-      "title": "Seismic evidence for a slab window beneath central Sumatra",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
-      "first_author": "Youqiang Yu",
-      "corr_author": "Nevena Andrić-Tomašević",
+      "id": "10.1016/j.epsl.2026.120389",
+      "title": "Spatiotemporal evolution of shallow seismic velocities associated with the 2024 East Rift Zone eruption at Kīlauea Volcano",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120389",
+      "first_author": "A. Rohnacher",
+      "corr_author": "F. Lanza",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120389",
-      "title": "Spatiotemporal evolution of shallow seismic velocities associated with the 2024 East Rift Zone eruption at Kīlauea Volcano",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120389",
-      "first_author": "A. Rohnacher",
-      "corr_author": "F. Lanza",
+      "id": "10.1016/j.epsl.2026.120306",
+      "title": "Seismic evidence for a slab window beneath central Sumatra",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120306",
+      "first_author": "Youqiang Yu",
+      "corr_author": "Nevena Andrić-Tomašević",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -157,14 +157,14 @@
       "published": "2026"
     },
     {
-      "id": "10.1016/j.epsl.2026.120299",
-      "title": "Acoustic-gravity wave driven traveling ionospheric disturbances: Analytical modeling and application to 2025 Kamchatka earthquake GNSS data",
-      "url": "https://doi.org/10.1016/j.epsl.2026.120299",
-      "first_author": "Junzhe Zhang",
-      "corr_author": "Xuemin Zhang",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Earth and Planetary Science Letters",
+      "id": "10.1029/2026gl125997",
+      "title": "The Scale Length of Electron Cyclotron Harmonic Wave Power by MMS Satellites",
+      "url": "https://doi.org/10.1029/2026gl125997",
+      "first_author": "Xu Liu",
+      "corr_author": "Lunjin Chen",
+      "affiliation": "William B. Hanson Center for Space Sciences University of Texas at Dallas  Richardson TX USA",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]

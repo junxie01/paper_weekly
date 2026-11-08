@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-10-25 至 2026-11-01 12:49",
+  "last_update": "2026-11-01 至 2026-11-08 12:53",
   "topic_name": "地震研究",
   "papers": [
     {
@@ -69,6 +69,94 @@
       "published": "2026"
     },
     {
+      "id": "10.1126/sciadv.aeg4834",
+      "title": "Unveiling the underlying spin mechanism in quasi-2D perovskite spin-polarized lasing",
+      "url": "https://doi.org/10.1126/sciadv.aeg4834",
+      "first_author": "Qian Li",
+      "corr_author": "Juan Du",
+      "affiliation": "School of Physics and Optoelectronic Engineering, Hangzhou Institute for Advanced Study, University of Chinese Academy of Sciences, Hangzhou 310024, China.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl124730",
+      "title": "High‐Resolution Discharge Inversion in a Small Alpine Watershed: Combining Monitoring Images and Triaxial Seismic Data",
+      "url": "https://doi.org/10.1029/2026gl124730",
+      "first_author": "Shuang Liu",
+      "corr_author": "Hao Li",
+      "affiliation": "Key Laboratory of Mountain Hazards and Engineering Resilience Institute of Mountain Hazards and Environment Chinese Academy of Sciences  Chengdu China",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/sciadv.aef6060",
+      "title": "Combating drug-resistant\n                    <i>Aeromonas veronii</i>\n                    : Multiomics revealed the antibacterial mechanism of resveratrol",
+      "url": "https://doi.org/10.1126/sciadv.aef6060",
+      "first_author": "Ping Ouyang",
+      "corr_author": "Defang Chen",
+      "affiliation": "Department of Aquatic Medicine, Fisheries College, Sichuan Agricultural University, Chengdu 611130, Sichuan, China.",
+      "abs_zh": "翻译失败",
+      "source": "Science Advances",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260210",
+      "title": "Identify Potential Source Regions in the Nankai Trough Using Spatial Clustering Techniques",
+      "url": "https://doi.org/10.1785/0220260210",
+      "first_author": "Chengjun Shen",
+      "corr_author": "Xiong Xiong",
+      "affiliation": "1Hubei Subsurface Multi-Scale Imaging Key Laboratory, School of Geophysics and Geomatics, China University of Geosciences, Wuhan, China",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1126/science.ael8929",
+      "title": "Start cryosphere flood warnings at the source",
+      "url": "https://doi.org/10.1126/science.ael8929",
+      "first_author": "Chunlin Song",
+      "corr_author": "Chunlin Song",
+      "affiliation": "State Key Laboratory of Hydraulics and Mountain River Engineering, College of Water Resources and Hydropower, Sichuan University, Chengdu, China.",
+      "abs_zh": "无摘要详情",
+      "source": "Science",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-6283-2026",
+      "title": "SeidarT: an open-source full-waveform seismic and electromagnetic wave propagation modeling toolbox demonstrated in snow and ice",
+      "url": "https://doi.org/10.5194/tc-20-6283-2026",
+      "first_author": "Steven Bernsen",
+      "corr_author": "Seth Campbell",
+      "affiliation": "University of Maine (Orono, United States of America)",
+      "abs_zh": "翻译失败",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1093/gji/ggag471",
+      "title": "Reliability of Bootstrap-derived stress uncertainty bounds in focal mechanism inversion",
+      "url": "https://doi.org/10.1093/gji/ggag471",
+      "first_author": "Zhenyue Li",
+      "corr_author": "Xiangyun Guo",
+      "affiliation": "Institute of Disaster Prevention , Sanhe Hebei 065201 ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1785/0220260199",
+      "title": "Strategies for Multiscale Seismic Monitoring in Alaska",
+      "url": "https://doi.org/10.1785/0220260199",
+      "first_author": "Michael E. West",
+      "corr_author": "Sarah K. Noel",
+      "affiliation": "1Alaska Earthquake Center, University of Alaska Fairbanks, Fairbanks, Alaska, U.S.A.",
+      "abs_zh": "翻译失败",
+      "source": "Seismological Research Letters",
+      "published": "2026"
+    },
+    {
       "id": "10.1016/j.epsl.2026.120283",
       "title": "Nonlocal elastic unloading as a mechanism for breakdown work scaling in laboratory earthquakes",
       "url": "https://doi.org/10.1016/j.epsl.2026.120283",
@@ -77,94 +165,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026jb034301",
-      "title": "3‐D Plate Interaction Beneath the Active Taiwan Orogen Revealed by Source‐Side Seismic Tomography: Implications for Slab Breakoff and Orogenic Evolution",
-      "url": "https://doi.org/10.1029/2026jb034301",
-      "first_author": "Po‐Li Su",
-      "corr_author": "Justin Yen‐Ting Ko",
-      "affiliation": "Institute of Earth Sciences Academia Sinica  Taipei Taiwan",
-      "abs_zh": "翻译失败",
-      "source": "Journal of Geophysical Research: Solid Earth",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag469",
-      "title": "Explicit Coordinate Encoding Matters: A Coordinate-Driven Framework for First-Arrival Picking in Microseismic Monitoring",
-      "url": "https://doi.org/10.1093/gji/ggag469",
-      "first_author": "Jinglei Song",
-      "corr_author": "Yu Wang",
-      "affiliation": "China University of Geosciences (Wuhan) , Wuhan, Hubei ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeb9836",
-      "title": "<i>CASTOR1</i>\n                    functional inactivation drives\n                    <i>KRAS</i>\n                    -mutant NSCLC and therapy resistance by a noncanonical mechanism of tumor suppression",
-      "url": "https://doi.org/10.1126/sciadv.aeb9836",
-      "first_author": "Xian Wang",
-      "corr_author": "Shou-Jiang Gao",
-      "affiliation": "Cancer Virology Center, UPMC Hillman Cancer Center, Pittsburgh, PA 15213, USA.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag454",
-      "title": "Spherical-wave seismic inversion for petrophysical properties in fluid-saturated porous media",
-      "url": "https://doi.org/10.1093/gji/ggag454",
-      "first_author": "Guangsen Cheng",
-      "corr_author": "Dachao Qi",
-      "affiliation": "Qingdao Institute of Marine Geology, China Geological Survey, Ministry of Natural Resources , Qingdao ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag450",
-      "title": "OWL: Open Wave Library for seismic wave modeling and full-waveform inversion in acoustic and elastic media",
-      "url": "https://doi.org/10.1093/gji/ggag450",
-      "first_author": "Kai Gao",
-      "corr_author": "Ryan T Modrak",
-      "affiliation": "Earth and Environmental Sciences Division, Los Alamos National Laboratory , Los Alamos, NM 87545 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag447",
-      "title": "Tracing Starship re-entries with infrasound: moving-source signatures in IMS observations",
-      "url": "https://doi.org/10.1093/gji/ggag447",
-      "first_author": "S B Nikolova",
-      "corr_author": "S Spiliopoulos",
-      "affiliation": "Geoscience Australia , Canberra ACT 2601 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0120260152",
-      "title": "Local Distance Seismic Source Discrimination in the United Kingdom Using\n                    <i>P/S</i>\n                    Amplitude Ratios and Machine Learning",
-      "url": "https://doi.org/10.1785/0120260152",
-      "first_author": "Max Merrett",
-      "corr_author": "Richard Luckett",
-      "affiliation": "1AWE Blacknest, Reading, United Kingdom",
-      "abs_zh": "翻译失败",
-      "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag440",
-      "title": "3D crustal seismic structure of southern mainland Portugal from combined local earthquake and active source tomography",
-      "url": "https://doi.org/10.1093/gji/ggag440",
-      "first_author": "O de Cavacundo",
-      "corr_author": "N Rawlinson",
-      "affiliation": "Instituto Dom Luiz (IDL), Faculdade de Ciências, Universidade de Lisboa ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

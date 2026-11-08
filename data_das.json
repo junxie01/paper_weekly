@@ -1,61 +1,72 @@
 {
-  "last_update": "2026-10-25 至 2026-11-01 12:49",
+  "last_update": "2026-11-01 至 2026-11-08 12:53",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2610.40609v1",
-      "title": "From Dispersion to Metallicity: Probing the Milky Way Circumgalactic Medium with Fast Radio Bursts",
-      "url": "http://arxiv.org/abs/2610.40609v1",
-      "first_author": "Manami Roy",
+      "id": "2611.08188v1",
+      "title": "Improving the Clinical Generalizability of Machine Learning-Based Alzheimer's Disease Detection Across Domains and Modalities: A Comprehensive Review",
+      "url": "http://arxiv.org/abs/2611.08188v1",
+      "first_author": "Yingchao Huang",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-29"
+      "published": "2026-11-05"
     },
     {
-      "id": "2610.40414v1",
-      "title": "Bridging Neural Representations and Symbolic Semantics in Audio Classification",
-      "url": "http://arxiv.org/abs/2610.40414v1",
-      "first_author": "Avishek Das",
+      "id": "2611.08029v1",
+      "title": "On Sufficient Conditions for Rank Zero in Families of Elliptic Curves",
+      "url": "http://arxiv.org/abs/2611.08029v1",
+      "first_author": "Shamik Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-29"
+      "published": "2026-11-05"
     },
     {
-      "id": "2610.40216v1",
-      "title": "Detuning-assisted cavity enhancement in spectroscopy",
-      "url": "http://arxiv.org/abs/2610.40216v1",
-      "first_author": "Subhasish Guha",
+      "id": "2611.07846v1",
+      "title": "Anisotropic g-tensor and strong spin-orbit interaction of holes in hexagonal germanium nanowires",
+      "url": "http://arxiv.org/abs/2611.07846v1",
+      "first_author": "Anirban Das",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-29"
+      "published": "2026-11-05"
     },
     {
-      "id": "2610.40015v1",
-      "title": "Nine new eclipsing accreting ultracompact white dwarf binaries from the Zwicky Transient Facility",
-      "url": "http://arxiv.org/abs/2610.40015v1",
-      "first_author": "J. van Roestel",
+      "id": "2611.07835v1",
+      "title": "Atomic Transition Rates on a Quantum Annealer",
+      "url": "http://arxiv.org/abs/2611.07835v1",
+      "first_author": "Boni Paul",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-29"
+      "published": "2026-11-05"
     },
     {
-      "id": "2610.39892v1",
-      "title": "Edge intelligence for distributed acoustic sensing with ultracompact neural networks",
-      "url": "http://arxiv.org/abs/2610.39892v1",
-      "first_author": "Yuan Gao",
+      "id": "2611.07804v1",
+      "title": "Cepheid Metallicity in the Leavitt Law (C-MetaLL) survey: X First spectroscopic characterization of Galactic Type II Cepheids and calibration of the Period-Wesenheit-Metallicity relations",
+      "url": "http://arxiv.org/abs/2611.07804v1",
+      "first_author": "T. Sicignano",
       "corr_author": "N/A",
       "affiliation": "arXiv Preprint",
       "abs_zh": "翻译失败",
       "source": "arXiv",
-      "published": "2026-10-29"
+      "published": "2026-11-05"
+    },
+    {
+      "id": "10.1029/2026jb034065",
+      "title": "Marine Sediment Imaging With Distributed Acoustic Sensing Offshore Central Chile",
+      "url": "https://doi.org/10.1029/2026jb034065",
+      "first_author": "Clara Vernet",
+      "corr_author": "Marie Baillet",
+      "affiliation": "Université Côte d’Azur Observatoire de la Côte d’Azur CNRS IRD Géoazur  Valbonne France",
+      "abs_zh": "翻译失败",
+      "source": "Journal of Geophysical Research: Solid Earth",
+      "published": "2026"
     },
     {
       "id": "10.1785/0220260056",
@@ -154,17 +165,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1785/0220260220",
-      "title": "Calibrating Microwave-Frequency Fiber Interferometry Against Collocated DAS: Earthquakes, Ocean Waves, and Traffic",
-      "url": "https://doi.org/10.1785/0220260220",
-      "first_author": "Yuhan Wang",
-      "corr_author": "Andreas Fichtner",
-      "affiliation": "1Department of Earth and Planetary Sciences, Institute of Geophysics, ETH Zurich, Zurich, Switzerland",
-      "abs_zh": "翻译失败",
-      "source": "Seismological Research Letters",
       "published": "2026"
     }
   ]
