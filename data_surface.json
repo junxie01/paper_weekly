@@ -1,61 +1,17 @@
 {
-  "last_update": "2026-11-01 至 2026-11-08 12:53",
+  "last_update": "2026-11-15 至 2026-11-22 13:31",
   "topic_name": "面波研究",
   "papers": [
     {
-      "id": "2611.08166v1",
-      "title": "Analytical Modeling of the Admittance Tensor of Periodic Elliptical Meta-Atoms",
-      "url": "http://arxiv.org/abs/2611.08166v1",
-      "first_author": "Thomas Fromentèze",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-05"
-    },
-    {
-      "id": "2611.06408v1",
-      "title": "A volume-conserving ALE continuous Galerkin method with residual-based Dirichlet--Neumann fluxes for nonlinear free-surface waves",
-      "url": "http://arxiv.org/abs/2611.06408v1",
-      "first_author": "Fan Wang",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-04"
-    },
-    {
-      "id": "2611.02359v1",
-      "title": "A spatial autocorrelation method for estimating Rayleigh-wave attenuation coefficients from microtremor array measurements",
-      "url": "http://arxiv.org/abs/2611.02359v1",
-      "first_author": "Harusato Kimura",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-02"
-    },
-    {
-      "id": "2611.01924v1",
-      "title": "Experimental Realization of Higher-order Topological Water Wave Crystal",
-      "url": "http://arxiv.org/abs/2611.01924v1",
-      "first_author": "Jiayin Zhao",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-01"
-    },
-    {
-      "id": "2610.40933v1",
-      "title": "An analytical framework for wave-coherent airflow over fast surface waves",
-      "url": "http://arxiv.org/abs/2610.40933v1",
-      "first_author": "Aditya K. Aiyer",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-29"
+      "id": "10.1016/j.epsl.2026.120452",
+      "title": "Miocene surface uplift and moisture-source evolution resolved by stable-isotope proxies in the southern Central Andean foreland basin ( ∼ 32∘S)",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120452",
+      "first_author": "Chance B. Ronemus",
+      "corr_author": "Lucas Lothari",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
     },
     {
       "id": "10.1016/j.epsl.2026.120366",
@@ -102,69 +58,58 @@
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl125997",
-      "title": "The Scale Length of Electron Cyclotron Harmonic Wave Power by MMS Satellites",
-      "url": "https://doi.org/10.1029/2026gl125997",
-      "first_author": "Xu Liu",
-      "corr_author": "Lunjin Chen",
-      "affiliation": "William B. Hanson Center for Space Sciences University of Texas at Dallas  Richardson TX USA",
+      "id": "10.1093/gji/ggag507",
+      "title": "Wave propagation in poroelastic media saturated with two immiscible fluids: From fully coupled to simplified model",
+      "url": "https://doi.org/10.1093/gji/ggag507",
+      "first_author": "Tengfei Deng",
+      "corr_author": "Thomas Nagel",
+      "affiliation": "Institute of Geotechnics, Technische Universität Bergakademie Freiberg , Freiberg, 09599 ,",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Journal International",
+      "published": "2026"
+    },
+    {
+      "id": "10.1038/s41586-026-11295-9",
+      "title": "Evidence for p-wave magnetism in electronic band structure of metallic EuSi",
+      "url": "https://doi.org/10.1038/s41586-026-11295-9",
+      "first_author": "Erjian Cheng",
+      "corr_author": "Claudia Felser",
+      "affiliation": "未知机构",
+      "abs_zh": "翻译失败",
+      "source": "Nature",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-6685-2026",
+      "title": "Proglacial lakes substantially modulate the surface mass balance of deglacial ice sheets",
+      "url": "https://doi.org/10.5194/tc-20-6685-2026",
+      "first_author": "Lianne Sijbrandij",
+      "corr_author": "Gerrit Lohmann",
+      "affiliation": "未知机构",
+      "abs_zh": "翻译失败",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl123835",
+      "title": "Planetary Wave Signatures in F‐Region Electron Density From COSMIC‐2 Global Ionospheric Specification",
+      "url": "https://doi.org/10.1029/2026gl123835",
+      "first_author": "Sona Baiju",
+      "corr_author": "Deepali Aggarwal",
+      "affiliation": "Department of Physics and Astronomy Clemson University  Clemson SC USA",
       "abs_zh": "翻译失败",
       "source": "Geophysical Research Letters",
       "published": "2026"
     },
     {
-      "id": "10.1029/2026gl126171",
-      "title": "Record‐Shattering Winter “Heatwave” Over the Antarctic Peninsula in 2026, Associated Primarily With Tropical East Indian Ocean Surface Temperature Anomalies",
-      "url": "https://doi.org/10.1029/2026gl126171",
-      "first_author": "Zhaosheng Zhai",
-      "corr_author": "Yulun Zhang",
-      "affiliation": "College of Geography and Environment Shandong Normal University  Jinan China",
+      "id": "10.1093/gji/ggag495",
+      "title": "A Forward–Inverse Dual-Constrained Transformer Framework for Shear-Wave Velocity Inversion from Rayleigh-Wave Dispersion",
+      "url": "https://doi.org/10.1093/gji/ggag495",
+      "first_author": "Jianping Li",
+      "corr_author": "Shiguo Wu",
+      "affiliation": "State Key Laboratory of Disaster Prevention and Ecology Protection in Open-pit Coal Mines, Shandong University of Science and Technology , Qingdao 266590 ,",
       "abs_zh": "翻译失败",
-      "source": "Geophysical Research Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeg6518",
-      "title": "Thermalization of quantum light induced by classical nonlinear wave dynamics",
-      "url": "https://doi.org/10.1126/sciadv.aeg6518",
-      "first_author": "Fouad Chahrour",
-      "corr_author": "Armando Perez-Leija",
-      "affiliation": "Max-Born-Institut, Max-Born-Strasse 2A, 12489 Berlin, Germany.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aeg3954",
-      "title": "Prebiotic magnetite enables chirality-magnetic surface feedback",
-      "url": "https://doi.org/10.1126/sciadv.aeg3954",
-      "first_author": "José A. P. M. Devienne",
-      "corr_author": "S. Furkan Ozturk",
-      "affiliation": "Department of Earth Sciences, University of Cambridge, Cambridge CB2 3EQ, UK.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aei8633",
-      "title": "Dual-acting compounds that deliver an acidifying domain via zanamivir to the virus surface are potent influenza inhibitors",
-      "url": "https://doi.org/10.1126/sciadv.aei8633",
-      "first_author": "Charley Mackenzie-Kludas",
-      "corr_author": "Lorena E. Brown",
-      "affiliation": "The Department of Microbiology and Immunology, The University of Melbourne at the Peter Doherty Institute for Infection and Immunity, Melbourne, Australia.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl125735",
-      "title": "Enhanced Surface Coupling but Suppressed Convective Triggering During Humid–Hot Extremes in the Yangtze River Basin, a Major Humid‐Heat Hotspot in China",
-      "url": "https://doi.org/10.1029/2026gl125735",
-      "first_author": "Jiangfeng Wei",
-      "corr_author": "Guojie Wang",
-      "affiliation": "State Key Laboratory of Climate System Prediction and Risk Management/Key Laboratory of Meteorological Disaster, Ministry of Education/Collaborative Innovation Center on Forecast and Evaluation of Meteorological Disasters Nanjing University of Information Science and Technology  Nanjing China",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Research Letters",
+      "source": "Geophysical Journal International",
       "published": "2026"
     }
   ]

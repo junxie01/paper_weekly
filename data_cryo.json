@@ -1,28 +1,61 @@
 {
-  "last_update": "2026-11-01 至 2026-11-08 12:53",
+  "last_update": "2026-11-15 至 2026-11-22 13:31",
   "topic_name": "冰川地震学",
   "papers": [
     {
-      "id": "2606.10992v1",
-      "title": "Surface Crevasse Evolution Observed Using Matched Field Processing and Source Relocation at Hansbreen, Svalbard",
-      "url": "http://arxiv.org/abs/2606.10992v1",
-      "first_author": "Wojciech Gajek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1029/2026gl125585",
+      "title": "A Sustained High Growth Regime After Collapse of the Arctic Sea Ice Volume Feedback",
+      "url": "https://doi.org/10.1029/2026gl125585",
+      "first_author": "B. Mellor",
+      "corr_author": "C. Brierley",
+      "affiliation": "Department of Earth Sciences University College London  London UK",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-06-09"
+      "source": "Geophysical Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2604.14226v1",
-      "title": "Potentials and Challenges of Cryoseismology with Fiber Optic Sensing in the High Arctic: A pilot experiment in Hornsund, Svalbard",
-      "url": "http://arxiv.org/abs/2604.14226v1",
-      "first_author": "Wojciech Gajek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1029/2026gl123086",
+      "title": "A Theory of Meltwater‐ Versus Polynya‐Dominated Ice Shelf Cavities",
+      "url": "https://doi.org/10.1029/2026gl123086",
+      "first_author": "G. Finucane",
+      "corr_author": "A. L. Stewart",
+      "affiliation": "Department of Atmospheric and Oceanic Sciences University of California  Los Angeles CA USA",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-04-14"
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-6535-2026",
+      "title": "Intra-annual grounding-line migration and retreat: insights from high-resolution satellite and in situ observations over Milne Glacier in the Canadian High Arctic",
+      "url": "https://doi.org/10.5194/tc-20-6535-2026",
+      "first_author": "Yulia K. Antropova",
+      "corr_author": "Jérémie Bonneau",
+      "affiliation": "Carleton University (Ottawa, Canada)",
+      "abs_zh": "翻译失败",
+      "source": "The Cryosphere",
+      "published": "2026"
+    },
+    {
+      "id": "10.1029/2026gl126004",
+      "title": "Sustained Ice Loss and Ice‐Shelf Flow Reorganization in the Carney‐Duncan Sector, Marie Byrd Land, West Antarctica (2010–2026)",
+      "url": "https://doi.org/10.1029/2026gl126004",
+      "first_author": "Byeong‐Hoon Kim",
+      "corr_author": "Hyeonsoo Cha",
+      "affiliation": "Department of Geological and Environmental Sciences Chonnam National University  Gwangju Republic of Korea",
+      "abs_zh": "翻译失败",
+      "source": "Geophysical Research Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.5194/tc-20-6453-2026",
+      "title": "The implementation and effectiveness of Calving Algorithms in numerical ice models (CalvingMIP)",
+      "url": "https://doi.org/10.5194/tc-20-6453-2026",
+      "first_author": "James R. Jordan",
+      "corr_author": "Thomas Zwinger",
+      "affiliation": "Swansea University (Swansea, United Kingdom)",
+      "abs_zh": "翻译失败",
+      "source": "The Cryosphere",
+      "published": "2026"
     },
     {
       "id": "10.1126/science.aed4270",
@@ -78,94 +111,6 @@
       "abs_zh": "无摘要详情",
       "source": "Nature Geoscience",
       "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.ady6777",
-      "title": "Ocean carbon sequestration during glacial climates due to combined Antarctic sea ice expansion and ocean circulation change",
-      "url": "https://doi.org/10.1126/sciadv.ady6777",
-      "first_author": "Sandy Grégorio",
-      "corr_author": "Raffaele Ferrari",
-      "affiliation": "Institut des Sciences de la Mer, Université du Québec à Rimouski, Rimouski, QC, Canada.",
-      "abs_zh": "翻译失败",
-      "source": "Science Advances",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-6071-2026",
-      "title": "Progressive changes in geometry and dynamics of the Northern Pine Island Ice Shelf, West Antarctica",
-      "url": "https://doi.org/10.5194/tc-20-6071-2026",
-      "first_author": "Yite Chien",
-      "corr_author": "Baojun Zhang",
-      "affiliation": "未知机构",
-      "abs_zh": "翻译失败",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "10.1038/s41561-026-02126-7",
-      "title": "The Baffin Bay Ice Shelf stabilized three adjacent ice sheets during the last glacial period",
-      "url": "https://doi.org/10.1038/s41561-026-02126-7",
-      "first_author": "Shannon A. Klotsko",
-      "corr_author": "Lauren Lewright",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Nature Geoscience",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/science.aee0658",
-      "title": "Empirical constraints on ice cliff calving",
-      "url": "https://doi.org/10.1126/science.aee0658",
-      "first_author": "Caroline Needell",
-      "corr_author": "Jeremy N. Bassis",
-      "affiliation": "MIT-WHOI Joint Program in Oceanography/Applied Ocean Science and Engineering, Cambridge, MA, USA.",
-      "abs_zh": "翻译失败",
-      "source": "Science",
-      "published": "2026"
-    },
-    {
-      "id": "10.5194/tc-20-5883-2026",
-      "title": "Glacier response to the transition from lake- to land-terminating following a glacial lake outburst flood at Jinwu Glacier, southeastern Tibet",
-      "url": "https://doi.org/10.5194/tc-20-5883-2026",
-      "first_author": "Yunyi Luo",
-      "corr_author": "Xuyang Lu",
-      "affiliation": "未知机构",
-      "abs_zh": "翻译失败",
-      "source": "The Cryosphere",
-      "published": "2026"
-    },
-    {
-      "id": "2503.12481v1",
-      "title": "Modeling ice cliff stability using a new Mohr-Coulomb-based phase field fracture model",
-      "url": "http://arxiv.org/abs/2503.12481v1",
-      "first_author": "T. Clayton",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2025-03-16"
-    },
-    {
-      "id": "2306.08405v1",
-      "title": "A viscoelastic phase-field model for iceberg calving",
-      "url": "http://arxiv.org/abs/2306.08405v1",
-      "first_author": "Jakub Stocek",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2023-06-14"
-    },
-    {
-      "id": "2304.08120v2",
-      "title": "DAS-N2N: Machine learning Distributed Acoustic Sensing (DAS) signal denoising without clean data",
-      "url": "http://arxiv.org/abs/2304.08120v2",
-      "first_author": "Sacha Lapins",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2023-04-17"
     }
   ]
 }

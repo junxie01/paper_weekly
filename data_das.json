@@ -1,61 +1,50 @@
 {
-  "last_update": "2026-11-01 至 2026-11-08 12:53",
+  "last_update": "2026-11-15 至 2026-11-22 13:31",
   "topic_name": "分布式光纤传感",
   "papers": [
     {
-      "id": "2611.08188v1",
-      "title": "Improving the Clinical Generalizability of Machine Learning-Based Alzheimer's Disease Detection Across Domains and Modalities: A Comprehensive Review",
-      "url": "http://arxiv.org/abs/2611.08188v1",
-      "first_author": "Yingchao Huang",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1785/0220260200",
+      "title": "Large-Scale Seismic Sensing on Long, Onshore Traffic-Carrying Telecom Optical Fibers: From Earthquakes and Microseisms to Traffic and Rainfall",
+      "url": "https://doi.org/10.1785/0220260200",
+      "first_author": "Nicolas Luca Celli",
+      "corr_author": "Liam Kennedy",
+      "affiliation": "1Geophysics Section, Dublin Institute for Advanced Studies, Dublin, Ireland",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-05"
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2611.08029v1",
-      "title": "On Sufficient Conditions for Rank Zero in Families of Elliptic Curves",
-      "url": "http://arxiv.org/abs/2611.08029v1",
-      "first_author": "Shamik Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1785/0220260028",
+      "title": "High-Resolution Measurement of Sea Ice Mechanical Characteristics Using Distributed Acoustic Sensing",
+      "url": "https://doi.org/10.1785/0220260028",
+      "first_author": "Sébastien Kuchly",
+      "corr_author": "Antonin Eddi",
+      "affiliation": "1PMMH Laboratory, ESPCI, CNRS, PSL University, Sorbonne Université, Université Paris Cité, Paris, France",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-05"
+      "source": "Seismological Research Letters",
+      "published": "2026"
     },
     {
-      "id": "2611.07846v1",
-      "title": "Anisotropic g-tensor and strong spin-orbit interaction of holes in hexagonal germanium nanowires",
-      "url": "http://arxiv.org/abs/2611.07846v1",
-      "first_author": "Anirban Das",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1126/sciadv.aeh0459",
+      "title": "All-optical sensing of dermal activity enables an AI-powered wearable ring for continuous stress monitoring",
+      "url": "https://doi.org/10.1126/sciadv.aeh0459",
+      "first_author": "Md Farhad Hassan",
+      "corr_author": "Yasser Khan",
+      "affiliation": "Ming Hsieh Department of Electrical and Computer Engineering, University of Southern California, Los Angeles, CA 90089, USA.",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-05"
+      "source": "Science Advances",
+      "published": "2026"
     },
     {
-      "id": "2611.07835v1",
-      "title": "Atomic Transition Rates on a Quantum Annealer",
-      "url": "http://arxiv.org/abs/2611.07835v1",
-      "first_author": "Boni Paul",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
+      "id": "10.1029/2026gl126838",
+      "title": "Fault‐Related Structure Revealed From Surface‐Wave Attenuation Using Distributed Acoustic Sensing on Dark Fiber",
+      "url": "https://doi.org/10.1029/2026gl126838",
+      "first_author": "Zhenghong Song",
+      "corr_author": "Sidao Ni",
+      "affiliation": "State Key Laboratory of Precision Geodesy Innovation Academy for Precision Measurement Science and Technology Chinese Academy of Sciences  Wuhan China",
       "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-05"
-    },
-    {
-      "id": "2611.07804v1",
-      "title": "Cepheid Metallicity in the Leavitt Law (C-MetaLL) survey: X First spectroscopic characterization of Galactic Type II Cepheids and calibration of the Period-Wesenheit-Metallicity relations",
-      "url": "http://arxiv.org/abs/2611.07804v1",
-      "first_author": "T. Sicignano",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-05"
+      "source": "Geophysical Research Letters",
+      "published": "2026"
     },
     {
       "id": "10.1029/2026jb034065",
@@ -121,50 +110,6 @@
       "affiliation": "1GFZ Helmholtz Centre for Geosciences, Potsdam, Germany",
       "abs_zh": "翻译失败",
       "source": "Bulletin of the Seismological Society of America",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag423",
-      "title": "Measuring rock strain with distributed acoustic sensing (DAS) and cemented patch cables",
-      "url": "https://doi.org/10.1093/gji/ggag423",
-      "first_author": "Thomas Forbriger",
-      "corr_author": "Philippe Jousset",
-      "affiliation": "Geophysical Institute, Karlsruhe Institute of Technology (KIT) , 76187 Karlsruhe ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag448",
-      "title": "A four-dimensional spatiotemporal misfit function for waveform inversion of distributed acoustic sensing data",
-      "url": "https://doi.org/10.1093/gji/ggag448",
-      "first_author": "Eyal Shimony",
-      "corr_author": "Ariel Lellouch",
-      "affiliation": "Faculty of Exact Sciences, Tel-Aviv University , Tel Aviv, 6997801 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1093/gji/ggag391",
-      "title": "Tsunami-induced crustal strain: analytical solutions for tsunami observation using fibre optic sensing",
-      "url": "https://doi.org/10.1093/gji/ggag391",
-      "first_author": "Ayumu Mizutani",
-      "corr_author": "Tatsuhiko Saito",
-      "affiliation": "National Research Institute for Earth Science and Disaster Resilience , Tsukuba 305-0006 ,",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Journal International",
-      "published": "2026"
-    },
-    {
-      "id": "10.1126/sciadv.aem0112",
-      "title": "Erratum for the Research Article, “Wireless, skin-interfaced multimodal sensing system for continuous psychophysiological monitoring—A wearable polygraph device” by S.H. Kim\n                    <i>et al</i>\n                    .",
-      "url": "https://doi.org/10.1126/sciadv.aem0112",
-      "first_author": "N/A",
-      "corr_author": "N/A",
-      "affiliation": "未知机构",
-      "abs_zh": "无摘要详情",
-      "source": "Science Advances",
       "published": "2026"
     }
   ]

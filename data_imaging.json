@@ -1,62 +1,7 @@
 {
-  "last_update": "2026-11-01 至 2026-11-08 12:53",
+  "last_update": "2026-11-15 至 2026-11-22 13:31",
   "topic_name": "地震成像",
   "papers": [
-    {
-      "id": "2611.03264v1",
-      "title": "DeepWaveRL: Self-Supervised Full Waveform Inversion via Reinforcement Learning",
-      "url": "http://arxiv.org/abs/2611.03264v1",
-      "first_author": "Peng Jin",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-11-02"
-    },
-    {
-      "id": "2610.39254v1",
-      "title": "Common Offset Gathers for Efficient Multistatic Beamforming in Frequency Domain",
-      "url": "http://arxiv.org/abs/2610.39254v1",
-      "first_author": "Marko Jakovljevic",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-29"
-    },
-    {
-      "id": "2610.32185v1",
-      "title": "An exploration of plug-and-play flow matching for full-waveform inversion on breast imaging",
-      "url": "http://arxiv.org/abs/2610.32185v1",
-      "first_author": "Cristina Garcia-Cardona",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-23"
-    },
-    {
-      "id": "2610.31071v1",
-      "title": "Conditional Mean Flows for Frequency-Domain Scattered Wavefield Generation",
-      "url": "http://arxiv.org/abs/2610.31071v1",
-      "first_author": "Lipeng Lai",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-22"
-    },
-    {
-      "id": "2610.30401v1",
-      "title": "Semblance Distance Analysis for Channel Quality Assessment in Distributed Acoustic Sensing",
-      "url": "http://arxiv.org/abs/2610.30401v1",
-      "first_author": "Reinhardt Rading",
-      "corr_author": "N/A",
-      "affiliation": "arXiv Preprint",
-      "abs_zh": "翻译失败",
-      "source": "arXiv",
-      "published": "2026-10-21"
-    },
     {
       "id": "10.1016/j.epsl.2026.120421",
       "title": "Interaction between seismic and aseismic slips along the Mendocino oceanic transform fault offshore northern California",
@@ -74,6 +19,17 @@
       "url": "https://doi.org/10.1016/j.epsl.2026.120417",
       "first_author": "Ji Zhang",
       "corr_author": "Yoshihisa Iio",
+      "affiliation": "未知机构",
+      "abs_zh": "无摘要详情",
+      "source": "Earth and Planetary Science Letters",
+      "published": "2026"
+    },
+    {
+      "id": "10.1016/j.epsl.2026.120458",
+      "title": "Co-seismic selective rock pulverization in the footwall of a Miocene low-angle normal fault",
+      "url": "https://doi.org/10.1016/j.epsl.2026.120458",
+      "first_author": "Simone Masoch",
+      "corr_author": "Christie Rowe",
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
@@ -154,17 +110,6 @@
       "affiliation": "未知机构",
       "abs_zh": "无摘要详情",
       "source": "Earth and Planetary Science Letters",
-      "published": "2026"
-    },
-    {
-      "id": "10.1029/2026gl125997",
-      "title": "The Scale Length of Electron Cyclotron Harmonic Wave Power by MMS Satellites",
-      "url": "https://doi.org/10.1029/2026gl125997",
-      "first_author": "Xu Liu",
-      "corr_author": "Lunjin Chen",
-      "affiliation": "William B. Hanson Center for Space Sciences University of Texas at Dallas  Richardson TX USA",
-      "abs_zh": "翻译失败",
-      "source": "Geophysical Research Letters",
       "published": "2026"
     }
   ]
